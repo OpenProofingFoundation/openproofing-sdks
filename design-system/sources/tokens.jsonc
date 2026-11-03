@@ -1,0 +1,258 @@
+// Native platform design primitives.
+{
+  "schemaVersion": 1,
+  "version": "0.2.0",
+  "colors": {
+    "background": "#F5F7FA",
+    "surface": "#FFFFFF",
+    "primary": "#174A91",
+    "text": "#142033",
+    "secondary": "#465568",
+    "border": "#63758A",
+    "onPrimary": "#FFFFFF",
+    "error": "#A91C28"
+  },
+  "darkColors": {
+    "background": "#101722",
+    "surface": "#182333",
+    "primary": "#AFCFFF",
+    "text": "#F3F6FC",
+    "secondary": "#BECCDD",
+    "border": "#A1B1C7",
+    "onPrimary": "#10233E",
+    "error": "#FFB5BD"
+  },
+  "contrastPairs": [
+    [
+      "text",
+      "surface"
+    ],
+    [
+      "secondary",
+      "surface"
+    ],
+    [
+      "onPrimary",
+      "primary"
+    ],
+    [
+      "error",
+      "surface"
+    ],
+    [
+      "text",
+      "background"
+    ],
+    [
+      "border",
+      "surface"
+    ]
+  ],
+  "spacing": {
+    "page": 24,
+    "gap": 16,
+    "compact": 8
+  },
+  "dimensions": {
+    "minimumTargetIOS": 44,
+    "minimumTargetAndroid": 48,
+    "contentMax": 640,
+    "selfieGuideWidthPercent": 68,
+    "selfieGuideHeightPercent": 130,
+    "passportMediaHeight": 240,
+    "documentPreviewWidth": 340,
+    "documentPreviewHeight": 235,
+    "documentLevelDiameter": 76,
+    "documentLevelTravel": 32,
+    "documentLevelInnerDiameter": 24,
+    "documentLevelBubbleDiameter": 16,
+    "documentLevelCrosshairLength": 12,
+    "documentStatusMinimumHeight": 48
+  },
+  "shape": {
+    "cardRadius": 16,
+    "buttonRadius": 12
+  },
+  "borders": {
+    "width": 1
+  },
+  "elevation": {
+    "card": 0
+  },
+  "motion": {
+    "durationMilliseconds": 180,
+    "reducedMotionDurationMilliseconds": 0
+  },
+  "typography": {
+    "title": {
+      "ios": "UICTFontTextStyleTitle1",
+      "android": "headlineMedium",
+      "scales": true,
+      "sizeSP": 28
+    },
+    "body": {
+      "ios": "UICTFontTextStyleBody",
+      "android": "bodyLarge",
+      "scales": true,
+      "sizeSP": 16
+    },
+    "action": {
+      "ios": "UICTFontTextStyleHeadline",
+      "android": "labelLarge",
+      "scales": true,
+      "sizeSP": 16
+    }
+  },
+  "icons": {
+    "back": {
+      "ios": "chevron.backward",
+      "android": "arrow_back",
+      "mirrors": true
+    }
+  },
+  "components": {
+    "button": {
+      "role": "button",
+      "slots": [
+        "label"
+      ],
+      "variants": [
+        "primary",
+        "secondary"
+      ],
+      "states": [
+        "enabled",
+        "disabled",
+        "focused"
+      ],
+      "foreground": "onPrimary",
+      "background": "primary"
+    },
+    "card": {
+      "role": "group",
+      "slots": [
+        "title",
+        "body"
+      ],
+      "variants": [
+        "standard"
+      ],
+      "states": [
+        "default"
+      ],
+      "foreground": "text",
+      "background": "surface"
+    }
+  },
+  "platforms": {
+    "ios": {
+      "textScaling": "dynamicType",
+      "direction": "semantic",
+      "appearance": "system"
+    },
+    "android": {
+      "textScaling": "fontScale",
+      "direction": "semantic",
+      "appearance": "system"
+    }
+  },
+  "platformPrimitives": {
+    "ios": {
+      "colors": {
+        "background": "systemBackground",
+        "groupedBackground": "systemGroupedBackground",
+        "surface": "secondarySystemGroupedBackground",
+        "text": "label",
+        "secondary": "secondaryLabel",
+        "separator": "separator",
+        "accent": "systemBlue",
+        "cameraBackground": "black",
+        "levelGood": "systemGreen",
+        "levelWarning": "systemOrange",
+        "levelTilted": "systemRed"
+      },
+      "typography": {
+        "title": "title1",
+        "body": "body",
+        "caption": "footnote",
+        "action": "headline"
+      },
+      "navigation": "UITabBarController.independentNavigationStacks",
+      "material": {
+        "introducedIOS": 26,
+        "scope": "controlsAndNavigation",
+        "fallback": "nativeSystemAppearance",
+        "reduceTransparency": "systemManaged"
+      },
+      "buttons": {
+        "primary": {
+          "modern": "filled",
+          "fallback": "filled",
+          "foreground": "background",
+          "background": "text"
+        },
+        "secondary": {
+          "modern": "glass",
+          "fallback": "tinted"
+        },
+        "tertiary": {
+          "modern": "plain",
+          "fallback": "plain"
+        }
+      },
+      "symbols": {
+        "biometric": "person.crop.rectangle",
+        "document": "doc.text.viewfinder",
+        "passport": "book.closed",
+        "cancel": "xmark",
+        "developer": "ellipsis"
+      }
+    },
+    "android": {
+      "theme": {
+        "name": "Theme.Kenshiki.Reference",
+        "parent": "android:style/Theme.Material.Light.NoActionBar",
+        "implementation": "androidx.compose.material3.MaterialTheme",
+        "dynamicColors": "api31WhenAvailable",
+        "fallback": "material3LightDarkColorSchemes",
+        "appearance": "system",
+        "nightParent": "android:style/Theme.Material.NoActionBar"
+      },
+      "colors": {
+        "colorSurface": "surface",
+        "colorOnSurface": "onSurface",
+        "colorOnSurfaceVariant": "onSurfaceVariant",
+        "colorPrimary": "primary",
+        "colorOutline": "outline"
+      },
+      "typography": {
+        "titleTextStyle": "headlineMedium",
+        "bodyTextStyle": "bodyLarge",
+        "labelTextStyle": "labelLarge"
+      },
+      "buttons": {
+        "primary": "Button",
+        "secondary": "OutlinedButton",
+        "tertiary": "TextButton"
+      },
+      "navigation": "NavigationBar.independentDestinationState",
+      "insets": "edgeToEdgeSystemBarsAndIme",
+      "shape": "materialComponentDefault",
+      "motion": "materialComponentAndSystemPreferences",
+      "symbols": {
+        "biometric": {
+          "import": "androidx.compose.material.icons.filled.Person",
+          "expression": "androidx.compose.material.icons.Icons.Filled.Person"
+        },
+        "document": {
+          "import": "androidx.compose.material.icons.automirrored.filled.List",
+          "expression": "androidx.compose.material.icons.Icons.AutoMirrored.Filled.List"
+        },
+        "passport": {
+          "import": "androidx.compose.material.icons.filled.AccountBox",
+          "expression": "androidx.compose.material.icons.Icons.Filled.AccountBox"
+        }
+      }
+    }
+  }
+}

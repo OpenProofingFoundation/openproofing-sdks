@@ -1,0 +1,15 @@
+{
+  "capability": "document",
+  "swiftModule": "DocumentSDK",
+  "androidModule": "document-sdk",
+  "androidPackage": "com.kenshikilabs.document",
+  "outcomeType": "DocumentCheckOutcome",
+  "outcomes": [
+    "pass",
+    "fail",
+    "inconclusive",
+    "unavailable",
+    "unsupported",
+    "not_performed"
+  ]
+}

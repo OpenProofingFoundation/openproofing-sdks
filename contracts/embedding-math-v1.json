@@ -1,0 +1,26 @@
+{
+  "contract": "embedding-math",
+  "version": 1,
+  "domains": [
+    "face_identity",
+    "document_revision"
+  ],
+  "failures": [
+    "invalid_digest",
+    "invalid_space",
+    "dimension_mismatch",
+    "nonfinite_feature",
+    "invalid_norm",
+    "incompatible_space"
+  ],
+  "featurePrecision": "float32",
+  "normAndCoordinatePrecision": "float64",
+  "cosineRange": [
+    -1,
+    1
+  ],
+  "angularDistanceUnit": "radian",
+  "invalidVectorBehavior": "typed_error",
+  "modelNormFloor": "explicit_finite_positive_inclusive",
+  "classificationThresholds": "none"
+}

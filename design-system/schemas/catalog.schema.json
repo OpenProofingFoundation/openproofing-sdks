@@ -1,0 +1,2701 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "schemaVersion": {
+      "const": 1
+    },
+    "baseLocale": {
+      "const": "en"
+    },
+    "supportedLocales": {
+      "const": [
+        "en"
+      ]
+    },
+    "fallbacks": {
+      "const": {
+        "en": [
+          "en"
+        ]
+      }
+    },
+    "messages": {
+      "type": "object",
+      "properties": {
+        "app.title": {
+          "$ref": "#/$defs/message"
+        },
+        "navigation.back": {
+          "$ref": "#/$defs/message"
+        },
+        "demo.disclosure": {
+          "$ref": "#/$defs/message"
+        },
+        "capability.biometric.title": {
+          "$ref": "#/$defs/message"
+        },
+        "capability.document.title": {
+          "$ref": "#/$defs/message"
+        },
+        "capability.passport.title": {
+          "$ref": "#/$defs/message"
+        },
+        "workflow.phase.idle": {
+          "$ref": "#/$defs/message"
+        },
+        "workflow.phase.ready": {
+          "$ref": "#/$defs/message"
+        },
+        "workflow.phase.capturing": {
+          "$ref": "#/$defs/message"
+        },
+        "workflow.phase.processing": {
+          "$ref": "#/$defs/message"
+        },
+        "workflow.phase.recoverable": {
+          "$ref": "#/$defs/message"
+        },
+        "workflow.phase.completed": {
+          "$ref": "#/$defs/message"
+        },
+        "workflow.phase.cancelled": {
+          "$ref": "#/$defs/message"
+        },
+        "workflow.step.biometric.referencePortrait": {
+          "$ref": "#/$defs/message"
+        },
+        "workflow.step.biometric.selfie": {
+          "$ref": "#/$defs/message"
+        },
+        "workflow.step.biometric.compare": {
+          "$ref": "#/$defs/message"
+        },
+        "workflow.step.document.front": {
+          "$ref": "#/$defs/message"
+        },
+        "workflow.step.document.back": {
+          "$ref": "#/$defs/message"
+        },
+        "workflow.step.document.review": {
+          "$ref": "#/$defs/message"
+        },
+        "workflow.step.passport.mrz": {
+          "$ref": "#/$defs/message"
+        },
+        "workflow.step.passport.nfc": {
+          "$ref": "#/$defs/message"
+        },
+        "workflow.step.passport.review": {
+          "$ref": "#/$defs/message"
+        },
+        "workflow.action.start": {
+          "$ref": "#/$defs/message"
+        },
+        "workflow.action.advance": {
+          "$ref": "#/$defs/message"
+        },
+        "workflow.action.retry": {
+          "$ref": "#/$defs/message"
+        },
+        "workflow.action.cancel": {
+          "$ref": "#/$defs/message"
+        },
+        "workflow.action.restore": {
+          "$ref": "#/$defs/message"
+        },
+        "workflow.action.simulateFailure": {
+          "$ref": "#/$defs/message"
+        },
+        "workflow.reason.permissionDenied": {
+          "$ref": "#/$defs/message"
+        },
+        "workflow.reason.interrupted": {
+          "$ref": "#/$defs/message"
+        },
+        "workflow.reason.serviceUnavailable": {
+          "$ref": "#/$defs/message"
+        },
+        "workflow.reason.invalidInput": {
+          "$ref": "#/$defs/message"
+        },
+        "workflow.stub.notice": {
+          "$ref": "#/$defs/message"
+        },
+        "workflow.stub.outcome": {
+          "$ref": "#/$defs/message"
+        },
+        "accessibility.workflowStatus": {
+          "$ref": "#/$defs/message"
+        },
+        "accessibility.capabilityPicker": {
+          "$ref": "#/$defs/message"
+        },
+        "accessibility.progress": {
+          "$ref": "#/$defs/message"
+        },
+        "accessibility.actionHint": {
+          "$ref": "#/$defs/message"
+        },
+        "accessibility.backHint": {
+          "$ref": "#/$defs/message"
+        },
+        "permission.camera": {
+          "$ref": "#/$defs/message"
+        },
+        "permission.nfc": {
+          "$ref": "#/$defs/message"
+        },
+        "navigation.title": {
+          "$ref": "#/$defs/message"
+        },
+        "capability.biometric.summary": {
+          "$ref": "#/$defs/message"
+        },
+        "capability.document.summary": {
+          "$ref": "#/$defs/message"
+        },
+        "capability.passport.summary": {
+          "$ref": "#/$defs/message"
+        },
+        "capability.biometric.intro": {
+          "$ref": "#/$defs/message"
+        },
+        "capability.document.intro": {
+          "$ref": "#/$defs/message"
+        },
+        "capability.passport.intro": {
+          "$ref": "#/$defs/message"
+        },
+        "navigation.tab.biometric": {
+          "$ref": "#/$defs/message"
+        },
+        "navigation.tab.document": {
+          "$ref": "#/$defs/message"
+        },
+        "navigation.tab.passport": {
+          "$ref": "#/$defs/message"
+        },
+        "capability.biometric.instructionTitle": {
+          "$ref": "#/$defs/message"
+        },
+        "capability.document.instructionTitle": {
+          "$ref": "#/$defs/message"
+        },
+        "capability.passport.instructionTitle": {
+          "$ref": "#/$defs/message"
+        },
+        "workflow.overviewHeading": {
+          "$ref": "#/$defs/message"
+        },
+        "developer.menu": {
+          "$ref": "#/$defs/message"
+        },
+        "progress.step1": {
+          "$ref": "#/$defs/message"
+        },
+        "progress.step2": {
+          "$ref": "#/$defs/message"
+        },
+        "progress.step3": {
+          "$ref": "#/$defs/message"
+        },
+        "capture.live.start": {
+          "$ref": "#/$defs/message"
+        },
+        "capture.live.title": {
+          "$ref": "#/$defs/message"
+        },
+        "capture.consent.title": {
+          "$ref": "#/$defs/message"
+        },
+        "capture.consent.body": {
+          "$ref": "#/$defs/message"
+        },
+        "capture.scope": {
+          "$ref": "#/$defs/message"
+        },
+        "capture.allow": {
+          "$ref": "#/$defs/message"
+        },
+        "capture.shutter": {
+          "$ref": "#/$defs/message"
+        },
+        "capture.actionHint": {
+          "$ref": "#/$defs/message"
+        },
+        "capture.cancel": {
+          "$ref": "#/$defs/message"
+        },
+        "capture.retake": {
+          "$ref": "#/$defs/message"
+        },
+        "capture.retry": {
+          "$ref": "#/$defs/message"
+        },
+        "capture.starting": {
+          "$ref": "#/$defs/message"
+        },
+        "capture.permission": {
+          "$ref": "#/$defs/message"
+        },
+        "capture.guidance.center": {
+          "$ref": "#/$defs/message"
+        },
+        "capture.guidance.single": {
+          "$ref": "#/$defs/message"
+        },
+        "capture.guidance.blink": {
+          "$ref": "#/$defs/message"
+        },
+        "capture.guidance.hold": {
+          "$ref": "#/$defs/message"
+        },
+        "capture.guidance.depth": {
+          "$ref": "#/$defs/message"
+        },
+        "capture.guidance.quality": {
+          "$ref": "#/$defs/message"
+        },
+        "capture.guidance.ready": {
+          "$ref": "#/$defs/message"
+        },
+        "capture.processing": {
+          "$ref": "#/$defs/message"
+        },
+        "capture.complete.title": {
+          "$ref": "#/$defs/message"
+        },
+        "capture.complete.body": {
+          "$ref": "#/$defs/message"
+        },
+        "capture.image.label": {
+          "$ref": "#/$defs/message"
+        },
+        "capture.preview.label": {
+          "$ref": "#/$defs/message"
+        },
+        "capture.failure.unsupported": {
+          "$ref": "#/$defs/message"
+        },
+        "capture.failure.denied": {
+          "$ref": "#/$defs/message"
+        },
+        "capture.failure.restricted": {
+          "$ref": "#/$defs/message"
+        },
+        "capture.failure.depth": {
+          "$ref": "#/$defs/message"
+        },
+        "capture.failure.timeout": {
+          "$ref": "#/$defs/message"
+        },
+        "capture.failure.camera": {
+          "$ref": "#/$defs/message"
+        },
+        "capture.failure.image": {
+          "$ref": "#/$defs/message"
+        },
+        "capture.failure.title": {
+          "$ref": "#/$defs/message"
+        },
+        "capture.interrupted": {
+          "$ref": "#/$defs/message"
+        },
+        "capture.use": {
+          "$ref": "#/$defs/message"
+        },
+        "capture.discard": {
+          "$ref": "#/$defs/message"
+        },
+        "capture.step.capture": {
+          "$ref": "#/$defs/message"
+        },
+        "capture.step.review": {
+          "$ref": "#/$defs/message"
+        },
+        "capture.step.use": {
+          "$ref": "#/$defs/message"
+        },
+        "passport.start.title": {
+          "$ref": "#/$defs/message"
+        },
+        "passport.start.body": {
+          "$ref": "#/$defs/message"
+        },
+        "passport.start": {
+          "$ref": "#/$defs/message"
+        },
+        "passport.manual": {
+          "$ref": "#/$defs/message"
+        },
+        "passport.scope": {
+          "$ref": "#/$defs/message"
+        },
+        "passport.mrz.title": {
+          "$ref": "#/$defs/message"
+        },
+        "passport.mrz.body": {
+          "$ref": "#/$defs/message"
+        },
+        "passport.confirm.title": {
+          "$ref": "#/$defs/message"
+        },
+        "passport.confirm.body": {
+          "$ref": "#/$defs/message"
+        },
+        "passport.confirm": {
+          "$ref": "#/$defs/message"
+        },
+        "passport.field.document": {
+          "$ref": "#/$defs/message"
+        },
+        "passport.field.birth": {
+          "$ref": "#/$defs/message"
+        },
+        "passport.field.expiry": {
+          "$ref": "#/$defs/message"
+        },
+        "passport.ready.title": {
+          "$ref": "#/$defs/message"
+        },
+        "passport.ready.body": {
+          "$ref": "#/$defs/message"
+        },
+        "passport.scan": {
+          "$ref": "#/$defs/message"
+        },
+        "passport.cancel": {
+          "$ref": "#/$defs/message"
+        },
+        "passport.cancelScan": {
+          "$ref": "#/$defs/message"
+        },
+        "passport.restart": {
+          "$ref": "#/$defs/message"
+        },
+        "passport.retry": {
+          "$ref": "#/$defs/message"
+        },
+        "passport.use": {
+          "$ref": "#/$defs/message"
+        },
+        "passport.scanning.title": {
+          "$ref": "#/$defs/message"
+        },
+        "passport.nfc.present": {
+          "$ref": "#/$defs/message"
+        },
+        "passport.nfc.authenticating": {
+          "$ref": "#/$defs/message"
+        },
+        "passport.nfc.reading": {
+          "$ref": "#/$defs/message"
+        },
+        "passport.nfc.active": {
+          "$ref": "#/$defs/message"
+        },
+        "passport.nfc.finishing": {
+          "$ref": "#/$defs/message"
+        },
+        "passport.nfc.verifying": {
+          "$ref": "#/$defs/message"
+        },
+        "passport.result.title": {
+          "$ref": "#/$defs/message"
+        },
+        "passport.result.verified": {
+          "$ref": "#/$defs/message"
+        },
+        "passport.result.body": {
+          "$ref": "#/$defs/message"
+        },
+        "passport.result.details": {
+          "$ref": "#/$defs/message"
+        },
+        "passport.result.proof": {
+          "$ref": "#/$defs/message"
+        },
+        "passport.result.portrait": {
+          "$ref": "#/$defs/message"
+        },
+        "passport.result.previewUnavailable": {
+          "$ref": "#/$defs/message"
+        },
+        "passport.result.noPortrait": {
+          "$ref": "#/$defs/message"
+        },
+        "passport.result.surname": {
+          "$ref": "#/$defs/message"
+        },
+        "passport.result.given": {
+          "$ref": "#/$defs/message"
+        },
+        "passport.result.nationality": {
+          "$ref": "#/$defs/message"
+        },
+        "passport.result.issuer": {
+          "$ref": "#/$defs/message"
+        },
+        "passport.result.birth": {
+          "$ref": "#/$defs/message"
+        },
+        "passport.result.expiry": {
+          "$ref": "#/$defs/message"
+        },
+        "passport.result.sex": {
+          "$ref": "#/$defs/message"
+        },
+        "passport.result.issueDate": {
+          "$ref": "#/$defs/message"
+        },
+        "passport.result.authority": {
+          "$ref": "#/$defs/message"
+        },
+        "passport.result.birthplace": {
+          "$ref": "#/$defs/message"
+        },
+        "passport.result.face": {
+          "$ref": "#/$defs/message"
+        },
+        "passport.result.notCompared": {
+          "$ref": "#/$defs/message"
+        },
+        "passport.result.pace": {
+          "$ref": "#/$defs/message"
+        },
+        "passport.result.bac": {
+          "$ref": "#/$defs/message"
+        },
+        "passport.result.aa": {
+          "$ref": "#/$defs/message"
+        },
+        "passport.result.ca": {
+          "$ref": "#/$defs/message"
+        },
+        "passport.result.chain": {
+          "$ref": "#/$defs/message"
+        },
+        "passport.result.signature": {
+          "$ref": "#/$defs/message"
+        },
+        "passport.result.hashes": {
+          "$ref": "#/$defs/message"
+        },
+        "passport.result.groupCount": {
+          "$ref": "#/$defs/message"
+        },
+        "passport.result.sod": {
+          "$ref": "#/$defs/message"
+        },
+        "passport.result.dg2": {
+          "$ref": "#/$defs/message"
+        },
+        "passport.result.passed": {
+          "$ref": "#/$defs/message"
+        },
+        "passport.result.notPerformed": {
+          "$ref": "#/$defs/message"
+        },
+        "passport.result.failed": {
+          "$ref": "#/$defs/message"
+        },
+        "passport.trust.required": {
+          "$ref": "#/$defs/message"
+        },
+        "passport.failure.title": {
+          "$ref": "#/$defs/message"
+        },
+        "passport.failure.key": {
+          "$ref": "#/$defs/message"
+        },
+        "passport.failure.camera": {
+          "$ref": "#/$defs/message"
+        },
+        "passport.failure.unsupported": {
+          "$ref": "#/$defs/message"
+        },
+        "passport.failure.interrupted": {
+          "$ref": "#/$defs/message"
+        },
+        "passport.failure.connection": {
+          "$ref": "#/$defs/message"
+        },
+        "passport.failure.trust": {
+          "$ref": "#/$defs/message"
+        },
+        "passport.failure.correspondence": {
+          "$ref": "#/$defs/message"
+        },
+        "passport.failure.correspondence.key": {
+          "$ref": "#/$defs/message"
+        },
+        "passport.failure.correspondence.surname": {
+          "$ref": "#/$defs/message"
+        },
+        "passport.failure.correspondence.givenNames": {
+          "$ref": "#/$defs/message"
+        },
+        "passport.failure.integrity": {
+          "$ref": "#/$defs/message"
+        },
+        "passport.failure.read": {
+          "$ref": "#/$defs/message"
+        },
+        "passport.reference.title": {
+          "$ref": "#/$defs/message"
+        },
+        "passport.reference.body": {
+          "$ref": "#/$defs/message"
+        },
+        "passport.reference.open": {
+          "$ref": "#/$defs/message"
+        },
+        "passport.reference.discard": {
+          "$ref": "#/$defs/message"
+        },
+        "passport.reference.empty": {
+          "$ref": "#/$defs/message"
+        },
+        "comparison.compare": {
+          "$ref": "#/$defs/message"
+        },
+        "comparison.processing": {
+          "$ref": "#/$defs/message"
+        },
+        "comparison.processing.body": {
+          "$ref": "#/$defs/message"
+        },
+        "comparison.completed": {
+          "$ref": "#/$defs/message"
+        },
+        "comparison.score": {
+          "$ref": "#/$defs/message"
+        },
+        "comparison.observation": {
+          "$ref": "#/$defs/message"
+        },
+        "comparison.failed": {
+          "$ref": "#/$defs/message"
+        },
+        "comparison.error.noFace": {
+          "$ref": "#/$defs/message"
+        },
+        "comparison.error.multipleFaces": {
+          "$ref": "#/$defs/message"
+        },
+        "comparison.error.alignment": {
+          "$ref": "#/$defs/message"
+        },
+        "comparison.error.model": {
+          "$ref": "#/$defs/message"
+        },
+        "comparison.error.image": {
+          "$ref": "#/$defs/message"
+        },
+        "comparison.error.source": {
+          "$ref": "#/$defs/message"
+        },
+        "comparison.error.engine": {
+          "$ref": "#/$defs/message"
+        },
+        "comparison.reference.required": {
+          "$ref": "#/$defs/message"
+        },
+        "comparison.reference.ready": {
+          "$ref": "#/$defs/message"
+        },
+        "comparison.scope": {
+          "$ref": "#/$defs/message"
+        },
+        "journey.title": {
+          "$ref": "#/$defs/message"
+        },
+        "journey.introduction": {
+          "$ref": "#/$defs/message"
+        },
+        "journey.scope": {
+          "$ref": "#/$defs/message"
+        },
+        "journey.begin": {
+          "$ref": "#/$defs/message"
+        },
+        "journey.examples": {
+          "$ref": "#/$defs/message"
+        },
+        "journey.cancel": {
+          "$ref": "#/$defs/message"
+        },
+        "journey.done": {
+          "$ref": "#/$defs/message"
+        },
+        "journey.progress.passport": {
+          "$ref": "#/$defs/message"
+        },
+        "journey.progress.selfie": {
+          "$ref": "#/$defs/message"
+        },
+        "journey.progress.result": {
+          "$ref": "#/$defs/message"
+        },
+        "journey.readChip": {
+          "$ref": "#/$defs/message"
+        },
+        "journey.passportReady.body": {
+          "$ref": "#/$defs/message"
+        },
+        "journey.continueSelfie": {
+          "$ref": "#/$defs/message"
+        },
+        "journey.result.title": {
+          "$ref": "#/$defs/message"
+        },
+        "journey.passportPassed": {
+          "$ref": "#/$defs/message"
+        },
+        "journey.retake": {
+          "$ref": "#/$defs/message"
+        },
+        "journey.viewDetails": {
+          "$ref": "#/$defs/message"
+        },
+        "journey.hideDetails": {
+          "$ref": "#/$defs/message"
+        },
+        "journey.interrupted.title": {
+          "$ref": "#/$defs/message"
+        },
+        "journey.interrupted.body": {
+          "$ref": "#/$defs/message"
+        },
+        "journey.beginAgain": {
+          "$ref": "#/$defs/message"
+        },
+        "comparison.aura.title": {
+          "$ref": "#/$defs/message"
+        },
+        "comparison.aura.ready": {
+          "$ref": "#/$defs/message"
+        },
+        "comparison.aura.processing": {
+          "$ref": "#/$defs/message"
+        },
+        "comparison.duration": {
+          "$ref": "#/$defs/message"
+        },
+        "comparison.visual.title": {
+          "$ref": "#/$defs/message"
+        },
+        "comparison.visual.scope": {
+          "$ref": "#/$defs/message"
+        },
+        "comparison.visual.ready": {
+          "$ref": "#/$defs/message"
+        },
+        "comparison.visual.processing": {
+          "$ref": "#/$defs/message"
+        },
+        "comparison.visual.unavailable": {
+          "$ref": "#/$defs/message"
+        },
+        "comparison.visual.consistency.consistent": {
+          "$ref": "#/$defs/message"
+        },
+        "comparison.visual.consistency.inconsistent": {
+          "$ref": "#/$defs/message"
+        },
+        "comparison.visual.consistency.uncertain": {
+          "$ref": "#/$defs/message"
+        },
+        "comparison.visual.issue.blur": {
+          "$ref": "#/$defs/message"
+        },
+        "comparison.visual.issue.poorLighting": {
+          "$ref": "#/$defs/message"
+        },
+        "comparison.visual.issue.occlusion": {
+          "$ref": "#/$defs/message"
+        },
+        "comparison.visual.issue.pose": {
+          "$ref": "#/$defs/message"
+        },
+        "comparison.visual.issue.lowResolution": {
+          "$ref": "#/$defs/message"
+        },
+        "comparison.visual.issue.other": {
+          "$ref": "#/$defs/message"
+        },
+        "comparison.visual.error.engine": {
+          "$ref": "#/$defs/message"
+        },
+        "comparison.visual.error.resources": {
+          "$ref": "#/$defs/message"
+        },
+        "comparison.visual.error.response": {
+          "$ref": "#/$defs/message"
+        },
+        "comparison.visual.waiting": {
+          "$ref": "#/$defs/message"
+        },
+        "comparison.visual.report.disclosure": {
+          "$ref": "#/$defs/message"
+        },
+        "comparison.telemetry.show": {
+          "$ref": "#/$defs/message"
+        },
+        "comparison.telemetry.hide": {
+          "$ref": "#/$defs/message"
+        },
+        "comparison.telemetry.title": {
+          "$ref": "#/$defs/message"
+        },
+        "comparison.telemetry.scope": {
+          "$ref": "#/$defs/message"
+        },
+        "telemetry.unavailable": {
+          "$ref": "#/$defs/message"
+        },
+        "telemetry.invalid": {
+          "$ref": "#/$defs/message"
+        },
+        "telemetry.noneReported": {
+          "$ref": "#/$defs/message"
+        },
+        "telemetry.yes": {
+          "$ref": "#/$defs/message"
+        },
+        "telemetry.no": {
+          "$ref": "#/$defs/message"
+        },
+        "telemetry.trigger.manual": {
+          "$ref": "#/$defs/message"
+        },
+        "telemetry.trigger.automatic": {
+          "$ref": "#/$defs/message"
+        },
+        "telemetry.depthAssessment.live": {
+          "$ref": "#/$defs/message"
+        },
+        "telemetry.depthAssessment.flat": {
+          "$ref": "#/$defs/message"
+        },
+        "telemetry.depthAssessment.insufficientData": {
+          "$ref": "#/$defs/message"
+        },
+        "telemetry.aura.title": {
+          "$ref": "#/$defs/message"
+        },
+        "telemetry.liquid.title": {
+          "$ref": "#/$defs/message"
+        },
+        "report.reference.title": {
+          "$ref": "#/$defs/message"
+        },
+        "report.selfie.title": {
+          "$ref": "#/$defs/message"
+        },
+        "report.aura.title": {
+          "$ref": "#/$defs/message"
+        },
+        "report.age.title": {
+          "$ref": "#/$defs/message"
+        },
+        "report.capture.title": {
+          "$ref": "#/$defs/message"
+        },
+        "report.qualityIssue": {
+          "$ref": "#/$defs/message"
+        },
+        "report.observation": {
+          "$ref": "#/$defs/message"
+        },
+        "report.ageMinimum": {
+          "$ref": "#/$defs/message"
+        },
+        "report.ageMaximum": {
+          "$ref": "#/$defs/message"
+        },
+        "report.ageRange": {
+          "$ref": "#/$defs/message"
+        },
+        "report.ageBasis": {
+          "$ref": "#/$defs/message"
+        },
+        "report.limitation": {
+          "$ref": "#/$defs/message"
+        },
+        "report.relationship": {
+          "$ref": "#/$defs/message"
+        },
+        "report.evidence": {
+          "$ref": "#/$defs/message"
+        },
+        "report.sourceImage": {
+          "$ref": "#/$defs/message"
+        },
+        "report.indicator.status": {
+          "$ref": "#/$defs/message"
+        },
+        "report.aura.supports": {
+          "$ref": "#/$defs/message"
+        },
+        "report.aura.tension": {
+          "$ref": "#/$defs/message"
+        },
+        "report.aura.not_assessable": {
+          "$ref": "#/$defs/message"
+        },
+        "report.age.plausible": {
+          "$ref": "#/$defs/message"
+        },
+        "report.age.raises_question": {
+          "$ref": "#/$defs/message"
+        },
+        "report.age.not_assessable": {
+          "$ref": "#/$defs/message"
+        },
+        "report.status.present": {
+          "$ref": "#/$defs/message"
+        },
+        "report.status.absent": {
+          "$ref": "#/$defs/message"
+        },
+        "report.status.not_observable": {
+          "$ref": "#/$defs/message"
+        },
+        "telemetry.input.operationID": {
+          "$ref": "#/$defs/message"
+        },
+        "telemetry.input.referenceSHA256": {
+          "$ref": "#/$defs/message"
+        },
+        "telemetry.input.selfieSHA256": {
+          "$ref": "#/$defs/message"
+        },
+        "telemetry.input.referenceBytes": {
+          "$ref": "#/$defs/message"
+        },
+        "telemetry.input.selfieBytes": {
+          "$ref": "#/$defs/message"
+        },
+        "telemetry.capture.receipt": {
+          "$ref": "#/$defs/message"
+        },
+        "telemetry.capture.captureID": {
+          "$ref": "#/$defs/message"
+        },
+        "telemetry.capture.receiptSHA256": {
+          "$ref": "#/$defs/message"
+        },
+        "telemetry.capture.policyVersion": {
+          "$ref": "#/$defs/message"
+        },
+        "telemetry.capture.trigger": {
+          "$ref": "#/$defs/message"
+        },
+        "telemetry.capture.frameTimestamp": {
+          "$ref": "#/$defs/message"
+        },
+        "telemetry.capture.anchorID": {
+          "$ref": "#/$defs/message"
+        },
+        "telemetry.capture.trackedFrames": {
+          "$ref": "#/$defs/message"
+        },
+        "telemetry.capture.blinkCompletedAt": {
+          "$ref": "#/$defs/message"
+        },
+        "telemetry.capture.blinkAge": {
+          "$ref": "#/$defs/message"
+        },
+        "telemetry.capture.leftEyeClosed": {
+          "$ref": "#/$defs/message"
+        },
+        "telemetry.capture.rightEyeClosed": {
+          "$ref": "#/$defs/message"
+        },
+        "telemetry.capture.eyesOpen": {
+          "$ref": "#/$defs/message"
+        },
+        "telemetry.capture.steadyHold": {
+          "$ref": "#/$defs/message"
+        },
+        "telemetry.capture.quality": {
+          "$ref": "#/$defs/message"
+        },
+        "telemetry.capture.qualityEnforced": {
+          "$ref": "#/$defs/message"
+        },
+        "telemetry.capture.insideGuide": {
+          "$ref": "#/$defs/message"
+        },
+        "telemetry.capture.guideEnforced": {
+          "$ref": "#/$defs/message"
+        },
+        "telemetry.frame.sessionID": {
+          "$ref": "#/$defs/message"
+        },
+        "telemetry.frame.sequence": {
+          "$ref": "#/$defs/message"
+        },
+        "telemetry.frame.guideRevision": {
+          "$ref": "#/$defs/message"
+        },
+        "telemetry.frame.width": {
+          "$ref": "#/$defs/message"
+        },
+        "telemetry.frame.height": {
+          "$ref": "#/$defs/message"
+        },
+        "telemetry.frame.orientation": {
+          "$ref": "#/$defs/message"
+        },
+        "telemetry.frame.qualityRevision": {
+          "$ref": "#/$defs/message"
+        },
+        "telemetry.frame.analysisDuration": {
+          "$ref": "#/$defs/message"
+        },
+        "telemetry.frame.ageAtAdmission": {
+          "$ref": "#/$defs/message"
+        },
+        "telemetry.depth.recordSHA256": {
+          "$ref": "#/$defs/message"
+        },
+        "telemetry.depth.imageSHA256": {
+          "$ref": "#/$defs/message"
+        },
+        "telemetry.depth.schemaVersion": {
+          "$ref": "#/$defs/message"
+        },
+        "telemetry.depth.imageTimestamp": {
+          "$ref": "#/$defs/message"
+        },
+        "telemetry.depth.depthTimestamp": {
+          "$ref": "#/$defs/message"
+        },
+        "telemetry.depth.ageAtAdmission": {
+          "$ref": "#/$defs/message"
+        },
+        "telemetry.depth.orientation": {
+          "$ref": "#/$defs/message"
+        },
+        "telemetry.depth.width": {
+          "$ref": "#/$defs/message"
+        },
+        "telemetry.depth.height": {
+          "$ref": "#/$defs/message"
+        },
+        "telemetry.depth.filtered": {
+          "$ref": "#/$defs/message"
+        },
+        "telemetry.depth.sampleCount": {
+          "$ref": "#/$defs/message"
+        },
+        "telemetry.depth.residualRMS": {
+          "$ref": "#/$defs/message"
+        },
+        "telemetry.depth.assessment": {
+          "$ref": "#/$defs/message"
+        },
+        "telemetry.admissionPolicy.requiredTrackedFrames": {
+          "$ref": "#/$defs/message"
+        },
+        "telemetry.admissionPolicy.maximumFrameAge": {
+          "$ref": "#/$defs/message"
+        },
+        "telemetry.admissionPolicy.blinkFreshness": {
+          "$ref": "#/$defs/message"
+        },
+        "telemetry.admissionPolicy.eyeClosedThreshold": {
+          "$ref": "#/$defs/message"
+        },
+        "telemetry.admissionPolicy.steadyHold": {
+          "$ref": "#/$defs/message"
+        },
+        "telemetry.admissionPolicy.minimumCaptureQuality": {
+          "$ref": "#/$defs/message"
+        },
+        "telemetry.admissionPolicy.requiresGuideContainment": {
+          "$ref": "#/$defs/message"
+        },
+        "telemetry.depthPolicy.identifier": {
+          "$ref": "#/$defs/message"
+        },
+        "telemetry.depthPolicy.minimumResidualRMS": {
+          "$ref": "#/$defs/message"
+        },
+        "telemetry.depthPolicy.minimumSamples": {
+          "$ref": "#/$defs/message"
+        },
+        "telemetry.depthPolicy.nearLimit": {
+          "$ref": "#/$defs/message"
+        },
+        "telemetry.depthPolicy.farLimit": {
+          "$ref": "#/$defs/message"
+        },
+        "telemetry.depthPolicy.maximumDepthAge": {
+          "$ref": "#/$defs/message"
+        },
+        "telemetry.depthPolicy.samplesPerAxis": {
+          "$ref": "#/$defs/message"
+        },
+        "telemetry.aura.referenceAlignedSHA256": {
+          "$ref": "#/$defs/message"
+        },
+        "telemetry.aura.selfieAlignedSHA256": {
+          "$ref": "#/$defs/message"
+        },
+        "telemetry.aura.artifactManifestSHA256": {
+          "$ref": "#/$defs/message"
+        },
+        "telemetry.aura.alignmentRoute": {
+          "$ref": "#/$defs/message"
+        },
+        "telemetry.aura.domain": {
+          "$ref": "#/$defs/message"
+        },
+        "telemetry.aura.dimensions": {
+          "$ref": "#/$defs/message"
+        },
+        "telemetry.aura.minimumNorm": {
+          "$ref": "#/$defs/message"
+        },
+        "telemetry.aura.angularDistance": {
+          "$ref": "#/$defs/message"
+        },
+        "telemetry.aura.resultSHA256": {
+          "$ref": "#/$defs/message"
+        },
+        "telemetry.liquid.artifactSHA256": {
+          "$ref": "#/$defs/message"
+        },
+        "telemetry.liquid.profileID": {
+          "$ref": "#/$defs/message"
+        },
+        "telemetry.liquid.referenceSHA256": {
+          "$ref": "#/$defs/message"
+        },
+        "telemetry.liquid.selfieSHA256": {
+          "$ref": "#/$defs/message"
+        },
+        "telemetry.liquid.contextSHA256": {
+          "$ref": "#/$defs/message"
+        },
+        "telemetry.liquid.promptContractSHA256": {
+          "$ref": "#/$defs/message"
+        },
+        "telemetry.liquid.promptSHA256": {
+          "$ref": "#/$defs/message"
+        },
+        "telemetry.liquid.responseSchemaSHA256": {
+          "$ref": "#/$defs/message"
+        },
+        "report.quality.blur": {
+          "$ref": "#/$defs/message"
+        },
+        "report.quality.underexposure": {
+          "$ref": "#/$defs/message"
+        },
+        "report.quality.overexposure": {
+          "$ref": "#/$defs/message"
+        },
+        "report.quality.occlusion": {
+          "$ref": "#/$defs/message"
+        },
+        "report.quality.glare": {
+          "$ref": "#/$defs/message"
+        },
+        "report.quality.uneven_lighting": {
+          "$ref": "#/$defs/message"
+        },
+        "report.quality.off_angle": {
+          "$ref": "#/$defs/message"
+        },
+        "report.quality.low_detail": {
+          "$ref": "#/$defs/message"
+        },
+        "report.quality.partial_face": {
+          "$ref": "#/$defs/message"
+        },
+        "report.indicator.moire": {
+          "$ref": "#/$defs/message"
+        },
+        "report.indicator.screen_texture": {
+          "$ref": "#/$defs/message"
+        },
+        "report.indicator.visible_bezel": {
+          "$ref": "#/$defs/message"
+        },
+        "report.indicator.paper_texture": {
+          "$ref": "#/$defs/message"
+        },
+        "report.indicator.printed_edges": {
+          "$ref": "#/$defs/message"
+        },
+        "report.indicator.face_scene_inconsistency": {
+          "$ref": "#/$defs/message"
+        },
+        "report.indicator.possible_manipulation_artifacts": {
+          "$ref": "#/$defs/message"
+        },
+        "report.indicator.motion_parallax": {
+          "$ref": "#/$defs/message"
+        },
+        "report.indicator.highlight_motion": {
+          "$ref": "#/$defs/message"
+        },
+        "report.indicator.replay_motion": {
+          "$ref": "#/$defs/message"
+        },
+        "report.indicator.camera_motion_consistency": {
+          "$ref": "#/$defs/message"
+        },
+        "report.indicator.depth_consistency": {
+          "$ref": "#/$defs/message"
+        },
+        "permission.motion": {
+          "$ref": "#/$defs/message"
+        },
+        "telemetry.ceremony.face_match": {
+          "$ref": "#/$defs/message"
+        },
+        "telemetry.motion.imageSHA256": {
+          "$ref": "#/$defs/message"
+        },
+        "telemetry.motion.recordSHA256": {
+          "$ref": "#/$defs/message"
+        },
+        "telemetry.motion.frameTimestamp": {
+          "$ref": "#/$defs/message"
+        },
+        "telemetry.motion.windowStart": {
+          "$ref": "#/$defs/message"
+        },
+        "telemetry.motion.windowEnd": {
+          "$ref": "#/$defs/message"
+        },
+        "telemetry.motion.requestedSampleRate": {
+          "$ref": "#/$defs/message"
+        },
+        "telemetry.motion.clockDomain": {
+          "$ref": "#/$defs/message"
+        },
+        "telemetry.motion.alignment": {
+          "$ref": "#/$defs/message"
+        },
+        "telemetry.motion.ceremony": {
+          "$ref": "#/$defs/message"
+        },
+        "telemetry.motion.sampleCount": {
+          "$ref": "#/$defs/message"
+        },
+        "telemetry.motion.duration": {
+          "$ref": "#/$defs/message"
+        },
+        "telemetry.motion.accelerationRMS": {
+          "$ref": "#/$defs/message"
+        },
+        "telemetry.motion.rotationRMS": {
+          "$ref": "#/$defs/message"
+        },
+        "telemetry.motion.tremorRatio": {
+          "$ref": "#/$defs/message"
+        },
+        "telemetry.motion.gravityAxis": {
+          "$ref": "#/$defs/message"
+        },
+        "telemetry.motion.gravityDominance": {
+          "$ref": "#/$defs/message"
+        },
+        "telemetry.motion.gravityDrift": {
+          "$ref": "#/$defs/message"
+        },
+        "telemetry.motion.approachRMS": {
+          "$ref": "#/$defs/message"
+        },
+        "telemetry.motion.settleRatio": {
+          "$ref": "#/$defs/message"
+        },
+        "telemetry.motion.magneticDelta": {
+          "$ref": "#/$defs/message"
+        },
+        "telemetry.motion.magnetometerCalibrated": {
+          "$ref": "#/$defs/message"
+        },
+        "telemetry.motion.rawWindowSHA256": {
+          "$ref": "#/$defs/message"
+        },
+        "telemetry.motion.permissionStatus": {
+          "$ref": "#/$defs/message"
+        },
+        "telemetry.motionPermission.notRequested": {
+          "$ref": "#/$defs/message"
+        },
+        "telemetry.motionPermission.requesting": {
+          "$ref": "#/$defs/message"
+        },
+        "telemetry.motionPermission.authorized": {
+          "$ref": "#/$defs/message"
+        },
+        "telemetry.motionPermission.denied": {
+          "$ref": "#/$defs/message"
+        },
+        "telemetry.motionPermission.unavailable": {
+          "$ref": "#/$defs/message"
+        },
+        "comparison.export.copy": {
+          "$ref": "#/$defs/message"
+        },
+        "comparison.export.copied": {
+          "$ref": "#/$defs/message"
+        },
+        "comparison.export.hint": {
+          "$ref": "#/$defs/message"
+        },
+        "journey.saved.loading": {
+          "$ref": "#/$defs/message"
+        },
+        "journey.saved.saving": {
+          "$ref": "#/$defs/message"
+        },
+        "journey.saved.deleting": {
+          "$ref": "#/$defs/message"
+        },
+        "journey.saved.available": {
+          "$ref": "#/$defs/message"
+        },
+        "journey.saved.reused": {
+          "$ref": "#/$defs/message"
+        },
+        "journey.saved.failed": {
+          "$ref": "#/$defs/message"
+        },
+        "journey.saved.retry": {
+          "$ref": "#/$defs/message"
+        },
+        "journey.saved.use": {
+          "$ref": "#/$defs/message"
+        },
+        "journey.saved.delete": {
+          "$ref": "#/$defs/message"
+        },
+        "journey.saved.scope": {
+          "$ref": "#/$defs/message"
+        },
+        "journey.saved.deleteFailed": {
+          "$ref": "#/$defs/message"
+        },
+        "journey.saved.retryDelete": {
+          "$ref": "#/$defs/message"
+        },
+        "capture.failure.storage": {
+          "$ref": "#/$defs/message"
+        },
+        "permission.location": {
+          "$ref": "#/$defs/message"
+        },
+        "journey.evidence.idle": {
+          "$ref": "#/$defs/message"
+        },
+        "journey.evidence.recording": {
+          "$ref": "#/$defs/message"
+        },
+        "journey.evidence.failed": {
+          "$ref": "#/$defs/message"
+        },
+        "passport.mrz.saving": {
+          "$ref": "#/$defs/message"
+        },
+        "passport.mrz.saveFailed": {
+          "$ref": "#/$defs/message"
+        },
+        "journey.saved.mrz": {
+          "$ref": "#/$defs/message"
+        },
+        "journey.saved.mrzProvenance": {
+          "$ref": "#/$defs/message"
+        },
+        "journey.saved.comparison": {
+          "$ref": "#/$defs/message"
+        },
+        "journey.saved.rerun": {
+          "$ref": "#/$defs/message"
+        },
+        "comparison.error.interrupted": {
+          "$ref": "#/$defs/message"
+        },
+        "report.pass.quality": {
+          "$ref": "#/$defs/message"
+        },
+        "report.pass.comparison": {
+          "$ref": "#/$defs/message"
+        },
+        "report.pass.presentation": {
+          "$ref": "#/$defs/message"
+        },
+        "report.pass.status": {
+          "$ref": "#/$defs/message"
+        },
+        "report.pass.pending": {
+          "$ref": "#/$defs/message"
+        },
+        "report.pass.completed": {
+          "$ref": "#/$defs/message"
+        },
+        "report.pass.failed": {
+          "$ref": "#/$defs/message"
+        },
+        "report.pass.not_started": {
+          "$ref": "#/$defs/message"
+        },
+        "report.pass.promptTokens": {
+          "$ref": "#/$defs/message"
+        },
+        "report.pass.generatedTokens": {
+          "$ref": "#/$defs/message"
+        },
+        "report.pass.duration": {
+          "$ref": "#/$defs/message"
+        },
+        "report.pass.referenceAgeMin": {
+          "$ref": "#/$defs/message"
+        },
+        "report.pass.referenceAgeMax": {
+          "$ref": "#/$defs/message"
+        },
+        "report.pass.selfieAgeMin": {
+          "$ref": "#/$defs/message"
+        },
+        "report.pass.selfieAgeMax": {
+          "$ref": "#/$defs/message"
+        },
+        "report.pass.failure": {
+          "$ref": "#/$defs/message"
+        },
+        "report.pass.claimedDOB": {
+          "$ref": "#/$defs/message"
+        },
+        "report.pass.claimedAge": {
+          "$ref": "#/$defs/message"
+        },
+        "report.indicator.reflection_inconsistency": {
+          "$ref": "#/$defs/message"
+        },
+        "report.indicator.possible_synthetic_artifacts": {
+          "$ref": "#/$defs/message"
+        },
+        "report.indicator.device_handling": {
+          "$ref": "#/$defs/message"
+        },
+        "report.pass.profile": {
+          "$ref": "#/$defs/message"
+        },
+        "report.pass.inputSHA": {
+          "$ref": "#/$defs/message"
+        },
+        "report.pass.peakMemoryBytes": {
+          "$ref": "#/$defs/message"
+        },
+        "report.pass.age": {
+          "$ref": "#/$defs/message"
+        },
+        "report.pass.sensor_consistency": {
+          "$ref": "#/$defs/message"
+        },
+        "report.aggregate.title": {
+          "$ref": "#/$defs/message"
+        },
+        "report.aggregate.completed": {
+          "$ref": "#/$defs/message"
+        },
+        "report.aggregate.total": {
+          "$ref": "#/$defs/message"
+        },
+        "report.aggregate.processing": {
+          "$ref": "#/$defs/message"
+        },
+        "report.aggregate.partial": {
+          "$ref": "#/$defs/message"
+        },
+        "report.aggregate.failed": {
+          "$ref": "#/$defs/message"
+        },
+        "report.aggregate.cancelled": {
+          "$ref": "#/$defs/message"
+        },
+        "report.aggregate.completedCount": {
+          "$ref": "#/$defs/message"
+        },
+        "report.pass.modelSetup": {
+          "$ref": "#/$defs/message"
+        },
+        "report.pass.imagePreparation": {
+          "$ref": "#/$defs/message"
+        },
+        "report.pass.grammarPreparation": {
+          "$ref": "#/$defs/message"
+        },
+        "report.pass.prefill": {
+          "$ref": "#/$defs/message"
+        },
+        "report.pass.generation": {
+          "$ref": "#/$defs/message"
+        },
+        "report.pass.cleanup": {
+          "$ref": "#/$defs/message"
+        },
+        "report.pass.activeMemory": {
+          "$ref": "#/$defs/message"
+        },
+        "report.pass.cacheMemory": {
+          "$ref": "#/$defs/message"
+        },
+        "report.workflow.title": {
+          "$ref": "#/$defs/message"
+        },
+        "report.workflow.status": {
+          "$ref": "#/$defs/message"
+        },
+        "report.workflow.unavailable.missingBoundary": {
+          "$ref": "#/$defs/message"
+        },
+        "report.workflow.unavailable.supersededCapture": {
+          "$ref": "#/$defs/message"
+        },
+        "report.workflow.unavailable.capacity": {
+          "$ref": "#/$defs/message"
+        },
+        "telemetry.unsupported": {
+          "$ref": "#/$defs/message"
+        },
+        "report.status.uncertain": {
+          "$ref": "#/$defs/message"
+        },
+        "report.indicator.motion_coverage": {
+          "$ref": "#/$defs/message"
+        },
+        "report.indicator.interaction_consistency": {
+          "$ref": "#/$defs/message"
+        },
+        "report.indicator.blink_consistency": {
+          "$ref": "#/$defs/message"
+        },
+        "report.profile.historical": {
+          "$ref": "#/$defs/message"
+        },
+        "journey.home": {
+          "$ref": "#/$defs/message"
+        },
+        "journey.overview.scan": {
+          "$ref": "#/$defs/message"
+        },
+        "journey.overview.chip": {
+          "$ref": "#/$defs/message"
+        },
+        "journey.overview.selfie": {
+          "$ref": "#/$defs/message"
+        },
+        "journey.saved.open": {
+          "$ref": "#/$defs/message"
+        },
+        "journey.saved.description": {
+          "$ref": "#/$defs/message"
+        },
+        "journey.saved.empty": {
+          "$ref": "#/$defs/message"
+        },
+        "journey.saved.manageDelete": {
+          "$ref": "#/$defs/message"
+        },
+        "journey.saved.deleteTitle": {
+          "$ref": "#/$defs/message"
+        },
+        "journey.saved.deleteExplanation": {
+          "$ref": "#/$defs/message"
+        },
+        "journey.saved.keep": {
+          "$ref": "#/$defs/message"
+        },
+        "journey.developer": {
+          "$ref": "#/$defs/message"
+        },
+        "journey.developer.description": {
+          "$ref": "#/$defs/message"
+        },
+        "journey.storage.unavailable": {
+          "$ref": "#/$defs/message"
+        },
+        "journey.result.menu": {
+          "$ref": "#/$defs/message"
+        },
+        "journey.result.details": {
+          "$ref": "#/$defs/message"
+        },
+        "journey.details.close": {
+          "$ref": "#/$defs/message"
+        },
+        "comparison.observation.summary": {
+          "$ref": "#/$defs/message"
+        },
+        "telemetry.motion.range": {
+          "$ref": "#/$defs/message"
+        },
+        "telemetry.motion.loading": {
+          "$ref": "#/$defs/message"
+        },
+        "telemetry.motion.failed": {
+          "$ref": "#/$defs/message"
+        },
+        "telemetry.motion.unavailable": {
+          "$ref": "#/$defs/message"
+        },
+        "telemetry.motion.title": {
+          "$ref": "#/$defs/message"
+        },
+        "telemetry.motion.scope": {
+          "$ref": "#/$defs/message"
+        },
+        "telemetry.workflowMotion.workflowID": {
+          "$ref": "#/$defs/message"
+        },
+        "telemetry.workflowMotion.throughEventID": {
+          "$ref": "#/$defs/message"
+        },
+        "telemetry.workflowMotion.firstSampleAt": {
+          "$ref": "#/$defs/message"
+        },
+        "telemetry.workflowMotion.lastSampleAt": {
+          "$ref": "#/$defs/message"
+        },
+        "telemetry.workflowMotion.events": {
+          "$ref": "#/$defs/message"
+        },
+        "telemetry.workflowMotion.windows": {
+          "$ref": "#/$defs/message"
+        },
+        "telemetry.workflowMotion.samples": {
+          "$ref": "#/$defs/message"
+        },
+        "telemetry.workflowMotion.duplicates": {
+          "$ref": "#/$defs/message"
+        },
+        "telemetry.workflowMotion.segments": {
+          "$ref": "#/$defs/message"
+        },
+        "telemetry.workflowMotion.eventsWithoutMotion": {
+          "$ref": "#/$defs/message"
+        },
+        "telemetry.workflowMotion.magneticSamples": {
+          "$ref": "#/$defs/message"
+        },
+        "telemetry.workflowMotion.uncalibratedWindows": {
+          "$ref": "#/$defs/message"
+        },
+        "telemetry.workflowMotion.observedSeconds": {
+          "$ref": "#/$defs/message"
+        },
+        "telemetry.workflowMotion.gaps": {
+          "$ref": "#/$defs/message"
+        },
+        "telemetry.workflowMotion.gapSeconds": {
+          "$ref": "#/$defs/message"
+        },
+        "telemetry.workflowMotion.requestedSampleRate": {
+          "$ref": "#/$defs/message"
+        },
+        "telemetry.workflowMotion.windowSampleCount": {
+          "$ref": "#/$defs/message"
+        },
+        "telemetry.workflowMotion.windowDuration": {
+          "$ref": "#/$defs/message"
+        },
+        "telemetry.workflowMotion.accelerationRMS": {
+          "$ref": "#/$defs/message"
+        },
+        "telemetry.workflowMotion.rotationRMS": {
+          "$ref": "#/$defs/message"
+        },
+        "telemetry.workflowMotion.tremorRatio": {
+          "$ref": "#/$defs/message"
+        },
+        "telemetry.workflowMotion.gravityDominance": {
+          "$ref": "#/$defs/message"
+        },
+        "telemetry.workflowMotion.gravityDrift": {
+          "$ref": "#/$defs/message"
+        },
+        "telemetry.workflowMotion.approachRMS": {
+          "$ref": "#/$defs/message"
+        },
+        "telemetry.workflowMotion.settleRatio": {
+          "$ref": "#/$defs/message"
+        },
+        "telemetry.workflowMotion.magneticDelta": {
+          "$ref": "#/$defs/message"
+        },
+        "telemetry.workflowMotion.magneticMagnitude": {
+          "$ref": "#/$defs/message"
+        },
+        "telemetry.workflowMotion.accelerationX": {
+          "$ref": "#/$defs/message"
+        },
+        "telemetry.workflowMotion.accelerationY": {
+          "$ref": "#/$defs/message"
+        },
+        "telemetry.workflowMotion.accelerationZ": {
+          "$ref": "#/$defs/message"
+        },
+        "telemetry.workflowMotion.accelerationMagnitude": {
+          "$ref": "#/$defs/message"
+        },
+        "telemetry.workflowMotion.rotationX": {
+          "$ref": "#/$defs/message"
+        },
+        "telemetry.workflowMotion.rotationY": {
+          "$ref": "#/$defs/message"
+        },
+        "telemetry.workflowMotion.rotationZ": {
+          "$ref": "#/$defs/message"
+        },
+        "telemetry.workflowMotion.rotationMagnitude": {
+          "$ref": "#/$defs/message"
+        },
+        "telemetry.workflowMotion.gravityX": {
+          "$ref": "#/$defs/message"
+        },
+        "telemetry.workflowMotion.gravityY": {
+          "$ref": "#/$defs/message"
+        },
+        "telemetry.workflowMotion.gravityZ": {
+          "$ref": "#/$defs/message"
+        },
+        "telemetry.workflowMotion.gravityMagnitude": {
+          "$ref": "#/$defs/message"
+        },
+        "passport.nfc.complete": {
+          "$ref": "#/$defs/message"
+        },
+        "passport.server.preparing": {
+          "$ref": "#/$defs/message"
+        },
+        "passport.server.verifying": {
+          "$ref": "#/$defs/message"
+        },
+        "passport.server.title": {
+          "$ref": "#/$defs/message"
+        },
+        "passport.server.status": {
+          "$ref": "#/$defs/message"
+        },
+        "passport.server.verified": {
+          "$ref": "#/$defs/message"
+        },
+        "passport.server.ca": {
+          "$ref": "#/$defs/message"
+        },
+        "passport.server.aa": {
+          "$ref": "#/$defs/message"
+        },
+        "passport.server.failure.configuration": {
+          "$ref": "#/$defs/message"
+        },
+        "passport.server.failure.registration": {
+          "$ref": "#/$defs/message"
+        },
+        "passport.server.failure.expired": {
+          "$ref": "#/$defs/message"
+        },
+        "passport.server.failure.unsupportedChip": {
+          "$ref": "#/$defs/message"
+        },
+        "passport.server.failure.rejected": {
+          "$ref": "#/$defs/message"
+        },
+        "passport.server.failure.unavailable": {
+          "$ref": "#/$defs/message"
+        },
+        "passport.server.historical": {
+          "$ref": "#/$defs/message"
+        },
+        "passport.server.validator": {
+          "$ref": "#/$defs/message"
+        },
+        "passport.server.verifiedAt": {
+          "$ref": "#/$defs/message"
+        },
+        "passport.nfc.readingPrefix": {
+          "$ref": "#/$defs/message"
+        },
+        "passport.nfc.authenticatingPrefix": {
+          "$ref": "#/$defs/message"
+        },
+        "passport.server.sod": {
+          "$ref": "#/$defs/message"
+        },
+        "passport.server.dsc": {
+          "$ref": "#/$defs/message"
+        },
+        "passport.server.csca": {
+          "$ref": "#/$defs/message"
+        },
+        "passport.server.hashes": {
+          "$ref": "#/$defs/message"
+        },
+        "passport.server.crl": {
+          "$ref": "#/$defs/message"
+        },
+        "passport.server.expiry": {
+          "$ref": "#/$defs/message"
+        },
+        "passport.server.assurance": {
+          "$ref": "#/$defs/message"
+        },
+        "passport.server.trustVersion": {
+          "$ref": "#/$defs/message"
+        },
+        "passport.server.trustManifest": {
+          "$ref": "#/$defs/message"
+        },
+        "passport.server.reportUnavailable": {
+          "$ref": "#/$defs/message"
+        },
+        "passport.server.assurance.chipAuthenticated": {
+          "$ref": "#/$defs/message"
+        },
+        "passport.server.assurance.passive": {
+          "$ref": "#/$defs/message"
+        },
+        "passport.server.assurance.unverified": {
+          "$ref": "#/$defs/message"
+        },
+        "passport.server.failed": {
+          "$ref": "#/$defs/message"
+        },
+        "passport.server.failureReason": {
+          "$ref": "#/$defs/message"
+        },
+        "passport.server.receivedAt": {
+          "$ref": "#/$defs/message"
+        },
+        "passport.server.origin": {
+          "$ref": "#/$defs/message"
+        },
+        "passport.server.installation": {
+          "$ref": "#/$defs/message"
+        },
+        "passport.server.session": {
+          "$ref": "#/$defs/message"
+        },
+        "passport.server.nonce": {
+          "$ref": "#/$defs/message"
+        },
+        "passport.server.receiptID": {
+          "$ref": "#/$defs/message"
+        },
+        "capture.selection.quality": {
+          "$ref": "#/$defs/message"
+        },
+        "capture.selection.preparation": {
+          "$ref": "#/$defs/message"
+        },
+        "capture.selection.selection": {
+          "$ref": "#/$defs/message"
+        },
+        "capture.selection.progressSeparator": {
+          "$ref": "#/$defs/message"
+        },
+        "capture.selection.scope": {
+          "$ref": "#/$defs/message"
+        },
+        "capture.selection.failure.resources": {
+          "$ref": "#/$defs/message"
+        },
+        "capture.selection.failure.source": {
+          "$ref": "#/$defs/message"
+        },
+        "capture.selection.failure.qualityUnavailable": {
+          "$ref": "#/$defs/message"
+        },
+        "capture.selection.failure.qualityFailed": {
+          "$ref": "#/$defs/message"
+        },
+        "capture.selection.failure.modelUnavailable": {
+          "$ref": "#/$defs/message"
+        },
+        "capture.selection.failure.noSelection": {
+          "$ref": "#/$defs/message"
+        },
+        "telemetry.selection.policy": {
+          "$ref": "#/$defs/message"
+        },
+        "telemetry.selection.candidates": {
+          "$ref": "#/$defs/message"
+        },
+        "telemetry.selection.selectedCaptureID": {
+          "$ref": "#/$defs/message"
+        },
+        "telemetry.selection.selectedAlignedSHA256": {
+          "$ref": "#/$defs/message"
+        },
+        "telemetry.selection.qualityArtifactSHA256": {
+          "$ref": "#/$defs/message"
+        },
+        "telemetry.selection.index": {
+          "$ref": "#/$defs/message"
+        },
+        "telemetry.selection.nativeUQS": {
+          "$ref": "#/$defs/message"
+        },
+        "document.live.title": {
+          "$ref": "#/$defs/message"
+        },
+        "document.live.intro": {
+          "$ref": "#/$defs/message"
+        },
+        "document.live.start": {
+          "$ref": "#/$defs/message"
+        },
+        "document.live.starting": {
+          "$ref": "#/$defs/message"
+        },
+        "document.live.align": {
+          "$ref": "#/$defs/message"
+        },
+        "document.live.capture": {
+          "$ref": "#/$defs/message"
+        },
+        "document.live.reset": {
+          "$ref": "#/$defs/message"
+        },
+        "document.live.processing": {
+          "$ref": "#/$defs/message"
+        },
+        "document.live.processing.body": {
+          "$ref": "#/$defs/message"
+        },
+        "document.live.review": {
+          "$ref": "#/$defs/message"
+        },
+        "document.live.retakeFront": {
+          "$ref": "#/$defs/message"
+        },
+        "document.live.retakeBack": {
+          "$ref": "#/$defs/message"
+        },
+        "document.live.failure": {
+          "$ref": "#/$defs/message"
+        },
+        "document.live.failure.camera": {
+          "$ref": "#/$defs/message"
+        },
+        "document.live.failure.source": {
+          "$ref": "#/$defs/message"
+        },
+        "document.live.failure.preparation": {
+          "$ref": "#/$defs/message"
+        },
+        "document.live.failure.processing": {
+          "$ref": "#/$defs/message"
+        },
+        "document.live.preview": {
+          "$ref": "#/$defs/message"
+        },
+        "document.live.scope": {
+          "$ref": "#/$defs/message"
+        },
+        "document.front.original": {
+          "$ref": "#/$defs/message"
+        },
+        "document.front.prepared": {
+          "$ref": "#/$defs/message"
+        },
+        "document.back.original": {
+          "$ref": "#/$defs/message"
+        },
+        "document.back.prepared": {
+          "$ref": "#/$defs/message"
+        },
+        "document.live.text": {
+          "$ref": "#/$defs/message"
+        },
+        "document.live.barcode": {
+          "$ref": "#/$defs/message"
+        },
+        "document.live.portrait": {
+          "$ref": "#/$defs/message"
+        },
+        "document.live.portrait.empty": {
+          "$ref": "#/$defs/message"
+        },
+        "document.live.portrait.scope": {
+          "$ref": "#/$defs/message"
+        },
+        "document.live.fields": {
+          "$ref": "#/$defs/message"
+        },
+        "document.front.instruction": {
+          "$ref": "#/$defs/message"
+        },
+        "document.front.cancel": {
+          "$ref": "#/$defs/message"
+        },
+        "document.front.capture": {
+          "$ref": "#/$defs/message"
+        },
+        "document.front.ready": {
+          "$ref": "#/$defs/message"
+        },
+        "document.front.manual": {
+          "$ref": "#/$defs/message"
+        },
+        "document.front.level.label": {
+          "$ref": "#/$defs/message"
+        },
+        "document.front.level.unavailable": {
+          "$ref": "#/$defs/message"
+        },
+        "document.front.level.centered": {
+          "$ref": "#/$defs/message"
+        },
+        "document.front.level.warning": {
+          "$ref": "#/$defs/message"
+        },
+        "document.front.level.tilted": {
+          "$ref": "#/$defs/message"
+        },
+        "document.front.quality.documentNotFound": {
+          "$ref": "#/$defs/message"
+        },
+        "document.front.quality.guideUnavailable": {
+          "$ref": "#/$defs/message"
+        },
+        "document.front.quality.alignWithGuide": {
+          "$ref": "#/$defs/message"
+        },
+        "document.front.quality.moveCloser": {
+          "$ref": "#/$defs/message"
+        },
+        "document.front.quality.moveFartherAway": {
+          "$ref": "#/$defs/message"
+        },
+        "document.front.quality.tooDark": {
+          "$ref": "#/$defs/message"
+        },
+        "document.front.quality.tooBright": {
+          "$ref": "#/$defs/message"
+        },
+        "document.front.quality.glare": {
+          "$ref": "#/$defs/message"
+        },
+        "document.front.quality.holdSteady": {
+          "$ref": "#/$defs/message"
+        },
+        "document.front.quality.softFocus": {
+          "$ref": "#/$defs/message"
+        },
+        "document.front.quality.stabilizing": {
+          "$ref": "#/$defs/message"
+        },
+        "document.front.quality.cameraAdjusting": {
+          "$ref": "#/$defs/message"
+        },
+        "document.saved.open": {
+          "$ref": "#/$defs/message"
+        },
+        "document.saved.reset": {
+          "$ref": "#/$defs/message"
+        },
+        "document.saved.saving": {
+          "$ref": "#/$defs/message"
+        },
+        "document.saved.restoring": {
+          "$ref": "#/$defs/message"
+        },
+        "document.saved.deleting": {
+          "$ref": "#/$defs/message"
+        },
+        "document.saved.review": {
+          "$ref": "#/$defs/message"
+        },
+        "document.saved.restored": {
+          "$ref": "#/$defs/message"
+        },
+        "document.saved.scanBack": {
+          "$ref": "#/$defs/message"
+        },
+        "document.saved.retrySave": {
+          "$ref": "#/$defs/message"
+        },
+        "document.saved.failure.save": {
+          "$ref": "#/$defs/message"
+        },
+        "document.saved.failure.read": {
+          "$ref": "#/$defs/message"
+        },
+        "document.saved.failure.delete": {
+          "$ref": "#/$defs/message"
+        },
+        "document.saved.missing": {
+          "$ref": "#/$defs/message"
+        },
+        "document.saved.delete": {
+          "$ref": "#/$defs/message"
+        },
+        "document.saved.delete.title": {
+          "$ref": "#/$defs/message"
+        },
+        "document.saved.delete.body": {
+          "$ref": "#/$defs/message"
+        },
+        "document.saved.delete.cancel": {
+          "$ref": "#/$defs/message"
+        },
+        "document.saved.scope": {
+          "$ref": "#/$defs/message"
+        },
+        "document.back.instruction": {
+          "$ref": "#/$defs/message"
+        }
+      },
+      "required": [
+        "app.title",
+        "navigation.back",
+        "demo.disclosure",
+        "capability.biometric.title",
+        "capability.document.title",
+        "capability.passport.title",
+        "workflow.phase.idle",
+        "workflow.phase.ready",
+        "workflow.phase.capturing",
+        "workflow.phase.processing",
+        "workflow.phase.recoverable",
+        "workflow.phase.completed",
+        "workflow.phase.cancelled",
+        "workflow.step.biometric.referencePortrait",
+        "workflow.step.biometric.selfie",
+        "workflow.step.biometric.compare",
+        "workflow.step.document.front",
+        "workflow.step.document.back",
+        "workflow.step.document.review",
+        "workflow.step.passport.mrz",
+        "workflow.step.passport.nfc",
+        "workflow.step.passport.review",
+        "workflow.action.start",
+        "workflow.action.advance",
+        "workflow.action.retry",
+        "workflow.action.cancel",
+        "workflow.action.restore",
+        "workflow.action.simulateFailure",
+        "workflow.reason.permissionDenied",
+        "workflow.reason.interrupted",
+        "workflow.reason.serviceUnavailable",
+        "workflow.reason.invalidInput",
+        "workflow.stub.notice",
+        "workflow.stub.outcome",
+        "accessibility.workflowStatus",
+        "accessibility.capabilityPicker",
+        "accessibility.progress",
+        "accessibility.actionHint",
+        "accessibility.backHint",
+        "permission.camera",
+        "permission.nfc",
+        "navigation.title",
+        "capability.biometric.summary",
+        "capability.document.summary",
+        "capability.passport.summary",
+        "capability.biometric.intro",
+        "capability.document.intro",
+        "capability.passport.intro",
+        "navigation.tab.biometric",
+        "navigation.tab.document",
+        "navigation.tab.passport",
+        "capability.biometric.instructionTitle",
+        "capability.document.instructionTitle",
+        "capability.passport.instructionTitle",
+        "workflow.overviewHeading",
+        "developer.menu",
+        "progress.step1",
+        "progress.step2",
+        "progress.step3",
+        "capture.live.start",
+        "capture.live.title",
+        "capture.consent.title",
+        "capture.consent.body",
+        "capture.scope",
+        "capture.allow",
+        "capture.shutter",
+        "capture.actionHint",
+        "capture.cancel",
+        "capture.retake",
+        "capture.retry",
+        "capture.starting",
+        "capture.permission",
+        "capture.guidance.center",
+        "capture.guidance.single",
+        "capture.guidance.blink",
+        "capture.guidance.hold",
+        "capture.guidance.depth",
+        "capture.guidance.quality",
+        "capture.guidance.ready",
+        "capture.processing",
+        "capture.complete.title",
+        "capture.complete.body",
+        "capture.image.label",
+        "capture.preview.label",
+        "capture.failure.unsupported",
+        "capture.failure.denied",
+        "capture.failure.restricted",
+        "capture.failure.depth",
+        "capture.failure.timeout",
+        "capture.failure.camera",
+        "capture.failure.image",
+        "capture.failure.title",
+        "capture.interrupted",
+        "capture.use",
+        "capture.discard",
+        "capture.step.capture",
+        "capture.step.review",
+        "capture.step.use",
+        "comparison.compare",
+        "comparison.processing",
+        "comparison.processing.body",
+        "comparison.completed",
+        "comparison.score",
+        "comparison.observation",
+        "comparison.failed",
+        "comparison.error.noFace",
+        "comparison.error.multipleFaces",
+        "comparison.error.alignment",
+        "comparison.error.model",
+        "comparison.error.image",
+        "comparison.error.source",
+        "comparison.error.engine",
+        "comparison.reference.required",
+        "comparison.reference.ready",
+        "comparison.scope",
+        "journey.title",
+        "journey.introduction",
+        "journey.scope",
+        "journey.begin",
+        "journey.examples",
+        "journey.cancel",
+        "journey.done",
+        "journey.progress.passport",
+        "journey.progress.selfie",
+        "journey.progress.result",
+        "journey.readChip",
+        "journey.passportReady.body",
+        "journey.continueSelfie",
+        "journey.result.title",
+        "journey.passportPassed",
+        "journey.retake",
+        "journey.viewDetails",
+        "journey.hideDetails",
+        "journey.interrupted.title",
+        "journey.interrupted.body",
+        "journey.beginAgain",
+        "comparison.aura.title",
+        "comparison.aura.ready",
+        "comparison.aura.processing",
+        "comparison.duration",
+        "comparison.visual.title",
+        "comparison.visual.scope",
+        "comparison.visual.ready",
+        "comparison.visual.processing",
+        "comparison.visual.unavailable",
+        "comparison.visual.consistency.consistent",
+        "comparison.visual.consistency.inconsistent",
+        "comparison.visual.consistency.uncertain",
+        "comparison.visual.issue.blur",
+        "comparison.visual.issue.poorLighting",
+        "comparison.visual.issue.occlusion",
+        "comparison.visual.issue.pose",
+        "comparison.visual.issue.lowResolution",
+        "comparison.visual.issue.other",
+        "comparison.visual.error.engine",
+        "comparison.visual.error.resources",
+        "comparison.visual.error.response",
+        "comparison.visual.waiting",
+        "comparison.visual.report.disclosure",
+        "comparison.telemetry.show",
+        "comparison.telemetry.hide",
+        "comparison.telemetry.title",
+        "comparison.telemetry.scope",
+        "telemetry.unavailable",
+        "telemetry.invalid",
+        "telemetry.noneReported",
+        "telemetry.yes",
+        "telemetry.no",
+        "telemetry.trigger.manual",
+        "telemetry.trigger.automatic",
+        "telemetry.depthAssessment.live",
+        "telemetry.depthAssessment.flat",
+        "telemetry.depthAssessment.insufficientData",
+        "telemetry.aura.title",
+        "telemetry.liquid.title",
+        "report.reference.title",
+        "report.selfie.title",
+        "report.aura.title",
+        "report.age.title",
+        "report.capture.title",
+        "report.qualityIssue",
+        "report.observation",
+        "report.ageMinimum",
+        "report.ageMaximum",
+        "report.ageRange",
+        "report.ageBasis",
+        "report.limitation",
+        "report.relationship",
+        "report.evidence",
+        "report.sourceImage",
+        "report.indicator.status",
+        "report.aura.supports",
+        "report.aura.tension",
+        "report.aura.not_assessable",
+        "report.age.plausible",
+        "report.age.raises_question",
+        "report.age.not_assessable",
+        "report.status.present",
+        "report.status.absent",
+        "report.status.not_observable",
+        "telemetry.input.operationID",
+        "telemetry.input.referenceSHA256",
+        "telemetry.input.selfieSHA256",
+        "telemetry.input.referenceBytes",
+        "telemetry.input.selfieBytes",
+        "telemetry.capture.receipt",
+        "telemetry.capture.captureID",
+        "telemetry.capture.receiptSHA256",
+        "telemetry.capture.policyVersion",
+        "telemetry.capture.trigger",
+        "telemetry.capture.frameTimestamp",
+        "telemetry.capture.anchorID",
+        "telemetry.capture.trackedFrames",
+        "telemetry.capture.blinkCompletedAt",
+        "telemetry.capture.blinkAge",
+        "telemetry.capture.leftEyeClosed",
+        "telemetry.capture.rightEyeClosed",
+        "telemetry.capture.eyesOpen",
+        "telemetry.capture.steadyHold",
+        "telemetry.capture.quality",
+        "telemetry.capture.qualityEnforced",
+        "telemetry.capture.insideGuide",
+        "telemetry.capture.guideEnforced",
+        "telemetry.frame.sessionID",
+        "telemetry.frame.sequence",
+        "telemetry.frame.guideRevision",
+        "telemetry.frame.width",
+        "telemetry.frame.height",
+        "telemetry.frame.orientation",
+        "telemetry.frame.qualityRevision",
+        "telemetry.frame.analysisDuration",
+        "telemetry.frame.ageAtAdmission",
+        "telemetry.depth.recordSHA256",
+        "telemetry.depth.imageSHA256",
+        "telemetry.depth.schemaVersion",
+        "telemetry.depth.imageTimestamp",
+        "telemetry.depth.depthTimestamp",
+        "telemetry.depth.ageAtAdmission",
+        "telemetry.depth.orientation",
+        "telemetry.depth.width",
+        "telemetry.depth.height",
+        "telemetry.depth.filtered",
+        "telemetry.depth.sampleCount",
+        "telemetry.depth.residualRMS",
+        "telemetry.depth.assessment",
+        "telemetry.admissionPolicy.requiredTrackedFrames",
+        "telemetry.admissionPolicy.maximumFrameAge",
+        "telemetry.admissionPolicy.blinkFreshness",
+        "telemetry.admissionPolicy.eyeClosedThreshold",
+        "telemetry.admissionPolicy.steadyHold",
+        "telemetry.admissionPolicy.minimumCaptureQuality",
+        "telemetry.admissionPolicy.requiresGuideContainment",
+        "telemetry.depthPolicy.identifier",
+        "telemetry.depthPolicy.minimumResidualRMS",
+        "telemetry.depthPolicy.minimumSamples",
+        "telemetry.depthPolicy.nearLimit",
+        "telemetry.depthPolicy.farLimit",
+        "telemetry.depthPolicy.maximumDepthAge",
+        "telemetry.depthPolicy.samplesPerAxis",
+        "telemetry.aura.referenceAlignedSHA256",
+        "telemetry.aura.selfieAlignedSHA256",
+        "telemetry.aura.artifactManifestSHA256",
+        "telemetry.aura.alignmentRoute",
+        "telemetry.aura.domain",
+        "telemetry.aura.dimensions",
+        "telemetry.aura.minimumNorm",
+        "telemetry.aura.angularDistance",
+        "telemetry.aura.resultSHA256",
+        "telemetry.liquid.artifactSHA256",
+        "telemetry.liquid.profileID",
+        "telemetry.liquid.referenceSHA256",
+        "telemetry.liquid.selfieSHA256",
+        "telemetry.liquid.contextSHA256",
+        "telemetry.liquid.promptContractSHA256",
+        "telemetry.liquid.promptSHA256",
+        "telemetry.liquid.responseSchemaSHA256",
+        "report.quality.blur",
+        "report.quality.underexposure",
+        "report.quality.overexposure",
+        "report.quality.occlusion",
+        "report.quality.glare",
+        "report.quality.uneven_lighting",
+        "report.quality.off_angle",
+        "report.quality.low_detail",
+        "report.quality.partial_face",
+        "report.indicator.moire",
+        "report.indicator.screen_texture",
+        "report.indicator.visible_bezel",
+        "report.indicator.paper_texture",
+        "report.indicator.printed_edges",
+        "report.indicator.face_scene_inconsistency",
+        "report.indicator.possible_manipulation_artifacts",
+        "report.indicator.motion_parallax",
+        "report.indicator.highlight_motion",
+        "report.indicator.replay_motion",
+        "report.indicator.camera_motion_consistency",
+        "report.indicator.depth_consistency",
+        "permission.motion",
+        "telemetry.ceremony.face_match",
+        "telemetry.motion.imageSHA256",
+        "telemetry.motion.recordSHA256",
+        "telemetry.motion.frameTimestamp",
+        "telemetry.motion.windowStart",
+        "telemetry.motion.windowEnd",
+        "telemetry.motion.requestedSampleRate",
+        "telemetry.motion.clockDomain",
+        "telemetry.motion.alignment",
+        "telemetry.motion.ceremony",
+        "telemetry.motion.sampleCount",
+        "telemetry.motion.duration",
+        "telemetry.motion.accelerationRMS",
+        "telemetry.motion.rotationRMS",
+        "telemetry.motion.tremorRatio",
+        "telemetry.motion.gravityAxis",
+        "telemetry.motion.gravityDominance",
+        "telemetry.motion.gravityDrift",
+        "telemetry.motion.approachRMS",
+        "telemetry.motion.settleRatio",
+        "telemetry.motion.magneticDelta",
+        "telemetry.motion.magnetometerCalibrated",
+        "telemetry.motion.rawWindowSHA256",
+        "telemetry.motion.permissionStatus",
+        "telemetry.motionPermission.notRequested",
+        "telemetry.motionPermission.requesting",
+        "telemetry.motionPermission.authorized",
+        "telemetry.motionPermission.denied",
+        "telemetry.motionPermission.unavailable",
+        "comparison.export.copy",
+        "comparison.export.copied",
+        "comparison.export.hint",
+        "journey.saved.loading",
+        "journey.saved.saving",
+        "journey.saved.deleting",
+        "journey.saved.available",
+        "journey.saved.reused",
+        "journey.saved.failed",
+        "journey.saved.retry",
+        "journey.saved.use",
+        "journey.saved.delete",
+        "journey.saved.scope",
+        "journey.saved.deleteFailed",
+        "journey.saved.retryDelete",
+        "capture.failure.storage",
+        "permission.location",
+        "journey.evidence.idle",
+        "journey.evidence.recording",
+        "journey.evidence.failed",
+        "passport.mrz.saving",
+        "passport.mrz.saveFailed",
+        "journey.saved.mrz",
+        "journey.saved.mrzProvenance",
+        "journey.saved.comparison",
+        "journey.saved.rerun",
+        "comparison.error.interrupted",
+        "report.pass.quality",
+        "report.pass.comparison",
+        "report.pass.presentation",
+        "report.pass.status",
+        "report.pass.pending",
+        "report.pass.completed",
+        "report.pass.failed",
+        "report.pass.not_started",
+        "report.pass.promptTokens",
+        "report.pass.generatedTokens",
+        "report.pass.duration",
+        "report.pass.referenceAgeMin",
+        "report.pass.referenceAgeMax",
+        "report.pass.selfieAgeMin",
+        "report.pass.selfieAgeMax",
+        "report.pass.failure",
+        "report.pass.claimedDOB",
+        "report.pass.claimedAge",
+        "report.indicator.reflection_inconsistency",
+        "report.indicator.possible_synthetic_artifacts",
+        "report.indicator.device_handling",
+        "report.pass.profile",
+        "report.pass.inputSHA",
+        "report.pass.peakMemoryBytes",
+        "report.pass.age",
+        "report.pass.sensor_consistency",
+        "report.aggregate.title",
+        "report.aggregate.completed",
+        "report.aggregate.total",
+        "report.aggregate.processing",
+        "report.aggregate.partial",
+        "report.aggregate.failed",
+        "report.aggregate.cancelled",
+        "report.aggregate.completedCount",
+        "report.pass.modelSetup",
+        "report.pass.imagePreparation",
+        "report.pass.grammarPreparation",
+        "report.pass.prefill",
+        "report.pass.generation",
+        "report.pass.cleanup",
+        "report.pass.activeMemory",
+        "report.pass.cacheMemory",
+        "report.workflow.title",
+        "report.workflow.status",
+        "report.workflow.unavailable.missingBoundary",
+        "report.workflow.unavailable.supersededCapture",
+        "report.workflow.unavailable.capacity",
+        "telemetry.unsupported",
+        "report.status.uncertain",
+        "report.indicator.motion_coverage",
+        "report.indicator.interaction_consistency",
+        "report.indicator.blink_consistency",
+        "report.profile.historical",
+        "journey.home",
+        "journey.overview.scan",
+        "journey.overview.chip",
+        "journey.overview.selfie",
+        "journey.saved.open",
+        "journey.saved.description",
+        "journey.saved.empty",
+        "journey.saved.manageDelete",
+        "journey.saved.deleteTitle",
+        "journey.saved.deleteExplanation",
+        "journey.saved.keep",
+        "journey.developer",
+        "journey.developer.description",
+        "journey.storage.unavailable",
+        "journey.result.menu",
+        "journey.result.details",
+        "journey.details.close",
+        "comparison.observation.summary",
+        "telemetry.motion.range",
+        "telemetry.motion.loading",
+        "telemetry.motion.failed",
+        "telemetry.motion.unavailable",
+        "telemetry.motion.title",
+        "telemetry.motion.scope",
+        "telemetry.workflowMotion.workflowID",
+        "telemetry.workflowMotion.throughEventID",
+        "telemetry.workflowMotion.firstSampleAt",
+        "telemetry.workflowMotion.lastSampleAt",
+        "telemetry.workflowMotion.events",
+        "telemetry.workflowMotion.windows",
+        "telemetry.workflowMotion.samples",
+        "telemetry.workflowMotion.duplicates",
+        "telemetry.workflowMotion.segments",
+        "telemetry.workflowMotion.eventsWithoutMotion",
+        "telemetry.workflowMotion.magneticSamples",
+        "telemetry.workflowMotion.uncalibratedWindows",
+        "telemetry.workflowMotion.observedSeconds",
+        "telemetry.workflowMotion.gaps",
+        "telemetry.workflowMotion.gapSeconds",
+        "telemetry.workflowMotion.requestedSampleRate",
+        "telemetry.workflowMotion.windowSampleCount",
+        "telemetry.workflowMotion.windowDuration",
+        "telemetry.workflowMotion.accelerationRMS",
+        "telemetry.workflowMotion.rotationRMS",
+        "telemetry.workflowMotion.tremorRatio",
+        "telemetry.workflowMotion.gravityDominance",
+        "telemetry.workflowMotion.gravityDrift",
+        "telemetry.workflowMotion.approachRMS",
+        "telemetry.workflowMotion.settleRatio",
+        "telemetry.workflowMotion.magneticDelta",
+        "telemetry.workflowMotion.magneticMagnitude",
+        "telemetry.workflowMotion.accelerationX",
+        "telemetry.workflowMotion.accelerationY",
+        "telemetry.workflowMotion.accelerationZ",
+        "telemetry.workflowMotion.accelerationMagnitude",
+        "telemetry.workflowMotion.rotationX",
+        "telemetry.workflowMotion.rotationY",
+        "telemetry.workflowMotion.rotationZ",
+        "telemetry.workflowMotion.rotationMagnitude",
+        "telemetry.workflowMotion.gravityX",
+        "telemetry.workflowMotion.gravityY",
+        "telemetry.workflowMotion.gravityZ",
+        "telemetry.workflowMotion.gravityMagnitude",
+        "passport.nfc.complete",
+        "passport.server.preparing",
+        "passport.server.verifying",
+        "passport.server.title",
+        "passport.server.status",
+        "passport.server.verified",
+        "passport.server.ca",
+        "passport.server.aa",
+        "passport.server.failure.configuration",
+        "passport.server.failure.registration",
+        "passport.server.failure.expired",
+        "passport.server.failure.unsupportedChip",
+        "passport.server.failure.rejected",
+        "passport.server.failure.unavailable",
+        "passport.server.historical",
+        "passport.server.validator",
+        "passport.server.verifiedAt",
+        "passport.nfc.readingPrefix",
+        "passport.nfc.authenticatingPrefix",
+        "passport.server.sod",
+        "passport.server.dsc",
+        "passport.server.csca",
+        "passport.server.hashes",
+        "passport.server.crl",
+        "passport.server.expiry",
+        "passport.server.assurance",
+        "passport.server.trustVersion",
+        "passport.server.trustManifest",
+        "passport.server.reportUnavailable",
+        "passport.server.assurance.chipAuthenticated",
+        "passport.server.assurance.passive",
+        "passport.server.assurance.unverified",
+        "passport.server.failed",
+        "passport.server.failureReason",
+        "passport.server.receivedAt",
+        "passport.server.origin",
+        "passport.server.installation",
+        "passport.server.session",
+        "passport.server.nonce",
+        "passport.server.receiptID",
+        "capture.selection.quality",
+        "capture.selection.preparation",
+        "capture.selection.selection",
+        "capture.selection.progressSeparator",
+        "capture.selection.scope",
+        "capture.selection.failure.resources",
+        "capture.selection.failure.source",
+        "capture.selection.failure.qualityUnavailable",
+        "capture.selection.failure.qualityFailed",
+        "capture.selection.failure.modelUnavailable",
+        "capture.selection.failure.noSelection",
+        "telemetry.selection.policy",
+        "telemetry.selection.candidates",
+        "telemetry.selection.selectedCaptureID",
+        "telemetry.selection.selectedAlignedSHA256",
+        "telemetry.selection.qualityArtifactSHA256",
+        "telemetry.selection.index",
+        "telemetry.selection.nativeUQS",
+        "document.live.title",
+        "document.live.intro",
+        "document.live.start",
+        "document.live.starting",
+        "document.live.align",
+        "document.live.capture",
+        "document.live.reset",
+        "document.live.processing",
+        "document.live.processing.body",
+        "document.live.review",
+        "document.live.retakeFront",
+        "document.live.retakeBack",
+        "document.live.failure",
+        "document.live.failure.camera",
+        "document.live.failure.source",
+        "document.live.failure.preparation",
+        "document.live.failure.processing",
+        "document.live.preview",
+        "document.live.scope",
+        "document.front.original",
+        "document.front.prepared",
+        "document.back.original",
+        "document.back.prepared",
+        "document.live.text",
+        "document.live.barcode",
+        "document.live.portrait",
+        "document.live.portrait.empty",
+        "document.live.portrait.scope",
+        "document.live.fields",
+        "document.front.instruction",
+        "document.front.cancel",
+        "document.front.capture",
+        "document.front.ready",
+        "document.front.manual",
+        "document.front.level.label",
+        "document.front.level.unavailable",
+        "document.front.level.centered",
+        "document.front.level.warning",
+        "document.front.level.tilted",
+        "document.front.quality.documentNotFound",
+        "document.front.quality.guideUnavailable",
+        "document.front.quality.alignWithGuide",
+        "document.front.quality.moveCloser",
+        "document.front.quality.moveFartherAway",
+        "document.front.quality.tooDark",
+        "document.front.quality.tooBright",
+        "document.front.quality.glare",
+        "document.front.quality.holdSteady",
+        "document.front.quality.softFocus",
+        "document.front.quality.stabilizing",
+        "document.front.quality.cameraAdjusting",
+        "document.saved.open",
+        "document.saved.reset",
+        "document.saved.saving",
+        "document.saved.restoring",
+        "document.saved.deleting",
+        "document.saved.review",
+        "document.saved.restored",
+        "document.saved.scanBack",
+        "document.saved.retrySave",
+        "document.saved.failure.save",
+        "document.saved.failure.read",
+        "document.saved.failure.delete",
+        "document.saved.missing",
+        "document.saved.delete",
+        "document.saved.delete.title",
+        "document.saved.delete.body",
+        "document.saved.delete.cancel",
+        "document.saved.scope",
+        "document.back.instruction"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "required": [
+    "schemaVersion",
+    "baseLocale",
+    "supportedLocales",
+    "fallbacks",
+    "messages"
+  ],
+  "additionalProperties": false,
+  "$defs": {
+    "message": {
+      "type": "object",
+      "properties": {
+        "text": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 1000
+        },
+        "context": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 400
+        },
+        "arguments": {
+          "type": "object",
+          "properties": {},
+          "required": [],
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "text",
+        "context",
+        "arguments"
+      ],
+      "additionalProperties": false
+    }
+  }
+}

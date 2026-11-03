@@ -1,0 +1,139 @@
+{
+  "schemaVersion": 1,
+  "model": "liquid",
+  "context": {
+    "requestId": "request-insufficient-001",
+    "operationId": "operation-insufficient-001",
+    "attemptId": "attempt-insufficient-001",
+    "challenge": "example-challenge-insufficient-0000000000000001",
+    "applicationId": "application-example",
+    "installationId": "installation-example",
+    "sessionId": "session-insufficient-001",
+    "generation": "generation-insufficient-001",
+    "policyId": "policy-example",
+    "policyVersion": "v1",
+    "reference": {
+      "evidenceId": "reference-insufficient-001",
+      "sha256": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    "selfie": {
+      "evidenceId": "selfie-insufficient-001",
+      "sha256": "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+    }
+  },
+  "execution": {
+    "artifactSHA256": "bf86cc6b16e4f6a870336d5e0ebad0c5cf1d63214efef8efeb8b9655174b3913",
+    "profileId": "lfm25-vl16b-affine4-g64-mlx-pair-interpretation-v2",
+    "promptSHA256": "d430c1e210df56628384d00598c83f66bcc8d3ef986b559e848a95a9d58a158d",
+    "runtime": {
+      "name": "mlx-swift-lm",
+      "version": "bb0d5b048f02e14dbf8f2d7bb1a20911a295470a",
+      "platform": "ios",
+      "osVersion": "27.2"
+    },
+    "durationMilliseconds": 2712.3,
+    "promptContractSHA256": "2e741148ff557705e3f3419b3595691fb3ec5523d4cfa1b1dfcaeadf061ec5e5",
+    "responseSchemaSHA256": "a985a2a909b3ac2e69b10ba118a897ee714f92e2318fd4ea5c2ceb938febff4d",
+    "inputSHA256": "e9e47059b6e13ddf53c647f43ff6dc8ea84224e5701760a8c03188b5dd63a0ff"
+  },
+  "status": "completed",
+  "observation": {
+    "language": "en",
+    "report": {
+      "reference": {
+        "qualityIssues": [
+          "blur",
+          "low_detail"
+        ],
+        "observations": [
+          "The reference has indistinct facial edges and little usable fine detail."
+        ],
+        "apparentAge": {
+          "rangeYears": null,
+          "basis": "The image does not support a useful apparent-age range.",
+          "limitations": [
+            "Blur and low detail obscure age-related appearance."
+          ]
+        }
+      },
+      "selfie": {
+        "qualityIssues": [
+          "underexposure",
+          "occlusion",
+          "partial_face"
+        ],
+        "observations": [
+          "The selfie is dark, part of the face is covered, and the surrounding scene is poorly resolved."
+        ],
+        "apparentAge": {
+          "rangeYears": null,
+          "basis": "Occlusion and low illumination prevent a useful apparent-age estimate.",
+          "limitations": [
+            "No verified DOB is available for an expected-age comparison."
+          ]
+        }
+      },
+      "auraReview": {
+        "relationship": "not_assessable",
+        "evidence": [
+          "The visible evidence is too limited to meaningfully support or challenge the supplied cosine interpretation."
+        ],
+        "limitations": [
+          "The score alone does not recover facial details absent from the supplied images."
+        ]
+      },
+      "ageReview": {
+        "relationship": "not_assessable",
+        "evidence": [
+          "Neither image supports a useful age estimate, and verified DOB/photo-date context was not provided."
+        ],
+        "limitations": [
+          "Do not infer a DOB discrepancy from unavailable age evidence."
+        ]
+      },
+      "captureReview": {
+        "indicators": [
+          {
+            "indicator": "moire",
+            "status": "not_observable",
+            "evidence": "Darkness and low detail prevent assessment of fine repeating surface patterns.",
+            "sourceImageIds": [
+              "Media-2"
+            ]
+          },
+          {
+            "indicator": "printed_edges",
+            "status": "not_observable",
+            "evidence": "The poorly resolved surrounding frame does not support assessing printed edges.",
+            "sourceImageIds": [
+              "Media-2"
+            ]
+          },
+          {
+            "indicator": "motion_parallax",
+            "status": "not_observable",
+            "evidence": "Only one selfie still is present.",
+            "sourceImageIds": [
+              "Media-2"
+            ]
+          },
+          {
+            "indicator": "depth_consistency",
+            "status": "not_observable",
+            "evidence": "No depth observations were provided.",
+            "sourceImageIds": [
+              "Media-2"
+            ]
+          }
+        ],
+        "observations": [
+          "The whole supplied frame was considered, but its surroundings add little usable evidence."
+        ],
+        "limitations": [
+          "No sequence, CoreMotion or TrueDepth evidence is available to fill these gaps."
+        ]
+      },
+      "summary": "Image quality and missing context prevent a useful visual cross-check or age comparison. Static presentation cues are not observable; unavailable evidence must remain unresolved rather than being converted into a reassuring result."
+    }
+  }
+}

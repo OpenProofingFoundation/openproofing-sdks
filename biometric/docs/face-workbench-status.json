@@ -1,0 +1,97 @@
+{
+  "statusScope": "Historical first single-archive/toolchain receipt retained below. The active multi-dataset corpus is canonical and continues to grow.",
+  "currentDataAuthority": "External kenshiki-face-workbench/data/canonical/index.sqlite",
+  "currentDataGuide": "axon-data.md",
+  "historicalInitialReceipt": {
+    "date": "2026-10-16",
+    "toolchain": {
+      "status": "passed",
+      "scope": "synthetic convolution network only; no face model or biometric performance claim",
+      "python": "3.11.15",
+      "machine": "arm64",
+      "trainingBackend": "mps",
+      "optimizerStep": true,
+      "onnxRuntimeProvider": "CPUExecutionProvider",
+      "onnxMaxAbsoluteError": 2.9802322387695312e-08,
+      "coremlComputeUnits": "CPU_ONLY",
+      "coremlPrecision": "FLOAT16",
+      "coremlMaxAbsoluteError": 0.0002777576446533203,
+      "outputShape": [
+        1,
+        512
+      ],
+      "versions": {
+        "torch": "2.7.0",
+        "torchvision": "0.22.0",
+        "numpy": "1.26.4",
+        "onnx": "1.18.0",
+        "onnxruntime": "1.22.0",
+        "coremltools": "9.0",
+        "pillow": "11.2.1",
+        "pillow-heif": "0.22.0",
+        "safetensors": "0.5.3",
+        "cmake": "3.31.6",
+        "ninja": "1.11.1.3"
+      },
+      "onnxSHA256": "2018ff656bdab6c13c94384ba05c3e3226ccb46917a33cc2f554a516d0559ca2"
+    },
+    "data": {
+      "ref": "axondata/selfie-and-official-id-photo-dataset-18k-images",
+      "version": 6,
+      "archiveSHA256": "8df228325155fd84184293ce788d9e1d9d07b86913d32404529782f71983aa6f",
+      "archiveBytes": 213472857,
+      "fileCount": 315,
+      "imageCount": 313,
+      "distinctImageSHA256": 312,
+      "duplicateImageFiles": 1,
+      "imageFolderCount": 50,
+      "extensions": {
+        ".jpg": 158,
+        ".jpeg": 155,
+        ".json": 1,
+        ".csv": 1
+      },
+      "status": "sample-development-staging",
+      "productionTrainingEligible": false,
+      "commercialTrainingPermission": "not recorded",
+      "modelRedistributionPermission": "not recorded",
+      "subjectIdentityCount": "not established; folders are not verified identities",
+      "splitStatus": "not assigned; sample sets and duplicate identities must be reconciled first"
+    },
+    "sampleIndex": {
+      "crossGroupExactDuplicateClusters": 0,
+      "images": 313,
+      "provisionalFolderGroups": 30,
+      "roles": {
+        "reference_candidate": 59,
+        "selfie_candidate": 254
+      },
+      "groupsWithReferenceAndSelfieCandidates": 30,
+      "labelsVerified": false,
+      "splitsAssigned": false
+    },
+    "detectedImageFormats": {
+      "JPEG": 299,
+      "WEBP": 1,
+      "MPO": 4,
+      "PNG": 1,
+      "HEIF": 8
+    },
+    "nistToolchain": {
+      "headerPinVerified": true,
+      "localCXX20HeaderCompile": true,
+      "upstreamRevision": "18c2f84d80c0636cede6ff1db0479fe068aedac4",
+      "algorithmAdapterImplemented": false,
+      "officialValidationExecuted": false,
+      "linuxCXX20HeaderCompileAndRun": true,
+      "compilerVersion": "13.3.0",
+      "architecture": "x86_64",
+      "developmentImageID": "sha256:0edd34048e2d34ad058196f9e3692885bc20bc6a1cf2929450131bdebcd2fde1",
+      "hostExecution": "Linux amd64 emulation on Apple Silicon; no NIST timing claim",
+      "targetQualificationOS": "NIST Ubuntu 24.04.3; development container OS recorded separately in linux-toolchain.log"
+    },
+    "runtimeLockSHA256": "6c892bb9757907d4b9b0a76ef6c1f4bc67aab5fc8d3e3ac6b1bf4ae7c3827486",
+    "rawDataLocation": "External owner-authorized workbench; no samples/private index/model artifacts in SDK Git history",
+    "scope": "Toolchain and sample preparation; no trained face model or official NIST validation produced"
+  }
+}

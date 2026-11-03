@@ -1,0 +1,56 @@
+{
+  "date": "2026-10-16",
+  "scope": "Local scaffold QA; no capture/inference implementation or installed-device acceptance",
+  "guardGroups": [
+    {
+      "gate": "upstream-self-tests",
+      "passed": true
+    },
+    {
+      "gate": "guard-regressions",
+      "passed": true
+    },
+    {
+      "gate": "boundaries",
+      "passed": true
+    },
+    {
+      "gate": "lock-integrity",
+      "passed": true
+    },
+    {
+      "gate": "capability-guards",
+      "passed": true
+    }
+  ],
+  "additionalGuardRegressionTests": 28,
+  "upstreamSelfTests": "passed unchanged SDK adversarial suite",
+  "swiftTests": "1 executed, 0 failures; invokes QA runner; no skipped missing-script fallback",
+  "nativeBuilds": [
+    "macOS",
+    "iOS device unsigned",
+    "iOS simulator",
+    "Android debug AAR"
+  ],
+  "publicAPIComparisons": [
+    "macos",
+    "ios-device",
+    "ios-simulator",
+    "android"
+  ],
+  "negativeCompilerAPICheck": "Modified Android API snapshot was refused by javap-derived comparison, then restored",
+  "androidUnitTask": "NO-SOURCE; no behavior implementation yet",
+  "androidLint": "0 errors, 1 advisory for available Gradle update; 8.14.3 deliberately pinned",
+  "aarPackagingGuard": "passed",
+  "guardInputSHA256": {
+    "Gates/boundary_gates.py": "0554b66b610c3303155dfae22e8065b5fecf7d7fe796d786691b769525bda646",
+    "Gates/capability_guards.py": "d559b9b9e6269fb677ccc986e8d40fc0ca1e2b7b3433206a5812020c9be650bc",
+    "Gates/config.json": "1253c507f8fa0c85e679e0d8a82a0f9f4c561660e685b4cf9320c84f4dcc4e40",
+    "Gates/import-provenance.json": "8e33f5a7bb5a6f9eba17e0252830ad20f842bdc4a05ebac913b8bf3d587eb1d6",
+    "Gates/tests/test_guards.py": "eaeb4f50be6189dcd89378be919dd69e2f231269ef3f703c4c8e6f441bce7a99",
+    "Gates/upstream/boundary_gates.py": "4e807a8f75fc8ed528bb2874b42044f866b046548b57768c47a67ac8cea90209"
+  },
+  "package": "KenshikiBiometricSDK / BiometricSDK / com.kenshikilabs.biometric",
+  "localFullRunLog": ".build/quality/biometric-full-check.log",
+  "aarSHA256": "5e37fc763af0c6daead1942d14ef919c5fd3a14f24c1cb1e7c8963b60b28edb7"
+}

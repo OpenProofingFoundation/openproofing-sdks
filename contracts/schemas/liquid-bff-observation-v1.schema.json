@@ -1,0 +1,439 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://schemas.kenshiki.dev/contracts/liquid-bff-observation-v1.schema.json",
+  "title": "PROPOSED Liquid BFF image-pair interpretation v1, profile v2",
+  "description": "Bounded model-generated interpretation of exact source-bound images: quality, visible supporting/limiting details and static selfie indicators. No overall match, liveness, confidence or identity verdict. Supersedes unpublished report/triage drafts; constrained decoding is not yet integrated or qualified.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "model",
+    "context",
+    "execution",
+    "status"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "const": 1
+    },
+    "model": {
+      "const": "liquid"
+    },
+    "context": {
+      "$ref": "face-comparison-bff-common-v1.schema.json#/$defs/context"
+    },
+    "execution": {
+      "allOf": [
+        {
+          "$ref": "face-comparison-bff-common-v1.schema.json#/$defs/execution"
+        },
+        {
+          "type": "object",
+          "required": [
+            "promptSHA256",
+            "inputSHA256",
+            "promptContractSHA256",
+            "responseSchemaSHA256"
+          ],
+          "properties": {
+            "profileId": {
+              "const": "lfm25-vl16b-affine4-g64-mlx-pair-interpretation-v2"
+            },
+            "artifactSHA256": {
+              "const": "bf86cc6b16e4f6a870336d5e0ebad0c5cf1d63214efef8efeb8b9655174b3913"
+            },
+            "promptSHA256": {
+              "const": "d430c1e210df56628384d00598c83f66bcc8d3ef986b559e848a95a9d58a158d"
+            },
+            "runtime": {
+              "properties": {
+                "name": {
+                  "const": "mlx-swift-lm"
+                },
+                "version": {
+                  "const": "bb0d5b048f02e14dbf8f2d7bb1a20911a295470a"
+                }
+              }
+            },
+            "inputSHA256": {
+              "type": "string",
+              "minLength": 64,
+              "maxLength": 64,
+              "pattern": "^[0-9a-f]{64}(?![\\s\\S])"
+            },
+            "promptContractSHA256": {
+              "type": "string",
+              "minLength": 64,
+              "maxLength": 64,
+              "pattern": "^[0-9a-f]{64}(?![\\s\\S])"
+            },
+            "responseSchemaSHA256": {
+              "const": "a985a2a909b3ac2e69b10ba118a897ee714f92e2318fd4ea5c2ceb938febff4d"
+            }
+          }
+        }
+      ]
+    },
+    "status": {
+      "enum": [
+        "completed",
+        "failed",
+        "unavailable"
+      ]
+    },
+    "observation": {
+      "$ref": "#/$defs/observation"
+    },
+    "failure": {
+      "$ref": "face-comparison-bff-common-v1.schema.json#/$defs/failure"
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "status": {
+            "const": "completed"
+          }
+        }
+      },
+      "then": {
+        "required": [
+          "observation"
+        ],
+        "not": {
+          "required": [
+            "failure"
+          ]
+        },
+        "properties": {
+          "execution": {
+            "properties": {
+              "runtime": {
+                "properties": {
+                  "platform": {
+                    "const": "ios"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "else": {
+        "required": [
+          "failure"
+        ],
+        "not": {
+          "required": [
+            "observation"
+          ]
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "status": {
+            "const": "failed"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "failure": {
+            "allOf": [
+              {
+                "$ref": "face-comparison-bff-common-v1.schema.json#/$defs/failure"
+              },
+              {
+                "oneOf": [
+                  {
+                    "properties": {
+                      "code": {
+                        "const": "invalid_image"
+                      },
+                      "stage": {
+                        "const": "input_validation"
+                      }
+                    }
+                  },
+                  {
+                    "properties": {
+                      "code": {
+                        "const": "resource_limit"
+                      },
+                      "stage": {
+                        "const": "input_validation"
+                      }
+                    }
+                  },
+                  {
+                    "properties": {
+                      "code": {
+                        "const": "source_mismatch"
+                      },
+                      "stage": {
+                        "const": "input_validation"
+                      }
+                    }
+                  },
+                  {
+                    "properties": {
+                      "code": {
+                        "const": "model_mismatch"
+                      },
+                      "stage": {
+                        "const": "artifact_verification"
+                      }
+                    }
+                  },
+                  {
+                    "properties": {
+                      "code": {
+                        "const": "invalid_output"
+                      },
+                      "stage": {
+                        "const": "output_validation"
+                      }
+                    }
+                  },
+                  {
+                    "properties": {
+                      "code": {
+                        "const": "engine"
+                      },
+                      "stage": {
+                        "const": "inference"
+                      }
+                    }
+                  },
+                  {
+                    "properties": {
+                      "code": {
+                        "const": "cancelled"
+                      },
+                      "stage": {
+                        "const": "input_validation"
+                      }
+                    }
+                  },
+                  {
+                    "properties": {
+                      "code": {
+                        "const": "cancelled"
+                      },
+                      "stage": {
+                        "const": "artifact_verification"
+                      }
+                    }
+                  },
+                  {
+                    "properties": {
+                      "code": {
+                        "const": "cancelled"
+                      },
+                      "stage": {
+                        "const": "runtime"
+                      }
+                    }
+                  },
+                  {
+                    "properties": {
+                      "code": {
+                        "const": "cancelled"
+                      },
+                      "stage": {
+                        "const": "inference"
+                      }
+                    }
+                  },
+                  {
+                    "properties": {
+                      "code": {
+                        "const": "cancelled"
+                      },
+                      "stage": {
+                        "const": "output_validation"
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "status": {
+            "const": "unavailable"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "failure": {
+            "allOf": [
+              {
+                "$ref": "face-comparison-bff-common-v1.schema.json#/$defs/failure"
+              },
+              {
+                "oneOf": [
+                  {
+                    "properties": {
+                      "code": {
+                        "const": "model_unavailable"
+                      },
+                      "stage": {
+                        "const": "artifact_verification"
+                      }
+                    }
+                  },
+                  {
+                    "properties": {
+                      "code": {
+                        "const": "runtime_unavailable"
+                      },
+                      "stage": {
+                        "const": "runtime"
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      }
+    }
+  ],
+  "$defs": {
+    "plan": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "schemaVersion",
+        "model",
+        "artifactSHA256",
+        "artifactManifestSHA256",
+        "profileId",
+        "promptSHA256",
+        "generation",
+        "language",
+        "promptContractSHA256",
+        "responseSchemaSHA256"
+      ],
+      "properties": {
+        "schemaVersion": {
+          "const": 1
+        },
+        "model": {
+          "const": "liquid"
+        },
+        "artifactSHA256": {
+          "const": "bf86cc6b16e4f6a870336d5e0ebad0c5cf1d63214efef8efeb8b9655174b3913"
+        },
+        "artifactManifestSHA256": {
+          "const": "fc976071d9be3480281b07fdace453a18ca919c4360d81f7e35c7b27089f5606"
+        },
+        "profileId": {
+          "const": "lfm25-vl16b-affine4-g64-mlx-pair-interpretation-v2"
+        },
+        "promptSHA256": {
+          "const": "d430c1e210df56628384d00598c83f66bcc8d3ef986b559e848a95a9d58a158d"
+        },
+        "generation": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "temperature",
+            "topP",
+            "topK",
+            "minP",
+            "repetitionPenalty",
+            "repetitionContextSize",
+            "presencePenalty",
+            "presenceContextSize",
+            "frequencyPenalty",
+            "frequencyContextSize",
+            "seed",
+            "maxNewTokens",
+            "maxOutputBytes"
+          ],
+          "properties": {
+            "temperature": {
+              "const": 0
+            },
+            "topP": {
+              "const": 1
+            },
+            "topK": {
+              "const": 0
+            },
+            "minP": {
+              "const": 0
+            },
+            "repetitionPenalty": {
+              "const": null
+            },
+            "repetitionContextSize": {
+              "const": 20
+            },
+            "presencePenalty": {
+              "const": null
+            },
+            "presenceContextSize": {
+              "const": 20
+            },
+            "frequencyPenalty": {
+              "const": null
+            },
+            "frequencyContextSize": {
+              "const": 20
+            },
+            "seed": {
+              "const": null
+            },
+            "maxNewTokens": {
+              "const": 2048
+            },
+            "maxOutputBytes": {
+              "const": 16384
+            }
+          }
+        },
+        "language": {
+          "const": "en"
+        },
+        "promptContractSHA256": {
+          "type": "string",
+          "minLength": 64,
+          "maxLength": 64,
+          "pattern": "^[0-9a-f]{64}(?![\\s\\S])"
+        },
+        "responseSchemaSHA256": {
+          "const": "a985a2a909b3ac2e69b10ba118a897ee714f92e2318fd4ea5c2ceb938febff4d"
+        }
+      }
+    },
+    "observation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "language",
+        "report"
+      ],
+      "properties": {
+        "language": {
+          "const": "en"
+        },
+        "report": {
+          "$ref": "liquid-prompt-output-v2.schema.json"
+        }
+      }
+    }
+  }
+}

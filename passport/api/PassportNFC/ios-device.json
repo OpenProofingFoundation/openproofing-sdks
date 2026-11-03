@@ -1,0 +1,81 @@
+{
+  "relationships": [
+    {
+      "kind": "conformsTo",
+      "source": "s:11PassportNFC0A10ChipReaderC",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11PassportNFC0A10ChipReaderC",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11PassportNFC0A10ChipReaderC12AvailabilityO",
+      "target": "s:SH"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11PassportNFC0A10ChipReaderC12AvailabilityO",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11PassportNFC0A10ChipReaderC12AvailabilityO",
+      "target": "s:SY"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11PassportNFC0A10ChipReaderC12AvailabilityO",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11PassportNFC0A10ChipReaderC12AvailabilityO",
+      "target": "s:s8SendableP"
+    }
+  ],
+  "symbols": [
+    {
+      "declaration": "@MainActor final class PassportChipReader",
+      "id": "s:11PassportNFC0A10ChipReaderC",
+      "kind": "swift.class"
+    },
+    {
+      "declaration": "enum Availability",
+      "id": "s:11PassportNFC0A10ChipReaderC12AvailabilityO",
+      "kind": "swift.enum"
+    },
+    {
+      "declaration": "case unavailable",
+      "id": "s:11PassportNFC0A10ChipReaderC12AvailabilityO11unavailableyA2EmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "init?(rawValue: String)",
+      "id": "s:11PassportNFC0A10ChipReaderC12AvailabilityO8rawValueAESgSS_tcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "case available",
+      "id": "s:11PassportNFC0A10ChipReaderC12AvailabilityO9availableyA2EmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "@MainActor static var availability: PassportChipReader.Availability { get }",
+      "id": "s:11PassportNFC0A10ChipReaderC12availabilityAC12AvailabilityOvpZ",
+      "kind": "swift.type.property"
+    },
+    {
+      "declaration": "@MainActor init(trustAnchorsURL: URL)",
+      "id": "s:11PassportNFC0A10ChipReaderC15trustAnchorsURLAC10Foundation0G0V_tcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "@MainActor func read(accessKey: PassportAccessKey, challenge: Data?, chipAuthenticationTerminal: (@Sendable (Data) async throws -> PassportChipAuthenticationChallenge)? = nil, displayMessage: @escaping @Sendable (PassportReadEvent) -> String, onEvent: @escaping @Sendable (PassportReadEvent) -> Void = { _ in }) async throws -> PassportReadObservation",
+      "id": "s:11PassportNFC0A10ChipReaderC4read9accessKey9challenge26chipAuthenticationTerminal14displayMessage7onEvent0A3SDK0A15ReadObservationVAJ0a6AccessG0V_10Foundation4DataVSgAJ0acJ9ChallengeVAQYaYbKcSgSSAJ0aqO0OYbcyAWYbctYaKF",
+      "kind": "swift.method"
+    }
+  ]
+}

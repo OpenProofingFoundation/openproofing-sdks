@@ -1,0 +1,15 @@
+{
+  "capability": "passport",
+  "swiftModule": "PassportSDK",
+  "androidModule": "passport-sdk",
+  "androidPackage": "com.kenshikilabs.passport",
+  "outcomeType": "PassportCheckOutcome",
+  "outcomes": [
+    "pass",
+    "fail",
+    "inconclusive",
+    "unavailable",
+    "unsupported",
+    "not_performed"
+  ]
+}

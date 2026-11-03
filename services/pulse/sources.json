@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "rootManifestSHA256": "57d03da1c4cb057fc5643d202fb5a8c186f6bbe31e46fd68f3c013721d3a43f8",
+  "sources": {
+    "services/pulse/Sources/KenshikiPulsePassport/PulseAppAttestAssertion.swift": "vendor-adapter",
+    "services/pulse/Sources/KenshikiPulsePassport/PulseNativeAttestation.swift": "vendor-adapter",
+    "services/pulse/Sources/KenshikiPulsePassport/PulsePassportAcceptance.swift": "vendor-adapter",
+    "services/pulse/Sources/KenshikiPulsePassport/PulsePassportCheckProjection.swift": "vendor-adapter",
+    "services/pulse/Sources/KenshikiPulsePassport/PulsePassportClient.swift": "vendor-adapter",
+    "services/pulse/Sources/KenshikiPulsePassport/PulsePassportDiagnostic.swift": "vendor-adapter",
+    "services/pulse/Sources/KenshikiPulsePassport/PulsePassportHTTPFailure.swift": "vendor-adapter",
+    "services/pulse/Sources/KenshikiPulsePassport/PulsePassportPreparationFailure.swift": "vendor-adapter",
+    "services/pulse/Sources/KenshikiPulsePassport/PulsePassportRegistration.swift": "vendor-adapter",
+    "services/pulse/Sources/KenshikiPulsePassport/PulsePassportRegistrationTypes.swift": "vendor-adapter",
+    "services/pulse/Sources/KenshikiPulsePassport/PulsePassportService.swift": "vendor-adapter",
+    "services/pulse/Sources/KenshikiPulsePassport/PulsePassportSessionState.swift": "vendor-adapter",
+    "services/pulse/Sources/KenshikiPulsePassport/PulsePassportTypes.swift": "vendor-adapter",
+    "services/pulse/Sources/KenshikiPulsePassport/PulsePassportValidationReport.swift": "vendor-adapter",
+    "services/pulse/Sources/KenshikiPulsePassport/PulsePassportWire.swift": "vendor-adapter",
+    "services/pulse/Sources/KenshikiPulsePassport/PulseRegistrationAttestationRetry.swift": "vendor-adapter",
+    "services/pulse/Sources/KenshikiPulsePassport/PulseRegistrationRecovery.swift": "vendor-adapter",
+    "services/pulse/Tests/KenshikiPulsePassportTests/PulsePassportCheckProjectionTests.swift": "test",
+    "services/pulse/Tests/KenshikiPulsePassportTests/PulsePassportPreparationFailureTests.swift": "test",
+    "services/pulse/Tests/KenshikiPulsePassportTests/PulsePassportRegistrationTests.swift": "test",
+    "services/pulse/Tests/KenshikiPulsePassportTests/PulsePassportServiceTests.swift": "test",
+    "services/pulse/Tests/KenshikiPulsePassportTests/PulsePassportSessionStateTests.swift": "test"
+  }
+}

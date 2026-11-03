@@ -1,0 +1,14 @@
+{
+  "originHash" : "1053a6a3380b4172d064387c08791a142a0deba86655b43699a534d2da35ea65",
+  "pins" : [
+    {
+      "identity" : "openssl-package",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/krzyzanowskim/OpenSSL-Package.git",
+      "state" : {
+        "revision" : "71dbe0b4514cdaad95961470db72e8231f5943a6"
+      }
+    }
+  ],
+  "version" : 3
+}

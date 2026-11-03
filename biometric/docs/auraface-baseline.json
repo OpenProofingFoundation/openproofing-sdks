@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 1,
+  "status": "owner_selected_development_baseline",
+  "selectionDate": "2026-10-17",
+  "task": "face_identity_embedding",
+  "repository": "fal/AuraFace-v1",
+  "revision": "af6d057c9b0ec4071d4c49c80e3539258798b609",
+  "declaredLicense": "apache-2.0",
+  "files": [
+    {
+      "file": "README.md",
+      "bytes": 3959,
+      "sha256": "106272348689716d3c159ff16ec42e5f36aafebca591b3678b375f8aa2d12cde",
+      "publisherLFS_SHA256": null,
+      "sourceURL": "https://huggingface.co/fal/AuraFace-v1/resolve/af6d057c9b0ec4071d4c49c80e3539258798b609/README.md"
+    },
+    {
+      "file": "LICENSE.md",
+      "bytes": 12624,
+      "sha256": "609e2cb599f84aaa41d8ef29d8fdb04d164fab22e8d9292ca34a599d0f56a338",
+      "publisherLFS_SHA256": null,
+      "sourceURL": "https://huggingface.co/fal/AuraFace-v1/resolve/af6d057c9b0ec4071d4c49c80e3539258798b609/LICENSE.md"
+    },
+    {
+      "file": "glintr100.onnx",
+      "bytes": 260694151,
+      "sha256": "a7933ea5330113b01c9b60351d8f4c33003f145d8470ac5f0e52ee2effe25c60",
+      "publisherLFS_SHA256": "a7933ea5330113b01c9b60351d8f4c33003f145d8470ac5f0e52ee2effe25c60",
+      "sourceURL": "https://huggingface.co/fal/AuraFace-v1/resolve/af6d057c9b0ec4071d4c49c80e3539258798b609/glintr100.onnx"
+    }
+  ],
+  "externalWorkbenchRelativePath": "models/auraface-v1/af6d057c9b0ec4071d4c49c80e3539258798b609",
+  "downloadedUTC": "2026-10-17T22:39:59Z",
+  "downloadedAuxiliaryModels": false,
+  "inspection": {
+    "scope": "Graph inspection and CPU inference on a synthetic numeric tensor; no image preprocessing, face accuracy, model tuning, native integration or FRTE performance claim",
+    "revision": "af6d057c9b0ec4071d4c49c80e3539258798b609",
+    "weightSHA256": "a7933ea5330113b01c9b60351d8f4c33003f145d8470ac5f0e52ee2effe25c60",
+    "onnxVersion": "1.18.0",
+    "onnxruntimeVersion": "1.22.0",
+    "inputs": [
+      {
+        "name": "data",
+        "shape": [
+          "None",
+          3,
+          112,
+          112
+        ],
+        "elementType": 1
+      }
+    ],
+    "outputs": [
+      {
+        "name": "1333",
+        "shape": [
+          1,
+          512
+        ],
+        "elementType": 1
+      }
+    ],
+    "opsets": [
+      {
+        "domain": "",
+        "version": 11
+      }
+    ],
+    "firstOperators": [
+      "Conv",
+      "PRelu",
+      "BatchNormalization",
+      "Conv",
+      "PRelu",
+      "Conv",
+      "Conv",
+      "Add"
+    ],
+    "externalTensorData": false,
+    "onnxCheckerPassed": true,
+    "runtimeProvider": "CPUExecutionProvider",
+    "intraOpThreads": 1,
+    "interOpThreads": 1,
+    "syntheticOutputFinite": true,
+    "syntheticRawFeatureNorm": 8.874710889312595,
+    "syntheticOutputSHA256": "e0f40dcd72782b0a9231471629dd2b0e94998bfaa2b0cee1010d2361c39d0d18",
+    "repeatBitIdentical": true,
+    "singleSmokeSecondsNotBenchmark": 0.25563220799085684,
+    "passed": true
+  },
+  "preprocessingQualified": false,
+  "trainableCheckpointAvailable": false,
+  "trainableCheckpointStatus": "Pinned public release contains ONNX inference artifacts; no trainable checkpoint obtained",
+  "USDevelopmentTrainingAndDataVerified": false,
+  "releaseQualified": false,
+  "fineTuningExecuted": false,
+  "frteRecognitionEvaluationExecuted": false,
+  "scope": "Face-embedding development baseline. Does not select a detector, alignment, restoration, or shared face/document PAD model.",
+  "alignedRGBPreprocessingExperiment": "auraface-parity-experiment.json",
+  "cppLinuxInferenceExperimentPassed": true,
+  "cppAlignedInputAdapterImplemented": true,
+  "alignedInputProfileImplemented": true,
+  "mobileInferenceImplemented": false,
+  "adapterValidation": "auraface-inference-validation.json"
+}

@@ -1,0 +1,18 @@
+{
+  "contract": "kenshiki.sensor_measurement_window.v1",
+  "cases": [
+    {"id": "measured_zero", "kind": "sample", "value": 0, "time": 0, "start": 0, "end": 1, "accepted": true},
+    {"id": "half_open_end", "kind": "sample", "value": 1, "time": 1, "start": 0, "end": 1, "accepted": false},
+    {"id": "before_start", "kind": "sample", "value": 1, "time": -0.01, "start": 0, "end": 1, "accepted": false},
+    {"id": "explicit_partial", "kind": "state", "state": "partial", "hasSample": true, "hasOmission": true, "accepted": true},
+    {"id": "partial_requires_omission", "kind": "state", "state": "partial", "hasSample": true, "hasOmission": false, "accepted": false},
+    {"id": "unavailable_requires_reason", "kind": "state", "state": "unavailable", "hasSample": false, "hasOmission": false, "accepted": false},
+    {"id": "unavailable_is_not_zero", "kind": "state", "state": "unavailable", "hasSample": false, "hasOmission": true, "accepted": true},
+    {"id": "observed_requires_sample", "kind": "state", "state": "observed", "hasSample": false, "hasOmission": false, "accepted": false},
+    {"id": "correlation_uncertainty", "kind": "correlation", "uncertainty": 0.002, "accepted": true},
+    {"id": "negative_uncertainty", "kind": "correlation", "uncertainty": -0.001, "accepted": false},
+    {"id": "acceleration_in_g", "kind": "descriptor", "quantity": "acceleration", "unit": "standardGravity", "gravity": "excluded", "accepted": true},
+    {"id": "unit_substitution", "kind": "descriptor", "quantity": "acceleration", "unit": "radiansPerSecond", "gravity": "excluded", "accepted": false},
+    {"id": "gravity_must_be_declared", "kind": "descriptor", "quantity": "acceleration", "unit": "standardGravity", "gravity": "notApplicable", "accepted": false}
+  ]
+}

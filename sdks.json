@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "products": {
+    "document": {
+      "path": "document",
+      "version": "0.0.0",
+      "status": "scaffold",
+      "swiftProduct": "DocumentSDK",
+      "androidModule": "document-sdk",
+      "dependencies": []
+    },
+    "passport": {
+      "path": "passport",
+      "version": "0.0.0",
+      "status": "scaffold",
+      "swiftProduct": "PassportSDK",
+      "androidModule": "passport-sdk",
+      "dependencies": []
+    },
+    "biometric": {
+      "path": "biometric",
+      "version": "0.0.0",
+      "status": "primitives-and-workbench",
+      "swiftProduct": "BiometricSDK",
+      "androidModule": "biometric-sdk",
+      "dependencies": []
+    }
+  },
+  "sharedRoots": [
+    "foundation",
+    "contracts",
+    "design-system",
+    "governance"
+  ],
+  "releasePolicy": "Independent product versions and release tags; shared changes validate all consumers. No release automation or package publication enabled."
+}

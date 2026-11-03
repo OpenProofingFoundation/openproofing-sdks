@@ -1,0 +1,866 @@
+{
+  "relationships": [
+    {
+      "kind": "conformsTo",
+      "source": "c:@M@DocumentCapturePreview@objc(cs)DocumentCameraPreviewView",
+      "target": "c:objc(pl)CALayerDelegate"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "c:@M@DocumentCapturePreview@objc(cs)DocumentCameraPreviewView",
+      "target": "c:objc(pl)NSCoding"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "c:@M@DocumentCapturePreview@objc(cs)DocumentCameraPreviewView",
+      "target": "c:objc(pl)NSObject"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "c:@M@DocumentCapturePreview@objc(cs)DocumentCameraPreviewView",
+      "target": "c:objc(pl)UIAccessibilityIdentification"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "c:@M@DocumentCapturePreview@objc(cs)DocumentCameraPreviewView",
+      "target": "c:objc(pl)UIActivityItemsConfigurationProviding"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "c:@M@DocumentCapturePreview@objc(cs)DocumentCameraPreviewView",
+      "target": "c:objc(pl)UIAppearance"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "c:@M@DocumentCapturePreview@objc(cs)DocumentCameraPreviewView",
+      "target": "c:objc(pl)UIAppearanceContainer"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "c:@M@DocumentCapturePreview@objc(cs)DocumentCameraPreviewView",
+      "target": "c:objc(pl)UICoordinateSpace"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "c:@M@DocumentCapturePreview@objc(cs)DocumentCameraPreviewView",
+      "target": "c:objc(pl)UIDynamicItem"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "c:@M@DocumentCapturePreview@objc(cs)DocumentCameraPreviewView",
+      "target": "c:objc(pl)UIFocusEnvironment"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "c:@M@DocumentCapturePreview@objc(cs)DocumentCameraPreviewView",
+      "target": "c:objc(pl)UIFocusItem"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "c:@M@DocumentCapturePreview@objc(cs)DocumentCameraPreviewView",
+      "target": "c:objc(pl)UIFocusItemContainer"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "c:@M@DocumentCapturePreview@objc(cs)DocumentCameraPreviewView",
+      "target": "c:objc(pl)UILargeContentViewerItem"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "c:@M@DocumentCapturePreview@objc(cs)DocumentCameraPreviewView",
+      "target": "c:objc(pl)UIPasteConfigurationSupporting"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "c:@M@DocumentCapturePreview@objc(cs)DocumentCameraPreviewView",
+      "target": "c:objc(pl)UIPopoverPresentationControllerSourceItem"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "c:@M@DocumentCapturePreview@objc(cs)DocumentCameraPreviewView",
+      "target": "c:objc(pl)UIResponderStandardEditActions"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "c:@M@DocumentCapturePreview@objc(cs)DocumentCameraPreviewView",
+      "target": "c:objc(pl)UITraitEnvironment"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "c:@M@DocumentCapturePreview@objc(cs)DocumentCameraPreviewView",
+      "target": "c:objc(pl)UIUserActivityRestoring"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "c:@M@DocumentCapturePreview@objc(cs)DocumentCameraPreviewView",
+      "target": "s:5UIKit23UITraitChangeObservableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "c:@M@DocumentCapturePreview@objc(cs)DocumentCameraPreviewView",
+      "target": "s:SH"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "c:@M@DocumentCapturePreview@objc(cs)DocumentCameraPreviewView",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "c:@M@DocumentCapturePreview@objc(cs)DocumentCameraPreviewView",
+      "target": "s:s23CustomStringConvertibleP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "c:@M@DocumentCapturePreview@objc(cs)DocumentCameraPreviewView",
+      "target": "s:s28CustomDebugStringConvertibleP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "c:@M@DocumentCapturePreview@objc(cs)DocumentCameraPreviewView",
+      "target": "s:s7CVarArgP"
+    },
+    {
+      "kind": "inheritsFrom",
+      "source": "c:@M@DocumentCapturePreview@objc(cs)DocumentCameraPreviewView",
+      "target": "c:objc(cs)UIView"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "c:@M@DocumentCapturePreview@objc(cs)DocumentFrontCaptureView",
+      "target": "c:objc(pl)CALayerDelegate"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "c:@M@DocumentCapturePreview@objc(cs)DocumentFrontCaptureView",
+      "target": "c:objc(pl)NSCoding"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "c:@M@DocumentCapturePreview@objc(cs)DocumentFrontCaptureView",
+      "target": "c:objc(pl)NSObject"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "c:@M@DocumentCapturePreview@objc(cs)DocumentFrontCaptureView",
+      "target": "c:objc(pl)UIAccessibilityIdentification"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "c:@M@DocumentCapturePreview@objc(cs)DocumentFrontCaptureView",
+      "target": "c:objc(pl)UIActivityItemsConfigurationProviding"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "c:@M@DocumentCapturePreview@objc(cs)DocumentFrontCaptureView",
+      "target": "c:objc(pl)UIAppearance"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "c:@M@DocumentCapturePreview@objc(cs)DocumentFrontCaptureView",
+      "target": "c:objc(pl)UIAppearanceContainer"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "c:@M@DocumentCapturePreview@objc(cs)DocumentFrontCaptureView",
+      "target": "c:objc(pl)UICoordinateSpace"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "c:@M@DocumentCapturePreview@objc(cs)DocumentFrontCaptureView",
+      "target": "c:objc(pl)UIDynamicItem"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "c:@M@DocumentCapturePreview@objc(cs)DocumentFrontCaptureView",
+      "target": "c:objc(pl)UIFocusEnvironment"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "c:@M@DocumentCapturePreview@objc(cs)DocumentFrontCaptureView",
+      "target": "c:objc(pl)UIFocusItem"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "c:@M@DocumentCapturePreview@objc(cs)DocumentFrontCaptureView",
+      "target": "c:objc(pl)UIFocusItemContainer"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "c:@M@DocumentCapturePreview@objc(cs)DocumentFrontCaptureView",
+      "target": "c:objc(pl)UILargeContentViewerItem"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "c:@M@DocumentCapturePreview@objc(cs)DocumentFrontCaptureView",
+      "target": "c:objc(pl)UIPasteConfigurationSupporting"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "c:@M@DocumentCapturePreview@objc(cs)DocumentFrontCaptureView",
+      "target": "c:objc(pl)UIPopoverPresentationControllerSourceItem"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "c:@M@DocumentCapturePreview@objc(cs)DocumentFrontCaptureView",
+      "target": "c:objc(pl)UIResponderStandardEditActions"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "c:@M@DocumentCapturePreview@objc(cs)DocumentFrontCaptureView",
+      "target": "c:objc(pl)UITraitEnvironment"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "c:@M@DocumentCapturePreview@objc(cs)DocumentFrontCaptureView",
+      "target": "c:objc(pl)UIUserActivityRestoring"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "c:@M@DocumentCapturePreview@objc(cs)DocumentFrontCaptureView",
+      "target": "s:5UIKit23UITraitChangeObservableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "c:@M@DocumentCapturePreview@objc(cs)DocumentFrontCaptureView",
+      "target": "s:SH"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "c:@M@DocumentCapturePreview@objc(cs)DocumentFrontCaptureView",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "c:@M@DocumentCapturePreview@objc(cs)DocumentFrontCaptureView",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "c:@M@DocumentCapturePreview@objc(cs)DocumentFrontCaptureView",
+      "target": "s:s23CustomStringConvertibleP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "c:@M@DocumentCapturePreview@objc(cs)DocumentFrontCaptureView",
+      "target": "s:s28CustomDebugStringConvertibleP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "c:@M@DocumentCapturePreview@objc(cs)DocumentFrontCaptureView",
+      "target": "s:s7CVarArgP"
+    },
+    {
+      "kind": "inheritsFrom",
+      "source": "c:@M@DocumentCapturePreview@objc(cs)DocumentFrontCaptureView",
+      "target": "c:objc(cs)UIView"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:22DocumentCapturePreview0A10LevelStateV",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:22DocumentCapturePreview0A10LevelStateV",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:22DocumentCapturePreview0A10LevelStateV",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:22DocumentCapturePreview0A10LevelStateV4ToneO",
+      "target": "s:SH"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:22DocumentCapturePreview0A10LevelStateV4ToneO",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:22DocumentCapturePreview0A10LevelStateV4ToneO",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:22DocumentCapturePreview0A10LevelStateV4ToneO",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:22DocumentCapturePreview0A11GuideColorsV",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:22DocumentCapturePreview0A11GuideColorsV",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:22DocumentCapturePreview0A16CameraGuideStyleO",
+      "target": "s:SH"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:22DocumentCapturePreview0A16CameraGuideStyleO",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:22DocumentCapturePreview0A16CameraGuideStyleO",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:22DocumentCapturePreview0A16CameraGuideStyleO",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:22DocumentCapturePreview0A17LevelPresentationO",
+      "target": "s:11DocumentSDK18CalibrationProfileP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:22DocumentCapturePreview0A17LevelPresentationO",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:22DocumentCapturePreview0A17LevelPresentationO",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:22DocumentCapturePreview0a5FrontB5StateV",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:22DocumentCapturePreview0a5FrontB5StateV",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:22DocumentCapturePreview0a5FrontB5StateV",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:22DocumentCapturePreview0a5FrontB5StyleV",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:22DocumentCapturePreview0a5FrontB5StyleV",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:22DocumentCapturePreview0a5FrontB6IntentO",
+      "target": "s:SH"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:22DocumentCapturePreview0a5FrontB6IntentO",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:22DocumentCapturePreview0a5FrontB6IntentO",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:22DocumentCapturePreview0a5FrontB6IntentO",
+      "target": "s:s8SendableP"
+    }
+  ],
+  "symbols": [
+    {
+      "declaration": "@MainActor final class DocumentCameraPreviewView",
+      "id": "c:@M@DocumentCapturePreview@objc(cs)DocumentCameraPreviewView",
+      "kind": "swift.class"
+    },
+    {
+      "declaration": "@MainActor override class var layerClass: AnyClass { get }",
+      "id": "c:@M@DocumentCapturePreview@objc(cs)DocumentCameraPreviewView(cpy)layerClass",
+      "kind": "swift.type.property"
+    },
+    {
+      "declaration": "@MainActor override func didMoveToWindow()",
+      "id": "c:@M@DocumentCapturePreview@objc(cs)DocumentCameraPreviewView(im)didMoveToWindow",
+      "kind": "swift.method"
+    },
+    {
+      "declaration": "@MainActor override func layoutSubviews()",
+      "id": "c:@M@DocumentCapturePreview@objc(cs)DocumentCameraPreviewView(im)layoutSubviews",
+      "kind": "swift.method"
+    },
+    {
+      "declaration": "@MainActor override func safeAreaInsetsDidChange()",
+      "id": "c:@M@DocumentCapturePreview@objc(cs)DocumentCameraPreviewView(im)safeAreaInsetsDidChange",
+      "kind": "swift.method"
+    },
+    {
+      "declaration": "@MainActor final class DocumentFrontCaptureView",
+      "id": "c:@M@DocumentCapturePreview@objc(cs)DocumentFrontCaptureView",
+      "kind": "swift.class"
+    },
+    {
+      "declaration": "struct DocumentLevelState",
+      "id": "s:22DocumentCapturePreview0A10LevelStateV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "static let unavailable: DocumentLevelState",
+      "id": "s:22DocumentCapturePreview0A10LevelStateV11unavailableACvpZ",
+      "kind": "swift.type.property"
+    },
+    {
+      "declaration": "enum Tone",
+      "id": "s:22DocumentCapturePreview0A10LevelStateV4ToneO",
+      "kind": "swift.enum"
+    },
+    {
+      "declaration": "case unavailable",
+      "id": "s:22DocumentCapturePreview0A10LevelStateV4ToneO11unavailableyA2EmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case tilted",
+      "id": "s:22DocumentCapturePreview0A10LevelStateV4ToneO6tiltedyA2EmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case warning",
+      "id": "s:22DocumentCapturePreview0A10LevelStateV4ToneO7warningyA2EmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case centered",
+      "id": "s:22DocumentCapturePreview0A10LevelStateV4ToneO8centeredyA2EmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "let tone: DocumentLevelState.Tone",
+      "id": "s:22DocumentCapturePreview0A10LevelStateV4toneAC4ToneOvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "init(offset: CGSize?, tone: DocumentLevelState.Tone)",
+      "id": "s:22DocumentCapturePreview0A10LevelStateV6offset4toneACSo6CGSizeVSg_AC4ToneOtcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "let offset: CGSize?",
+      "id": "s:22DocumentCapturePreview0A10LevelStateV6offsetSo6CGSizeVSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "struct DocumentGuideColors",
+      "id": "s:22DocumentCapturePreview0A11GuideColorsV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "var ready: UIColor",
+      "id": "s:22DocumentCapturePreview0A11GuideColorsV5readySo7UIColorCvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "var failed: UIColor",
+      "id": "s:22DocumentCapturePreview0A11GuideColorsV6failedSo7UIColorCvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "init(seeking: UIColor = .white, ready: UIColor = .systemGreen, failed: UIColor = .systemRed)",
+      "id": "s:22DocumentCapturePreview0A11GuideColorsV7seeking5ready6failedACSo7UIColorC_A2Htcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "var seeking: UIColor",
+      "id": "s:22DocumentCapturePreview0A11GuideColorsV7seekingSo7UIColorCvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "enum DocumentCameraGuideStyle",
+      "id": "s:22DocumentCapturePreview0A16CameraGuideStyleO",
+      "kind": "swift.enum"
+    },
+    {
+      "declaration": "case pdf417",
+      "id": "s:22DocumentCapturePreview0A16CameraGuideStyleO6pdf417yA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case document",
+      "id": "s:22DocumentCapturePreview0A16CameraGuideStyleO8documentyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "enum DocumentLevelPresentation",
+      "id": "s:22DocumentCapturePreview0A17LevelPresentationO",
+      "kind": "swift.enum"
+    },
+    {
+      "declaration": "static let calibrationStatus: String",
+      "id": "s:22DocumentCapturePreview0A17LevelPresentationO17calibrationStatusSSvpZ",
+      "kind": "swift.type.property"
+    },
+    {
+      "declaration": "static let profileIdentifier: String",
+      "id": "s:22DocumentCapturePreview0A17LevelPresentationO17profileIdentifierSSvpZ",
+      "kind": "swift.type.property"
+    },
+    {
+      "declaration": "static let populationDescription: String",
+      "id": "s:22DocumentCapturePreview0A17LevelPresentationO21populationDescriptionSSvpZ",
+      "kind": "swift.type.property"
+    },
+    {
+      "declaration": "static func state(sample: DocumentTemporalMotionSample?, uptime: Double) -> DocumentLevelState",
+      "id": "s:22DocumentCapturePreview0A17LevelPresentationO5state6sample6uptimeAA0aD5StateV0aB5Apple0A20TemporalMotionSampleVSg_SdtFZ",
+      "kind": "swift.type.method"
+    },
+    {
+      "declaration": "@MainActor func apply(_ state: DocumentFrontCaptureState)",
+      "id": "s:22DocumentCapturePreview0a5FrontB4ViewC5applyyyAA0adB5StateVF",
+      "kind": "swift.method"
+    },
+    {
+      "declaration": "@MainActor init(preview: DocumentCameraPreviewView, style: DocumentFrontCaptureStyle, emit: @escaping (DocumentFrontCaptureIntent) -> Void)",
+      "id": "s:22DocumentCapturePreview0a5FrontB4ViewC7preview5style4emitAcA0a6CameracE0C_AA0adB5StyleVyAA0adB6IntentOctcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "@MainActor let preview: DocumentCameraPreviewView",
+      "id": "s:22DocumentCapturePreview0a5FrontB4ViewC7previewAA0a6CameracE0Cvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "struct DocumentFrontCaptureState",
+      "id": "s:22DocumentCapturePreview0a5FrontB5StateV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "let cancelTitle: String",
+      "id": "s:22DocumentCapturePreview0a5FrontB5StateV11cancelTitleSSvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let instruction: String",
+      "id": "s:22DocumentCapturePreview0a5FrontB5StateV11instructionSSvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let captureTitle: String",
+      "id": "s:22DocumentCapturePreview0a5FrontB5StateV12captureTitleSSvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let captureEnabled: Bool",
+      "id": "s:22DocumentCapturePreview0a5FrontB5StateV14captureEnabledSbvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let levelAccessibilityLabel: String",
+      "id": "s:22DocumentCapturePreview0a5FrontB5StateV23levelAccessibilityLabelSSvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let levelAccessibilityValue: String",
+      "id": "s:22DocumentCapturePreview0a5FrontB5StateV23levelAccessibilityValueSSvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let previewAccessibilityLabel: String",
+      "id": "s:22DocumentCapturePreview0a5FrontB5StateV25previewAccessibilityLabelSSvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let busy: Bool",
+      "id": "s:22DocumentCapturePreview0a5FrontB5StateV4busySbvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let level: DocumentLevelState",
+      "id": "s:22DocumentCapturePreview0a5FrontB5StateV5levelAA0a5LevelE0Vvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let status: String",
+      "id": "s:22DocumentCapturePreview0a5FrontB5StateV6statusSSvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "init(heading: String, instruction: String, status: String, captureTitle: String, cancelTitle: String, previewAccessibilityLabel: String, levelAccessibilityLabel: String, levelAccessibilityValue: String, level: DocumentLevelState, captureEnabled: Bool, busy: Bool, showLevel: Bool)",
+      "id": "s:22DocumentCapturePreview0a5FrontB5StateV7heading11instruction6status12captureTitle06cancelJ025previewAccessibilityLabel05levelmN00oM5Value0O00I7Enabled4busy9showLevelACSS_S7SAA0atE0VS3btcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "let heading: String",
+      "id": "s:22DocumentCapturePreview0a5FrontB5StateV7headingSSvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let showLevel: Bool",
+      "id": "s:22DocumentCapturePreview0a5FrontB5StateV9showLevelSbvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "@MainActor struct DocumentFrontCaptureStyle",
+      "id": "s:22DocumentCapturePreview0a5FrontB5StyleV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "struct Fonts",
+      "id": "s:22DocumentCapturePreview0a5FrontB5StyleV5FontsV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "let body: UIFont",
+      "id": "s:22DocumentCapturePreview0a5FrontB5StyleV5FontsV4bodySo6UIFontCvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let action: UIFont",
+      "id": "s:22DocumentCapturePreview0a5FrontB5StyleV5FontsV6actionSo6UIFontCvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let status: UIFont",
+      "id": "s:22DocumentCapturePreview0a5FrontB5StyleV5FontsV6statusSo6UIFontCvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "init(heading: UIFont, body: UIFont, status: UIFont, action: UIFont)",
+      "id": "s:22DocumentCapturePreview0a5FrontB5StyleV5FontsV7heading4body6status6actionAESo6UIFontC_A3Ktcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "let heading: UIFont",
+      "id": "s:22DocumentCapturePreview0a5FrontB5StyleV5FontsV7headingSo6UIFontCvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "@MainActor init(fonts: DocumentFrontCaptureStyle.Fonts, colors: DocumentFrontCaptureStyle.Colors, layout: DocumentFrontCaptureStyle.Layout)",
+      "id": "s:22DocumentCapturePreview0a5FrontB5StyleV5fonts6colors6layoutA2C5FontsV_AC6ColorsVAC6LayoutVtcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "@MainActor let fonts: DocumentFrontCaptureStyle.Fonts",
+      "id": "s:22DocumentCapturePreview0a5FrontB5StyleV5fontsAC5FontsVvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "struct Colors",
+      "id": "s:22DocumentCapturePreview0a5FrontB5StyleV6ColorsV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "init(background: UIColor, text: UIColor, secondaryText: UIColor, previewBackground: UIColor, previewBorder: UIColor, levelBackground: UIColor, levelLine: UIColor, levelGood: UIColor, levelWarning: UIColor, levelTilted: UIColor, captureBackground: UIColor, captureForeground: UIColor, cancelForeground: UIColor)",
+      "id": "s:22DocumentCapturePreview0a5FrontB5StyleV6ColorsV10background4text13secondaryText17previewBackground0K6Border05levelL00N4Line0N4Good0N7Warning0N6Tilted07captureL00S10Foreground06cancelT0AESo7UIColorC_A12Ttcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "let background: UIColor",
+      "id": "s:22DocumentCapturePreview0a5FrontB5StyleV6ColorsV10backgroundSo7UIColorCvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let levelTilted: UIColor",
+      "id": "s:22DocumentCapturePreview0a5FrontB5StyleV6ColorsV11levelTiltedSo7UIColorCvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let levelWarning: UIColor",
+      "id": "s:22DocumentCapturePreview0a5FrontB5StyleV6ColorsV12levelWarningSo7UIColorCvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let previewBorder: UIColor",
+      "id": "s:22DocumentCapturePreview0a5FrontB5StyleV6ColorsV13previewBorderSo7UIColorCvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let secondaryText: UIColor",
+      "id": "s:22DocumentCapturePreview0a5FrontB5StyleV6ColorsV13secondaryTextSo7UIColorCvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let levelBackground: UIColor",
+      "id": "s:22DocumentCapturePreview0a5FrontB5StyleV6ColorsV15levelBackgroundSo7UIColorCvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let cancelForeground: UIColor",
+      "id": "s:22DocumentCapturePreview0a5FrontB5StyleV6ColorsV16cancelForegroundSo7UIColorCvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let captureBackground: UIColor",
+      "id": "s:22DocumentCapturePreview0a5FrontB5StyleV6ColorsV17captureBackgroundSo7UIColorCvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let captureForeground: UIColor",
+      "id": "s:22DocumentCapturePreview0a5FrontB5StyleV6ColorsV17captureForegroundSo7UIColorCvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let previewBackground: UIColor",
+      "id": "s:22DocumentCapturePreview0a5FrontB5StyleV6ColorsV17previewBackgroundSo7UIColorCvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let text: UIColor",
+      "id": "s:22DocumentCapturePreview0a5FrontB5StyleV6ColorsV4textSo7UIColorCvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let levelGood: UIColor",
+      "id": "s:22DocumentCapturePreview0a5FrontB5StyleV6ColorsV9levelGoodSo7UIColorCvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let levelLine: UIColor",
+      "id": "s:22DocumentCapturePreview0a5FrontB5StyleV6ColorsV9levelLineSo7UIColorCvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "struct Layout",
+      "id": "s:22DocumentCapturePreview0a5FrontB5StyleV6LayoutV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "let borderWidth: CGFloat",
+      "id": "s:22DocumentCapturePreview0a5FrontB5StyleV6LayoutV11borderWidth14CoreFoundation7CGFloatVvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let levelTravel: CGFloat",
+      "id": "s:22DocumentCapturePreview0a5FrontB5StyleV6LayoutV11levelTravel14CoreFoundation7CGFloatVvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let controlHeight: CGFloat",
+      "id": "s:22DocumentCapturePreview0a5FrontB5StyleV6LayoutV13controlHeight14CoreFoundation7CGFloatVvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let levelDiameter: CGFloat",
+      "id": "s:22DocumentCapturePreview0a5FrontB5StyleV6LayoutV13levelDiameter14CoreFoundation7CGFloatVvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let sectionSpacing: CGFloat",
+      "id": "s:22DocumentCapturePreview0a5FrontB5StyleV6LayoutV14sectionSpacing14CoreFoundation7CGFloatVvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let guidanceSpacing: CGFloat",
+      "id": "s:22DocumentCapturePreview0a5FrontB5StyleV6LayoutV15guidanceSpacing14CoreFoundation7CGFloatVvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let levelInnerDiameter: CGFloat",
+      "id": "s:22DocumentCapturePreview0a5FrontB5StyleV6LayoutV18levelInnerDiameter14CoreFoundation7CGFloatVvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let previewAspectRatio: CGFloat",
+      "id": "s:22DocumentCapturePreview0a5FrontB5StyleV6LayoutV18previewAspectRatio14CoreFoundation7CGFloatVvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let controlCornerRadius: CGFloat",
+      "id": "s:22DocumentCapturePreview0a5FrontB5StyleV6LayoutV19controlCornerRadius14CoreFoundation7CGFloatVvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let levelBubbleDiameter: CGFloat",
+      "id": "s:22DocumentCapturePreview0a5FrontB5StyleV6LayoutV19levelBubbleDiameter14CoreFoundation7CGFloatVvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let previewCornerRadius: CGFloat",
+      "id": "s:22DocumentCapturePreview0a5FrontB5StyleV6LayoutV19previewCornerRadius14CoreFoundation7CGFloatVvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let statusMinimumHeight: CGFloat",
+      "id": "s:22DocumentCapturePreview0a5FrontB5StyleV6LayoutV19statusMinimumHeight14CoreFoundation7CGFloatVvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let levelCrosshairLength: CGFloat",
+      "id": "s:22DocumentCapturePreview0a5FrontB5StyleV6LayoutV20levelCrosshairLength14CoreFoundation7CGFloatVvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "init(insets: NSDirectionalEdgeInsets, sectionSpacing: CGFloat, guidanceSpacing: CGFloat, previewAspectRatio: CGFloat, previewCornerRadius: CGFloat, borderWidth: CGFloat, levelDiameter: CGFloat, levelTravel: CGFloat, levelInnerDiameter: CGFloat, levelBubbleDiameter: CGFloat, levelCrosshairLength: CGFloat, controlHeight: CGFloat, controlCornerRadius: CGFloat, statusMinimumHeight: CGFloat)",
+      "id": "s:22DocumentCapturePreview0a5FrontB5StyleV6LayoutV6insets14sectionSpacing08guidanceI018previewAspectRatio0K12CornerRadius11borderWidth13levelDiameter0R6Travel0r5InnerS00r6BubbleS00R15CrosshairLength13controlHeight0ynO0013statusMinimumZ0AESo23NSDirectionalEdgeInsetsV_14CoreFoundation7CGFloatVA12Xtcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "let insets: NSDirectionalEdgeInsets",
+      "id": "s:22DocumentCapturePreview0a5FrontB5StyleV6LayoutV6insetsSo23NSDirectionalEdgeInsetsVvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "@MainActor let colors: DocumentFrontCaptureStyle.Colors",
+      "id": "s:22DocumentCapturePreview0a5FrontB5StyleV6colorsAC6ColorsVvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "@MainActor let layout: DocumentFrontCaptureStyle.Layout",
+      "id": "s:22DocumentCapturePreview0a5FrontB5StyleV6layoutAC6LayoutVvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "enum DocumentFrontCaptureIntent",
+      "id": "s:22DocumentCapturePreview0a5FrontB6IntentO",
+      "kind": "swift.enum"
+    },
+    {
+      "declaration": "case cancel",
+      "id": "s:22DocumentCapturePreview0a5FrontB6IntentO6cancelyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case capture",
+      "id": "s:22DocumentCapturePreview0a5FrontB6IntentO7captureyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "@MainActor var guideStyle: DocumentCameraGuideStyle { get set }",
+      "id": "s:22DocumentCapturePreview0a6CameraC4ViewC10guideStyleAA0ad5GuideG0Ovp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "@MainActor var guideColors: DocumentGuideColors { get set }",
+      "id": "s:22DocumentCapturePreview0a6CameraC4ViewC11guideColorsAA0a5GuideG0Vvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "@MainActor var pdf417VeilColor: UIColor { get set }",
+      "id": "s:22DocumentCapturePreview0a6CameraC4ViewC15pdf417VeilColorSo7UIColorCvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "@MainActor convenience init(previewProvider: any DocumentCameraPreviewProviding)",
+      "id": "s:22DocumentCapturePreview0a6CameraC4ViewC15previewProviderAC0aB5Apple0adC9Providing_p_tcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "@MainActor var pdf417GuideCornerRadius: CGFloat { get set }",
+      "id": "s:22DocumentCapturePreview0a6CameraC4ViewC23pdf417GuideCornerRadius14CoreFoundation7CGFloatVvp",
+      "kind": "swift.property"
+    }
+  ]
+}

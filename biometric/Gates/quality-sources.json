@@ -1,0 +1,9 @@
+{
+  "cpp/quality/include/ofiq_native.h": "48b564cf44640ebe2245e53dd3350a24cd955829ab0f7155c0afc0a0731d746f",
+  "cpp/quality/ofiq_bridge.cpp": "08d04d4a06e3b8907d7b3d498ea776c7400012f8bf36ec66d6ecaa0ace88d040",
+  "quality-apple/Package.swift": "50dd8721ce6d79e18134604579cc26167ba714a1bb35b6a44ea89802e19a3be5",
+  "quality-apple/Sources/BiometricQuality/OFIQFaceQuality.swift": "fbdc549f0636b633b4f692bacf3c2251887c6c49ff77289457d6ff4e68d49a99",
+  "quality-apple/Tests/QualityTests/OFIQFaceQualityTests.swift": "791169a2eb45aba8d92d8de22c563d77c8a97d41949a483d89738baa1afe767f",
+  "tools/native_quality/build.py": "4b5b3434510baea484a7b74dc8119f503c4dce9d8d09452a4f99524705437bee",
+  "tools/native_quality/profile.json": "154433c5e66cfb80f8bd1fdf91b92c4aa212c6eea3c9ea1624bbca3b4a8e4557"
+}

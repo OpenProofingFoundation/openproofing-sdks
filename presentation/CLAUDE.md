@@ -1,0 +1,1 @@
+Follow [AGENTS.md](AGENTS.md), [root guidance](../AGENTS.md) and [APP-ARCH-001 revision 0.2](../governance/architecture/APP-ARCH-001.md). These are the shared authority for this optional presentation module.

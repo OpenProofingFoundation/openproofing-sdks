@@ -1,0 +1,23 @@
+{
+  "repository": "https://github.com/opencv/opencv_contrib",
+  "version": "4.12.0",
+  "commit": "d943e1d61c8bc556a13783e1546ee7c1a9e0b1cf",
+  "files": {
+    "edge_drawing.cpp": {
+      "upstreamPath": "modules/ximgproc/src/edge_drawing.cpp",
+      "sha256": "1c7defe4ac8c3b79d26d8654bc8b4543ad2751c3c451db9cf3f5086c7ec2997d"
+    },
+    "edge_drawing_common.hpp": {
+      "upstreamPath": "modules/ximgproc/src/edge_drawing_common.hpp",
+      "sha256": "171c579ce83922415a526e93f3ccccc5ac2dd9ed742fcd6ef6115157657e982c"
+    },
+    "opencv2/ximgproc/edge_drawing.hpp": {
+      "upstreamPath": "modules/ximgproc/include/opencv2/ximgproc/edge_drawing.hpp",
+      "sha256": "1f6b627c3e9f3a308c210fefc9ab968d05297e607f0d6a8e7a741740bd444f1e"
+    },
+    "LICENSE": {
+      "upstreamPath": "LICENSE",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    }
+  }
+}

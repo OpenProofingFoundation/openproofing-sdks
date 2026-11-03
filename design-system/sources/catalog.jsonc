@@ -1,0 +1,2385 @@
+// Authored native workflow and capture copy.
+{
+  "schemaVersion": 1,
+  "baseLocale": "en",
+  "supportedLocales": [
+    "en"
+  ],
+  "fallbacks": {
+    "en": [
+      "en"
+    ]
+  },
+  "messages": {
+    "document.back.instruction": {"text": "Turn the card over and place its PDF417 barcode inside the guide. Hold still for automatic capture.", "context": "Live back-side PDF417 acquisition in the iOS SDK reference app; optical decoding is not issuing-state verification.", "arguments": {}},
+    "document.front.instruction": {"text": "Place the front of your licence or state ID in the guide. Capture is automatic when the image is ready.", "context": "Shared native front capture guidance; level is advisory and optical capture is not identity verification.", "arguments": {}},
+    "document.front.cancel": {"text": "Cancel capture", "context": "Shared native front capture guidance; level is advisory and optical capture is not identity verification.", "arguments": {}},
+    "document.front.capture": {"text": "Capture front now", "context": "Shared native front capture guidance; level is advisory and optical capture is not identity verification.", "arguments": {}},
+    "document.front.ready": {"text": "Hold still for automatic capture, or capture now.", "context": "Shared native front capture guidance; level is advisory and optical capture is not identity verification.", "arguments": {}},
+    "document.front.manual": {"text": "Automatic capture is unavailable. Adjust the card and capture when it is clear.", "context": "Shared native front capture guidance; level is advisory and optical capture is not identity verification.", "arguments": {}},
+    "document.front.level.label": {"text": "Phone level", "context": "Shared native front capture guidance; level is advisory and optical capture is not identity verification.", "arguments": {}},
+    "document.front.level.unavailable": {"text": "Level unavailable. Use the camera guide.", "context": "Shared native front capture guidance; level is advisory and optical capture is not identity verification.", "arguments": {}},
+    "document.front.level.centered": {"text": "Phone is level. This is positioning guidance only.", "context": "Shared native front capture guidance; level is advisory and optical capture is not identity verification.", "arguments": {}},
+    "document.front.level.warning": {"text": "Phone is slightly tilted. Keep it parallel to the card.", "context": "Shared native front capture guidance; level is advisory and optical capture is not identity verification.", "arguments": {}},
+    "document.front.level.tilted": {"text": "Phone is tilted. Keep it parallel to the card.", "context": "Shared native front capture guidance; level is advisory and optical capture is not identity verification.", "arguments": {}},
+    "document.front.quality.documentNotFound": {"text": "Place the whole card inside the guide.", "context": "Shared native front capture guidance; level is advisory and optical capture is not identity verification.", "arguments": {}},
+    "document.front.quality.guideUnavailable": {"text": "Position the card inside the camera guide.", "context": "Shared native front capture guidance; level is advisory and optical capture is not identity verification.", "arguments": {}},
+    "document.front.quality.alignWithGuide": {"text": "Align the card with the guide.", "context": "Shared native front capture guidance; level is advisory and optical capture is not identity verification.", "arguments": {}},
+    "document.front.quality.moveCloser": {"text": "Move closer to the card.", "context": "Shared native front capture guidance; level is advisory and optical capture is not identity verification.", "arguments": {}},
+    "document.front.quality.moveFartherAway": {"text": "Move farther away from the card.", "context": "Shared native front capture guidance; level is advisory and optical capture is not identity verification.", "arguments": {}},
+    "document.front.quality.tooDark": {"text": "Add more light.", "context": "Shared native front capture guidance; level is advisory and optical capture is not identity verification.", "arguments": {}},
+    "document.front.quality.tooBright": {"text": "Reduce the light on the card.", "context": "Shared native front capture guidance; level is advisory and optical capture is not identity verification.", "arguments": {}},
+    "document.front.quality.glare": {"text": "Tilt the card slightly to reduce glare.", "context": "Shared native front capture guidance; level is advisory and optical capture is not identity verification.", "arguments": {}},
+    "document.front.quality.holdSteady": {"text": "Hold the phone steady.", "context": "Shared native front capture guidance; level is advisory and optical capture is not identity verification.", "arguments": {}},
+    "document.front.quality.softFocus": {"text": "Keep the card still while the camera focuses.", "context": "Shared native front capture guidance; level is advisory and optical capture is not identity verification.", "arguments": {}},
+    "document.front.quality.stabilizing": {"text": "Hold still while the image settles.", "context": "Shared native front capture guidance; level is advisory and optical capture is not identity verification.", "arguments": {}},
+    "document.front.quality.cameraAdjusting": {"text": "The camera is adjusting. Hold still.", "context": "Shared native front capture guidance; level is advisory and optical capture is not identity verification.", "arguments": {}},
+    "document.saved.open": {"text": "Open saved capture", "context": "Local saved optical capture in the iOS SDK app; restoration is historical evidence, not document or identity verification.", "arguments": {}},
+    "document.saved.reset": {"text": "Close this attempt", "context": "Local saved optical capture in the iOS SDK app; restoration is historical evidence, not document or identity verification.", "arguments": {}},
+    "document.saved.saving": {"text": "Saving the processed image and observations on this device…", "context": "Local saved optical capture in the iOS SDK app; restoration is historical evidence, not document or identity verification.", "arguments": {}},
+    "document.saved.restoring": {"text": "Opening and checking the saved capture…", "context": "Local saved optical capture in the iOS SDK app; restoration is historical evidence, not document or identity verification.", "arguments": {}},
+    "document.saved.deleting": {"text": "Deleting the saved capture from this device…", "context": "Local saved optical capture in the iOS SDK app; restoration is historical evidence, not document or identity verification.", "arguments": {}},
+    "document.saved.review": {"text": "Saved on this device. Review the images and observations below.", "context": "Local saved optical capture in the iOS SDK app; restoration is historical evidence, not document or identity verification.", "arguments": {}},
+    "document.saved.restored": {"text": "Reopened the saved capture. These are retained images and observations, not a new scan.", "context": "Local saved optical capture in the iOS SDK app; restoration is historical evidence, not document or identity verification.", "arguments": {}},
+    "document.saved.scanBack": {"text": "Scan back", "context": "Local saved optical capture in the iOS SDK app; restoration is historical evidence, not document or identity verification.", "arguments": {}},
+    "document.saved.retrySave": {"text": "Retry saving", "context": "Local saved optical capture in the iOS SDK app; restoration is historical evidence, not document or identity verification.", "arguments": {}},
+    "document.saved.failure.save": {"text": "Saving did not finish. Retry without taking another photo, or open the last saved capture.", "context": "Local saved optical capture in the iOS SDK app; restoration is historical evidence, not document or identity verification.", "arguments": {}},
+    "document.saved.failure.read": {"text": "The saved capture could not be opened or verified. Try opening it again, or explicitly delete it. It has not been replaced.", "context": "Local saved optical capture in the iOS SDK app; restoration is historical evidence, not document or identity verification.", "arguments": {}},
+    "document.saved.failure.delete": {"text": "Deletion did not finish. Retry deleting the saved capture. Do not assume it has been removed.", "context": "Local saved optical capture in the iOS SDK app; restoration is historical evidence, not document or identity verification.", "arguments": {}},
+    "document.saved.missing": {"text": "There is no saved document capture on this device. Start a new capture when you are ready.", "context": "Local saved optical capture in the iOS SDK app; restoration is historical evidence, not document or identity verification.", "arguments": {}},
+    "document.saved.delete": {"text": "Delete saved capture", "context": "Local saved optical capture in the iOS SDK app; restoration is historical evidence, not document or identity verification.", "arguments": {}},
+    "document.saved.delete.title": {"text": "Delete the saved document capture?", "context": "Local saved optical capture in the iOS SDK app; restoration is historical evidence, not document or identity verification.", "arguments": {}},
+    "document.saved.delete.body": {"text": "This removes the saved document images and observations from this device. This cannot be undone.", "context": "Local saved optical capture in the iOS SDK app; restoration is historical evidence, not document or identity verification.", "arguments": {}},
+    "document.saved.delete.cancel": {"text": "Keep saved capture", "context": "Local saved optical capture in the iOS SDK app; restoration is historical evidence, not document or identity verification.", "arguments": {}},
+    "document.saved.scope": {"text": "After processing each side, its images and observations are encrypted and signed on this device. Closing this attempt clears the screen, not the saved capture. This scan does not verify the document or identity.", "context": "Local saved optical capture in the iOS SDK app; restoration is historical evidence, not document or identity verification.", "arguments": {}},
+    "document.live.fields": {"text": "Barcode fields", "context": "Parsed PDF417 observations in the iOS SDK app; not document verification.", "arguments": {}},
+    "document.live.title": {"text":"Scan a licence or state ID","context":"Live iOS SDK document capture and review; Android remains simulated.","arguments":{}},
+    "document.live.intro": {"text":"Capture both sides, then review the images, text, barcode and portrait. Allow camera access when you are ready.","context":"Live iOS SDK document capture and review; Android remains simulated.","arguments":{}},
+    "document.live.start": {"text":"Start document capture","context":"Live iOS SDK document capture and review; Android remains simulated.","arguments":{}},
+    "document.live.starting": {"text":"Starting the camera…","context":"Live iOS SDK document capture and review; Android remains simulated.","arguments":{}},
+    "document.live.align": {"text":"Place the whole card inside the guide, avoid glare, and capture when the text is sharp.","context":"Live iOS SDK document capture and review; Android remains simulated.","arguments":{}},
+    "document.live.capture": {"text":"Capture this side","context":"Live iOS SDK document capture and review; Android remains simulated.","arguments":{}},
+    "document.live.reset": {"text":"Clear and start again","context":"Live iOS SDK document capture and review; Android remains simulated.","arguments":{}},
+    "document.live.processing": {"text":"Processing the image","context":"Live iOS SDK document capture and review; Android remains simulated.","arguments":{}},
+    "document.live.processing.body": {"text":"Preparing the card image and reading its text and barcode…","context":"Live iOS SDK document capture and review; Android remains simulated.","arguments":{}},
+    "document.live.review": {"text":"Check both sides below. Retake either side if needed.","context":"Live iOS SDK document capture and review; Android remains simulated.","arguments":{}},
+    "document.live.retakeFront": {"text":"Retake front","context":"Live iOS SDK document capture and review; Android remains simulated.","arguments":{}},
+    "document.live.retakeBack": {"text":"Retake back","context":"Live iOS SDK document capture and review; Android remains simulated.","arguments":{}},
+    "document.live.failure": {"text":"Capture needs attention","context":"Live iOS SDK document capture and review; Android remains simulated.","arguments":{}},
+    "document.live.failure.camera": {"text":"The camera could not start. Check camera permission and try again.","context":"Live iOS SDK document capture and review; Android remains simulated.","arguments":{}},
+    "document.live.failure.source": {"text":"The image and its processing record did not match. Clear this attempt and capture again.","context":"Live iOS SDK document capture and review; Android remains simulated.","arguments":{}},
+    "document.live.failure.preparation": {"text":"The card could not be prepared. Clear this attempt, keep the whole card inside the guide and capture again.","context":"Live iOS SDK document capture and review; Android remains simulated.","arguments":{}},
+    "document.live.failure.processing": {"text":"Processing did not finish. Clear this attempt and capture again.","context":"Live iOS SDK document capture and review; Android remains simulated.","arguments":{}},
+    "document.live.preview": {"text":"Live document camera with a card framing guide","context":"Live iOS SDK document capture and review; Android remains simulated.","arguments":{}},
+    "document.live.scope": {"text":"Images stay in memory and are cleared when you leave or background this screen. This scan does not verify the document or identity.","context":"Live iOS SDK document capture and review; Android remains simulated.","arguments":{}},
+    "document.front.original": {"text":"Front original","context":"Live iOS SDK document capture and review; Android remains simulated.","arguments":{}},
+    "document.front.prepared": {"text":"Front prepared card image","context":"Live iOS SDK document capture and review; Android remains simulated.","arguments":{}},
+    "document.back.original": {"text":"Back original","context":"Live iOS SDK document capture and review; Android remains simulated.","arguments":{}},
+    "document.back.prepared": {"text":"Back prepared card image","context":"Live iOS SDK document capture and review; Android remains simulated.","arguments":{}},
+    "document.live.text": {"text":"Recognized text","context":"Live iOS SDK document capture and review; Android remains simulated.","arguments":{}},
+    "document.live.barcode": {"text":"PDF417 barcode contents","context":"Live iOS SDK document capture and review; Android remains simulated.","arguments":{}},
+    "document.live.portrait": {"text":"Portrait candidate","context":"Live iOS SDK document capture and review; Android remains simulated.","arguments":{}},
+    "document.live.portrait.empty": {"text":"No portrait candidate was found.","context":"Live iOS SDK document capture and review; Android remains simulated.","arguments":{}},
+    "document.live.portrait.scope": {"text":"A detected face region; check it against the card.","context":"Live iOS SDK document capture and review; Android remains simulated.","arguments":{}},
+    "capture.selection.quality": {"text": "Assessing selfie quality…", "context": "On-device bounded capture selection: distinguish native quality, actual matcher preparation, source binding and uncalibrated policy.", "arguments": {}},
+    "capture.selection.preparation": {"text": "Checking face alignment…", "context": "On-device bounded capture selection: distinguish native quality, actual matcher preparation, source binding and uncalibrated policy.", "arguments": {}},
+    "capture.selection.selection": {"text": "Selecting a compatible frame…", "context": "On-device bounded capture selection: distinguish native quality, actual matcher preparation, source binding and uncalibrated policy.", "arguments": {}},
+    "capture.selection.progressSeparator": {"text": " / ", "context": "On-device bounded capture selection: distinguish native quality, actual matcher preparation, source binding and uncalibrated policy.", "arguments": {}},
+    "capture.selection.scope": {"text": "Several frames are checked for image quality and face alignment. The highest-quality compatible frame is selected. This development policy is uncalibrated.", "context": "On-device bounded capture selection: distinguish native quality, actual matcher preparation, source binding and uncalibrated policy.", "arguments": {}},
+    "capture.selection.failure.resources": {"text": "The selfie window exceeded the processing limits. Capture another selfie.", "context": "On-device bounded capture selection: distinguish native quality, actual matcher preparation, source binding and uncalibrated policy.", "arguments": {}},
+    "capture.selection.failure.source": {"text": "The captured image or its receipt did not match. Capture another selfie.", "context": "On-device bounded capture selection: distinguish native quality, actual matcher preparation, source binding and uncalibrated policy.", "arguments": {}},
+    "capture.selection.failure.qualityUnavailable": {"text": "The on-device quality profile is unavailable. This capture cannot be assessed.", "context": "On-device bounded capture selection: distinguish native quality, actual matcher preparation, source binding and uncalibrated policy.", "arguments": {}},
+    "capture.selection.failure.qualityFailed": {"text": "On-device quality assessment did not finish. Capture another selfie.", "context": "On-device bounded capture selection: distinguish native quality, actual matcher preparation, source binding and uncalibrated policy.", "arguments": {}},
+    "capture.selection.failure.modelUnavailable": {"text": "The face comparison model is unavailable.", "context": "On-device bounded capture selection: distinguish native quality, actual matcher preparation, source binding and uncalibrated policy.", "arguments": {}},
+    "capture.selection.failure.noSelection": {"text": "No frame could be prepared for face comparison. Capture another selfie.", "context": "On-device bounded capture selection: distinguish native quality, actual matcher preparation, source binding and uncalibrated policy.", "arguments": {}},
+    "telemetry.selection.policy": {"text": "Frame selection policy", "context": "On-device bounded capture selection: distinguish native quality, actual matcher preparation, source binding and uncalibrated policy.", "arguments": {}},
+    "telemetry.selection.candidates": {"text": "Captured candidates", "context": "On-device bounded capture selection: distinguish native quality, actual matcher preparation, source binding and uncalibrated policy.", "arguments": {}},
+    "telemetry.selection.selectedCaptureID": {"text": "Selected capture", "context": "On-device bounded capture selection: distinguish native quality, actual matcher preparation, source binding and uncalibrated policy.", "arguments": {}},
+    "telemetry.selection.selectedAlignedSHA256": {"text": "Selected aligned image SHA-256", "context": "On-device bounded capture selection: distinguish native quality, actual matcher preparation, source binding and uncalibrated policy.", "arguments": {}},
+    "telemetry.selection.qualityArtifactSHA256": {"text": "OFIQ profile SHA-256", "context": "On-device bounded capture selection: distinguish native quality, actual matcher preparation, source binding and uncalibrated policy.", "arguments": {}},
+    "telemetry.selection.index": {"text": "Selected frame number", "context": "On-device bounded capture selection: distinguish native quality, actual matcher preparation, source binding and uncalibrated policy.", "arguments": {}},
+    "telemetry.selection.nativeUQS": {"text": "Selected native UQS", "context": "On-device bounded capture selection: distinguish native quality, actual matcher preparation, source binding and uncalibrated policy.", "arguments": {}},
+    "passport.server.receiptID": {"text": "Server receipt", "context": "Public Worker response receipt identifier for the failed attempt, never a private holder capability.", "arguments": {}},
+    "passport.server.failed": {"text": "Not verified by Pulse", "context": "Actual failed Worker verdict; never replace a server refusal with local success.", "arguments": {}},
+    "passport.server.failureReason": {"text": "Server reason", "context": "Recorded bounded server failure classification.", "arguments": {}},
+    "passport.server.receivedAt": {"text": "Response received at", "context": "Time the failed verification response arrived; not a verified-at time.", "arguments": {}},
+    "passport.server.origin": {"text": "Service origin", "context": "Service origin bound to this exact failed verification attempt.", "arguments": {}},
+    "passport.server.installation": {"text": "Installation", "context": "Installation identifier bound to this failed verification attempt; never a bearer or private holder token.", "arguments": {}},
+    "passport.server.session": {"text": "Session", "context": "Session identifier for this failed verification attempt.", "arguments": {}},
+    "passport.server.nonce": {"text": "Nonce", "context": "Nonce identifier for this failed verification attempt; not the secret nonce bytes.", "arguments": {}},
+    "passport.nfc.readingPrefix": {"text": "Reading", "context": "Concise CoreNFC sheet prefix; actual group and localized percentage are reader-supplied data.", "arguments": {}},
+    "passport.nfc.authenticatingPrefix": {"text": "Authenticating passport", "context": "Concise CoreNFC sheet prefix; actual group and localized percentage are reader-supplied data.", "arguments": {}},
+    "passport.server.historical": {"text": "Historical Pulse verification", "context": "Recorded server passport verification; reuse preserves its original time and does not prove a fresh chip read.", "arguments": {}},
+    "passport.server.validator": {"text": "Validator", "context": "Recorded server passport verification; reuse preserves its original time and does not prove a fresh chip read.", "arguments": {}},
+    "passport.server.verifiedAt": {"text": "Verified at", "context": "Recorded server passport verification; reuse preserves its original time and does not prove a fresh chip read.", "arguments": {}},
+    "passport.nfc.complete": {"text": "Chip read complete", "context": "Server-backed passport verification; distinguish remote verification from local authentication and unavailable results.", "arguments": {}},
+    "passport.server.preparing": {"text": "Preparing secure passport check…", "context": "Server-backed passport verification; distinguish remote verification from local authentication and unavailable results.", "arguments": {}},
+    "passport.server.verifying": {"text": "Verifying passport chip proof with Pulse…", "context": "Server-backed passport verification; distinguish remote verification from local authentication and unavailable results.", "arguments": {}},
+    "passport.server.title": {"text": "Pulse chip verification", "context": "Server-backed passport verification; distinguish remote verification from local authentication and unavailable results.", "arguments": {}},
+    "passport.server.status": {"text": "Server verification", "context": "Server-backed passport verification; distinguish remote verification from local authentication and unavailable results.", "arguments": {}},
+    "passport.server.verified": {"text": "Verified by Pulse", "context": "Server-backed passport verification; distinguish remote verification from local authentication and unavailable results.", "arguments": {}},
+    "passport.server.ca": {"text": "Server Chip Authentication", "context": "Server-backed passport verification; distinguish remote verification from local authentication and unavailable results.", "arguments": {}},
+    "passport.server.aa": {"text": "Server Active Authentication", "context": "Server-backed passport verification; distinguish remote verification from local authentication and unavailable results.", "arguments": {}},
+    "passport.server.sod": {"text": "Signed passport data", "context": "Actual recorded Worker check of the passport security object's signature.", "arguments": {}},
+    "passport.server.dsc": {"text": "Document signing certificate", "context": "Actual recorded Worker check of the document signing certificate.", "arguments": {}},
+    "passport.server.csca": {"text": "Government trust chain", "context": "Actual recorded Worker check against the issuing government's passport trust anchor.", "arguments": {}},
+    "passport.server.hashes": {"text": "Submitted data-group hashes", "context": "Worker checks only the data groups submitted for server verification; the original portrait stays on device.", "arguments": {}},
+    "passport.server.crl": {"text": "Certificate revocation", "context": "Actual recorded Worker check of issuer certificate revocation information.", "arguments": {}},
+    "passport.server.expiry": {"text": "Passport expiry", "context": "Actual recorded Worker check of expiry; missing historical information remains unknown.", "arguments": {}},
+    "passport.server.assurance": {"text": "Verification scope", "context": "Distinguish a verified passive passport signature and trust chain from performed chip authentication.", "arguments": {}},
+    "passport.server.trustVersion": {"text": "Trust bundle version", "context": "Detailed recorded server trust-bundle version, not a fresh trust lookup.", "arguments": {}},
+    "passport.server.trustManifest": {"text": "Trust manifest digest", "context": "Detailed recorded digest of the server's signed trust manifest.", "arguments": {}},
+    "passport.server.reportUnavailable": {"text": "Detailed checks were not recorded for this saved result.", "context": "Historical results without detailed server fields must not invent verification checks.", "arguments": {}},
+    "passport.server.assurance.chipAuthenticated": {"text": "Passport signature and chip authentication verified", "context": "Recorded server assurance includes actual successful active or chip authentication.", "arguments": {}},
+    "passport.server.assurance.passive": {"text": "Passport signature and trust chain verified", "context": "Recorded passive authentication; does not imply that optional active or chip authentication was performed.", "arguments": {}},
+    "passport.server.assurance.unverified": {"text": "Unverified", "context": "Recorded server assurance does not establish passport verification.", "arguments": {}},
+    "passport.server.failure.configuration": {"text": "Secure passport verification is not configured. Contact the app provider.", "context": "Server-backed passport verification; distinguish remote verification from local authentication and unavailable results.", "arguments": {}},
+    "passport.server.failure.registration": {"text": "This installation could not be registered for secure passport verification. Try again.", "context": "Server-backed passport verification; distinguish remote verification from local authentication and unavailable results.", "arguments": {}},
+    "passport.server.failure.expired": {"text": "The passport challenge expired. Read the chip again.", "context": "Server-backed passport verification; distinguish remote verification from local authentication and unavailable results.", "arguments": {}},
+    "passport.server.failure.unsupportedChip": {"text": "The server does not support this chip’s authentication protocol.", "context": "Server-backed passport verification; distinguish remote verification from local authentication and unavailable results.", "arguments": {}},
+    "passport.server.failure.rejected": {"text": "Pulse could not verify this passport chip proof. Read the chip again.", "context": "Server-backed passport verification; distinguish remote verification from local authentication and unavailable results.", "arguments": {}},
+    "passport.server.failure.unavailable": {"text": "Secure passport verification is unavailable. Try again.", "context": "Server-backed passport verification; distinguish remote verification from local authentication and unavailable results.", "arguments": {}},
+    "telemetry.workflowMotion.workflowID": {"text": "Recorded workflow ID", "context": "Full-workflow recorded motion ranges, explicit coverage and missing evidence; no identity or liveness verdict.", "arguments": {}},
+    "telemetry.workflowMotion.throughEventID": {"text": "Evidence boundary event ID", "context": "Full-workflow recorded motion ranges, explicit coverage and missing evidence; no identity or liveness verdict.", "arguments": {}},
+    "telemetry.workflowMotion.firstSampleAt": {"text": "First recorded motion sample", "context": "Full-workflow recorded motion ranges, explicit coverage and missing evidence; no identity or liveness verdict.", "arguments": {}},
+    "telemetry.workflowMotion.lastSampleAt": {"text": "Last recorded motion sample", "context": "Full-workflow recorded motion ranges, explicit coverage and missing evidence; no identity or liveness verdict.", "arguments": {}},
+    "telemetry.workflowMotion.events": {"text": "Persisted workflow events", "context": "Full-workflow recorded motion ranges, explicit coverage and missing evidence; no identity or liveness verdict.", "arguments": {}},
+    "telemetry.workflowMotion.windows": {"text": "Unique recorded motion windows", "context": "Full-workflow recorded motion ranges, explicit coverage and missing evidence; no identity or liveness verdict.", "arguments": {}},
+    "telemetry.workflowMotion.samples": {"text": "Unique recorded motion samples", "context": "Full-workflow recorded motion ranges, explicit coverage and missing evidence; no identity or liveness verdict.", "arguments": {}},
+    "telemetry.workflowMotion.duplicates": {"text": "Overlapping samples excluded", "context": "Full-workflow recorded motion ranges, explicit coverage and missing evidence; no identity or liveness verdict.", "arguments": {}},
+    "telemetry.workflowMotion.segments": {"text": "Recording segments (resume boundaries stay separate)", "context": "Full-workflow recorded motion ranges, explicit coverage and missing evidence; no identity or liveness verdict.", "arguments": {}},
+    "telemetry.workflowMotion.eventsWithoutMotion": {"text": "Events with no recorded motion window", "context": "Full-workflow recorded motion ranges, explicit coverage and missing evidence; no identity or liveness verdict.", "arguments": {}},
+    "telemetry.workflowMotion.magneticSamples": {"text": "Samples with magnetic magnitude", "context": "Full-workflow recorded motion ranges, explicit coverage and missing evidence; no identity or liveness verdict.", "arguments": {}},
+    "telemetry.workflowMotion.uncalibratedWindows": {"text": "Windows without majority magnetometer calibration", "context": "Full-workflow recorded motion ranges, explicit coverage and missing evidence; no identity or liveness verdict.", "arguments": {}},
+    "telemetry.workflowMotion.observedSeconds": {"text": "Observed sample intervals (seconds)", "context": "Full-workflow recorded motion ranges, explicit coverage and missing evidence; no identity or liveness verdict.", "arguments": {}},
+    "telemetry.workflowMotion.gaps": {"text": "Observed gaps within recording segments", "context": "Full-workflow recorded motion ranges, explicit coverage and missing evidence; no identity or liveness verdict.", "arguments": {}},
+    "telemetry.workflowMotion.gapSeconds": {"text": "Missing sample time within recording segments (seconds)", "context": "Full-workflow recorded motion ranges, explicit coverage and missing evidence; no identity or liveness verdict.", "arguments": {}},
+    "telemetry.workflowMotion.requestedSampleRate": {"text": "Requested sample rate range (Hz)", "context": "Full-workflow recorded motion ranges, explicit coverage and missing evidence; no identity or liveness verdict.", "arguments": {}},
+    "telemetry.workflowMotion.windowSampleCount": {"text": "Samples per stored window (range)", "context": "Full-workflow recorded motion ranges, explicit coverage and missing evidence; no identity or liveness verdict.", "arguments": {}},
+    "telemetry.workflowMotion.windowDuration": {"text": "Stored window duration range (seconds)", "context": "Full-workflow recorded motion ranges, explicit coverage and missing evidence; no identity or liveness verdict.", "arguments": {}},
+    "telemetry.workflowMotion.accelerationRMS": {"text": "Window acceleration RMS range (g)", "context": "Full-workflow recorded motion ranges, explicit coverage and missing evidence; no identity or liveness verdict.", "arguments": {}},
+    "telemetry.workflowMotion.rotationRMS": {"text": "Window rotation RMS range (rad/s)", "context": "Full-workflow recorded motion ranges, explicit coverage and missing evidence; no identity or liveness verdict.", "arguments": {}},
+    "telemetry.workflowMotion.tremorRatio": {"text": "Window 8–12 Hz power ratio range", "context": "Full-workflow recorded motion ranges, explicit coverage and missing evidence; no identity or liveness verdict.", "arguments": {}},
+    "telemetry.workflowMotion.gravityDominance": {"text": "Window gravity dominance range", "context": "Full-workflow recorded motion ranges, explicit coverage and missing evidence; no identity or liveness verdict.", "arguments": {}},
+    "telemetry.workflowMotion.gravityDrift": {"text": "Window gravity drift range (radians)", "context": "Full-workflow recorded motion ranges, explicit coverage and missing evidence; no identity or liveness verdict.", "arguments": {}},
+    "telemetry.workflowMotion.approachRMS": {"text": "Window approach RMS range (g)", "context": "Full-workflow recorded motion ranges, explicit coverage and missing evidence; no identity or liveness verdict.", "arguments": {}},
+    "telemetry.workflowMotion.settleRatio": {"text": "Window settle ratio range", "context": "Full-workflow recorded motion ranges, explicit coverage and missing evidence; no identity or liveness verdict.", "arguments": {}},
+    "telemetry.workflowMotion.magneticDelta": {"text": "Window magnetic delta range (µT)", "context": "Full-workflow recorded motion ranges, explicit coverage and missing evidence; no identity or liveness verdict.", "arguments": {}},
+    "telemetry.workflowMotion.magneticMagnitude": {"text": "Magnetic magnitude range (µT)", "context": "Full-workflow recorded motion ranges, explicit coverage and missing evidence; no identity or liveness verdict.", "arguments": {}},
+    "telemetry.workflowMotion.accelerationX": {"text": "User acceleration X range (g)", "context": "Full-workflow recorded motion ranges, explicit coverage and missing evidence; no identity or liveness verdict.", "arguments": {}},
+    "telemetry.workflowMotion.accelerationY": {"text": "User acceleration Y range (g)", "context": "Full-workflow recorded motion ranges, explicit coverage and missing evidence; no identity or liveness verdict.", "arguments": {}},
+    "telemetry.workflowMotion.accelerationZ": {"text": "User acceleration Z range (g)", "context": "Full-workflow recorded motion ranges, explicit coverage and missing evidence; no identity or liveness verdict.", "arguments": {}},
+    "telemetry.workflowMotion.accelerationMagnitude": {"text": "User acceleration magnitude range (g)", "context": "Full-workflow recorded motion ranges, explicit coverage and missing evidence; no identity or liveness verdict.", "arguments": {}},
+    "telemetry.workflowMotion.rotationX": {"text": "Rotation rate X range (rad/s)", "context": "Full-workflow recorded motion ranges, explicit coverage and missing evidence; no identity or liveness verdict.", "arguments": {}},
+    "telemetry.workflowMotion.rotationY": {"text": "Rotation rate Y range (rad/s)", "context": "Full-workflow recorded motion ranges, explicit coverage and missing evidence; no identity or liveness verdict.", "arguments": {}},
+    "telemetry.workflowMotion.rotationZ": {"text": "Rotation rate Z range (rad/s)", "context": "Full-workflow recorded motion ranges, explicit coverage and missing evidence; no identity or liveness verdict.", "arguments": {}},
+    "telemetry.workflowMotion.rotationMagnitude": {"text": "Rotation rate magnitude range (rad/s)", "context": "Full-workflow recorded motion ranges, explicit coverage and missing evidence; no identity or liveness verdict.", "arguments": {}},
+    "telemetry.workflowMotion.gravityX": {"text": "Gravity X range (g)", "context": "Full-workflow recorded motion ranges, explicit coverage and missing evidence; no identity or liveness verdict.", "arguments": {}},
+    "telemetry.workflowMotion.gravityY": {"text": "Gravity Y range (g)", "context": "Full-workflow recorded motion ranges, explicit coverage and missing evidence; no identity or liveness verdict.", "arguments": {}},
+    "telemetry.workflowMotion.gravityZ": {"text": "Gravity Z range (g)", "context": "Full-workflow recorded motion ranges, explicit coverage and missing evidence; no identity or liveness verdict.", "arguments": {}},
+    "telemetry.workflowMotion.gravityMagnitude": {"text": "Gravity magnitude range (g)", "context": "Full-workflow recorded motion ranges, explicit coverage and missing evidence; no identity or liveness verdict.", "arguments": {}},
+    "journey.result.menu": {"text": "Result actions", "context": "Reference result details and full-workflow motion observations. No identity or liveness acceptance.", "arguments": {}},
+    "journey.result.details": {"text": "Result details", "context": "Reference result details and full-workflow motion observations. No identity or liveness acceptance.", "arguments": {}},
+    "journey.details.close": {"text": "Close", "context": "Reference result details and full-workflow motion observations. No identity or liveness acceptance.", "arguments": {}},
+    "comparison.observation.summary": {"text": "Similarity observation only. No calibrated match threshold is available.", "context": "Reference result details and full-workflow motion observations. No identity or liveness acceptance.", "arguments": {}},
+    "telemetry.motion.range": {"text": " – ", "context": "Full-workflow recorded motion ranges, explicit coverage and missing evidence; no identity or liveness verdict.", "arguments": {}},
+    "telemetry.motion.loading": {"text": "Loading persisted motion evidence…", "context": "Full-workflow recorded motion ranges, explicit coverage and missing evidence; no identity or liveness verdict.", "arguments": {}},
+    "telemetry.motion.failed": {"text": "Motion evidence could not be loaded. Close and reopen details to retry.", "context": "Full-workflow recorded motion ranges, explicit coverage and missing evidence; no identity or liveness verdict.", "arguments": {}},
+    "telemetry.motion.unavailable": {"text": "No workflow motion evidence is available.", "context": "Full-workflow recorded motion ranges, explicit coverage and missing evidence; no identity or liveness verdict.", "arguments": {}},
+    "telemetry.motion.title": {"text": "Motion across this workflow", "context": "Full-workflow recorded motion ranges, explicit coverage and missing evidence; no identity or liveness verdict.", "arguments": {}},
+    "telemetry.motion.scope": {"text": "Ranges show the minimum and maximum of recorded samples across this workflow, including passport capture and selfie retakes. Window summary ranges describe stored windows. Coverage joins samples only within a recording segment; gaps and resume intervals are not continuous coverage. Magnetic axes were not recorded. Values are current through the evidence boundary below.", "context": "Full-workflow recorded motion ranges, explicit coverage and missing evidence; no identity or liveness verdict.", "arguments": {}},
+    "journey.home": {"text": "Kenshiki", "context": "Reference-app navigation and local saved-work management. No identity acceptance.", "arguments": {}},
+    "journey.overview.scan": {"text": "1. Scan the passport photo page", "context": "Reference-app navigation and local saved-work management. No identity acceptance.", "arguments": {}},
+    "journey.overview.chip": {"text": "2. Read the passport chip", "context": "Reference-app navigation and local saved-work management. No identity acceptance.", "arguments": {}},
+    "journey.overview.selfie": {"text": "3. Take and review a selfie", "context": "Reference-app navigation and local saved-work management. No identity acceptance.", "arguments": {}},
+    "journey.saved.open": {"text": "Saved work", "context": "Reference-app navigation and local saved-work management. No identity acceptance.", "arguments": {}},
+    "journey.saved.description": {"text": "Reuse a saved passport for a new selfie, or review your last comparison. Reuse does not read the chip again.", "context": "Reference-app navigation and local saved-work management. No identity acceptance.", "arguments": {}},
+    "journey.saved.empty": {"text": "Nothing saved yet.", "context": "Reference-app navigation and local saved-work management. No identity acceptance.", "arguments": {}},
+    "journey.saved.manageDelete": {"text": "Delete saved work…", "context": "Reference-app navigation and local saved-work management. No identity acceptance.", "arguments": {}},
+    "journey.saved.deleteTitle": {"text": "Delete saved work?", "context": "Reference-app navigation and local saved-work management. No identity acceptance.", "arguments": {}},
+    "journey.saved.deleteExplanation": {"text": "This permanently removes all saved passport readings, selfies, comparison reports and sensor records from this device.", "context": "Reference-app navigation and local saved-work management. No identity acceptance.", "arguments": {}},
+    "journey.saved.keep": {"text": "Keep saved work", "context": "Reference-app navigation and local saved-work management. No identity acceptance.", "arguments": {}},
+    "journey.developer": {"text": "Developer tools", "context": "Reference-app navigation and local saved-work management. No identity acceptance.", "arguments": {}},
+    "journey.developer.description": {"text": "Explore the individual SDK examples and view recording status.", "context": "Reference-app navigation and local saved-work management. No identity acceptance.", "arguments": {}},
+    "journey.storage.unavailable": {"text": "On-device storage is unavailable. Try again before starting.", "context": "Reference-app navigation and local saved-work management. No identity acceptance.", "arguments": {}},
+    "report.profile.historical": {"text": "Saved analysis from an earlier inference profile.", "context": "The saved Liquid result is retained with its original profile and task count. It is not a result from the currently installed inference profile.", "arguments": {}},
+    "telemetry.unsupported": {"text": "Unrecognized diagnostic", "context": "A dynamic diagnostic field or value is not supported by this app version. Original evidence is retained in the report.", "arguments": {}},
+    "report.status.uncertain": {"text": "Uncertain", "context": "Liquid observed insufficient or ambiguous evidence for this presentation or sensor indicator.", "arguments": {}},
+    "report.indicator.motion_coverage": {"text": "Motion evidence coverage", "context": "Liquid sensor consistency observation, not proof of a live person.", "arguments": {}},
+    "report.indicator.interaction_consistency": {"text": "Interaction consistency", "context": "Liquid sensor consistency observation, not proof of a live person.", "arguments": {}},
+    "report.indicator.blink_consistency": {"text": "Blink evidence consistency", "context": "Liquid sensor consistency observation, not proof of a live person.", "arguments": {}},
+    "report.pass.age": {"text": "Apparent age and document age", "context": "Liquid task progress and diagnostics.", "arguments": {}},
+    "report.pass.sensor_consistency": {"text": "Sensor and interaction consistency", "context": "Liquid task progress and diagnostics.", "arguments": {}},
+    "report.aggregate.title": {"text": "Liquid task completion", "context": "Liquid task progress and diagnostics.", "arguments": {}},
+    "report.aggregate.completed": {"text": "All tasks completed", "context": "Liquid task progress and diagnostics.", "arguments": {}},
+    "report.aggregate.total": {"text": "Total tasks", "context": "Liquid task progress and diagnostics.", "arguments": {}},
+    "report.aggregate.processing": {"text": "Analysis in progress", "context": "Liquid task progress and diagnostics.", "arguments": {}},
+    "report.aggregate.partial": {"text": "Some tasks completed; others need retry", "context": "Liquid task progress and diagnostics.", "arguments": {}},
+    "report.aggregate.failed": {"text": "No tasks completed", "context": "Liquid task progress and diagnostics.", "arguments": {}},
+    "report.aggregate.cancelled": {"text": "Analysis cancelled", "context": "Liquid task progress and diagnostics.", "arguments": {}},
+    "report.aggregate.completedCount": {"text": "Tasks completed", "context": "Liquid task progress and diagnostics.", "arguments": {}},
+    "report.pass.modelSetup": {"text": "Model setup (milliseconds)", "context": "Liquid phase timing or allocator observation. Not total process memory.", "arguments": {}},
+    "report.pass.imagePreparation": {"text": "Image preparation (milliseconds)", "context": "Liquid phase timing or allocator observation. Not total process memory.", "arguments": {}},
+    "report.pass.grammarPreparation": {"text": "Grammar preparation (milliseconds)", "context": "Liquid phase timing or allocator observation. Not total process memory.", "arguments": {}},
+    "report.pass.prefill": {"text": "Prompt prefill (milliseconds)", "context": "Liquid phase timing or allocator observation. Not total process memory.", "arguments": {}},
+    "report.pass.generation": {"text": "Token generation (milliseconds)", "context": "Liquid phase timing or allocator observation. Not total process memory.", "arguments": {}},
+    "report.pass.cleanup": {"text": "Resource cleanup (milliseconds)", "context": "Liquid phase timing or allocator observation. Not total process memory.", "arguments": {}},
+    "report.pass.activeMemory": {"text": "Active MLX allocator bytes", "context": "Liquid phase timing or allocator observation. Not total process memory.", "arguments": {}},
+    "report.pass.cacheMemory": {"text": "Cached MLX allocator bytes", "context": "Liquid phase timing or allocator observation. Not total process memory.", "arguments": {}},
+    "report.workflow.title": {"text": "Historical workflow evidence", "context": "Explicit limitation when reconstructing historical verification evidence.", "arguments": {}},
+    "report.workflow.status": {"text": "Workflow evidence availability", "context": "Explicit limitation when reconstructing historical verification evidence.", "arguments": {}},
+    "report.workflow.unavailable.missingBoundary": {"text": "Original comparison boundary is unavailable. Workflow-wide motion is excluded; capture-time evidence is retained.", "context": "Explicit limitation when reconstructing historical verification evidence.", "arguments": {}},
+    "report.workflow.unavailable.supersededCapture": {"text": "A retake occurred before a matching comparison boundary. Workflow-wide motion is excluded; capture-time evidence is retained.", "context": "Explicit limitation when reconstructing historical verification evidence.", "arguments": {}},
+    "report.workflow.unavailable.capacity": {"text": "Historical workflow exceeds the bounded snapshot capacity. Workflow-wide motion is excluded; capture-time evidence is retained.", "context": "Explicit limitation when reconstructing historical verification evidence.", "arguments": {}},
+    "report.pass.profile": {"text": "Inference profile", "context": "Liquid inference diagnostics; allocator memory is not total process memory.", "arguments": {}},
+    "report.pass.inputSHA": {"text": "Input context SHA-256", "context": "Liquid inference diagnostics; allocator memory is not total process memory.", "arguments": {}},
+    "report.pass.peakMemoryBytes": {"text": "MLX allocator peak (process lifetime)", "context": "Liquid inference diagnostics; allocator memory is not total process memory.", "arguments": {}},
+    "report.pass.quality": {"text": "Capture quality", "context": "Durable Liquid pass observation or diagnostic. Not an identity decision.", "arguments": {}},
+    "report.pass.comparison": {"text": "Facial comparison", "context": "Durable Liquid pass observation or diagnostic. Not an identity decision.", "arguments": {}},
+    "report.pass.presentation": {"text": "Presentation and environment", "context": "Durable Liquid pass observation or diagnostic. Not an identity decision.", "arguments": {}},
+    "report.pass.status": {"text": "Pass status", "context": "Durable Liquid pass observation or diagnostic. Not an identity decision.", "arguments": {}},
+    "report.pass.pending": {"text": "Analysis pending", "context": "Durable Liquid pass observation or diagnostic. Not an identity decision.", "arguments": {}},
+    "report.pass.completed": {"text": "Analysis completed", "context": "Durable Liquid pass observation or diagnostic. Not an identity decision.", "arguments": {}},
+    "report.pass.failed": {"text": "Analysis failed", "context": "Durable Liquid pass observation or diagnostic. Not an identity decision.", "arguments": {}},
+    "report.pass.not_started": {"text": "Not started", "context": "Durable Liquid pass observation or diagnostic. Not an identity decision.", "arguments": {}},
+    "report.pass.promptTokens": {"text": "Input tokens", "context": "Durable Liquid pass observation or diagnostic. Not an identity decision.", "arguments": {}},
+    "report.pass.generatedTokens": {"text": "Generated tokens", "context": "Durable Liquid pass observation or diagnostic. Not an identity decision.", "arguments": {}},
+    "report.pass.duration": {"text": "Processing time (milliseconds)", "context": "Durable Liquid pass observation or diagnostic. Not an identity decision.", "arguments": {}},
+    "report.pass.referenceAgeMin": {"text": "Reference apparent age: lower estimate", "context": "Durable Liquid pass observation or diagnostic. Not an identity decision.", "arguments": {}},
+    "report.pass.referenceAgeMax": {"text": "Reference apparent age: upper estimate", "context": "Durable Liquid pass observation or diagnostic. Not an identity decision.", "arguments": {}},
+    "report.pass.selfieAgeMin": {"text": "Selfie apparent age: lower estimate", "context": "Durable Liquid pass observation or diagnostic. Not an identity decision.", "arguments": {}},
+    "report.pass.selfieAgeMax": {"text": "Selfie apparent age: upper estimate", "context": "Durable Liquid pass observation or diagnostic. Not an identity decision.", "arguments": {}},
+    "report.pass.failure": {"text": "Recorded failure reason", "context": "Durable Liquid pass observation or diagnostic. Not an identity decision.", "arguments": {}},
+    "report.pass.claimedDOB": {"text": "Document date of birth (YYMMDD)", "context": "Durable Liquid pass observation or diagnostic. Not an identity decision.", "arguments": {}},
+    "report.pass.claimedAge": {"text": "Possible age at selfie capture", "context": "Durable Liquid pass observation or diagnostic. Not an identity decision.", "arguments": {}},
+    "report.indicator.reflection_inconsistency": {"text": "Reflection inconsistency", "context": "Durable Liquid pass observation or diagnostic. Not an identity decision.", "arguments": {}},
+    "report.indicator.possible_synthetic_artifacts": {"text": "Possible synthetic image artifacts", "context": "Durable Liquid pass observation or diagnostic. Not an identity decision.", "arguments": {}},
+    "report.indicator.device_handling": {"text": "Device handling evidence", "context": "Durable Liquid pass observation or diagnostic. Not an identity decision.", "arguments": {}},
+    "passport.mrz.saving": {"text": "Saving the passport access details…", "context": "Durable capture and comparison recovery. Historical evidence does not claim fresh acquisition.", "arguments": {}},
+    "passport.mrz.saveFailed": {"text": "The passport access details could not be saved. Retry saving without scanning again.", "context": "Durable capture and comparison recovery. Historical evidence does not claim fresh acquisition.", "arguments": {}},
+    "journey.saved.mrz": {"text": "Continue passport chip read", "context": "Durable capture and comparison recovery. Historical evidence does not claim fresh acquisition.", "arguments": {}},
+    "journey.saved.mrzProvenance": {"text": "Using passport access details captured on", "context": "Durable capture and comparison recovery. Historical evidence does not claim fresh acquisition.", "arguments": {}},
+    "journey.saved.comparison": {"text": "Open saved comparison", "context": "Durable capture and comparison recovery. Historical evidence does not claim fresh acquisition.", "arguments": {}},
+    "journey.saved.rerun": {"text": "Retry face comparison", "context": "Durable capture and comparison recovery. Historical evidence does not claim fresh acquisition.", "arguments": {}},
+    "comparison.error.interrupted": {"text": "This stage did not finish. Run the saved comparison to continue.", "context": "Durable capture and comparison recovery. Historical evidence does not claim fresh acquisition.", "arguments": {}},
+    "permission.location": {"text": "Record your location with passport and selfie captures during this workflow.", "context": "Core Location when-in-use purpose. Coordinates remain in the protected local workflow store.", "arguments": {}},
+    "journey.evidence.idle": {"text": "Workflow sensor recording stopped.", "context": "Recorder is inactive; saved evidence is retained.", "arguments": {}},
+    "journey.evidence.recording": {"text": "Workflow motion, interactions and available location are being saved.", "context": "Local workflow recorder status; does not claim permission was granted or prove liveness.", "arguments": {}},
+    "journey.evidence.failed": {"text": "Workflow evidence could not be saved. Retry the action before continuing.", "context": "Durable evidence write failed; pending bounded batches are retained for retry.", "arguments": {}},
+    "telemetry.motion.permissionStatus": {
+      "text": "Motion & Fitness permission at capture",
+      "context": "Recorded system Motion & Fitness permission status at capture; separate from measured motion availability.",
+      "arguments": {}
+    },
+    "telemetry.motionPermission.notRequested": {
+      "text": "Not requested",
+      "context": "Recorded system Motion & Fitness permission status at capture; separate from measured motion availability.",
+      "arguments": {}
+    },
+    "telemetry.motionPermission.requesting": {
+      "text": "Request in progress",
+      "context": "Recorded system Motion & Fitness permission status at capture; separate from measured motion availability.",
+      "arguments": {}
+    },
+    "telemetry.motionPermission.authorized": {
+      "text": "Authorized",
+      "context": "Recorded system Motion & Fitness permission status at capture; separate from measured motion availability.",
+      "arguments": {}
+    },
+    "telemetry.motionPermission.denied": {
+      "text": "Denied",
+      "context": "Recorded system Motion & Fitness permission status at capture; separate from measured motion availability.",
+      "arguments": {}
+    },
+    "telemetry.motionPermission.unavailable": {
+      "text": "Unavailable on this device",
+      "context": "Recorded system Motion & Fitness permission status at capture; separate from measured motion availability.",
+      "arguments": {}
+    },
+    "permission.motion": {
+      "text": "Device motion records how the phone moves during selfie capture for local capture-quality review.",
+      "context": "Local motion capture disclosure or source-bound measured telemetry. Missing values remain unavailable.",
+      "arguments": {}
+    },
+    "telemetry.ceremony.face_match": {
+      "text": "Face match capture",
+      "context": "Local motion capture disclosure or source-bound measured telemetry. Missing values remain unavailable.",
+      "arguments": {}
+    },
+    "telemetry.motion.imageSHA256": {
+      "text": "Motion-bound image SHA-256",
+      "context": "Local motion capture disclosure or source-bound measured telemetry. Missing values remain unavailable.",
+      "arguments": {}
+    },
+    "telemetry.motion.recordSHA256": {
+      "text": "Motion evidence record SHA-256",
+      "context": "Local motion capture disclosure or source-bound measured telemetry. Missing values remain unavailable.",
+      "arguments": {}
+    },
+    "telemetry.motion.frameTimestamp": {
+      "text": "Motion-bound frame timestamp (seconds since boot)",
+      "context": "Local motion capture disclosure or source-bound measured telemetry. Missing values remain unavailable.",
+      "arguments": {}
+    },
+    "telemetry.motion.windowStart": {
+      "text": "Motion window start (seconds since boot)",
+      "context": "Local motion capture disclosure or source-bound measured telemetry. Missing values remain unavailable.",
+      "arguments": {}
+    },
+    "telemetry.motion.windowEnd": {
+      "text": "Motion window end (seconds since boot)",
+      "context": "Local motion capture disclosure or source-bound measured telemetry. Missing values remain unavailable.",
+      "arguments": {}
+    },
+    "telemetry.motion.requestedSampleRate": {
+      "text": "Requested motion sample rate (Hz)",
+      "context": "Local motion capture disclosure or source-bound measured telemetry. Missing values remain unavailable.",
+      "arguments": {}
+    },
+    "telemetry.motion.clockDomain": {
+      "text": "Motion clock domain",
+      "context": "Local motion capture disclosure or source-bound measured telemetry. Missing values remain unavailable.",
+      "arguments": {}
+    },
+    "telemetry.motion.alignment": {
+      "text": "Motion-to-frame alignment method",
+      "context": "Local motion capture disclosure or source-bound measured telemetry. Missing values remain unavailable.",
+      "arguments": {}
+    },
+    "telemetry.motion.ceremony": {
+      "text": "Motion capture purpose",
+      "context": "Local motion capture disclosure or source-bound measured telemetry. Missing values remain unavailable.",
+      "arguments": {}
+    },
+    "telemetry.motion.sampleCount": {
+      "text": "Motion sample count",
+      "context": "Local motion capture disclosure or source-bound measured telemetry. Missing values remain unavailable.",
+      "arguments": {}
+    },
+    "telemetry.motion.duration": {
+      "text": "Motion window duration (seconds)",
+      "context": "Local motion capture disclosure or source-bound measured telemetry. Missing values remain unavailable.",
+      "arguments": {}
+    },
+    "telemetry.motion.accelerationRMS": {
+      "text": "User acceleration RMS (g)",
+      "context": "Local motion capture disclosure or source-bound measured telemetry. Missing values remain unavailable.",
+      "arguments": {}
+    },
+    "telemetry.motion.rotationRMS": {
+      "text": "Rotation rate RMS (radians/second)",
+      "context": "Local motion capture disclosure or source-bound measured telemetry. Missing values remain unavailable.",
+      "arguments": {}
+    },
+    "telemetry.motion.tremorRatio": {
+      "text": "Motion power ratio in 8–12 Hz band",
+      "context": "Local motion capture disclosure or source-bound measured telemetry. Missing values remain unavailable.",
+      "arguments": {}
+    },
+    "telemetry.motion.gravityAxis": {
+      "text": "Dominant gravity axis",
+      "context": "Local motion capture disclosure or source-bound measured telemetry. Missing values remain unavailable.",
+      "arguments": {}
+    },
+    "telemetry.motion.gravityDominance": {
+      "text": "Dominant gravity-axis share (0–1)",
+      "context": "Local motion capture disclosure or source-bound measured telemetry. Missing values remain unavailable.",
+      "arguments": {}
+    },
+    "telemetry.motion.gravityDrift": {
+      "text": "Gravity direction drift (radians)",
+      "context": "Local motion capture disclosure or source-bound measured telemetry. Missing values remain unavailable.",
+      "arguments": {}
+    },
+    "telemetry.motion.approachRMS": {
+      "text": "Initial approach acceleration RMS (g)",
+      "context": "Local motion capture disclosure or source-bound measured telemetry. Missing values remain unavailable.",
+      "arguments": {}
+    },
+    "telemetry.motion.settleRatio": {
+      "text": "Settling-to-overall acceleration RMS ratio",
+      "context": "Local motion capture disclosure or source-bound measured telemetry. Missing values remain unavailable.",
+      "arguments": {}
+    },
+    "telemetry.motion.magneticDelta": {
+      "text": "Magnetic field magnitude range (microtesla)",
+      "context": "Local motion capture disclosure or source-bound measured telemetry. Missing values remain unavailable.",
+      "arguments": {}
+    },
+    "telemetry.motion.magnetometerCalibrated": {
+      "text": "Magnetometer reported calibrated",
+      "context": "Local motion capture disclosure or source-bound measured telemetry. Missing values remain unavailable.",
+      "arguments": {}
+    },
+    "telemetry.motion.rawWindowSHA256": {
+      "text": "Raw motion window SHA-256",
+      "context": "Local motion capture disclosure or source-bound measured telemetry. Missing values remain unavailable.",
+      "arguments": {}
+    },
+    "comparison.visual.waiting": {
+      "text": "Liquid is waiting for the AuraFace observation before reviewing the available evidence.",
+      "context": "Local live evidence telemetry. Values are measured data, source identifiers, or explicitly model-generated observations; unavailable is not zero.",
+      "arguments": {}
+    },
+    "comparison.visual.report.disclosure": {
+      "text": "Model-generated observations may be wrong. Review the source measurements and limitations below.",
+      "context": "Local live evidence telemetry. Values are measured data, source identifiers, or explicitly model-generated observations; unavailable is not zero.",
+      "arguments": {}
+    },
+    "comparison.telemetry.show": {
+      "text": "Show report and telemetry",
+      "context": "Local live evidence telemetry. Values are measured data, source identifiers, or explicitly model-generated observations; unavailable is not zero.",
+      "arguments": {}
+    },
+    "comparison.telemetry.hide": {
+      "text": "Hide report and telemetry",
+      "context": "Local live evidence telemetry. Values are measured data, source identifiers, or explicitly model-generated observations; unavailable is not zero.",
+      "arguments": {}
+    },
+    "comparison.telemetry.title": {
+      "text": "Capture and model telemetry",
+      "context": "Local live evidence telemetry. Values are measured data, source identifiers, or explicitly model-generated observations; unavailable is not zero.",
+      "arguments": {}
+    },
+    "comparison.telemetry.scope": {
+      "text": "Measurements are from the admitted capture receipt. Missing values remain unavailable. Model observations are separate from measured sensor data.",
+      "context": "Local live evidence telemetry. Values are measured data, source identifiers, or explicitly model-generated observations; unavailable is not zero.",
+      "arguments": {}
+    },
+    "telemetry.unavailable": {
+      "text": "Not available",
+      "context": "Local live evidence telemetry. Values are measured data, source identifiers, or explicitly model-generated observations; unavailable is not zero.",
+      "arguments": {}
+    },
+    "telemetry.invalid": {
+      "text": "Invalid measurement",
+      "context": "Local live evidence telemetry. Values are measured data, source identifiers, or explicitly model-generated observations; unavailable is not zero.",
+      "arguments": {}
+    },
+    "telemetry.noneReported": {
+      "text": "None reported",
+      "context": "Local live evidence telemetry. Values are measured data, source identifiers, or explicitly model-generated observations; unavailable is not zero.",
+      "arguments": {}
+    },
+    "telemetry.yes": {
+      "text": "Yes",
+      "context": "Local live evidence telemetry. Values are measured data, source identifiers, or explicitly model-generated observations; unavailable is not zero.",
+      "arguments": {}
+    },
+    "telemetry.no": {
+      "text": "No",
+      "context": "Local live evidence telemetry. Values are measured data, source identifiers, or explicitly model-generated observations; unavailable is not zero.",
+      "arguments": {}
+    },
+    "telemetry.trigger.manual": {
+      "text": "Manual",
+      "context": "Local live evidence telemetry. Values are measured data, source identifiers, or explicitly model-generated observations; unavailable is not zero.",
+      "arguments": {}
+    },
+    "telemetry.trigger.automatic": {
+      "text": "Automatic",
+      "context": "Local live evidence telemetry. Values are measured data, source identifiers, or explicitly model-generated observations; unavailable is not zero.",
+      "arguments": {}
+    },
+    "telemetry.depthAssessment.live": {
+      "text": "Non-planar depth under the recorded engineering policy",
+      "context": "Local live evidence telemetry. Values are measured data, source identifiers, or explicitly model-generated observations; unavailable is not zero.",
+      "arguments": {}
+    },
+    "telemetry.depthAssessment.flat": {
+      "text": "Planar depth under the recorded engineering policy",
+      "context": "Local live evidence telemetry. Values are measured data, source identifiers, or explicitly model-generated observations; unavailable is not zero.",
+      "arguments": {}
+    },
+    "telemetry.depthAssessment.insufficientData": {
+      "text": "Insufficient depth data",
+      "context": "Local live evidence telemetry. Values are measured data, source identifiers, or explicitly model-generated observations; unavailable is not zero.",
+      "arguments": {}
+    },
+    "telemetry.aura.title": {
+      "text": "AuraFace returned values",
+      "context": "Local live evidence telemetry. Values are measured data, source identifiers, or explicitly model-generated observations; unavailable is not zero.",
+      "arguments": {}
+    },
+    "telemetry.liquid.title": {
+      "text": "Liquid returned values and provenance",
+      "context": "Local live evidence telemetry. Values are measured data, source identifiers, or explicitly model-generated observations; unavailable is not zero.",
+      "arguments": {}
+    },
+    "report.reference.title": {
+      "text": "Reference portrait observations",
+      "context": "Local live evidence telemetry. Values are measured data, source identifiers, or explicitly model-generated observations; unavailable is not zero.",
+      "arguments": {}
+    },
+    "report.selfie.title": {
+      "text": "Selfie observations",
+      "context": "Local live evidence telemetry. Values are measured data, source identifiers, or explicitly model-generated observations; unavailable is not zero.",
+      "arguments": {}
+    },
+    "report.aura.title": {
+      "text": "Review of the AuraFace observation",
+      "context": "Local live evidence telemetry. Values are measured data, source identifiers, or explicitly model-generated observations; unavailable is not zero.",
+      "arguments": {}
+    },
+    "report.age.title": {
+      "text": "Apparent age observations",
+      "context": "Local live evidence telemetry. Values are measured data, source identifiers, or explicitly model-generated observations; unavailable is not zero.",
+      "arguments": {}
+    },
+    "report.capture.title": {
+      "text": "Capture evidence observations",
+      "context": "Local live evidence telemetry. Values are measured data, source identifiers, or explicitly model-generated observations; unavailable is not zero.",
+      "arguments": {}
+    },
+    "report.qualityIssue": {
+      "text": "Visible image quality concern",
+      "context": "Local live evidence telemetry. Values are measured data, source identifiers, or explicitly model-generated observations; unavailable is not zero.",
+      "arguments": {}
+    },
+    "report.observation": {
+      "text": "Model observation",
+      "context": "Local live evidence telemetry. Values are measured data, source identifiers, or explicitly model-generated observations; unavailable is not zero.",
+      "arguments": {}
+    },
+    "report.ageMinimum": {
+      "text": "Estimated apparent age: lower bound (years)",
+      "context": "Local live evidence telemetry. Values are measured data, source identifiers, or explicitly model-generated observations; unavailable is not zero.",
+      "arguments": {}
+    },
+    "report.ageMaximum": {
+      "text": "Estimated apparent age: upper bound (years)",
+      "context": "Local live evidence telemetry. Values are measured data, source identifiers, or explicitly model-generated observations; unavailable is not zero.",
+      "arguments": {}
+    },
+    "report.ageRange": {
+      "text": "Estimated apparent age range (years)",
+      "context": "Local live evidence telemetry. Values are measured data, source identifiers, or explicitly model-generated observations; unavailable is not zero.",
+      "arguments": {}
+    },
+    "report.ageBasis": {
+      "text": "Basis for the apparent age estimate",
+      "context": "Local live evidence telemetry. Values are measured data, source identifiers, or explicitly model-generated observations; unavailable is not zero.",
+      "arguments": {}
+    },
+    "report.limitation": {
+      "text": "Model-stated limitation",
+      "context": "Local live evidence telemetry. Values are measured data, source identifiers, or explicitly model-generated observations; unavailable is not zero.",
+      "arguments": {}
+    },
+    "report.relationship": {
+      "text": "Model-reported relationship",
+      "context": "Local live evidence telemetry. Values are measured data, source identifiers, or explicitly model-generated observations; unavailable is not zero.",
+      "arguments": {}
+    },
+    "report.evidence": {
+      "text": "Model-stated evidence",
+      "context": "Local live evidence telemetry. Values are measured data, source identifiers, or explicitly model-generated observations; unavailable is not zero.",
+      "arguments": {}
+    },
+    "report.sourceImage": {
+      "text": "Source image identifier",
+      "context": "Local live evidence telemetry. Values are measured data, source identifiers, or explicitly model-generated observations; unavailable is not zero.",
+      "arguments": {}
+    },
+    "report.indicator.status": {
+      "text": "Model-reported indicator status",
+      "context": "Local live evidence telemetry. Values are measured data, source identifiers, or explicitly model-generated observations; unavailable is not zero.",
+      "arguments": {}
+    },
+    "report.aura.supports": {
+      "text": "Supports the supplied observation",
+      "context": "Local live evidence telemetry. Values are measured data, source identifiers, or explicitly model-generated observations; unavailable is not zero.",
+      "arguments": {}
+    },
+    "report.aura.tension": {
+      "text": "In tension with the supplied observation",
+      "context": "Local live evidence telemetry. Values are measured data, source identifiers, or explicitly model-generated observations; unavailable is not zero.",
+      "arguments": {}
+    },
+    "report.aura.not_assessable": {
+      "text": "Not assessable",
+      "context": "Local live evidence telemetry. Values are measured data, source identifiers, or explicitly model-generated observations; unavailable is not zero.",
+      "arguments": {}
+    },
+    "report.age.plausible": {
+      "text": "Plausible",
+      "context": "Local live evidence telemetry. Values are measured data, source identifiers, or explicitly model-generated observations; unavailable is not zero.",
+      "arguments": {}
+    },
+    "report.age.raises_question": {
+      "text": "Raises a question",
+      "context": "Local live evidence telemetry. Values are measured data, source identifiers, or explicitly model-generated observations; unavailable is not zero.",
+      "arguments": {}
+    },
+    "report.age.not_assessable": {
+      "text": "Not assessable",
+      "context": "Local live evidence telemetry. Values are measured data, source identifiers, or explicitly model-generated observations; unavailable is not zero.",
+      "arguments": {}
+    },
+    "report.status.present": {
+      "text": "Reported present",
+      "context": "Local live evidence telemetry. Values are measured data, source identifiers, or explicitly model-generated observations; unavailable is not zero.",
+      "arguments": {}
+    },
+    "report.status.absent": {
+      "text": "Reported absent",
+      "context": "Local live evidence telemetry. Values are measured data, source identifiers, or explicitly model-generated observations; unavailable is not zero.",
+      "arguments": {}
+    },
+    "report.status.not_observable": {
+      "text": "Not observable from the supplied evidence",
+      "context": "Local live evidence telemetry. Values are measured data, source identifiers, or explicitly model-generated observations; unavailable is not zero.",
+      "arguments": {}
+    },
+    "telemetry.input.operationID": {
+      "text": "Operation identifier",
+      "context": "Local live evidence telemetry. Values are measured data, source identifiers, or explicitly model-generated observations; unavailable is not zero.",
+      "arguments": {}
+    },
+    "telemetry.input.referenceSHA256": {
+      "text": "Original reference SHA-256",
+      "context": "Local live evidence telemetry. Values are measured data, source identifiers, or explicitly model-generated observations; unavailable is not zero.",
+      "arguments": {}
+    },
+    "telemetry.input.selfieSHA256": {
+      "text": "Original selfie SHA-256",
+      "context": "Local live evidence telemetry. Values are measured data, source identifiers, or explicitly model-generated observations; unavailable is not zero.",
+      "arguments": {}
+    },
+    "telemetry.input.referenceBytes": {
+      "text": "Reference encoded size (bytes)",
+      "context": "Local live evidence telemetry. Values are measured data, source identifiers, or explicitly model-generated observations; unavailable is not zero.",
+      "arguments": {}
+    },
+    "telemetry.input.selfieBytes": {
+      "text": "Selfie encoded size (bytes)",
+      "context": "Local live evidence telemetry. Values are measured data, source identifiers, or explicitly model-generated observations; unavailable is not zero.",
+      "arguments": {}
+    },
+    "telemetry.capture.receipt": {
+      "text": "Capture receipt",
+      "context": "Local live evidence telemetry. Values are measured data, source identifiers, or explicitly model-generated observations; unavailable is not zero.",
+      "arguments": {}
+    },
+    "telemetry.capture.captureID": {
+      "text": "Capture identifier",
+      "context": "Local live evidence telemetry. Values are measured data, source identifiers, or explicitly model-generated observations; unavailable is not zero.",
+      "arguments": {}
+    },
+    "telemetry.capture.receiptSHA256": {
+      "text": "Capture receipt SHA-256",
+      "context": "Local live evidence telemetry. Values are measured data, source identifiers, or explicitly model-generated observations; unavailable is not zero.",
+      "arguments": {}
+    },
+    "telemetry.capture.policyVersion": {
+      "text": "Admission policy version",
+      "context": "Local live evidence telemetry. Values are measured data, source identifiers, or explicitly model-generated observations; unavailable is not zero.",
+      "arguments": {}
+    },
+    "telemetry.capture.trigger": {
+      "text": "Capture trigger",
+      "context": "Local live evidence telemetry. Values are measured data, source identifiers, or explicitly model-generated observations; unavailable is not zero.",
+      "arguments": {}
+    },
+    "telemetry.capture.frameTimestamp": {
+      "text": "ARKit frame timestamp (seconds, session clock)",
+      "context": "Local live evidence telemetry. Values are measured data, source identifiers, or explicitly model-generated observations; unavailable is not zero.",
+      "arguments": {}
+    },
+    "telemetry.capture.anchorID": {
+      "text": "ARKit anchor identifier",
+      "context": "Local live evidence telemetry. Values are measured data, source identifiers, or explicitly model-generated observations; unavailable is not zero.",
+      "arguments": {}
+    },
+    "telemetry.capture.trackedFrames": {
+      "text": "Consecutive tracked frames",
+      "context": "Local live evidence telemetry. Values are measured data, source identifiers, or explicitly model-generated observations; unavailable is not zero.",
+      "arguments": {}
+    },
+    "telemetry.capture.blinkCompletedAt": {
+      "text": "Blink completed (seconds, session clock)",
+      "context": "Local live evidence telemetry. Values are measured data, source identifiers, or explicitly model-generated observations; unavailable is not zero.",
+      "arguments": {}
+    },
+    "telemetry.capture.blinkAge": {
+      "text": "Blink age at admission (seconds)",
+      "context": "Local live evidence telemetry. Values are measured data, source identifiers, or explicitly model-generated observations; unavailable is not zero.",
+      "arguments": {}
+    },
+    "telemetry.capture.leftEyeClosed": {
+      "text": "Left eye closure blend shape (0–1)",
+      "context": "Local live evidence telemetry. Values are measured data, source identifiers, or explicitly model-generated observations; unavailable is not zero.",
+      "arguments": {}
+    },
+    "telemetry.capture.rightEyeClosed": {
+      "text": "Right eye closure blend shape (0–1)",
+      "context": "Local live evidence telemetry. Values are measured data, source identifiers, or explicitly model-generated observations; unavailable is not zero.",
+      "arguments": {}
+    },
+    "telemetry.capture.eyesOpen": {
+      "text": "Eyes open at admission",
+      "context": "Local live evidence telemetry. Values are measured data, source identifiers, or explicitly model-generated observations; unavailable is not zero.",
+      "arguments": {}
+    },
+    "telemetry.capture.steadyHold": {
+      "text": "Steady hold duration (seconds)",
+      "context": "Local live evidence telemetry. Values are measured data, source identifiers, or explicitly model-generated observations; unavailable is not zero.",
+      "arguments": {}
+    },
+    "telemetry.capture.quality": {
+      "text": "Apple Vision capture quality (0–1)",
+      "context": "Local live evidence telemetry. Values are measured data, source identifiers, or explicitly model-generated observations; unavailable is not zero.",
+      "arguments": {}
+    },
+    "telemetry.capture.qualityEnforced": {
+      "text": "Capture quality threshold enforced",
+      "context": "Local live evidence telemetry. Values are measured data, source identifiers, or explicitly model-generated observations; unavailable is not zero.",
+      "arguments": {}
+    },
+    "telemetry.capture.insideGuide": {
+      "text": "Face inside guide",
+      "context": "Local live evidence telemetry. Values are measured data, source identifiers, or explicitly model-generated observations; unavailable is not zero.",
+      "arguments": {}
+    },
+    "telemetry.capture.guideEnforced": {
+      "text": "Guide containment enforced",
+      "context": "Local live evidence telemetry. Values are measured data, source identifiers, or explicitly model-generated observations; unavailable is not zero.",
+      "arguments": {}
+    },
+    "telemetry.frame.sessionID": {
+      "text": "Frame session identifier",
+      "context": "Local live evidence telemetry. Values are measured data, source identifiers, or explicitly model-generated observations; unavailable is not zero.",
+      "arguments": {}
+    },
+    "telemetry.frame.sequence": {
+      "text": "Frame sequence",
+      "context": "Local live evidence telemetry. Values are measured data, source identifiers, or explicitly model-generated observations; unavailable is not zero.",
+      "arguments": {}
+    },
+    "telemetry.frame.guideRevision": {
+      "text": "Guide revision",
+      "context": "Local live evidence telemetry. Values are measured data, source identifiers, or explicitly model-generated observations; unavailable is not zero.",
+      "arguments": {}
+    },
+    "telemetry.frame.width": {
+      "text": "Source frame width (pixels)",
+      "context": "Local live evidence telemetry. Values are measured data, source identifiers, or explicitly model-generated observations; unavailable is not zero.",
+      "arguments": {}
+    },
+    "telemetry.frame.height": {
+      "text": "Source frame height (pixels)",
+      "context": "Local live evidence telemetry. Values are measured data, source identifiers, or explicitly model-generated observations; unavailable is not zero.",
+      "arguments": {}
+    },
+    "telemetry.frame.orientation": {
+      "text": "Source EXIF orientation code",
+      "context": "Local live evidence telemetry. Values are measured data, source identifiers, or explicitly model-generated observations; unavailable is not zero.",
+      "arguments": {}
+    },
+    "telemetry.frame.qualityRevision": {
+      "text": "Vision quality request revision",
+      "context": "Local live evidence telemetry. Values are measured data, source identifiers, or explicitly model-generated observations; unavailable is not zero.",
+      "arguments": {}
+    },
+    "telemetry.frame.analysisDuration": {
+      "text": "Frame analysis duration (seconds)",
+      "context": "Local live evidence telemetry. Values are measured data, source identifiers, or explicitly model-generated observations; unavailable is not zero.",
+      "arguments": {}
+    },
+    "telemetry.frame.ageAtAdmission": {
+      "text": "Frame age at admission (seconds)",
+      "context": "Local live evidence telemetry. Values are measured data, source identifiers, or explicitly model-generated observations; unavailable is not zero.",
+      "arguments": {}
+    },
+    "telemetry.depth.recordSHA256": {
+      "text": "Depth evidence record SHA-256",
+      "context": "Local live evidence telemetry. Values are measured data, source identifiers, or explicitly model-generated observations; unavailable is not zero.",
+      "arguments": {}
+    },
+    "telemetry.depth.imageSHA256": {
+      "text": "Depth-bound image SHA-256",
+      "context": "Local live evidence telemetry. Values are measured data, source identifiers, or explicitly model-generated observations; unavailable is not zero.",
+      "arguments": {}
+    },
+    "telemetry.depth.schemaVersion": {
+      "text": "Depth evidence schema version",
+      "context": "Local live evidence telemetry. Values are measured data, source identifiers, or explicitly model-generated observations; unavailable is not zero.",
+      "arguments": {}
+    },
+    "telemetry.depth.imageTimestamp": {
+      "text": "Depth-bound image timestamp (seconds, session clock)",
+      "context": "Local live evidence telemetry. Values are measured data, source identifiers, or explicitly model-generated observations; unavailable is not zero.",
+      "arguments": {}
+    },
+    "telemetry.depth.depthTimestamp": {
+      "text": "Depth sample timestamp (seconds, session clock)",
+      "context": "Local live evidence telemetry. Values are measured data, source identifiers, or explicitly model-generated observations; unavailable is not zero.",
+      "arguments": {}
+    },
+    "telemetry.depth.ageAtAdmission": {
+      "text": "Depth age at admission (seconds)",
+      "context": "Local live evidence telemetry. Values are measured data, source identifiers, or explicitly model-generated observations; unavailable is not zero.",
+      "arguments": {}
+    },
+    "telemetry.depth.orientation": {
+      "text": "Depth-bound EXIF orientation code",
+      "context": "Local live evidence telemetry. Values are measured data, source identifiers, or explicitly model-generated observations; unavailable is not zero.",
+      "arguments": {}
+    },
+    "telemetry.depth.width": {
+      "text": "Depth map width (samples)",
+      "context": "Local live evidence telemetry. Values are measured data, source identifiers, or explicitly model-generated observations; unavailable is not zero.",
+      "arguments": {}
+    },
+    "telemetry.depth.height": {
+      "text": "Depth map height (samples)",
+      "context": "Local live evidence telemetry. Values are measured data, source identifiers, or explicitly model-generated observations; unavailable is not zero.",
+      "arguments": {}
+    },
+    "telemetry.depth.filtered": {
+      "text": "Depth map filtered",
+      "context": "Local live evidence telemetry. Values are measured data, source identifiers, or explicitly model-generated observations; unavailable is not zero.",
+      "arguments": {}
+    },
+    "telemetry.depth.sampleCount": {
+      "text": "Accepted depth samples",
+      "context": "Local live evidence telemetry. Values are measured data, source identifiers, or explicitly model-generated observations; unavailable is not zero.",
+      "arguments": {}
+    },
+    "telemetry.depth.residualRMS": {
+      "text": "Plane residual RMS (metres)",
+      "context": "Local live evidence telemetry. Values are measured data, source identifiers, or explicitly model-generated observations; unavailable is not zero.",
+      "arguments": {}
+    },
+    "telemetry.depth.assessment": {
+      "text": "Depth engineering-policy observation",
+      "context": "Local live evidence telemetry. Values are measured data, source identifiers, or explicitly model-generated observations; unavailable is not zero.",
+      "arguments": {}
+    },
+    "telemetry.admissionPolicy.requiredTrackedFrames": {
+      "text": "Policy: required tracked frames",
+      "context": "Local live evidence telemetry. Values are measured data, source identifiers, or explicitly model-generated observations; unavailable is not zero.",
+      "arguments": {}
+    },
+    "telemetry.admissionPolicy.maximumFrameAge": {
+      "text": "Policy: maximum frame age (seconds)",
+      "context": "Local live evidence telemetry. Values are measured data, source identifiers, or explicitly model-generated observations; unavailable is not zero.",
+      "arguments": {}
+    },
+    "telemetry.admissionPolicy.blinkFreshness": {
+      "text": "Policy: blink freshness (seconds)",
+      "context": "Local live evidence telemetry. Values are measured data, source identifiers, or explicitly model-generated observations; unavailable is not zero.",
+      "arguments": {}
+    },
+    "telemetry.admissionPolicy.eyeClosedThreshold": {
+      "text": "Policy: eye closure threshold (0–1)",
+      "context": "Local live evidence telemetry. Values are measured data, source identifiers, or explicitly model-generated observations; unavailable is not zero.",
+      "arguments": {}
+    },
+    "telemetry.admissionPolicy.steadyHold": {
+      "text": "Policy: steady hold (seconds)",
+      "context": "Local live evidence telemetry. Values are measured data, source identifiers, or explicitly model-generated observations; unavailable is not zero.",
+      "arguments": {}
+    },
+    "telemetry.admissionPolicy.minimumCaptureQuality": {
+      "text": "Policy: minimum capture quality (0–1)",
+      "context": "Local live evidence telemetry. Values are measured data, source identifiers, or explicitly model-generated observations; unavailable is not zero.",
+      "arguments": {}
+    },
+    "telemetry.admissionPolicy.requiresGuideContainment": {
+      "text": "Policy: guide containment required",
+      "context": "Local live evidence telemetry. Values are measured data, source identifiers, or explicitly model-generated observations; unavailable is not zero.",
+      "arguments": {}
+    },
+    "telemetry.depthPolicy.identifier": {
+      "text": "Depth policy identifier",
+      "context": "Local live evidence telemetry. Values are measured data, source identifiers, or explicitly model-generated observations; unavailable is not zero.",
+      "arguments": {}
+    },
+    "telemetry.depthPolicy.minimumResidualRMS": {
+      "text": "Policy: minimum plane residual RMS (metres)",
+      "context": "Local live evidence telemetry. Values are measured data, source identifiers, or explicitly model-generated observations; unavailable is not zero.",
+      "arguments": {}
+    },
+    "telemetry.depthPolicy.minimumSamples": {
+      "text": "Policy: minimum depth samples",
+      "context": "Local live evidence telemetry. Values are measured data, source identifiers, or explicitly model-generated observations; unavailable is not zero.",
+      "arguments": {}
+    },
+    "telemetry.depthPolicy.nearLimit": {
+      "text": "Policy: near depth limit (metres)",
+      "context": "Local live evidence telemetry. Values are measured data, source identifiers, or explicitly model-generated observations; unavailable is not zero.",
+      "arguments": {}
+    },
+    "telemetry.depthPolicy.farLimit": {
+      "text": "Policy: far depth limit (metres)",
+      "context": "Local live evidence telemetry. Values are measured data, source identifiers, or explicitly model-generated observations; unavailable is not zero.",
+      "arguments": {}
+    },
+    "telemetry.depthPolicy.maximumDepthAge": {
+      "text": "Policy: maximum depth age (seconds)",
+      "context": "Local live evidence telemetry. Values are measured data, source identifiers, or explicitly model-generated observations; unavailable is not zero.",
+      "arguments": {}
+    },
+    "telemetry.depthPolicy.samplesPerAxis": {
+      "text": "Policy: depth sampling points per axis",
+      "context": "Local live evidence telemetry. Values are measured data, source identifiers, or explicitly model-generated observations; unavailable is not zero.",
+      "arguments": {}
+    },
+    "telemetry.aura.referenceAlignedSHA256": {
+      "text": "Aligned reference SHA-256",
+      "context": "Local live evidence telemetry. Values are measured data, source identifiers, or explicitly model-generated observations; unavailable is not zero.",
+      "arguments": {}
+    },
+    "telemetry.aura.selfieAlignedSHA256": {
+      "text": "Aligned selfie SHA-256",
+      "context": "Local live evidence telemetry. Values are measured data, source identifiers, or explicitly model-generated observations; unavailable is not zero.",
+      "arguments": {}
+    },
+    "telemetry.aura.artifactManifestSHA256": {
+      "text": "AuraFace artifact manifest SHA-256",
+      "context": "Local live evidence telemetry. Values are measured data, source identifiers, or explicitly model-generated observations; unavailable is not zero.",
+      "arguments": {}
+    },
+    "telemetry.aura.alignmentRoute": {
+      "text": "Alignment route",
+      "context": "Local live evidence telemetry. Values are measured data, source identifiers, or explicitly model-generated observations; unavailable is not zero.",
+      "arguments": {}
+    },
+    "telemetry.aura.domain": {
+      "text": "Embedding domain",
+      "context": "Local live evidence telemetry. Values are measured data, source identifiers, or explicitly model-generated observations; unavailable is not zero.",
+      "arguments": {}
+    },
+    "telemetry.aura.dimensions": {
+      "text": "Embedding dimensions",
+      "context": "Local live evidence telemetry. Values are measured data, source identifiers, or explicitly model-generated observations; unavailable is not zero.",
+      "arguments": {}
+    },
+    "telemetry.aura.minimumNorm": {
+      "text": "Embedding minimum norm",
+      "context": "Local live evidence telemetry. Values are measured data, source identifiers, or explicitly model-generated observations; unavailable is not zero.",
+      "arguments": {}
+    },
+    "telemetry.aura.angularDistance": {
+      "text": "Embedding angular distance (radians)",
+      "context": "Local live evidence telemetry. Values are measured data, source identifiers, or explicitly model-generated observations; unavailable is not zero.",
+      "arguments": {}
+    },
+    "telemetry.aura.resultSHA256": {
+      "text": "AuraFace result record SHA-256",
+      "context": "Local live evidence telemetry. Values are measured data, source identifiers, or explicitly model-generated observations; unavailable is not zero.",
+      "arguments": {}
+    },
+    "telemetry.liquid.artifactSHA256": {
+      "text": "Liquid model weights SHA-256",
+      "context": "Local live evidence telemetry. Values are measured data, source identifiers, or explicitly model-generated observations; unavailable is not zero.",
+      "arguments": {}
+    },
+    "telemetry.liquid.profileID": {
+      "text": "Liquid processing profile",
+      "context": "Local live evidence telemetry. Values are measured data, source identifiers, or explicitly model-generated observations; unavailable is not zero.",
+      "arguments": {}
+    },
+    "telemetry.liquid.referenceSHA256": {
+      "text": "Liquid reference input SHA-256",
+      "context": "Local live evidence telemetry. Values are measured data, source identifiers, or explicitly model-generated observations; unavailable is not zero.",
+      "arguments": {}
+    },
+    "telemetry.liquid.selfieSHA256": {
+      "text": "Liquid selfie input SHA-256",
+      "context": "Local live evidence telemetry. Values are measured data, source identifiers, or explicitly model-generated observations; unavailable is not zero.",
+      "arguments": {}
+    },
+    "telemetry.liquid.contextSHA256": {
+      "text": "Liquid input context SHA-256",
+      "context": "Local live evidence telemetry. Values are measured data, source identifiers, or explicitly model-generated observations; unavailable is not zero.",
+      "arguments": {}
+    },
+    "telemetry.liquid.promptContractSHA256": {
+      "text": "Prompt contract SHA-256",
+      "context": "Local live evidence telemetry. Values are measured data, source identifiers, or explicitly model-generated observations; unavailable is not zero.",
+      "arguments": {}
+    },
+    "telemetry.liquid.promptSHA256": {
+      "text": "Prompt template SHA-256",
+      "context": "Local live evidence telemetry. Values are measured data, source identifiers, or explicitly model-generated observations; unavailable is not zero.",
+      "arguments": {}
+    },
+    "telemetry.liquid.responseSchemaSHA256": {
+      "text": "Response schema SHA-256",
+      "context": "Local live evidence telemetry. Values are measured data, source identifiers, or explicitly model-generated observations; unavailable is not zero.",
+      "arguments": {}
+    },
+    "report.quality.blur": {
+      "text": "Blur",
+      "context": "Local live evidence telemetry. Values are measured data, source identifiers, or explicitly model-generated observations; unavailable is not zero.",
+      "arguments": {}
+    },
+    "report.quality.underexposure": {
+      "text": "Underexposure",
+      "context": "Local live evidence telemetry. Values are measured data, source identifiers, or explicitly model-generated observations; unavailable is not zero.",
+      "arguments": {}
+    },
+    "report.quality.overexposure": {
+      "text": "Overexposure",
+      "context": "Local live evidence telemetry. Values are measured data, source identifiers, or explicitly model-generated observations; unavailable is not zero.",
+      "arguments": {}
+    },
+    "report.quality.occlusion": {
+      "text": "Obstruction",
+      "context": "Local live evidence telemetry. Values are measured data, source identifiers, or explicitly model-generated observations; unavailable is not zero.",
+      "arguments": {}
+    },
+    "report.quality.glare": {
+      "text": "Glare",
+      "context": "Local live evidence telemetry. Values are measured data, source identifiers, or explicitly model-generated observations; unavailable is not zero.",
+      "arguments": {}
+    },
+    "report.quality.uneven_lighting": {
+      "text": "Uneven lighting",
+      "context": "Local live evidence telemetry. Values are measured data, source identifiers, or explicitly model-generated observations; unavailable is not zero.",
+      "arguments": {}
+    },
+    "report.quality.off_angle": {
+      "text": "Off-angle pose",
+      "context": "Local live evidence telemetry. Values are measured data, source identifiers, or explicitly model-generated observations; unavailable is not zero.",
+      "arguments": {}
+    },
+    "report.quality.low_detail": {
+      "text": "Low detail",
+      "context": "Local live evidence telemetry. Values are measured data, source identifiers, or explicitly model-generated observations; unavailable is not zero.",
+      "arguments": {}
+    },
+    "report.quality.partial_face": {
+      "text": "Partial face",
+      "context": "Local live evidence telemetry. Values are measured data, source identifiers, or explicitly model-generated observations; unavailable is not zero.",
+      "arguments": {}
+    },
+    "report.indicator.moire": {
+      "text": "Moiré patterns",
+      "context": "Local live evidence telemetry. Values are measured data, source identifiers, or explicitly model-generated observations; unavailable is not zero.",
+      "arguments": {}
+    },
+    "report.indicator.screen_texture": {
+      "text": "Screen texture",
+      "context": "Local live evidence telemetry. Values are measured data, source identifiers, or explicitly model-generated observations; unavailable is not zero.",
+      "arguments": {}
+    },
+    "report.indicator.visible_bezel": {
+      "text": "Visible screen bezel",
+      "context": "Local live evidence telemetry. Values are measured data, source identifiers, or explicitly model-generated observations; unavailable is not zero.",
+      "arguments": {}
+    },
+    "report.indicator.paper_texture": {
+      "text": "Paper texture",
+      "context": "Local live evidence telemetry. Values are measured data, source identifiers, or explicitly model-generated observations; unavailable is not zero.",
+      "arguments": {}
+    },
+    "report.indicator.printed_edges": {
+      "text": "Printed edges",
+      "context": "Local live evidence telemetry. Values are measured data, source identifiers, or explicitly model-generated observations; unavailable is not zero.",
+      "arguments": {}
+    },
+    "report.indicator.face_scene_inconsistency": {
+      "text": "Face and scene inconsistency",
+      "context": "Local live evidence telemetry. Values are measured data, source identifiers, or explicitly model-generated observations; unavailable is not zero.",
+      "arguments": {}
+    },
+    "report.indicator.possible_manipulation_artifacts": {
+      "text": "Possible manipulation artifacts",
+      "context": "Local live evidence telemetry. Values are measured data, source identifiers, or explicitly model-generated observations; unavailable is not zero.",
+      "arguments": {}
+    },
+    "report.indicator.motion_parallax": {
+      "text": "Motion parallax",
+      "context": "Local live evidence telemetry. Values are measured data, source identifiers, or explicitly model-generated observations; unavailable is not zero.",
+      "arguments": {}
+    },
+    "report.indicator.highlight_motion": {
+      "text": "Highlight motion",
+      "context": "Local live evidence telemetry. Values are measured data, source identifiers, or explicitly model-generated observations; unavailable is not zero.",
+      "arguments": {}
+    },
+    "report.indicator.replay_motion": {
+      "text": "Replay motion",
+      "context": "Local live evidence telemetry. Values are measured data, source identifiers, or explicitly model-generated observations; unavailable is not zero.",
+      "arguments": {}
+    },
+    "report.indicator.camera_motion_consistency": {
+      "text": "Camera motion consistency",
+      "context": "Local live evidence telemetry. Values are measured data, source identifiers, or explicitly model-generated observations; unavailable is not zero.",
+      "arguments": {}
+    },
+    "report.indicator.depth_consistency": {
+      "text": "Depth consistency",
+      "context": "Local live evidence telemetry. Values are measured data, source identifiers, or explicitly model-generated observations; unavailable is not zero.",
+      "arguments": {}
+    },
+    "comparison.aura.title": {
+      "text": "AuraFace similarity",
+      "context": "Live source-bound dual-model face comparison. Experimental observations only.",
+      "arguments": {}
+    },
+    "comparison.aura.ready": {
+      "text": "Ready to compare the portrait and selfie.",
+      "context": "Live source-bound dual-model face comparison. Experimental observations only.",
+      "arguments": {}
+    },
+    "comparison.aura.processing": {
+      "text": "AuraFace is comparing the portrait and selfie.",
+      "context": "Live source-bound dual-model face comparison. Experimental observations only.",
+      "arguments": {}
+    },
+    "comparison.duration": {
+      "text": "Processing time (milliseconds)",
+      "context": "Live source-bound dual-model face comparison. Experimental observations only.",
+      "arguments": {}
+    },
+    "comparison.visual.title": {
+      "text": "Liquid visual assessment · Experimental",
+      "context": "Live source-bound dual-model face comparison. Experimental observations only.",
+      "arguments": {}
+    },
+    "comparison.visual.scope": {
+      "text": "An experimental visual observation. This is not an identity decision or a calibrated match probability.",
+      "context": "Live source-bound dual-model face comparison. Experimental observations only.",
+      "arguments": {}
+    },
+    "comparison.visual.ready": {
+      "text": "Ready to assess the portrait and selfie.",
+      "context": "Live source-bound dual-model face comparison. Experimental observations only.",
+      "arguments": {}
+    },
+    "comparison.visual.processing": {
+      "text": "Liquid is assessing the portrait and selfie. The other result remains available.",
+      "context": "Live source-bound dual-model face comparison. Experimental observations only.",
+      "arguments": {}
+    },
+    "comparison.visual.unavailable": {
+      "text": "Liquid assessment is unavailable. Check that the model is installed on this device.",
+      "context": "Live source-bound dual-model face comparison. Experimental observations only.",
+      "arguments": {}
+    },
+    "comparison.visual.consistency.consistent": {
+      "text": "The model reports visual consistency.",
+      "context": "Live source-bound dual-model face comparison. Experimental observations only.",
+      "arguments": {}
+    },
+    "comparison.visual.consistency.inconsistent": {
+      "text": "The model reports visual inconsistency.",
+      "context": "Live source-bound dual-model face comparison. Experimental observations only.",
+      "arguments": {}
+    },
+    "comparison.visual.consistency.uncertain": {
+      "text": "The model is uncertain about visual consistency.",
+      "context": "Live source-bound dual-model face comparison. Experimental observations only.",
+      "arguments": {}
+    },
+    "comparison.visual.issue.blur": {
+      "text": "The model observed possible blur.",
+      "context": "Live source-bound dual-model face comparison. Experimental observations only.",
+      "arguments": {}
+    },
+    "comparison.visual.issue.poorLighting": {
+      "text": "The model observed possible lighting problems.",
+      "context": "Live source-bound dual-model face comparison. Experimental observations only.",
+      "arguments": {}
+    },
+    "comparison.visual.issue.occlusion": {
+      "text": "The model observed possible face obstruction.",
+      "context": "Live source-bound dual-model face comparison. Experimental observations only.",
+      "arguments": {}
+    },
+    "comparison.visual.issue.pose": {
+      "text": "The model observed a possible pose difference.",
+      "context": "Live source-bound dual-model face comparison. Experimental observations only.",
+      "arguments": {}
+    },
+    "comparison.visual.issue.lowResolution": {
+      "text": "The model observed possibly insufficient image detail.",
+      "context": "Live source-bound dual-model face comparison. Experimental observations only.",
+      "arguments": {}
+    },
+    "comparison.visual.issue.other": {
+      "text": "The model reported another image quality concern.",
+      "context": "Live source-bound dual-model face comparison. Experimental observations only.",
+      "arguments": {}
+    },
+    "comparison.visual.error.engine": {
+      "text": "Liquid assessment could not finish. You can retake the selfie.",
+      "context": "Live source-bound dual-model face comparison. Experimental observations only.",
+      "arguments": {}
+    },
+    "comparison.visual.error.resources": {
+      "text": "Liquid assessment exceeded available device resources. The AuraFace result is separate.",
+      "context": "Live source-bound dual-model face comparison. Experimental observations only.",
+      "arguments": {}
+    },
+    "comparison.visual.error.response": {
+      "text": "Liquid did not return a usable structured assessment. The AuraFace result is separate.",
+      "context": "Live source-bound dual-model face comparison. Experimental observations only.",
+      "arguments": {}
+    },
+    "app.title": {
+      "text": "Kenshiki SDK Reference",
+      "context": "Native reference workflow; simulation only.",
+      "arguments": {}
+    },
+    "navigation.back": {
+      "text": "Back",
+      "context": "Native reference workflow; simulation only.",
+      "arguments": {}
+    },
+    "demo.disclosure": {
+      "text": "Simulation only. No capture or verification.",
+      "context": "Native demonstration page, top-level navigation or developer-only controls. Capture and verification are simulated.",
+      "arguments": {}
+    },
+    "capability.biometric.title": {
+      "text": "Face match",
+      "context": "Native reference workflow; simulation only.",
+      "arguments": {}
+    },
+    "capability.document.title": {
+      "text": "Document capture",
+      "context": "Native reference workflow; simulation only.",
+      "arguments": {}
+    },
+    "capability.passport.title": {
+      "text": "Passport scan",
+      "context": "Native reference workflow; simulation only.",
+      "arguments": {}
+    },
+    "workflow.phase.idle": {
+      "text": "Ready to begin",
+      "context": "Native reference workflow; simulation only.",
+      "arguments": {}
+    },
+    "workflow.phase.ready": {
+      "text": "Ready for the next step",
+      "context": "Native reference workflow; simulation only.",
+      "arguments": {}
+    },
+    "workflow.phase.capturing": {
+      "text": "Simulating capture",
+      "context": "Native reference workflow; simulation only.",
+      "arguments": {}
+    },
+    "workflow.phase.processing": {
+      "text": "Simulating processing",
+      "context": "Native reference workflow; simulation only.",
+      "arguments": {}
+    },
+    "workflow.phase.recoverable": {
+      "text": "Action needed",
+      "context": "Native reference workflow; simulation only.",
+      "arguments": {}
+    },
+    "workflow.phase.completed": {
+      "text": "Demonstration complete",
+      "context": "Native reference workflow; simulation only.",
+      "arguments": {}
+    },
+    "workflow.phase.cancelled": {
+      "text": "Cancelled",
+      "context": "Native reference workflow; simulation only.",
+      "arguments": {}
+    },
+    "workflow.step.biometric.referencePortrait": {
+      "text": "Provide the reference portrait",
+      "context": "Native reference workflow; simulation only.",
+      "arguments": {}
+    },
+    "workflow.step.biometric.selfie": {
+      "text": "Capture your face",
+      "context": "Native reference workflow; simulation only.",
+      "arguments": {}
+    },
+    "workflow.step.biometric.compare": {
+      "text": "Compare the portraits",
+      "context": "Native reference workflow; simulation only.",
+      "arguments": {}
+    },
+    "workflow.step.document.front": {
+      "text": "Capture the document front",
+      "context": "Native reference workflow; simulation only.",
+      "arguments": {}
+    },
+    "workflow.step.document.back": {
+      "text": "Capture the document back",
+      "context": "Native reference workflow; simulation only.",
+      "arguments": {}
+    },
+    "workflow.step.document.review": {
+      "text": "Review the document capture",
+      "context": "Native reference workflow; simulation only.",
+      "arguments": {}
+    },
+    "workflow.step.passport.mrz": {
+      "text": "Scan the passport information page",
+      "context": "Native reference workflow; simulation only.",
+      "arguments": {}
+    },
+    "workflow.step.passport.nfc": {
+      "text": "Read the passport chip",
+      "context": "Native reference workflow; simulation only.",
+      "arguments": {}
+    },
+    "workflow.step.passport.review": {
+      "text": "Review the passport reading",
+      "context": "Native reference workflow; simulation only.",
+      "arguments": {}
+    },
+    "workflow.action.start": {
+      "text": "Start demonstration",
+      "context": "Native reference workflow; simulation only.",
+      "arguments": {}
+    },
+    "workflow.action.advance": {
+      "text": "Continue",
+      "context": "Native reference workflow; simulation only.",
+      "arguments": {}
+    },
+    "workflow.action.retry": {
+      "text": "Try again",
+      "context": "Native reference workflow; simulation only.",
+      "arguments": {}
+    },
+    "workflow.action.cancel": {
+      "text": "Cancel",
+      "context": "Native reference workflow; simulation only.",
+      "arguments": {}
+    },
+    "workflow.action.restore": {
+      "text": "Restore demonstration",
+      "context": "Native reference workflow; simulation only.",
+      "arguments": {}
+    },
+    "workflow.action.simulateFailure": {
+      "text": "Simulate a service failure",
+      "context": "Native reference workflow; simulation only.",
+      "arguments": {}
+    },
+    "workflow.reason.permissionDenied": {
+      "text": "Simulated camera permission denial. Try again to continue the demonstration.",
+      "context": "Native reference workflow; simulation only.",
+      "arguments": {}
+    },
+    "workflow.reason.interrupted": {
+      "text": "The demonstration was interrupted. Try again to continue.",
+      "context": "Native reference workflow; simulation only.",
+      "arguments": {}
+    },
+    "workflow.reason.serviceUnavailable": {
+      "text": "The service is unavailable. Try again later.",
+      "context": "Native reference workflow; simulation only.",
+      "arguments": {}
+    },
+    "workflow.reason.invalidInput": {
+      "text": "The supplied input could not be used. Check it and try again.",
+      "context": "Native reference workflow; simulation only.",
+      "arguments": {}
+    },
+    "workflow.stub.notice": {
+      "text": "This workflow uses a deterministic simulation.",
+      "context": "Native reference workflow; simulation only.",
+      "arguments": {}
+    },
+    "workflow.stub.outcome": {
+      "text": "Simulated result. This does not verify an identity.",
+      "context": "Native reference workflow; simulation only.",
+      "arguments": {}
+    },
+    "accessibility.workflowStatus": {
+      "text": "Workflow status",
+      "context": "Native reference workflow; simulation only.",
+      "arguments": {}
+    },
+    "accessibility.capabilityPicker": {
+      "text": "Choose an SDK demonstration",
+      "context": "Native reference workflow; simulation only.",
+      "arguments": {}
+    },
+    "accessibility.progress": {
+      "text": "Current step",
+      "context": "Native reference workflow; simulation only.",
+      "arguments": {}
+    },
+    "accessibility.actionHint": {
+      "text": "Activates the selected demonstration action.",
+      "context": "Native reference workflow; simulation only.",
+      "arguments": {}
+    },
+    "accessibility.backHint": {
+      "text": "Returns to the SDK list.",
+      "context": "Native reference workflow; simulation only.",
+      "arguments": {}
+    },
+    "permission.camera": {
+      "text": "Use the camera to scan ID cards and passport photo pages, or to take a selfie, when you start capture.",
+      "context": "Permission description shown by the operating system.",
+      "arguments": {}
+    },
+    "permission.nfc": {
+      "text": "Read a passport chip when a real NFC engine is connected.",
+      "context": "Permission description shown by the operating system.",
+      "arguments": {}
+    },
+    "navigation.title": {
+      "text": "SDK Reference",
+      "context": "Native demonstration chooser or instruction page. No real capture or verification.",
+      "arguments": {}
+    },
+    "capability.biometric.summary": {
+      "text": "ID portrait → Selfie → Comparison",
+      "context": "Native demonstration page, top-level navigation or developer-only controls. Capture and verification are simulated.",
+      "arguments": {}
+    },
+    "capability.document.summary": {
+      "text": "Front → Back → Review",
+      "context": "Native demonstration page, top-level navigation or developer-only controls. Capture and verification are simulated.",
+      "arguments": {}
+    },
+    "capability.passport.summary": {
+      "text": "Information page → Chip → Review",
+      "context": "Native demonstration page, top-level navigation or developer-only controls. Capture and verification are simulated.",
+      "arguments": {}
+    },
+    "capability.biometric.intro": {
+      "text": "Start with an ID portrait, then add a selfie to compare the two.",
+      "context": "Native demonstration page, top-level navigation or developer-only controls. Capture and verification are simulated.",
+      "arguments": {}
+    },
+    "capability.document.intro": {
+      "text": "Capture the front and back of an identity document, then review both sides.",
+      "context": "Native demonstration page, top-level navigation or developer-only controls. Capture and verification are simulated.",
+      "arguments": {}
+    },
+    "capability.passport.intro": {
+      "text": "Scan the passport information page, read its chip, then review the details.",
+      "context": "Native demonstration page, top-level navigation or developer-only controls. Capture and verification are simulated.",
+      "arguments": {}
+    },
+    "navigation.tab.biometric": {
+      "text": "Face match",
+      "context": "Native demonstration page, top-level navigation or developer-only controls. Capture and verification are simulated.",
+      "arguments": {}
+    },
+    "navigation.tab.document": {
+      "text": "Documents",
+      "context": "Native demonstration page, top-level navigation or developer-only controls. Capture and verification are simulated.",
+      "arguments": {}
+    },
+    "navigation.tab.passport": {
+      "text": "Passport",
+      "context": "Native demonstration page, top-level navigation or developer-only controls. Capture and verification are simulated.",
+      "arguments": {}
+    },
+    "capability.biometric.instructionTitle": {
+      "text": "Compare two portraits",
+      "context": "Native demonstration page, top-level navigation or developer-only controls. Capture and verification are simulated.",
+      "arguments": {}
+    },
+    "capability.document.instructionTitle": {
+      "text": "Capture both document sides",
+      "context": "Native demonstration page, top-level navigation or developer-only controls. Capture and verification are simulated.",
+      "arguments": {}
+    },
+    "capability.passport.instructionTitle": {
+      "text": "Read your passport",
+      "context": "Native demonstration page, top-level navigation or developer-only controls. Capture and verification are simulated.",
+      "arguments": {}
+    },
+    "workflow.overviewHeading": {
+      "text": "How it works",
+      "context": "Native demonstration page, top-level navigation or developer-only controls. Capture and verification are simulated.",
+      "arguments": {}
+    },
+    "developer.menu": {
+      "text": "Developer",
+      "context": "Native demonstration page, top-level navigation or developer-only controls. Capture and verification are simulated.",
+      "arguments": {}
+    },
+    "progress.step1": {
+      "text": "Step 1 of 3",
+      "context": "Prepared three-step demonstration progress. Tab navigation is independent.",
+      "arguments": {}
+    },
+    "progress.step2": {
+      "text": "Step 2 of 3",
+      "context": "Prepared three-step demonstration progress. Tab navigation is independent.",
+      "arguments": {}
+    },
+    "progress.step3": {
+      "text": "Step 3 of 3",
+      "context": "Prepared three-step demonstration progress. Tab navigation is independent.",
+      "arguments": {}
+    },
+    "capture.live.start": {
+      "text": "Capture a selfie",
+      "context": "Live biometric capture only; no comparison or identity acceptance.",
+      "arguments": {}
+    },
+    "capture.live.title": {
+      "text": "Live selfie capture",
+      "context": "Live biometric capture only; no comparison or identity acceptance.",
+      "arguments": {}
+    },
+    "capture.consent.title": {
+      "text": "Allow a live selfie?",
+      "context": "Live biometric capture only; no comparison or identity acceptance.",
+      "arguments": {}
+    },
+    "capture.consent.body": {
+      "text": "Use the front camera, TrueDepth measurements and device motion to capture your face and record capture conditions on this device. Blink naturally with your face inside the guide.",
+      "context": "Live biometric capture only; no comparison or identity acceptance.",
+      "arguments": {}
+    },
+    "capture.scope": {
+      "text": "Capture only. No face comparison or identity verification is performed. This screen does not save or upload the image.",
+      "context": "Live biometric capture only; no comparison or identity acceptance.",
+      "arguments": {}
+    },
+    "capture.allow": {
+      "text": "Allow selfie capture",
+      "context": "Live biometric capture only; no comparison or identity acceptance.",
+      "arguments": {}
+    },
+    "capture.shutter": {
+      "text": "Take selfie",
+      "context": "Live biometric capture only; no comparison or identity acceptance.",
+      "arguments": {}
+    },
+    "capture.actionHint": {
+      "text": "Activates the selected selfie capture action.",
+      "context": "Live biometric capture only; no comparison or identity acceptance.",
+      "arguments": {}
+    },
+    "capture.cancel": {
+      "text": "Close capture",
+      "context": "Live biometric capture only; no comparison or identity acceptance.",
+      "arguments": {}
+    },
+    "capture.retake": {
+      "text": "Take another selfie",
+      "context": "Live biometric capture only; no comparison or identity acceptance.",
+      "arguments": {}
+    },
+    "capture.retry": {
+      "text": "Try capture again",
+      "context": "Live biometric capture only; no comparison or identity acceptance.",
+      "arguments": {}
+    },
+    "capture.starting": {
+      "text": "Starting the front camera…",
+      "context": "Live biometric capture only; no comparison or identity acceptance.",
+      "arguments": {}
+    },
+    "capture.permission": {
+      "text": "Waiting for camera permission…",
+      "context": "Live biometric capture only; no comparison or identity acceptance.",
+      "arguments": {}
+    },
+    "capture.guidance.center": {
+      "text": "Center your face inside the guide.",
+      "context": "Live biometric capture only; no comparison or identity acceptance.",
+      "arguments": {}
+    },
+    "capture.guidance.single": {
+      "text": "Only one face should be visible.",
+      "context": "Live biometric capture only; no comparison or identity acceptance.",
+      "arguments": {}
+    },
+    "capture.guidance.blink": {
+      "text": "Blink naturally, then open your eyes.",
+      "context": "Live biometric capture only; no comparison or identity acceptance.",
+      "arguments": {}
+    },
+    "capture.guidance.hold": {
+      "text": "Keep still with your eyes open.",
+      "context": "Live biometric capture only; no comparison or identity acceptance.",
+      "arguments": {}
+    },
+    "capture.guidance.depth": {
+      "text": "Keep your face inside the guide while depth measurements become available.",
+      "context": "Live biometric capture only; no comparison or identity acceptance.",
+      "arguments": {}
+    },
+    "capture.guidance.quality": {
+      "text": "Move to even lighting and hold your face steady.",
+      "context": "Live biometric capture only; no comparison or identity acceptance.",
+      "arguments": {}
+    },
+    "capture.guidance.ready": {
+      "text": "Ready. Hold still for automatic capture, or use Take selfie.",
+      "context": "Live biometric capture only; no comparison or identity acceptance.",
+      "arguments": {}
+    },
+    "capture.processing": {
+      "text": "Preparing the captured image…",
+      "context": "Live biometric capture only; no comparison or identity acceptance.",
+      "arguments": {}
+    },
+    "capture.complete.title": {
+      "text": "Selfie captured",
+      "context": "Live biometric capture only; no comparison or identity acceptance.",
+      "arguments": {}
+    },
+    "capture.complete.body": {
+      "text": "Review your selfie. Choose Use this selfie to pass it to the next processing step, or take another. Face alignment and comparison have not run.",
+      "context": "Live biometric capture only; no comparison or identity acceptance.",
+      "arguments": {}
+    },
+    "capture.image.label": {
+      "text": "Captured selfie",
+      "context": "Live biometric capture only; no comparison or identity acceptance.",
+      "arguments": {}
+    },
+    "capture.preview.label": {
+      "text": "Live front camera preview with face guide",
+      "context": "Live biometric capture only; no comparison or identity acceptance.",
+      "arguments": {}
+    },
+    "capture.failure.unsupported": {
+      "text": "This capture requires a supported front TrueDepth camera. Use a compatible physical iPhone or iPad.",
+      "context": "Live biometric capture only; no comparison or identity acceptance.",
+      "arguments": {}
+    },
+    "capture.failure.denied": {
+      "text": "Camera access is denied. You can enable camera access in Settings, then try again.",
+      "context": "Live biometric capture only; no comparison or identity acceptance.",
+      "arguments": {}
+    },
+    "capture.failure.restricted": {
+      "text": "Camera access is restricted on this device.",
+      "context": "Live biometric capture only; no comparison or identity acceptance.",
+      "arguments": {}
+    },
+    "capture.failure.depth": {
+      "text": "Depth measurements were unavailable. Try again with your face inside the guide.",
+      "context": "Live biometric capture only; no comparison or identity acceptance.",
+      "arguments": {}
+    },
+    "capture.failure.timeout": {
+      "text": "Capture timed out. Try again while keeping your face steady.",
+      "context": "Live biometric capture only; no comparison or identity acceptance.",
+      "arguments": {}
+    },
+    "capture.failure.camera": {
+      "text": "The camera could not complete this capture. Try again.",
+      "context": "Live biometric capture only; no comparison or identity acceptance.",
+      "arguments": {}
+    },
+    "capture.failure.storage": {
+      "text": "The selfie could not be saved. Retry saving this capture.",
+      "context": "Durable selfie commit failed. Retry retains the captured image; it does not reopen the camera.",
+      "arguments": {}
+    },
+    "capture.failure.image": {
+      "text": "The captured image could not be prepared safely. Try another capture.",
+      "context": "Live biometric capture only; no comparison or identity acceptance.",
+      "arguments": {}
+    },
+    "capture.failure.title": {
+      "text": "Capture needs attention",
+      "context": "Live biometric capture only; no comparison or identity acceptance.",
+      "arguments": {}
+    },
+    "capture.step.capture": {
+      "text": "Capture a selfie with live positioning guidance.",
+      "context": "Live capture instruction overview; no comparison or identity acceptance.",
+      "arguments": {}
+    },
+    "capture.step.review": {
+      "text": "Review the image and retake it if needed.",
+      "context": "Live capture instruction overview; no comparison or identity acceptance.",
+      "arguments": {}
+    },
+    "capture.step.use": {
+      "text": "Use your selected selfie for the next processing step.",
+      "context": "Live capture instruction overview; no comparison or identity acceptance.",
+      "arguments": {}
+    },
+    "capture.use": {
+      "text": "Use this selfie",
+      "context": "Transfers this reviewed capture to the in-memory acquisition handoff, not identity acceptance.",
+      "arguments": {}
+    },
+    "capture.discard": {
+      "text": "Discard selected selfie",
+      "context": "Clears the in-memory acquisition handoff.",
+      "arguments": {}
+    },
+    "capture.interrupted": {
+      "text": "Capture was interrupted. Allow a new capture to continue.",
+      "context": "Live biometric capture only; no comparison or identity acceptance.",
+      "arguments": {}
+    },
+    "passport.start.title": {
+      "text": "Scan your passport",
+      "context": "Live native passport reference flow. Protocol verification only; not an identity verdict.",
+      "arguments": {}
+    },
+    "passport.start.body": {
+      "text": "Open your passport to the photo page. Scan the two lines at the bottom, confirm the details, then hold your phone against the passport to read its chip.",
+      "context": "Live native passport reference flow. Protocol verification only; not an identity verdict.",
+      "arguments": {}
+    },
+    "passport.start": {
+      "text": "Scan passport MRZ",
+      "context": "Live native passport reference flow. Protocol verification only; not an identity verdict.",
+      "arguments": {}
+    },
+    "passport.manual": {
+      "text": "Enter details manually",
+      "context": "Live native passport reference flow. Protocol verification only; not an identity verdict.",
+      "arguments": {}
+    },
+    "passport.scope": {
+      "text": "Passport chip evidence is sent to Pulse for verification. Portraits stay on this device. Chip verification does not complete identity acceptance.",
+      "context": "Live native passport reference flow. Protocol verification only; not an identity verdict.",
+      "arguments": {}
+    },
+    "passport.mrz.title": {
+      "text": "Scan the photo page",
+      "context": "Live native passport reference flow. Protocol verification only; not an identity verdict.",
+      "arguments": {}
+    },
+    "passport.mrz.body": {
+      "text": "Place the two machine-readable lines inside the guide. Keep the page flat and your phone still.",
+      "context": "Live native passport reference flow. Protocol verification only; not an identity verdict.",
+      "arguments": {}
+    },
+    "passport.confirm.title": {
+      "text": "Confirm passport details",
+      "context": "Live native passport reference flow. Protocol verification only; not an identity verdict.",
+      "arguments": {}
+    },
+    "passport.confirm.body": {
+      "text": "Check these details against the printed photo page. Dates use YYMMDD: two digits each for year, month and day.",
+      "context": "Live native passport reference flow. Protocol verification only; not an identity verdict.",
+      "arguments": {}
+    },
+    "passport.confirm": {
+      "text": "Confirm details",
+      "context": "Live native passport reference flow. Protocol verification only; not an identity verdict.",
+      "arguments": {}
+    },
+    "passport.field.document": {
+      "text": "Passport number",
+      "context": "Live native passport reference flow. Protocol verification only; not an identity verdict.",
+      "arguments": {}
+    },
+    "passport.field.birth": {
+      "text": "Date of birth · YYMMDD",
+      "context": "Live native passport reference flow. Protocol verification only; not an identity verdict.",
+      "arguments": {}
+    },
+    "passport.field.expiry": {
+      "text": "Expiry date · YYMMDD",
+      "context": "Live native passport reference flow. Protocol verification only; not an identity verdict.",
+      "arguments": {}
+    },
+    "passport.ready.title": {
+      "text": "Ready to read the chip",
+      "context": "Live native passport reference flow. Protocol verification only; not an identity verdict.",
+      "arguments": {}
+    },
+    "passport.ready.body": {
+      "text": "Close the passport. When prompted, hold the top of your phone against its cover. Keep it in place until reading finishes.",
+      "context": "Live native passport reference flow. Protocol verification only; not an identity verdict.",
+      "arguments": {}
+    },
+    "passport.scan": {
+      "text": "Read passport chip",
+      "context": "Live native passport reference flow. Protocol verification only; not an identity verdict.",
+      "arguments": {}
+    },
+    "passport.cancel": {
+      "text": "Cancel",
+      "context": "Live native passport reference flow. Protocol verification only; not an identity verdict.",
+      "arguments": {}
+    },
+    "passport.cancelScan": {
+      "text": "Stop reading",
+      "context": "Live native passport reference flow. Protocol verification only; not an identity verdict.",
+      "arguments": {}
+    },
+    "passport.restart": {
+      "text": "Scan again",
+      "context": "Live native passport reference flow. Protocol verification only; not an identity verdict.",
+      "arguments": {}
+    },
+    "passport.retry": {
+      "text": "Try again",
+      "context": "Live native passport reference flow. Protocol verification only; not an identity verdict.",
+      "arguments": {}
+    },
+    "passport.use": {
+      "text": "Use for face match",
+      "context": "Live native passport reference flow. Protocol verification only; not an identity verdict.",
+      "arguments": {}
+    },
+    "passport.scanning.title": {
+      "text": "Reading passport",
+      "context": "Live native passport reference flow. Protocol verification only; not an identity verdict.",
+      "arguments": {}
+    },
+    "passport.nfc.present": {
+      "text": "Hold the top of your phone against your passport.",
+      "context": "Live native passport reference flow. Protocol verification only; not an identity verdict.",
+      "arguments": {}
+    },
+    "passport.nfc.authenticating": {
+      "text": "Opening a secure connection. Keep your phone still.",
+      "context": "Live native passport reference flow. Protocol verification only; not an identity verdict.",
+      "arguments": {}
+    },
+    "passport.nfc.reading": {
+      "text": "Reading passport details. Keep your phone still.",
+      "context": "Live native passport reference flow. Protocol verification only; not an identity verdict.",
+      "arguments": {}
+    },
+    "passport.nfc.active": {
+      "text": "Checking the chip. Keep your phone still.",
+      "context": "Live native passport reference flow. Protocol verification only; not an identity verdict.",
+      "arguments": {}
+    },
+    "passport.nfc.finishing": {
+      "text": "Finishing the chip read. Keep your phone still.",
+      "context": "Live native passport reference flow. Protocol verification only; not an identity verdict.",
+      "arguments": {}
+    },
+    "passport.nfc.verifying": {
+      "text": "Checking the issuer signature and signed passport details.",
+      "context": "Live native passport reference flow. Protocol verification only; not an identity verdict.",
+      "arguments": {}
+    },
+    "passport.result.title": {
+      "text": "Passport read",
+      "context": "Live native passport reference flow. Protocol verification only; not an identity verdict.",
+      "arguments": {}
+    },
+    "passport.result.verified": {
+      "text": "Issuer signature matched",
+      "context": "Live native passport reference flow. Protocol verification only; not an identity verdict.",
+      "arguments": {}
+    },
+    "passport.result.body": {
+      "text": "The issuer certificate, document signature and signed data matched the supplied trust certificates.",
+      "context": "Live native passport reference flow. Protocol verification only; not an identity verdict.",
+      "arguments": {}
+    },
+    "passport.result.details": {
+      "text": "Passport details",
+      "context": "Live native passport reference flow. Protocol verification only; not an identity verdict.",
+      "arguments": {}
+    },
+    "passport.result.proof": {
+      "text": "Verification details",
+      "context": "Live native passport reference flow. Protocol verification only; not an identity verdict.",
+      "arguments": {}
+    },
+    "passport.result.portrait": {
+      "text": "Portrait from the passport chip",
+      "context": "Live native passport reference flow. Protocol verification only; not an identity verdict.",
+      "arguments": {}
+    },
+    "passport.result.previewUnavailable": {
+      "text": "Portrait captured. A preview is unavailable on this device.",
+      "context": "Live native passport reference flow. Protocol verification only; not an identity verdict.",
+      "arguments": {}
+    },
+    "passport.result.noPortrait": {
+      "text": "This read did not provide a usable portrait.",
+      "context": "Live native passport reference flow. Protocol verification only; not an identity verdict.",
+      "arguments": {}
+    },
+    "passport.result.surname": {
+      "text": "Surname",
+      "context": "Live native passport reference flow. Protocol verification only; not an identity verdict.",
+      "arguments": {}
+    },
+    "passport.result.given": {
+      "text": "Given names",
+      "context": "Live native passport reference flow. Protocol verification only; not an identity verdict.",
+      "arguments": {}
+    },
+    "passport.result.nationality": {
+      "text": "Nationality",
+      "context": "Live native passport reference flow. Protocol verification only; not an identity verdict.",
+      "arguments": {}
+    },
+    "passport.result.issuer": {
+      "text": "Issuing state",
+      "context": "Live native passport reference flow. Protocol verification only; not an identity verdict.",
+      "arguments": {}
+    },
+    "passport.result.birth": {
+      "text": "Date of birth",
+      "context": "Live native passport reference flow. Protocol verification only; not an identity verdict.",
+      "arguments": {}
+    },
+    "passport.result.expiry": {
+      "text": "Date of expiry",
+      "context": "Live native passport reference flow. Protocol verification only; not an identity verdict.",
+      "arguments": {}
+    },
+    "passport.result.sex": {
+      "text": "Sex",
+      "context": "Live native passport reference flow. Protocol verification only; not an identity verdict.",
+      "arguments": {}
+    },
+    "passport.result.issueDate": {
+      "text": "Date of issue",
+      "context": "Live native passport reference flow. Protocol verification only; not an identity verdict.",
+      "arguments": {}
+    },
+    "passport.result.authority": {
+      "text": "Issuing authority",
+      "context": "Live native passport reference flow. Protocol verification only; not an identity verdict.",
+      "arguments": {}
+    },
+    "passport.result.birthplace": {
+      "text": "Place of birth",
+      "context": "Live native passport reference flow. Protocol verification only; not an identity verdict.",
+      "arguments": {}
+    },
+    "passport.result.face": {
+      "text": "Face comparison",
+      "context": "Live native passport reference flow. Protocol verification only; not an identity verdict.",
+      "arguments": {}
+    },
+    "passport.result.notCompared": {
+      "text": "Not performed",
+      "context": "Live native passport reference flow. Protocol verification only; not an identity verdict.",
+      "arguments": {}
+    },
+    "passport.result.pace": {
+      "text": "PACE",
+      "context": "Live native passport reference flow. Protocol verification only; not an identity verdict.",
+      "arguments": {}
+    },
+    "passport.result.bac": {
+      "text": "BAC",
+      "context": "Live native passport reference flow. Protocol verification only; not an identity verdict.",
+      "arguments": {}
+    },
+    "passport.result.aa": {
+      "text": "Active authentication",
+      "context": "Live native passport reference flow. Protocol verification only; not an identity verdict.",
+      "arguments": {}
+    },
+    "passport.result.ca": {
+      "text": "Chip authentication",
+      "context": "Live native passport reference flow. Protocol verification only; not an identity verdict.",
+      "arguments": {}
+    },
+    "passport.result.chain": {
+      "text": "Issuer certificate chain",
+      "context": "Live native passport reference flow. Protocol verification only; not an identity verdict.",
+      "arguments": {}
+    },
+    "passport.result.signature": {
+      "text": "Document signature",
+      "context": "Live native passport reference flow. Protocol verification only; not an identity verdict.",
+      "arguments": {}
+    },
+    "passport.result.hashes": {
+      "text": "Signed data groups",
+      "context": "Live native passport reference flow. Protocol verification only; not an identity verdict.",
+      "arguments": {}
+    },
+    "passport.result.groupCount": {
+      "text": "Data groups read",
+      "context": "Live native passport reference flow. Protocol verification only; not an identity verdict.",
+      "arguments": {}
+    },
+    "passport.result.sod": {
+      "text": "Security object digest",
+      "context": "Live native passport reference flow. Protocol verification only; not an identity verdict.",
+      "arguments": {}
+    },
+    "passport.result.dg2": {
+      "text": "Portrait source digest",
+      "context": "Live native passport reference flow. Protocol verification only; not an identity verdict.",
+      "arguments": {}
+    },
+    "passport.result.passed": {
+      "text": "Matched",
+      "context": "Live native passport reference flow. Protocol verification only; not an identity verdict.",
+      "arguments": {}
+    },
+    "passport.result.notPerformed": {
+      "text": "Not performed",
+      "context": "Live native passport reference flow. Protocol verification only; not an identity verdict.",
+      "arguments": {}
+    },
+    "passport.result.failed": {
+      "text": "Failed",
+      "context": "Live native passport reference flow. Protocol verification only; not an identity verdict.",
+      "arguments": {}
+    },
+    "passport.trust.required": {
+      "text": "Passport verification is unavailable. Please try again later.",
+      "context": "Live native passport reference flow. Protocol verification only; not an identity verdict.",
+      "arguments": {}
+    },
+    "passport.failure.title": {
+      "text": "Passport scan needs attention",
+      "context": "Live native passport reference flow. Protocol verification only; not an identity verdict.",
+      "arguments": {}
+    },
+    "passport.failure.key": {
+      "text": "Check the passport number and dates against the printed photo page.",
+      "context": "Live native passport reference flow. Protocol verification only; not an identity verdict.",
+      "arguments": {}
+    },
+    "passport.failure.camera": {
+      "text": "The camera could not scan the MRZ. Allow camera access in Settings, retry, or enter the details manually.",
+      "context": "Live native passport reference flow. Protocol verification only; not an identity verdict.",
+      "arguments": {}
+    },
+    "passport.failure.unsupported": {
+      "text": "Passport NFC reading is unavailable on this device. Use a supported iPhone to read a real passport.",
+      "context": "Live native passport reference flow. Protocol verification only; not an identity verdict.",
+      "arguments": {}
+    },
+    "passport.failure.interrupted": {
+      "text": "Scanning stopped. Start again when you are ready.",
+      "context": "Live native passport reference flow. Protocol verification only; not an identity verdict.",
+      "arguments": {}
+    },
+    "passport.failure.connection": {
+      "text": "The passport connection ended. Keep the phone against the passport and try again.",
+      "context": "Live native passport reference flow. Protocol verification only; not an identity verdict.",
+      "arguments": {}
+    },
+    "passport.failure.trust": {
+      "text": "The passport issuer could not be verified. This read cannot be used.",
+      "context": "Live native passport reference flow. Protocol verification only; not an identity verdict.",
+      "arguments": {}
+    },
+    "passport.failure.correspondence": {
+      "text": "The passport details do not match the chip. Scan the page of the same passport again.",
+      "context": "Printed or entered passport details differed from authenticated chip data; this is distinct from a signature or signed-data verification failure.",
+      "arguments": {}
+    },
+    "passport.failure.correspondence.key": {
+      "text": "The chip identity did not match the passport details used to open it. Re-scan the passport page and try again.",
+      "context": "Preserves Pulse NFCPassportStepView identityMismatchMessage recovery for document number, date of birth or expiry differences.",
+      "arguments": {}
+    },
+    "passport.failure.correspondence.surname": {
+      "text": "The chip family name did not match the scanned passport page. Re-scan the same passport before continuing.",
+      "context": "Preserves Pulse NFCPassportStepView identityMismatchMessage family-name recovery; distinct from cryptographic verification failure.",
+      "arguments": {}
+    },
+    "passport.failure.correspondence.givenNames": {
+      "text": "The chip given names did not match the scanned passport page. Re-scan the same passport before continuing.",
+      "context": "Preserves Pulse NFCPassportStepView identityMismatchMessage given-name recovery; distinct from cryptographic verification failure.",
+      "arguments": {}
+    },
+    "passport.failure.integrity": {
+      "text": "The passport signature or signed data did not verify. This read cannot be used.",
+      "context": "Live native passport reference flow. Protocol verification only; not an identity verdict.",
+      "arguments": {}
+    },
+    "passport.failure.read": {
+      "text": "The passport could not be read. Check its details and try again.",
+      "context": "Live native passport reference flow. Protocol verification only; not an identity verdict.",
+      "arguments": {}
+    },
+    "passport.reference.title": {
+      "text": "Passport portrait ready",
+      "context": "Live native passport reference flow. Protocol verification only; not an identity verdict.",
+      "arguments": {}
+    },
+    "passport.reference.body": {
+      "text": "Your passport portrait is selected as the reference. Capture and review a selfie next.",
+      "context": "Live native passport reference flow. Protocol verification only; not an identity verdict.",
+      "arguments": {}
+    },
+    "passport.reference.open": {
+      "text": "Scan a passport for comparison",
+      "context": "Live native passport reference flow. Protocol verification only; not an identity verdict.",
+      "arguments": {}
+    },
+    "passport.reference.discard": {
+      "text": "Discard passport reference",
+      "context": "Live native passport reference flow. Protocol verification only; not an identity verdict.",
+      "arguments": {}
+    },
+    "passport.reference.empty": {
+      "text": "To compare a selfie, scan a passport and select its chip portrait first.",
+      "context": "Live native passport reference flow. Protocol verification only; not an identity verdict.",
+      "arguments": {}
+    },
+    "comparison.compare": {
+      "text": "Compare faces",
+      "context": "Live on-device face comparison; no identity decision.",
+      "arguments": {}
+    },
+    "comparison.processing": {
+      "text": "Comparing faces",
+      "context": "Live on-device face comparison; no identity decision.",
+      "arguments": {}
+    },
+    "comparison.processing.body": {
+      "text": "Aligning your passport portrait and selfie, then comparing them on this device with AuraFace.",
+      "context": "Live on-device face comparison; no identity decision.",
+      "arguments": {}
+    },
+    "comparison.completed": {
+      "text": "Face comparison complete",
+      "context": "Live on-device face comparison; no identity decision.",
+      "arguments": {}
+    },
+    "comparison.score": {
+      "text": "Cosine similarity",
+      "context": "Live on-device face comparison; no identity decision.",
+      "arguments": {}
+    },
+    "comparison.observation": {
+      "text": "AuraFace v1 · ONNX Runtime CPU · Vision five-point alignment. This score is an observation. A match threshold has not yet been calibrated.",
+      "context": "Live on-device face comparison; no identity decision.",
+      "arguments": {}
+    },
+    "comparison.failed": {
+      "text": "Could not compare faces",
+      "context": "Live on-device face comparison; no identity decision.",
+      "arguments": {}
+    },
+    "comparison.error.noFace": {
+      "text": "No face was found in one of the images. Retake your selfie or scan the passport again.",
+      "context": "Live on-device face comparison; no identity decision.",
+      "arguments": {}
+    },
+    "comparison.error.multipleFaces": {
+      "text": "More than one face was found. Use images with exactly one face.",
+      "context": "Live on-device face comparison; no identity decision.",
+      "arguments": {}
+    },
+    "comparison.error.alignment": {
+      "text": "The facial landmarks could not be aligned. Retake your selfie facing the camera.",
+      "context": "Live on-device face comparison; no identity decision.",
+      "arguments": {}
+    },
+    "comparison.error.model": {
+      "text": "The face model is missing or invalid in this build. Install a build with the pinned AuraFace model.",
+      "context": "Live on-device face comparison; no identity decision.",
+      "arguments": {}
+    },
+    "comparison.error.image": {
+      "text": "One of the images could not be decoded within the supported image limits.",
+      "context": "Live on-device face comparison; no identity decision.",
+      "arguments": {}
+    },
+    "comparison.error.source": {
+      "text": "The images changed during processing. Start a new comparison.",
+      "context": "Live on-device face comparison; no identity decision.",
+      "arguments": {}
+    },
+    "comparison.error.engine": {
+      "text": "The face comparison engine could not complete. Try again.",
+      "context": "Live on-device face comparison; no identity decision.",
+      "arguments": {}
+    },
+    "comparison.reference.required": {
+      "text": "Start with your passport portrait",
+      "context": "Live on-device face comparison; no identity decision.",
+      "arguments": {}
+    },
+    "comparison.reference.ready": {
+      "text": "Your passport portrait is ready. Capture a live selfie, review it and choose Compare faces.",
+      "context": "Live on-device face comparison; no identity decision.",
+      "arguments": {}
+    },
+    "comparison.scope": {
+      "text": "Images are processed on this device and are not uploaded. This comparison does not establish identity acceptance.",
+      "context": "Live on-device face comparison; no identity decision.",
+      "arguments": {}
+    },
+    "journey.title": {
+      "text": "Passport & selfie",
+      "context": "Guided local passport and selfie reference journey. No calibrated identity acceptance.",
+      "arguments": {}
+    },
+    "journey.introduction": {
+      "text": "Compare your passport photo with a new selfie.",
+      "context": "Guided local passport and selfie reference journey. No calibrated identity acceptance.",
+      "arguments": {}
+    },
+    "journey.scope": {
+      "text": "Photos, motion and available location are saved on this device. Passport chip evidence is sent to Pulse for verification; photos are not uploaded.",
+      "context": "Guided local passport and selfie reference journey. No calibrated identity acceptance.",
+      "arguments": {}
+    },
+    "journey.begin": {
+      "text": "Start new comparison",
+      "context": "Guided local passport and selfie reference journey. No calibrated identity acceptance.",
+      "arguments": {}
+    },
+    "journey.examples": {
+      "text": "SDK examples",
+      "context": "Guided local passport and selfie reference journey. No calibrated identity acceptance.",
+      "arguments": {}
+    },
+    "journey.cancel": {
+      "text": "Cancel",
+      "context": "Guided local passport and selfie reference journey. No calibrated identity acceptance.",
+      "arguments": {}
+    },
+    "journey.done": {
+      "text": "Done",
+      "context": "Guided local passport and selfie reference journey. No calibrated identity acceptance.",
+      "arguments": {}
+    },
+    "journey.progress.passport": {
+      "text": "1 of 3 · Passport",
+      "context": "Guided local passport and selfie reference journey. No calibrated identity acceptance.",
+      "arguments": {}
+    },
+    "journey.progress.selfie": {
+      "text": "2 of 3 · Selfie",
+      "context": "Guided local passport and selfie reference journey. No calibrated identity acceptance.",
+      "arguments": {}
+    },
+    "journey.progress.result": {
+      "text": "3 of 3 · Result",
+      "context": "Guided local passport and selfie reference journey. No calibrated identity acceptance.",
+      "arguments": {}
+    },
+    "journey.readChip": {
+      "text": "Read chip",
+      "context": "Guided local passport and selfie reference journey. No calibrated identity acceptance.",
+      "arguments": {}
+    },
+    "journey.passportReady.body": {
+      "text": "Your passport photo is ready. Continue to open the camera for a selfie and compare the two photos on this device.",
+      "context": "Guided local passport and selfie reference journey. No calibrated identity acceptance.",
+      "arguments": {}
+    },
+    "journey.continueSelfie": {
+      "text": "Continue to selfie",
+      "context": "Guided local passport and selfie reference journey. No calibrated identity acceptance.",
+      "arguments": {}
+    },
+    "journey.result.title": {
+      "text": "Comparison complete",
+      "context": "Guided local passport and selfie reference journey. No calibrated identity acceptance.",
+      "arguments": {}
+    },
+    "journey.passportPassed": {
+      "text": "Passport signature, signing chain and data-group checks passed.",
+      "context": "Guided local passport and selfie reference journey. No calibrated identity acceptance.",
+      "arguments": {}
+    },
+    "journey.retake": {
+      "text": "Retake selfie",
+      "context": "Guided local passport and selfie reference journey. No calibrated identity acceptance.",
+      "arguments": {}
+    },
+    "journey.viewDetails": {
+      "text": "View details",
+      "context": "Guided local passport and selfie reference journey. No calibrated identity acceptance.",
+      "arguments": {}
+    },
+    "journey.hideDetails": {
+      "text": "Hide details",
+      "context": "Guided local passport and selfie reference journey. No calibrated identity acceptance.",
+      "arguments": {}
+    },
+    "journey.interrupted.title": {
+      "text": "Session interrupted",
+      "context": "Guided local passport and selfie reference journey. No calibrated identity acceptance.",
+      "arguments": {}
+    },
+    "journey.interrupted.body": {
+      "text": "The photos and results from this session were cleared. Begin again to scan your passport and take a new selfie.",
+      "context": "Guided local passport and selfie reference journey. No calibrated identity acceptance.",
+      "arguments": {}
+    },
+    "journey.beginAgain": {
+      "text": "Begin again",
+      "context": "Guided local passport and selfie reference journey. No calibrated identity acceptance.",
+      "arguments": {}
+    },
+    "comparison.export.copy": {
+      "text": "Copy report",
+      "context": "Explicit copy action for the current face comparison report. Includes all details even when collapsed; no images.",
+      "arguments": {}
+    },
+    "comparison.export.copied": {
+      "text": "Report copied",
+      "context": "Explicit copy action for the current face comparison report. Includes all details even when collapsed; no images.",
+      "arguments": {}
+    },
+    "comparison.export.hint": {
+      "text": "Copy comparison results and capture details as JSON.",
+      "context": "Explicit copy action for the current face comparison report. Includes all details even when collapsed; no images.",
+      "arguments": {}
+    },
+    "journey.saved.loading": {
+      "text": "Loading saved passport…",
+      "context": "Local encrypted passport checkpoint, separate from fresh NFC capture and server verification.",
+      "arguments": {}
+    },
+    "journey.saved.saving": {
+      "text": "Saving passport for later face comparisons…",
+      "context": "Local encrypted passport checkpoint, separate from fresh NFC capture and server verification.",
+      "arguments": {}
+    },
+    "journey.saved.deleting": {
+      "text": "Deleting saved workflow data…",
+      "context": "Local encrypted passport checkpoint, separate from fresh NFC capture and server verification.",
+      "arguments": {}
+    },
+    "journey.saved.available": {
+      "text": "Saved passport captured:",
+      "context": "Local encrypted passport checkpoint, separate from fresh NFC capture and server verification.",
+      "arguments": {}
+    },
+    "journey.saved.reused": {
+      "text": "Using a previously captured passport from",
+      "context": "Local encrypted passport checkpoint, separate from fresh NFC capture and server verification.",
+      "arguments": {}
+    },
+    "journey.saved.failed": {
+      "text": "Saved work could not be opened. Try storage again, or delete the saved work.",
+      "context": "Local encrypted passport checkpoint, separate from fresh NFC capture and server verification.",
+      "arguments": {}
+    },
+    "journey.saved.retry": {
+      "text": "Retry storage",
+      "context": "Local encrypted passport checkpoint, separate from fresh NFC capture and server verification.",
+      "arguments": {}
+    },
+    "journey.saved.use": {
+      "text": "Use saved passport",
+      "context": "Local encrypted passport checkpoint, separate from fresh NFC capture and server verification.",
+      "arguments": {}
+    },
+    "journey.saved.delete": {
+      "text": "Delete saved work",
+      "context": "Local encrypted passport checkpoint, separate from fresh NFC capture and server verification.",
+      "arguments": {}
+    },
+    "journey.saved.scope": {
+      "text": "Passport and selfie captures, results, motion and available location are saved on this device. Passport chip evidence is also sent to Pulse for verification; photos are not uploaded. Manage local records in Saved work.",
+      "context": "Storage scope shown only in the persistent passport journey.",
+      "arguments": {}
+    },
+    "journey.saved.deleteFailed": {
+      "text": "Deletion could not finish. Retry deletion before starting another saved-passport session.",
+      "context": "Failed durable deletion must not restore cached evidence.",
+      "arguments": {}
+    },
+    "journey.saved.retryDelete": {
+      "text": "Retry deleting saved workflow data",
+      "context": "Failed durable deletion must not restore cached evidence.",
+      "arguments": {}
+    }
+  }
+}

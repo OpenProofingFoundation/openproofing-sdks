@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "profileId": "lfm25-vl16b-affine4-g64-mlx-discrete-review-v4",
+  "artifactSHA256": "bf86cc6b16e4f6a870336d5e0ebad0c5cf1d63214efef8efeb8b9655174b3913",
+  "passes": [
+    "quality",
+    "comparison",
+    "age",
+    "presentation",
+    "sensor_consistency"
+  ],
+  "generation": {
+    "temperature": 0,
+    "topP": 1,
+    "maxOutputBytes": 8192,
+    "wallSeconds": 25,
+    "chainWallSeconds": 180,
+    "cacheLimitBytes": 134217728,
+    "prefillStepSize": 128
+  },
+  "tasks": {
+    "quality": {
+      "maxNewTokens": 256,
+      "maxInputTokens": 1536,
+      "images": [
+        "reference",
+        "selfie"
+      ]
+    },
+    "comparison": {
+      "maxNewTokens": 320,
+      "maxInputTokens": 2048,
+      "images": [
+        "reference",
+        "selfie"
+      ]
+    },
+    "age": {
+      "maxNewTokens": 256,
+      "maxInputTokens": 1536,
+      "images": [
+        "reference",
+        "selfie"
+      ]
+    },
+    "presentation": {
+      "maxNewTokens": 320,
+      "maxInputTokens": 1536,
+      "images": [
+        "selfie"
+      ]
+    },
+    "sensor_consistency": {
+      "maxNewTokens": 320,
+      "maxInputTokens": 3072,
+      "images": []
+    }
+  },
+  "resources": {
+    "quality.schema.json": {
+      "path": "profiles/liquid-passes-v4/quality.schema.json",
+      "sha256": "3b2dc2f6be0d5f228c52f758a8cdd8c257ca31619b44d8bc9418e642681fcc09"
+    },
+    "quality.prompt.txt": {
+      "path": "profiles/liquid-passes-v4/quality.prompt.txt",
+      "sha256": "4991678198bddf88d3ca90814e10802dfe4a82d005cfadbaeb139a016eec9641"
+    },
+    "comparison.schema.json": {
+      "path": "profiles/liquid-passes-v4/comparison.schema.json",
+      "sha256": "86b7ea8654e9de75c344fcc2c986247c5586284261723795d6ee573e3d113b5b"
+    },
+    "comparison.prompt.txt": {
+      "path": "profiles/liquid-passes-v4/comparison.prompt.txt",
+      "sha256": "7e8ba35535fe067d5be2d216fd00b87b82d90db924792b362b777b06f15e3838"
+    },
+    "age.schema.json": {
+      "path": "profiles/liquid-passes-v4/age.schema.json",
+      "sha256": "0abf096d3dc327eefb4da8e595da8e63d23dff4948fbf24a73ee4895abeabc93"
+    },
+    "age.prompt.txt": {
+      "path": "profiles/liquid-passes-v4/age.prompt.txt",
+      "sha256": "a41a939ab99c5fbbecbdbf4aab4ffd5211a9d0f8b9ab376b634a15c3374d3ac0"
+    },
+    "presentation.schema.json": {
+      "path": "profiles/liquid-passes-v4/presentation.schema.json",
+      "sha256": "ca154996dfac035be6b270120c03736bc8774e285137da1a8a4d05c331c8a61d"
+    },
+    "presentation.prompt.txt": {
+      "path": "profiles/liquid-passes-v4/presentation.prompt.txt",
+      "sha256": "1c75d68ebd3a76e9d62da45adbffa7192189f1b95bbe072407e40c9fa98455ed"
+    },
+    "sensor_consistency.schema.json": {
+      "path": "profiles/liquid-passes-v4/sensor_consistency.schema.json",
+      "sha256": "7a374647e30fb2ee51986cad0233f338e2be49ffc0b595104a3305425cdda217"
+    },
+    "sensor_consistency.prompt.txt": {
+      "path": "profiles/liquid-passes-v4/sensor_consistency.prompt.txt",
+      "sha256": "df77ec34dbdde691ef71b1866b075b6798a4cb071d5ae07d6e7305c0e2f7bf88"
+    }
+  },
+  "preprocessing": {
+    "decodeDimension": 512,
+    "resize": "aspect-preserving-letterbox"
+  },
+  "modelProjection": {
+    "decimalPlaces": 4,
+    "includesEvidenceHashes": false,
+    "liveExamples": false
+  },
+  "rejectedOutputSHA256": [
+    "927b6b5acec2a691fd809f74281a4e4748eb98d8f1e1357e5953512d5c9c9381"
+  ]
+}

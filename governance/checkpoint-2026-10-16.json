@@ -1,0 +1,28 @@
+{
+  "date": "2026-10-16",
+  "sourceCheckpointBeforeHandoff": "3a2093f9325b7041be33d293486c94cf21c2e79f",
+  "corpusObservation": {
+    "observedUTC": "2026-10-17T01:07:55.744485+00:00",
+    "completedCanonicalDatasets": 29,
+    "targetDatasets": 29,
+    "uniqueMedia": {
+      "image": 857,
+      "video": 574
+    },
+    "sourceMediaObservations": 1798,
+    "annotationRecords": 7,
+    "sourceCleanupPending": 0,
+    "distinctPeople": "not established",
+    "verifiedSubjects": 0,
+    "splits": "unassigned",
+    "downloads": "Complete: all29selectedAXONdatasets verified and sources retired; full NIST clone complete at pinned revision",
+    "datasetStates": {
+      "canonical_source_retired": 29
+    }
+  },
+  "liveStatusAuthority": "/Users/shf/Developer/kenshiki-face-workbench/data/canonical/index.sqlite",
+  "statusNote": "Acquisition complete; index remains authoritative. Verified subjects and frozen splits remain unassigned.",
+  "NIST": "SD-18 and SD-32 pending owner-submitted requests; no access requests sent by agent",
+  "DigiFace": "Source/README/LICENSE cloned and all eight archive URLs HEAD-verified (24,878,957,950 bytes); image archives not downloaded; R-UDA research-only scope is incompatible with assuming a commercial Stage 1 base.",
+  "NISTCode": "Integrated NIST code plus complete external clone at18c2f84d80c0636cede6ff1db0479fe068aedac4; SD-18/SD-32 still await owner request links"
+}

@@ -1,0 +1,11 @@
+{
+  "document": "SPEC-IDBIO-200",
+  "revision": "3.1",
+  "sourceRepository": "kenshiki-identity-sdk",
+  "sourcePath": "docs/edge-verification/SPEC-IDBIO-200.md",
+  "sourceSHA256": "3587cb84277ce372150ef74202f5e2eab06fef48d6d1b236c87b8f6bb60353aa",
+  "sourceHEAD": "4b407a7bc5eb14a2f5913a77cd919fcde4c11290",
+  "sourceState": "Working tree; source hash identifies specification content. No implementation copied.",
+  "created": "2026-10-16",
+  "localSnapshot": "../../governance/references/edge-verification/SPEC-IDBIO-200.md"
+}

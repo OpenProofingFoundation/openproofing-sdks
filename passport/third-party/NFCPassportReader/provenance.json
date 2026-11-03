@@ -1,0 +1,269 @@
+{
+  "upstream": {
+    "name": "NFCPassportReader",
+    "author": "AndyQ (Andy Qua)",
+    "version": "2.3.1",
+    "revision": "7dfc19c358697d4b083adc3c6fbc55a2385d9fa9",
+    "url": "https://github.com/AndyQ/NFCPassportReader",
+    "licence": "MIT",
+    "licenceFile": "LICENSE"
+  },
+  "vendoredFrom": {
+    "repository": "pulse-ios",
+    "path": "Vendor/NFCPassportReader",
+    "firstVendoredCommit": "f6b85e981e7b5928349e9500096fa78b469df950",
+    "importedCommit": "d737c9e357337aa6d83fdf4a8b6b5d33937a6805"
+  },
+  "patchRecordSource": "Upstream 2.3.1 sources were not available offline, so no diff against upstream was run. The patches below come from the repositories' own records: pulse-ios f6b85e98, which vendored revision 7dfc19c and records that everything except two KENSHIKI PATCH sites in PassportReader.swift is byte-identical to upstream (the upstream test target was not vendored); a diff of that commit's vendored tree against this directory; the pulse-ios commits that touched the tree afterwards; and VENDORED.md. VENDORED.md describes patches 1 and 2 only; patches 3 to 6 are unmarked in the sources and were found by the diff.",
+  "patches": [
+    {
+      "id": "read-settlement",
+      "marked": "KENSHIKI PATCH",
+      "files": [
+        "Sources/NFCPassportReader/PassportReader.swift",
+        "Sources/NFCPassportReader/NFCReadSettlement.swift",
+        "Sources/NFCPassportReader/Errors.swift",
+        "Sources/NFCPassportReader/ChipAuthenticationHandler.swift"
+      ],
+      "commits": [
+        "pulse-ios f6b85e98",
+        "pulse-ios bfdee38d",
+        "pulse-ios 34160df0",
+        "pulse-ios 283f2da8",
+        "pulse-ios 01b634ef"
+      ],
+      "changes": "Replaces upstream's unsynchronized continuation and Bool flag with NFCReadSettlement (new file): the first outcome recorded by the read task, a reader abort, cancellation or the session-invalidation callback wins, and the caller resumes only after the matching CoreNFC session reports itself invalid. readPassport throws NFCNotSupported instead of hanging when tag reading is unavailable, arms the settlement before session.begin(), and propagates Swift task cancellation. A PassportReader is single-use: a concurrent or later call throws the new NFCPassportReaderError.ReaderAlreadyInUse (Errors.swift). Adds readPassportUnverified, which returns before passive authentication, while readPassport still verifies. Transient RF loss restarts polling on the same session instead of ending the read, and chip-authentication fallback rethrows session-ending and transport errors instead of trying the next key (ChipAuthenticationHandler.swift)."
+    },
+    {
+      "id": "read-data-group-empty-guard",
+      "marked": "KENSHIKI PATCH",
+      "files": [
+        "Sources/NFCPassportReader/PassportReader.swift"
+      ],
+      "commits": [
+        "pulse-ios f6b85e98"
+      ],
+      "changes": "readDataGroup's protected-group retry path calls dataGroupsToRead.removeFirst() only when the array is not empty; repeated 'security status not satisfied' or 'file not found' failures in one session could otherwise drain it and trap."
+    },
+    {
+      "id": "passive-authentication-verdict",
+      "marked": "unmarked",
+      "files": [
+        "Sources/NFCPassportReader/NFCPassportModel.swift"
+      ],
+      "commits": [
+        "pulse-ios bfdee38d"
+      ],
+      "changes": "Adds the public enum PassportPassiveAuthenticationVerdict (verified, trustAnchorNotFound, integrityFailure) and NFCPassportModel.passiveAuthenticationVerdict, which requires the SOD signature and every data-group hash to verify and separates a missing CSCA trust anchor from an integrity failure. verifyPassport resets all verification state before it runs. A SOD with no document signing certificate throws instead of force-unwrapping, and a SOD hash entry whose data-group index is out of range throws instead of indexing past the list."
+    },
+    {
+      "id": "tag-reader-bounds",
+      "marked": "unmarked",
+      "files": [
+        "Sources/NFCPassportReader/TagReader.swift"
+      ],
+      "commits": [
+        "pulse-ios bfdee38d"
+      ],
+      "changes": "readDataGroup checks that the first response holds at least four bytes and that the decoded header length fits the response before slicing, replaces try! asn1Length with try, and throws on an empty continuation response; each failure is InvalidASN1Value or UnexpectedError instead of a trap."
+    },
+    {
+      "id": "display-message-copy",
+      "marked": "unmarked",
+      "files": [
+        "Sources/NFCPassportReader/NFCViewDisplayMessage.swift"
+      ],
+      "commits": [
+        "pulse-ios 01b634ef"
+      ],
+      "changes": "Rewords the NFC sheet messages: progress is shown as a percentage instead of a row of emoji (handleProgress removed), the multiple-tag message is reworded, and ResponseError and the default error read 'Passport read failed. Try again.' instead of interpolating the status words."
+    },
+    {
+      "id": "package-manifest",
+      "marked": "unmarked",
+      "files": [
+        "Package.swift",
+        "Package.resolved"
+      ],
+      "commits": [
+        "pulse-ios f6b85e98",
+        "pulse-ios 102afd4f",
+        "pulse-ios 1321bda0"
+      ],
+      "changes": "Package.swift carries a vendored-copy comment, adds macOS 10.15 to the platforms so the package resolves in macOS builds, and processes the Resources directory so PrivacyInfo.xcprivacy is packaged. Package.resolved pins the OpenSSL-Package dependency (3.3.3001, revision 71dbe0b). Whether upstream 2.3.1 itself declares the Resources directory was not verified offline."
+    },
+    {
+      "id": "server-terminal-chip-authentication",
+      "marked": "KENSHIKI PATCH",
+      "files": [
+        "Sources/NFCPassportReader/ServerChipAuthentication.swift",
+        "Sources/NFCPassportReader/PassportReader.swift",
+        "Sources/NFCPassportReader/ChipAuthenticationHandler.swift",
+        "Sources/NFCPassportReader/NFCPassportModel.swift"
+      ],
+      "commits": [
+        "kenshiki-identity-sdk fix/stream-j (S-05, decision 6 of 9 October 2026)"
+      ],
+      "changes": "Adds a remote Chip Authentication terminal (ServerChipAuthentication.swift, new file: ChipAuthenticationTerminalChallenge and the ChipAuthenticationTerminal closure type) for the Worker's pulse.passport-ca.v1, where the SERVER is the CA terminal. readPassportUnverified takes an optional chipAuthenticationTerminal. When it is set, readDataGroups reads DG14 under the access channel without running local Chip Authentication, and startReading, after Active Authentication, calls doTerminalChipAuthenticationIfNecessary: if DG14 declares a CA key it asks the terminal for its challenge with the exact DG14 bytes, sends the terminal's ephemeral public key with ChipAuthenticationHandler.sendTerminalPublicKey (MSE:Set KAT for 3DES, MSE:Set AT plus General Authenticate for AES, the same commands sendPublicKey sends, under the current secure channel), drops the reader's secure messaging, sends the terminal's protected command unmodified and stores the chip's raw answer (data then SW1 SW2) in NFCPassportModel.chipAuthenticationTerminalResponse. Nothing is sent after it, because the chip then speaks only under keys the terminal holds. Without a terminal the upstream flow is unchanged."
+    },
+    {
+      "id": "oss-exact-openssl-pin",
+      "marked": "manifest dependency requirement",
+      "files": [
+        "Package.swift"
+      ],
+      "commits": [],
+      "changes": "Replaces the donor version range with the exact donor-resolved OpenSSL revision 71dbe0b4514cdaad95961470db72e8231f5943a6 (version 3.3.3001). No OpenSSL source or algorithm change."
+    },
+    {
+      "id": "oss-protected-response-authentication",
+      "marked": "KENSHIKI OSS PATCH",
+      "files": [
+        "Sources/NFCPassportReader/SecureMessaging.swift"
+      ],
+      "commits": [],
+      "changes": "Fixes donor AES response-MAC bypass by truncating locally computed CMAC rather than the supplied MAC. Requires exact DO99 tag/length and eight-byte DO8E MAC without trailing data; bounds optional DO87 before slicing; rejects non-block encrypted payload and malformed ISO7816 padding. Valid supported AES/DES wire behavior remains, forged and malformed messages fail closed. This is an explicit safety deviation from byte-identical porting, not a crypto redesign."
+    },
+    {
+      "id": "oss-ber-length-bounds",
+      "marked": "KENSHIKI OSS PATCH",
+      "files": [
+        "Sources/NFCPassportReader/Utils.swift"
+      ],
+      "commits": [],
+      "changes": "Checks availability of all bytes before indexing short, 0x81 and 0x82 BER length encodings; empty/truncated input throws CannotDecodeASN1Length. Supported encoding semantics unchanged."
+    },
+    {
+      "id": "oss-dg2-jpeg-prefix",
+      "marked": "KENSHIKI OSS PATCH",
+      "files": [
+        "Sources/NFCPassportReader/DataGroups/DataGroup2.swift"
+      ],
+      "commits": [],
+      "changes": "Recognize JPEG SOI/marker independently of optional APP0/JFIF metadata; preserve original encoded bytes and missing-end-marker refusal. Generated JPEG parser/decode regressions cover alternate first segments."
+    },
+    {
+      "id": "oss-datagroup-envelope-key-ownership",
+      "marked": "KENSHIKI OSS PATCH",
+      "files": [
+        "Sources/NFCPassportReader/DataGroupParser.swift",
+        "Sources/NFCPassportReader/DataGroups/ChipAuthenticationPublicKeyInfo.swift"
+      ],
+      "commits": [],
+      "changes": "Validate the outer data-group BER tag/length/body envelope before subclass dispatch rather than slicing a fixed four-byte header; preserve valid short opaque TLVs and reject truncated envelopes with typed errors. Release exactly the d2i_PUBKEY owned reference transferred into ChipAuthenticationPublicKeyInfo when its Swift owner is destroyed. Ex-data destructor callbacks verify final release and independently retained-reference behavior. No protocol, algorithm or wire-byte changes."
+    },
+    {
+      "id": "coordinated-dg-cursor-facial-record-bounds",
+      "marked": "coordinated supplier repair",
+      "files": [
+        "Sources/NFCPassportReader/DataGroups/DataGroup.swift",
+        "Sources/NFCPassportReader/DataGroups/DataGroup1.swift",
+        "Sources/NFCPassportReader/DataGroups/DataGroup2.swift",
+        "Sources/NFCPassportReader/DataGroups/SOD.swift",
+        "Sources/NFCPassportReader/DataGroups/SecurityInfo.swift"
+      ],
+      "commits": [],
+      "changes": "Bound nested BER cursor access to its parent, admit only supported MRZ lengths before offsets, bound DG2 FAC/record/feature/JP2 lengths, guard missing SecurityInfo children and empty SOD certificate lists. Preserve original signed bytes and supported parsing semantics. Same runtime patch applied to actual Pulse SDK dependency and monorepo."
+    },
+    {
+      "id": "coordinated-aa-opening-ownership-framing",
+      "marked": "coordinated supplier repair",
+      "files": [
+        "Sources/NFCPassportReader/OpenSSLUtils.swift",
+        "Sources/NFCPassportReader/NFCPassportModel.swift"
+      ],
+      "commits": [],
+      "changes": "Bound RSA/OpenSSL returned lengths and release retained RSA/EC references; refuse absent ECDSA integers; enforce fixed plain EC width from group order. Require ICAO partial-recovery header and exact implicit/explicit trailer before digest/challenge comparison. Preserve mandatory raw B.6 above n/2 and add recommended odd-exponent B.4 complementary opening only for the smaller signature and valid framing/digest. No algorithm substitution."
+    },
+    {
+      "id": "coordinated-owned-detected-tag-task",
+      "marked": "coordinated supplier repair",
+      "files": [
+        "Sources/NFCPassportReader/PassportReader.swift",
+        "Sources/NFCPassportReader/TagReader.swift"
+      ],
+      "commits": [],
+      "changes": "Retain and serialize detected-tag tasks, cancel outside the owner lock, drain only after matching CoreNFC invalidation before settlement release, preserve first winner and transient-loss restart. Require bounded cancellation-aware host terminal transport; check cancellation before and after raw exchange. Expose an internal production finishing-sequence harness retaining AA-before-terminal-CA and CA-last semantics."
+    },
+    {
+      "id": "coordinated-protected-command-chaining",
+      "marked": "coordinated supplier repair",
+      "files": [
+        "Sources/NFCPassportReader/SecureMessaging.swift"
+      ],
+      "commits": [],
+      "changes": "Retain only the input CLA command-chaining bit 0x10 when constructing the existing authenticated secure-messaging header (0x0C | (CLA & 0x10)); preserve previous masking of other bits. Combined production terminal-CA tests use independently assembled protected AES/TDEA access-channel replies and full command-body digests, verify MAC failure stops relay, and verify access keys are cleared only after handshake before exact raw terminal relay. Old-mask native negative control fails the header and MAC/body digest."
+    },
+    {
+      "id": "optional-observer-default-rationale",
+      "marked": "coordinated documentation repair",
+      "files": [
+        "Sources/NFCPassportReader/TagReader.swift"
+      ],
+      "commits": [],
+      "changes": "Explain the intentional empty default selection/stage observers in nested comments. Supplied observers remain called by the fully implemented read methods; omitted observers intentionally have no diagnostic effect. Comments only; no executable, API, APDU, timing, authentication or error-policy changes. Applied identically to both maintained reader copies."
+    }
+  ],
+  "review": "Each local patch is reviewed as a change to code this SDK ships: it is listed here with the files it touches and what it changes, it may not import a module this repository declares, and it is held to Rule 6's source checks (no @testable, no underscored attribute or member, no runtime reach past access control). See docs/boundary-contract.md, 'Who each rule applies to'.",
+  "ossPort": {
+    "repository": "kenshiki-sdks",
+    "path": "passport/third-party/NFCPassportReader",
+    "source": "kenshiki-identity-sdk/ThirdParty/NFCPassportReader",
+    "sourceEvidence": "../../Gates/extraction-sources.json",
+    "originalPatchHistoryPreserved": true
+  },
+  "primaryContracts": [
+    {
+      "id": "icao9303-part11",
+      "url": "https://www.icao.int/sites/default/files/publications/DocSeries/9303_p11_cons_en.pdf",
+      "sections": [
+        "6.1.2.1",
+        "6.1.2.2",
+        "6.1.2.3",
+        "Appendix F step 9"
+      ],
+      "excerpt": "Inspection systems SHALL implement",
+      "application": "Eight-byte nonce, mandatory B.6 and recommended B.4, partial-recovery 6A header, implicit SHA1 BC and explicit supported SHA2 xxCC trailers."
+    },
+    {
+      "id": "bsi-tr03111",
+      "url": "https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/TechGuidelines/TR03111/BSI-TR-03111_V-2-1_pdf.pdf?__blob=publicationFile&v=1",
+      "sections": [
+        "5.2.1"
+      ],
+      "excerpt": "the signature has a fixed length",
+      "application": "Plain R||S integers each use ceil(log256(group order)) octets."
+    },
+    {
+      "id": "iso9796-2-2010",
+      "url": "https://previewnorm.com/iso/ISO%20IEC%209796-2-2010%20PDF.pdf",
+      "sections": [
+        "B.4",
+        "B.5",
+        "B.6",
+        "B.7"
+      ],
+      "sourceType": "Primary ISO text, third-party mirror; pages 20\u201321",
+      "excerpt": "no \u201cabsolute value\u201d step is performed",
+      "application": "B.6/B.7 uses raw RSA; B.4/B.5 smaller-signature complementary opening restricted to odd exponent in this RSA implementation."
+    },
+    {
+      "id": "bsi-tr03110-3",
+      "url": "https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/TechGuidelines/TR03110/BSI_TR-03110_Part-3_V2-1.pdf?__blob=publicationFile&v=1",
+      "sections": [
+        "B.10.2",
+        "B.11"
+      ],
+      "excerpt": "secure messaging with authenticated header",
+      "application": "Retain command-chaining indication in the protected APDU CLA without broadening other class/channel semantics."
+    }
+  ],
+  "coordinatedRepair": {
+    "date": "2026-10-23",
+    "authoritativeDependency": "kenshiki-identity-sdk/ThirdParty/NFCPassportReader",
+    "dependencyBaselineRevision": "0a1d0a0ec0fb7d3f435fb25608ca25e7b673bdbd",
+    "referenceCopy": "kenshiki-sdks/passport/third-party/NFCPassportReader",
+    "runtimeMirrored": true,
+    "adapterPatch": "DG1-authenticated name projection and failed empty-AA attempt distinction applied in both PassportObservationMapper adapters; full DG11 archive preserved."
+  }
+}

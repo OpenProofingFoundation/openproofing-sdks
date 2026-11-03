@@ -1,0 +1,15 @@
+{
+  "name": "kenshiki-document-sdk-quality",
+  "private": true,
+  "scripts": {
+    "check": "python3 scripts/quality.py",
+    "test:guards": "python3 -m unittest discover -s Gates/tests -p \"test_*.py\"",
+    "guard:boundaries": "python3 Gates/boundary_gates.py",
+    "guard:lockfile": "node scripts/guards/package-lock-integrity.mjs"
+  },
+  "devDependencies": {
+    "typescript": "5.9.3",
+    "yaml": "2.9.0"
+  },
+  "version": "0.0.0"
+}

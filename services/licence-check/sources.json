@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "module": "licence-check",
+  "files": {
+    "services/licence-check/.gitignore": "080b4a7302288cd78ca16756fc4fd13cfacbb0ae73f1fd739155f79e5081edd6",
+    "services/licence-check/README.md": "4da33a584ed95b5a1821bc90e32aaf3ff5ff182d1cc752baec8e59234c3e1d6f",
+    "services/licence-check/contracts/provenance.json": "44b87b3ba693ef65840fd4616d386bd15eb4300dc449b142ddef392ab5ce823a",
+    "services/licence-check/contracts/trusona-adapter-vectors.json": "99f58d1963cd32f0de1ee056c47f6813e04f830982bd1e92bcdd919cfd8cb105",
+    "services/licence-check/core/README.md": "380324e5c45a014e11e3d945ec65fd807410d4e7956d51674f636bf175012e21",
+    "services/licence-check/core/package.json": "b5a30db8043918dd02da876a2b2a739fcee00166187f6e6f7d132910c8d551d9",
+    "services/licence-check/core/scripts/check.mjs": "f085034c45eb0a949a088539531e27c2bf8c6f9a783ce44077fcc48ea3b5d385",
+    "services/licence-check/core/src/adapter.ts": "766023edd2743f58891cbdafcd9a9adf2683944f6517d4eb64e2e6732d3ea74b",
+    "services/licence-check/core/src/contract.ts": "07b42ed82cba20fadcd7a1d36b0ed90679df18e2e03ac5dba0907c83c9f8c3c9",
+    "services/licence-check/core/src/index.ts": "7561878acdd1a8c8a3b4bb5dd226c7131aab8434c1791b69b25a364ec30d647e",
+    "services/licence-check/core/src/policy.ts": "4e32c865425636a6308eaec4a344e601cf0ad54c30e6adeec11c0291fb49f312",
+    "services/licence-check/core/test/dates.test.ts": "96a8ebc9ab5f656dda0c01c3e57587683a1784b9c5913a216cec35d5a672c1c2",
+    "services/licence-check/core/test/policy.test.ts": "3518c64491f5cc064ea830bb8eaf77c71eee410f8c2da17325eb9539eb7f6633",
+    "services/licence-check/core/tsconfig.json": "e75e1db357731b127f602c3f6ce0d74f34386ad302ba11ad06606f468e8276e5",
+    "services/licence-check/core/tsconfig.test.json": "eb652cac7263a137a5dd1ca7f21b4a79cffeb92f6b171978b8c557ee2f721914",
+    "services/licence-check/package-lock.json": "cd648e33f966b2a482bd6bd3fd932e0cacb3db4f2a708ed6c7214415a47e74b5",
+    "services/licence-check/package.json": "94f85434050e7fc655221dbf2e7181c7dabc536fc80b059a5ba1df54c9f570ba",
+    "services/licence-check/scripts/check.mjs": "73b8fe62dee4c251bf90a8876c95fd23a12f7bf80095b72cd389300fe776b634",
+    "services/licence-check/scripts/consumer.mjs": "84ba16a78a32ca8a19245db9238e8b6e939eb3facede2a752e9c6eac44132291",
+    "services/licence-check/trusona/README.md": "e911b7bc9b9b5ab029a21c12770d34c3573fc8569eca2b309ffd6dc12f7ac66a",
+    "services/licence-check/trusona/package.json": "e3c8950d036b5358127fa0d93699f78c1f8d8c2522aa977ef319257e01173599",
+    "services/licence-check/trusona/scripts/check.mjs": "1623b2877304a459d23eeece5b35f1ef6dc142c3783079c47d1d3222f6ff3612",
+    "services/licence-check/trusona/src/adapter.ts": "49514eab72f3e872fc052fa43f082282714001c937018860b1cbef9bcd8a7a29",
+    "services/licence-check/trusona/src/dldv.ts": "b17ae7b66d7f046e6342be53e5ab07344eb7e48acc74f7f591ec29bf1aa83237",
+    "services/licence-check/trusona/src/http.ts": "d4b30e1cea3280f46b3f35f0aba2613c1889d10b46e445df6131fd4b2f881a35",
+    "services/licence-check/trusona/src/index.ts": "8340dd4091e7b698766e64d9c04682fe278394f45df0e6bddd28ae9d025e19e5",
+    "services/licence-check/trusona/test/connection.test.ts": "be4df41fc9c3afe35ac56e44bd648fb7938c752e619b37d6d29866d01b3c98ad",
+    "services/licence-check/trusona/test/dldv.test.ts": "02ca5f45f5fd9c5563fd4f265a56f1fbc562cd8d88d1864602cb1504d5d183dc",
+    "services/licence-check/trusona/test/transport.test.ts": "327b2ab035adc5e697f4e9057ee17e0877709f7d9f335bc5a3efb471411a8008",
+    "services/licence-check/trusona/test/vectors.test.ts": "2296586761e49062f6a8e2b8013616f6ef9dba0a090a4c83d2daf8ab1b140dd6",
+    "services/licence-check/trusona/tsconfig.json": "b8f485a47c1dbb70499047c97e79fe31e907bb6dadb1777bd9a1d1bf577ea4f6",
+    "services/licence-check/trusona/tsconfig.test.json": "eb652cac7263a137a5dd1ca7f21b4a79cffeb92f6b171978b8c557ee2f721914"
+  },
+  "requiredTests": {
+    "core": 14,
+    "trusona": 156,
+    "sharedVectors": 66
+  }
+}

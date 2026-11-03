@@ -1,0 +1,169 @@
+{
+  "schemaVersion": 1,
+  "identifier": "ofiq-1.0.3-opencv-4.5.5-ort-1.22.0-cpu-serial-v1",
+  "ofiqVersion": "1.0.3",
+  "ofiqSourceRevision": "df8fbb5e4bd8de09ae998ff69bc252f6be4367f8",
+  "configurationFile": "ofiq_config.jaxn",
+  "openCVVersion": "4.5.5",
+  "openCVSourceRevision": "dad26339a975b49cfb6c7dbe4bd5276c9dcb36e2",
+  "runtimeVersion": "1.22.0",
+  "runtimeArchiveSHA256": "90d9de5a139087a6b05a18125d01d01d198820e1731e6f0f11b38749b2ab181f",
+  "execution": {
+    "provider": "cpu",
+    "intraOpThreads": 1,
+    "interOpThreads": 1,
+    "sequential": true
+  },
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "bytes": 3835,
+      "sha256": "9775db2c9484aedba68c60d88f95eb631e36b90b097c3f2afef2d13be3496a9f"
+    },
+    {
+      "path": "LICENSE.md",
+      "bytes": 5670,
+      "sha256": "25d99e1d1721ec69705c9ed2157c0d21957609d15db0de4787500696d52f6a7c"
+    },
+    {
+      "path": "Version.txt",
+      "bytes": 287,
+      "sha256": "0cef18dbe9f3683d16e8346fb660ac7ab02cafa7b021bf5338fe057c25aea70d"
+    },
+    {
+      "path": "expected_results.csv",
+      "bytes": 11401,
+      "sha256": "1c2859a9e20d32cf3495dfe20c5473adaa1cb7cf2e742aa80ce0c38e9a0f11e1"
+    },
+    {
+      "path": "models/README.md",
+      "bytes": 4053,
+      "sha256": "6b2adaa64750ab983aaa4617ce3cc740820890b9da1665f76f031e8b4729a99a"
+    },
+    {
+      "path": "models/expression_neutrality/grimmer/LICENSE.md",
+      "bytes": 1538,
+      "sha256": "5fbe40b862ee4171d7c813c0d8f08740c25bd19e4230bc7ef971114ba1fa8724"
+    },
+    {
+      "path": "models/expression_neutrality/grimmer/hse_1_2_C_adaboost.yml.gz",
+      "bytes": 19368922,
+      "sha256": "6555645c47dd2d3ff290a6e881890fa8ca8adeaf31d4678a4bd2a3524d25ad87"
+    },
+    {
+      "path": "models/expression_neutrality/hsemotion/LICENSE.md",
+      "bytes": 1730,
+      "sha256": "c8502e3d871cb19c570beedd9c96974fb5e3dd5ddad9c64ea50cd642cca61627"
+    },
+    {
+      "path": "models/expression_neutrality/hsemotion/enet_b0_8_best_vgaf_embed_zeroed.onnx",
+      "bytes": 16052940,
+      "sha256": "467e6c31152cd6db94f50c5d0b8e2ce4d1280f2fbd7b826609aefb92779a9e15"
+    },
+    {
+      "path": "models/expression_neutrality/hsemotion/enet_b2_8_embed_zeroed.onnx",
+      "bytes": 30800917,
+      "sha256": "9a62be277daf63e553900ff15fe2124fb4ba9b4d759364e21f07464f351e8b44"
+    },
+    {
+      "path": "models/face_detection/LICENSE.md",
+      "bytes": 1498,
+      "sha256": "c76d4a30a8d773eef0ad7677e6b47259241470627f7e3a0eba71b38f0e286dc6"
+    },
+    {
+      "path": "models/face_detection/ssd_facedetect.caffemodel",
+      "bytes": 10666211,
+      "sha256": "2a56a11a57a4a295956b0660b4a3d76bbdca2206c4961cea8efe7d95c7cb2f2d"
+    },
+    {
+      "path": "models/face_detection/ssd_facedetect.prototxt.txt",
+      "bytes": 29881,
+      "sha256": "34d850436faf158ca4e690533ba27c1decf29653559299d80db9274146332ca7"
+    },
+    {
+      "path": "models/face_landmark_estimation/ADNet.onnx",
+      "bytes": 54747293,
+      "sha256": "5aed3eb5b6ecd3504e5216078a3db064f6c93f2a420f12d0e82f2184c64c9654"
+    },
+    {
+      "path": "models/face_landmark_estimation/LICENSE.md",
+      "bytes": 1509,
+      "sha256": "a61b71ef5797df85574eb8b582a3b1a9af4238c32f69d05dc54edbd3a410edf5"
+    },
+    {
+      "path": "models/face_occlusion_segmentation/LICENSE.md",
+      "bytes": 1550,
+      "sha256": "b5a216197f625b0d0150526a0245319f81d9e2a9da0a1506735d98a49c332795"
+    },
+    {
+      "path": "models/face_occlusion_segmentation/face_occlusion_segmentation_ort.onnx",
+      "bytes": 57307779,
+      "sha256": "e847464bd8c0c596e8921c18d303fc6bf0ddb4a127ba4d1213c19701ed8790d0"
+    },
+    {
+      "path": "models/face_parsing/LICENSE.md",
+      "bytes": 1475,
+      "sha256": "66a8761d67a1bddb6caaa987380311e846521384bc3ce539dced5a798e49a54c"
+    },
+    {
+      "path": "models/face_parsing/bisenet_400.onnx",
+      "bytes": 53193813,
+      "sha256": "750ae55d5c440074a085ddd31a3fbd19a9e922ffb22d25eeb2bdf4f26eb3250a"
+    },
+    {
+      "path": "models/head_pose_estimation/LICENSE.md",
+      "bytes": 1407,
+      "sha256": "61e836cef5dd4ab2447ab9a07e8fa1fe33ba1e3f60bfb91065e1fb1a7108e75d"
+    },
+    {
+      "path": "models/head_pose_estimation/mb1_120x120.onnx",
+      "bytes": 13046240,
+      "sha256": "efeb77517d067c197a314bc3d72aa04f03ceb6468f121d6c9f185dd44736e4ae"
+    },
+    {
+      "path": "models/no_compression_artifacts/LICENSE.md",
+      "bytes": 1243,
+      "sha256": "33513236c4fc0c583dbb169efe4a9331ced156c802608ddaceef93081d4ab9ff"
+    },
+    {
+      "path": "models/no_compression_artifacts/README.md",
+      "bytes": 247,
+      "sha256": "c89a660d53f0350850805fd5bec3988393f89126c889985992eb7994ef8d1687"
+    },
+    {
+      "path": "models/no_compression_artifacts/ssim_248_model.onnx",
+      "bytes": 23382575,
+      "sha256": "001fe8e73803a3ffb4dbfc7794d9e20232eb925606e8efe68e54696516d04b41"
+    },
+    {
+      "path": "models/sharpness/LICENSE.md",
+      "bytes": 1250,
+      "sha256": "c3508cf77d43db675ead73d8e68908588e97bfb4da3d6f4f8a446cc16fdfb5f9"
+    },
+    {
+      "path": "models/sharpness/face_sharpness_rtree.xml.gz",
+      "bytes": 507331,
+      "sha256": "0d7decdad2b635e4d811f4de30a4bb451038d0698e72d452ba4b231de7710b02"
+    },
+    {
+      "path": "models/unified_quality_score/LICENSE.md",
+      "bytes": 1572,
+      "sha256": "225e378aae237bdb7e6614e36cc23d1655648368dd4b21d516c84966f93ddb95"
+    },
+    {
+      "path": "models/unified_quality_score/magface_iresnet50_norm.onnx",
+      "bytes": 174394035,
+      "sha256": "bc03f082a59ccb3189c6c9aec429f376523fe6586e207c401ab8d1694888babb"
+    },
+    {
+      "path": "models-inventory.json",
+      "bytes": 4138,
+      "sha256": "97878b66e1ebe53fe1e4e528636f0eedfdc9b63b1f2d3b755f7c03e4d13fb047"
+    },
+    {
+      "path": "ofiq_config.jaxn",
+      "bytes": 6118,
+      "sha256": "e117286706d799a1e23130db01cfdff7ef36d157b22ecf68dd196052a8a8d0b3"
+    }
+  ]
+}

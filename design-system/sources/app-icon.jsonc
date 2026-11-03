@@ -1,0 +1,14 @@
+// Kenshiki concentric-ring mark, preserved from the identity SDK's KenshikiID.icon.
+// Apple Icon Composer supplies the glass material, masking and appearance rendering.
+{
+  "schemaVersion": 1,
+  "name": "KenshikiReference",
+  "background": "#F4F7FC",
+  "darkBackground": "#0B1230",
+  "coreGradient": ["#5AA2FF", "#1E5BEA"],
+  "ringsGradient": ["#6FB0FF", "#2D6BF5"],
+  "coreRadius": 78,
+  "ringRadii": [170, 260, 350],
+  "ringOpacityPercent": [100, 85, 70],
+  "strokeWidth": 56
+}

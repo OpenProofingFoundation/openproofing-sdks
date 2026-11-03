@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "rule": "OpenCV and OpenSSL prefixes are scoped to the named Mach-O component. Vendor catalog rules require exact relative file identity and SHA-256; no directory is exempt. Other paths and internal names still fail.",
+  "entries": [
+    {
+      "component": "OpenCV 4.12.0 (opencv-mobile prebuilt, statically linked into the capture bridge)",
+      "upstream": "https://github.com/ossappscollective/OSS-DocumentScanner/releases/download/dev_resources/ios.zip",
+      "binary": "DocumentOpenCVBridge",
+      "pin": {
+        "file": "native/opencv-normalized-manifest.json",
+        "key": "archiveSHA256",
+        "value": "980a041077a8fcb44ef98e0f3a9710fe029e4458ebdbedb0d3d3b598129a651f"
+      },
+      "prefixes": [
+        {
+          "prefix": "/Users/runner/work/opencv-mobile/",
+          "ownerNamed": true
+        },
+        {
+          "prefix": "/Applications/Xcode_15.2.app/",
+          "ownerNamed": true
+        },
+        {
+          "prefix": "/usr/bin/make",
+          "ownerNamed": false,
+          "note": "OpenCV build-information text: 'CMake build tool: /usr/bin/make'"
+        },
+        {
+          "prefix": "/usr/local/bin/python3",
+          "ownerNamed": false,
+          "note": "OpenCV build-information text, macOS slice only (not shipped): 'Python (for build): /usr/local/bin/python3'"
+        },
+        {
+          "prefix": "/tmp/__opencv_temp.XXXXXX",
+          "ownerNamed": false,
+          "note": "OpenCV's temporary-file template, macOS slice only (not shipped)"
+        },
+        {
+          "line": "/tmp/",
+          "ownerNamed": false,
+          "note": "OpenCV's default temporary directory, a string on its own, macOS slice only (not shipped)"
+        }
+      ]
+    }
+  ]
+}

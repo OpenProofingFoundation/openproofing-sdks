@@ -1,0 +1,3078 @@
+{
+  "schemaVersion": 1,
+  "sourceRepository": "Kenshiki-Labs/kenshiki-identity-sdk",
+  "sourceRevision": "0a1d0a0ec0fb7d3f435fb25608ca25e7b673bdbd",
+  "sourceState": "Frozen post-Regula donor input hashes retained; recovered destination source is independently qualified",
+  "destinationBaseRevision": "4bf1e971932e4691428f3b54ba8067dffb7d31f3",
+  "frozenVerificationSpecificationSHA256": "3587cb84277ce372150ef74202f5e2eab06fef48d6d1b236c87b8f6bb60353aa",
+  "files": [
+    {
+      "sourcePath": "Sources/KenshikiCapture/CaptureDocumentInspection.swift",
+      "sourceSHA256": "08d6906912e491f450a41178df5992ef8994eea763d39b887ba1ba55ef7268a4",
+      "destination": "ios/Sources/DocumentCapture/CaptureDocumentInspection.swift",
+      "destinationSHA256": "4e61ede1d8c9bdd377a9fa203df62addaab4b9c9222fc1cc9bb3b1d6dfc2d9e1",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Sources/KenshikiCapture/CaptureDocumentOperations.swift",
+      "sourceSHA256": "1f9550928734c7ac130ff6f54f23e5917a73200cbaad37532c81a1d56c259e1e",
+      "destination": "ios/Sources/DocumentCapture/CaptureDocumentOperations.swift",
+      "destinationSHA256": "a3e30a444fb63928a3dcf15632b5698133e3ea9d6b33720a1c6245a0ee0e7136",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Sources/KenshikiCapture/CaptureDocumentPresence.swift",
+      "sourceSHA256": "875c9562b7d25b6e491ada8e84a8a11f3b9360df584b220906000971504ea4db",
+      "destination": "ios/Sources/DocumentCapture/CaptureDocumentPresence.swift",
+      "destinationSHA256": "b28518fb66f36dcd2bb4107858fb0cb66ceb6027bb7cbb02c59c792be2eb9b84",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Sources/KenshikiCapture/CaptureDocumentRecovery.swift",
+      "sourceSHA256": "15b71ad9d3709c3b9bef8ca388c7b4d2e95e3d906731c53fd6cceefb99c56bab",
+      "destination": "ios/Sources/DocumentCapture/CaptureDocumentRecovery.swift",
+      "destinationSHA256": "d7acb1e25d3d86d3217d58d6d8d290b545ea993bdfbf51802f90c0d79305c693",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Sources/KenshikiCapture/CaptureDocumentStages.swift",
+      "sourceSHA256": "f0eb745a053f8ad05e30aa86583d9d2691cc49a7a26a71af017a1e584e7b6f59",
+      "destination": "ios/Sources/DocumentCapture/CaptureDocumentStages.swift",
+      "destinationSHA256": "0c377f17199477aedb35f0897386c6458cce59e248d52ce73106282951351925",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Sources/KenshikiCapture/CaptureDocumentWorkflow.swift",
+      "sourceSHA256": "3206ede6739fe799df373fa20163805b7f1ec1617244257df9b60c5a30de1008",
+      "destination": "ios/Sources/DocumentCapture/CaptureDocumentWorkflow.swift",
+      "destinationSHA256": "8a5bd21e30dbcdaa87d8ffaeb94cf11376a40304411557fdef49566c7b9ebf49",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Sources/KenshikiCapture/CaptureExports.swift",
+      "sourceSHA256": "7d2a4bbdf584cc6db72f1cda9cfcf7e6f0a6d3c24ff6a0612d4386a74946c0c4",
+      "destination": "ios/Sources/DocumentCapture/CaptureExports.swift",
+      "destinationSHA256": "a5471156a05bcc600934d5a243afb9f0a45314aee1fcc1dd6d434e8b8348c183",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Sources/KenshikiCapture/CaptureIntegrity.swift",
+      "sourceSHA256": "1bf91704aa3ca74bbc9e08a31b1e4953d8eb5b9ed3463204b7bd5a8504b02979",
+      "destination": "ios/Sources/DocumentCapture/CaptureIntegrity.swift",
+      "destinationSHA256": "1bf91704aa3ca74bbc9e08a31b1e4953d8eb5b9ed3463204b7bd5a8504b02979",
+      "patches": []
+    },
+    {
+      "sourcePath": "Sources/IdentityEvidenceStorage/CaptureJourneyCheckpoint.swift",
+      "sourceSHA256": "6b576de7916ef87155a8e5baab04a2c54ef36e1f47876f4545b333f36d90bc8a",
+      "destination": "ios/Sources/DocumentCapture/CaptureJourneyCheckpoint.swift",
+      "destinationSHA256": "21864d23a6878f0f379710d2da339bee343edee7c2f56947e17aef0d3b1b3f37",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4",
+        "Typed workflow validation stays in document; encrypted CAS mechanism moves to foundation with historical AAD/file compatibility"
+      ]
+    },
+    {
+      "sourcePath": null,
+      "sourceSHA256": null,
+      "destination": "ios/Sources/DocumentCapture/CaptureJourneyCheckpointCustody.swift",
+      "destinationSHA256": "d270ad3696349defe99c3e7bb3b7c1e65145565cf2480365d59921d3fff11b17",
+      "patches": [
+        "Extraction adapter, attributed profile or regression test; recovered source requires fresh qualification and does not establish identity acceptance"
+      ]
+    },
+    {
+      "sourcePath": "Sources/KenshikiCapture/CaptureJourneyFrontDiscovery.swift",
+      "sourceSHA256": "4e33d870b1dccba2522911c73437641e9d6764e9db7c99aa8ecb20bb1313a75f",
+      "destination": "ios/Sources/DocumentCapture/CaptureJourneyFrontDiscovery.swift",
+      "destinationSHA256": "c1bf06d274774dfcd3036e1e105cec0c62993fa29efaafc9f6e644261b330ee1",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Sources/KenshikiCapture/CaptureJourneyProgress.swift",
+      "sourceSHA256": "0b170304de03647312ca5d8c1acf034498f50133632699c3fd1ff719365e30ed",
+      "destination": "ios/Sources/DocumentCapture/CaptureJourneyProgress.swift",
+      "destinationSHA256": "614031410c42f22a8b867dd47ee739ad81c16160a5303a0d0f9c8f67124b76a9",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Sources/KenshikiCapture/CaptureJourneyRecovery.swift",
+      "sourceSHA256": "ac5b131614a55c9133b9180304204a66d5d816ab25652fcf69efcf4677d0db00",
+      "destination": "ios/Sources/DocumentCapture/CaptureJourneyRecovery.swift",
+      "destinationSHA256": "d4c8c7095ccaabf7cb26b0259a60799815c2c259faf4fd966cc67b34087e219c",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Sources/KenshikiCapture/CaptureOriginalCustody.swift",
+      "sourceSHA256": "26f6c41ecc906d74f82fba0a8bb762e4dfe7111f0f0c51faab8d61fe1c1222a8",
+      "destination": "ios/Sources/DocumentCapture/CaptureOriginalCustody.swift",
+      "destinationSHA256": "735be9bda02224ef7a39a5cf6296e7cbf1b9949476be1b6afe0bf2a8c0d1ff8b",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Sources/KenshikiCapture/CapturePortraitCustody.swift",
+      "sourceSHA256": "bce68897da054ffeb20c5492284af741614f424ab6f776603934b91f4b419823",
+      "destination": "ios/Sources/DocumentCapture/CapturePortraitCustody.swift",
+      "destinationSHA256": "3da3e12f431ff139cb9ae0822f4d98fe41e3bdf016c0ea0181d05ff957c59e24",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Sources/KenshikiCapture/CapturePortraitVerification.swift",
+      "sourceSHA256": "3ff7b9d33529435556b7c72b0ee244d9862af11fe6288be594fb5e2c359b02a6",
+      "destination": "ios/Sources/DocumentCapture/CapturePortraitVerification.swift",
+      "destinationSHA256": "197a89e49478fbc1dc067b2c993e6d3b658b2bc41089911c3c1716c13cbc6e12",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Sources/KenshikiCapture/CaptureProcessingCalibration.swift",
+      "sourceSHA256": "2a24edb93a1220f4b92e353717f19fbee9ce53166bc320d6db3d4876f14f29dd",
+      "destination": "ios/Sources/DocumentCapture/CaptureProcessingCalibration.swift",
+      "destinationSHA256": "2a24edb93a1220f4b92e353717f19fbee9ce53166bc320d6db3d4876f14f29dd",
+      "patches": []
+    },
+    {
+      "sourcePath": "Sources/KenshikiCapture/CaptureProcessingQueue.swift",
+      "sourceSHA256": "dfe68876fbac80c6981e66dae8731bdde06362603748e7846349d03c03ed5ad4",
+      "destination": "ios/Sources/DocumentCapture/CaptureProcessingQueue.swift",
+      "destinationSHA256": "5dc121ec418844100b221f6bde8fc3db60c1b73eee3cc729b4aa226f7ce2824f",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Sources/KenshikiCapture/CaptureRecordLookup.swift",
+      "sourceSHA256": "b7ce8fa452da2781eabb6d7ad6f2686fa2940ad9bdde03f9d8b718a85eb9377f",
+      "destination": "ios/Sources/DocumentCapture/CaptureRecordLookup.swift",
+      "destinationSHA256": "37dbb2f2287e4926473161379aae491ec7dc28ee393588347c636e78b0502f04",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Sources/KenshikiCapture/CaptureRecords.swift",
+      "sourceSHA256": "e21819aad00fe10af3f81a88eb268c9dec4109ea76c71687fe7af1d701fb98a9",
+      "destination": "ios/Sources/DocumentCapture/CaptureRecords.swift",
+      "destinationSHA256": "ff924f5aa74df72d1e38f292e04b54459e5b2ebd9aeba0e230c53c634d4ef5d7",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4",
+        "Stable new profile codes with exact historical metadata decoding aliases; original signed bytes stay unchanged"
+      ]
+    },
+    {
+      "sourcePath": "Sources/KenshikiCapture/CaptureSession.swift",
+      "sourceSHA256": "3a76159b525f8a334e6ed345a27780a98f815488e94143acdcd8a36c11bb0f3a",
+      "destination": "ios/Sources/DocumentCapture/CaptureSession.swift",
+      "destinationSHA256": "2cce2b722d9f63defeae5c69d84191b206d994816a36683ad5b94451f1da70a3",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Sources/KenshikiCapture/CaptureSessionAcquisition.swift",
+      "sourceSHA256": "a9d97833664d24d4e0d192f9eabafad3fb780b7c2b02fbf66f6abc9146dc2788",
+      "destination": "ios/Sources/DocumentCapture/CaptureSessionAcquisition.swift",
+      "destinationSHA256": "309285ec9ae949cfe2a5fb8373505c5ebe18e913b4ddfebaeced467f75d1e320",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Sources/KenshikiCapture/CaptureSessionBackFallback.swift",
+      "sourceSHA256": "ffacb4bf39d61c1e121a59bd236a5f2d9825fbe8b8acbd14e25dea902785ef0a",
+      "destination": "ios/Sources/DocumentCapture/CaptureSessionBackFallback.swift",
+      "destinationSHA256": "ffcfd82066fd8ad392b1be71aa68a5e9e60b9e11854ba0970ea507078fcffa86",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Sources/KenshikiCapture/CaptureSessionGeometry.swift",
+      "sourceSHA256": "e710702b46d06402fb047d0ab458874cd4e9f49226b7fa68538fb0ee5c896d45",
+      "destination": "ios/Sources/DocumentCapture/CaptureSessionGeometry.swift",
+      "destinationSHA256": "36243f29860206afca0a0ccd8719d4d2faaff523d060b60bdc87d42afe6a189e",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Sources/KenshikiCapture/CaptureSessionLifecycle.swift",
+      "sourceSHA256": "e05e319a7a92b78963fbb2e64a5d6ce1760c5ab9949d72be838a97fd6a213c30",
+      "destination": "ios/Sources/DocumentCapture/CaptureSessionLifecycle.swift",
+      "destinationSHA256": "93f30f15da4bbfe3d3c387702ff321bb50e6747156cc97b44769f018702fc48e",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Sources/KenshikiCapture/CaptureSessionLocation.swift",
+      "sourceSHA256": "aeff9ddf271feef1ae58574450eb40a323a98ee79ce98001ae4fff0302e85de4",
+      "destination": "ios/Sources/DocumentCapture/CaptureSessionLocation.swift",
+      "destinationSHA256": "d8c1d539f295d949947ab556196d800c560c9461e942964e3baaa475d6b52af7",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Sources/KenshikiCapture/CaptureSessionTestFixture.swift",
+      "sourceSHA256": "94025cac90d48b764843b44ef385905d0e7b25ca71c977b893394d734ae42e17",
+      "destination": "ios/Sources/DocumentCapture/CaptureSessionTestFixture.swift",
+      "destinationSHA256": "09231e80a484289b29668fc6f52d62884787c27448ef3cc87b17bebc911dffa3",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Sources/KenshikiCapture/CaptureSessionTilt.swift",
+      "sourceSHA256": "3e10727b33fb58d65ac32cafcf4fd7305c8ef7d2c3d88dc317f022b82db2b04d",
+      "destination": "ios/Sources/DocumentCapture/CaptureSessionTilt.swift",
+      "destinationSHA256": "b94f8b98d21491124b660f1a210b801127b1c3de41317dfdb4f10d18cf176911",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Sources/KenshikiCapture/CaptureSessionTiltBudget.swift",
+      "sourceSHA256": "ab2ff2eae3cb1309d53d24415fef8070c491f033b6007400c95fc2dfbc704918",
+      "destination": "ios/Sources/DocumentCapture/CaptureSessionTiltBudget.swift",
+      "destinationSHA256": "70373552e02b6a353b17a37b2286dc13549e8df6935427df19fae216f9284250",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Sources/KenshikiCapture/CaptureSignedRecords.swift",
+      "sourceSHA256": "e25a2e6ebae3fb17cdf47bca6ea076c32d8c0fab2e5d25d2fa07924409db26b4",
+      "destination": "ios/Sources/DocumentCapture/CaptureSignedRecords.swift",
+      "destinationSHA256": "f5e9aad57116b531a64bde8fc405f832c6480e055a157559061f491a051a10bd",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Sources/KenshikiCapture/CaptureStillBindingCustody.swift",
+      "sourceSHA256": "47991651fb4fd1693bcce77774732281a60f6f4bdf10f50590e0078ef5d1eaba",
+      "destination": "ios/Sources/DocumentCapture/CaptureStillBindingCustody.swift",
+      "destinationSHA256": "eefd9266b4310ca0e08060bdcf05981f0cb02d38a85d77c2730e408240d08c4e",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Sources/KenshikiCapture/CaptureTemporalEvidencePersistence.swift",
+      "sourceSHA256": "c3ada77dfcf0a7afc4bdfa5b26dcee1ea41ba53572ef061cc44a58666fb61f98",
+      "destination": "ios/Sources/DocumentCapture/CaptureTemporalEvidencePersistence.swift",
+      "destinationSHA256": "d03ff26e53a046c920d97960615811773eab1c5e63d92f547a0508fc8665adff",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Sources/KenshikiCapture/CaptureTemporalObservationContract.swift",
+      "sourceSHA256": "9d5c99e840c65e896066a01872ae853ca33457b81f3d3614567a392ca73df494",
+      "destination": "ios/Sources/DocumentCapture/CaptureTemporalObservationContract.swift",
+      "destinationSHA256": "f31fd95896c53f2ab5313619fdf99e33618e5ad7eb813a5fa9c34d151b3ab0df",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Sources/KenshikiCapture/CaptureUsability.swift",
+      "sourceSHA256": "66cd1a22b38640b8ae5e416ddbc5faca1dd171774a9d578b259d76de06f47532",
+      "destination": "ios/Sources/DocumentCapture/CaptureUsability.swift",
+      "destinationSHA256": "8bd285e40dd7f97b28f223a0783d098ce36a8281f61f4aaa55e43a36a05e35ed",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Sources/IdentityEvidenceApple/AVFoundationCameraConfiguration.swift",
+      "sourceSHA256": "992248ae74cb28998c32393b06bbd404fbdfceb7df9e36687b57760ed997a0a4",
+      "destination": "ios/Sources/DocumentCaptureApple/AVFoundationCameraConfiguration.swift",
+      "destinationSHA256": "180022ff96a175ab460401781db1c8c46cb61515ef0669e8fd2474ed2421db2b",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Sources/IdentityEvidenceApple/AVFoundationCameraGraphRelease.swift",
+      "sourceSHA256": "91a684f001a7b78a685faa20230268702a0ef5258629651698c697023b420d49",
+      "destination": "ios/Sources/DocumentCaptureApple/AVFoundationCameraGraphRelease.swift",
+      "destinationSHA256": "3c5dda2d41e239873f1bf450cd2fdd659302fa5e74cf808df466ed48bc78847b",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Sources/IdentityEvidenceApple/AVFoundationCameraSessionController.swift",
+      "sourceSHA256": "569c81d6b86f1f2a233f24ef7eebb35d26b7d1e68b8b5fac613c40fb99ff786e",
+      "destination": "ios/Sources/DocumentCaptureApple/AVFoundationCameraSessionController.swift",
+      "destinationSHA256": "e971a3cf28accb0cd7ab1a60567333b1b44fba78ddad1a2e20b9d16fd0422337",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Sources/IdentityEvidenceApple/AVFoundationCameraSessionState.swift",
+      "sourceSHA256": "29ed74ec1aeb3a6e12c206b6c8727e48b660a84977cbe425b7db499536add792",
+      "destination": "ios/Sources/DocumentCaptureApple/AVFoundationCameraSessionState.swift",
+      "destinationSHA256": "29ed74ec1aeb3a6e12c206b6c8727e48b660a84977cbe425b7db499536add792",
+      "patches": []
+    },
+    {
+      "sourcePath": "Sources/IdentityEvidenceApple/AVFoundationCameraSwitching.swift",
+      "sourceSHA256": "6d3305874a219ac62bfa8435a5208f9cf67e5833747912feb489a0c385d75870",
+      "destination": "ios/Sources/DocumentCaptureApple/AVFoundationCameraSwitching.swift",
+      "destinationSHA256": "6d3305874a219ac62bfa8435a5208f9cf67e5833747912feb489a0c385d75870",
+      "patches": []
+    },
+    {
+      "sourcePath": "Sources/IdentityEvidenceApple/AVFoundationDocumentCapturePolicy.swift",
+      "sourceSHA256": "4ce3bb26c93bb0d08da31673f3e7bb7478b8d472ec199ea72f01f7600eaa41da",
+      "destination": "ios/Sources/DocumentCaptureApple/AVFoundationDocumentCapturePolicy.swift",
+      "destinationSHA256": "5733dd43025f02d9c2e5e3ef94b595e3be97c4ecff094d3a6fec70e5324d3864",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Sources/IdentityEvidenceApple/AVFoundationNativeDiagnostics.swift",
+      "sourceSHA256": "e748c526e2e32b5b938016fc4df53b47ff6554ce7b361ee4bd8d238297e9c74a",
+      "destination": "ios/Sources/DocumentCaptureApple/AVFoundationNativeDiagnostics.swift",
+      "destinationSHA256": "c91d9e4171ac513d4111bfcfe01c16f44c752d6c76047b98dff5318c1ec84f1f",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Sources/IdentityEvidenceApple/AVFoundationOpticalState.swift",
+      "sourceSHA256": "d38ff0995f5b12e7e4d7755059a3fcdb79b763a4d94e3f2fc71ee80ca88ca712",
+      "destination": "ios/Sources/DocumentCaptureApple/AVFoundationOpticalState.swift",
+      "destinationSHA256": "d38ff0995f5b12e7e4d7755059a3fcdb79b763a4d94e3f2fc71ee80ca88ca712",
+      "patches": []
+    },
+    {
+      "sourcePath": "Sources/IdentityEvidenceApple/AVFoundationPreviewEpoch.swift",
+      "sourceSHA256": "7489a1931b04f359f86933f31870b5a33d57ca865b2fdcf8e091ea661cde700b",
+      "destination": "ios/Sources/DocumentCaptureApple/AVFoundationPreviewEpoch.swift",
+      "destinationSHA256": "7489a1931b04f359f86933f31870b5a33d57ca865b2fdcf8e091ea661cde700b",
+      "patches": []
+    },
+    {
+      "sourcePath": "Sources/IdentityEvidenceApple/AVFoundationTemporalCapture.swift",
+      "sourceSHA256": "7a58b9ceb4d83eeaedb5c5e9612dc033cb373af840ccc67bd9c87a0eebca0c4a",
+      "destination": "ios/Sources/DocumentCaptureApple/AVFoundationTemporalCapture.swift",
+      "destinationSHA256": "930cd99e27ecf797b24c39363a73f7cfcac63c3ca653693c4c50d4e14c08812c",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4",
+        "Retain bounded raw motion-only observations and source/clock binding with explicit omissions; preserve existing capture and frame-recording behavior."
+      ]
+    },
+    {
+      "sourcePath": "Sources/IdentityEvidenceApple/AVFoundationTiltAdmission.swift",
+      "sourceSHA256": "5ef9d9cfef1be2980feec55aed9791c6a74a429b017419840a5d0c2c67a51a9c",
+      "destination": "ios/Sources/DocumentCaptureApple/AVFoundationTiltAdmission.swift",
+      "destinationSHA256": "f95ef7e5c79e5199a3f348d16a9692cd9a85e98b42159495e52674f262678c55",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Sources/IdentityEvidenceApple/AVFoundationTiltGuidance.swift",
+      "sourceSHA256": "d0f206775655ed3bad9be38cd62cc6fa44a7eb649d5d5d583bfee8a3ef2f2b62",
+      "destination": "ios/Sources/DocumentCaptureApple/AVFoundationTiltGuidance.swift",
+      "destinationSHA256": "ce7c5c0a1db02e2978bec379b67ff336844a8c21412b8bf4e42a024f8896ce83",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Sources/IdentityEvidenceApple/AVFoundationZoomRampRetirement.swift",
+      "sourceSHA256": "e042b9c9ffec6cd163b85fab1aae6c74275b43580a61f1b46c83b5e2fa90db25",
+      "destination": "ios/Sources/DocumentCaptureApple/AVFoundationZoomRampRetirement.swift",
+      "destinationSHA256": "e042b9c9ffec6cd163b85fab1aae6c74275b43580a61f1b46c83b5e2fa90db25",
+      "patches": []
+    },
+    {
+      "sourcePath": "Sources/IdentityEvidenceApple/AppleDocumentContextImagePreparer.swift",
+      "sourceSHA256": "8c47eb15daf152c6478cd7183f3caa1b422a9e2e47c13e927e33dc18cc0cd190",
+      "destination": "ios/Sources/DocumentCaptureApple/AppleDocumentContextImagePreparer.swift",
+      "destinationSHA256": "57a7b2645459450c7dc3514753f0f4ca4460bb428555bd58be4c12826dd61f3c",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Sources/IdentityEvidenceApple/ArtifactExtraction.swift",
+      "sourceSHA256": "51e7765f57093e5cd9ab76557bb04a33f5061705df55488b3bf33bf71fda5614",
+      "destination": "ios/Sources/DocumentCaptureApple/ArtifactExtraction.swift",
+      "destinationSHA256": "4b32e7007f739dd1e54a1e39d3adfc8b206c4b601179d4a0a4b3fa61704cbea3",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Sources/IdentityEvidenceApple/CameraAuthorization.swift",
+      "sourceSHA256": "06c02b30a2be944c7ade21f0f06c9ea59e1072db8f0c5af510918ba12ea706bc",
+      "destination": "ios/Sources/DocumentCaptureApple/CameraAuthorization.swift",
+      "destinationSHA256": "06c02b30a2be944c7ade21f0f06c9ea59e1072db8f0c5af510918ba12ea706bc",
+      "patches": []
+    },
+    {
+      "sourcePath": "Sources/IdentityEvidenceApple/CameraSessionControlling.swift",
+      "sourceSHA256": "2faec1235dc428be18ce1999ec8c5d3857d0f6f8ded4b4670b2c29989ab67774",
+      "destination": "ios/Sources/DocumentCaptureApple/CameraSessionControlling.swift",
+      "destinationSHA256": "ba7fcb012d8b62f6dcee614979579ccd446508eae80c3d0844ebc12e459dbe8f",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Sources/IdentityEvidenceApple/CaptureLocationGPSMetadata.swift",
+      "sourceSHA256": "3ad51e6353f86df708c92bb64940d5592f660709df7b51bdd5925675bbbec1b7",
+      "destination": "ios/Sources/DocumentCaptureApple/CaptureLocationGPSMetadata.swift",
+      "destinationSHA256": "22f5e5a2eb02fb0fff1d3ae62a8a29c33ac3683cdb8e2ad52767cab34ed44724",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Sources/IdentityEvidenceApple/CapturedDocumentPhoto.swift",
+      "sourceSHA256": "139e0f5e61c499d47dac1c7ff941af73ee1d3e0cbef80b627c27485c0774a0b0",
+      "destination": "ios/Sources/DocumentCaptureApple/CapturedDocumentPhoto.swift",
+      "destinationSHA256": "ac7ee7849b050859caf8491485106877b82648706afa61dd77fc5f46d81321f9",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4",
+        "Retain bounded raw motion-only observations and source/clock binding with explicit omissions; preserve existing capture and frame-recording behavior."
+      ]
+    },
+    {
+      "sourcePath": "Sources/IdentityEvidenceApple/CapturedDocumentPhotoAssembler.swift",
+      "sourceSHA256": "b624e547298bb89757d7e8148b5f67aa79c066c8f3c12c4bebd6376daf96c15b",
+      "destination": "ios/Sources/DocumentCaptureApple/CapturedDocumentPhotoAssembler.swift",
+      "destinationSHA256": "fdb841f33fd5e7d8cddbe2b9a5c2dca1b27660afad8a564cdf19499746b787a8",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Sources/IdentityEvidenceApple/CapturedPhotoPlatformMetadata.swift",
+      "sourceSHA256": "64e956b4db80f7fb9802f70f871ba620119d02a36245db91241df0d9103ce414",
+      "destination": "ios/Sources/DocumentCaptureApple/CapturedPhotoPlatformMetadata.swift",
+      "destinationSHA256": "64e956b4db80f7fb9802f70f871ba620119d02a36245db91241df0d9103ce414",
+      "patches": []
+    },
+    {
+      "sourcePath": "Sources/IdentityEvidenceApple/DocumentAdaptiveCameraController.swift",
+      "sourceSHA256": "add69e2dc981503b33cd51485f863aefdbc1654debbdbbd0bbe1c7a1a346ef46",
+      "destination": "ios/Sources/DocumentCaptureApple/DocumentAdaptiveCameraController.swift",
+      "destinationSHA256": "a047daaba702dcb5ee1a47a6480b8e23fb13a39e4cd6fdead24d8310b118fcf8",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Sources/IdentityEvidenceApple/DocumentAdaptiveDevice.swift",
+      "sourceSHA256": "985a8da71a26843f31762bc09ac5be20c0b88951852fc66d4296c269b96c3448",
+      "destination": "ios/Sources/DocumentCaptureApple/DocumentAdaptiveDevice.swift",
+      "destinationSHA256": "d62da2d57d0d11db1c09260547e8cc2cd37b097873cf1a4f833c2133a92259db",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Sources/IdentityEvidenceApple/DocumentAdaptiveFramingPolicy.swift",
+      "sourceSHA256": "52d745ff796a71ab72a55f98c8b48a525d81bdcd2f0f26576bbb0eead7c5847e",
+      "destination": "ios/Sources/DocumentCaptureApple/DocumentAdaptiveFramingPolicy.swift",
+      "destinationSHA256": "3fdf5126b7c2a6c33b972cdbcd39979d4ab8f0454a97ebf1e5e3fefd6a2c64a2",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Sources/IdentityEvidenceApple/DocumentAdaptiveReadinessPolicy.swift",
+      "sourceSHA256": "d2761e74607824cdb5f4bc7cff6eff442d8128efe80f31aa5732a175557eb1be",
+      "destination": "ios/Sources/DocumentCaptureApple/DocumentAdaptiveReadinessPolicy.swift",
+      "destinationSHA256": "349b7a789f0f64e0a7942e32f2cd4bb845f1eea72792a4746f9abae2d82b1766",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Sources/IdentityEvidenceApple/DocumentAnalysisCadence.swift",
+      "sourceSHA256": "98464349e2ac1df04648bc5c8551021188ea4fb9550c67803a773970d7b2c315",
+      "destination": "ios/Sources/DocumentCaptureApple/DocumentAnalysisCadence.swift",
+      "destinationSHA256": "98464349e2ac1df04648bc5c8551021188ea4fb9550c67803a773970d7b2c315",
+      "patches": []
+    },
+    {
+      "sourcePath": "Sources/IdentityEvidenceApple/DocumentAnalysisPixelCopy.swift",
+      "sourceSHA256": "af8295665e0e246f24bcd814ceeb5fbefd59f81467998d9266b4869a382baae5",
+      "destination": "ios/Sources/DocumentCaptureApple/DocumentAnalysisPixelCopy.swift",
+      "destinationSHA256": "af8295665e0e246f24bcd814ceeb5fbefd59f81467998d9266b4869a382baae5",
+      "patches": []
+    },
+    {
+      "sourcePath": "Sources/IdentityEvidenceApple/DocumentAutoCaptureCoordinator.swift",
+      "sourceSHA256": "94093d0273c4b52b7420c8c1acd008635fffe2d900af2c56eccee0c9f513469e",
+      "destination": "ios/Sources/DocumentCaptureApple/DocumentAutoCaptureCoordinator.swift",
+      "destinationSHA256": "ffab03d6e7c8ae04cac5f6f68cd2a8fc16292e7049d68bd9d555566df7c30acd",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Sources/IdentityEvidenceApple/DocumentCamera.swift",
+      "sourceSHA256": "6fe9826b057d942d199d8f9677a6ff999a3fedd989e0d7a23f5f319392b751a4",
+      "destination": "ios/Sources/DocumentCaptureApple/DocumentCamera.swift",
+      "destinationSHA256": "33f416f8485af2442054987bde1862408c2275d7fb9eeff9ccf4e19b78eb70a9",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Sources/IdentityEvidenceApple/DocumentCameraDiagnostics.swift",
+      "sourceSHA256": "155bd254bf81f739f550b716eaaff198fc41b8b8298ee28f0ae6f6b6a052c150",
+      "destination": "ios/Sources/DocumentCaptureApple/DocumentCameraDiagnostics.swift",
+      "destinationSHA256": "155bd254bf81f739f550b716eaaff198fc41b8b8298ee28f0ae6f6b6a052c150",
+      "patches": []
+    },
+    {
+      "sourcePath": "Sources/IdentityEvidenceApple/DocumentCameraHardware.swift",
+      "sourceSHA256": "7958351661c74cf8134a8b4332c59fc5d705e0e930badbd7c9e008d4bb2e37db",
+      "destination": "ios/Sources/DocumentCaptureApple/DocumentCameraHardware.swift",
+      "destinationSHA256": "7958351661c74cf8134a8b4332c59fc5d705e0e930badbd7c9e008d4bb2e37db",
+      "patches": []
+    },
+    {
+      "sourcePath": "Sources/IdentityEvidenceApple/DocumentCameraNativeDiagnostics.swift",
+      "sourceSHA256": "efa0e199f48c02021b90499fd784897632051cbbb7b954ca0dae2eeb48fd6692",
+      "destination": "ios/Sources/DocumentCaptureApple/DocumentCameraNativeDiagnostics.swift",
+      "destinationSHA256": "105df52efa253cca1859d3dd9bd8e0d06d962abe3b42f3e791f6d373ab69f44d",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Sources/IdentityEvidenceApple/DocumentCameraOrientation+AVFoundation.swift",
+      "sourceSHA256": "e1a6176ba5cf399823bc550d0fd8fc3ded089e90cd3a0fd5563ff47dcdc114ca",
+      "destination": "ios/Sources/DocumentCaptureApple/DocumentCameraOrientation+AVFoundation.swift",
+      "destinationSHA256": "e1a6176ba5cf399823bc550d0fd8fc3ded089e90cd3a0fd5563ff47dcdc114ca",
+      "patches": []
+    },
+    {
+      "sourcePath": "Sources/IdentityEvidenceApple/DocumentCameraPreviewProviding.swift",
+      "sourceSHA256": "eb040efd068c8510f1937cbe2b9bd07964800be28af5dfde43cafc7870177a1e",
+      "destination": "ios/Sources/DocumentCaptureApple/DocumentCameraPreviewProviding.swift",
+      "destinationSHA256": "a8701a2c3e435ba1a85dca69e40c65d1a152c15526bedda5cd5b0706ae9d35ec",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Sources/IdentityEvidenceApple/DocumentCameraTelemetry.swift",
+      "sourceSHA256": "a212d498ba4fa6edb5490b70b9844f87a173c47b04010dc2a3fb50a2515765d3",
+      "destination": "ios/Sources/DocumentCaptureApple/DocumentCameraTelemetry.swift",
+      "destinationSHA256": "b2a610826cfae3336f76230c28fb27e060fdeb1b612bb34199b3a88d28daa631",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Sources/IdentityEvidenceApple/DocumentCameraTiltGuidance.swift",
+      "sourceSHA256": "1635eaee7d8dc90f577fdb7cc7f7dce0c81709fcb1f9fd87719807208b490760",
+      "destination": "ios/Sources/DocumentCaptureApple/DocumentCameraTiltGuidance.swift",
+      "destinationSHA256": "88982c04c3893041069c2243884ec25732b7701bc321990f9cd3b1dd917c2380",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Sources/IdentityEvidenceApple/DocumentCaptureConfiguration.swift",
+      "sourceSHA256": "f9ab266c2ecf609ef85df7f16bc69a4e404cf381019f3aa8d6d646ec9f6d947b",
+      "destination": "ios/Sources/DocumentCaptureApple/DocumentCaptureConfiguration.swift",
+      "destinationSHA256": "f9ab266c2ecf609ef85df7f16bc69a4e404cf381019f3aa8d6d646ec9f6d947b",
+      "patches": []
+    },
+    {
+      "sourcePath": null,
+      "sourceSHA256": null,
+      "destination": "ios/Sources/DocumentCaptureApple/DocumentCaptureDefaults.swift",
+      "destinationSHA256": "5f63498c4b69ed8e0b4376cedec30e6d8959304adf45e6ffc7e026e851e89a87",
+      "patches": [
+        "Extraction adapter, attributed profile or regression test; recovered source requires fresh qualification and does not establish identity acceptance"
+      ]
+    },
+    {
+      "sourcePath": "Sources/IdentityEvidenceApple/DocumentCaptureExpectation.swift",
+      "sourceSHA256": "6a8027af89f8c1760e96f25346d37bb1a7b14925aea031a056e537e3861b0dac",
+      "destination": "ios/Sources/DocumentCaptureApple/DocumentCaptureExpectation.swift",
+      "destinationSHA256": "089b70ee8d3872c4cbcc9213437db7af450eddc8497293472c69cd241986567d",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Sources/IdentityEvidenceApple/DocumentCaptureFeedback.swift",
+      "sourceSHA256": "49649cef6a754fe190b0f53f9d9aac0627f6cb08ff527bc8294e411833356a25",
+      "destination": "ios/Sources/DocumentCaptureApple/DocumentCaptureFeedback.swift",
+      "destinationSHA256": "49649cef6a754fe190b0f53f9d9aac0627f6cb08ff527bc8294e411833356a25",
+      "patches": []
+    },
+    {
+      "sourcePath": "Sources/IdentityEvidenceApple/DocumentCaptureQuality.swift",
+      "sourceSHA256": "9c2f99150f85a300606a06833390b0bd00a06941c7526bfab87bde7db68b4e16",
+      "destination": "ios/Sources/DocumentCaptureApple/DocumentCaptureQuality.swift",
+      "destinationSHA256": "516340e4867c9bb9d36e811464460c866d8d6a8cc4b58ea99ea23806ef289a93",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Sources/IdentityEvidenceApple/DocumentCaptureRequest.swift",
+      "sourceSHA256": "9115f0a1e5c9daffabb2e88a12fc423c4caec1b4e6ee4fc393d68c3cd9e07b49",
+      "destination": "ios/Sources/DocumentCaptureApple/DocumentCaptureRequest.swift",
+      "destinationSHA256": "a36247ef3c989131ecbc5a17c288cc4eac20722a92d9264f21c9f2fce820d02b",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Sources/IdentityEvidenceApple/DocumentCaptureTuning.swift",
+      "sourceSHA256": "39a8c693b2ef8222642e6403e906e126b481467e447c1ad4a3664ae3fc43bcf4",
+      "destination": "ios/Sources/DocumentCaptureApple/DocumentCaptureTuning.swift",
+      "destinationSHA256": "4887e9c461f43080ce87d080ff96bf9b53d2873e5a3bf8b8801a6837ef59c790",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Sources/IdentityEvidenceApple/DocumentCaptureTuningOverrides.swift",
+      "sourceSHA256": "a9d3cb075faa70e1a802a815d16dbfae37ec8ea0548c271a09c840f6cbbab62c",
+      "destination": "ios/Sources/DocumentCaptureApple/DocumentCaptureTuningOverrides.swift",
+      "destinationSHA256": "a9d3cb075faa70e1a802a815d16dbfae37ec8ea0548c271a09c840f6cbbab62c",
+      "patches": []
+    },
+    {
+      "sourcePath": "Sources/IdentityEvidenceApple/DocumentFocusRecoveryPolicy.swift",
+      "sourceSHA256": "8ad0cce874a8b8d49849d9416e16c132cc1436f0a37eaacc81c769bf942dbb9e",
+      "destination": "ios/Sources/DocumentCaptureApple/DocumentFocusRecoveryPolicy.swift",
+      "destinationSHA256": "8ad0cce874a8b8d49849d9416e16c132cc1436f0a37eaacc81c769bf942dbb9e",
+      "patches": []
+    },
+    {
+      "sourcePath": "Sources/IdentityEvidenceApple/DocumentFrameAnalyzer.swift",
+      "sourceSHA256": "4b2c485ca32572ba5067df2b9a8124f7f9c830d6872335558865416214c45f1f",
+      "destination": "ios/Sources/DocumentCaptureApple/DocumentFrameAnalyzer.swift",
+      "destinationSHA256": "3dc2c92d543f07d385c6cfa5b8ecb923f52d855c62f9b8330bea487c55ee15ce",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Sources/IdentityEvidenceApple/DocumentFrameAnalyzerTiltGuidance.swift",
+      "sourceSHA256": "a4ec60aa2d9a46b5361fc083dcd51d01faee80142fbf7c38d8443b3ccc9bb59f",
+      "destination": "ios/Sources/DocumentCaptureApple/DocumentFrameAnalyzerTiltGuidance.swift",
+      "destinationSHA256": "a4ec60aa2d9a46b5361fc083dcd51d01faee80142fbf7c38d8443b3ccc9bb59f",
+      "patches": []
+    },
+    {
+      "sourcePath": "Sources/IdentityEvidenceApple/DocumentFrontLayoutEvidence.swift",
+      "sourceSHA256": "a14e1abea88ffe4b9bf8844d11196ee15fdefab7077808391f0bc1dcd017a345",
+      "destination": "ios/Sources/DocumentCaptureApple/DocumentFrontLayoutEvidence.swift",
+      "destinationSHA256": "2229f9a2d34e09484ab9b00c04080bf007076ab8b4d85feaf6dd6e04fe7dc4ec",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Sources/IdentityEvidenceApple/DocumentGeometryObservationDelivery.swift",
+      "sourceSHA256": "4e51778bd543f3e68eb904f948a0ca63eeafdb7ccda152b5603b26a1aea9f804",
+      "destination": "ios/Sources/DocumentCaptureApple/DocumentGeometryObservationDelivery.swift",
+      "destinationSHA256": "4e51778bd543f3e68eb904f948a0ca63eeafdb7ccda152b5603b26a1aea9f804",
+      "patches": []
+    },
+    {
+      "sourcePath": "Sources/IdentityEvidenceApple/DocumentGeometryRequestFact.swift",
+      "sourceSHA256": "06659b4ff111bf1d1473a88db67796d4b3296fe2e524f6c20ffdbf4b2619b61b",
+      "destination": "ios/Sources/DocumentCaptureApple/DocumentGeometryRequestFact.swift",
+      "destinationSHA256": "b4d8397dac8d6c1413bd87fa25c08282b5ecee864dd86559fe9b52d4cc83b5f6",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Sources/IdentityEvidenceApple/DocumentID1GuideLayout.swift",
+      "sourceSHA256": "6202e5a896baf3d4dd389f64ba670d08da5f450acc6eebe04b93d7f896d3b44c",
+      "destination": "ios/Sources/DocumentCaptureApple/DocumentID1GuideLayout.swift",
+      "destinationSHA256": "f470c42494472f9a669a92e939d4dc9b6b3b4dd702ff2e1ce2607a92d991247a",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Sources/IdentityEvidenceApple/DocumentImagePreparer.swift",
+      "sourceSHA256": "764e15ff0484166dcf01c4ffe1e95c9bef06764a88dc1df81061e71bbd651d5e",
+      "destination": "ios/Sources/DocumentCaptureApple/DocumentImagePreparer.swift",
+      "destinationSHA256": "56053fad85976b775e1738edd369634915fdb99f7cdd4c600c618ae81cfde2d2",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Sources/IdentityEvidenceApple/DocumentImageProcessingQueue.swift",
+      "sourceSHA256": "c79b4a1b8ed46646b15707ca9d982825ae31e70f5bf878c4cb9cfbe9acde4a67",
+      "destination": "ios/Sources/DocumentCaptureApple/DocumentImageProcessingQueue.swift",
+      "destinationSHA256": "c79b4a1b8ed46646b15707ca9d982825ae31e70f5bf878c4cb9cfbe9acde4a67",
+      "patches": []
+    },
+    {
+      "sourcePath": "Sources/IdentityEvidenceApple/DocumentJourneyCameraControl.swift",
+      "sourceSHA256": "4a7e26eda4ff9c6ee0d178fca853acc6956100534d82a4ba119612416ae6f852",
+      "destination": "ios/Sources/DocumentCaptureApple/DocumentJourneyCameraControl.swift",
+      "destinationSHA256": "4a7e26eda4ff9c6ee0d178fca853acc6956100534d82a4ba119612416ae6f852",
+      "patches": []
+    },
+    {
+      "sourcePath": "Sources/IdentityEvidenceApple/DocumentJourneyPacing.swift",
+      "sourceSHA256": "7fdb06a0b5c130afc425d2287293183b08f6c66deb7cf776689cf58df5743029",
+      "destination": "ios/Sources/DocumentCaptureApple/DocumentJourneyPacing.swift",
+      "destinationSHA256": "b6e9cb329b381ec2cd150098718f08c947bbc978b0d395c12752949f09253aee",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Sources/IdentityEvidenceApple/DocumentJourneyRecording.swift",
+      "sourceSHA256": "26eea897083b3db56323ae944dd0b9dda2743a7f7a7a2f0679a7f489a6edf28c",
+      "destination": "ios/Sources/DocumentCaptureApple/DocumentJourneyRecording.swift",
+      "destinationSHA256": "5a49a929f9bd06c1754bd2170c51e130714a129166751b5c2d55d8da3d4e18c7",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Sources/IdentityEvidenceApple/DocumentJourneyRecordingFrames.swift",
+      "sourceSHA256": "ed2d72a3f73bd6c81d4d96a35b353c8b3f2fd49c1c6daf2ae3aa0027db366aba",
+      "destination": "ios/Sources/DocumentCaptureApple/DocumentJourneyRecordingFrames.swift",
+      "destinationSHA256": "d3a10f22ca07a6dc35821e214e91803f8eb9befd25a6257aade3008ca9caa84a",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Sources/IdentityEvidenceApple/DocumentJourneyRecordingState.swift",
+      "sourceSHA256": "1ea1821752651f12f7691d77e764c606e6ce9dace325e4e283af403028902f56",
+      "destination": "ios/Sources/DocumentCaptureApple/DocumentJourneyRecordingState.swift",
+      "destinationSHA256": "1ea1821752651f12f7691d77e764c606e6ce9dace325e4e283af403028902f56",
+      "patches": []
+    },
+    {
+      "sourcePath": "Sources/IdentityEvidenceApple/DocumentJourneyRecordingValidation.swift",
+      "sourceSHA256": "f54c5440adeeda7d52395ee5e5d5ef252a08526d1e58c4594c18b2217837b16b",
+      "destination": "ios/Sources/DocumentCaptureApple/DocumentJourneyRecordingValidation.swift",
+      "destinationSHA256": "24ee03cc593860ec86c9367adf0becfe069ddac80a27f653f5969cf058e3e5cd",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Sources/IdentityEvidenceApple/DocumentLiveContentAnalyzer.swift",
+      "sourceSHA256": "092a36614e8a2039b286afadaf8bd18a9adacd15b81c3d7eb4f6e6c7914b1799",
+      "destination": "ios/Sources/DocumentCaptureApple/DocumentLiveContentAnalyzer.swift",
+      "destinationSHA256": "38aaa4b2f4b8aa0df1424a67532c60459cf70424d3b9bc92fbbeda3cc928e616",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Sources/IdentityEvidenceApple/DocumentLiveContentTarget.swift",
+      "sourceSHA256": "49eef03cd3b696de7ae123cc7a089a7df5390687f95e88d05dfc12cad0d0dad5",
+      "destination": "ios/Sources/DocumentCaptureApple/DocumentLiveContentTarget.swift",
+      "destinationSHA256": "49eef03cd3b696de7ae123cc7a089a7df5390687f95e88d05dfc12cad0d0dad5",
+      "patches": []
+    },
+    {
+      "sourcePath": "Sources/IdentityEvidenceApple/DocumentLiveGeometryObservation.swift",
+      "sourceSHA256": "00157b98e910f90fdeaa6822a098e6b8a1f358713a0d1d4fe549746a4ecf6bd9",
+      "destination": "ios/Sources/DocumentCaptureApple/DocumentLiveGeometryObservation.swift",
+      "destinationSHA256": "99adb97375c8d01c05f15d8a4252d8e10d85d5214db718b11884d5ecbe5d67e6",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Sources/IdentityEvidenceApple/DocumentLumaAnalyzer.swift",
+      "sourceSHA256": "5e122951a77d96c57c9babdbc9705272b339b3f015f07c0ab6c55df653cecd5c",
+      "destination": "ios/Sources/DocumentCaptureApple/DocumentLumaAnalyzer.swift",
+      "destinationSHA256": "5e122951a77d96c57c9babdbc9705272b339b3f015f07c0ab6c55df653cecd5c",
+      "patches": []
+    },
+    {
+      "sourcePath": "Sources/IdentityEvidenceApple/DocumentNativeControlAdmission.swift",
+      "sourceSHA256": "490acb39b1c633ea5aa9fd72f00f4142cbd95cd4fed0a0d2fa3119a62f9085bd",
+      "destination": "ios/Sources/DocumentCaptureApple/DocumentNativeControlAdmission.swift",
+      "destinationSHA256": "55dd100a99bcb437b370cbc5caeef749b45eea107a3645a9e96895574c1f26ae",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Sources/IdentityEvidenceApple/DocumentPerspectiveMeasurement.swift",
+      "sourceSHA256": "51c958a1d762ca577d7f96fe44b0c3fa1495e01bf52f7766ebe8b97240b9a8cd",
+      "destination": "ios/Sources/DocumentCaptureApple/DocumentPerspectiveMeasurement.swift",
+      "destinationSHA256": "51c958a1d762ca577d7f96fe44b0c3fa1495e01bf52f7766ebe8b97240b9a8cd",
+      "patches": []
+    },
+    {
+      "sourcePath": "Sources/IdentityEvidenceApple/DocumentPhotoAnalysisFailure.swift",
+      "sourceSHA256": "5e2c4f5db472861a5a6b46c0c60dfc73e3e8b8ff224752f2d69bca0502fb3df7",
+      "destination": "ios/Sources/DocumentCaptureApple/DocumentPhotoAnalysisFailure.swift",
+      "destinationSHA256": "5e2c4f5db472861a5a6b46c0c60dfc73e3e8b8ff224752f2d69bca0502fb3df7",
+      "patches": []
+    },
+    {
+      "sourcePath": "Sources/IdentityEvidenceApple/DocumentPhotoCapturing.swift",
+      "sourceSHA256": "ec3647477888e2d788c6367ab684f08f23b2afcf92b0793a5af0a606a9a65647",
+      "destination": "ios/Sources/DocumentCaptureApple/DocumentPhotoCapturing.swift",
+      "destinationSHA256": "4ea7699c8bc1407dddd7a7eaefcfc2b1133e5b6d4e356b52e8b840bd4c884992",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Sources/IdentityEvidenceApple/DocumentPhotoGeometryPolicy.swift",
+      "sourceSHA256": "f3724ab5b3f61552ef4501d6cd74d66cb66c51cd777d1819bccb2687fc8d4888",
+      "destination": "ios/Sources/DocumentCaptureApple/DocumentPhotoGeometryPolicy.swift",
+      "destinationSHA256": "f3724ab5b3f61552ef4501d6cd74d66cb66c51cd777d1819bccb2687fc8d4888",
+      "patches": []
+    },
+    {
+      "sourcePath": "Sources/IdentityEvidenceApple/DocumentPhotoUsabilityEvaluator.swift",
+      "sourceSHA256": "59f98e622b71653953be11837d795524f14620669a3a9c282f3588ddf823f675",
+      "destination": "ios/Sources/DocumentCaptureApple/DocumentPhotoUsabilityEvaluator.swift",
+      "destinationSHA256": "734ab751b75fe91b0acd6ac99cca65fcb7f09fc872188362fafcf5a927dc4e45",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Sources/IdentityEvidenceApple/DocumentRegionDetector.swift",
+      "sourceSHA256": "ca90e8d8af0be7b9b38c6a16013018b39afa747de0ede64307900f3dc285bee9",
+      "destination": "ios/Sources/DocumentCaptureApple/DocumentRegionDetector.swift",
+      "destinationSHA256": "ca90e8d8af0be7b9b38c6a16013018b39afa747de0ede64307900f3dc285bee9",
+      "patches": []
+    },
+    {
+      "sourcePath": "Sources/IdentityEvidenceApple/DocumentSpatialAnalysis.swift",
+      "sourceSHA256": "20ac9afe174b48af0f5641dd8b23b4f6fe04e323dd9645997ab70da17319d0f2",
+      "destination": "ios/Sources/DocumentCaptureApple/DocumentSpatialAnalysis.swift",
+      "destinationSHA256": "20ac9afe174b48af0f5641dd8b23b4f6fe04e323dd9645997ab70da17319d0f2",
+      "patches": []
+    },
+    {
+      "sourcePath": "Sources/IdentityEvidenceApple/DocumentSpatialProcessor.swift",
+      "sourceSHA256": "b5dfb612656558b792870bdb8879e08f4fe77b0cf8da29e858ef2b5f1f36dda7",
+      "destination": "ios/Sources/DocumentCaptureApple/DocumentSpatialProcessor.swift",
+      "destinationSHA256": "69f210f17eef791bf06d95b5efe5f9ded06c63401634c90dd886b4cb3fcc6d99",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Sources/IdentityEvidenceApple/DocumentTemporalEvidence.swift",
+      "sourceSHA256": "876876c726ae3fab2d2b363b23888d64b5e8444ffb4c032b71d94d352953d90d",
+      "destination": "ios/Sources/DocumentCaptureApple/DocumentTemporalEvidence.swift",
+      "destinationSHA256": "b23fe07bb49ac59980d7be91a2e4581d2a7d7c9a3e3a7af7112d230f3cd91d41",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Sources/IdentityEvidenceApple/DocumentTemporalEvidenceBuffer.swift",
+      "sourceSHA256": "b6f1d707267c513cf501182eaffcd8e76aef843403023f1d66a4bf6800031d46",
+      "destination": "ios/Sources/DocumentCaptureApple/DocumentTemporalEvidenceBuffer.swift",
+      "destinationSHA256": "22c074ae16d419556583bff0f631dbb57b4ca45444f8bca4447d47ef035296b4",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Sources/IdentityEvidenceApple/DocumentTemporalEvidenceManifest.swift",
+      "sourceSHA256": "256fccef707e02359c2aca3a98fb2b0aabf5ba263f79621dee81a2d9521ab128",
+      "destination": "ios/Sources/DocumentCaptureApple/DocumentTemporalEvidenceManifest.swift",
+      "destinationSHA256": "256fccef707e02359c2aca3a98fb2b0aabf5ba263f79621dee81a2d9521ab128",
+      "patches": []
+    },
+    {
+      "sourcePath": "Sources/IdentityEvidenceApple/DocumentTemporalEvidenceValidation.swift",
+      "sourceSHA256": "20ec3ce28be6f8ba9a724f94c73bb73115ba9572295f1a587fb6c726db3b7843",
+      "destination": "ios/Sources/DocumentCaptureApple/DocumentTemporalEvidenceValidation.swift",
+      "destinationSHA256": "cae9bc833812108fc5a46c2ba06a83cf5178d4e593364c8ba3d681743af519bc",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Sources/IdentityEvidenceApple/DocumentTemporalEvidenceWindow.swift",
+      "sourceSHA256": "c139bd7b4dfd4078f2fade464abd0e29a58ba0c280b849d805b5067734e1cc78",
+      "destination": "ios/Sources/DocumentCaptureApple/DocumentTemporalEvidenceWindow.swift",
+      "destinationSHA256": "c139bd7b4dfd4078f2fade464abd0e29a58ba0c280b849d805b5067734e1cc78",
+      "patches": []
+    },
+    {
+      "sourcePath": "Sources/IdentityEvidenceApple/DocumentTemporalMotionCollector.swift",
+      "sourceSHA256": "5f102ce32b96c3a67cd76e8c48c117ecc37b272a8aa5c6a53bfde0a2de31584e",
+      "destination": "ios/Sources/DocumentCaptureApple/DocumentTemporalMotionCollector.swift",
+      "destinationSHA256": "5f102ce32b96c3a67cd76e8c48c117ecc37b272a8aa5c6a53bfde0a2de31584e",
+      "patches": []
+    },
+    {
+      "sourcePath": "Sources/IdentityEvidenceApple/DocumentTemporalPixelCopy.swift",
+      "sourceSHA256": "e7da55484f1484ad4c7139770459e5c6efb527754b4fb13041cfb0066ed4ed18",
+      "destination": "ios/Sources/DocumentCaptureApple/DocumentTemporalPixelCopy.swift",
+      "destinationSHA256": "e7da55484f1484ad4c7139770459e5c6efb527754b4fb13041cfb0066ed4ed18",
+      "patches": []
+    },
+    {
+      "sourcePath": "Sources/IdentityEvidenceApple/DocumentTemporalRecorder.swift",
+      "sourceSHA256": "78b553a0e2383aa779d0b502f52079730c7e4d64d28a360312be7b29630a339a",
+      "destination": "ios/Sources/DocumentCaptureApple/DocumentTemporalRecorder.swift",
+      "destinationSHA256": "d166882dc53017661160deedab8b890a9ba1ddeda454515b29c8d42790ecaad6",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Sources/IdentityEvidenceApple/DocumentTiltConfiguration.swift",
+      "sourceSHA256": "52167ee89ab78c81563a60c135837a2c84460e1f89e694fe5b1dd0c5a9e4595c",
+      "destination": "ios/Sources/DocumentCaptureApple/DocumentTiltConfiguration.swift",
+      "destinationSHA256": "cf889ef7b4f73686064d579570ce1fa904714e14e91befc55e7e5ae3e7c17b8e",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Sources/IdentityEvidenceApple/DocumentTiltController.swift",
+      "sourceSHA256": "86fed5d6c9b9cf6ca87a99ac92d2c80986cf84b5e831e08bc1e9aa3f873ba2a6",
+      "destination": "ios/Sources/DocumentCaptureApple/DocumentTiltController.swift",
+      "destinationSHA256": "75c667f1481e2980949e345512b0080b71dfbc73935075561572a571fc227f10",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Sources/IdentityEvidenceApple/DocumentTiltDiagnosticTrace.swift",
+      "sourceSHA256": "5d078d88627a6e62970e7e6a3bde6bc79e74b7155206a574fde1c56f0cae6d8f",
+      "destination": "ios/Sources/DocumentCaptureApple/DocumentTiltDiagnosticTrace.swift",
+      "destinationSHA256": "5d078d88627a6e62970e7e6a3bde6bc79e74b7155206a574fde1c56f0cae6d8f",
+      "patches": []
+    },
+    {
+      "sourcePath": "Sources/IdentityEvidenceApple/DocumentTiltEvidence.swift",
+      "sourceSHA256": "dafae0d02ff6526104a382365009fb990ad6160459eca8b5b8e7b79e4f637d57",
+      "destination": "ios/Sources/DocumentCaptureApple/DocumentTiltEvidence.swift",
+      "destinationSHA256": "2128f21a2b117bacaf7f4079273c7fa905e57555ad61af50a41356bff6dc8539",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Sources/IdentityEvidenceApple/DocumentTiltGuidanceDelivery.swift",
+      "sourceSHA256": "b6f0731469782b33fd79cad975d90d1cc9696a39ab713b921715509961189574",
+      "destination": "ios/Sources/DocumentCaptureApple/DocumentTiltGuidanceDelivery.swift",
+      "destinationSHA256": "b6f0731469782b33fd79cad975d90d1cc9696a39ab713b921715509961189574",
+      "patches": []
+    },
+    {
+      "sourcePath": "Sources/IdentityEvidenceApple/DocumentTiltGuidanceTransport.swift",
+      "sourceSHA256": "8bf8f9b9695e750812aac6fd145d667c42a940cd6f68f950bf337f4bd8e20f24",
+      "destination": "ios/Sources/DocumentCaptureApple/DocumentTiltGuidanceTransport.swift",
+      "destinationSHA256": "277e9e8ff47a0d4caeeb4fe755dace8d17ab3e8b5b203492b968200b9a8e88d8",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Sources/IdentityEvidenceApple/DocumentVisionRequests.swift",
+      "sourceSHA256": "022e52c2f7b0636f547b0ea7bf0babba0053cba65e96e2d688650826c326979b",
+      "destination": "ios/Sources/DocumentCaptureApple/DocumentVisionRequests.swift",
+      "destinationSHA256": "022e52c2f7b0636f547b0ea7bf0babba0053cba65e96e2d688650826c326979b",
+      "patches": []
+    },
+    {
+      "sourcePath": "Sources/IdentityEvidenceApple/ID1CardGeometry.swift",
+      "sourceSHA256": "b07bcf3daf7aba68e5845621f541697dad2ace263829b29208a8c7891e81f72b",
+      "destination": "ios/Sources/DocumentCaptureApple/ID1CardGeometry.swift",
+      "destinationSHA256": "0665bb27fd81a42ffceab07714638b614ce6e0379ae6ca0012660f389c0060a9",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Sources/IdentityEvidenceApple/ID1ImageNormalizer.swift",
+      "sourceSHA256": "38649edd69d8fcf13fa5ff6d535ed5f3f091b719000eced582dd251f99775875",
+      "destination": "ios/Sources/DocumentCaptureApple/ID1ImageNormalizer.swift",
+      "destinationSHA256": "4db23555203365cf528b7de33857ad6520c195f67febe90759d2f15fec36f6f2",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Sources/IdentityEvidenceApple/LivePDF417Metadata.swift",
+      "sourceSHA256": "c3c42ad5a03a1c9040345d7890a025987b7d29651cded4ef88f684c427fb3197",
+      "destination": "ios/Sources/DocumentCaptureApple/LivePDF417Metadata.swift",
+      "destinationSHA256": "2de49baa4742624d3e6b4cfd11988eb0c67541b0f37b3f9bc54794e6b38d1f96",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Sources/IdentityEvidenceApple/LivePDF417ReadGate.swift",
+      "sourceSHA256": "3583d35eacbb5d2254e2c890939132beb7199c4c3e9fde28c15a166a29e25f29",
+      "destination": "ios/Sources/DocumentCaptureApple/LivePDF417ReadGate.swift",
+      "destinationSHA256": "3583d35eacbb5d2254e2c890939132beb7199c4c3e9fde28c15a166a29e25f29",
+      "patches": []
+    },
+    {
+      "sourcePath": "Sources/IdentityEvidenceApple/OpenCVDocumentGeometryProposalSource.swift",
+      "sourceSHA256": "389ecb82d5d19e02acffd89393b88010c040c0d48f3ba72eff12c462f19baa21",
+      "destination": "ios/Sources/DocumentCaptureApple/OpenCVDocumentGeometryProposalSource.swift",
+      "destinationSHA256": "483cd0a57001de9ff4b8503b036a1a5f935f44e5c92b8931edb9c7297e37dc9b",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Sources/IdentityEvidenceApple/PDF417StillDecoder.swift",
+      "sourceSHA256": "4c2809c01b8f710b70cfa34cb18d3474e2ec35a26a4774ad3dd6c66b2515acbe",
+      "destination": "ios/Sources/DocumentCaptureApple/PDF417StillDecoder.swift",
+      "destinationSHA256": "4c2809c01b8f710b70cfa34cb18d3474e2ec35a26a4774ad3dd6c66b2515acbe",
+      "patches": []
+    },
+    {
+      "sourcePath": "Sources/IdentityEvidenceApple/PhotoCaptureError.swift",
+      "sourceSHA256": "d81313abaa8121e949ad49f98271c5101807a53df7d2dab4d2cd3678c5f836ff",
+      "destination": "ios/Sources/DocumentCaptureApple/PhotoCaptureError.swift",
+      "destinationSHA256": "d81313abaa8121e949ad49f98271c5101807a53df7d2dab4d2cd3678c5f836ff",
+      "patches": []
+    },
+    {
+      "sourcePath": "Sources/IdentityEvidenceApple/PhotoCaptureProcessor.swift",
+      "sourceSHA256": "0c429bf23cbfbd306e9ace131ebca0acf3cddeb93a21ae629d4a6cb42fa6d7e0",
+      "destination": "ios/Sources/DocumentCaptureApple/PhotoCaptureProcessor.swift",
+      "destinationSHA256": "b38e03f032b350926df22fb74d40331c5c6ab29b550565d5c39582fc4ce3df2d",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Sources/IdentityEvidenceApple/PhotoFidelityMetadata.swift",
+      "sourceSHA256": "1222da5afcb82df92317ac041b6943c00321e1dfde9acf423a29d21fa864ac07",
+      "destination": "ios/Sources/DocumentCaptureApple/PhotoFidelityMetadata.swift",
+      "destinationSHA256": "1222da5afcb82df92317ac041b6943c00321e1dfde9acf423a29d21fa864ac07",
+      "patches": []
+    },
+    {
+      "sourcePath": "Sources/IdentityEvidenceApple/PortraitExtractionResult.swift",
+      "sourceSHA256": "0abe0eeca0b442e00c5fb83d009680c67dae408063360c5d1c3ca5724701e7d2",
+      "destination": "ios/Sources/DocumentCaptureApple/PortraitExtractionResult.swift",
+      "destinationSHA256": "6ae626fa8f4aad8d4456ce34d748f2a5bb80b8c763736bedf9c5f700f34e3a2e",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Sources/IdentityEvidenceApple/PortraitExtractor.swift",
+      "sourceSHA256": "cc47205ec4af24b30f7f991f3049d2cd2cbcf80bc8a52f9eeae3082e2247672b",
+      "destination": "ios/Sources/DocumentCaptureApple/PortraitExtractor.swift",
+      "destinationSHA256": "1018629949d92b15c00788e0e12cef6c2dcb85883cee57ca0e6778e399d7d584",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Sources/IdentityEvidenceApple/StructuredDocumentObservation.swift",
+      "sourceSHA256": "6a509b605ffea47ceabb3fc118a4ab900bd14df373c55ca8c1a6d6fd8859c5ac",
+      "destination": "ios/Sources/DocumentCaptureApple/StructuredDocumentObservation.swift",
+      "destinationSHA256": "6a509b605ffea47ceabb3fc118a4ab900bd14df373c55ca8c1a6d6fd8859c5ac",
+      "patches": []
+    },
+    {
+      "sourcePath": null,
+      "sourceSHA256": null,
+      "destination": "ios/Sources/DocumentCaptureJournal/CaptureJournalEngineeringDefaults.swift",
+      "destinationSHA256": "b462e9383a749cb04f9addc97c19325cf913fd6de49a77b3394118ab740e4cd7",
+      "patches": [
+        "Extraction adapter, attributed profile or regression test; recovered source requires fresh qualification and does not establish identity acceptance"
+      ]
+    },
+    {
+      "sourcePath": "Sources/CaptureJournal/CapturePayloadIntegrity.swift",
+      "sourceSHA256": "ee036e042913574c5e4faf31ef26015d04441a1255c8d82602c83b0eb28ded94",
+      "destination": "ios/Sources/DocumentCaptureJournal/CapturePayloadIntegrity.swift",
+      "destinationSHA256": "958ae1ca1bebe192f69e7d1eeceeb0b751949446fb28d3443d91648b6dfbcbef",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Sources/CaptureJournal/CaptureRecordingConfiguration.swift",
+      "sourceSHA256": "0ab48bf198d7ddd87a72f5178dd8127801d5e61b9a24891a98a2b86d3f1aafe7",
+      "destination": "ios/Sources/DocumentCaptureJournal/CaptureRecordingConfiguration.swift",
+      "destinationSHA256": "0ab48bf198d7ddd87a72f5178dd8127801d5e61b9a24891a98a2b86d3f1aafe7",
+      "patches": []
+    },
+    {
+      "sourcePath": "Sources/CaptureJournal/CaptureRecordingDiagnostics.swift",
+      "sourceSHA256": "a7dc9bcec4e29cf61b9f1da67ae1b6fa5a40265c0d0bd68a39ca29e3bda7253c",
+      "destination": "ios/Sources/DocumentCaptureJournal/CaptureRecordingDiagnostics.swift",
+      "destinationSHA256": "05a39429a79648e85647a7e3dbe6d736e40f4bbaa36de6d1296b8c7e704775f2",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Sources/CaptureJournal/CaptureRecordingJournal.swift",
+      "sourceSHA256": "48678c91fb899118682bcca0ea6975449486a4e7e294f5113334bec51ddbea3f",
+      "destination": "ios/Sources/DocumentCaptureJournal/CaptureRecordingJournal.swift",
+      "destinationSHA256": "be5c9d65066dd2d54bbf3eb47a06954091b47e00f26b28403d8dcb5c5567448e",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Sources/CaptureJournal/CaptureRecordingRecords.swift",
+      "sourceSHA256": "8576cc3286172eaa87058c90696ff15d664e0535027424f248f194a7e497eaf5",
+      "destination": "ios/Sources/DocumentCaptureJournal/CaptureRecordingRecords.swift",
+      "destinationSHA256": "170d3dcfe5f7a91ae57f2a5d1ce280901dfa06fcae8da919b840b9d4579ccc28",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Sources/CaptureJournal/CaptureRecordingTiltBudget.swift",
+      "sourceSHA256": "2aecc58bed1b41c1d79e7b57365cebae7eff1f6e3fd05cc6a8687e4e53e77c04",
+      "destination": "ios/Sources/DocumentCaptureJournal/CaptureRecordingTiltBudget.swift",
+      "destinationSHA256": "dc50ba867b4c8a8332481b7ace55c7e2249e3b356fa9f31ab4a8626431df1003",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Sources/CaptureJournal/CaptureRecordingVerification.swift",
+      "sourceSHA256": "b9f063d250d169acc6373da0450d8d93c0a006de3e00941e95e1b312310d0e8d",
+      "destination": "ios/Sources/DocumentCaptureJournal/CaptureRecordingVerification.swift",
+      "destinationSHA256": "daa0cfd1de2a766676503043793b7499ae34c2d114cb4ef9d5033d97e1f2f541",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Sources/CaptureJournal/CaptureRecordingWriter.swift",
+      "sourceSHA256": "8559948c6fe97b887c3a223cbfcac8e668df58565130adb5140f9c841d5497b1",
+      "destination": "ios/Sources/DocumentCaptureJournal/CaptureRecordingWriter.swift",
+      "destinationSHA256": "7004305c38e83da403425f23fdf872cb1d69d8eb835590396388ede85809d03e",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Sources/IdentityEvidencePreview/DocumentCameraPreviewView.swift",
+      "sourceSHA256": "1619378643d08136ba452f1578e60a9cb12eeda888ce4054016f1c5eb236252b",
+      "destination": "ios/Sources/DocumentCapturePreview/DocumentCameraPreviewView.swift",
+      "destinationSHA256": "0a1c2ad53ac36e574578918deda62137f17c9044ab727a287b2b4ec54e5b79a8",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Sources/IdentityEvidencePreview/DocumentTiltPresentationCopy.swift",
+      "sourceSHA256": "73b6fd9a93687724ed7a94c305279537d5bcf0a6c689ba06470789046fe88be5",
+      "destination": "ios/Sources/DocumentCapturePreview/DocumentTiltPresentationCopy.swift",
+      "destinationSHA256": "e4d014c058a1845cfe61603e7d1d071313efbc48d779dbc49187957239d90624",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Sources/IdentityEvidenceCore/AAMVADate.swift",
+      "sourceSHA256": "c22a6c442ac91172d12c94d20652e824fd45d5140b88f90a6563faae6ebc837d",
+      "destination": "ios/Sources/DocumentSDK/AAMVADate.swift",
+      "destinationSHA256": "c22a6c442ac91172d12c94d20652e824fd45d5140b88f90a6563faae6ebc837d",
+      "patches": []
+    },
+    {
+      "sourcePath": "Sources/IdentityEvidenceCore/AAMVAIdentityNames.swift",
+      "sourceSHA256": "c00a476402338f373518685d7841897925ec3dd5a6b22e2c8e3de53b98f5bf6c",
+      "destination": "ios/Sources/DocumentSDK/AAMVAIdentityNames.swift",
+      "destinationSHA256": "c00a476402338f373518685d7841897925ec3dd5a6b22e2c8e3de53b98f5bf6c",
+      "patches": []
+    },
+    {
+      "sourcePath": "Sources/IdentityEvidenceCore/AAMVAIssuerJurisdiction.swift",
+      "sourceSHA256": "694de481f9ed374c4416cb8edc1ffa4c2839c563a0137f96cdcaead4a441cd17",
+      "destination": "ios/Sources/DocumentSDK/AAMVAIssuerJurisdiction.swift",
+      "destinationSHA256": "694de481f9ed374c4416cb8edc1ffa4c2839c563a0137f96cdcaead4a441cd17",
+      "patches": []
+    },
+    {
+      "sourcePath": "Sources/IdentityEvidenceCore/AAMVAPDF417Parser.swift",
+      "sourceSHA256": "e1e60bac4545206dc51cdb689c342066104dfa0cec07aff85387ff1345e506e0",
+      "destination": "ios/Sources/DocumentSDK/AAMVAPDF417Parser.swift",
+      "destinationSHA256": "e1e60bac4545206dc51cdb689c342066104dfa0cec07aff85387ff1345e506e0",
+      "patches": []
+    },
+    {
+      "sourcePath": null,
+      "sourceSHA256": null,
+      "destination": "ios/Sources/DocumentSDK/CalibrationProfile.swift",
+      "destinationSHA256": "5fae1ef8c8ffa09d58176fec60524b98fbee6ed4d99709cfd5afa7d87316b9aa",
+      "patches": [
+        "Extraction adapter, attributed profile or regression test; recovered source requires fresh qualification and does not establish identity acceptance"
+      ]
+    },
+    {
+      "sourcePath": "Sources/IdentityEvidenceCore/CaptureLocationAssertion+Codable.swift",
+      "sourceSHA256": "04cc23c1b2566524569dc52ac5830596761f0c4bd55a5af4733f103354c1e34e",
+      "destination": "ios/Sources/DocumentSDK/CaptureLocationAssertion+Codable.swift",
+      "destinationSHA256": "04cc23c1b2566524569dc52ac5830596761f0c4bd55a5af4733f103354c1e34e",
+      "patches": []
+    },
+    {
+      "sourcePath": "Sources/IdentityEvidenceCore/CaptureLocationAssertion.swift",
+      "sourceSHA256": "124f89f4a31f2a411537aa6090345763a8609a7d129551cb8d772ca56fbe5af5",
+      "destination": "ios/Sources/DocumentSDK/CaptureLocationAssertion.swift",
+      "destinationSHA256": "31217713a91d7940ea5c091a0c15b1e636cd8a68621654c6295eb939818b7612",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Sources/IdentityEvidenceCore/CaptureSessionID.swift",
+      "sourceSHA256": "2603e77ed1432aa652b57e6f34641ac4b31c2da16840aa6261081284815c450a",
+      "destination": "ios/Sources/DocumentSDK/CaptureSessionID.swift",
+      "destinationSHA256": "2603e77ed1432aa652b57e6f34641ac4b31c2da16840aa6261081284815c450a",
+      "patches": []
+    },
+    {
+      "sourcePath": "document/ios/Sources/DocumentSDK/DocumentCheckOutcome.swift",
+      "sourceSHA256": "92d3beef05fc72ed6e40657b69476b3157ca88f1f0bcbcf62a113b80df617712",
+      "destination": "ios/Sources/DocumentSDK/DocumentCheckOutcome.swift",
+      "destinationSHA256": "92d3beef05fc72ed6e40657b69476b3157ca88f1f0bcbcf62a113b80df617712",
+      "patches": [
+        "Existing destination contract/quality entry point retained"
+      ],
+      "sourceRepository": "kenshiki-sdks",
+      "sourceRevision": "4bf1e97"
+    },
+    {
+      "sourcePath": "Sources/IdentityEvidenceCore/DocumentSide.swift",
+      "sourceSHA256": "5b8f94ce8124d038decaca2ab81ecc0bac8cd084b8d448940ef02914510fb91c",
+      "destination": "ios/Sources/DocumentSDK/DocumentSide.swift",
+      "destinationSHA256": "5b8f94ce8124d038decaca2ab81ecc0bac8cd084b8d448940ef02914510fb91c",
+      "patches": []
+    },
+    {
+      "sourcePath": "Sources/IdentityEvidenceCore/LicenseFrontVisualFields.swift",
+      "sourceSHA256": "37e15fb902d78666cfdfaa20a9696c485f31614ec858d8d0025fb4e1a2fe0447",
+      "destination": "ios/Sources/DocumentSDK/LicenseFrontVisualFields.swift",
+      "destinationSHA256": "37e15fb902d78666cfdfaa20a9696c485f31614ec858d8d0025fb4e1a2fe0447",
+      "patches": []
+    },
+    {
+      "sourcePath": "Sources/IdentityEvidenceCore/MediaOrigin.swift",
+      "sourceSHA256": "bc2417dabb5dea93c6ba99f147b4263a42be31f27a3ee50744eb4c332dfcf5b3",
+      "destination": "ios/Sources/DocumentSDK/MediaOrigin.swift",
+      "destinationSHA256": "bc2417dabb5dea93c6ba99f147b4263a42be31f27a3ee50744eb4c332dfcf5b3",
+      "patches": []
+    },
+    {
+      "sourcePath": "Sources/IdentityEvidenceCore/PortraitCropGeometry.swift",
+      "sourceSHA256": "423930214cce1b85aa703088c0b7ec28a9b6d1d13d312e90019c814671046aad",
+      "destination": "ios/Sources/DocumentSDK/PortraitCropGeometry.swift",
+      "destinationSHA256": "6f04cf19d30d742cc3aee50f47f34e1fe66d214b596ac534bc9a0588f07fbc4d",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Tests/IdentityEvidenceAppleTests/AVFoundationTiltConsolidationTests.swift",
+      "sourceSHA256": "2eefd7cbd3e25da64745b2722f07abeeee4f9a09c435268dde0220295676681b",
+      "destination": "ios/Tests/AppleTests/AVFoundationTiltConsolidationTests.swift",
+      "destinationSHA256": "92455fc54eb070fe2d09a4148c912f7140974b3190e813a18980b504a07e3e42",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Tests/IdentityEvidenceAppleTests/AVFoundationTiltGuidanceTests.swift",
+      "sourceSHA256": "c7869471dc11016f011e0d9f42196c61b746884d0ae13b95de3ccaafb7bc4fd6",
+      "destination": "ios/Tests/AppleTests/AVFoundationTiltGuidanceTests.swift",
+      "destinationSHA256": "f79c204aa5076e2c105b8955aa4511fe3f06802c76dc6409f6e46e445e6c28c5",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Tests/IdentityEvidenceAppleTests/AVFoundationTiltReleaseTests.swift",
+      "sourceSHA256": "de91b3e265f6922044fcb62928c5f8c2d50b4f0d5a0aeaf4f344aa35a09874ff",
+      "destination": "ios/Tests/AppleTests/AVFoundationTiltReleaseTests.swift",
+      "destinationSHA256": "7a82970031657619373ed52613cc7461429a5df60bf7aa04a34a2049298f6658",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Tests/IdentityEvidenceAppleTests/AVFoundationTiltRetryAdmissionTests.swift",
+      "sourceSHA256": "f032e7dd976ea0080b5af9e2782389fc628b3d725152a0747050045505607bfc",
+      "destination": "ios/Tests/AppleTests/AVFoundationTiltRetryAdmissionTests.swift",
+      "destinationSHA256": "94120009db767c95a15edb3add05b159bd1b60b2c50fb6618ccfb9aa3edddf77",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Tests/IdentityEvidenceAppleTests/AVFoundationTiltStartupClockTests.swift",
+      "sourceSHA256": "83259830ca464b9ad94b920fb029cb4922b118c79474c17e5be6057db3264dea",
+      "destination": "ios/Tests/AppleTests/AVFoundationTiltStartupClockTests.swift",
+      "destinationSHA256": "93c6c7e9823896140cdd67a57b7a1572cf0b557d94a176a453cd122f53899571",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Tests/IdentityEvidenceAppleTests/ArtifactExtractionTests.swift",
+      "sourceSHA256": "8a4a0a4fc399e0f041f7ef5d9f3d459371566e4cade4f47b773fdb1df13c771f",
+      "destination": "ios/Tests/AppleTests/ArtifactExtractionTests.swift",
+      "destinationSHA256": "b560d739e441f9422d04ce20591436f3cfebb63d4d252280976f91ff92bacf33",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Tests/IdentityEvidenceAppleTests/CaptureLocationGPSMetadataTests.swift",
+      "sourceSHA256": "9065e0646fcbf1fc695464c3c1aa08fcb5634164907f53a63c711b73d543a67c",
+      "destination": "ios/Tests/AppleTests/CaptureLocationGPSMetadataTests.swift",
+      "destinationSHA256": "77422a42e3585091e2ca15c91793ef6d9b1d6cea1be9098dcece322225b07bf0",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Tests/IdentityEvidenceAppleTests/CapturedPhotoPlatformMetadataTests.swift",
+      "sourceSHA256": "9c066be2aef47db29b71de0b5d324bddb64a8cb909215b63290f1eb66f6b6496",
+      "destination": "ios/Tests/AppleTests/CapturedPhotoPlatformMetadataTests.swift",
+      "destinationSHA256": "0bc40fc3b08feb2ceed403c4225ddd6982a96624d350a36eeecf1c489f8b574a",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Tests/IdentityEvidenceAppleTests/DocumentAdaptiveCaptureTests.swift",
+      "sourceSHA256": "300592d79144de299f676430b3d73f1650dc49aa0c2cfb4749593e4c70a109b0",
+      "destination": "ios/Tests/AppleTests/DocumentAdaptiveCaptureTests.swift",
+      "destinationSHA256": "01c36bb3d6097302d765d4c9daad62a67a35693a7dfe1402f385855dd5af74a0",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Tests/IdentityEvidenceAppleTests/DocumentAdaptiveControllerTests.swift",
+      "sourceSHA256": "5afbce7b801a9bf2413a0145d202d4232d4c9e8a9d8b6735c19c1ad7bcd39320",
+      "destination": "ios/Tests/AppleTests/DocumentAdaptiveControllerTests.swift",
+      "destinationSHA256": "61ed08ef7ebba908f36055fa617249db6db3b10d6a503af91546d3a066426e9c",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Tests/IdentityEvidenceAppleTests/DocumentAutoCaptureCoordinatorTests.swift",
+      "sourceSHA256": "826829e28e764136377ddaab4bd1a8d8cb43470e3ee1dd51b7a883500dd685bc",
+      "destination": "ios/Tests/AppleTests/DocumentAutoCaptureCoordinatorTests.swift",
+      "destinationSHA256": "237e5ec0cff4170ccab9623b0699db4ff1965f49f018ab917b3a611e67e7122d",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Tests/IdentityEvidenceAppleTests/DocumentCameraGuideRegionTests.swift",
+      "sourceSHA256": "887a84955ff59e0f780bfa4b64c46cfa114abf0be8e64df86aebf25efd6f3873",
+      "destination": "ios/Tests/AppleTests/DocumentCameraGuideRegionTests.swift",
+      "destinationSHA256": "486730eb57794f56d0046af0912c8418c036a92000d32cb9fff660a70759fe67",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Tests/IdentityEvidenceAppleTests/DocumentCameraNativeLifecycleTests.swift",
+      "sourceSHA256": "9a794ede21dcbdec6d18115e789cc0fc05008e2e4945e75c127caf3158e32072",
+      "destination": "ios/Tests/AppleTests/DocumentCameraNativeLifecycleTests.swift",
+      "destinationSHA256": "385837ba227ee18e43b27e2ccfb5580e79a26eca0f20d50fe5e06b9de7ad833f",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Tests/IdentityEvidenceAppleTests/DocumentCameraSelectionPolicyTests.swift",
+      "sourceSHA256": "b2bbb2c9dd587d1ed41f6a8a48ba54ffc9676bfb6b95ee84eed6973e8e4fcf3e",
+      "destination": "ios/Tests/AppleTests/DocumentCameraSelectionPolicyTests.swift",
+      "destinationSHA256": "65dfcbcbd5b22b46107276452df5f480eeffb2a078301325cbd67a1e432f33e8",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Tests/IdentityEvidenceAppleTests/DocumentCameraStopTests.swift",
+      "sourceSHA256": "8acf68a4e42da68059adf289086dfc661b4be9c840ca4763d5b8c7f079e82d88",
+      "destination": "ios/Tests/AppleTests/DocumentCameraStopTests.swift",
+      "destinationSHA256": "1f2b8a816baaab7d576c5fa5dcba2142c0fb0a0470768c01c4f07a2acd70c041",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Tests/IdentityEvidenceAppleTests/DocumentCameraTestSupport.swift",
+      "sourceSHA256": "78d2b5c71c90f5ccd75c95e8441f5b48b00e050452b7963a733e3c3baef72601",
+      "destination": "ios/Tests/AppleTests/DocumentCameraTestSupport.swift",
+      "destinationSHA256": "1d5c278f5918ce13e2f97baed43a488b43f8386397b377c8f433ce689cab096d",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Tests/IdentityEvidenceAppleTests/DocumentCameraTests.swift",
+      "sourceSHA256": "e5e0877f2ed76b0e3ecdb54a0eded7aa95b03a564279d492fbe03fe17b84832f",
+      "destination": "ios/Tests/AppleTests/DocumentCameraTests.swift",
+      "destinationSHA256": "4fdcda6da27ce86f21603dd2f15866107aad0c88ed6a1670a3d53ca505bb96f4",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Tests/IdentityEvidenceAppleTests/DocumentCameraTiltDefaultTests.swift",
+      "sourceSHA256": "18e2013e5d351f5e8407676200e288d220db57ffb1275eb2e05e6f11fd2a16f8",
+      "destination": "ios/Tests/AppleTests/DocumentCameraTiltDefaultTests.swift",
+      "destinationSHA256": "114f21faa48a89c8afa9582ea4be404936d58524a73cb1e4d9f04d535641ee9a",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Tests/IdentityEvidenceAppleTests/DocumentCaptureAdmissionTests.swift",
+      "sourceSHA256": "eb867e14a9717bcbe79546af3bf8d7896419ab49c4d6e53c5016e2f8a648d471",
+      "destination": "ios/Tests/AppleTests/DocumentCaptureAdmissionTests.swift",
+      "destinationSHA256": "0fa5ac78a5275aab05c6564b999d19e2700c629ac642d1535037f27d199c2336",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Tests/IdentityEvidenceAppleTests/DocumentCaptureClockTests.swift",
+      "sourceSHA256": "eea700a2109ac92c2452bd33389fd297a7da2c144e154d4cb3de9e364a0b14c2",
+      "destination": "ios/Tests/AppleTests/DocumentCaptureClockTests.swift",
+      "destinationSHA256": "49f4f289be58f582b9d8d2d4e67b50835f0c7e7e3ec27c1ca02fbaf88be7ca7c",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Tests/IdentityEvidenceAppleTests/DocumentCaptureConfigurationTests.swift",
+      "sourceSHA256": "ed9338ddf3062d559f5f0d5db0a83ac86b9339236d45292b9096b4d55fc9d5a9",
+      "destination": "ios/Tests/AppleTests/DocumentCaptureConfigurationTests.swift",
+      "destinationSHA256": "2f497d5b5a3a76580e9f796850939e8e62ecba2e3da3f11fbb9f0f59146a93fe",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Tests/IdentityEvidenceAppleTests/DocumentCaptureExpectationTests.swift",
+      "sourceSHA256": "9615f71ccd3ef785829cb7421de92e854ccfe7a1878caca0b7ad886c06818a9f",
+      "destination": "ios/Tests/AppleTests/DocumentCaptureExpectationTests.swift",
+      "destinationSHA256": "aad17a1303882b8972fb700d81153cabcc29de97c85d7bb76a473eb346d7f464",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Tests/IdentityEvidenceAppleTests/DocumentCaptureQualityPolicyTests.swift",
+      "sourceSHA256": "fc9409677af83a569e5614e6ba476aa87d7490afeca8ee4d1afdb17d7303685e",
+      "destination": "ios/Tests/AppleTests/DocumentCaptureQualityPolicyTests.swift",
+      "destinationSHA256": "4f2ea2ae94289becc0187e64976205786bab01de45638c1b2edb5a81857760f2",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Tests/IdentityEvidenceAppleTests/DocumentCaptureTuningTests.swift",
+      "sourceSHA256": "61c0c8351cfc95fa4bd32cad06eb76bc809a97b3c95c0f057f3d0c4bbda995ed",
+      "destination": "ios/Tests/AppleTests/DocumentCaptureTuningTests.swift",
+      "destinationSHA256": "ceb78432f9eabdfb20711663b64397597e341a3100d9b05c1336e458c800b5d4",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Tests/IdentityEvidenceAppleTests/DocumentContextImagePreparerTests.swift",
+      "sourceSHA256": "215dccbca364c282c2805439ef2f66a21ad0d4468cb056a6d713158fb52ea261",
+      "destination": "ios/Tests/AppleTests/DocumentContextImagePreparerTests.swift",
+      "destinationSHA256": "9d0512160b1056cee593363edcaa51b0e4698fb96c7aedf08d467c6e0aaf761e",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Tests/IdentityEvidenceAppleTests/DocumentFreshDetectionPixelTests.swift",
+      "sourceSHA256": "cd2cab5d1ef1e273d223e0e8da3b61108d8080ac87b0e07d6483a26f1dc23f47",
+      "destination": "ios/Tests/AppleTests/DocumentFreshDetectionPixelTests.swift",
+      "destinationSHA256": "316a19ad243855303a02cdb2aa072bed641aaf65fb9c1e0635199fc0df2818c5",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Tests/IdentityEvidenceAppleTests/DocumentFreshDetectionTests.swift",
+      "sourceSHA256": "fd017bbb016388eb0affdbc0f96fb225df3ef01b0531062f84f18c105890ae65",
+      "destination": "ios/Tests/AppleTests/DocumentFreshDetectionTests.swift",
+      "destinationSHA256": "8c382a49e7a3dbabd7e5f31ea4af2fb0168dc45f2a5e10e60ced574e68447787",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Tests/IdentityEvidenceAppleTests/DocumentFrontLayoutEvidenceTests.swift",
+      "sourceSHA256": "ceabb86a8b39f381b9a412331299eaab70e310513f60d38e2d236e26084d848e",
+      "destination": "ios/Tests/AppleTests/DocumentFrontLayoutEvidenceTests.swift",
+      "destinationSHA256": "df829d94085428df2c33f8eb545047c33ed897d651d6b0f3dc8b7f7dc15e2524",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Tests/IdentityEvidenceAppleTests/DocumentGeometryRequestFactTests.swift",
+      "sourceSHA256": "ff5c140b5a7232291c73fcd74e6baab39115e13e344bb614d197991093514c2c",
+      "destination": "ios/Tests/AppleTests/DocumentGeometryRequestFactTests.swift",
+      "destinationSHA256": "561e74f7783e28c8f1a772e48615c2d49e525563e110b95387bd6dcf80e37219",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Tests/IdentityEvidenceAppleTests/DocumentID1GuideLayoutTests.swift",
+      "sourceSHA256": "6f353ef833b873f405bcfca5c90c05e476a157d6ac0dcd33c2ad57cd15dc5a59",
+      "destination": "ios/Tests/AppleTests/DocumentID1GuideLayoutTests.swift",
+      "destinationSHA256": "abeecd6bc5f495b362761096f67fa19172d390080a3d4f20c06c3fcf3e9a5dc4",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Tests/IdentityEvidenceAppleTests/DocumentImagePreparerTests.swift",
+      "sourceSHA256": "67be927308b7269f90bbe52a58d4cabf95ebab63f33bdee04355d41261a7d268",
+      "destination": "ios/Tests/AppleTests/DocumentImagePreparerTests.swift",
+      "destinationSHA256": "98d38ee60304d47cdec37c2d2b02b42f4ac80676d8fcb68219d4a05ba3faed08",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Tests/IdentityEvidenceAppleTests/DocumentImageProcessingQueueTests.swift",
+      "sourceSHA256": "de0633e927f7b57d0fdfa18d79b9506fd06df50a8005c303e559822455c6412b",
+      "destination": "ios/Tests/AppleTests/DocumentImageProcessingQueueTests.swift",
+      "destinationSHA256": "ac1261737786ab381ac1f4122013ac0ab28f96613e160397313665eda3ef4a53",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Tests/IdentityEvidenceAppleTests/DocumentInheritedRampTests.swift",
+      "sourceSHA256": "41ea09f02b24be2123779f12494451f105452e0af91857610bd33a441d9a237c",
+      "destination": "ios/Tests/AppleTests/DocumentInheritedRampTests.swift",
+      "destinationSHA256": "823a2faa3d01d6d8608701c5bd60156345ac67103fba873cb12f267b93c64100",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Tests/IdentityEvidenceAppleTests/DocumentJourneyCameraControlTests.swift",
+      "sourceSHA256": "e7416187c66518dd7221b8e2936103fa138e995a2276711f2753849a589767ef",
+      "destination": "ios/Tests/AppleTests/DocumentJourneyCameraControlTests.swift",
+      "destinationSHA256": "eae2f6fa7872f8fe33a6666cf9c4cd4c620128ee9114c8b6f958ad388ba3adf9",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Tests/IdentityEvidenceAppleTests/DocumentJourneyRecordingTests.swift",
+      "sourceSHA256": "4b7e16a90f6df512e3e9d88dfc755e603fa613ce8e2f85c9ca4ed7ad01fdcec8",
+      "destination": "ios/Tests/AppleTests/DocumentJourneyRecordingTests.swift",
+      "destinationSHA256": "e0b0cc813232597d8cdc1fe9547318ed882d18d6c62fee5deb30d51a459e8374",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Tests/IdentityEvidenceAppleTests/DocumentLiveContentTargetTests.swift",
+      "sourceSHA256": "9f8acf07dba3dc4f07bf65232a43d4bcc9ab95217153ffa918de20d13204fb6c",
+      "destination": "ios/Tests/AppleTests/DocumentLiveContentTargetTests.swift",
+      "destinationSHA256": "5f41ca9ab29caea67affe85951db2d5ed9165b207349abc506e54f882672e8a7",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Tests/IdentityEvidenceAppleTests/DocumentLiveGeometryTests.swift",
+      "sourceSHA256": "0c2f13ff995495bd761d7f75bc1bccc1e29fb2b08ca84e4b8d3865a8b4d4e9dc",
+      "destination": "ios/Tests/AppleTests/DocumentLiveGeometryTests.swift",
+      "destinationSHA256": "c0a11dafade970b9a3ae867e9f643b68c74f44a66194b27398da43d1469979f4",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Tests/IdentityEvidenceAppleTests/DocumentNativeControlAdmissionTests.swift",
+      "sourceSHA256": "09d83158ce03c414b7f9e0d9082825c0cff6b13dcfe5c14a848ceea1d871aafb",
+      "destination": "ios/Tests/AppleTests/DocumentNativeControlAdmissionTests.swift",
+      "destinationSHA256": "251cc3863f36e5b0e0b358b0f709042efef3185ed26e7ca3b0200efc66c7f8e8",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": null,
+      "sourceSHA256": null,
+      "destination": "ios/Tests/AppleTests/DocumentObservationWireCompatibilityTests.swift",
+      "destinationSHA256": "c5383cfc26e40f46ada86842778357a19c3823a3c19fb9cf7f3e279f292f345d",
+      "patches": [
+        "Extraction adapter, attributed profile or regression test; recovered source requires fresh qualification and does not establish identity acceptance"
+      ]
+    },
+    {
+      "sourcePath": "Tests/IdentityEvidenceAppleTests/DocumentOpticalFailureTests.swift",
+      "sourceSHA256": "2c748f3088e962b7524bd0cf10f00b98a4a84e06957ab8867140a1a01799118d",
+      "destination": "ios/Tests/AppleTests/DocumentOpticalFailureTests.swift",
+      "destinationSHA256": "a5d12d1005d29c2a4bdd6e014cc9ba5c50880cbfd944b4ffe990c038526685a8",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Tests/IdentityEvidenceAppleTests/DocumentPerspectiveMeasurementTests.swift",
+      "sourceSHA256": "2221c0659d0307822de8f3a46ef18a224b3e7c33bd48187c5a3b8677980ee75e",
+      "destination": "ios/Tests/AppleTests/DocumentPerspectiveMeasurementTests.swift",
+      "destinationSHA256": "205e6ad79c12e0c997c5710722271bbb0a2dc69726d381e9e48a9dc95b04f9be",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Tests/IdentityEvidenceAppleTests/DocumentPhotoUsabilityEvaluatorTests.swift",
+      "sourceSHA256": "4b9d4c734ae78fb03f672af57d9ab4b506c9687a19e09272288414f0e81f13d4",
+      "destination": "ios/Tests/AppleTests/DocumentPhotoUsabilityEvaluatorTests.swift",
+      "destinationSHA256": "5fe6d8e78498b00f3f50e30558916596e6a66006f917b493230f66caf2f69140",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Tests/IdentityEvidenceAppleTests/DocumentPreviewGeometryAuthorityTests.swift",
+      "sourceSHA256": "86ab2e80819fd12cdcdee6533dc9dcc7b7377b9cea59233b9977de53801ac73c",
+      "destination": "ios/Tests/AppleTests/DocumentPreviewGeometryAuthorityTests.swift",
+      "destinationSHA256": "3d45478fca1a8307fc199471df525e86038da8e46bdfd2060a2a88c470b53100",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Tests/IdentityEvidenceAppleTests/DocumentRecordingConcurrencyTests.swift",
+      "sourceSHA256": "20415eeb458de963212d1b9a098f7ddd3ab992503f8c1a836d6377f50f6ae94c",
+      "destination": "ios/Tests/AppleTests/DocumentRecordingConcurrencyTests.swift",
+      "destinationSHA256": "effb71357ec1a7a3976b177e12f5379c1bd3b28f842a2a7b5249907e48b1d05f",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Tests/IdentityEvidenceAppleTests/DocumentSegmentationSelectionTests.swift",
+      "sourceSHA256": "84e8f08c3db83858416de999089a8344a8e8db45b1f8abece2c31c697e9f6609",
+      "destination": "ios/Tests/AppleTests/DocumentSegmentationSelectionTests.swift",
+      "destinationSHA256": "54b3daadb3d5800f91b6ae6696a7481e60302c3291b587ec803402a2c0758bb0",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Tests/IdentityEvidenceAppleTests/DocumentSinkCallbackFenceTests.swift",
+      "sourceSHA256": "c78156b10b30104a9a18fb81245ffa8a02c16cd96ac6b01ee190bf045360b955",
+      "destination": "ios/Tests/AppleTests/DocumentSinkCallbackFenceTests.swift",
+      "destinationSHA256": "cb31f7b6faa4f0e125bd0d2495acde49c15dfb81bdbb14768e56d298030fa584",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Tests/IdentityEvidenceAppleTests/DocumentSpatialAnalysisTests.swift",
+      "sourceSHA256": "f42436decda88440d0b5fbbc452200e63accd39685bc46a54d587da547fa8f8a",
+      "destination": "ios/Tests/AppleTests/DocumentSpatialAnalysisTests.swift",
+      "destinationSHA256": "328904881d7b9cc5a0864f78494d38f087c9bd542d4b7857ee490651bc42a608",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Tests/IdentityEvidenceAppleTests/DocumentSpatialProcessorTests.swift",
+      "sourceSHA256": "e068b782218acad7aa1d5d748dedbedbcaadd5ae44fc2aa406276d4cfcfe5a6f",
+      "destination": "ios/Tests/AppleTests/DocumentSpatialProcessorTests.swift",
+      "destinationSHA256": "ed7f3455aeca60d22880b2030755f31699f9b817e9cc14bf3b9683e9be1d9bff",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Tests/IdentityEvidenceAppleTests/DocumentSyntheticPerspectivePixels.swift",
+      "sourceSHA256": "86904bb1d2f22eab93835b4a0c9470ec410ad7e56b8e96c9efc25f0d6e754b28",
+      "destination": "ios/Tests/AppleTests/DocumentSyntheticPerspectivePixels.swift",
+      "destinationSHA256": "86904bb1d2f22eab93835b4a0c9470ec410ad7e56b8e96c9efc25f0d6e754b28",
+      "patches": []
+    },
+    {
+      "sourcePath": "Tests/IdentityEvidenceAppleTests/DocumentTemporalControllerTests.swift",
+      "sourceSHA256": "c21de52673f2894f7b489bb4d64cf3ffdc4e18cd05d61d6a3c6c6573cf0ad321",
+      "destination": "ios/Tests/AppleTests/DocumentTemporalControllerTests.swift",
+      "destinationSHA256": "1428611b4bf6233e734a64a256da4252f93d8a4e86868705de019109f39e15e5",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Tests/IdentityEvidenceAppleTests/DocumentTemporalEvidenceTests.swift",
+      "sourceSHA256": "6ba3bc3bb12d2058f04d885b8a44edaf07f05f7ce7874b40fd8aac3102d3bbd1",
+      "destination": "ios/Tests/AppleTests/DocumentTemporalEvidenceTests.swift",
+      "destinationSHA256": "e590c74d83a151d73f862e2ef9252f5214eb1b37b50994d80121f17cc8e539e1",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Tests/IdentityEvidenceAppleTests/DocumentTemporalNativeTests.swift",
+      "sourceSHA256": "bcb93e0cf3ef1a6e0945d6f113f7a213f68e8b4dad7d95296fe8de903511a4cc",
+      "destination": "ios/Tests/AppleTests/DocumentTemporalNativeTests.swift",
+      "destinationSHA256": "a8593c8674399333021be5374993c5f7c93332a74adb5cad653cbd0b0c199d1a",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Tests/IdentityEvidenceAppleTests/DocumentTestSemaphore.swift",
+      "sourceSHA256": "154e3cc72f7ef75a043eab7cc9d929707d2e973c38aa34236b5f954282016cec",
+      "destination": "ios/Tests/AppleTests/DocumentTestSemaphore.swift",
+      "destinationSHA256": "154e3cc72f7ef75a043eab7cc9d929707d2e973c38aa34236b5f954282016cec",
+      "patches": []
+    },
+    {
+      "sourcePath": "Tests/IdentityEvidenceAppleTests/DocumentTiltControllerTests.swift",
+      "sourceSHA256": "9965cd520daa9578518a4e9cd6810dcfaee1bbbafaaf5625d39ec23417e45847",
+      "destination": "ios/Tests/AppleTests/DocumentTiltControllerTests.swift",
+      "destinationSHA256": "ce1517724a2a2b5e65202a16c979bc41b54ed02ce6262352f9e6d9fff49d4187",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Tests/IdentityEvidenceAppleTests/DocumentTiltGuidanceTransportTests.swift",
+      "sourceSHA256": "2b2cc276a545240878fb3ec946b3a8e3b4e8dc795fb49a1a6573cc78763fccd6",
+      "destination": "ios/Tests/AppleTests/DocumentTiltGuidanceTransportTests.swift",
+      "destinationSHA256": "cf81122a00a0cc3600183cc5dc0f878d834e617df48c63a89fb5e2a0e7890d75",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Tests/IdentityEvidenceAppleTests/DocumentTiltPolicyTestSupport.swift",
+      "sourceSHA256": "893badc763cd3cd9f68546fa011bb7cbafc6d9cb1cda913cc7df163cdd42a425",
+      "destination": "ios/Tests/AppleTests/DocumentTiltPolicyTestSupport.swift",
+      "destinationSHA256": "7db84aa9bc52c9a17da94430097c7fa100ec03d05fafa168a7371ba82b77a2b1",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Tests/IdentityEvidenceAppleTests/DocumentTiltV1RegressionTests.swift",
+      "sourceSHA256": "cd3a6af05ee881744264ffea84148f5a6df814452e83e4ba12bc1c554b42f7f9",
+      "destination": "ios/Tests/AppleTests/DocumentTiltV1RegressionTests.swift",
+      "destinationSHA256": "0da709f16efb224a2b17c091f6db4c9c7c82cc95d605affc94d409a22fd2147a",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Tests/IdentityEvidenceAppleTests/DocumentTiltV2BackgroundTests.swift",
+      "sourceSHA256": "881592774643e7c318acecc1722f4924014975c84e62374cd0e5d6cf2cd9430b",
+      "destination": "ios/Tests/AppleTests/DocumentTiltV2BackgroundTests.swift",
+      "destinationSHA256": "4aa90eda03e07b83b95936f9a70fdfcc408b5ab832a401316fbe04b24665dcbc",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Tests/IdentityEvidenceAppleTests/DocumentTiltV2BaselineTests.swift",
+      "sourceSHA256": "5ff2f97316adeb19c6b31dd340df5a981289d6be7076147ec68418070b7c66e7",
+      "destination": "ios/Tests/AppleTests/DocumentTiltV2BaselineTests.swift",
+      "destinationSHA256": "3b86a4de2bf4467bbe4acf0efd5b6759f3cfc23bee60ab194e901b22caffe060",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Tests/IdentityEvidenceAppleTests/DocumentTiltV2Tests.swift",
+      "sourceSHA256": "3a1f7972fa0e45c0ffc3ec8ec67513f41a39d71ec85bb378875bc55b7e32e552",
+      "destination": "ios/Tests/AppleTests/DocumentTiltV2Tests.swift",
+      "destinationSHA256": "56204b6f9b3e98e0bcf4d1f751f31d1ce1f2ba0bfc8547bf907570f70be3a3af",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Tests/IdentityEvidenceAppleTests/DocumentVisionRequestTests.swift",
+      "sourceSHA256": "1cacb65a079187b46e97df5bb54f7baa86538a313b06dffd582afbd19c397747",
+      "destination": "ios/Tests/AppleTests/DocumentVisionRequestTests.swift",
+      "destinationSHA256": "3f212a3224e41d11bdaff830874164e926c4ba316c09170e4d64af3dad3280e7",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Tests/IdentityEvidenceAppleTests/DocumentZoomRampRetirementTests.swift",
+      "sourceSHA256": "6167538ea91b8796dbc669fe0af592b8af8b38dbb73716c54618689c5a94e3d2",
+      "destination": "ios/Tests/AppleTests/DocumentZoomRampRetirementTests.swift",
+      "destinationSHA256": "d5c1596b6bec9254f3ff7c095cdbea108f721268b780c9282e21c797903d71d7",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Tests/IdentityEvidenceAppleTests/EncodedImageFixture.swift",
+      "sourceSHA256": "9e60b36e25beaf58d6de83a5f87181e4f1227a379f7c1843fec90f98548c1baf",
+      "destination": "ios/Tests/AppleTests/EncodedImageFixture.swift",
+      "destinationSHA256": "9e60b36e25beaf58d6de83a5f87181e4f1227a379f7c1843fec90f98548c1baf",
+      "patches": []
+    },
+    {
+      "sourcePath": "Tests/IdentityEvidenceAppleTests/ID1CardGeometryTests.swift",
+      "sourceSHA256": "1dae7b86fa3ba4cd4fff3c878f8592cf0535a2d87331e8097ae8a52bf06a5efd",
+      "destination": "ios/Tests/AppleTests/ID1CardGeometryTests.swift",
+      "destinationSHA256": "fa328097752fa904bf7862964498b6da26d2a95c20fbbda5dee4f38d7325f42b",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Tests/IdentityEvidenceAppleTests/LivePDF417MetadataTests.swift",
+      "sourceSHA256": "5371217a4e4a743ddd4107fb0f0343481022a54daaf3a52b74e2dc66b5b8fc7c",
+      "destination": "ios/Tests/AppleTests/LivePDF417MetadataTests.swift",
+      "destinationSHA256": "12bc90f49a98c4f9cc45bdab376c29770241bb3dd0605b9361c6c4886b481921",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Tests/IdentityEvidenceAppleTests/LivePDF417ReadGateTests.swift",
+      "sourceSHA256": "96ebb6d155bd9ff95a387e1b16c30715377f122718f2da99e332c95005d48ca0",
+      "destination": "ios/Tests/AppleTests/LivePDF417ReadGateTests.swift",
+      "destinationSHA256": "0c9b9ee0c0292c77a072eff9d6b13e7979f474ec57957f5b36402dbbe9fff0cd",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Tests/IdentityEvidenceAppleTests/MachineReadableExtractionTests.swift",
+      "sourceSHA256": "bc15f84fc2e9006c6c829f597a1cb2d71f06523fae9323db287b68118c1f799f",
+      "destination": "ios/Tests/AppleTests/MachineReadableExtractionTests.swift",
+      "destinationSHA256": "b0bdfbe81a3d39cad81060b55fc67ee96f0ce7d3379339f199d6ee20a1a34c13",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Tests/IdentityEvidenceAppleTests/PhotoFidelityMetadataTests.swift",
+      "sourceSHA256": "da5a6377eefbcd16815a8b9a3cd54c53f44c93f615f6f04ea2efe4eca8c74920",
+      "destination": "ios/Tests/AppleTests/PhotoFidelityMetadataTests.swift",
+      "destinationSHA256": "d6d541baebe4e3fc163293116648b60c388c0f2dac326f89500bbaf69d8917bf",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Tests/IdentityEvidenceAppleTests/PortraitExtractorTests.swift",
+      "sourceSHA256": "85fc844b5829f298ae109890fbdfe63ae4552e818d3d2c67293eaa28131a02c1",
+      "destination": "ios/Tests/AppleTests/PortraitExtractorTests.swift",
+      "destinationSHA256": "d3e3a823ef68b939d7b21114db34aef0ca5bcb0f35b9298378c3f1a18bc4b023",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Tests/KenshikiCaptureTests/CaptureDocumentPresenceTests.swift",
+      "sourceSHA256": "01af543dcb50fba7ab0e81e6220c06c8c1009c6ee72ea21db7a658884367feae",
+      "destination": "ios/Tests/CaptureTests/CaptureDocumentPresenceTests.swift",
+      "destinationSHA256": "789b55ed1309ff0136c4f2fc1b3298796208131adc5f6acfcc0a3418772ec621",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Tests/KenshikiCaptureTests/CaptureGeometrySubscriptionTests.swift",
+      "sourceSHA256": "4e9fe79129650cfa9a20060803649c069477823435b71763828eb7886b269ae7",
+      "destination": "ios/Tests/CaptureTests/CaptureGeometrySubscriptionTests.swift",
+      "destinationSHA256": "4d4e95b6bc0dbb7d3dcf881c3b799069ecd164823fbd543c4cfc6f06664bcb16",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Tests/IdentityEvidenceStorageTests/CaptureJourneyCheckpointTests.swift",
+      "sourceSHA256": "acde4b5bbd3745a1a3ee85da7c8ae96cf72e592f7a674f68e5acb06e7d15948c",
+      "destination": "ios/Tests/CaptureTests/CaptureJourneyCheckpointTests.swift",
+      "destinationSHA256": "31f115e355753ae6e88877efc1befb3a3d9a4cecc83385cd193910c0fc3b7a56",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4",
+        "Typed workflow validation stays in document; encrypted CAS mechanism moves to foundation with historical AAD/file compatibility"
+      ]
+    },
+    {
+      "sourcePath": "Tests/KenshikiCaptureTests/CaptureJourneyFrontDiscoveryTests.swift",
+      "sourceSHA256": "717033ef3bca2aced15dca9e038ad521d483aaa997ba0d9edbfedfbaeb9a4923",
+      "destination": "ios/Tests/CaptureTests/CaptureJourneyFrontDiscoveryTests.swift",
+      "destinationSHA256": "f9213584e4564efe75bff624aa75491e13232b19b6dc12c59c1492eecf8c4e76",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Tests/KenshikiCaptureTests/CaptureJourneyProgressTests.swift",
+      "sourceSHA256": "7a6de18ef6956cfd6b87064246be8a1f58173bca7aafa8f24129d30a2f76d561",
+      "destination": "ios/Tests/CaptureTests/CaptureJourneyProgressTests.swift",
+      "destinationSHA256": "a0f19c5acf05a0452c91bf2626a079bb1da3ed139fdcb9fec5ee1b5b911fa425",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Tests/KenshikiCaptureTests/CaptureJourneyRecoveryTests.swift",
+      "sourceSHA256": "a5a5dec87d9f15ad70774900898dcf3ca3a0405478983a5f82f8e129cec72091",
+      "destination": "ios/Tests/CaptureTests/CaptureJourneyRecoveryTests.swift",
+      "destinationSHA256": "cfa017024d1c091c895b6894d892369bc8eddbcf64c5adb56f9f18daf027f583",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": null,
+      "sourceSHA256": null,
+      "destination": "ios/Tests/CaptureTests/CaptureProfileCompatibilityTests.swift",
+      "destinationSHA256": "65884501ebd62c21990142feef86b100d48d7702c9b6cebaa1cb7a8d178d9de0",
+      "patches": [
+        "Extraction adapter, attributed profile or regression test; recovered source requires fresh qualification and does not establish identity acceptance"
+      ]
+    },
+    {
+      "sourcePath": "Tests/KenshikiCaptureTests/CaptureSessionFixtureCustody.swift",
+      "sourceSHA256": "ea2060d777137e690f050ef8735547483318cac3b4d13cf05f7c988840456885",
+      "destination": "ios/Tests/CaptureTests/CaptureSessionFixtureCustody.swift",
+      "destinationSHA256": "6eabd2916db1ebefceb75b7ccc7a691e4d8b41a1ab4ca2030dcb089c65f61844",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Tests/KenshikiCaptureTests/CaptureSessionLifecycleTests.swift",
+      "sourceSHA256": "7a447600d59b7853cd164a75af8359463c60184ab814281a13df62a5ce747e52",
+      "destination": "ios/Tests/CaptureTests/CaptureSessionLifecycleTests.swift",
+      "destinationSHA256": "52e8ff543f74c34da809902a49d34f42b0e50984585a061ac01d144ba39b2ee1",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Tests/KenshikiCaptureTests/CaptureSessionLocationAuthorizationTests.swift",
+      "sourceSHA256": "065d15660b105a66954dbbedd816dd669bdc43fb59455fcf5e82d8f65c3ae2f8",
+      "destination": "ios/Tests/CaptureTests/CaptureSessionLocationAuthorizationTests.swift",
+      "destinationSHA256": "2a9742e1ee04dc3967d6fd24c7f9d9c140b6193c577f4c5696c79eb8736e94d9",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Tests/KenshikiCaptureTests/CaptureSessionLocationTests.swift",
+      "sourceSHA256": "96d482e873f53155247fa2865381da9876325e350a4c379f02b6b559f618e4cc",
+      "destination": "ios/Tests/CaptureTests/CaptureSessionLocationTests.swift",
+      "destinationSHA256": "839e93a72402ae95f456231725b8279ba292973823617c89ddf347dedf1333ef",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Tests/KenshikiCaptureTests/CaptureSessionLookupMigrationTests.swift",
+      "sourceSHA256": "7643bdc0b69e037ae63c5a6b212cd39179979bd65a359b9fb44661241ef649dd",
+      "destination": "ios/Tests/CaptureTests/CaptureSessionLookupMigrationTests.swift",
+      "destinationSHA256": "01e6c8bd66782f763ad1b7d77b24b32cc44f267cd834dd1fc97032e84ded3156",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Tests/KenshikiCaptureTests/CaptureSessionMigrationSupport.swift",
+      "sourceSHA256": "35e22832303029a522ba9d1c0e4782f005c88abd312b3de322108f8eba77abca",
+      "destination": "ios/Tests/CaptureTests/CaptureSessionMigrationSupport.swift",
+      "destinationSHA256": "c442c2d3bf8c7d6297a9a0e74c38733d3552738f42a8c572d747fc89c25ddf31",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Tests/KenshikiCaptureTests/CaptureSessionMigrationTests.swift",
+      "sourceSHA256": "faa8c8ed48b2d69c867379a119f4bf94ab6b65bbb75f5553e70a4bcddb0d7667",
+      "destination": "ios/Tests/CaptureTests/CaptureSessionMigrationTests.swift",
+      "destinationSHA256": "c3ffec2013b88d65a2966b523b07abb2ac724f5210d55d1bc0288c9add11acb1",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Tests/KenshikiCaptureTests/CaptureSignedFixture.swift",
+      "sourceSHA256": "66f65f8341f2d104040c2ada0ad8d7d112cabf4b28ebbd8f1e89f6fddd3d1dfa",
+      "destination": "ios/Tests/CaptureTests/CaptureSignedFixture.swift",
+      "destinationSHA256": "6b45da0a480066cf24f55b2b66c3da1808db5332e231fcc7df747b0ac8443e49",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Tests/KenshikiCaptureTests/CaptureSignedPublicationTests.swift",
+      "sourceSHA256": "716eea231266460405109c2f2bc5157b96bd6340558a3322d880c1f3a3aa567e",
+      "destination": "ios/Tests/CaptureTests/CaptureSignedPublicationTests.swift",
+      "destinationSHA256": "12adb99715f10b8a321deef60583e95d06732d1c77d6bbf8f79580957fa38a82",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Tests/KenshikiCaptureTests/CaptureTiltActionableGuidanceTests.swift",
+      "sourceSHA256": "2c8051efa584ec801ceac796a0949bce9eb4e604c70fa68a9f021f02e239cc8f",
+      "destination": "ios/Tests/CaptureTests/CaptureTiltActionableGuidanceTests.swift",
+      "destinationSHA256": "40cbc393f2229468884873e063959c5d69de38d5d6141ee75e725a81d4b700c2",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Tests/KenshikiCaptureTests/CaptureTiltBudgetTests.swift",
+      "sourceSHA256": "0d17f4e2cca419d0a1c2e7c40f39dbcf096042bff3278c01262b7c068ddc15c2",
+      "destination": "ios/Tests/CaptureTests/CaptureTiltBudgetTests.swift",
+      "destinationSHA256": "9bffd0a8ad0ad407e77f48bae834d5891c04b0b33d43efa2a656307e234d35a7",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Tests/KenshikiCaptureTests/CaptureTiltFixture.swift",
+      "sourceSHA256": "d070a4a3bcb4fc32a8b9c399f85569ac417e7d4709addae2c0bf888de61ba816",
+      "destination": "ios/Tests/CaptureTests/CaptureTiltFixture.swift",
+      "destinationSHA256": "11a9cf81279967e5aded1d0dcf8ebbaa0774c8eb8c78f937473adb1f73905f9f",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Tests/KenshikiCaptureTests/CaptureTiltGeometryRecoveryTests.swift",
+      "sourceSHA256": "0717cbc3f465e69b5c302d35ea0b0557aa2f42e283aa90ea50996911aadfb056",
+      "destination": "ios/Tests/CaptureTests/CaptureTiltGeometryRecoveryTests.swift",
+      "destinationSHA256": "cfd4911df574087e099f0f26265737043a2cb80c78d60dad73bd2e1ec488e82d",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Tests/KenshikiCaptureTests/CaptureTiltIntegrationTests.swift",
+      "sourceSHA256": "853222516abd5875a0259ceba9e4932c0d02f645bc7609f66ce47d8963649c30",
+      "destination": "ios/Tests/CaptureTests/CaptureTiltIntegrationTests.swift",
+      "destinationSHA256": "73b0ad32189ce07925fb9f9953005387d236aaf979f6b33cbe87130c1191c28c",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Tests/KenshikiCaptureTests/CaptureTiltRecoveryTests.swift",
+      "sourceSHA256": "53f13c6cff65555598188de434304ff7b527058a2eb4c299258732ce4f116a78",
+      "destination": "ios/Tests/CaptureTests/CaptureTiltRecoveryTests.swift",
+      "destinationSHA256": "d539b828219ebeff8281f304ae22bb22419a81ca09472a8fbffc621d4dd4f8cb",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Tests/KenshikiCaptureTests/CaptureTiltStartupInstructionTests.swift",
+      "sourceSHA256": "920c4358e5a459345ef30078ba4830b7b6c763a2cd34d5c1dcbace76b3387bfc",
+      "destination": "ios/Tests/CaptureTests/CaptureTiltStartupInstructionTests.swift",
+      "destinationSHA256": "bd4e7d45358810845f8abc45ae8da36209476404272079eac787cc71c42d7902",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Tests/KenshikiCaptureTests/ContinuousStillPersistenceTests.swift",
+      "sourceSHA256": "d5ca4e0ec91d650b05a393e5edcab9a90b793d8b451e4d4d749af8b515779e9e",
+      "destination": "ios/Tests/CaptureTests/ContinuousStillPersistenceTests.swift",
+      "destinationSHA256": "52bb96f2800e9227b5633183264762e7bc102e37fe562a180b03b148c909dde7",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": null,
+      "sourceSHA256": null,
+      "destination": "ios/Tests/CaptureTests/CurrentExtractionCustodyTests.swift",
+      "destinationSHA256": "33ca89f1360dae96b1045f6603a77c7c4fa9eaa32acc6e5a16a9440d5ef3b51e",
+      "patches": [
+        "Extraction adapter, attributed profile or regression test; recovered source requires fresh qualification and does not establish identity acceptance",
+        "Derivative-path custody tests use the supported license-front profile and assert extraction invocation before refusing invalid outputs; generic document semantics remain unchanged"
+      ]
+    },
+    {
+      "sourcePath": "Tests/KenshikiCaptureTests/CustodyConstructionProbeTests.swift",
+      "sourceSHA256": "1329775d1c1f1b8762588e07049931012f173bde801e2e1a171ef5df7f3f2f11",
+      "destination": "ios/Tests/CaptureTests/CustodyConstructionProbeTests.swift",
+      "destinationSHA256": "acaa4cddb1e075b8554e94a9fcf651f911db4e580323f23003c41ece460d5ef2",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Tests/KenshikiCaptureTests/DocumentInputReuseTests.swift",
+      "sourceSHA256": "8fc75fda4ac704037f731e724972be6cffdbbae8b52b05fe71460784545c73c4",
+      "destination": "ios/Tests/CaptureTests/DocumentInputReuseTests.swift",
+      "destinationSHA256": "2e5caaa3d6869251b2f5bb3d767662ceb52cba39e256e8a649b3cd19ab8746ff",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Tests/KenshikiCaptureTests/JourneyRecoveryFixtures.swift",
+      "sourceSHA256": "92ebd914ff47aa7e5cbc310a1faf849804c244de707ed1c50366b96775295d9a",
+      "destination": "ios/Tests/CaptureTests/JourneyRecoveryFixtures.swift",
+      "destinationSHA256": "53d279bfbbc966d42d8e8eb36ee443f111f994d5b0916c61644e6351cf4f6a71",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Tests/KenshikiCaptureTests/PassportCardCaptureAdmissionTests.swift",
+      "sourceSHA256": "f2c488f42116871993b843567268605b321a137d52110d04e14a6cd82fcf30f4",
+      "destination": "ios/Tests/CaptureTests/PassportCardCaptureAdmissionTests.swift",
+      "destinationSHA256": "e9bb7e581789c379018db2d3d53ff6d1e328f74e5999d7ce43e339dd3e0dfe21",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Tests/KenshikiCaptureTests/TemporalEvidencePersistenceTests.swift",
+      "sourceSHA256": "ff420809d7b60841d5aae861a1abb181100385b8789a3292b0b8bf200a1b6cae",
+      "destination": "ios/Tests/CaptureTests/TemporalEvidencePersistenceTests.swift",
+      "destinationSHA256": "e8a79164ff71018c57bac629fe4b053ac099f33f3fe32de7c2dfab85f6294648",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Tests/IdentityEvidenceCoreTests/AAMVAInterpretationTests.swift",
+      "sourceSHA256": "124c5f215f7b75446f23f313519eac34957fa20847e2198b464508ce1686519a",
+      "destination": "ios/Tests/CoreTests/AAMVAInterpretationTests.swift",
+      "destinationSHA256": "c3db474bf33f38d181e9b6f13ecf307607c4aae3ac587a869c9600d101649bd7",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Tests/IdentityEvidenceCoreTests/AAMVAIssuerJurisdictionTests.swift",
+      "sourceSHA256": "0e3d72e286f248cd5e9b28e91cf2d781f8573202a12eb426cff1e79242ed64aa",
+      "destination": "ios/Tests/CoreTests/AAMVAIssuerJurisdictionTests.swift",
+      "destinationSHA256": "9968208546014d6c5e89dc9b63064df7ec9ee6a89ab897a5d37d98e0d783f550",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Tests/IdentityEvidenceCoreTests/AAMVAPDF417CompatibilityTests.swift",
+      "sourceSHA256": "2bd1c154aa895c8b3c1c1d33fe43c55fece7e27ef00a86f013cfff50cfb9dc89",
+      "destination": "ios/Tests/CoreTests/AAMVAPDF417CompatibilityTests.swift",
+      "destinationSHA256": "f4f1ed24574c9af36aace62048743e3f093647ae57f048e2a354996a7c9e945e",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Tests/IdentityEvidenceCoreTests/CaptureLocationAssertionTests.swift",
+      "sourceSHA256": "b8dd6c9f65f77179e46a6c16141a496c7c6387632f6635176f2b7dcbd39cf5bb",
+      "destination": "ios/Tests/CoreTests/CaptureLocationAssertionTests.swift",
+      "destinationSHA256": "605a554a0283ba8d57ea962f6189dccde195f982b9bf0d899bfffb616b180809",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Tests/IdentityEvidenceCoreTests/IdentityEvidenceCoreTests.swift",
+      "sourceSHA256": "bfbda1de040f66dff20c4d20fd64724d6f746fd35150e87a737c644414a131ae",
+      "destination": "ios/Tests/CoreTests/IdentityEvidenceCoreTests.swift",
+      "destinationSHA256": "638eb43189e764b2407c47a9753cba4a8f6607134fe87a4fa58343fa84c6a9f4",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Tests/IdentityEvidenceCoreTests/LicenseFrontVisualFieldsTests.swift",
+      "sourceSHA256": "35a14febafc82b3da70073c6ebac86765be8c96e9703bdc171b8bc82fabc6452",
+      "destination": "ios/Tests/CoreTests/LicenseFrontVisualFieldsTests.swift",
+      "destinationSHA256": "d0619737b9286aba200893cfbb3ec53ce31cb88c280bb63afa83c15e26ddc217",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Tests/IdentityEvidenceCoreTests/MachineReadableDocumentTests.swift",
+      "sourceSHA256": "2c5b3e0628894103a2b3766ff57fd7f31b2a24ac3c8db6cfc8b2def82790e5fc",
+      "destination": "ios/Tests/CoreTests/MachineReadableDocumentTests.swift",
+      "destinationSHA256": "00a03ec4986db06aef9f9d225b4e842a05edb4005d9c3270059f3f4fa953f238",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Tests/IdentityEvidenceCoreTests/PortraitCropPolicyTests.swift",
+      "sourceSHA256": "bac702e442a64dff1eb52932aae9a6d8ec7380a39a02263917f4f05d496eac4a",
+      "destination": "ios/Tests/CoreTests/PortraitCropPolicyTests.swift",
+      "destinationSHA256": "6861cc5aa9e6fffa5c312657d01f8861dfe739aff4d5ae65518786cf045ac781",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Tests/CaptureJournalTests/CaptureTiltGuidanceEvidenceTests.swift",
+      "sourceSHA256": "5330fa3cc5b8568c2a8421c563ca13e7693b33e3671040fde044ceb6cbf8aa6f",
+      "destination": "ios/Tests/JournalTests/CaptureTiltGuidanceEvidenceTests.swift",
+      "destinationSHA256": "7f1deadc7e7cfa5b918267368e247d120cda69c12695f086142655a1bf78023a",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Tests/CaptureJournalTests/CaptureTiltGuidanceVersionBindingTests.swift",
+      "sourceSHA256": "0ac190d92abab102676278c6624ef02887fc8f0e0afe7f6543295585c7130200",
+      "destination": "ios/Tests/JournalTests/CaptureTiltGuidanceVersionBindingTests.swift",
+      "destinationSHA256": "bcc41edd369145a2e0432ab714717ed575459313d7175563ca64c44b7abd24c7",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Tests/CaptureJournalTests/JourneyRecordingCapacityTests.swift",
+      "sourceSHA256": "6a9aeaae79f93db88ff0014f4cd572a1b1c7e2e85824aa199a7eba14bc1dac43",
+      "destination": "ios/Tests/JournalTests/JourneyRecordingCapacityTests.swift",
+      "destinationSHA256": "a85a15c36288c5675d72605d931699c26196281a115c9e8b2fa26274bd57b71d",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Tests/CaptureJournalTests/JourneyRecordingDigestTests.swift",
+      "sourceSHA256": "a8754dde78475797d9b3bd8850fcc3dba6f18b827c79c2b69d99c4d1fff3ce9f",
+      "destination": "ios/Tests/JournalTests/JourneyRecordingDigestTests.swift",
+      "destinationSHA256": "0c98b02cf68723712aa91d22ef21a6d020ff578bbd8f8c176dd9333fb717c609",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Tests/CaptureJournalTests/JourneyRecordingJournalTests.swift",
+      "sourceSHA256": "08369ff84e7b02c7f633c72139e0c259b3aa86fe6f24be48e2f714bc51110ca3",
+      "destination": "ios/Tests/JournalTests/JourneyRecordingJournalTests.swift",
+      "destinationSHA256": "c964e27b6a4a58e9c06a906ccff9a7e2c23bd39103331e530a89b77a06ce6119",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Tests/CaptureJournalTests/LiveMotionObservationTests.swift",
+      "sourceSHA256": "13e291cc49f9ea166e1eafa315fe628b3730dd35b567fa60279e20f1157dfd62",
+      "destination": "ios/Tests/JournalTests/LiveMotionObservationTests.swift",
+      "destinationSHA256": "31680219595d9dd090daaf24046d44daacb278ef82442c2d74289ea2ccf568ca",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Tests/CaptureJournalTests/RecordingErasureTests.swift",
+      "sourceSHA256": "a1d0e212f576926373b27c8732743c7ed853495de28cf3e58652995602b7226d",
+      "destination": "ios/Tests/JournalTests/RecordingErasureTests.swift",
+      "destinationSHA256": "5d62064d628accbde37f848282ea9fefdf6d25da381460c2c5660b78a9f29a67",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "Tests/CaptureJournalTests/RecordingFixture.swift",
+      "sourceSHA256": "af62567933210c0e26e2f86ceb377a56b4a89b827cee81fb753301d7e5087427",
+      "destination": "ios/Tests/JournalTests/RecordingFixture.swift",
+      "destinationSHA256": "a05ee86e7a3f5cd58580432f80c7f866625e18eb97f890d984d4bfc65bd17348",
+      "patches": [
+        "Move to independent document/foundation module graph; retain numerical algorithms and defaults",
+        "Use neutral operational names, explicit environments/notifications and preserved Codable keys",
+        "Exclude passport parsing from document observations; current extraction schema is 4"
+      ]
+    },
+    {
+      "sourcePath": "document/ios/Tests/QualityGuardsTests/QualityGuardsTests.swift",
+      "sourceSHA256": "8e20ce4974a2096339f7d2ed3f092366393231c6f6c27272b7f8c1e458f39e86",
+      "destination": "ios/Tests/QualityGuardsTests/QualityGuardsTests.swift",
+      "destinationSHA256": "8e20ce4974a2096339f7d2ed3f092366393231c6f6c27272b7f8c1e458f39e86",
+      "patches": [
+        "Existing destination contract/quality entry point retained"
+      ],
+      "sourceRepository": "kenshiki-sdks",
+      "sourceRevision": "4bf1e97"
+    },
+    {
+      "sourcePath": null,
+      "sourceSHA256": null,
+      "destination": "ios/Sources/DocumentCapturePreview/DocumentFrontCaptureView.swift",
+      "patches": [
+        "Adapt existing SSA guidance-row and Pulse viewport into optional UIKit renderer with supplied immutable state/style and unconditional typed intents; no acquisition authority."
+      ],
+      "destinationSHA256": "2fa4115ecdeb638400c1dd7aa395bf7f0d9f91c2da4dbf55ab95679a9357f487",
+      "sourceReferences": [
+        {
+          "repository": "pulse-gov-native",
+          "revision": "59d714db8d30f7d5280f8c57b53ae8074545ab67",
+          "path": "SSANative/Views/LicenseCaptureView.swift",
+          "sha256": "f6f2befccdc1440097427139793fe5b7fe5e4cf3c698b048787b88ab7f81ffdc",
+          "basis": "Exact working-tree bytes in read-only front-capture comparison; repository revision alone does not identify dirty donor bytes."
+        },
+        {
+          "repository": "pulse-ios",
+          "revision": "d6d544a75d3b79106eb8224a6f93f0b7536d2e2f",
+          "path": "Samples/KenshikiDeviceDemo/Sources/LicenceStepCaptureView.swift",
+          "sha256": "115e21dae7dc5228d53edcf695bcda28c0fa5ba30484d0a1de9a91f54dc94283",
+          "basis": "Exact working-tree bytes in read-only front-capture comparison; repository revision alone does not identify dirty donor bytes."
+        }
+      ]
+    },
+    {
+      "sourcePath": null,
+      "sourceSHA256": null,
+      "destination": "ios/Sources/DocumentCapturePreview/DocumentFrontCaptureLevelView.swift",
+      "patches": [
+        "Adapt level drawing to supplied projected offset/tone and host design tokens; no motion subscription or admission policy in rendering."
+      ],
+      "destinationSHA256": "e5005b4f744c15f8d7d87babd3a2b58d4f8217dcb3d4efc18d1c576bad813dd1",
+      "sourceReferences": [
+        {
+          "repository": "pulse-gov-native",
+          "revision": "59d714db8d30f7d5280f8c57b53ae8074545ab67",
+          "path": "SSANative/Views/DocumentBubbleLevel.swift",
+          "sha256": "be0464c83a22ec6c2fe5612de13debdf1925d1aa5099d8ec5c76f629856f3811",
+          "basis": "Exact working-tree bytes in read-only front-capture comparison; repository revision alone does not identify dirty donor bytes."
+        },
+        {
+          "repository": "pulse-ios",
+          "revision": "d6d544a75d3b79106eb8224a6f93f0b7536d2e2f",
+          "path": "Samples/KenshikiDeviceDemo/Sources/LicenceStepCaptureView.swift",
+          "sha256": "115e21dae7dc5228d53edcf695bcda28c0fa5ba30484d0a1de9a91f54dc94283",
+          "basis": "Exact working-tree bytes in read-only front-capture comparison; repository revision alone does not identify dirty donor bytes."
+        }
+      ]
+    },
+    {
+      "sourcePath": null,
+      "sourceSHA256": null,
+      "destination": "ios/Sources/DocumentCapturePreview/DocumentFrontCaptureState.swift",
+      "patches": [
+        "New immutable public presentation contract carrying host-localized labels and prepared action availability."
+      ],
+      "destinationSHA256": "ef869ed99f8a679caacbfd38c0b5e9d3fe1473d2b70fbf285898eff5e1ecc9ff",
+      "sourceReferences": [
+        {
+          "repository": "pulse-gov-native",
+          "revision": "59d714db8d30f7d5280f8c57b53ae8074545ab67",
+          "path": "SSANative/Views/LicenseCaptureView.swift",
+          "sha256": "f6f2befccdc1440097427139793fe5b7fe5e4cf3c698b048787b88ab7f81ffdc",
+          "basis": "Exact working-tree bytes in read-only front-capture comparison; repository revision alone does not identify dirty donor bytes."
+        },
+        {
+          "repository": "pulse-ios",
+          "revision": "d6d544a75d3b79106eb8224a6f93f0b7536d2e2f",
+          "path": "Samples/KenshikiDeviceDemo/Sources/LicenceStepCaptureView.swift",
+          "sha256": "115e21dae7dc5228d53edcf695bcda28c0fa5ba30484d0a1de9a91f54dc94283",
+          "basis": "Exact working-tree bytes in read-only front-capture comparison; repository revision alone does not identify dirty donor bytes."
+        }
+      ]
+    },
+    {
+      "sourcePath": null,
+      "sourceSHA256": null,
+      "destination": "ios/Sources/DocumentCapturePreview/DocumentFrontCaptureStyle.swift",
+      "patches": [
+        "New public native style input composed only of host-supplied generated design tokens."
+      ],
+      "destinationSHA256": "6bf13cb17cd6e2f86e4fb819bcdca6bf8aa75413b212317b0577d1d5adb7aeec",
+      "sourceReferences": [
+        {
+          "repository": "pulse-gov-native",
+          "revision": "59d714db8d30f7d5280f8c57b53ae8074545ab67",
+          "path": "SSANative/Views/LicenseCaptureView.swift",
+          "sha256": "f6f2befccdc1440097427139793fe5b7fe5e4cf3c698b048787b88ab7f81ffdc",
+          "basis": "Exact working-tree bytes in read-only front-capture comparison; repository revision alone does not identify dirty donor bytes."
+        },
+        {
+          "repository": "pulse-ios",
+          "revision": "d6d544a75d3b79106eb8224a6f93f0b7536d2e2f",
+          "path": "Samples/KenshikiDeviceDemo/Sources/LicenceStepCaptureView.swift",
+          "sha256": "115e21dae7dc5228d53edcf695bcda28c0fa5ba30484d0a1de9a91f54dc94283",
+          "basis": "Exact working-tree bytes in read-only front-capture comparison; repository revision alone does not identify dirty donor bytes."
+        }
+      ]
+    },
+    {
+      "sourcePath": null,
+      "sourceSHA256": null,
+      "destination": "ios/Sources/DocumentCapturePreview/DocumentLevelPresentation.swift",
+      "patches": [
+        "Preserve advisory gravity projection and freshness budgets with unavailable states; pure supplied-sample mapping, independent of capture admission."
+      ],
+      "destinationSHA256": "e96c8a19216badeee84c53d1be4aa51e199db1104dda6d1bc06b3a8f3e1d926f",
+      "sourceReferences": [
+        {
+          "repository": "pulse-gov-native",
+          "revision": "59d714db8d30f7d5280f8c57b53ae8074545ab67",
+          "path": "SSANative/Views/DocumentBubbleLevel.swift",
+          "sha256": "be0464c83a22ec6c2fe5612de13debdf1925d1aa5099d8ec5c76f629856f3811",
+          "basis": "Exact working-tree bytes in read-only front-capture comparison; repository revision alone does not identify dirty donor bytes."
+        },
+        {
+          "repository": "pulse-ios",
+          "revision": "d6d544a75d3b79106eb8224a6f93f0b7536d2e2f",
+          "path": "Samples/KenshikiDeviceDemo/Sources/LicenceStepCaptureView.swift",
+          "sha256": "115e21dae7dc5228d53edcf695bcda28c0fa5ba30484d0a1de9a91f54dc94283",
+          "basis": "Exact working-tree bytes in read-only front-capture comparison; repository revision alone does not identify dirty donor bytes."
+        }
+      ]
+    },
+    {
+      "sourcePath": null,
+      "sourceSHA256": null,
+      "destination": "ios/Tests/AppleTests/DocumentLevelPresentationTests.swift",
+      "patches": [
+        "Carry advisory level positive/negative geometry, stale/nonfinite and freshness boundary coverage into independent document tests."
+      ],
+      "destinationSHA256": "f5235f434dfe8cb8648747088cc307912f713e9f8e7ee8d3388b975c47f69e19",
+      "sourceReferences": [
+        {
+          "repository": "pulse-gov-native",
+          "revision": "59d714db8d30f7d5280f8c57b53ae8074545ab67",
+          "path": "SSANativeTests/DocumentLevelTests.swift",
+          "sha256": "5a7e4dc136cc25d5800fcc9e400714e01d3e54422487ecfe983ae1c0de7fc7d9",
+          "basis": "Exact working-tree bytes in read-only front-capture comparison; repository revision alone does not identify dirty donor bytes."
+        }
+      ]
+    },
+    {
+      "sourcePath": null,
+      "sourceSHA256": null,
+      "destination": "ios/Tests/AppleTests/DocumentFrontCaptureViewTests.swift",
+      "patches": [
+        "New optional UIKit rendering/action/preview stability/accessibility regression coverage through public front-capture API."
+      ],
+      "destinationSHA256": "3867e23a924faa4d6dbe897d3eea2eaa925721bb28d0428d9576d031f8e6337d",
+      "sourceReferences": []
+    },
+    {
+      "sourcePath": null,
+      "sourceSHA256": null,
+      "destination": "ios/Sources/DocumentCaptureApple/DocumentLevelMotionSource.swift",
+      "patches": [
+        "New lifecycle composition of existing DocumentTemporalMotionCollector, generation-fenced delivery, explicit start/stop and no new motion sampling implementation.",
+        "Retain bounded raw motion-only observations and source/clock binding with explicit omissions; preserve existing capture and frame-recording behavior."
+      ],
+      "destinationSHA256": "d01721e430d61f947a03ce1c4dab0cfe7c53d307adf3001bb95bf14f228ac3c7",
+      "sourceReferences": [
+        {
+          "repository": "kenshiki-sdks",
+          "revision": "a28ab38edd98a3dc40b204b97c24b8851f394a34",
+          "path": "document/ios/Sources/DocumentCaptureApple/DocumentTemporalMotionCollector.swift",
+          "sha256": "5f102ce32b96c3a67cd76e8c48c117ecc37b272a8aa5c6a53bfde0a2de31584e",
+          "basis": "New lifecycle adapter composes the existing unchanged motion collector without copying its platform sampling implementation."
+        }
+      ]
+    },
+    {
+      "sourcePath": null,
+      "sourceSHA256": null,
+      "destination": "ios/Tests/AppleTests/DocumentLevelMotionSourceTests.swift",
+      "patches": [
+        "New deterministic callback-generation, stop/idempotence and unavailable-publication regressions for advisory motion lifecycle."
+      ],
+      "destinationSHA256": "b982055a3f6048bd688b307321636a31997cfa47f7231c486ce6537e1f801b55",
+      "sourceReferences": []
+    },
+    {
+      "sourcePath": null,
+      "sourceSHA256": null,
+      "destination": "ios/Sources/DocumentCaptureApple/DocumentFrontCaptureController.swift",
+      "destinationSHA256": "131134030210bcd4bbcf058df7db9af1c6c03dc157a57288ec6ecd10b865de27",
+      "sourceReferences": [
+        {
+          "repository": "kenshiki-sdks",
+          "revision": "a28ab38edd98a3dc40b204b97c24b8851f394a34",
+          "path": "document/ios/Sources/DocumentCapture/CaptureSession.swift",
+          "sha256": "2cce2b722d9f63defeae5c69d84191b206d994816a36683ad5b94451f1da70a3",
+          "basis": "Composition reference to existing unchanged camera/coordinator mechanisms, not copied donor source."
+        },
+        {
+          "repository": "kenshiki-sdks",
+          "revision": "a28ab38edd98a3dc40b204b97c24b8851f394a34",
+          "path": "document/ios/Sources/DocumentCaptureApple/DocumentAutoCaptureCoordinator.swift",
+          "sha256": "ffab03d6e7c8ae04cac5f6f68cd2a8fc16292e7049d68bd9d555566df7c30acd",
+          "basis": "Composition reference to existing unchanged camera/coordinator mechanisms, not copied donor source."
+        }
+      ],
+      "patches": [
+        "New canonical front acquisition composition over existing DocumentCamera, DocumentAutoCaptureCoordinator and explicit advisory motion lifecycle; no duplicate camera engine, durable store or provider.",
+        "Retain bounded raw motion-only observations and source/clock binding with explicit omissions; preserve existing capture and frame-recording behavior."
+      ]
+    },
+    {
+      "sourcePath": null,
+      "sourceSHA256": null,
+      "destination": "ios/Tests/AppleTests/DocumentFrontCaptureControllerTests.swift",
+      "destinationSHA256": "15184f71af9f019223b7bcabe98e4ae0a744169b504e727dda6ef9e0da404d76",
+      "sourceReferences": [],
+      "patches": [
+        "New deterministic front admission, identity/race/cancellation/stale-generation regressions using existing SDK camera fixtures.",
+        "Exercise bounded motion retention and the actual front-photo handoff with valid native session/attempt fixtures."
+      ]
+    },
+    {
+      "sourcePath": null,
+      "sourceSHA256": null,
+      "destination": "ios/Sources/DocumentCaptureApple/DocumentMotionEvidence.swift",
+      "sourceReferences": [
+        {
+          "repository": "kenshiki-sdks",
+          "revision": "04309902f45cea28505713a2b229f2b582d823c1",
+          "path": "document/ios/Sources/DocumentCaptureApple/DocumentTemporalMotionCollector.swift",
+          "sha256": "5f102ce32b96c3a67cd76e8c48c117ecc37b272a8aa5c6a53bfde0a2de31584e",
+          "basis": "New bounded motion-only composition reuses the existing copied Core Motion values, explicit clock-domain contracts and measured correlation; not a literal donor import."
+        },
+        {
+          "repository": "kenshiki-sdks",
+          "revision": "04309902f45cea28505713a2b229f2b582d823c1",
+          "path": "document/ios/Sources/DocumentCaptureApple/DocumentTemporalEvidenceManifest.swift",
+          "sha256": "256fccef707e02359c2aca3a98fb2b0aabf5ba263f79621dee81a2d9521ab128",
+          "basis": "New bounded motion-only composition reuses the existing copied Core Motion values, explicit clock-domain contracts and measured correlation; not a literal donor import."
+        },
+        {
+          "repository": "kenshiki-sdks",
+          "revision": "04309902f45cea28505713a2b229f2b582d823c1",
+          "path": "document/ios/Sources/DocumentCaptureApple/DocumentTemporalRecorder.swift",
+          "sha256": "d166882dc53017661160deedab8b890a9ba1ddeda454515b29c8d42790ecaad6",
+          "basis": "New bounded motion-only composition reuses the existing copied Core Motion values, explicit clock-domain contracts and measured correlation; not a literal donor import."
+        }
+      ],
+      "patches": [
+        "New motion-only front evidence composition over the existing native collector and measured clock correlation; no frame retention, capture admission or automatic-capture policy change."
+      ],
+      "destinationSHA256": "06b718649b8f031e2c1cd44a23e8ca6e791558735181d8c0a9c2354557cb677d"
+    },
+    {
+      "sourcePath": null,
+      "sourceSHA256": null,
+      "destination": "ios/Sources/DocumentCaptureApple/DocumentMotionRecorder.swift",
+      "sourceReferences": [
+        {
+          "repository": "kenshiki-sdks",
+          "revision": "04309902f45cea28505713a2b229f2b582d823c1",
+          "path": "document/ios/Sources/DocumentCaptureApple/DocumentTemporalMotionCollector.swift",
+          "sha256": "5f102ce32b96c3a67cd76e8c48c117ecc37b272a8aa5c6a53bfde0a2de31584e",
+          "basis": "New bounded motion-only composition reuses the existing copied Core Motion values, explicit clock-domain contracts and measured correlation; not a literal donor import."
+        },
+        {
+          "repository": "kenshiki-sdks",
+          "revision": "04309902f45cea28505713a2b229f2b582d823c1",
+          "path": "document/ios/Sources/DocumentCaptureApple/DocumentTemporalEvidenceManifest.swift",
+          "sha256": "256fccef707e02359c2aca3a98fb2b0aabf5ba263f79621dee81a2d9521ab128",
+          "basis": "New bounded motion-only composition reuses the existing copied Core Motion values, explicit clock-domain contracts and measured correlation; not a literal donor import."
+        },
+        {
+          "repository": "kenshiki-sdks",
+          "revision": "04309902f45cea28505713a2b229f2b582d823c1",
+          "path": "document/ios/Sources/DocumentCaptureApple/DocumentTemporalRecorder.swift",
+          "sha256": "d166882dc53017661160deedab8b890a9ba1ddeda454515b29c8d42790ecaad6",
+          "basis": "New bounded motion-only composition reuses the existing copied Core Motion values, explicit clock-domain contracts and measured correlation; not a literal donor import."
+        }
+      ],
+      "patches": [
+        "New motion-only front evidence composition over the existing native collector and measured clock correlation; no frame retention, capture admission or automatic-capture policy change."
+      ],
+      "destinationSHA256": "a52580a3d4448b0296d869252813567e099dd328c31adaa6f9cbbc9a50d7498c"
+    },
+    {
+      "sourcePath": null,
+      "sourceSHA256": null,
+      "destination": "ios/Tests/AppleTests/DocumentMotionEvidenceTests.swift",
+      "sourceReferences": [],
+      "patches": [
+        "New motion-only front evidence composition over the existing native collector and measured clock correlation; no frame retention, capture admission or automatic-capture policy change."
+      ],
+      "destinationSHA256": "24776b90ab0dcaf7412842de526b79122d55c3f5abff1437bd329b8ba7f07bc2"
+    }
+  ]
+}

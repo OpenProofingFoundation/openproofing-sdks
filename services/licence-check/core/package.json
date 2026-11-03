@@ -1,0 +1,27 @@
+{
+  "name": "@kenshiki-labs/licence-check",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Supplier-neutral core of the Pulse DLDV licence-record comparison (pulse.dldv.v1).",
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "node scripts/check.mjs --tests",
+    "check": "node scripts/check.mjs"
+  },
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=22.22.2"
+  }
+}

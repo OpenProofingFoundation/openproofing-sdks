@@ -1,0 +1,255 @@
+{
+  "schemaVersion": 1,
+  "role": "optional Pulse vendor adapter; no neutral capability imports it",
+  "sourceAuditSHA256": "28e9fdcbc37cb2baf660348ce0c901fde9d603facb35b1b02a3bc023b51650cb",
+  "files": [
+    {
+      "destination": "Sources/KenshikiPulsePassport/PulseAppAttestAssertion.swift",
+      "origin": "adapted-source",
+      "sources": [
+        {
+          "repository": "identity-sdk",
+          "revision": "0a1d0a0ec0fb7d3f435fb25608ca25e7b673bdbd",
+          "path": "Packages/IdentityGateway/Sources/IdentityGateway/PulseAppAttestAssertion.swift",
+          "sourceSHA256": "c1b0f23c82d7a950d8afaf80ba0791eb3eb8013540fd43e993fc4a797aa3d022",
+          "workingTreeBytes": false
+        }
+      ]
+    },
+    {
+      "destination": "Sources/KenshikiPulsePassport/PulseNativeAttestation.swift",
+      "origin": "adapted-source",
+      "sources": [
+        {
+          "repository": "identity-sdk",
+          "revision": "0a1d0a0ec0fb7d3f435fb25608ca25e7b673bdbd",
+          "path": "Packages/IdentityGateway/Sources/IdentityGateway/PulseNativeAttestation.swift",
+          "sourceSHA256": "f52811deafe0932081bc1e4269f42ee02c4e2adf947b917b1150a90482bbae8d",
+          "workingTreeBytes": false
+        }
+      ]
+    },
+    {
+      "destination": "Sources/KenshikiPulsePassport/PulsePassportAcceptance.swift",
+      "origin": "new-reviewed-extraction-boundary",
+      "sources": []
+    },
+    {
+      "destination": "Sources/KenshikiPulsePassport/PulsePassportCheckProjection.swift",
+      "origin": "new-reviewed-extraction-boundary",
+      "sources": []
+    },
+    {
+      "destination": "Sources/KenshikiPulsePassport/PulsePassportClient.swift",
+      "origin": "adapted-source",
+      "sources": [
+        {
+          "repository": "reference",
+          "revision": "9f74fa2aa18d60da8f3679c8bb4f0f787b447f7c",
+          "path": "reference-apps/ios/Sources/PulsePassportClient.swift",
+          "sourceSHA256": "c89e3e8992f7fea259eb6de4fd0487a6ea10e66ea614e41cfc17f9ce0c27c736",
+          "workingTreeBytes": true
+        },
+        {
+          "repository": "identity-sdk",
+          "revision": "0a1d0a0ec0fb7d3f435fb25608ca25e7b673bdbd",
+          "path": "Packages/IdentityGateway/Sources/IdentityGateway/PulsePassportClient.swift",
+          "sourceSHA256": "1cf3a2efdf8e101c0bb7606f7725c793b7268c732225db808aaa982b66173719",
+          "workingTreeBytes": false
+        }
+      ]
+    },
+    {
+      "destination": "Sources/KenshikiPulsePassport/PulsePassportDiagnostic.swift",
+      "origin": "adapted-source",
+      "sources": [
+        {
+          "repository": "reference",
+          "revision": "9f74fa2aa18d60da8f3679c8bb4f0f787b447f7c",
+          "path": "reference-apps/ios/Sources/PassportServerCeremony.swift",
+          "sourceSHA256": "bc547088d479907ffd88dcaf10dc787fd713b3c7a7d009b5c7f998ca4e78fffc",
+          "workingTreeBytes": true
+        }
+      ]
+    },
+    {
+      "destination": "Sources/KenshikiPulsePassport/PulsePassportHTTPFailure.swift",
+      "origin": "new-reviewed-extraction-boundary",
+      "sources": []
+    },
+    {
+      "destination": "Sources/KenshikiPulsePassport/PulsePassportPreparationFailure.swift",
+      "origin": "adapted-source",
+      "sources": [
+        {
+          "repository": "pulse-ios",
+          "revision": "ccd360615df0832d428397794e95ba8c3ed63467",
+          "path": "Samples/KenshikiDeviceDemo/Sources/IdentityPassportPreparationFailure.swift",
+          "sourceSHA256": "ae3b8596e633fa4ad420fd1b28366956c7886d1a1a5eff51cab7d6610e1f9c7c",
+          "workingTreeBytes": false
+        }
+      ]
+    },
+    {
+      "destination": "Sources/KenshikiPulsePassport/PulsePassportRegistration.swift",
+      "origin": "adapted-source",
+      "sources": [
+        {
+          "repository": "reference",
+          "revision": "9f74fa2aa18d60da8f3679c8bb4f0f787b447f7c",
+          "path": "reference-apps/ios/Sources/PassportPulseRegistration.swift",
+          "sourceSHA256": "c42d34354e5e46e51691186658586830f196d429c6a4369d260a1f9e6ea67ac7",
+          "workingTreeBytes": true
+        }
+      ]
+    },
+    {
+      "destination": "Sources/KenshikiPulsePassport/PulsePassportRegistrationTypes.swift",
+      "origin": "adapted-source",
+      "sources": [
+        {
+          "repository": "reference",
+          "revision": "9f74fa2aa18d60da8f3679c8bb4f0f787b447f7c",
+          "path": "reference-apps/ios/Sources/PassportPulseRegistration.swift",
+          "sourceSHA256": "c42d34354e5e46e51691186658586830f196d429c6a4369d260a1f9e6ea67ac7",
+          "workingTreeBytes": true
+        }
+      ]
+    },
+    {
+      "destination": "Sources/KenshikiPulsePassport/PulsePassportService.swift",
+      "origin": "adapted-source",
+      "sources": [
+        {
+          "repository": "pulse-ios",
+          "revision": "ccd360615df0832d428397794e95ba8c3ed63467",
+          "path": "Samples/KenshikiDeviceDemo/Sources/IdentityPassportPreparationController.swift",
+          "sourceSHA256": "3ef3acf1e912ddf9243a06c8b224c5e5ba79fcd8c525b0c9b5a935ef2b5b7c30",
+          "workingTreeBytes": false
+        },
+        {
+          "repository": "pulse-ios",
+          "revision": "ccd360615df0832d428397794e95ba8c3ed63467",
+          "path": "Samples/KenshikiDeviceDemo/Sources/IdentityPassportCoordinator.swift",
+          "sourceSHA256": "a4ce846784cb06f4416ca99f83090510909e5bc59ddecf35a5ef5af2994a5ace",
+          "workingTreeBytes": false
+        }
+      ]
+    },
+    {
+      "destination": "Sources/KenshikiPulsePassport/PulsePassportSessionState.swift",
+      "origin": "adapted-source",
+      "sources": [
+        {
+          "repository": "pulse-ios",
+          "revision": "ccd360615df0832d428397794e95ba8c3ed63467",
+          "path": "Samples/KenshikiDeviceDemo/Sources/IdentityPassportSessionState.swift",
+          "sourceSHA256": "1eed38c719d369e09dc095f79ba61b6b0b7df8e6de4bbebcd457a30ca7d69341",
+          "workingTreeBytes": false
+        }
+      ]
+    },
+    {
+      "destination": "Sources/KenshikiPulsePassport/PulsePassportTypes.swift",
+      "origin": "adapted-source",
+      "sources": [
+        {
+          "repository": "reference",
+          "revision": "9f74fa2aa18d60da8f3679c8bb4f0f787b447f7c",
+          "path": "reference-apps/ios/Sources/PulsePassportClient.swift",
+          "sourceSHA256": "c89e3e8992f7fea259eb6de4fd0487a6ea10e66ea614e41cfc17f9ce0c27c736",
+          "workingTreeBytes": true
+        },
+        {
+          "repository": "identity-sdk",
+          "revision": "0a1d0a0ec0fb7d3f435fb25608ca25e7b673bdbd",
+          "path": "Packages/IdentityGateway/Sources/IdentityGateway/PulsePassportClient.swift",
+          "sourceSHA256": "1cf3a2efdf8e101c0bb7606f7725c793b7268c732225db808aaa982b66173719",
+          "workingTreeBytes": false
+        }
+      ]
+    },
+    {
+      "destination": "Sources/KenshikiPulsePassport/PulsePassportValidationReport.swift",
+      "origin": "adapted-source",
+      "sources": [
+        {
+          "repository": "reference",
+          "revision": "9f74fa2aa18d60da8f3679c8bb4f0f787b447f7c",
+          "path": "reference-apps/ios/Sources/PassportServerCeremony.swift",
+          "sourceSHA256": "bc547088d479907ffd88dcaf10dc787fd713b3c7a7d009b5c7f998ca4e78fffc",
+          "workingTreeBytes": true
+        },
+        {
+          "repository": "reference",
+          "revision": "9f74fa2aa18d60da8f3679c8bb4f0f787b447f7c",
+          "path": "reference-apps/ios/Sources/PulsePassportClient.swift",
+          "sourceSHA256": "c89e3e8992f7fea259eb6de4fd0487a6ea10e66ea614e41cfc17f9ce0c27c736",
+          "workingTreeBytes": true
+        }
+      ]
+    },
+    {
+      "destination": "Sources/KenshikiPulsePassport/PulsePassportWire.swift",
+      "origin": "adapted-source",
+      "sources": [
+        {
+          "repository": "reference",
+          "revision": "9f74fa2aa18d60da8f3679c8bb4f0f787b447f7c",
+          "path": "reference-apps/ios/Sources/PassportPulseWire.swift",
+          "sourceSHA256": "3cefe2a58ad2d7b6bc529f90623f860a026a2db380df6d6a7961b2b81c3d8234",
+          "workingTreeBytes": true
+        }
+      ]
+    },
+    {
+      "destination": "Sources/KenshikiPulsePassport/PulseRegistrationAttestationRetry.swift",
+      "origin": "adapted-source",
+      "sources": [
+        {
+          "repository": "reference",
+          "revision": "9f74fa2aa18d60da8f3679c8bb4f0f787b447f7c",
+          "path": "reference-apps/ios/Sources/PulseRegistrationAttestationRetry.swift",
+          "sourceSHA256": "5c0cc4c791c8e045b05aca7683995eb8d6fde43f61e9eb99b3e9ef3549a5c3f6",
+          "workingTreeBytes": true
+        },
+        {
+          "repository": "identity-sdk",
+          "revision": "0a1d0a0ec0fb7d3f435fb25608ca25e7b673bdbd",
+          "path": "Packages/IdentityGateway/Sources/IdentityGateway/PulseRegistrationAttestationRetry.swift",
+          "sourceSHA256": "d592f755970799f60a0b44968d03b6077e06935a5bf04c0dae487903b1573070",
+          "workingTreeBytes": false
+        }
+      ]
+    },
+    {
+      "destination": "Sources/KenshikiPulsePassport/PulseRegistrationRecovery.swift",
+      "origin": "adapted-source",
+      "sources": [
+        {
+          "repository": "reference",
+          "revision": "9f74fa2aa18d60da8f3679c8bb4f0f787b447f7c",
+          "path": "reference-apps/ios/Sources/PulseRegistrationRecovery.swift",
+          "sourceSHA256": "b63cffb4c173b5d729eba2d20205fec5255e952b7fce6bc710193aea65f7fd8a",
+          "workingTreeBytes": true
+        },
+        {
+          "repository": "identity-sdk",
+          "revision": "0a1d0a0ec0fb7d3f435fb25608ca25e7b673bdbd",
+          "path": "Packages/IdentityGateway/Sources/IdentityGateway/PulseRegistrationRecovery.swift",
+          "sourceSHA256": "f9b1d1865b11bcaa98f454d5e4ce28a39e99cb93a358775c13f4700f87e43a69",
+          "workingTreeBytes": false
+        }
+      ]
+    }
+  ],
+  "adaptations": [
+    "Reuse the complete Pulse attempt/retry lifecycle with cancellation, concurrent preparation, verification tickets and installation identity fencing.",
+    "Retain modern foundation registration custody and exact dead-key/same-key bearer recovery; sequence actual shared credential mutations.",
+    "Preserve strict bounded HTTP, canonical bytes, exact response binding, actual server facts and private holder capability lineage.",
+    "Keep old Gateway source-compatible DTO facades and actual Pulse custody/holder linkage; no new Vouch or face writes.",
+    "Classify the exact sod_encoding_invalid refusal without exporting unknown server prose or changing verification behavior.",
+    "Replace scheduler-yield assumptions in the two registration coalescing tests with a private actor-isolated rendezvous: the HTTP release task inherits the registration actor and runs only after the same-actor second caller joins the paused mutation. Production registration behavior, public API and exact key/wire assertions remain unchanged."
+  ],
+  "qualification": "Provenance records source origins; current-source native receipts and physical acceptance are separate."
+}

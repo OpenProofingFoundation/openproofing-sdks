@@ -1,0 +1,35 @@
+{
+  "folders": [
+    {
+      "name": "Kenshiki SDKs",
+      "path": "."
+    },
+    {
+      "name": "Document SDK",
+      "path": "document"
+    },
+    {
+      "name": "Passport SDK",
+      "path": "passport"
+    },
+    {
+      "name": "Biometric SDK",
+      "path": "biometric"
+    }
+  ],
+  "settings": {
+    "swift.searchSubfoldersForPackages": false,
+    "files.watcherExclude": {
+      "**/.build/**": true,
+      "**/node_modules/**": true,
+      "**/.gradle/**": true,
+      "**/build/**": true
+    },
+    "search.exclude": {
+      "**/.build": true,
+      "**/node_modules": true,
+      "**/.gradle": true,
+      "**/build": true
+    }
+  }
+}

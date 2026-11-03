@@ -1,0 +1,547 @@
+{
+  "schemaVersion": 1,
+  "donorRepository": "Kenshiki-Labs/kenshiki-identity-sdk",
+  "donorRevision": "0a1d0a0ec0fb7d3f435fb25608ca25e7b673bdbd",
+  "files": {
+    "native/DocumentOpenCVBridge/DocumentOpenCVBridge.mm": {
+      "sourcePath": "Sources/IdentityEvidenceOpenCVBridge/IdentityEvidenceOpenCVBridge.mm",
+      "sourceSHA256": "fbbe831ac88d9012b7227628e6d163533e9c7f0800678abcc20548e0b0cd5281",
+      "destinationSHA256": "38de6e041ed100db0147c1aef152bc8d75f3f1d302c96dafab28a4e1050d8862",
+      "patches": [
+        "Rename internal bridge header/module without changing C API"
+      ]
+    },
+    "native/DocumentOpenCVBridge/Spatial/Native/EdgeDrawingAdapter.cpp": {
+      "sourcePath": "Sources/IdentityEvidenceOpenCVBridge/Spatial/Native/EdgeDrawingAdapter.cpp",
+      "sourceSHA256": "fdf93e1537aae963c7129be874dd8c5235e1e025b3a33d6436a122f1f5951340",
+      "destinationSHA256": "fdf93e1537aae963c7129be874dd8c5235e1e025b3a33d6436a122f1f5951340",
+      "patches": []
+    },
+    "native/DocumentOpenCVBridge/Spatial/Native/EdgeDrawingAdapter.hpp": {
+      "sourcePath": "Sources/IdentityEvidenceOpenCVBridge/Spatial/Native/EdgeDrawingAdapter.hpp",
+      "sourceSHA256": "de593ff07a914ca5ab4a701a19b5e32253b911ee44adb353b321df7395e91cc8",
+      "destinationSHA256": "de593ff07a914ca5ab4a701a19b5e32253b911ee44adb353b321df7395e91cc8",
+      "patches": []
+    },
+    "native/DocumentOpenCVBridge/Spatial/Native/GrabCutAdapter.cpp": {
+      "sourcePath": "Sources/IdentityEvidenceOpenCVBridge/Spatial/Native/GrabCutAdapter.cpp",
+      "sourceSHA256": "b3f99ea62f22bcba5ae90cf69f8a69330ae83ce6349146a38a3729eba49a825d",
+      "destinationSHA256": "b3f99ea62f22bcba5ae90cf69f8a69330ae83ce6349146a38a3729eba49a825d",
+      "patches": []
+    },
+    "native/DocumentOpenCVBridge/Spatial/Native/GrabCutAdapter.hpp": {
+      "sourcePath": "Sources/IdentityEvidenceOpenCVBridge/Spatial/Native/GrabCutAdapter.hpp",
+      "sourceSHA256": "d26fd14b63f8311bbe3710781017e00f64ca6c191c4660836ae4ccd4f6305d47",
+      "destinationSHA256": "d26fd14b63f8311bbe3710781017e00f64ca6c191c4660836ae4ccd4f6305d47",
+      "patches": []
+    },
+    "native/DocumentOpenCVBridge/Spatial/Native/GraphExtent.hpp": {
+      "sourcePath": "Sources/IdentityEvidenceOpenCVBridge/Spatial/Native/GraphExtent.hpp",
+      "sourceSHA256": "cf81952b7c2b9fdaf2b0439c29c0e6a622049106fd395b85bc31f0c27955f6ea",
+      "destinationSHA256": "cf81952b7c2b9fdaf2b0439c29c0e6a622049106fd395b85bc31f0c27955f6ea",
+      "patches": []
+    },
+    "native/DocumentOpenCVBridge/Spatial/Native/SeedAdapter.cpp": {
+      "sourcePath": "Sources/IdentityEvidenceOpenCVBridge/Spatial/Native/SeedAdapter.cpp",
+      "sourceSHA256": "f73c21ca95cba3b34d617cc1265afdf70f97f30291c320e7ab397cd0faef9eb8",
+      "destinationSHA256": "f73c21ca95cba3b34d617cc1265afdf70f97f30291c320e7ab397cd0faef9eb8",
+      "patches": []
+    },
+    "native/DocumentOpenCVBridge/Spatial/Native/SeedAdapter.hpp": {
+      "sourcePath": "Sources/IdentityEvidenceOpenCVBridge/Spatial/Native/SeedAdapter.hpp",
+      "sourceSHA256": "0073466cdd5b956f0c63ad9b27aa057ac04cbcb1ecb4934a16968dd286fd0596",
+      "destinationSHA256": "0073466cdd5b956f0c63ad9b27aa057ac04cbcb1ecb4934a16968dd286fd0596",
+      "patches": []
+    },
+    "native/DocumentOpenCVBridge/Spatial/SpatialAnalysis.cpp": {
+      "sourcePath": "Sources/IdentityEvidenceOpenCVBridge/Spatial/SpatialAnalysis.cpp",
+      "sourceSHA256": "dc1f81b5b9b1d008deb3ea5acceead0f83a06ed29dfeda75b1b740445b1ec466",
+      "destinationSHA256": "a181f78a9e2764e3f5d5674ef9a3406bdfd9ae6bf1fe800fc7d197f903e27c45",
+      "patches": [
+        "Rename internal bridge header/module without changing C API"
+      ]
+    },
+    "native/DocumentOpenCVBridge/Spatial/Vendor/EdgeDrawing/LICENSE": {
+      "sourcePath": "Sources/IdentityEvidenceOpenCVBridge/Spatial/Vendor/EdgeDrawing/LICENSE",
+      "sourceSHA256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "destinationSHA256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "patches": []
+    },
+    "native/DocumentOpenCVBridge/Spatial/Vendor/EdgeDrawing/edge_drawing.cpp": {
+      "sourcePath": "Sources/IdentityEvidenceOpenCVBridge/Spatial/Vendor/EdgeDrawing/edge_drawing.cpp",
+      "sourceSHA256": "1c7defe4ac8c3b79d26d8654bc8b4543ad2751c3c451db9cf3f5086c7ec2997d",
+      "destinationSHA256": "1c7defe4ac8c3b79d26d8654bc8b4543ad2751c3c451db9cf3f5086c7ec2997d",
+      "patches": []
+    },
+    "native/DocumentOpenCVBridge/Spatial/Vendor/EdgeDrawing/edge_drawing_common.hpp": {
+      "sourcePath": "Sources/IdentityEvidenceOpenCVBridge/Spatial/Vendor/EdgeDrawing/edge_drawing_common.hpp",
+      "sourceSHA256": "171c579ce83922415a526e93f3ccccc5ac2dd9ed742fcd6ef6115157657e982c",
+      "destinationSHA256": "171c579ce83922415a526e93f3ccccc5ac2dd9ed742fcd6ef6115157657e982c",
+      "patches": []
+    },
+    "native/DocumentOpenCVBridge/Spatial/Vendor/EdgeDrawing/manifest.json": {
+      "sourcePath": "Sources/IdentityEvidenceOpenCVBridge/Spatial/Vendor/EdgeDrawing/manifest.json",
+      "sourceSHA256": "3d4e7f6a8c5f97542389ed3bfd6fc31871845a708dfa9aed2df25f9ecdc56b94",
+      "destinationSHA256": "3d4e7f6a8c5f97542389ed3bfd6fc31871845a708dfa9aed2df25f9ecdc56b94",
+      "patches": []
+    },
+    "native/DocumentOpenCVBridge/Spatial/Vendor/EdgeDrawing/opencv2/ximgproc/edge_drawing.hpp": {
+      "sourcePath": "Sources/IdentityEvidenceOpenCVBridge/Spatial/Vendor/EdgeDrawing/opencv2/ximgproc/edge_drawing.hpp",
+      "sourceSHA256": "1f6b627c3e9f3a308c210fefc9ab968d05297e607f0d6a8e7a741740bd444f1e",
+      "destinationSHA256": "1f6b627c3e9f3a308c210fefc9ab968d05297e607f0d6a8e7a741740bd444f1e",
+      "patches": []
+    },
+    "native/DocumentOpenCVBridge/Spatial/Vendor/EdgeDrawing/precomp.hpp": {
+      "sourcePath": "Sources/IdentityEvidenceOpenCVBridge/Spatial/Vendor/EdgeDrawing/precomp.hpp",
+      "sourceSHA256": "f2f6545bdebca8710aba1f5fce5a15824c515341d841eff80057399caa273fd1",
+      "destinationSHA256": "f2f6545bdebca8710aba1f5fce5a15824c515341d841eff80057399caa273fd1",
+      "patches": []
+    },
+    "native/DocumentOpenCVBridge/Upstream/LICENSE": {
+      "sourcePath": "Sources/IdentityEvidenceOpenCVBridge/Upstream/LICENSE",
+      "sourceSHA256": "9f6e36e02187ae18d232f86857667c918dd0aa61e72ffc63320a61befcc66605",
+      "destinationSHA256": "9f6e36e02187ae18d232f86857667c918dd0aa61e72ffc63320a61befcc66605",
+      "patches": []
+    },
+    "native/DocumentOpenCVBridge/Upstream/src/ColorSimplificationTransform.cpp": {
+      "sourcePath": "Sources/IdentityEvidenceOpenCVBridge/Upstream/src/ColorSimplificationTransform.cpp",
+      "sourceSHA256": "1d5d975cb6b93ef9dc2b5d7afd5faf1d84d495b2efc42ea3f031847fba7ef10d",
+      "destinationSHA256": "1d5d975cb6b93ef9dc2b5d7afd5faf1d84d495b2efc42ea3f031847fba7ef10d",
+      "patches": []
+    },
+    "native/DocumentOpenCVBridge/Upstream/src/DocumentDetector.cpp": {
+      "sourcePath": "Sources/IdentityEvidenceOpenCVBridge/Upstream/src/DocumentDetector.cpp",
+      "sourceSHA256": "820ef99268ff359c2b43fce7bbecdefd34586f6bff4fbc9f5be3abbc438f3169",
+      "destinationSHA256": "820ef99268ff359c2b43fce7bbecdefd34586f6bff4fbc9f5be3abbc438f3169",
+      "patches": []
+    },
+    "native/DocumentOpenCVBridge/Upstream/src/DocumentOCR.cpp": {
+      "sourcePath": "Sources/IdentityEvidenceOpenCVBridge/Upstream/src/DocumentOCR.cpp",
+      "sourceSHA256": "2dc837c51ec4c6621545469bccd9c72e6ed26b91afdaededa3636bb9fae0c167",
+      "destinationSHA256": "2dc837c51ec4c6621545469bccd9c72e6ed26b91afdaededa3636bb9fae0c167",
+      "patches": []
+    },
+    "native/DocumentOpenCVBridge/Upstream/src/QRCode.cpp": {
+      "sourcePath": "Sources/IdentityEvidenceOpenCVBridge/Upstream/src/QRCode.cpp",
+      "sourceSHA256": "1da0c852d4727bf8cf2b90323e18bcba9acd1ff22ac12b26c66c981624e95d9e",
+      "destinationSHA256": "1da0c852d4727bf8cf2b90323e18bcba9acd1ff22ac12b26c66c981624e95d9e",
+      "patches": []
+    },
+    "native/DocumentOpenCVBridge/Upstream/src/Utils.cpp": {
+      "sourcePath": "Sources/IdentityEvidenceOpenCVBridge/Upstream/src/Utils.cpp",
+      "sourceSHA256": "f7d3888228f2b1b1f6e3c134baed3771d47fe773a54d20807cb421b7e7d596ca",
+      "destinationSHA256": "f7d3888228f2b1b1f6e3c134baed3771d47fe773a54d20807cb421b7e7d596ca",
+      "patches": []
+    },
+    "native/DocumentOpenCVBridge/Upstream/src/WhitePaperTransform.cpp": {
+      "sourcePath": "Sources/IdentityEvidenceOpenCVBridge/Upstream/src/WhitePaperTransform.cpp",
+      "sourceSHA256": "d4eeebdf6a55160d771e70c6a57b5cff0c361793a797b428a77c2265b2eaeeb1",
+      "destinationSHA256": "d4eeebdf6a55160d771e70c6a57b5cff0c361793a797b428a77c2265b2eaeeb1",
+      "patches": []
+    },
+    "native/DocumentOpenCVBridge/Upstream/src/WhitePaperTransform2.cpp": {
+      "sourcePath": "Sources/IdentityEvidenceOpenCVBridge/Upstream/src/WhitePaperTransform2.cpp",
+      "sourceSHA256": "f53e5799916a432b1d6f7efdaf6850c8935d1e08839ea1acff314d986cba99c2",
+      "destinationSHA256": "f53e5799916a432b1d6f7efdaf6850c8935d1e08839ea1acff314d986cba99c2",
+      "patches": []
+    },
+    "native/DocumentOpenCVBridge/Upstream/src/include/ColorSimplificationTransform.h": {
+      "sourcePath": "Sources/IdentityEvidenceOpenCVBridge/Upstream/src/include/ColorSimplificationTransform.h",
+      "sourceSHA256": "f29b8c5e1665a5fab89f28492d9a3caa0d750ec9f92ee6a3ea14ee6e057d1437",
+      "destinationSHA256": "f29b8c5e1665a5fab89f28492d9a3caa0d750ec9f92ee6a3ea14ee6e057d1437",
+      "patches": []
+    },
+    "native/DocumentOpenCVBridge/Upstream/src/include/DocumentDetector.h": {
+      "sourcePath": "Sources/IdentityEvidenceOpenCVBridge/Upstream/src/include/DocumentDetector.h",
+      "sourceSHA256": "d7662ce232cb796e9e1d5df2d62389164da8362c655983293f3400ddeda33bde",
+      "destinationSHA256": "d7662ce232cb796e9e1d5df2d62389164da8362c655983293f3400ddeda33bde",
+      "patches": []
+    },
+    "native/DocumentOpenCVBridge/Upstream/src/include/DocumentOCR.h": {
+      "sourcePath": "Sources/IdentityEvidenceOpenCVBridge/Upstream/src/include/DocumentOCR.h",
+      "sourceSHA256": "47f9843b3de0858b9d2fa8f02e755be239f4ed5393789817c4f593b741182609",
+      "destinationSHA256": "47f9843b3de0858b9d2fa8f02e755be239f4ed5393789817c4f593b741182609",
+      "patches": []
+    },
+    "native/DocumentOpenCVBridge/Upstream/src/include/Log.h": {
+      "sourcePath": "Sources/IdentityEvidenceOpenCVBridge/Upstream/src/include/Log.h",
+      "sourceSHA256": "9b09c749dc02b07a3be596231bd3d15abc0155cf6d4f1e191e741103f8ab12e6",
+      "destinationSHA256": "9b09c749dc02b07a3be596231bd3d15abc0155cf6d4f1e191e741103f8ab12e6",
+      "patches": []
+    },
+    "native/DocumentOpenCVBridge/Upstream/src/include/QRCode.h": {
+      "sourcePath": "Sources/IdentityEvidenceOpenCVBridge/Upstream/src/include/QRCode.h",
+      "sourceSHA256": "225f300396fe5dcdfc2fa3c33f7c89235b58083f79045998c75f780c75dba0fe",
+      "destinationSHA256": "225f300396fe5dcdfc2fa3c33f7c89235b58083f79045998c75f780c75dba0fe",
+      "patches": []
+    },
+    "native/DocumentOpenCVBridge/Upstream/src/include/Utils.h": {
+      "sourcePath": "Sources/IdentityEvidenceOpenCVBridge/Upstream/src/include/Utils.h",
+      "sourceSHA256": "96a75f9d2674b876bdc4cf836bd7b79d5e553fa8bdc70c1bda8abe69d960b57d",
+      "destinationSHA256": "96a75f9d2674b876bdc4cf836bd7b79d5e553fa8bdc70c1bda8abe69d960b57d",
+      "patches": []
+    },
+    "native/DocumentOpenCVBridge/Upstream/src/include/WhitePaperTransform.h": {
+      "sourcePath": "Sources/IdentityEvidenceOpenCVBridge/Upstream/src/include/WhitePaperTransform.h",
+      "sourceSHA256": "a133f620bdb0a8c71fca181e3e21fd8d16f876f4f593a07bb1b707288d6550ae",
+      "destinationSHA256": "a133f620bdb0a8c71fca181e3e21fd8d16f876f4f593a07bb1b707288d6550ae",
+      "patches": []
+    },
+    "native/DocumentOpenCVBridge/Upstream/src/include/WhitePaperTransform2.h": {
+      "sourcePath": "Sources/IdentityEvidenceOpenCVBridge/Upstream/src/include/WhitePaperTransform2.h",
+      "sourceSHA256": "87c4d364045d106eeaba5cf9f6d294e2e8ca346f0849bb570487d4b163a8aef8",
+      "destinationSHA256": "87c4d364045d106eeaba5cf9f6d294e2e8ca346f0849bb570487d4b163a8aef8",
+      "patches": []
+    },
+    "native/DocumentOpenCVBridge/Upstream/src/include/jsoncons/allocator_holder.hpp": {
+      "sourcePath": "Sources/IdentityEvidenceOpenCVBridge/Upstream/src/include/jsoncons/allocator_holder.hpp",
+      "sourceSHA256": "d8b767bd993744717862c8da0ab6037ce0f563ff1d0c9ac61a0990218e27bf27",
+      "destinationSHA256": "d8b767bd993744717862c8da0ab6037ce0f563ff1d0c9ac61a0990218e27bf27",
+      "patches": []
+    },
+    "native/DocumentOpenCVBridge/Upstream/src/include/jsoncons/allocator_set.hpp": {
+      "sourcePath": "Sources/IdentityEvidenceOpenCVBridge/Upstream/src/include/jsoncons/allocator_set.hpp",
+      "sourceSHA256": "1a7ffd5ef4e0907cb56d5aabb7be96b633fd7b25bb447927356639b9ef721d6b",
+      "destinationSHA256": "1a7ffd5ef4e0907cb56d5aabb7be96b633fd7b25bb447927356639b9ef721d6b",
+      "patches": []
+    },
+    "native/DocumentOpenCVBridge/Upstream/src/include/jsoncons/basic_json.hpp": {
+      "sourcePath": "Sources/IdentityEvidenceOpenCVBridge/Upstream/src/include/jsoncons/basic_json.hpp",
+      "sourceSHA256": "a54d5648a4c3ab0c0df738e64e0590b601cadcc90ef559ca4410d772912d5bdc",
+      "destinationSHA256": "a54d5648a4c3ab0c0df738e64e0590b601cadcc90ef559ca4410d772912d5bdc",
+      "patches": []
+    },
+    "native/DocumentOpenCVBridge/Upstream/src/include/jsoncons/bigint.hpp": {
+      "sourcePath": "Sources/IdentityEvidenceOpenCVBridge/Upstream/src/include/jsoncons/bigint.hpp",
+      "sourceSHA256": "b1b482c85156d7a75c61ce55eac3861be40e62965500d103bdc4e2c7a12aab40",
+      "destinationSHA256": "b1b482c85156d7a75c61ce55eac3861be40e62965500d103bdc4e2c7a12aab40",
+      "patches": []
+    },
+    "native/DocumentOpenCVBridge/Upstream/src/include/jsoncons/byte_string.hpp": {
+      "sourcePath": "Sources/IdentityEvidenceOpenCVBridge/Upstream/src/include/jsoncons/byte_string.hpp",
+      "sourceSHA256": "d5580a315352881b15859c5d393e6d7928b1017acf7ef03bc771dcfbb0480336",
+      "destinationSHA256": "d5580a315352881b15859c5d393e6d7928b1017acf7ef03bc771dcfbb0480336",
+      "patches": []
+    },
+    "native/DocumentOpenCVBridge/Upstream/src/include/jsoncons/config/binary_config.hpp": {
+      "sourcePath": "Sources/IdentityEvidenceOpenCVBridge/Upstream/src/include/jsoncons/config/binary_config.hpp",
+      "sourceSHA256": "40005c8eeb6432d1af13c514393ce2f30e48f6b4d0f7c1e885f2083ab32f693a",
+      "destinationSHA256": "40005c8eeb6432d1af13c514393ce2f30e48f6b4d0f7c1e885f2083ab32f693a",
+      "patches": []
+    },
+    "native/DocumentOpenCVBridge/Upstream/src/include/jsoncons/config/compiler_support.hpp": {
+      "sourcePath": "Sources/IdentityEvidenceOpenCVBridge/Upstream/src/include/jsoncons/config/compiler_support.hpp",
+      "sourceSHA256": "e6e00bcf63dba1264e31fed89201c8e2f1091089e1af725da6b89b03175af6f2",
+      "destinationSHA256": "e6e00bcf63dba1264e31fed89201c8e2f1091089e1af725da6b89b03175af6f2",
+      "patches": []
+    },
+    "native/DocumentOpenCVBridge/Upstream/src/include/jsoncons/config/jsoncons_config.hpp": {
+      "sourcePath": "Sources/IdentityEvidenceOpenCVBridge/Upstream/src/include/jsoncons/config/jsoncons_config.hpp",
+      "sourceSHA256": "f54e6e2f17acabe6aa3552723a491c3273db69cf57e3d454268b6dd96e6eba94",
+      "destinationSHA256": "f54e6e2f17acabe6aa3552723a491c3273db69cf57e3d454268b6dd96e6eba94",
+      "patches": []
+    },
+    "native/DocumentOpenCVBridge/Upstream/src/include/jsoncons/config/version.hpp": {
+      "sourcePath": "Sources/IdentityEvidenceOpenCVBridge/Upstream/src/include/jsoncons/config/version.hpp",
+      "sourceSHA256": "5a89487bf824e1f3aa5d3cf6c0f120e90db74a6b77cfedc2d8e2f5728e9491ef",
+      "destinationSHA256": "5a89487bf824e1f3aa5d3cf6c0f120e90db74a6b77cfedc2d8e2f5728e9491ef",
+      "patches": []
+    },
+    "native/DocumentOpenCVBridge/Upstream/src/include/jsoncons/conv_error.hpp": {
+      "sourcePath": "Sources/IdentityEvidenceOpenCVBridge/Upstream/src/include/jsoncons/conv_error.hpp",
+      "sourceSHA256": "146ae610d06f5a48e03245c04584bb44529e7c598aa1109e1869a9cef2dca6b4",
+      "destinationSHA256": "146ae610d06f5a48e03245c04584bb44529e7c598aa1109e1869a9cef2dca6b4",
+      "patches": []
+    },
+    "native/DocumentOpenCVBridge/Upstream/src/include/jsoncons/decode_json.hpp": {
+      "sourcePath": "Sources/IdentityEvidenceOpenCVBridge/Upstream/src/include/jsoncons/decode_json.hpp",
+      "sourceSHA256": "a11a91d0a6fa46497c4d127e57da1e080eb529317d70b3061be011e3a59f3b9e",
+      "destinationSHA256": "a11a91d0a6fa46497c4d127e57da1e080eb529317d70b3061be011e3a59f3b9e",
+      "patches": []
+    },
+    "native/DocumentOpenCVBridge/Upstream/src/include/jsoncons/decode_traits.hpp": {
+      "sourcePath": "Sources/IdentityEvidenceOpenCVBridge/Upstream/src/include/jsoncons/decode_traits.hpp",
+      "sourceSHA256": "4aee82987c679683d0f3bbeec66a4a66b376be56115b3c8d2bb1d0191f1d4d6b",
+      "destinationSHA256": "4aee82987c679683d0f3bbeec66a4a66b376be56115b3c8d2bb1d0191f1d4d6b",
+      "patches": []
+    },
+    "native/DocumentOpenCVBridge/Upstream/src/include/jsoncons/detail/endian.hpp": {
+      "sourcePath": "Sources/IdentityEvidenceOpenCVBridge/Upstream/src/include/jsoncons/detail/endian.hpp",
+      "sourceSHA256": "0ca36003d1ae58d846312d394c3b25ebff54e6cd44f4078585953f45da9bca5c",
+      "destinationSHA256": "0ca36003d1ae58d846312d394c3b25ebff54e6cd44f4078585953f45da9bca5c",
+      "patches": []
+    },
+    "native/DocumentOpenCVBridge/Upstream/src/include/jsoncons/detail/grisu3.hpp": {
+      "sourcePath": "Sources/IdentityEvidenceOpenCVBridge/Upstream/src/include/jsoncons/detail/grisu3.hpp",
+      "sourceSHA256": "7afb2171d4b49c8b5ef74f07833694e2fcd40d24d51703123c7c98f21bde33f4",
+      "destinationSHA256": "7afb2171d4b49c8b5ef74f07833694e2fcd40d24d51703123c7c98f21bde33f4",
+      "patches": []
+    },
+    "native/DocumentOpenCVBridge/Upstream/src/include/jsoncons/detail/heap_string.hpp": {
+      "sourcePath": "Sources/IdentityEvidenceOpenCVBridge/Upstream/src/include/jsoncons/detail/heap_string.hpp",
+      "sourceSHA256": "474f43f4e2b50d83d1df4a0ebe390e6faf4369692552c248a370c03ea4a7b6e5",
+      "destinationSHA256": "474f43f4e2b50d83d1df4a0ebe390e6faf4369692552c248a370c03ea4a7b6e5",
+      "patches": []
+    },
+    "native/DocumentOpenCVBridge/Upstream/src/include/jsoncons/detail/optional.hpp": {
+      "sourcePath": "Sources/IdentityEvidenceOpenCVBridge/Upstream/src/include/jsoncons/detail/optional.hpp",
+      "sourceSHA256": "34f379b4a42bc0665e1276ede09ad69cd45875e60f356bd3e09b4e43e1ce469b",
+      "destinationSHA256": "34f379b4a42bc0665e1276ede09ad69cd45875e60f356bd3e09b4e43e1ce469b",
+      "patches": []
+    },
+    "native/DocumentOpenCVBridge/Upstream/src/include/jsoncons/detail/parse_number.hpp": {
+      "sourcePath": "Sources/IdentityEvidenceOpenCVBridge/Upstream/src/include/jsoncons/detail/parse_number.hpp",
+      "sourceSHA256": "a6d72d6758c6abe0031121462bb76d997f222931f36abcee8b9d96cef7fa85da",
+      "destinationSHA256": "a6d72d6758c6abe0031121462bb76d997f222931f36abcee8b9d96cef7fa85da",
+      "patches": []
+    },
+    "native/DocumentOpenCVBridge/Upstream/src/include/jsoncons/detail/span.hpp": {
+      "sourcePath": "Sources/IdentityEvidenceOpenCVBridge/Upstream/src/include/jsoncons/detail/span.hpp",
+      "sourceSHA256": "15fb886dffeb3bdf27572de460846adde7da1eae41439f0fe4ff4404eacb5923",
+      "destinationSHA256": "15fb886dffeb3bdf27572de460846adde7da1eae41439f0fe4ff4404eacb5923",
+      "patches": []
+    },
+    "native/DocumentOpenCVBridge/Upstream/src/include/jsoncons/detail/string_view.hpp": {
+      "sourcePath": "Sources/IdentityEvidenceOpenCVBridge/Upstream/src/include/jsoncons/detail/string_view.hpp",
+      "sourceSHA256": "c97832f63e11fae3faa96fa0d7cf577a09c3ec21bd8d3e4838e465e2283bf3b2",
+      "destinationSHA256": "c97832f63e11fae3faa96fa0d7cf577a09c3ec21bd8d3e4838e465e2283bf3b2",
+      "patches": []
+    },
+    "native/DocumentOpenCVBridge/Upstream/src/include/jsoncons/detail/write_number.hpp": {
+      "sourcePath": "Sources/IdentityEvidenceOpenCVBridge/Upstream/src/include/jsoncons/detail/write_number.hpp",
+      "sourceSHA256": "e42036350eab3b61b87dbb349e92e1b7bd92980dd86d2d114912098c6e1fb0c1",
+      "destinationSHA256": "e42036350eab3b61b87dbb349e92e1b7bd92980dd86d2d114912098c6e1fb0c1",
+      "patches": []
+    },
+    "native/DocumentOpenCVBridge/Upstream/src/include/jsoncons/encode_json.hpp": {
+      "sourcePath": "Sources/IdentityEvidenceOpenCVBridge/Upstream/src/include/jsoncons/encode_json.hpp",
+      "sourceSHA256": "9ea58bd63bbc38d35a52fda7df87971345e0d994d786bcea1c1af50ba47b60ae",
+      "destinationSHA256": "9ea58bd63bbc38d35a52fda7df87971345e0d994d786bcea1c1af50ba47b60ae",
+      "patches": []
+    },
+    "native/DocumentOpenCVBridge/Upstream/src/include/jsoncons/encode_traits.hpp": {
+      "sourcePath": "Sources/IdentityEvidenceOpenCVBridge/Upstream/src/include/jsoncons/encode_traits.hpp",
+      "sourceSHA256": "ee9bdfb4be12148e73ea51899967a73ba684b5d57584a50f8121f8313fdf820d",
+      "destinationSHA256": "ee9bdfb4be12148e73ea51899967a73ba684b5d57584a50f8121f8313fdf820d",
+      "patches": []
+    },
+    "native/DocumentOpenCVBridge/Upstream/src/include/jsoncons/extension_traits.hpp": {
+      "sourcePath": "Sources/IdentityEvidenceOpenCVBridge/Upstream/src/include/jsoncons/extension_traits.hpp",
+      "sourceSHA256": "fefb9d6fe1013536d284d94220936be5c9a39881e760302ea5d43a14ca499e3f",
+      "destinationSHA256": "fefb9d6fe1013536d284d94220936be5c9a39881e760302ea5d43a14ca499e3f",
+      "patches": []
+    },
+    "native/DocumentOpenCVBridge/Upstream/src/include/jsoncons/item_event_reader.hpp": {
+      "sourcePath": "Sources/IdentityEvidenceOpenCVBridge/Upstream/src/include/jsoncons/item_event_reader.hpp",
+      "sourceSHA256": "d6fe9f41deaa4fb635ebb37238608405ad2bf97f506bde4868ff3488a5f55561",
+      "destinationSHA256": "d6fe9f41deaa4fb635ebb37238608405ad2bf97f506bde4868ff3488a5f55561",
+      "patches": []
+    },
+    "native/DocumentOpenCVBridge/Upstream/src/include/jsoncons/item_event_visitor.hpp": {
+      "sourcePath": "Sources/IdentityEvidenceOpenCVBridge/Upstream/src/include/jsoncons/item_event_visitor.hpp",
+      "sourceSHA256": "7ebed61790dd3f422c8f7bd4241924c332c365755dac51c9305b811bb391af7f",
+      "destinationSHA256": "7ebed61790dd3f422c8f7bd4241924c332c365755dac51c9305b811bb391af7f",
+      "patches": []
+    },
+    "native/DocumentOpenCVBridge/Upstream/src/include/jsoncons/json.hpp": {
+      "sourcePath": "Sources/IdentityEvidenceOpenCVBridge/Upstream/src/include/jsoncons/json.hpp",
+      "sourceSHA256": "3f89879cfd3c5b94bd7e10561b5b4f69185568243c994fad4e27576e8f5bb5e9",
+      "destinationSHA256": "3f89879cfd3c5b94bd7e10561b5b4f69185568243c994fad4e27576e8f5bb5e9",
+      "patches": []
+    },
+    "native/DocumentOpenCVBridge/Upstream/src/include/jsoncons/json_array.hpp": {
+      "sourcePath": "Sources/IdentityEvidenceOpenCVBridge/Upstream/src/include/jsoncons/json_array.hpp",
+      "sourceSHA256": "7c058dd44095d49296daec5c0870c2c06b49a6677a3afa34e1203fa2e366604f",
+      "destinationSHA256": "7c058dd44095d49296daec5c0870c2c06b49a6677a3afa34e1203fa2e366604f",
+      "patches": []
+    },
+    "native/DocumentOpenCVBridge/Upstream/src/include/jsoncons/json_content_handler.hpp": {
+      "sourcePath": "Sources/IdentityEvidenceOpenCVBridge/Upstream/src/include/jsoncons/json_content_handler.hpp",
+      "sourceSHA256": "ab459d023a63fd5d1466e6574d6062eecfb29903bb855d4c61cf03c4491e07de",
+      "destinationSHA256": "ab459d023a63fd5d1466e6574d6062eecfb29903bb855d4c61cf03c4491e07de",
+      "patches": []
+    },
+    "native/DocumentOpenCVBridge/Upstream/src/include/jsoncons/json_cursor.hpp": {
+      "sourcePath": "Sources/IdentityEvidenceOpenCVBridge/Upstream/src/include/jsoncons/json_cursor.hpp",
+      "sourceSHA256": "0076f809af2e8ab4d99591c1d6eb322e7d78449b624500d85f097dad5919f952",
+      "destinationSHA256": "0076f809af2e8ab4d99591c1d6eb322e7d78449b624500d85f097dad5919f952",
+      "patches": []
+    },
+    "native/DocumentOpenCVBridge/Upstream/src/include/jsoncons/json_decoder.hpp": {
+      "sourcePath": "Sources/IdentityEvidenceOpenCVBridge/Upstream/src/include/jsoncons/json_decoder.hpp",
+      "sourceSHA256": "f2d70d98ee71866b91720f32ef454f4430e42ea329126aef0b909c11911f8448",
+      "destinationSHA256": "f2d70d98ee71866b91720f32ef454f4430e42ea329126aef0b909c11911f8448",
+      "patches": []
+    },
+    "native/DocumentOpenCVBridge/Upstream/src/include/jsoncons/json_encoder.hpp": {
+      "sourcePath": "Sources/IdentityEvidenceOpenCVBridge/Upstream/src/include/jsoncons/json_encoder.hpp",
+      "sourceSHA256": "3292461d6cadb8d4050e635cf7eb762d74a6d449b69f2319124a20d9c9669b3a",
+      "destinationSHA256": "3292461d6cadb8d4050e635cf7eb762d74a6d449b69f2319124a20d9c9669b3a",
+      "patches": []
+    },
+    "native/DocumentOpenCVBridge/Upstream/src/include/jsoncons/json_error.hpp": {
+      "sourcePath": "Sources/IdentityEvidenceOpenCVBridge/Upstream/src/include/jsoncons/json_error.hpp",
+      "sourceSHA256": "0a44755e637d776c3346c985fd27a21d5f740159ba7215d2eb12f25c798479f9",
+      "destinationSHA256": "0a44755e637d776c3346c985fd27a21d5f740159ba7215d2eb12f25c798479f9",
+      "patches": []
+    },
+    "native/DocumentOpenCVBridge/Upstream/src/include/jsoncons/json_exception.hpp": {
+      "sourcePath": "Sources/IdentityEvidenceOpenCVBridge/Upstream/src/include/jsoncons/json_exception.hpp",
+      "sourceSHA256": "86984d3b811c7f0dc927246df6913d200a8c60e4be867d9af5fa95599c042401",
+      "destinationSHA256": "86984d3b811c7f0dc927246df6913d200a8c60e4be867d9af5fa95599c042401",
+      "patches": []
+    },
+    "native/DocumentOpenCVBridge/Upstream/src/include/jsoncons/json_filter.hpp": {
+      "sourcePath": "Sources/IdentityEvidenceOpenCVBridge/Upstream/src/include/jsoncons/json_filter.hpp",
+      "sourceSHA256": "66cbcdffa30c6ba30158bd866ea163fc3780f42c743d0be818824517d2889057",
+      "destinationSHA256": "66cbcdffa30c6ba30158bd866ea163fc3780f42c743d0be818824517d2889057",
+      "patches": []
+    },
+    "native/DocumentOpenCVBridge/Upstream/src/include/jsoncons/json_fwd.hpp": {
+      "sourcePath": "Sources/IdentityEvidenceOpenCVBridge/Upstream/src/include/jsoncons/json_fwd.hpp",
+      "sourceSHA256": "ef43bdd5f8c47979463eaf4afa533a38acb120a454bfe6ad57e83737bc70f0b3",
+      "destinationSHA256": "ef43bdd5f8c47979463eaf4afa533a38acb120a454bfe6ad57e83737bc70f0b3",
+      "patches": []
+    },
+    "native/DocumentOpenCVBridge/Upstream/src/include/jsoncons/json_object.hpp": {
+      "sourcePath": "Sources/IdentityEvidenceOpenCVBridge/Upstream/src/include/jsoncons/json_object.hpp",
+      "sourceSHA256": "17d404c6b1ddd52655d84b3cb4a931ce8a193ba33646b2419b5adf9c7a69167b",
+      "destinationSHA256": "17d404c6b1ddd52655d84b3cb4a931ce8a193ba33646b2419b5adf9c7a69167b",
+      "patches": []
+    },
+    "native/DocumentOpenCVBridge/Upstream/src/include/jsoncons/json_options.hpp": {
+      "sourcePath": "Sources/IdentityEvidenceOpenCVBridge/Upstream/src/include/jsoncons/json_options.hpp",
+      "sourceSHA256": "41d5f90d67dcd8965eaae1e8e58ddfffc52aadceb7e176582f7da5bd756de967",
+      "destinationSHA256": "41d5f90d67dcd8965eaae1e8e58ddfffc52aadceb7e176582f7da5bd756de967",
+      "patches": []
+    },
+    "native/DocumentOpenCVBridge/Upstream/src/include/jsoncons/json_parser.hpp": {
+      "sourcePath": "Sources/IdentityEvidenceOpenCVBridge/Upstream/src/include/jsoncons/json_parser.hpp",
+      "sourceSHA256": "5ea34fe61e42a16ed990e4ae0f3e05182fc4190b18e58ff9da3d9ceae6567972",
+      "destinationSHA256": "5ea34fe61e42a16ed990e4ae0f3e05182fc4190b18e58ff9da3d9ceae6567972",
+      "patches": []
+    },
+    "native/DocumentOpenCVBridge/Upstream/src/include/jsoncons/json_reader.hpp": {
+      "sourcePath": "Sources/IdentityEvidenceOpenCVBridge/Upstream/src/include/jsoncons/json_reader.hpp",
+      "sourceSHA256": "31d7282d411d0df9bf361ce50bd3a6c68101f3ba7a03b1c917efdfed6dd6bb62",
+      "destinationSHA256": "31d7282d411d0df9bf361ce50bd3a6c68101f3ba7a03b1c917efdfed6dd6bb62",
+      "patches": []
+    },
+    "native/DocumentOpenCVBridge/Upstream/src/include/jsoncons/json_traits_macros.hpp": {
+      "sourcePath": "Sources/IdentityEvidenceOpenCVBridge/Upstream/src/include/jsoncons/json_traits_macros.hpp",
+      "sourceSHA256": "28deaf850d58491443240191877f1b991921104a2d618d4b17fec04051e1d382",
+      "destinationSHA256": "28deaf850d58491443240191877f1b991921104a2d618d4b17fec04051e1d382",
+      "patches": []
+    },
+    "native/DocumentOpenCVBridge/Upstream/src/include/jsoncons/json_traits_macros_deprecated.hpp": {
+      "sourcePath": "Sources/IdentityEvidenceOpenCVBridge/Upstream/src/include/jsoncons/json_traits_macros_deprecated.hpp",
+      "sourceSHA256": "fcd087fa6c4731118a5c6bee1b505d04d4aa53bcde8c93476ff5852dee8f2f56",
+      "destinationSHA256": "fcd087fa6c4731118a5c6bee1b505d04d4aa53bcde8c93476ff5852dee8f2f56",
+      "patches": []
+    },
+    "native/DocumentOpenCVBridge/Upstream/src/include/jsoncons/json_type.hpp": {
+      "sourcePath": "Sources/IdentityEvidenceOpenCVBridge/Upstream/src/include/jsoncons/json_type.hpp",
+      "sourceSHA256": "af8f05887dabe78ed6ec614f0ad9291036d880fea9e83abdc000cc78dcd5620b",
+      "destinationSHA256": "af8f05887dabe78ed6ec614f0ad9291036d880fea9e83abdc000cc78dcd5620b",
+      "patches": []
+    },
+    "native/DocumentOpenCVBridge/Upstream/src/include/jsoncons/json_type_traits.hpp": {
+      "sourcePath": "Sources/IdentityEvidenceOpenCVBridge/Upstream/src/include/jsoncons/json_type_traits.hpp",
+      "sourceSHA256": "309a0234cc85ebf261ef953faecf75dc465df37958445e503646894548daadc1",
+      "destinationSHA256": "309a0234cc85ebf261ef953faecf75dc465df37958445e503646894548daadc1",
+      "patches": []
+    },
+    "native/DocumentOpenCVBridge/Upstream/src/include/jsoncons/json_visitor.hpp": {
+      "sourcePath": "Sources/IdentityEvidenceOpenCVBridge/Upstream/src/include/jsoncons/json_visitor.hpp",
+      "sourceSHA256": "f072b737201f716e6a215be857835235bcdf1b6c788717a0a698763a1c7098a1",
+      "destinationSHA256": "f072b737201f716e6a215be857835235bcdf1b6c788717a0a698763a1c7098a1",
+      "patches": []
+    },
+    "native/DocumentOpenCVBridge/Upstream/src/include/jsoncons/pretty_print.hpp": {
+      "sourcePath": "Sources/IdentityEvidenceOpenCVBridge/Upstream/src/include/jsoncons/pretty_print.hpp",
+      "sourceSHA256": "9facf9d01bd3910ee858d8494dbaa17fb690b4adc5faf035e5b11e88c22a72cc",
+      "destinationSHA256": "9facf9d01bd3910ee858d8494dbaa17fb690b4adc5faf035e5b11e88c22a72cc",
+      "patches": []
+    },
+    "native/DocumentOpenCVBridge/Upstream/src/include/jsoncons/ser_context.hpp": {
+      "sourcePath": "Sources/IdentityEvidenceOpenCVBridge/Upstream/src/include/jsoncons/ser_context.hpp",
+      "sourceSHA256": "0e2e772f4ec319323ba43dd8e2910a0f946863836e96641e833fc656831cbe22",
+      "destinationSHA256": "0e2e772f4ec319323ba43dd8e2910a0f946863836e96641e833fc656831cbe22",
+      "patches": []
+    },
+    "native/DocumentOpenCVBridge/Upstream/src/include/jsoncons/sink.hpp": {
+      "sourcePath": "Sources/IdentityEvidenceOpenCVBridge/Upstream/src/include/jsoncons/sink.hpp",
+      "sourceSHA256": "cc1e92fcc8323e62cc7ff544a23245a66ffa9490ede187d0148f46ba15e03c08",
+      "destinationSHA256": "cc1e92fcc8323e62cc7ff544a23245a66ffa9490ede187d0148f46ba15e03c08",
+      "patches": []
+    },
+    "native/DocumentOpenCVBridge/Upstream/src/include/jsoncons/source.hpp": {
+      "sourcePath": "Sources/IdentityEvidenceOpenCVBridge/Upstream/src/include/jsoncons/source.hpp",
+      "sourceSHA256": "ac07f92853343914c057cc7b7e538fc3ad0cbdc405deace9b36eb29796bbb33a",
+      "destinationSHA256": "ac07f92853343914c057cc7b7e538fc3ad0cbdc405deace9b36eb29796bbb33a",
+      "patches": []
+    },
+    "native/DocumentOpenCVBridge/Upstream/src/include/jsoncons/source_adaptor.hpp": {
+      "sourcePath": "Sources/IdentityEvidenceOpenCVBridge/Upstream/src/include/jsoncons/source_adaptor.hpp",
+      "sourceSHA256": "b1b9a01d5ae8e3927a283df6bc4e69ca0132f2321c49030c378b9adea338d047",
+      "destinationSHA256": "b1b9a01d5ae8e3927a283df6bc4e69ca0132f2321c49030c378b9adea338d047",
+      "patches": []
+    },
+    "native/DocumentOpenCVBridge/Upstream/src/include/jsoncons/staj_cursor.hpp": {
+      "sourcePath": "Sources/IdentityEvidenceOpenCVBridge/Upstream/src/include/jsoncons/staj_cursor.hpp",
+      "sourceSHA256": "5c173fe434b943775ef70b97b34f8cbc5e5f987d93b034a83df51404e85993ad",
+      "destinationSHA256": "5c173fe434b943775ef70b97b34f8cbc5e5f987d93b034a83df51404e85993ad",
+      "patches": []
+    },
+    "native/DocumentOpenCVBridge/Upstream/src/include/jsoncons/staj_iterator.hpp": {
+      "sourcePath": "Sources/IdentityEvidenceOpenCVBridge/Upstream/src/include/jsoncons/staj_iterator.hpp",
+      "sourceSHA256": "efcd88d0feff80ee2a51fbe185bb4c078d9ac7a9d8a650010d6c71f334df066f",
+      "destinationSHA256": "efcd88d0feff80ee2a51fbe185bb4c078d9ac7a9d8a650010d6c71f334df066f",
+      "patches": []
+    },
+    "native/DocumentOpenCVBridge/Upstream/src/include/jsoncons/tag_type.hpp": {
+      "sourcePath": "Sources/IdentityEvidenceOpenCVBridge/Upstream/src/include/jsoncons/tag_type.hpp",
+      "sourceSHA256": "9ae6924dadb3828ae7b85e9514133784244f625a15e5dd37baef1de1955cf0c6",
+      "destinationSHA256": "9ae6924dadb3828ae7b85e9514133784244f625a15e5dd37baef1de1955cf0c6",
+      "patches": []
+    },
+    "native/DocumentOpenCVBridge/Upstream/src/include/jsoncons/text_source_adaptor.hpp": {
+      "sourcePath": "Sources/IdentityEvidenceOpenCVBridge/Upstream/src/include/jsoncons/text_source_adaptor.hpp",
+      "sourceSHA256": "459b44e16dbde6007d6108e9432599747641da69d374a1afe22cb0e46fdd577f",
+      "destinationSHA256": "459b44e16dbde6007d6108e9432599747641da69d374a1afe22cb0e46fdd577f",
+      "patches": []
+    },
+    "native/DocumentOpenCVBridge/Upstream/src/include/jsoncons/typed_array_view.hpp": {
+      "sourcePath": "Sources/IdentityEvidenceOpenCVBridge/Upstream/src/include/jsoncons/typed_array_view.hpp",
+      "sourceSHA256": "426577fb453992722dfdd172c4e83cbaebce93a05114f6ab4df5d6183dcf8f02",
+      "destinationSHA256": "426577fb453992722dfdd172c4e83cbaebce93a05114f6ab4df5d6183dcf8f02",
+      "patches": []
+    },
+    "native/DocumentOpenCVBridge/Upstream/src/include/jsoncons/unicode_traits.hpp": {
+      "sourcePath": "Sources/IdentityEvidenceOpenCVBridge/Upstream/src/include/jsoncons/unicode_traits.hpp",
+      "sourceSHA256": "66d88f136be793ec78f2ca013b65ad4fcc3fde8bde8937fcd7d1e24272027c05",
+      "destinationSHA256": "66d88f136be793ec78f2ca013b65ad4fcc3fde8bde8937fcd7d1e24272027c05",
+      "patches": []
+    },
+    "native/DocumentOpenCVBridge/Upstream/src/include/jsoncons/uri.hpp": {
+      "sourcePath": "Sources/IdentityEvidenceOpenCVBridge/Upstream/src/include/jsoncons/uri.hpp",
+      "sourceSHA256": "ce5c3400717993e58d19ee6a0f94370b467fd10d20b3d189896baf0c239628e9",
+      "destinationSHA256": "ce5c3400717993e58d19ee6a0f94370b467fd10d20b3d189896baf0c239628e9",
+      "patches": []
+    },
+    "native/DocumentOpenCVBridge/Upstream/src/include/jsoncons/value_converter.hpp": {
+      "sourcePath": "Sources/IdentityEvidenceOpenCVBridge/Upstream/src/include/jsoncons/value_converter.hpp",
+      "sourceSHA256": "91c7da1cd9a186c312866bb0501b550a30fbdd25ea5fe27dd7a6e9a968eb579a",
+      "destinationSHA256": "91c7da1cd9a186c312866bb0501b550a30fbdd25ea5fe27dd7a6e9a968eb579a",
+      "patches": []
+    },
+    "native/DocumentOpenCVBridge/include/DocumentOpenCVBridge.h": {
+      "sourcePath": "Sources/IdentityEvidenceOpenCVBridge/include/IdentityEvidenceOpenCVBridge.h",
+      "sourceSHA256": "17abe86a82b1f6fe995b9937f13bd19a60dd39d7e1c70733eab0fe5b41dcb723",
+      "destinationSHA256": "17abe86a82b1f6fe995b9937f13bd19a60dd39d7e1c70733eab0fe5b41dcb723",
+      "patches": [
+        "Rename internal bridge header/module without changing C API"
+      ]
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "capability": "biometric",
+  "swiftModule": "BiometricSDK",
+  "androidModule": "biometric-sdk",
+  "androidPackage": "com.kenshikilabs.biometric",
+  "outcomeType": "FaceComparisonOutcome",
+  "outcomes": [
+    "pass",
+    "manual_review",
+    "fail",
+    "unavailable"
+  ]
+}

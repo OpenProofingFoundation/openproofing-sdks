@@ -1,0 +1,51 @@
+{
+  "version": "1.22.0",
+  "platform": "linux-x64",
+  "url": "https://github.com/microsoft/onnxruntime/releases/download/v1.22.0/onnxruntime-linux-x64-1.22.0.tgz",
+  "archiveSHA256": "8344d55f93d5bc5021ce342db50f62079daf39aaafb5d311a451846228be49b3",
+  "maximumArchiveBytes": 16777216,
+  "archiveRoot": "onnxruntime-linux-x64-1.22.0",
+  "declaredLicense": "MIT",
+  "files": {
+    "include/onnxruntime_c_api.h": {
+      "bytes": 275409,
+      "sha256": "d683537d0fdc29e977b5520f7f15d87a0ac212ae6d94fa9be8893a52655621ae"
+    },
+    "include/onnxruntime_cxx_api.h": {
+      "bytes": 128360,
+      "sha256": "28b21dfc371fb53d1ba67356adeb124f36643ee5ab6f1ad2e9afbf09eb4bf305"
+    },
+    "include/onnxruntime_cxx_inline.h": {
+      "bytes": 104233,
+      "sha256": "c41b9a11aac46851f68f4bd888bb2444a0e1eb6b37eadb41bf15f5154b48ea31"
+    },
+    "include/onnxruntime_float16.h": {
+      "bytes": 17860,
+      "sha256": "6c4db3d1954b266c4febe413351af86cac922e3448538e7e452e51d646e56a4a"
+    },
+    "lib/libonnxruntime.so.1.22.0": {
+      "bytes": 21042416,
+      "sha256": "3da6146e14e7b8aaec625dde11d6114c7457c87a5f93d744897da8781e35c673"
+    },
+    "lib/libonnxruntime_providers_shared.so": {
+      "bytes": 14632,
+      "sha256": "e4706ea02be3999167f000bb1ff7391c86e95d2d96f78eb33225c14b172a8451"
+    },
+    "LICENSE": {
+      "bytes": 1073,
+      "sha256": "2f07c72751aed99790b8a4869cf2311df85a860b22ded05fa22803587a48922c"
+    },
+    "ThirdPartyNotices.txt": {
+      "bytes": 326866,
+      "sha256": "e9e90971a8e75a9a8ac0c6412e29c1202d079998389915aa485f46c816c3b4cc"
+    },
+    "VERSION_NUMBER": {
+      "bytes": 7,
+      "sha256": "a482aec6f30758f5ba391b686d1f33d8ef1ab78ac649da44307ae41eb5ecad43"
+    },
+    "GIT_COMMIT_ID": {
+      "bytes": 41,
+      "sha256": "ab88b50d42ba22ee6a870d00b46e5e64378d7a17a4f6f3f2273cff616c5a8f7f"
+    }
+  }
+}

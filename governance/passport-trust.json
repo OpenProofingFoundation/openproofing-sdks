@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "identifier": "pulse-public-csca-2026-07-27",
+  "sha256": "b8df802bdf9270108073562f313868ac29af1aec270172f5c6aa232ee8bcb7a4",
+  "certificateCount": 570,
+  "maxBytes": 4194304,
+  "source": "Existing public CSCA bundle used by Pulse; source bytes retained outside Git.",
+  "scope": "Local reference-app issuer trust. Not a new trust acquisition, update or revocation service; publication qualification remains separate."
+}

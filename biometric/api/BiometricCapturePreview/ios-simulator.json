@@ -1,0 +1,156 @@
+{
+  "relationships": [
+    {
+      "kind": "conformsTo",
+      "source": "c:@M@BiometricCapturePreview@objc(cs)NativeSelfiePreviewView",
+      "target": "c:objc(pl)ARSessionProviding"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "c:@M@BiometricCapturePreview@objc(cs)NativeSelfiePreviewView",
+      "target": "c:objc(pl)CALayerDelegate"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "c:@M@BiometricCapturePreview@objc(cs)NativeSelfiePreviewView",
+      "target": "c:objc(pl)NSCoding"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "c:@M@BiometricCapturePreview@objc(cs)NativeSelfiePreviewView",
+      "target": "c:objc(pl)NSObject"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "c:@M@BiometricCapturePreview@objc(cs)NativeSelfiePreviewView",
+      "target": "c:objc(pl)SCNSceneRenderer"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "c:@M@BiometricCapturePreview@objc(cs)NativeSelfiePreviewView",
+      "target": "c:objc(pl)SCNTechniqueSupport"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "c:@M@BiometricCapturePreview@objc(cs)NativeSelfiePreviewView",
+      "target": "c:objc(pl)UIAccessibilityIdentification"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "c:@M@BiometricCapturePreview@objc(cs)NativeSelfiePreviewView",
+      "target": "c:objc(pl)UIActivityItemsConfigurationProviding"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "c:@M@BiometricCapturePreview@objc(cs)NativeSelfiePreviewView",
+      "target": "c:objc(pl)UIAppearance"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "c:@M@BiometricCapturePreview@objc(cs)NativeSelfiePreviewView",
+      "target": "c:objc(pl)UIAppearanceContainer"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "c:@M@BiometricCapturePreview@objc(cs)NativeSelfiePreviewView",
+      "target": "c:objc(pl)UICoordinateSpace"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "c:@M@BiometricCapturePreview@objc(cs)NativeSelfiePreviewView",
+      "target": "c:objc(pl)UIDynamicItem"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "c:@M@BiometricCapturePreview@objc(cs)NativeSelfiePreviewView",
+      "target": "c:objc(pl)UIFocusEnvironment"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "c:@M@BiometricCapturePreview@objc(cs)NativeSelfiePreviewView",
+      "target": "c:objc(pl)UIFocusItem"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "c:@M@BiometricCapturePreview@objc(cs)NativeSelfiePreviewView",
+      "target": "c:objc(pl)UIFocusItemContainer"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "c:@M@BiometricCapturePreview@objc(cs)NativeSelfiePreviewView",
+      "target": "c:objc(pl)UILargeContentViewerItem"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "c:@M@BiometricCapturePreview@objc(cs)NativeSelfiePreviewView",
+      "target": "c:objc(pl)UIPasteConfigurationSupporting"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "c:@M@BiometricCapturePreview@objc(cs)NativeSelfiePreviewView",
+      "target": "c:objc(pl)UIPopoverPresentationControllerSourceItem"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "c:@M@BiometricCapturePreview@objc(cs)NativeSelfiePreviewView",
+      "target": "c:objc(pl)UIResponderStandardEditActions"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "c:@M@BiometricCapturePreview@objc(cs)NativeSelfiePreviewView",
+      "target": "c:objc(pl)UITraitEnvironment"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "c:@M@BiometricCapturePreview@objc(cs)NativeSelfiePreviewView",
+      "target": "c:objc(pl)UIUserActivityRestoring"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "c:@M@BiometricCapturePreview@objc(cs)NativeSelfiePreviewView",
+      "target": "s:5UIKit23UITraitChangeObservableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "c:@M@BiometricCapturePreview@objc(cs)NativeSelfiePreviewView",
+      "target": "s:SH"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "c:@M@BiometricCapturePreview@objc(cs)NativeSelfiePreviewView",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "c:@M@BiometricCapturePreview@objc(cs)NativeSelfiePreviewView",
+      "target": "s:s23CustomStringConvertibleP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "c:@M@BiometricCapturePreview@objc(cs)NativeSelfiePreviewView",
+      "target": "s:s28CustomDebugStringConvertibleP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "c:@M@BiometricCapturePreview@objc(cs)NativeSelfiePreviewView",
+      "target": "s:s7CVarArgP"
+    },
+    {
+      "kind": "inheritsFrom",
+      "source": "c:@M@BiometricCapturePreview@objc(cs)NativeSelfiePreviewView",
+      "target": "c:objc(cs)ARSCNView"
+    }
+  ],
+  "symbols": [
+    {
+      "declaration": "@MainActor final class NativeSelfiePreviewView",
+      "id": "c:@M@BiometricCapturePreview@objc(cs)NativeSelfiePreviewView",
+      "kind": "swift.class"
+    },
+    {
+      "declaration": "@MainActor init(captureSession: NativeSelfieSession)",
+      "id": "s:23BiometricCapturePreview012NativeSelfieC4ViewC14captureSessionAC0aB00deH0C_tcfc",
+      "kind": "swift.init"
+    }
+  ]
+}

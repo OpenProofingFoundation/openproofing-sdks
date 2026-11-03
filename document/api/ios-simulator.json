@@ -1,0 +1,1541 @@
+{
+  "relationships": [
+    {
+      "kind": "conformsTo",
+      "source": "s:11DocumentSDK0A12CheckOutcomeO",
+      "target": "s:SE"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11DocumentSDK0A12CheckOutcomeO",
+      "target": "s:SH"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11DocumentSDK0A12CheckOutcomeO",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11DocumentSDK0A12CheckOutcomeO",
+      "target": "s:SY"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11DocumentSDK0A12CheckOutcomeO",
+      "target": "s:Se"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11DocumentSDK0A12CheckOutcomeO",
+      "target": "s:s12CaseIterableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11DocumentSDK0A12CheckOutcomeO",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11DocumentSDK0A12CheckOutcomeO",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11DocumentSDK0A4SideO",
+      "target": "s:SE"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11DocumentSDK0A4SideO",
+      "target": "s:SH"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11DocumentSDK0A4SideO",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11DocumentSDK0A4SideO",
+      "target": "s:SY"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11DocumentSDK0A4SideO",
+      "target": "s:Se"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11DocumentSDK0A4SideO",
+      "target": "s:s12CaseIterableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11DocumentSDK0A4SideO",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11DocumentSDK0A4SideO",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11DocumentSDK11MediaOriginO",
+      "target": "s:SE"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11DocumentSDK11MediaOriginO",
+      "target": "s:SH"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11DocumentSDK11MediaOriginO",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11DocumentSDK11MediaOriginO",
+      "target": "s:SY"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11DocumentSDK11MediaOriginO",
+      "target": "s:Se"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11DocumentSDK11MediaOriginO",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11DocumentSDK11MediaOriginO",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11DocumentSDK16CaptureSessionIDV",
+      "target": "s:SE"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11DocumentSDK16CaptureSessionIDV",
+      "target": "s:SH"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11DocumentSDK16CaptureSessionIDV",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11DocumentSDK16CaptureSessionIDV",
+      "target": "s:Se"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11DocumentSDK16CaptureSessionIDV",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11DocumentSDK16CaptureSessionIDV",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11DocumentSDK17AAMVAPDF417ResultV",
+      "target": "s:SE"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11DocumentSDK17AAMVAPDF417ResultV",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11DocumentSDK17AAMVAPDF417ResultV",
+      "target": "s:Se"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11DocumentSDK17AAMVAPDF417ResultV",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11DocumentSDK17AAMVAPDF417ResultV",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11DocumentSDK17AAMVAPDF417ResultV6StatusO",
+      "target": "s:SE"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11DocumentSDK17AAMVAPDF417ResultV6StatusO",
+      "target": "s:SH"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11DocumentSDK17AAMVAPDF417ResultV6StatusO",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11DocumentSDK17AAMVAPDF417ResultV6StatusO",
+      "target": "s:SY"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11DocumentSDK17AAMVAPDF417ResultV6StatusO",
+      "target": "s:Se"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11DocumentSDK17AAMVAPDF417ResultV6StatusO",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11DocumentSDK17AAMVAPDF417ResultV6StatusO",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11DocumentSDK17AAMVAPDF417ResultV7RefusalO",
+      "target": "s:SE"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11DocumentSDK17AAMVAPDF417ResultV7RefusalO",
+      "target": "s:SH"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11DocumentSDK17AAMVAPDF417ResultV7RefusalO",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11DocumentSDK17AAMVAPDF417ResultV7RefusalO",
+      "target": "s:SY"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11DocumentSDK17AAMVAPDF417ResultV7RefusalO",
+      "target": "s:Se"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11DocumentSDK17AAMVAPDF417ResultV7RefusalO",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11DocumentSDK17AAMVAPDF417ResultV7RefusalO",
+      "target": "s:s5ErrorP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11DocumentSDK17AAMVAPDF417ResultV7RefusalO",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11DocumentSDK17PortraitPixelRectV",
+      "target": "s:SE"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11DocumentSDK17PortraitPixelRectV",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11DocumentSDK17PortraitPixelRectV",
+      "target": "s:Se"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11DocumentSDK17PortraitPixelRectV",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11DocumentSDK17PortraitPixelRectV",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11DocumentSDK18AAMVAIdentityNamesV",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11DocumentSDK18AAMVAIdentityNamesV",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11DocumentSDK18AAMVAIdentityNamesV",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11DocumentSDK18AAMVAIdentityNamesV4PartO",
+      "target": "s:SH"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11DocumentSDK18AAMVAIdentityNamesV4PartO",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11DocumentSDK18AAMVAIdentityNamesV4PartO",
+      "target": "s:SY"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11DocumentSDK18AAMVAIdentityNamesV4PartO",
+      "target": "s:s12CaseIterableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11DocumentSDK18AAMVAIdentityNamesV4PartO",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11DocumentSDK18AAMVAIdentityNamesV4PartO",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11DocumentSDK18AAMVAIdentityNamesV7ReadingV",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11DocumentSDK18AAMVAIdentityNamesV7ReadingV",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11DocumentSDK18AAMVAIdentityNamesV7ReadingV",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11DocumentSDK18CalibrationProfileP",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11DocumentSDK18CalibrationProfileP",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11DocumentSDK20PortraitCropDefaultsO",
+      "target": "s:11DocumentSDK18CalibrationProfileP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11DocumentSDK20PortraitCropDefaultsO",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11DocumentSDK20PortraitCropDefaultsO",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11DocumentSDK21CaptureLocationRecordV",
+      "target": "s:SE"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11DocumentSDK21CaptureLocationRecordV",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11DocumentSDK21CaptureLocationRecordV",
+      "target": "s:Se"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11DocumentSDK21CaptureLocationRecordV",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11DocumentSDK21CaptureLocationRecordV",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11DocumentSDK21CaptureLocationRecordV11DispositionO",
+      "target": "s:SE"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11DocumentSDK21CaptureLocationRecordV11DispositionO",
+      "target": "s:SH"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11DocumentSDK21CaptureLocationRecordV11DispositionO",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11DocumentSDK21CaptureLocationRecordV11DispositionO",
+      "target": "s:SY"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11DocumentSDK21CaptureLocationRecordV11DispositionO",
+      "target": "s:Se"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11DocumentSDK21CaptureLocationRecordV11DispositionO",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11DocumentSDK21CaptureLocationRecordV11DispositionO",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11DocumentSDK21PortraitCropCandidateV",
+      "target": "s:SE"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11DocumentSDK21PortraitCropCandidateV",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11DocumentSDK21PortraitCropCandidateV",
+      "target": "s:Se"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11DocumentSDK21PortraitCropCandidateV",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11DocumentSDK21PortraitCropCandidateV",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11DocumentSDK21PortraitCropCandidateV4RoleO",
+      "target": "s:SE"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11DocumentSDK21PortraitCropCandidateV4RoleO",
+      "target": "s:SH"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11DocumentSDK21PortraitCropCandidateV4RoleO",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11DocumentSDK21PortraitCropCandidateV4RoleO",
+      "target": "s:SY"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11DocumentSDK21PortraitCropCandidateV4RoleO",
+      "target": "s:Se"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11DocumentSDK21PortraitCropCandidateV4RoleO",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11DocumentSDK21PortraitCropCandidateV4RoleO",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11DocumentSDK22PortraitCropAssessmentV",
+      "target": "s:SE"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11DocumentSDK22PortraitCropAssessmentV",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11DocumentSDK22PortraitCropAssessmentV",
+      "target": "s:Se"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11DocumentSDK22PortraitCropAssessmentV",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11DocumentSDK22PortraitCropAssessmentV",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11DocumentSDK22PortraitCropAssessmentV7OutcomeO",
+      "target": "s:SE"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11DocumentSDK22PortraitCropAssessmentV7OutcomeO",
+      "target": "s:SH"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11DocumentSDK22PortraitCropAssessmentV7OutcomeO",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11DocumentSDK22PortraitCropAssessmentV7OutcomeO",
+      "target": "s:SY"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11DocumentSDK22PortraitCropAssessmentV7OutcomeO",
+      "target": "s:Se"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11DocumentSDK22PortraitCropAssessmentV7OutcomeO",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11DocumentSDK22PortraitCropAssessmentV7OutcomeO",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11DocumentSDK22PortraitNormalizedRectV",
+      "target": "s:SE"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11DocumentSDK22PortraitNormalizedRectV",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11DocumentSDK22PortraitNormalizedRectV",
+      "target": "s:Se"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11DocumentSDK22PortraitNormalizedRectV",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11DocumentSDK22PortraitNormalizedRectV",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11DocumentSDK23AAMVAIssuerJurisdictionO6IssuerV",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11DocumentSDK23AAMVAIssuerJurisdictionO6IssuerV",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11DocumentSDK23AAMVAIssuerJurisdictionO6IssuerV",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11DocumentSDK23PortraitFaceObservationV",
+      "target": "s:SE"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11DocumentSDK23PortraitFaceObservationV",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11DocumentSDK23PortraitFaceObservationV",
+      "target": "s:Se"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11DocumentSDK23PortraitFaceObservationV",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11DocumentSDK23PortraitFaceObservationV",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11DocumentSDK24CaptureLocationAssertionV",
+      "target": "s:SE"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11DocumentSDK24CaptureLocationAssertionV",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11DocumentSDK24CaptureLocationAssertionV",
+      "target": "s:Se"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11DocumentSDK24CaptureLocationAssertionV",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11DocumentSDK24CaptureLocationAssertionV",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11DocumentSDK24CaptureLocationAssertionV6SourceO",
+      "target": "s:SE"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11DocumentSDK24CaptureLocationAssertionV6SourceO",
+      "target": "s:SH"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11DocumentSDK24CaptureLocationAssertionV6SourceO",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11DocumentSDK24CaptureLocationAssertionV6SourceO",
+      "target": "s:SY"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11DocumentSDK24CaptureLocationAssertionV6SourceO",
+      "target": "s:Se"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11DocumentSDK24CaptureLocationAssertionV6SourceO",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11DocumentSDK24CaptureLocationAssertionV6SourceO",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11DocumentSDK24LicenseFrontVisualFieldsV",
+      "target": "s:SE"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11DocumentSDK24LicenseFrontVisualFieldsV",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11DocumentSDK24LicenseFrontVisualFieldsV",
+      "target": "s:Se"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11DocumentSDK24LicenseFrontVisualFieldsV",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11DocumentSDK24LicenseFrontVisualFieldsV",
+      "target": "s:s8SendableP"
+    }
+  ],
+  "symbols": [
+    {
+      "declaration": "enum DocumentCheckOutcome",
+      "id": "s:11DocumentSDK0A12CheckOutcomeO",
+      "kind": "swift.enum"
+    },
+    {
+      "declaration": "case unavailable",
+      "id": "s:11DocumentSDK0A12CheckOutcomeO11unavailableyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case unsupported",
+      "id": "s:11DocumentSDK0A12CheckOutcomeO11unsupportedyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case inconclusive",
+      "id": "s:11DocumentSDK0A12CheckOutcomeO12inconclusiveyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case notPerformed",
+      "id": "s:11DocumentSDK0A12CheckOutcomeO12notPerformedyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case fail",
+      "id": "s:11DocumentSDK0A12CheckOutcomeO4failyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case pass",
+      "id": "s:11DocumentSDK0A12CheckOutcomeO4passyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "init?(rawValue: String)",
+      "id": "s:11DocumentSDK0A12CheckOutcomeO8rawValueACSgSS_tcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "enum DocumentSide",
+      "id": "s:11DocumentSDK0A4SideO",
+      "kind": "swift.enum"
+    },
+    {
+      "declaration": "case back",
+      "id": "s:11DocumentSDK0A4SideO4backyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case front",
+      "id": "s:11DocumentSDK0A4SideO5frontyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "init?(rawValue: String)",
+      "id": "s:11DocumentSDK0A4SideO8rawValueACSgSS_tcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "enum MediaOrigin",
+      "id": "s:11DocumentSDK11MediaOriginO",
+      "kind": "swift.enum"
+    },
+    {
+      "declaration": "case liveSensor",
+      "id": "s:11DocumentSDK11MediaOriginO10liveSensoryA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case imported",
+      "id": "s:11DocumentSDK11MediaOriginO8importedyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "init?(rawValue: String)",
+      "id": "s:11DocumentSDK11MediaOriginO8rawValueACSgSS_tcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "struct CaptureSessionID",
+      "id": "s:11DocumentSDK16CaptureSessionIDV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "init(from decoder: any Decoder) throws",
+      "id": "s:11DocumentSDK16CaptureSessionIDV4fromACs7Decoder_p_tKcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "let rawValue: UUID",
+      "id": "s:11DocumentSDK16CaptureSessionIDV8rawValue10Foundation4UUIDVvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "init(rawValue: UUID = UUID())",
+      "id": "s:11DocumentSDK16CaptureSessionIDV8rawValueAC10Foundation4UUIDV_tcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "enum AAMVAPDF417Parser",
+      "id": "s:11DocumentSDK17AAMVAPDF417ParserO",
+      "kind": "swift.enum"
+    },
+    {
+      "declaration": "static let implementationVersion: String",
+      "id": "s:11DocumentSDK17AAMVAPDF417ParserO21implementationVersionSSvpZ",
+      "kind": "swift.type.property"
+    },
+    {
+      "declaration": "static func parse(_ payload: String) -> AAMVAPDF417Result",
+      "id": "s:11DocumentSDK17AAMVAPDF417ParserO5parseyAA0C6ResultVSSFZ",
+      "kind": "swift.type.method"
+    },
+    {
+      "declaration": "struct AAMVAPDF417Result",
+      "id": "s:11DocumentSDK17AAMVAPDF417ResultV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "let rawPayload: String",
+      "id": "s:11DocumentSDK17AAMVAPDF417ResultV10rawPayloadSSvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let subfileType: String?",
+      "id": "s:11DocumentSDK17AAMVAPDF417ResultV11subfileTypeSSSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let jurisdictionVersion: Int?",
+      "id": "s:11DocumentSDK17AAMVAPDF417ResultV19jurisdictionVersionSiSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let missingRequiredElements: [String]",
+      "id": "s:11DocumentSDK17AAMVAPDF417ResultV23missingRequiredElementsSaySSGvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "init(from decoder: any Decoder) throws",
+      "id": "s:11DocumentSDK17AAMVAPDF417ResultV4fromACs7Decoder_p_tKcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "enum Status",
+      "id": "s:11DocumentSDK17AAMVAPDF417ResultV6StatusO",
+      "kind": "swift.enum"
+    },
+    {
+      "declaration": "case unsupported",
+      "id": "s:11DocumentSDK17AAMVAPDF417ResultV6StatusO11unsupportedyA2EmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "init?(rawValue: String)",
+      "id": "s:11DocumentSDK17AAMVAPDF417ResultV6StatusO8rawValueAESgSS_tcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "case readable",
+      "id": "s:11DocumentSDK17AAMVAPDF417ResultV6StatusO8readableyA2EmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case malformed",
+      "id": "s:11DocumentSDK17AAMVAPDF417ResultV6StatusO9malformedyA2EmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "let fields: [String : String]",
+      "id": "s:11DocumentSDK17AAMVAPDF417ResultV6fieldsSDyS2SGvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let status: AAMVAPDF417Result.Status",
+      "id": "s:11DocumentSDK17AAMVAPDF417ResultV6statusAC6StatusOvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "enum Refusal",
+      "id": "s:11DocumentSDK17AAMVAPDF417ResultV7RefusalO",
+      "kind": "swift.enum"
+    },
+    {
+      "declaration": "case descriptor",
+      "id": "s:11DocumentSDK17AAMVAPDF417ResultV7RefusalO10descriptoryA2EmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case descriptors",
+      "id": "s:11DocumentSDK17AAMVAPDF417ResultV7RefusalO11descriptorsyA2EmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case documentType",
+      "id": "s:11DocumentSDK17AAMVAPDF417ResultV7RefusalO12documentTypeyA2EmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case unterminated",
+      "id": "s:11DocumentSDK17AAMVAPDF417ResultV7RefusalO12unterminatedyA2EmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case unsupportedVersion",
+      "id": "s:11DocumentSDK17AAMVAPDF417ResultV7RefusalO18unsupportedVersionyA2EmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case jurisdictionVersion",
+      "id": "s:11DocumentSDK17AAMVAPDF417ResultV7RefusalO19jurisdictionVersionyA2EmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case header",
+      "id": "s:11DocumentSDK17AAMVAPDF417ResultV7RefusalO6headeryA2EmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case element",
+      "id": "s:11DocumentSDK17AAMVAPDF417ResultV7RefusalO7elementyA2EmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case entries",
+      "id": "s:11DocumentSDK17AAMVAPDF417ResultV7RefusalO7entriesyA2EmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case version",
+      "id": "s:11DocumentSDK17AAMVAPDF417ResultV7RefusalO7versionyA2EmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case conflict",
+      "id": "s:11DocumentSDK17AAMVAPDF417ResultV7RefusalO8conflictyA2EmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case nonASCII",
+      "id": "s:11DocumentSDK17AAMVAPDF417ResultV7RefusalO8nonASCIIyA2EmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "init?(rawValue: String)",
+      "id": "s:11DocumentSDK17AAMVAPDF417ResultV7RefusalO8rawValueAESgSS_tcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "case tooLarge",
+      "id": "s:11DocumentSDK17AAMVAPDF417ResultV7RefusalO8tooLargeyA2EmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case issuerIIN",
+      "id": "s:11DocumentSDK17AAMVAPDF417ResultV7RefusalO9issuerIINyA2EmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "let refusal: AAMVAPDF417Result.Refusal?",
+      "id": "s:11DocumentSDK17AAMVAPDF417ResultV7refusalAC7RefusalOSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let version: Int?",
+      "id": "s:11DocumentSDK17AAMVAPDF417ResultV7versionSiSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let issuerIIN: String?",
+      "id": "s:11DocumentSDK17AAMVAPDF417ResultV9issuerIINSSSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "struct PortraitPixelRect",
+      "id": "s:11DocumentSDK17PortraitPixelRectV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "init(x: Int, y: Int, width: Int, height: Int)",
+      "id": "s:11DocumentSDK17PortraitPixelRectV1x1y5width6heightACSi_S3itcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "let x: Int",
+      "id": "s:11DocumentSDK17PortraitPixelRectV1xSivp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let y: Int",
+      "id": "s:11DocumentSDK17PortraitPixelRectV1ySivp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "init(from decoder: any Decoder) throws",
+      "id": "s:11DocumentSDK17PortraitPixelRectV4fromACs7Decoder_p_tKcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "let width: Int",
+      "id": "s:11DocumentSDK17PortraitPixelRectV5widthSivp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let height: Int",
+      "id": "s:11DocumentSDK17PortraitPixelRectV6heightSivp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "struct AAMVAIdentityNames",
+      "id": "s:11DocumentSDK18AAMVAIdentityNamesV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "enum Part",
+      "id": "s:11DocumentSDK18AAMVAIdentityNamesV4PartO",
+      "kind": "swift.enum"
+    },
+    {
+      "declaration": "case given",
+      "id": "s:11DocumentSDK18AAMVAIdentityNamesV4PartO5givenyA2EmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case family",
+      "id": "s:11DocumentSDK18AAMVAIdentityNamesV4PartO6familyyA2EmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case middle",
+      "id": "s:11DocumentSDK18AAMVAIdentityNamesV4PartO6middleyA2EmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "init?(rawValue: String)",
+      "id": "s:11DocumentSDK18AAMVAIdentityNamesV4PartO8rawValueAESgSS_tcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "struct Reading",
+      "id": "s:11DocumentSDK18AAMVAIdentityNamesV7ReadingV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "let value: String",
+      "id": "s:11DocumentSDK18AAMVAIdentityNamesV7ReadingV5valueSSvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let element: String",
+      "id": "s:11DocumentSDK18AAMVAIdentityNamesV7ReadingV7elementSSvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "func reading(_ part: AAMVAIdentityNames.Part) -> AAMVAIdentityNames.Reading?",
+      "id": "s:11DocumentSDK18AAMVAIdentityNamesV7readingyAC7ReadingVSgAC4PartOF",
+      "kind": "swift.method"
+    },
+    {
+      "declaration": "let readings: [AAMVAIdentityNames.Part : [AAMVAIdentityNames.Reading]]",
+      "id": "s:11DocumentSDK18AAMVAIdentityNamesV8readingsSDyAC4PartOSayAC7ReadingVGGvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "func conflicts(_ part: AAMVAIdentityNames.Part) -> Bool",
+      "id": "s:11DocumentSDK18AAMVAIdentityNamesV9conflictsySbAC4PartOF",
+      "kind": "swift.method"
+    },
+    {
+      "declaration": "init(_ elements: [String : String])",
+      "id": "s:11DocumentSDK18AAMVAIdentityNamesVyACSDyS2SGcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "protocol CalibrationProfile : Sendable",
+      "id": "s:11DocumentSDK18CalibrationProfileP",
+      "kind": "swift.protocol"
+    },
+    {
+      "declaration": "static var calibrationStatus: String { get }",
+      "id": "s:11DocumentSDK18CalibrationProfileP17calibrationStatusSSvpZ",
+      "kind": "swift.type.property"
+    },
+    {
+      "declaration": "static var profileIdentifier: String { get }",
+      "id": "s:11DocumentSDK18CalibrationProfileP17profileIdentifierSSvpZ",
+      "kind": "swift.type.property"
+    },
+    {
+      "declaration": "static var populationDescription: String { get }",
+      "id": "s:11DocumentSDK18CalibrationProfileP21populationDescriptionSSvpZ",
+      "kind": "swift.type.property"
+    },
+    {
+      "declaration": "enum PortraitCropPolicy",
+      "id": "s:11DocumentSDK18PortraitCropPolicyO",
+      "kind": "swift.enum"
+    },
+    {
+      "declaration": "static func evaluate(faces: [PortraitFaceObservation], imageWidth: Int, imageHeight: Int, paddingFraction: Double = PortraitCropDefaults.paddingFraction) -> PortraitCropAssessment",
+      "id": "s:11DocumentSDK18PortraitCropPolicyO8evaluate5faces10imageWidth0H6Height15paddingFractionAA0cD10AssessmentVSayAA0C15FaceObservationVG_S2iSdtFZ",
+      "kind": "swift.type.method"
+    },
+    {
+      "declaration": "enum PortraitCropDefaults",
+      "id": "s:11DocumentSDK20PortraitCropDefaultsO",
+      "kind": "swift.enum"
+    },
+    {
+      "declaration": "static let paddingFraction: Double",
+      "id": "s:11DocumentSDK20PortraitCropDefaultsO15paddingFractionSdvpZ",
+      "kind": "swift.type.property"
+    },
+    {
+      "declaration": "static let calibrationStatus: String",
+      "id": "s:11DocumentSDK20PortraitCropDefaultsO17calibrationStatusSSvpZ",
+      "kind": "swift.type.property"
+    },
+    {
+      "declaration": "static let profileIdentifier: String",
+      "id": "s:11DocumentSDK20PortraitCropDefaultsO17profileIdentifierSSvpZ",
+      "kind": "swift.type.property"
+    },
+    {
+      "declaration": "static let populationDescription: String",
+      "id": "s:11DocumentSDK20PortraitCropDefaultsO21populationDescriptionSSvpZ",
+      "kind": "swift.type.property"
+    },
+    {
+      "declaration": "struct CaptureLocationRecord",
+      "id": "s:11DocumentSDK21CaptureLocationRecordV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "enum Disposition",
+      "id": "s:11DocumentSDK21CaptureLocationRecordV11DispositionO",
+      "kind": "swift.enum"
+    },
+    {
+      "declaration": "case embeddedInEncodedBytes",
+      "id": "s:11DocumentSDK21CaptureLocationRecordV11DispositionO22embeddedInEncodedBytesyA2EmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case refusedMalformedAssertion",
+      "id": "s:11DocumentSDK21CaptureLocationRecordV11DispositionO25refusedMalformedAssertionyA2EmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case requestedButAbsentFromEncodedBytes",
+      "id": "s:11DocumentSDK21CaptureLocationRecordV11DispositionO34requestedButAbsentFromEncodedBytesyA2EmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "init?(rawValue: String)",
+      "id": "s:11DocumentSDK21CaptureLocationRecordV11DispositionO8rawValueAESgSS_tcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "let disposition: CaptureLocationRecord.Disposition",
+      "id": "s:11DocumentSDK21CaptureLocationRecordV11dispositionAC11DispositionOvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "init(from decoder: any Decoder) throws",
+      "id": "s:11DocumentSDK21CaptureLocationRecordV4fromACs7Decoder_p_tKcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "init(assertion: CaptureLocationAssertion, disposition: CaptureLocationRecord.Disposition)",
+      "id": "s:11DocumentSDK21CaptureLocationRecordV9assertion11dispositionAcA0cD9AssertionV_AC11DispositionOtcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "let assertion: CaptureLocationAssertion",
+      "id": "s:11DocumentSDK21CaptureLocationRecordV9assertionAA0cD9AssertionVvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "struct PortraitCropCandidate",
+      "id": "s:11DocumentSDK21PortraitCropCandidateV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "let confidence: Double",
+      "id": "s:11DocumentSDK21PortraitCropCandidateV10confidenceSdvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let wasClipped: Bool",
+      "id": "s:11DocumentSDK21PortraitCropCandidateV10wasClippedSbvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let normalizedTopLeft: PortraitNormalizedRect",
+      "id": "s:11DocumentSDK21PortraitCropCandidateV17normalizedTopLeftAA0C14NormalizedRectVvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "enum Role",
+      "id": "s:11DocumentSDK21PortraitCropCandidateV4RoleO",
+      "kind": "swift.enum"
+    },
+    {
+      "declaration": "case faceRegion",
+      "id": "s:11DocumentSDK21PortraitCropCandidateV4RoleO10faceRegionyA2EmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "init?(rawValue: String)",
+      "id": "s:11DocumentSDK21PortraitCropCandidateV4RoleO8rawValueAESgSS_tcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "init(from decoder: any Decoder) throws",
+      "id": "s:11DocumentSDK21PortraitCropCandidateV4fromACs7Decoder_p_tKcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "let role: PortraitCropCandidate.Role",
+      "id": "s:11DocumentSDK21PortraitCropCandidateV4roleAC4RoleOvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let faceIndex: Int",
+      "id": "s:11DocumentSDK21PortraitCropCandidateV9faceIndexSivp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let pixelRect: PortraitPixelRect",
+      "id": "s:11DocumentSDK21PortraitCropCandidateV9pixelRectAA0c5PixelG0Vvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "struct PortraitCropAssessment",
+      "id": "s:11DocumentSDK22PortraitCropAssessmentV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "let candidates: [PortraitCropCandidate]",
+      "id": "s:11DocumentSDK22PortraitCropAssessmentV10candidatesSayAA0cD9CandidateVGvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let imageWidth: Int",
+      "id": "s:11DocumentSDK22PortraitCropAssessmentV10imageWidthSivp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let imageHeight: Int",
+      "id": "s:11DocumentSDK22PortraitCropAssessmentV11imageHeightSivp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let policyVersion: String",
+      "id": "s:11DocumentSDK22PortraitCropAssessmentV13policyVersionSSvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let schemaVersion: Int",
+      "id": "s:11DocumentSDK22PortraitCropAssessmentV13schemaVersionSivp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let paddingFraction: Double?",
+      "id": "s:11DocumentSDK22PortraitCropAssessmentV15paddingFractionSdSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let unselectedFaceIndices: [Int]",
+      "id": "s:11DocumentSDK22PortraitCropAssessmentV21unselectedFaceIndicesSaySiGvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let selectedCandidateIndex: Int?",
+      "id": "s:11DocumentSDK22PortraitCropAssessmentV22selectedCandidateIndexSiSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "init(from decoder: any Decoder) throws",
+      "id": "s:11DocumentSDK22PortraitCropAssessmentV4fromACs7Decoder_p_tKcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "enum Outcome",
+      "id": "s:11DocumentSDK22PortraitCropAssessmentV7OutcomeO",
+      "kind": "swift.enum"
+    },
+    {
+      "declaration": "case invalidInput",
+      "id": "s:11DocumentSDK22PortraitCropAssessmentV7OutcomeO12invalidInputyA2EmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case provisionalSingleFace",
+      "id": "s:11DocumentSDK22PortraitCropAssessmentV7OutcomeO21provisionalSingleFaceyA2EmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case noFace",
+      "id": "s:11DocumentSDK22PortraitCropAssessmentV7OutcomeO6noFaceyA2EmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "init?(rawValue: String)",
+      "id": "s:11DocumentSDK22PortraitCropAssessmentV7OutcomeO8rawValueAESgSS_tcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "case ambiguous",
+      "id": "s:11DocumentSDK22PortraitCropAssessmentV7OutcomeO9ambiguousyA2EmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "let outcome: PortraitCropAssessment.Outcome",
+      "id": "s:11DocumentSDK22PortraitCropAssessmentV7outcomeAC7OutcomeOvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "struct PortraitNormalizedRect",
+      "id": "s:11DocumentSDK22PortraitNormalizedRectV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "init(x: Double, y: Double, width: Double, height: Double)",
+      "id": "s:11DocumentSDK22PortraitNormalizedRectV1x1y5width6heightACSd_S3dtcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "let x: Double",
+      "id": "s:11DocumentSDK22PortraitNormalizedRectV1xSdvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let y: Double",
+      "id": "s:11DocumentSDK22PortraitNormalizedRectV1ySdvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "init(from decoder: any Decoder) throws",
+      "id": "s:11DocumentSDK22PortraitNormalizedRectV4fromACs7Decoder_p_tKcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "let width: Double",
+      "id": "s:11DocumentSDK22PortraitNormalizedRectV5widthSdvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let height: Double",
+      "id": "s:11DocumentSDK22PortraitNormalizedRectV6heightSdvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "enum AAMVAIssuerJurisdiction",
+      "id": "s:11DocumentSDK23AAMVAIssuerJurisdictionO",
+      "kind": "swift.enum"
+    },
+    {
+      "declaration": "static func codes(country: String) -> Set<String>",
+      "id": "s:11DocumentSDK23AAMVAIssuerJurisdictionO5codes7countryShySSGSS_tFZ",
+      "kind": "swift.type.method"
+    },
+    {
+      "declaration": "struct Issuer",
+      "id": "s:11DocumentSDK23AAMVAIssuerJurisdictionO6IssuerV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "let code: String?",
+      "id": "s:11DocumentSDK23AAMVAIssuerJurisdictionO6IssuerV4codeSSSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "init(country: String, code: String?)",
+      "id": "s:11DocumentSDK23AAMVAIssuerJurisdictionO6IssuerV7country4codeAESS_SSSgtcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "let country: String",
+      "id": "s:11DocumentSDK23AAMVAIssuerJurisdictionO6IssuerV7countrySSvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "static func issuer(_ iin: String) -> AAMVAIssuerJurisdiction.Issuer?",
+      "id": "s:11DocumentSDK23AAMVAIssuerJurisdictionO6issueryAC6IssuerVSgSSFZ",
+      "kind": "swift.type.method"
+    },
+    {
+      "declaration": "static func resolve(_ iin: String) -> String?",
+      "id": "s:11DocumentSDK23AAMVAIssuerJurisdictionO7resolveySSSgSSFZ",
+      "kind": "swift.type.method"
+    },
+    {
+      "declaration": "struct PortraitFaceObservation",
+      "id": "s:11DocumentSDK23PortraitFaceObservationV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "let confidence: Double",
+      "id": "s:11DocumentSDK23PortraitFaceObservationV10confidenceSdvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "init(boundingBox: PortraitNormalizedRect, confidence: Double)",
+      "id": "s:11DocumentSDK23PortraitFaceObservationV11boundingBox10confidenceAcA0C14NormalizedRectV_Sdtcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "let boundingBox: PortraitNormalizedRect",
+      "id": "s:11DocumentSDK23PortraitFaceObservationV11boundingBoxAA0C14NormalizedRectVvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "init(from decoder: any Decoder) throws",
+      "id": "s:11DocumentSDK23PortraitFaceObservationV4fromACs7Decoder_p_tKcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "struct CaptureLocationAssertion",
+      "id": "s:11DocumentSDK24CaptureLocationAssertionV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "var wellFormed: Bool { get }",
+      "id": "s:11DocumentSDK24CaptureLocationAssertionV10wellFormedSbvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let altitudeMeters: Double?",
+      "id": "s:11DocumentSDK24CaptureLocationAssertionV14altitudeMetersSdSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "init(latitudeDegrees: Double, longitudeDegrees: Double, horizontalAccuracyMeters: Double? = nil, altitudeMeters: Double? = nil, verticalAccuracyMeters: Double? = nil, fixedAt: Date, source: CaptureLocationAssertion.Source)",
+      "id": "s:11DocumentSDK24CaptureLocationAssertionV15latitudeDegrees09longitudeG024horizontalAccuracyMeters08altitudeK008verticaljK07fixedAt6sourceACSd_S2dSgA2K10Foundation4DateVAC6SourceOtcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "let latitudeDegrees: Double",
+      "id": "s:11DocumentSDK24CaptureLocationAssertionV15latitudeDegreesSdvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let longitudeDegrees: Double",
+      "id": "s:11DocumentSDK24CaptureLocationAssertionV16longitudeDegreesSdvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let verticalAccuracyMeters: Double?",
+      "id": "s:11DocumentSDK24CaptureLocationAssertionV22verticalAccuracyMetersSdSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let horizontalAccuracyMeters: Double?",
+      "id": "s:11DocumentSDK24CaptureLocationAssertionV24horizontalAccuracyMetersSdSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "init(from decoder: any Decoder) throws",
+      "id": "s:11DocumentSDK24CaptureLocationAssertionV4fromACs7Decoder_p_tKcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "enum Source",
+      "id": "s:11DocumentSDK24CaptureLocationAssertionV6SourceO",
+      "kind": "swift.enum"
+    },
+    {
+      "declaration": "case hostDeviceLocationService",
+      "id": "s:11DocumentSDK24CaptureLocationAssertionV6SourceO010hostDeviceD7ServiceyA2EmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case hostSimulated",
+      "id": "s:11DocumentSDK24CaptureLocationAssertionV6SourceO13hostSimulatedyA2EmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case hostManualEntry",
+      "id": "s:11DocumentSDK24CaptureLocationAssertionV6SourceO15hostManualEntryyA2EmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "init?(rawValue: String)",
+      "id": "s:11DocumentSDK24CaptureLocationAssertionV6SourceO8rawValueAESgSS_tcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "func encode(to encoder: any Encoder) throws",
+      "id": "s:11DocumentSDK24CaptureLocationAssertionV6encode2toys7Encoder_p_tKF",
+      "kind": "swift.method"
+    },
+    {
+      "declaration": "let source: CaptureLocationAssertion.Source",
+      "id": "s:11DocumentSDK24CaptureLocationAssertionV6sourceAC6SourceOvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let fixedAt: Date",
+      "id": "s:11DocumentSDK24CaptureLocationAssertionV7fixedAt10Foundation4DateVvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "struct LicenseFrontVisualFields",
+      "id": "s:11DocumentSDK24LicenseFrontVisualFieldsV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "init(extractorVersion: String, issuingJurisdiction: String?, issuingJurisdictionLine: String?)",
+      "id": "s:11DocumentSDK24LicenseFrontVisualFieldsV16extractorVersion19issuingJurisdiction0iJ4LineACSS_SSSgAGtcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "let extractorVersion: String",
+      "id": "s:11DocumentSDK24LicenseFrontVisualFieldsV16extractorVersionSSvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let issuingJurisdiction: String?",
+      "id": "s:11DocumentSDK24LicenseFrontVisualFieldsV19issuingJurisdictionSSSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let issuingJurisdictionLine: String?",
+      "id": "s:11DocumentSDK24LicenseFrontVisualFieldsV23issuingJurisdictionLineSSSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "init(from decoder: any Decoder) throws",
+      "id": "s:11DocumentSDK24LicenseFrontVisualFieldsV4fromACs7Decoder_p_tKcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "static func extract(lines: [String]) -> LicenseFrontVisualFields",
+      "id": "s:11DocumentSDK24LicenseFrontVisualFieldsV7extract5linesACSaySSG_tFZ",
+      "kind": "swift.type.method"
+    },
+    {
+      "declaration": "enum AAMVADate",
+      "id": "s:11DocumentSDK9AAMVADateO",
+      "kind": "swift.enum"
+    },
+    {
+      "declaration": "static func iso(_ raw: String) -> String?",
+      "id": "s:11DocumentSDK9AAMVADateO3isoySSSgSSFZ",
+      "kind": "swift.type.method"
+    }
+  ]
+}

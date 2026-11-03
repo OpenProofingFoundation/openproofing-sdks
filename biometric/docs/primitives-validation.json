@@ -1,0 +1,148 @@
+{
+  "date": "2026-10-16",
+  "scope": "First embedding math/type contract; no model or pipeline extraction",
+  "localNativeLanes": [
+    {
+      "lane": "biometric-guards",
+      "passed": true,
+      "command": [
+        "bash",
+        "biometric/scripts/check.sh",
+        "guards"
+      ],
+      "logSHA256": "eaaa4b65e34522c9535d61581b4d13aba16bff4d57d988ba8abab03b7393d9d2",
+      "artifactSHA256": {
+        "document/api/android.json": "69ef0ec2f56c2fda760813f875f5d9e0b60df039e45d8f06b5977736a5b0d8ca",
+        "document/api/ios-simulator.json": "e6e3633b54b74ff42e9764a274483ee96d1570008a196328f9fff66c2727eea1",
+        "document/api/macos.json": "e6e3633b54b74ff42e9764a274483ee96d1570008a196328f9fff66c2727eea1",
+        "document/api/ios-device.json": "e6e3633b54b74ff42e9764a274483ee96d1570008a196328f9fff66c2727eea1",
+        "document/android/document-sdk/build/outputs/aar/document-sdk-debug.aar": "3047b30af3345e69e36e2650b80ab2ccb08c4ed357548417aad509cd9f260842",
+        "passport/api/android.json": "538d366cc16421caf02c075d2ac07704956bcf2a6bf9c44be9f9c5ca62c9aeb6",
+        "passport/api/ios-simulator.json": "b96d86997608ba976a743b7913628479ee28c28f05a67f5ef0de2490f731e546",
+        "passport/api/macos.json": "b96d86997608ba976a743b7913628479ee28c28f05a67f5ef0de2490f731e546",
+        "passport/api/ios-device.json": "b96d86997608ba976a743b7913628479ee28c28f05a67f5ef0de2490f731e546",
+        "passport/android/passport-sdk/build/outputs/aar/passport-sdk-debug.aar": "b7105c4fc7a6c05de5c8a5199f1686a1bc552e7ece7ca3452896ccbebdc151ea",
+        "biometric/api/android.json": "2cc50c7b4c86f465cb077b9653d155e5f83fc3abf14b6f25a74ef3dc4faf9ea0",
+        "biometric/api/ios-simulator.json": "8597ae13bed6f04e9a22ef9ffed113811e0e82b977f56797741ebed34299ce98",
+        "biometric/api/macos.json": "8597ae13bed6f04e9a22ef9ffed113811e0e82b977f56797741ebed34299ce98",
+        "biometric/api/ios-device.json": "8597ae13bed6f04e9a22ef9ffed113811e0e82b977f56797741ebed34299ce98",
+        "biometric/android/biometric-sdk/build/outputs/aar/biometric-sdk-debug.aar": "85870a32414402b7eea7a6102850f1a35fa4d74775840e41482ee59f3cb4a51e"
+      }
+    },
+    {
+      "lane": "biometric-macos",
+      "passed": true,
+      "command": [
+        "bash",
+        "biometric/scripts/check.sh",
+        "macos"
+      ],
+      "logSHA256": "66d98f7422e3a792a7f294af0af51d24611fe158fc4d47fd660c3096433f7f78",
+      "artifactSHA256": {
+        "document/api/android.json": "69ef0ec2f56c2fda760813f875f5d9e0b60df039e45d8f06b5977736a5b0d8ca",
+        "document/api/ios-simulator.json": "e6e3633b54b74ff42e9764a274483ee96d1570008a196328f9fff66c2727eea1",
+        "document/api/macos.json": "e6e3633b54b74ff42e9764a274483ee96d1570008a196328f9fff66c2727eea1",
+        "document/api/ios-device.json": "e6e3633b54b74ff42e9764a274483ee96d1570008a196328f9fff66c2727eea1",
+        "document/android/document-sdk/build/outputs/aar/document-sdk-debug.aar": "3047b30af3345e69e36e2650b80ab2ccb08c4ed357548417aad509cd9f260842",
+        "passport/api/android.json": "538d366cc16421caf02c075d2ac07704956bcf2a6bf9c44be9f9c5ca62c9aeb6",
+        "passport/api/ios-simulator.json": "b96d86997608ba976a743b7913628479ee28c28f05a67f5ef0de2490f731e546",
+        "passport/api/macos.json": "b96d86997608ba976a743b7913628479ee28c28f05a67f5ef0de2490f731e546",
+        "passport/api/ios-device.json": "b96d86997608ba976a743b7913628479ee28c28f05a67f5ef0de2490f731e546",
+        "passport/android/passport-sdk/build/outputs/aar/passport-sdk-debug.aar": "b7105c4fc7a6c05de5c8a5199f1686a1bc552e7ece7ca3452896ccbebdc151ea",
+        "biometric/api/android.json": "2cc50c7b4c86f465cb077b9653d155e5f83fc3abf14b6f25a74ef3dc4faf9ea0",
+        "biometric/api/ios-simulator.json": "8597ae13bed6f04e9a22ef9ffed113811e0e82b977f56797741ebed34299ce98",
+        "biometric/api/macos.json": "8597ae13bed6f04e9a22ef9ffed113811e0e82b977f56797741ebed34299ce98",
+        "biometric/api/ios-device.json": "8597ae13bed6f04e9a22ef9ffed113811e0e82b977f56797741ebed34299ce98",
+        "biometric/android/biometric-sdk/build/outputs/aar/biometric-sdk-debug.aar": "85870a32414402b7eea7a6102850f1a35fa4d74775840e41482ee59f3cb4a51e"
+      }
+    },
+    {
+      "lane": "biometric-ios-device",
+      "passed": true,
+      "command": [
+        "bash",
+        "biometric/scripts/check.sh",
+        "ios-device"
+      ],
+      "logSHA256": "5cb6a23d705c616a86ec9ace0eb180e7a84d7416f8b1860c05c5ea66fed32a67",
+      "artifactSHA256": {
+        "document/api/android.json": "69ef0ec2f56c2fda760813f875f5d9e0b60df039e45d8f06b5977736a5b0d8ca",
+        "document/api/ios-simulator.json": "e6e3633b54b74ff42e9764a274483ee96d1570008a196328f9fff66c2727eea1",
+        "document/api/macos.json": "e6e3633b54b74ff42e9764a274483ee96d1570008a196328f9fff66c2727eea1",
+        "document/api/ios-device.json": "e6e3633b54b74ff42e9764a274483ee96d1570008a196328f9fff66c2727eea1",
+        "document/android/document-sdk/build/outputs/aar/document-sdk-debug.aar": "3047b30af3345e69e36e2650b80ab2ccb08c4ed357548417aad509cd9f260842",
+        "passport/api/android.json": "538d366cc16421caf02c075d2ac07704956bcf2a6bf9c44be9f9c5ca62c9aeb6",
+        "passport/api/ios-simulator.json": "b96d86997608ba976a743b7913628479ee28c28f05a67f5ef0de2490f731e546",
+        "passport/api/macos.json": "b96d86997608ba976a743b7913628479ee28c28f05a67f5ef0de2490f731e546",
+        "passport/api/ios-device.json": "b96d86997608ba976a743b7913628479ee28c28f05a67f5ef0de2490f731e546",
+        "passport/android/passport-sdk/build/outputs/aar/passport-sdk-debug.aar": "b7105c4fc7a6c05de5c8a5199f1686a1bc552e7ece7ca3452896ccbebdc151ea",
+        "biometric/api/android.json": "2cc50c7b4c86f465cb077b9653d155e5f83fc3abf14b6f25a74ef3dc4faf9ea0",
+        "biometric/api/ios-simulator.json": "8597ae13bed6f04e9a22ef9ffed113811e0e82b977f56797741ebed34299ce98",
+        "biometric/api/macos.json": "8597ae13bed6f04e9a22ef9ffed113811e0e82b977f56797741ebed34299ce98",
+        "biometric/api/ios-device.json": "8597ae13bed6f04e9a22ef9ffed113811e0e82b977f56797741ebed34299ce98",
+        "biometric/android/biometric-sdk/build/outputs/aar/biometric-sdk-debug.aar": "85870a32414402b7eea7a6102850f1a35fa4d74775840e41482ee59f3cb4a51e"
+      }
+    },
+    {
+      "lane": "biometric-ios-simulator",
+      "passed": true,
+      "command": [
+        "bash",
+        "biometric/scripts/check.sh",
+        "ios-simulator"
+      ],
+      "logSHA256": "8f7e0a5c0fc4c3ee458009c2c5a328e07f45c5f6b55c82c0267f8b56fdcf4f25",
+      "artifactSHA256": {
+        "document/api/android.json": "69ef0ec2f56c2fda760813f875f5d9e0b60df039e45d8f06b5977736a5b0d8ca",
+        "document/api/ios-simulator.json": "e6e3633b54b74ff42e9764a274483ee96d1570008a196328f9fff66c2727eea1",
+        "document/api/macos.json": "e6e3633b54b74ff42e9764a274483ee96d1570008a196328f9fff66c2727eea1",
+        "document/api/ios-device.json": "e6e3633b54b74ff42e9764a274483ee96d1570008a196328f9fff66c2727eea1",
+        "document/android/document-sdk/build/outputs/aar/document-sdk-debug.aar": "3047b30af3345e69e36e2650b80ab2ccb08c4ed357548417aad509cd9f260842",
+        "passport/api/android.json": "538d366cc16421caf02c075d2ac07704956bcf2a6bf9c44be9f9c5ca62c9aeb6",
+        "passport/api/ios-simulator.json": "b96d86997608ba976a743b7913628479ee28c28f05a67f5ef0de2490f731e546",
+        "passport/api/macos.json": "b96d86997608ba976a743b7913628479ee28c28f05a67f5ef0de2490f731e546",
+        "passport/api/ios-device.json": "b96d86997608ba976a743b7913628479ee28c28f05a67f5ef0de2490f731e546",
+        "passport/android/passport-sdk/build/outputs/aar/passport-sdk-debug.aar": "b7105c4fc7a6c05de5c8a5199f1686a1bc552e7ece7ca3452896ccbebdc151ea",
+        "biometric/api/android.json": "2cc50c7b4c86f465cb077b9653d155e5f83fc3abf14b6f25a74ef3dc4faf9ea0",
+        "biometric/api/ios-simulator.json": "8597ae13bed6f04e9a22ef9ffed113811e0e82b977f56797741ebed34299ce98",
+        "biometric/api/macos.json": "8597ae13bed6f04e9a22ef9ffed113811e0e82b977f56797741ebed34299ce98",
+        "biometric/api/ios-device.json": "8597ae13bed6f04e9a22ef9ffed113811e0e82b977f56797741ebed34299ce98",
+        "biometric/android/biometric-sdk/build/outputs/aar/biometric-sdk-debug.aar": "85870a32414402b7eea7a6102850f1a35fa4d74775840e41482ee59f3cb4a51e"
+      }
+    },
+    {
+      "lane": "biometric-android",
+      "passed": true,
+      "command": [
+        "bash",
+        "biometric/scripts/check.sh",
+        "android"
+      ],
+      "logSHA256": "f9ec3bcfc0e1841888922dd02f6bb7af4246bb8b87c6672a9435967a42cca11f",
+      "artifactSHA256": {
+        "document/api/android.json": "69ef0ec2f56c2fda760813f875f5d9e0b60df039e45d8f06b5977736a5b0d8ca",
+        "document/api/ios-simulator.json": "e6e3633b54b74ff42e9764a274483ee96d1570008a196328f9fff66c2727eea1",
+        "document/api/macos.json": "e6e3633b54b74ff42e9764a274483ee96d1570008a196328f9fff66c2727eea1",
+        "document/api/ios-device.json": "e6e3633b54b74ff42e9764a274483ee96d1570008a196328f9fff66c2727eea1",
+        "document/android/document-sdk/build/outputs/aar/document-sdk-debug.aar": "3047b30af3345e69e36e2650b80ab2ccb08c4ed357548417aad509cd9f260842",
+        "passport/api/android.json": "538d366cc16421caf02c075d2ac07704956bcf2a6bf9c44be9f9c5ca62c9aeb6",
+        "passport/api/ios-simulator.json": "b96d86997608ba976a743b7913628479ee28c28f05a67f5ef0de2490f731e546",
+        "passport/api/macos.json": "b96d86997608ba976a743b7913628479ee28c28f05a67f5ef0de2490f731e546",
+        "passport/api/ios-device.json": "b96d86997608ba976a743b7913628479ee28c28f05a67f5ef0de2490f731e546",
+        "passport/android/passport-sdk/build/outputs/aar/passport-sdk-debug.aar": "b7105c4fc7a6c05de5c8a5199f1686a1bc552e7ece7ca3452896ccbebdc151ea",
+        "biometric/api/android.json": "2cc50c7b4c86f465cb077b9653d155e5f83fc3abf14b6f25a74ef3dc4faf9ea0",
+        "biometric/api/ios-simulator.json": "8597ae13bed6f04e9a22ef9ffed113811e0e82b977f56797741ebed34299ce98",
+        "biometric/api/macos.json": "8597ae13bed6f04e9a22ef9ffed113811e0e82b977f56797741ebed34299ce98",
+        "biometric/api/ios-device.json": "8597ae13bed6f04e9a22ef9ffed113811e0e82b977f56797741ebed34299ce98",
+        "biometric/android/biometric-sdk/build/outputs/aar/biometric-sdk-debug.aar": "85870a32414402b7eea7a6102850f1a35fa4d74775840e41482ee59f3cb4a51e"
+      }
+    }
+  ],
+  "swiftPrimitiveTests": 7,
+  "swiftGuardXCTest": 1,
+  "androidPrimitiveTests": 8,
+  "androidFailures": 0,
+  "guardRegressionTestsAtNativeRun": 35,
+  "publicAPI": "Four compiler-derived snapshots regenerated explicitly for reviewed additive pre-release types; all comparisons passed",
+  "hostedCI": "Not yet executed for this primitive change; migration CI at 483741d passed all 15 lanes separately"
+}

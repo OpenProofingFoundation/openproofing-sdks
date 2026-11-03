@@ -1,0 +1,100 @@
+{
+  "date": "2026-10-16",
+  "repository": "kenshiki-passport-sdk",
+  "revision": null,
+  "state": "New local main branch; uncommitted scaffold",
+  "guardReceipt": {
+    "revision": null,
+    "gitStatus": "?? .github/\n?? .gitignore\n?? .node-version\n?? AGENTS.md\n?? CLAUDE.md\n?? Gates/\n?? Package.swift\n?? README.md\n?? android/\n?? api/\n?? contracts/\n?? docs/\n?? fixtures/\n?? ios/\n?? package-lock.json\n?? package.json\n?? scripts/\n?? third-party/\n",
+    "guardInputsSHA256": {
+      "Gates/boundary_gates.py": "0554b66b610c3303155dfae22e8065b5fecf7d7fe796d786691b769525bda646",
+      "Gates/capability_guards.py": "d559b9b9e6269fb677ccc986e8d40fc0ca1e2b7b3433206a5812020c9be650bc",
+      "Gates/config.json": "2bf146ea280222f53dacd6af927e78ddbffd796b1e41a0af5f2ec60150987c86",
+      "Gates/import-provenance.json": "8e33f5a7bb5a6f9eba17e0252830ad20f842bdc4a05ebac913b8bf3d587eb1d6",
+      "Gates/tests/test_guards.py": "eaeb4f50be6189dcd89378be919dd69e2f231269ef3f703c4c8e6f441bce7a99",
+      "Gates/upstream/boundary_gates.py": "4e807a8f75fc8ed528bb2874b42044f866b046548b57768c47a67ac8cea90209"
+    },
+    "results": [
+      {
+        "gate": "upstream-self-tests",
+        "passed": true,
+        "exitCode": 0,
+        "milliseconds": 66490,
+        "log": "upstream-self-tests.log"
+      },
+      {
+        "gate": "guard-regressions",
+        "passed": true,
+        "exitCode": 0,
+        "milliseconds": 5580,
+        "log": "guard-regressions.log"
+      },
+      {
+        "gate": "boundaries",
+        "passed": true,
+        "exitCode": 0,
+        "milliseconds": 160,
+        "log": "boundaries.log"
+      },
+      {
+        "gate": "lock-integrity",
+        "passed": true,
+        "exitCode": 0,
+        "milliseconds": 59,
+        "log": "lock-integrity.log"
+      },
+      {
+        "gate": "capability-guards",
+        "passed": true,
+        "exitCode": 0,
+        "milliseconds": 630,
+        "log": "capability-guards.log"
+      }
+    ]
+  },
+  "nativeChecks": {
+    "macOSSwiftBuild": true,
+    "macOSXCTest": {
+      "passed": true,
+      "tests": 1,
+      "scope": "Repository quality guard enforcement; no passport behavioral tests"
+    },
+    "iosDeviceCompilation": true,
+    "iosSimulatorCompilation": true,
+    "androidAssembleLint": true,
+    "androidUnitTests": "NO-SOURCE; no behavioral tests executed",
+    "allLanesRunner": true
+  },
+  "publicAPIs": {
+    "android.json": "538d366cc16421caf02c075d2ac07704956bcf2a6bf9c44be9f9c5ca62c9aeb6",
+    "ios-simulator.json": "b96d86997608ba976a743b7913628479ee28c28f05a67f5ef0de2490f731e546",
+    "macos.json": "b96d86997608ba976a743b7913628479ee28c28f05a67f5ef0de2490f731e546",
+    "ios-device.json": "b96d86997608ba976a743b7913628479ee28c28f05a67f5ef0de2490f731e546"
+  },
+  "aar": {
+    "path": "android/passport-sdk/build/outputs/aar/passport-sdk-debug.aar",
+    "sha256": "b7105c4fc7a6c05de5c8a5199f1686a1bc552e7ece7ca3452896ccbebdc151ea",
+    "packagedContentInspection": true
+  },
+  "toolchain": {
+    "Xcode": "26.6 (17F113)",
+    "Swift": "6.3.3",
+    "JDK": "17.0.18",
+    "Gradle": "8.14.3",
+    "AGP": "8.13.2",
+    "Kotlin": "2.2.20",
+    "AndroidCompileSDK": 36
+  },
+  "limits": [
+    "Scaffold/outcome types and guards only",
+    "No MRZ/NFC reader, BAC/PACE, PA/AA/CA or trust/portrait processing implementation",
+    "No installed application, physical NFC, real attestation or manual accessibility acceptance",
+    "No remote or hosted CI result"
+  ],
+  "logs": {
+    ".build/validation/ios-simulator.log": "7e7e835584553f85a9d2f8a96c9ecf2db3daac9ed8dc102ce93114bdc15de80d",
+    ".build/validation/ios-device.log": "d3975f66a19c381f35b0c99332bc2e0bc131a8e4a79dccce39375b6ae33e63d6",
+    ".build/validation/android.log": "6dc1e43342feb1d903d7c8b7eb5cbcf7605b9acb1c8eca45439c58a17c53b668",
+    ".build/validation/all-lanes.log": "d163db38049ffbec6aa0d09f6ef167f21aba0ebc322d2a6f20d7d7f72840ddcd"
+  }
+}

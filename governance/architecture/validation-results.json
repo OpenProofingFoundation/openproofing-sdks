@@ -1,0 +1,19 @@
+{
+  "document": "APP-ARCH-001",
+  "revision": "0.2",
+  "sha256": "08b1fec6da715ff4c493933a156c1c7132f2d19474bcb6e38bdb2faac795a447",
+  "requirements": 71,
+  "checks": {
+    "metadata": true,
+    "sectionOrder": true,
+    "uniqueRequirements": true,
+    "requirementInventory": true,
+    "appendixOrder": true,
+    "implementationPlanInAppendix": true,
+    "localLinks": true,
+    "relatedAuthorities": true
+  },
+  "missingLocalLinks": [],
+  "scope": "Document structure only; domain review and implementation receipts are separate",
+  "passed": true
+}

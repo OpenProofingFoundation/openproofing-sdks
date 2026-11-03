@@ -1,0 +1,57 @@
+{
+  "scope": "Draft arithmetic, schema example and projective counterexample; no accuracy or device validation",
+  "draftSHA256": "b4be275b691756dfc1a5e2e15330fdd0f4c4f3243be27874849bb49091e4d630",
+  "schema": {
+    "markdownEscapeRemovalRequired": true,
+    "declaredDialect": "json-schema-draft-07",
+    "explicitDraft7NonMatchFullMaskExampleValid": true,
+    "meaning": "Structural validity plus full mask is insufficient as an acceptance policy",
+    "signatureRequiredInsidePayload": true
+  },
+  "pureRotation": {
+    "differentDepthSameRayProjectionMaximumDifference": 0.0
+  },
+  "arithmetic": {
+    "twoFramesAt30FPSMilliseconds": 66.66666666666667,
+    "framesIn400msAt30FPS": 12.0,
+    "cyclesIn400msAt8And12Hz": [
+      3.2,
+      4.800000000000001
+    ],
+    "centroidFP32Bytes": 307200,
+    "listedModelSubtotalMB": [
+      15.3,
+      32.8
+    ],
+    "rasterVerticalPixelsPerNominalMillimeter": 10.003705075954057
+  },
+  "sourceSHA256": {
+    "Sources/IdentityEvidenceApple/DocumentJourneyPacing.swift": "7fdb06a0b5c130afc425d2287293183b08f6c66deb7cf776689cf58df5743029",
+    "Sources/IdentityEvidenceApple/DocumentJourneyRecordingFrames.swift": "ed2d72a3f73bd6c81d4d96a35b353c8b3f2fd49c1c6daf2ae3aa0027db366aba",
+    "Sources/IdentityEvidenceApple/DocumentPerspectiveMeasurement.swift": "51c958a1d762ca577d7f96fe44b0c3fa1495e01bf52f7766ebe8b97240b9a8cd",
+    "Sources/IdentityEvidenceApple/DocumentTiltController.swift": "86fed5d6c9b9cf6ca87a99ac92d2c80986cf84b5e831e08bc1e9aa3f873ba2a6",
+    "Sources/IdentityEvidenceApple/AVFoundationTemporalCapture.swift": "7a58b9ceb4d83eeaedb5c5e9612dc033cb373af840ccc67bd9c87a0eebca0c4a",
+    "Sources/IdentityEvidenceApple/DocumentTemporalMotionCollector.swift": "5f102ce32b96c3a67cd76e8c48c117ecc37b272a8aa5c6a53bfde0a2de31584e",
+    "Sources/CaptureSelfie/SelfieDepthPolicy.swift": "2e58cc66ca2c92190fe386eee64889e2a804c9a5b12aaea9051ecae9321dadf9",
+    "Sources/KenshikiIdentity/AppleAppAttestProvider.swift": "a9840fc20a88505e58c53f309b7f4cee272516ab635efd0d712b53b1999c35b5",
+    "Sources/KenshikiIdentity/EvidenceIntegrityIssuer.swift": "f87bf06b5ec870c7aae35b757ee08fa189d8e3f4b277c7c491ba12e70e4333c5",
+    "Tools/Cadastral/prepare.py": "80e04af5b331d22a8d8dd9d16e8b2f3034f015c9d9f0b0cc3b725121f49f867e",
+    "Tools/CardRectification/rectify.py": "227a021f1923e9f0ec3434b1b581661f8cea133a65c10030111557909044d690",
+    "Tools/CardTopology/audit.py": "1a28680168e4e1a66d2dabda007ce49c8832f58cfd01a313d005c4d4773c9bb0",
+    "Tools/RegionSegmentation/experiment.py": "c8e38cb133373ad165811bda6e87046cd1082037e94a19f0b3674f379d8d4c36",
+    "Tools/RegionSegmentation/adjacency.py": "597f4e1647cf6d22c6662fd496acaa7fc860ca158a0e3a755ccf7b2eaea8d5e4",
+    "Tools/AppleMaterials/metrics.py": "5a98ebbef7d2e0b43a2e4559c83b30941bd97021f2a2627e730432abdd1fb0a3",
+    "Tools/TemporalEvidence/analyze.py": "0ca1246d74bc19fc1f45bb1fadeafa7617600fa07d2549dabb24490d25ab0e65",
+    "Tools/TemporalEvidence/measure.py": "de56f8047c44220857c6f3f218b13620222f619ef750393d7d13bacaa6f2372b",
+    "Tools/TemporalEvidence/review.py": "89bdbd6887496dbac5ad9b6c5f9d169f7fa06d7de3a02e621c8988422579f89e",
+    "Packages/IdentityGateway/Sources/IdentityGateway/PulsePersonaBarcode.swift": "e5b68bc85f4a873364e16973c665c35cdbafb2c8360d58e5e3d48566803ab77a",
+    "Packages/IdentityGateway/Sources/IdentityGateway/PulseFaceAttestClient.swift": "a3218c2b64f2200c3f97ef67fe75154adab48505b45186df16cfc1a553eaf336",
+    "Packages/IdentityEvidenceFaceMatching/Sources/IdentityEvidenceFaceMatching/FaceComparisonSubmissionEvidence.swift": "d42dee40981c20d7b6706207e8d30e8057644f03dffb285dc6a022466843107b",
+    "Packages/IdentityEvidencePassport/Sources/IdentityEvidencePassport/PassportObservationMapper.swift": "665496521add6a3bf481b3c4b79a072473e50b3786574befcffe279dbd5c70a4",
+    "ThirdParty/FaceMatching/Provenance/pulse-face-embedder-provenance.md": "89e3c6ff8c60d995a7182cdb2362ee2133db0e1eef6ae1cd41fc6a054a1793ff",
+    "../pulse-worker/src/ssaSmsRoutes.ts": "37a6ab7b0e3a31b81c60b1777c91ce4c8ff19241a08537e669ec824305d76cf2",
+    "../pulse-worker/src/enrollmentPhoneGate.ts": "77bbddccc02fb9bfa0a82cbb29b770735f73fcd86ed058874f0ed09c7528cf69",
+    "../pulse-worker/src/nativeFaceAttestRoutes.ts": "27eed4895665d7c91b995fcfe3284571ede889c13881157e3dbcf38500cb7c63",
+    "../camara-api/src/routers/identity.py": "de1b9599ef6df40ff2f8d1c03a1295ab7656f9bdd5dfa991875879f6343ec159"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "date": "2026-10-16",
+  "scope": "Official driver build/link/forked I/O mechanics with upstream NULL reference only",
+  "checks": {
+    "macOS": {
+      "passed": true,
+      "compiler": "Apple clang version 21.0.0 (clang-2100.1.1.101)",
+      "host": {
+        "system": "Darwin",
+        "machine": "arm64"
+      },
+      "runtimeArchitecture": "arm64",
+      "upstreamRevision": "18c2f84d80c0636cede6ff1db0479fe068aedac4",
+      "verifiedSourceFiles": 24,
+      "binarySHA256": {
+        "libfrvt_11_null_001.so": "8f704eceacfbe8ab4b23269f7673d3d647a9b9133ead5288ea636a76ecfa1da5",
+        "validate11": "2f04342a6a428eea09d9048e744fa03c3c98d8cb79e56d99bb451f8f3ee81bcb"
+      },
+      "syntheticRGBAndGrayscale": true,
+      "multiImageInput": true,
+      "forksPerInvocation": 2,
+      "nullTemplateCount": 4,
+      "nullMatchCount": 2,
+      "algorithmAdapterImplemented": false,
+      "officialValidationExecuted": false,
+      "finishedUTC": "2026-10-17T00:31:04.577804+00:00",
+      "detailedReceipt": ".build/nist/receipt.json",
+      "receiptSHA256": "ae00887bd2d308f77be4ca143590b4f017170562ee3bc5b82192083d3adc3d9f"
+    },
+    "linuxAMD64Emulated": {
+      "passed": true,
+      "compiler": "g++-13 (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0",
+      "host": {
+        "system": "Darwin",
+        "machine": "arm64"
+      },
+      "runtimeArchitecture": "x86_64",
+      "upstreamRevision": "18c2f84d80c0636cede6ff1db0479fe068aedac4",
+      "verifiedSourceFiles": 24,
+      "binarySHA256": {
+        "libfrvt_11_null_001.so": "50edaa1efe1bf67312a156db16fae8defbe0e8e771d99d0ca9ede6cfc58637e1",
+        "validate11": "f6b5d0b02cce30a90937aba3fa91ca8b7425dfd57625c2226668c4f61a3d909a"
+      },
+      "syntheticRGBAndGrayscale": true,
+      "multiImageInput": true,
+      "forksPerInvocation": 2,
+      "nullTemplateCount": 4,
+      "nullMatchCount": 2,
+      "algorithmAdapterImplemented": false,
+      "officialValidationExecuted": false,
+      "finishedUTC": "2026-10-17T00:30:46.930569+00:00",
+      "detailedReceipt": ".build/nist-linux/receipt.json",
+      "receiptSHA256": "fc8bb05d83ede462829ee85b5c7540cf994109cfe44c3543037f4831bf27e70d",
+      "containerImageID": "sha256:0edd34048e2d34ad058196f9e3692885bc20bc6a1cf2929450131bdebcd2fde1",
+      "executionScope": "Linux amd64 compatibility under emulation; not NIST qualification OS or timing",
+      "runtimeOS": "PRETTY_NAME=\"Ubuntu 24.04.5 LTS\"\nNAME=\"Ubuntu\"\nVERSION_ID=\"24.04\"\nVERSION=\"24.04.5 LTS (Noble Numbat)\"\nVERSION_CODENAME=noble\nID=ubuntu\nID_LIKE=debian\nHOME_URL=\"https://www.ubuntu.com/\"\nSUPPORT_URL=\"https://help.ubuntu.com/\"\nBUG_REPORT_URL=\"https://bugs.launchpad.net/ubuntu/\"\nPRIVACY_POLICY_URL=\"https://www.ubuntu.com/legal/terms-and-policies/privacy-policy\"\nUBUNTU_CODENAME=noble\nLOGO=ubuntu-logo\n"
+    }
+  },
+  "biometricGuardRegressionTests": 38,
+  "allCapabilityGuards": "Passed /tmp/kenshiki-nist-guards.log",
+  "rootNISTLane": "Passed /tmp/kenshiki-nist-root-lane.log",
+  "hostedCI": "New mandatory NIST Linux job added; check latest dev workflow run for execution evidence",
+  "productionAdapterImplemented": false,
+  "fullOfficialValidationExecuted": false
+}

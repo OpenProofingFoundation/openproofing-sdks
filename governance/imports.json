@@ -1,0 +1,60 @@
+{
+  "date": "2026-10-16",
+  "imports": [
+    {
+      "product": "document",
+      "sourceRepository": "https://github.com/Kenshiki-Labs/kenshiki-document-sdk",
+      "importedRevision": "6a16429d7b66d8a1c7e9f3aa0860e5f09f09a074",
+      "history": "Unsquashed git subtree merge; source commits are ancestors of the monorepo",
+      "status": "Historical source repository; active development moves to kenshiki-sdks"
+    },
+    {
+      "product": "passport",
+      "sourceRepository": "https://github.com/Kenshiki-Labs/kenshiki-passport-sdk",
+      "importedRevision": "c5151b6b655eaf4dc06315db68a5e7b6c2d8b9b8",
+      "history": "Unsquashed git subtree merge; source commits are ancestors of the monorepo",
+      "status": "Historical source repository; active development moves to kenshiki-sdks"
+    },
+    {
+      "product": "biometric",
+      "sourceRepository": "https://github.com/Kenshiki-Labs/kenshiki-biometric-sdk",
+      "importedRevision": "f308dc108d0b8316488edd4c3d717253d07e7972",
+      "history": "Unsquashed git subtree merge; source commits are ancestors of the monorepo",
+      "status": "Historical source repository; active development moves to kenshiki-sdks"
+    }
+  ],
+  "referenceSnapshotSHA256": {
+    "governance/references/boundary-contract.md": "d707a6e9c0af34ea957711c0c41d4170122c98cc0409ec998ffa61833dc054ae",
+    "governance/references/edge-verification/README.md": "d2943a10f55f82eadeab56015ce95b86f5821620c8cda2e856e4a5ca1fbb3063",
+    "governance/references/edge-verification/REVIEW.md": "0f39ae728eb73159e2d328a975415ce1aef4aade094342783100b63876d76b72",
+    "governance/references/edge-verification/SPEC-IDBIO-200.md": "3587cb84277ce372150ef74202f5e2eab06fef48d6d1b236c87b8f6bb60353aa",
+    "governance/references/edge-verification/axon-candidates.json": "10214fccbff6982e394300758d4ae7adef273beb6ef134b2d3ba110213987548",
+    "governance/references/edge-verification/contracts/ios-envelope.schema.json": "1a5ce9cbb117de24153824df1e3b1bad845209449c0baff3659007a948ec142b",
+    "governance/references/edge-verification/contracts/payload.schema.json": "7b5af00b8a2c9844376d1db6addeb8d508f1a1760c7cb9696b3bb3e9870f3a04",
+    "governance/references/edge-verification/fixtures/icao9303.example.json": "70d71e9008a77be6d14efe6c41c9c41f51dde660a71c7e05444c7e90dcfe8b72",
+    "governance/references/edge-verification/fixtures/ios-id1-complete.example.json": "1257be2607cd481db074da12ffe19819ae3ac42ebecf01c81b5273fb240bce31",
+    "governance/references/edge-verification/fixtures/mdl18013_5.example.json": "8cf749d550e74f0f8d04afcea74fc111b3585ff5aa21d21c44f3799e210dd95c",
+    "governance/references/edge-verification/history/SPEC-IDBIO-200-v3.0.md": "b4be275b691756dfc1a5e2e15330fdd0f4c4f3243be27874849bb49091e4d630",
+    "governance/references/edge-verification/review-checks.json": "0438ab42bcd8b6956f8244ef13f0f015a86f8ba8301d67f97d6e3463fc0df662",
+    "governance/references/edge-verification/review_checks.py": "52b2a68af2d1350289517588762a745f71e3749c462a0601be323ceb9e8f2a21",
+    "governance/references/edge-verification/revision-audit.md": "5cba719150a90586851ab5dbc18b9d2c2115a7023362cf3556c00f9001eecbc5",
+    "governance/references/edge-verification/revision-provenance.json": "6dd4a7d65db09f85e309c124f5d76d4a9ce00af440ebd2c9268b8547bbd0f51c",
+    "governance/references/edge-verification/validate_spec.py": "e8d1d4182789d6ba9daf767dbd975f602e4839ccf2aad6345ea1f9abdf5b7534",
+    "governance/references/edge-verification/validation-results.json": "deea311dbe336488e42b048588a7c1360c826f9af6ff6b57cf1ace9ad0cdc879"
+  },
+  "referenceScope": "Frozen source documents; relative source-code links resolve in the original identity SDK checkout. References are not copied implementations.",
+  "referenceToolPatches": [
+    {
+      "path": "governance/references/edge-verification/review_checks.py",
+      "originalSHA256": "d6f3c6a52cbb9e15f008c13f337ee3fc0fe77677628569012f248d27bf69ec15",
+      "patchedSHA256": "52b2a68af2d1350289517588762a745f71e3749c462a0601be323ceb9e8f2a21",
+      "reason": "Sonar cognitive-complexity refactoring; original 48-case outcomes and schema/arithmetic/source review receipts verified unchanged. Specification text, fixtures and schemas are unchanged."
+    },
+    {
+      "path": "governance/references/edge-verification/validate_spec.py",
+      "originalSHA256": "52b8f73491706eeedc728b3eda22acf637b360689a22105a0bba9d1afc748f45",
+      "patchedSHA256": "e8d1d4182789d6ba9daf767dbd975f602e4839ccf2aad6345ea1f9abdf5b7534",
+      "reason": "Sonar cognitive-complexity refactoring; original 48-case outcomes and schema/arithmetic/source review receipts verified unchanged. Specification text, fixtures and schemas are unchanged."
+    }
+  ]
+}

@@ -1,0 +1,249 @@
+{
+  "schemaVersion": 1,
+  "scope": "Source-backed test continuation mapping; execution and physical acceptance require separate current receipts.",
+  "donors": [
+    {
+      "repository": "pulse-ios",
+      "revision": "ccd360615df0832d428397794e95ba8c3ed63467",
+      "path": "Samples/KenshikiDeviceDemo/Tests/KenshikiDeviceDemoTests/IdentityPassportPreparationControllerTests.swift",
+      "sourceSHA256": "34cfca1fd3e400dea7feb4df3f337f073ac1b771f9950aa1cd145ecf9ff9d97a"
+    },
+    {
+      "repository": "pulse-ios",
+      "revision": "ccd360615df0832d428397794e95ba8c3ed63467",
+      "path": "Samples/KenshikiDeviceDemo/Tests/KenshikiDeviceDemoTests/IdentityPassportPreparationFailureTests.swift",
+      "sourceSHA256": "acc9fee131fa9c3e04b0188294d77ae18863f7b43e7f0d678242c16d543b3f36"
+    },
+    {
+      "repository": "pulse-ios",
+      "revision": "ccd360615df0832d428397794e95ba8c3ed63467",
+      "path": "Samples/KenshikiDeviceDemo/Tests/KenshikiDeviceDemoTests/IdentityPassportSessionStateTests.swift",
+      "sourceSHA256": "869d145d8e23cc4fb57a15855f81441e8348c050bfff021db289680792183f48"
+    },
+    {
+      "repository": "pulse-ios",
+      "revision": "ccd360615df0832d428397794e95ba8c3ed63467",
+      "path": "Samples/KenshikiDeviceDemo/Tests/KenshikiDeviceDemoTests/IdentitySessionClientDataHashTests.swift",
+      "sourceSHA256": "33b16515d8e5870a444b6bf960d753b236dbab3388a4b2ef4dad9493624940c5"
+    }
+  ],
+  "originalTestCount": 47,
+  "migration": [
+    {
+      "original": "IdentityPassportPreparationControllerTests/testFirstPreparationThenPositioningRetryReusesThePreparedChallenge",
+      "shared": "PulsePassportServiceTests/testFirstPreparationThenPositioningRetryReusesThePreparedChallenge"
+    },
+    {
+      "original": "IdentityPassportPreparationControllerTests/testAmbiguousTransportFailureReplaysTheExactCompleteAttempt",
+      "shared": "PulsePassportServiceTests/testAmbiguousTransportFailureReplaysTheExactCompleteAttempt"
+    },
+    {
+      "original": "IdentityPassportPreparationControllerTests/testConflictAutomaticallyRotatesOnlyOnceAtTheOrchestrationBoundary",
+      "shared": "PulsePassportServiceTests/testConflictAutomaticallyRotatesOnlyOnceAtTheOrchestrationBoundary"
+    },
+    {
+      "original": "IdentityPassportPreparationControllerTests/testExpiredPreparedChallengeRotatesTheWholeAttemptBeforeRetry",
+      "shared": "PulsePassportServiceTests/testExpiredPreparedChallengeRotatesTheWholeAttemptBeforeRetry"
+    },
+    {
+      "original": "IdentityPassportPreparationControllerTests/testRepeatedExpiredPreparedChallengeStopsWithTheTruthfulExpiryError",
+      "shared": "PulsePassportServiceTests/testRepeatedExpiredPreparedChallengeStopsWithTheTruthfulExpiryError"
+    },
+    {
+      "original": "IdentityPassportPreparationControllerTests/testStaleFailureCannotOverwriteTheCurrentPreparationDiagnostic",
+      "shared": "PulsePassportServiceTests/testConcurrentPreparationCoalescesAndStaleFailureCannotOverwriteCurrentPreparation",
+      "adopter": "IdentityPassportPreparationControllerTests/testStalePreparationFailureCannotOverwriteCurrentHostDiagnostic",
+      "obligation": "Typed stage/latest diagnostic ownership assertions stay at actual host boundary; retry/state/error behavior is exercised in shared service."
+    },
+    {
+      "original": "IdentityPassportPreparationControllerTests/testCoordinatorAttributesEveryPreparationBoundary",
+      "shared": "PulsePassportServiceTests/testPreparationBoundariesPreserveOriginalTypedErrors",
+      "adopter": "IdentityPassportPreparationControllerTests/testTypedServicePreparationStagesReachPrivateHostDiagnosticWithoutServerProse",
+      "obligation": "Typed stage/latest diagnostic ownership assertions stay at actual host boundary; retry/state/error behavior is exercised in shared service."
+    },
+    {
+      "original": "IdentityPassportPreparationControllerTests/testRecoveredIdentityFlowsThroughCreateAndNonceWithTheOriginalAttempt",
+      "shared": "PulsePassportServiceTests/testRecoveredIdentityFlowsThroughCreateAndNonceWithTheOriginalAttempt"
+    },
+    {
+      "original": "IdentityPassportPreparationControllerTests/testCancellationAfterAssertionDoesNotCreateASessionOrNonce",
+      "shared": "PulsePassportServiceTests/testCancellationAfterAssertionDoesNotCreateASessionOrNonce"
+    },
+    {
+      "original": "IdentityPassportPreparationControllerTests/testCancellationBeforeDeadKeyFailureDoesNotRecoverOrContinuePreparation",
+      "shared": "PulsePassportServiceTests/testCancellationBeforeDeadKeyFailureDoesNotRecoverOrContinuePreparation"
+    },
+    {
+      "original": "IdentityPassportPreparationControllerTests/testDiagnosticContainsOnlyStableStageAndWorkerClassification",
+      "shared": "PulsePassportServiceTests/testDiagnosticContainsOnlyStableEndpointAndWorkerClassification",
+      "adopter": "IdentityPassportPreparationControllerTests/testTypedServicePreparationStagesReachPrivateHostDiagnosticWithoutServerProse",
+      "obligation": "Typed stage/latest diagnostic ownership assertions stay at actual host boundary; retry/state/error behavior is exercised in shared service."
+    },
+    {
+      "original": "IdentityPassportPreparationControllerTests/testStaleSignedAttemptRotatesToFreshTimestampAndRetries",
+      "shared": "PulsePassportServiceTests/testStaleSignedAttemptRotatesToFreshTimestampAndRetries"
+    },
+    {
+      "original": "IdentityPassportPreparationControllerTests/testRepeatedStaleSignedAttemptStopsBeforeThirdAutomaticAttempt",
+      "shared": "PulsePassportServiceTests/testRepeatedStaleSignedAttemptStopsBeforeThirdAutomaticAttempt"
+    },
+    {
+      "original": "IdentityPassportPreparationFailureTests/testTypedWorkerFailureMapsWithoutParsingServerProse",
+      "shared": "PulsePassportPreparationFailureTests/testTypedWorkerFailureMapsWithoutParsingServerProse"
+    },
+    {
+      "original": "IdentityPassportPreparationFailureTests/testNetworkFailureMapsToTransportAndOtherDeviceFailuresDoNot",
+      "shared": "PulsePassportPreparationFailureTests/testNetworkFailureMapsToTransportAndOtherDeviceFailuresDoNot"
+    },
+    {
+      "original": "IdentityPassportPreparationFailureTests/testCancellationPreservesTheAttemptWithoutAnOwnerError",
+      "shared": "PulsePassportPreparationFailureTests/testCancellationPreservesTheAttemptWithoutAnOwnerError"
+    },
+    {
+      "original": "IdentityPassportPreparationFailureTests/testOnlyTransportFailureIsClassifiedAsAConnectionProblem",
+      "shared": "PulsePassportPreparationFailureTests/testOnlyTransportFailureIsClassifiedAsAConnectionProblem"
+    },
+    {
+      "original": "IdentityPassportPreparationFailureTests/testRateLimitAndServerFailuresPreserveTheSignedAttempt",
+      "shared": "PulsePassportPreparationFailureTests/testRateLimitAndServerFailuresPreserveTheSignedAttempt"
+    },
+    {
+      "original": "IdentityPassportPreparationFailureTests/testAuthenticationFailuresStopWithoutPretendingTheNetworkFailed",
+      "shared": "PulsePassportPreparationFailureTests/testAuthenticationFailuresStopWithoutPretendingTheNetworkFailed"
+    },
+    {
+      "original": "IdentityPassportPreparationFailureTests/testExpiredSignedAttemptRotatesInsteadOfBecomingADeviceRegistrationLoop",
+      "shared": "PulsePassportPreparationFailureTests/testExpiredSignedAttemptRotatesInsteadOfBecomingADeviceRegistrationLoop"
+    },
+    {
+      "original": "IdentityPassportPreparationFailureTests/testExpiredChallengeRotatesTheAttempt",
+      "shared": "PulsePassportPreparationFailureTests/testExpiredChallengeRotatesTheAttempt"
+    },
+    {
+      "original": "IdentityPassportPreparationFailureTests/testIdentitySessionConflictRequestsOneBoundedRotation",
+      "shared": "PulsePassportPreparationFailureTests/testIdentitySessionConflictRequestsOneBoundedRotation"
+    },
+    {
+      "original": "IdentityPassportPreparationFailureTests/testUnknownHTTPAndMalformedResponsesStop",
+      "shared": "PulsePassportPreparationFailureTests/testUnknownHTTPAndMalformedResponsesStop"
+    },
+    {
+      "original": "IdentityPassportPreparationFailureTests/testOnlyTransportPresentationUsesConnectionCopy",
+      "adopter": "IdentityPassportPreparationFailureTests/testOnlyTransportPresentationUsesConnectionCopy",
+      "obligation": "Preserve localized owner-copy test in app scope; neutral service owns no copy."
+    },
+    {
+      "original": "IdentityPassportPreparationFailureTests/testOwnerFailureMessagesShipInEveryIdentityLocale",
+      "adopter": "IdentityPassportPreparationFailureTests/testOwnerFailureMessagesShipInEveryIdentityLocale",
+      "obligation": "Preserve localized owner-copy test in app scope; neutral service owns no copy."
+    },
+    {
+      "original": "IdentityPassportSessionStateTests/testPreparedLiveCeremonyIsReusedWithoutAnotherServerPreparation",
+      "shared": "PulsePassportSessionStateTests/testPreparedLiveCeremonyIsReusedWithoutAnotherServerPreparation"
+    },
+    {
+      "original": "IdentityPassportSessionStateTests/testTransportFailurePreservesTheCompleteAttempt",
+      "shared": "PulsePassportSessionStateTests/testTransportFailurePreservesTheCompleteAttempt"
+    },
+    {
+      "original": "IdentityPassportSessionStateTests/testCancelledPreparationReturnsToIdleAndPreservesTheCompleteAttempt",
+      "shared": "PulsePassportSessionStateTests/testCancelledPreparationReturnsToIdleAndPreservesTheCompleteAttempt"
+    },
+    {
+      "original": "IdentityPassportSessionStateTests/testRateLimitAndServerFailurePreserveTheCompleteAttempt",
+      "shared": "PulsePassportSessionStateTests/testRateLimitAndServerFailurePreserveTheCompleteAttempt"
+    },
+    {
+      "original": "IdentityPassportSessionStateTests/testExpiryInvalidatesCeremonyAndRotatesTheAttempt",
+      "shared": "PulsePassportSessionStateTests/testExpiryInvalidatesCeremonyAndRotatesTheAttempt"
+    },
+    {
+      "original": "IdentityPassportSessionStateTests/testTakingCeremonyForVerificationInvalidatesItsAttemptImmediately",
+      "shared": "PulsePassportSessionStateTests/testTakingCeremonyForVerificationInvalidatesItsAttemptImmediately"
+    },
+    {
+      "original": "IdentityPassportSessionStateTests/testStalePreparationCompletionCannotReplaceNewerAttempt",
+      "shared": "PulsePassportSessionStateTests/testStalePreparationCompletionCannotReplaceNewerAttempt"
+    },
+    {
+      "original": "IdentityPassportSessionStateTests/testTakingCeremonyOutsideChallengeReadyDoesNothing",
+      "shared": "PulsePassportSessionStateTests/testTakingCeremonyOutsideChallengeReadyDoesNothing"
+    },
+    {
+      "original": "IdentityPassportSessionStateTests/testConflictAutomaticallyRotatesAtMostOnce",
+      "shared": "PulsePassportSessionStateTests/testConflictAutomaticallyRotatesAtMostOnce"
+    },
+    {
+      "original": "IdentityPassportSessionStateTests/testExpiredServerResponseAutomaticallyRotatesAtMostOnce",
+      "shared": "PulsePassportSessionStateTests/testExpiredServerResponseAutomaticallyRotatesAtMostOnce"
+    },
+    {
+      "original": "IdentityPassportSessionStateTests/testStaleSignedAttemptAutomaticallyRotatesAtMostOnce",
+      "shared": "PulsePassportSessionStateTests/testStaleSignedAttemptAutomaticallyRotatesAtMostOnce"
+    },
+    {
+      "original": "IdentityPassportSessionStateTests/testStoppedFailureRetriesTheSameAttempt",
+      "shared": "PulsePassportSessionStateTests/testStoppedFailureRetriesTheSameAttempt"
+    },
+    {
+      "original": "IdentityPassportSessionStateTests/testCompletedFlowStartsWithFreshAttemptAndRecoveryBudgets",
+      "shared": "PulsePassportSessionStateTests/testCompletedFlowStartsWithFreshAttemptAndRecoveryBudgets"
+    },
+    {
+      "original": "IdentityPassportSessionStateTests/testStaleFailureCannotReplaceCurrentPreparation",
+      "shared": "PulsePassportSessionStateTests/testStaleFailureCannotReplaceCurrentPreparation"
+    },
+    {
+      "original": "IdentitySessionClientDataHashTests/testTheDeviceHashMatchesTheBytesTheWorkerRecomputes",
+      "adopter": "IdentitySessionClientDataHashTests/testTheDeviceHashMatchesTheBytesTheWorkerRecomputes",
+      "obligation": "Pulse native app tests invoke the shared production client/service and exact canonical hashes."
+    },
+    {
+      "original": "IdentitySessionClientDataHashTests/testTheIssuedAtFormatterMatchesTheStringTheBodyCarries",
+      "adopter": "IdentitySessionClientDataHashTests/testTheIssuedAtFormatterMatchesTheStringTheBodyCarries",
+      "obligation": "Pulse native app tests invoke the shared production client/service and exact canonical hashes."
+    },
+    {
+      "original": "IdentitySessionClientDataHashTests/testOneSessionAttemptRetainsBothOperationIDAndIssuedAtAcrossRetries",
+      "adopter": "IdentitySessionClientDataHashTests/testOneSessionAttemptRetainsBothOperationIDAndIssuedAtAcrossRetries",
+      "obligation": "Pulse native app tests invoke the shared production client/service and exact canonical hashes."
+    },
+    {
+      "original": "IdentitySessionClientDataHashTests/testAnUnconsumedLiveChallengeIsReusableForNFCPositioningRetries",
+      "adopter": "IdentitySessionClientDataHashTests/testAnUnconsumedLiveChallengeIsReusableForNFCPositioningRetries",
+      "obligation": "Pulse native app tests invoke the shared production client/service and exact canonical hashes."
+    },
+    {
+      "original": "IdentitySessionClientDataHashTests/testAnExpiredChallengeCannotBeReused",
+      "adopter": "IdentitySessionClientDataHashTests/testAnExpiredChallengeCannotBeReused",
+      "obligation": "Pulse native app tests invoke the shared production client/service and exact canonical hashes."
+    },
+    {
+      "original": "IdentitySessionClientDataHashTests/testTheDomainSeparatedHashIsNotTheBareCanonicalHash",
+      "adopter": "IdentitySessionClientDataHashTests/testTheDomainSeparatedHashIsNotTheBareCanonicalHash",
+      "obligation": "Pulse native app tests invoke the shared production client/service and exact canonical hashes."
+    },
+    {
+      "original": "IdentitySessionClientDataHashTests/testDeadRetainedAppAttestKeyReregistersOnceAndUsesFreshIdentity",
+      "adopter": "IdentitySessionClientDataHashTests/testDeadRetainedAppAttestKeyReregistersOnceAndUsesFreshIdentity",
+      "obligation": "Pulse native app tests invoke the shared production client/service and exact canonical hashes."
+    },
+    {
+      "original": "IdentitySessionClientDataHashTests/testDeviceCheckServerUnavailableDoesNotDestroyOrReregisterCredentials",
+      "adopter": "IdentitySessionClientDataHashTests/testDeviceCheckServerUnavailableDoesNotDestroyOrReregisterCredentials",
+      "obligation": "Pulse native app tests invoke the shared production client/service and exact canonical hashes."
+    }
+  ],
+  "sharedRequiredTests": "required-tests.json",
+  "adopterQualification": "Actual Pulse native app test target; reference native controller and UI target; predecessor Gateway compatibility suite. No external suite is claimed by this monorepo job alone.",
+  "legacyRetryPolicy": {
+    "path": "Packages/IdentityGateway/Tests/IdentityGatewayTests/PulseRegistrationTransientRetryTests.swift",
+    "sha256": "6ba1e4080b0525209c6d2ffd36f638d9de006ad668f1c8fb953ab5d8c970ae3c",
+    "policyCommits": [
+      "9250899",
+      "39a1834"
+    ],
+    "behavior": "Only known transient expired attestation challenge renews with same key/client ID and carried failure count; cooldown and unknown/initial-expiry refusals remain closed.",
+    "repository": "kenshiki-identity-sdk"
+  }
+}

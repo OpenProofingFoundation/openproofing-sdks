@@ -1,0 +1,203 @@
+{
+  "schemaVersion": 1,
+  "files": [
+    {
+      "source": "Packages/IdentityEvidencePassport/Tests/IdentityEvidencePassportTests/PassportAccessKeyTests.swift",
+      "sourceSHA256": "664881970ae14fbf8afd935f905239fceb09a48ea19c724cfd8a467d44db327b",
+      "destination": "passport/ios/Tests/PassportTests/PassportAccessKeyTests.swift",
+      "destinationSHA256": "577e868cd40773de2eea77ed226b9e401628daf0900b1d6b68e883db0c15ca8d",
+      "patch": "Module import migration and terminal adapter rename only",
+      "sourceRepository": "kenshiki-identity-sdk"
+    },
+    {
+      "source": "Packages/IdentityEvidencePassport/Tests/IdentityEvidencePassportTests/PassportAuthenticatedPortraitTests.swift",
+      "sourceSHA256": "eb58d7bf4f30f7776895e48f779eb02d13721f4cc1294b1b77719ac44f1071d4",
+      "destination": "passport/ios/Tests/PassportTests/PassportAuthenticatedPortraitTests.swift",
+      "destinationSHA256": "2a4a7915bd8d4ee26cb8d3ae1a6454a5b9bda45ebf0858abfddc99fb25ba68ad",
+      "patch": "Module import migration and terminal adapter rename only",
+      "sourceRepository": "kenshiki-identity-sdk"
+    },
+    {
+      "source": "Packages/IdentityEvidencePassport/Tests/IdentityEvidencePassportTests/PassportChipAuthenticationExchangeTests.swift",
+      "sourceSHA256": "a286d9fb484e9d21ec9a15fb77df28911b330d521ffd4b4dc7e930088f104371",
+      "destination": "passport/ios/Tests/PassportTests/PassportChipAuthenticationExchangeTests.swift",
+      "destinationSHA256": "3c5cbe80e3d86497b88eb535e8056706ab5c436584aa78674c9de4d4d74c3915",
+      "patch": "Module import migration and terminal adapter rename only",
+      "sourceRepository": "kenshiki-identity-sdk"
+    },
+    {
+      "source": "Packages/IdentityEvidencePassport/Tests/IdentityEvidencePassportTests/PassportChipAuthenticityTests.swift",
+      "sourceSHA256": "cb4c1803988c36cd512bd08d81cd79d640ee60b2ab9beffd5a420753a35617f1",
+      "destination": "passport/ios/Tests/PassportTests/PassportChipAuthenticityTests.swift",
+      "destinationSHA256": "57eba82f0577e56fce96f367a805078ccb05ca5fbce05872bc70f9d17a2c52d2",
+      "patch": "Module import migration and terminal adapter rename only",
+      "sourceRepository": "kenshiki-identity-sdk"
+    },
+    {
+      "source": "Packages/IdentityEvidencePassport/Tests/IdentityEvidencePassportTests/PassportCorrespondenceObservationTests.swift",
+      "sourceSHA256": "c77f3d5d21f8f5c22e8633a98e9317363dce9639033d09484e35eab3a27438ae",
+      "destination": "passport/ios/Tests/PassportTests/PassportCorrespondenceObservationTests.swift",
+      "destinationSHA256": "42fde16cf2cf484ab4c13dbd6b3820f30d9c61dcdab85a69f9f0b218d86c6f89",
+      "patch": "Module import migration and terminal adapter rename only",
+      "sourceRepository": "kenshiki-identity-sdk"
+    },
+    {
+      "source": "Packages/IdentityEvidencePassport/Tests/IdentityEvidencePassportTests/PassportMRZOCRParserTests.swift",
+      "sourceSHA256": "7381f7bac8a5def23293cf3b58bab284c01a0f0b1adf354539e78947c9303a5f",
+      "destination": "passport/ios/Tests/PassportTests/PassportMRZOCRParserTests.swift",
+      "destinationSHA256": "44ddb64bdca8fb9ec428f1b4f817282e0b9956c56dc736e5f08c5b91bb50f597",
+      "patch": "Module import migration and terminal adapter rename only; add authored regressions for complete, unambiguous MRZ readiness and stale guide/layout callbacks.",
+      "sourceRepository": "kenshiki-identity-sdk"
+    },
+    {
+      "source": "Tests/PACETransportTests/BACAdversarialTests.swift",
+      "sourceSHA256": "8f292ce5bd66a5d1bb8098eb30f69df1564ae77608ebc5c3ff5bc90021aeeba9",
+      "destination": "passport/ios/Tests/PassportNFCTests/BACAdversarialTests.swift",
+      "destinationSHA256": "45fbd7e720b941260a2e43a8cfba0384c339e225989eb3b6c5292b2cf2ff7484",
+      "patch": "Added iOS compilation boundary; assertions unchanged",
+      "sourceRepository": "kenshiki-identity-sdk"
+    },
+    {
+      "source": "Tests/KenshikiDeviceSDKTests/NFCPassportPassiveAuthenticationTests.swift",
+      "sourceSHA256": "362af2367d7ab271bdf90fe8b701c5764c51ec6528f9889a96372cf7cc5d7759",
+      "destination": "passport/ios/Tests/PassportNFCTests/NFCPassportPassiveAuthenticationTests.swift",
+      "destinationSHA256": "58432cd4c8432465e7e0d02f4b7acea4a322872ebd826c05df82c95bf65c06cd",
+      "patch": "No behavior or fixture changes; removed unused product import for passive-auth suite",
+      "sourceRepository": "pulse-ios"
+    },
+    {
+      "source": "Tests/KenshikiDeviceSDKTests/NFCPassportLifecycleTests.swift",
+      "sourceSHA256": "75c118d2632b834c6b154e25af015445685261c4cca18255c00d4453fb010fcb",
+      "destination": "passport/ios/Tests/PassportNFCTests/NFCPassportPreflightTests.swift",
+      "destinationSHA256": "0514429c6875f5d54aa6c2f5097e9e2877bea39c74bc801a209bc28cb50188fc",
+      "patch": "Extract final two preflight tests; no assertion changes",
+      "sourceRepository": "pulse-ios"
+    },
+    {
+      "source": "Packages/IdentityEvidencePassport/Tests/IdentityEvidencePassportTests/NFCReadSettlementTests.swift",
+      "sourceSHA256": "d87c5deead89f949d209f0d354422decfe8cee95b6d2f3cdc40a6d0d14ad0c39",
+      "destination": "passport/ios/Tests/PassportNFCTests/NFCReadSettlementTests.swift",
+      "destinationSHA256": "5053e0023509b6e63d5dcabafb9e43c9e0554dd76487f860bc5a52569d96dee4",
+      "patch": "No behavior or fixture changes; removed unused product import for passive-auth suite",
+      "sourceRepository": "kenshiki-identity-sdk"
+    },
+    {
+      "source": "Tests/PACETransportTests/PACEAdversarialTests.swift",
+      "sourceSHA256": "6d52267c0971c1ab5e9816a8c64b3225527348810b25976fd7f7b061f80cb15a",
+      "destination": "passport/ios/Tests/PassportNFCTests/PACEAdversarialTests.swift",
+      "destinationSHA256": "2d5ed9d6e469a1b4f5952a5f7046d1f70f20967d5eac78d8cb79ff1dfaffb010",
+      "patch": "Added iOS compilation boundary; assertions unchanged",
+      "sourceRepository": "kenshiki-identity-sdk"
+    },
+    {
+      "source": "Tests/PACETransportTests/PACEFallbackTests.swift",
+      "sourceSHA256": "3b8ea96ad334c264bff7cb385da65475e21170c4b327feaa7d12f33e25deef51",
+      "destination": "passport/ios/Tests/PassportNFCTests/PACEFallbackTests.swift",
+      "destinationSHA256": "2a812d8f4fc12a9e4973709e80582668069ba2f1b40cf478d28f4f8826184a24",
+      "patch": "Added iOS compilation boundary; assertions unchanged",
+      "sourceRepository": "kenshiki-identity-sdk"
+    },
+    {
+      "source": "Tests/PACETransportTests/PACEPeerAdversarialTests.swift",
+      "sourceSHA256": "1891800fc6a879f2884cc2585770dcf1caf115a790c2dc9ede0bfd7a1be8d187",
+      "destination": "passport/ios/Tests/PassportNFCTests/PACEPeerAdversarialTests.swift",
+      "destinationSHA256": "9f66d210aa46692ed0dfb21e9c3583d707ed590912b2f8e9953d61fabee8a992",
+      "patch": "Added iOS compilation boundary; assertions unchanged",
+      "sourceRepository": "kenshiki-identity-sdk"
+    },
+    {
+      "source": "Tests/PACETransportTests/PACETransportTests.swift",
+      "sourceSHA256": "097af5d3c42875d9e2a76601c77c0ab2d75ff9edfa45f0862fba51228e9ce13d",
+      "destination": "passport/ios/Tests/PassportNFCTests/PACETransportTests.swift",
+      "destinationSHA256": "65cfc613478822adeabe48344c9433f756b4c572521d1b5174b105bf889ccc82",
+      "patch": "Added iOS compilation boundary; relocated existing PACETransportTests extension from synthetic fixture file into test suite source without assertion changes",
+      "sourceRepository": "kenshiki-identity-sdk"
+    },
+    {
+      "source": "Packages/IdentityEvidencePassport/Tests/IdentityEvidencePassportTests/PassportChipAuthenticationRelayTests.swift",
+      "sourceSHA256": "49452a0777dbd3b0e1f1d1ddc9ecce99b9118c4bb58469bc5aeec3bc9c3b79c8",
+      "destination": "passport/ios/Tests/PassportNFCTests/PassportChipAuthenticationRelayTests.swift",
+      "destinationSHA256": "1041316be63f4ecace8fc19e30678f60695bb2f0910bc55be5863f5bdbbfb2f9",
+      "patch": "Module import migration and terminal adapter rename only",
+      "sourceRepository": "kenshiki-identity-sdk"
+    },
+    {
+      "source": "Packages/IdentityEvidencePassport/Tests/IdentityEvidencePassportTests/PassportChipReaderTests.swift",
+      "sourceSHA256": "d03b94e37d88c3708754b13ac7ce0503649290cb7dc7a2803185c3f408899381",
+      "destination": "passport/ios/Tests/PassportNFCTests/PassportChipReaderTests.swift",
+      "destinationSHA256": "79e9c78f0dd8088c26f30456917b79336b36713f493ce25de8ed13708f1ea3df",
+      "patch": "Module import migration and terminal adapter rename only",
+      "sourceRepository": "kenshiki-identity-sdk"
+    },
+    {
+      "source": "Packages/IdentityEvidencePassport/Tests/IdentityEvidencePassportTests/PassportTransportLifecycleTests.swift",
+      "sourceSHA256": "c1148dbcddb179ac744ae15e74554401da3156c60cca6afa69cc3e86a0a78313",
+      "destination": "passport/ios/Tests/PassportNFCTests/PassportTransportLifecycleTests.swift",
+      "destinationSHA256": "2f1616e54ce66b95a1103b9a9bd14a607aaea67ea0ae9f07c11eed765aa8ceb9",
+      "patch": "Module import migration and terminal adapter rename only",
+      "sourceRepository": "kenshiki-identity-sdk"
+    },
+    {
+      "source": "Tests/PACETransportTests/SyntheticPACEPeer.swift",
+      "sourceSHA256": "83168cb90ae977598d2d435c02e6add853e073562d7d251600037dec21836033",
+      "destination": "passport/ios/Tests/PassportNFCTests/SyntheticPACEPeer.swift",
+      "destinationSHA256": "1bd768b7b41d421c25af44be1dedd518a6d81ab4beb4c55caa624a464830e410",
+      "patch": "Added iOS compilation boundary; relocated existing PACETransportTests extension from synthetic fixture file into test suite source without assertion changes",
+      "sourceRepository": "kenshiki-identity-sdk"
+    },
+    {
+      "source": "Packages/IdentityEvidencePassport/Tests/CaptureMRZTests/NativeMRZPreviewTests.swift",
+      "sourceSHA256": "03223a35fde113459e261da094e603ea0d7b6241a38a66b842456b1b1ec538f9",
+      "destination": "passport/ios/Tests/CaptureMRZTests/NativeMRZPreviewTests.swift",
+      "destinationSHA256": "05e674e6cd9d5b8cde259d8707c68cb21d4bb7aa43f2c557e17af3ddc63cbcc7",
+      "patch": "Module import migration and terminal adapter rename only; add immediate guide withdrawal/readiness reset on preview removal.",
+      "sourceRepository": "kenshiki-identity-sdk"
+    },
+    {
+      "source": "Packages/IdentityEvidencePassport/Tests/CaptureMRZTests/NativeMRZSessionTests.swift",
+      "sourceSHA256": "8818276df74d3bf987589fbcf1b8078b2114ef7fbc898a338c11ea127761e10e",
+      "destination": "passport/ios/Tests/CaptureMRZTests/NativeMRZSessionTests.swift",
+      "destinationSHA256": "1e497d4364ce3ae4ebe3809228d3ce077814a68e27555c2e191c80f8a71791f7",
+      "patch": "Module import migration and terminal adapter rename only; add authored regressions for complete, unambiguous MRZ readiness and stale guide/layout callbacks.",
+      "sourceRepository": "kenshiki-identity-sdk"
+    },
+    {
+      "sourceRepository": "kenshiki-identity-sdk",
+      "sourceRevision": "0a1d0a0ec0fb7d3f435fb25608ca25e7b673bdbd",
+      "source": "Tests/IdentityEvidenceAppleTests/DocumentCameraSelectionPolicyTests.swift",
+      "sourceSHA256": "b2bbb2c9dd587d1ed41f6a8a48ba54ffc9676bfb6b95ee84eed6973e8e4fcf3e",
+      "destination": "passport/ios/Tests/CaptureMRZTests/MRZCameraSelectionTests.swift",
+      "destinationSHA256": "d402f1b59c2175ce13538c84198b6914cbac8711ac652f3674a09d214cb04c38",
+      "patch": "Port all six established selection fixtures/assertions to XCTest and internal MRZ names; omit unused focus-distance/report metadata, add reordered tie fixture, native zoom-boundary and AVFoundation device-type mapping tests. No physical hardware qualification claim."
+    }
+  ],
+  "authoredTests": [
+    "ios/Tests/CaptureMRZTests/MRZReadinessGateTests.swift",
+    "ios/Tests/PassportNFCTests/PassportActiveAuthenticationTests.swift",
+    "ios/Tests/PassportNFCTests/PassportNestedParserTests.swift",
+    "ios/Tests/PassportNFCTests/PassportObservationMapperTests.swift",
+    "ios/Tests/PassportNFCTests/PassportParserOwnershipTests.swift",
+    "ios/Tests/PassportNFCTests/PassportPortraitExtractionTests.swift",
+    "ios/Tests/PassportNFCTests/PassportTerminalAuthenticationTests.swift",
+    "ios/Tests/PassportNFCTests/SecureMessagingAdversarialTests.swift"
+  ],
+  "scope": "Synthetic fixtures only, including generated public test certificates and signed LDS bytes; no personal image, real chip dump, private key or production trust material; coordinated reader regressions/helper are mirrored to actual Pulse SDK dependency, with only existing parser API/module-import adaptations in mapper tests; no physical NFC interoperability implied.",
+  "authoredTestSHA256": {
+    "ios/Tests/CaptureMRZTests/MRZReadinessGateTests.swift": "c83fd2fac6d5572b2ebfd8f037de35456690043d927e8c61d89acf0f2384e7da",
+    "ios/Tests/PassportNFCTests/PassportActiveAuthenticationTests.swift": "3e4ab34ac157f00358d6098b339339ad4011d66bf5ebffd5d3da16278a32f2d8",
+    "ios/Tests/PassportNFCTests/PassportNestedParserTests.swift": "95f05ebb3f6c5905396c341199c191d96e01db0ac7142faee55a13b084d0df56",
+    "ios/Tests/PassportNFCTests/PassportObservationMapperTests.swift": "97984e0ff83bb1b64fff17b624282ab710a4332a290a92614c80f91153ea392e",
+    "ios/Tests/PassportNFCTests/PassportParserOwnershipTests.swift": "b92f07bf4e17fb5a09d43f3bb8157259f495cabb197b1c924df88e6f80ee7303",
+    "ios/Tests/PassportNFCTests/PassportPortraitExtractionTests.swift": "5fd6cfaff7601a7f5934077a3a3c052e0b707d67ef976f5a247b746ef09a10bb",
+    "ios/Tests/PassportNFCTests/PassportTerminalAuthenticationTests.swift": "7d590cea86a445d4620767f08d80627308be241f59ce0bca729f152a2d40bcb6",
+    "ios/Tests/PassportNFCTests/SecureMessagingAdversarialTests.swift": "e96a5bad3a695d738623e838b92c736f20466b67098206a976ebb21f478b5ed0"
+  },
+  "authoredTestHelpers": [
+    {
+      "destination": "ios/Tests/PassportNFCTests/ReaderProtocolFixture.swift",
+      "destinationSHA256": "6aa9f8ca55a87b853dc26338170aac0e9cc81bce88934b8cbcae54afbbe5fccb",
+      "origin": "kenshiki-sdks-authored",
+      "purpose": "In-process ephemeral RSA/EC keys, public structural DG records and independently assembled protected-access/CA peer vectors; contains no executable test declarations, retained privatekeys, realidentityfixtures or productiontrust."
+    }
+  ]
+}

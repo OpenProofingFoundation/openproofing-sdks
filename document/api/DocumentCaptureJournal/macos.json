@@ -1,0 +1,546 @@
+{
+  "relationships": [
+    {
+      "kind": "conformsTo",
+      "source": "s:22DocumentCaptureJournal0B14RecordingClockV",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:22DocumentCaptureJournal0B14RecordingClockV",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:22DocumentCaptureJournal0B15RecordingPolicyV",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:22DocumentCaptureJournal0B15RecordingPolicyV",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:22DocumentCaptureJournal0B16TiltBudgetPolicyV",
+      "target": "s:SE"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:22DocumentCaptureJournal0B16TiltBudgetPolicyV",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:22DocumentCaptureJournal0B16TiltBudgetPolicyV",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:22DocumentCaptureJournal0B16TiltBudgetPolicyV",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:22DocumentCaptureJournal0B18RecordingReferenceV",
+      "target": "s:SE"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:22DocumentCaptureJournal0B18RecordingReferenceV",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:22DocumentCaptureJournal0B18RecordingReferenceV",
+      "target": "s:Se"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:22DocumentCaptureJournal0B18RecordingReferenceV",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:22DocumentCaptureJournal0B18RecordingReferenceV",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:22DocumentCaptureJournal0B19RecordingDiagnosticV",
+      "target": "s:SE"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:22DocumentCaptureJournal0B19RecordingDiagnosticV",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:22DocumentCaptureJournal0B19RecordingDiagnosticV",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:22DocumentCaptureJournal0B21RecordingVerificationO6ResultV",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:22DocumentCaptureJournal0B21RecordingVerificationO6ResultV",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:22DocumentCaptureJournal0b9RecordingC0C",
+      "target": "s:20DocumentCaptureApple0A20JourneyRecordingSinkP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:22DocumentCaptureJournal0b9RecordingC0C",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:22DocumentCaptureJournal0b9RecordingC0C",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:22DocumentCaptureJournal0b9RecordingC0C18TiltBudgetSnapshotV",
+      "target": "s:SE"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:22DocumentCaptureJournal0b9RecordingC0C18TiltBudgetSnapshotV",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:22DocumentCaptureJournal0b9RecordingC0C18TiltBudgetSnapshotV",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:22DocumentCaptureJournal0b9RecordingC0C18TiltBudgetSnapshotV",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:22DocumentCaptureJournal31RecordingAcquisitionDiagnosticsV",
+      "target": "s:SE"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:22DocumentCaptureJournal31RecordingAcquisitionDiagnosticsV",
+      "target": "s:Se"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:22DocumentCaptureJournal31RecordingAcquisitionDiagnosticsV",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:22DocumentCaptureJournal31RecordingAcquisitionDiagnosticsV",
+      "target": "s:s8SendableP"
+    }
+  ],
+  "symbols": [
+    {
+      "declaration": "struct CaptureRecordingClock",
+      "id": "s:22DocumentCaptureJournal0B14RecordingClockV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "let now: @Sendable () -> Date",
+      "id": "s:22DocumentCaptureJournal0B14RecordingClockV3now10Foundation4DateVyYbcvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "init(now: @escaping @Sendable () -> Date, uptime: @escaping @Sendable () -> TimeInterval)",
+      "id": "s:22DocumentCaptureJournal0B14RecordingClockV3now6uptimeAC10Foundation4DateVyYbc_SdyYbctcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "let uptime: @Sendable () -> TimeInterval",
+      "id": "s:22DocumentCaptureJournal0B14RecordingClockV6uptimeSdyYbcvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "struct CaptureRecordingPolicy",
+      "id": "s:22DocumentCaptureJournal0B15RecordingPolicyV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "static let retainedV1: CaptureRecordingPolicy",
+      "id": "s:22DocumentCaptureJournal0B15RecordingPolicyV10retainedV1ACvpZ",
+      "kind": "swift.type.property"
+    },
+    {
+      "declaration": "static let retainedV2: CaptureRecordingPolicy",
+      "id": "s:22DocumentCaptureJournal0B15RecordingPolicyV10retainedV2ACvpZ",
+      "kind": "swift.type.property"
+    },
+    {
+      "declaration": "let maximumDuration: Double",
+      "id": "s:22DocumentCaptureJournal0B15RecordingPolicyV15maximumDurationSdvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let maximumDiskBytes: Int",
+      "id": "s:22DocumentCaptureJournal0B15RecordingPolicyV16maximumDiskBytesSivp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let maximumPendingBytes: Int",
+      "id": "s:22DocumentCaptureJournal0B15RecordingPolicyV19maximumPendingBytesSivp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "init(version: String, maximumDuration: Double, maximumDiskBytes: Int, maximumPendingBytes: Int)",
+      "id": "s:22DocumentCaptureJournal0B15RecordingPolicyV7version15maximumDuration0G9DiskBytes0g7PendingJ0ACSS_SdS2itcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "let version: String",
+      "id": "s:22DocumentCaptureJournal0B15RecordingPolicyV7versionSSvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "enum CapturePayloadIntegrity",
+      "id": "s:22DocumentCaptureJournal0B16PayloadIntegrityO",
+      "kind": "swift.enum"
+    },
+    {
+      "declaration": "static func sha256(_ data: Data) -> String",
+      "id": "s:22DocumentCaptureJournal0B16PayloadIntegrityO6sha256ySS10Foundation4DataVFZ",
+      "kind": "swift.type.method"
+    },
+    {
+      "declaration": "struct CaptureTiltBudgetPolicy",
+      "id": "s:22DocumentCaptureJournal0B16TiltBudgetPolicyV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "static let provisionalV1: CaptureTiltBudgetPolicy",
+      "id": "s:22DocumentCaptureJournal0B16TiltBudgetPolicyV13provisionalV1ACvpZ",
+      "kind": "swift.type.property"
+    },
+    {
+      "declaration": "let coreReserveBytes: Int",
+      "id": "s:22DocumentCaptureJournal0B16TiltBudgetPolicyV16coreReserveBytesSivp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let coreReserveSeconds: Double",
+      "id": "s:22DocumentCaptureJournal0B16TiltBudgetPolicyV18coreReserveSecondsSdvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "init(version: String, coreReserveBytes: Int, coreReserveSeconds: Double)",
+      "id": "s:22DocumentCaptureJournal0B16TiltBudgetPolicyV7version16coreReserveBytes0hI7SecondsACSS_SiSdtcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "let version: String",
+      "id": "s:22DocumentCaptureJournal0B16TiltBudgetPolicyV7versionSSvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "struct CaptureRecordingReference",
+      "id": "s:22DocumentCaptureJournal0B18RecordingReferenceV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "let workflowID: UUID",
+      "id": "s:22DocumentCaptureJournal0B18RecordingReferenceV10workflowID10Foundation4UUIDVvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "init(recordingID: UUID, workflowID: UUID, startSHA256: String)",
+      "id": "s:22DocumentCaptureJournal0B18RecordingReferenceV11recordingID08workflowG011startSHA256AC10Foundation4UUIDV_AISStcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "let recordingID: UUID",
+      "id": "s:22DocumentCaptureJournal0B18RecordingReferenceV11recordingID10Foundation4UUIDVvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let startSHA256: String",
+      "id": "s:22DocumentCaptureJournal0B18RecordingReferenceV11startSHA256SSvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "init(from decoder: any Decoder) throws",
+      "id": "s:22DocumentCaptureJournal0B18RecordingReferenceV4fromACs7Decoder_p_tKcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "struct CaptureRecordingDiagnostic",
+      "id": "s:22DocumentCaptureJournal0B19RecordingDiagnosticV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "let frameCount: Int",
+      "id": "s:22DocumentCaptureJournal0B19RecordingDiagnosticV10frameCountSivp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let contextCode: String?",
+      "id": "s:22DocumentCaptureJournal0B19RecordingDiagnosticV11contextCodeSSSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let recordingID: UUID",
+      "id": "s:22DocumentCaptureJournal0B19RecordingDiagnosticV11recordingID10Foundation4UUIDVvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let writeFailed: Bool",
+      "id": "s:22DocumentCaptureJournal0B19RecordingDiagnosticV11writeFailedSbvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let chargedBytes: Int",
+      "id": "s:22DocumentCaptureJournal0B19RecordingDiagnosticV12chargedBytesSivp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let pendingBytes: Int",
+      "id": "s:22DocumentCaptureJournal0B19RecordingDiagnosticV12pendingBytesSivp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let refusedFrames: Int",
+      "id": "s:22DocumentCaptureJournal0B19RecordingDiagnosticV13refusedFramesSivp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let maximumDiskBytes: Int",
+      "id": "s:22DocumentCaptureJournal0B19RecordingDiagnosticV16maximumDiskBytesSivp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let maximumPendingBytes: Int",
+      "id": "s:22DocumentCaptureJournal0B19RecordingDiagnosticV19maximumPendingBytesSivp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let refusedMotionSamples: Int",
+      "id": "s:22DocumentCaptureJournal0B19RecordingDiagnosticV20refusedMotionSamplesSivp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let outstandingMilestones: Int",
+      "id": "s:22DocumentCaptureJournal0B19RecordingDiagnosticV21outstandingMilestonesSivp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let acquisitionDiagnostics: RecordingAcquisitionDiagnostics",
+      "id": "s:22DocumentCaptureJournal0B19RecordingDiagnosticV22acquisitionDiagnosticsAA0d11AcquisitionG0Vvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "enum CaptureRecordingVerification",
+      "id": "s:22DocumentCaptureJournal0B21RecordingVerificationO",
+      "kind": "swift.enum"
+    },
+    {
+      "declaration": "static func verifyStart(manifestData: Data, store: CaptureEvidenceStore) async throws",
+      "id": "s:22DocumentCaptureJournal0B21RecordingVerificationO11verifyStart12manifestData5storey10Foundation0I0V_0B15EvidenceCustody0bL5StoreCtYaKFZ",
+      "kind": "swift.type.method"
+    },
+    {
+      "declaration": "struct Result",
+      "id": "s:22DocumentCaptureJournal0B21RecordingVerificationO6ResultV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "let ids: Set<UUID>",
+      "id": "s:22DocumentCaptureJournal0B21RecordingVerificationO6ResultV3idsShy10Foundation4UUIDVGvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let status: String",
+      "id": "s:22DocumentCaptureJournal0B21RecordingVerificationO6ResultV6statusSSvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let stillIDs: Set<UUID>",
+      "id": "s:22DocumentCaptureJournal0B21RecordingVerificationO6ResultV8stillIDsShy10Foundation4UUIDVGvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "static func verify(_ reference: CaptureRecordingReference, store: CaptureEvidenceStore, profileSides: [String : String] = [:]) async throws -> CaptureRecordingVerification.Result",
+      "id": "s:22DocumentCaptureJournal0B21RecordingVerificationO6verify_5store12profileSidesAC6ResultVAA0bD9ReferenceV_0B15EvidenceCustody0bL5StoreCSDyS2SGtYaKFZ",
+      "kind": "swift.type.method"
+    },
+    {
+      "declaration": "final class CaptureRecordingJournal",
+      "id": "s:22DocumentCaptureJournal0b9RecordingC0C",
+      "kind": "swift.class"
+    },
+    {
+      "declaration": "func appendEvent(_ event: DocumentJourneyRecordingEvent)",
+      "id": "s:22DocumentCaptureJournal0b9RecordingC0C11appendEventyy0aB5Apple0a7JourneydF0VF",
+      "kind": "swift.method"
+    },
+    {
+      "declaration": "func appendFrame(_ frame: DocumentTemporalFrame, reservation: UUID)",
+      "id": "s:22DocumentCaptureJournal0b9RecordingC0C11appendFrame_11reservationy0aB5Apple0a8TemporalF0V_10Foundation4UUIDVtF",
+      "kind": "swift.method"
+    },
+    {
+      "declaration": "var recordingID: UUID { get }",
+      "id": "s:22DocumentCaptureJournal0b9RecordingC0C11recordingID10Foundation4UUIDVvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "func appendMotion(_ sample: DocumentTemporalMotionSample)",
+      "id": "s:22DocumentCaptureJournal0b9RecordingC0C12appendMotionyy0aB5Apple0a8TemporalF6SampleVF",
+      "kind": "swift.method"
+    },
+    {
+      "declaration": "func reserveFrame(byteCount: Int) -> UUID?",
+      "id": "s:22DocumentCaptureJournal0b9RecordingC0C12reserveFrame9byteCount10Foundation4UUIDVSgSi_tF",
+      "kind": "swift.method"
+    },
+    {
+      "declaration": "func reserveFrame(byteCount: Int, failure: DocumentJourneyRecordingEvent) -> UUID?",
+      "id": "s:22DocumentCaptureJournal0b9RecordingC0C12reserveFrame9byteCount7failure10Foundation4UUIDVSgSi_0aB5Apple0a7JourneyD5EventVtF",
+      "kind": "swift.method"
+    },
+    {
+      "declaration": "func emitDiagnostic()",
+      "id": "s:22DocumentCaptureJournal0b9RecordingC0C14emitDiagnosticyyF",
+      "kind": "swift.method"
+    },
+    {
+      "declaration": "func cancelMilestone(_ token: UUID)",
+      "id": "s:22DocumentCaptureJournal0b9RecordingC0C15cancelMilestoneyy10Foundation4UUIDVF",
+      "kind": "swift.method"
+    },
+    {
+      "declaration": "func watchTiltBudget(owner: UUID, policy: CaptureTiltBudgetPolicy = .provisionalV1, handler: @escaping @Sendable (CaptureRecordingJournal.TiltBudgetSnapshot) -> Void) -> CaptureRecordingJournal.TiltBudgetSnapshot",
+      "id": "s:22DocumentCaptureJournal0b9RecordingC0C15watchTiltBudget5owner6policy7handlerAC0fG8SnapshotV10Foundation4UUIDV_AA0bfG6PolicyVyAIYbctF",
+      "kind": "swift.method"
+    },
+    {
+      "declaration": "func reserveMilestone() -> UUID?",
+      "id": "s:22DocumentCaptureJournal0b9RecordingC0C16reserveMilestone10Foundation4UUIDVSgyF",
+      "kind": "swift.method"
+    },
+    {
+      "declaration": "func setStatusHandler(_ callback: @escaping @Sendable (String) -> Void)",
+      "id": "s:22DocumentCaptureJournal0b9RecordingC0C16setStatusHandleryyySSYbcF",
+      "kind": "swift.method"
+    },
+    {
+      "declaration": "func cancelReservation(_ reservation: UUID, reason _: String)",
+      "id": "s:22DocumentCaptureJournal0b9RecordingC0C17cancelReservation_6reasony10Foundation4UUIDV_SStF",
+      "kind": "swift.method"
+    },
+    {
+      "declaration": "func cancelReservation(_ reservation: UUID, failure: DocumentJourneyRecordingEvent)",
+      "id": "s:22DocumentCaptureJournal0b9RecordingC0C17cancelReservation_7failurey10Foundation4UUIDV_0aB5Apple0a7JourneyD5EventVtF",
+      "kind": "swift.method"
+    },
+    {
+      "declaration": "struct TiltBudgetSnapshot",
+      "id": "s:22DocumentCaptureJournal0b9RecordingC0C18TiltBudgetSnapshotV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "var tiltBudgetAvailable: Bool { get }",
+      "id": "s:22DocumentCaptureJournal0b9RecordingC0C18TiltBudgetSnapshotV04tiltF9AvailableSbvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let recordingID: UUID",
+      "id": "s:22DocumentCaptureJournal0b9RecordingC0C18TiltBudgetSnapshotV11recordingID10Foundation4UUIDVvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let chargedBytes: Int",
+      "id": "s:22DocumentCaptureJournal0b9RecordingC0C18TiltBudgetSnapshotV12chargedBytesSivp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let maximumDiskBytes: Int",
+      "id": "s:22DocumentCaptureJournal0b9RecordingC0C18TiltBudgetSnapshotV16maximumDiskBytesSivp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let remainingSeconds: Double",
+      "id": "s:22DocumentCaptureJournal0b9RecordingC0C18TiltBudgetSnapshotV16remainingSecondsSdvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let conservativePendingCharge: Int",
+      "id": "s:22DocumentCaptureJournal0b9RecordingC0C18TiltBudgetSnapshotV25conservativePendingChargeSivp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let policy: CaptureTiltBudgetPolicy",
+      "id": "s:22DocumentCaptureJournal0b9RecordingC0C18TiltBudgetSnapshotV6policyAA0beF6PolicyVvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let recording: Bool",
+      "id": "s:22DocumentCaptureJournal0b9RecordingC0C18TiltBudgetSnapshotV9recordingSbvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "func tiltBudgetSnapshot(now: TimeInterval? = nil, policy: CaptureTiltBudgetPolicy = .provisionalV1) -> CaptureRecordingJournal.TiltBudgetSnapshot",
+      "id": "s:22DocumentCaptureJournal0b9RecordingC0C18tiltBudgetSnapshot3now6policyAC04TiltfG0VSdSg_AA0bjF6PolicyVtF",
+      "kind": "swift.method"
+    },
+    {
+      "declaration": "func appendStillRetained(_ event: DocumentJourneyRecordingEvent, reservation: UUID) async throws",
+      "id": "s:22DocumentCaptureJournal0b9RecordingC0C19appendStillRetained_11reservationy0aB5Apple0a7JourneyD5EventV_10Foundation4UUIDVtYaKF",
+      "kind": "swift.method"
+    },
+    {
+      "declaration": "func clearTiltBudgetWatch(owner: UUID)",
+      "id": "s:22DocumentCaptureJournal0b9RecordingC0C20clearTiltBudgetWatch5ownery10Foundation4UUIDV_tF",
+      "kind": "swift.method"
+    },
+    {
+      "declaration": "var latestMotionObservation: DocumentTemporalMotionSample? { get }",
+      "id": "s:22DocumentCaptureJournal0b9RecordingC0C23latestMotionObservation0aB5Apple0a8TemporalF6SampleVSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "static func start(workflowID: UUID, store: CaptureEvidenceStore, clock: CaptureRecordingClock, policy: CaptureRecordingPolicy = .retainedV2, maximumDuration: Double? = nil, maximumDiskBytes: Int? = nil, maximumPendingBytes: Int? = nil, diagnosticSink: @escaping @Sendable (CaptureRecordingDiagnostic) -> Void = { _ in }) async throws -> CaptureRecordingJournal",
+      "id": "s:22DocumentCaptureJournal0b9RecordingC0C5start10workflowID5store5clock6policy15maximumDuration0K9DiskBytes0k7PendingN014diagnosticSinkAC10Foundation4UUIDV_0B15EvidenceCustody0bT5StoreCAA0bD5ClockVAA0bD6PolicyVSdSgSiSgAXyAA0bD10DiagnosticVYbctYaKFZ",
+      "kind": "swift.type.method"
+    },
+    {
+      "declaration": "func finish(reason: String) async throws -> DocumentJourneyRecordingReceipt",
+      "id": "s:22DocumentCaptureJournal0b9RecordingC0C6finish6reason0aB5Apple0a7JourneyD7ReceiptVSS_tYaKF",
+      "kind": "swift.method"
+    },
+    {
+      "declaration": "var status: String { get }",
+      "id": "s:22DocumentCaptureJournal0b9RecordingC0C6statusSSvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let reference: CaptureRecordingReference",
+      "id": "s:22DocumentCaptureJournal0b9RecordingC0C9referenceAA0bD9ReferenceVvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "struct RecordingAcquisitionDiagnostics",
+      "id": "s:22DocumentCaptureJournal31RecordingAcquisitionDiagnosticsV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "init(from decoder: any Decoder) throws",
+      "id": "s:22DocumentCaptureJournal31RecordingAcquisitionDiagnosticsV4fromACs7Decoder_p_tKcfc",
+      "kind": "swift.init"
+    }
+  ]
+}

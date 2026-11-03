@@ -1,0 +1,5 @@
+module AuraFaceNative {
+    header "kenshiki/auraface_bridge.h"
+    header "kenshiki/frame_selection.h"
+    export *
+}

@@ -1,0 +1,10 @@
+import KenshikiPulsePassport
+
+// The optional service is the single wire owner. These app aliases preserve host names only.
+typealias PulsePassportClient = KenshikiPulsePassport.PulsePassportClient
+typealias PulsePassportChipProof = KenshikiPulsePassport.PulsePassportChipProof
+typealias PulsePassportSession = KenshikiPulsePassport.PulsePassportSession
+typealias PulsePassportNonce = KenshikiPulsePassport.PulsePassportNonce
+typealias PulseChipAuthenticationChallenge = KenshikiPulsePassport.PulseChipAuthenticationChallenge
+typealias PulsePassportVerification = KenshikiPulsePassport.PulsePassportVerification
+typealias PulsePassportFailure = KenshikiPulsePassport.PulsePassportFailure

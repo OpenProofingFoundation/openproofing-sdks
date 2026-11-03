@@ -1,0 +1,216 @@
+{
+  "sourceRepository": "kenshiki-identity-sdk",
+  "sourceHEAD": "2df6e4479c8cb9130f328fecdc5a19b2fde06317",
+  "sourceState": "Working-tree file hashes; unrelated edits preserved. Inventory only, no implementation extracted or source tests executed for this review.",
+  "date": "2026-10-16",
+  "files": [
+    {
+      "path": "Sources/CaptureSelfie/CapturedSelfie.swift",
+      "sha256": "58abcdb1ae4b420bf37aa0aae227a209a2e77140b4af08c8f7d95ec88adca1ff"
+    },
+    {
+      "path": "Sources/CaptureSelfie/NativeSelfieSession.swift",
+      "sha256": "b0b09e9cc7d797dd3320d36fb5e46882bacb5bf52345a6631d4207f5bf7d9413"
+    },
+    {
+      "path": "Sources/CaptureSelfie/SelfieAdmissionGate.swift",
+      "sha256": "cc87c2d55300494fa358955c9b18a37a127a42e3441831abf0b3ca3e33df8cfb"
+    },
+    {
+      "path": "Sources/CaptureSelfie/SelfieAdmissionPolicy.swift",
+      "sha256": "3b7b28be39c58adc7ed832c82d6ea77155a93b9e2c7d51ec4bf19e9701dc5a97"
+    },
+    {
+      "path": "Sources/CaptureSelfie/SelfieAdmissionReceipt.swift",
+      "sha256": "d640e4e27b8afe26fc4c8a54f59d74978b1f69f63b894f3697923e141157d5b9"
+    },
+    {
+      "path": "Sources/CaptureSelfie/SelfieCameraFailure.swift",
+      "sha256": "7acd550ed87c89c879f68ceba99f03b3717d92cd786640fc29393700d269f943"
+    },
+    {
+      "path": "Sources/CaptureSelfie/SelfieCaptureCoordinator.swift",
+      "sha256": "0ef00d8aaa64753b1449c6b4415dd9355199aabeda97eecf1256687250ae21cc"
+    },
+    {
+      "path": "Sources/CaptureSelfie/SelfieCaptureFrame.swift",
+      "sha256": "b19fd18ab6d676196f5829e9a618f103907945d78fb1e130ad061d90df41da5a"
+    },
+    {
+      "path": "Sources/CaptureSelfie/SelfieCapturePresentation.swift",
+      "sha256": "eff1a1dbc7677d89aa066920a3aadcbc7a7373664fea2c564cffe0b201c0bdce"
+    },
+    {
+      "path": "Sources/CaptureSelfie/SelfieCaptureTimeouts.swift",
+      "sha256": "61fc8dfe4e3b530cddccb126c8739208131872599318e3ce7b10c7939a5d1e2e"
+    },
+    {
+      "path": "Sources/CaptureSelfie/SelfieDepthMap.swift",
+      "sha256": "b11f9c0d3404ec40ff045d50b40c41df45ea84a6bcce836eddd494be7b27218e"
+    },
+    {
+      "path": "Sources/CaptureSelfie/SelfieDepthPolicy.swift",
+      "sha256": "2e58cc66ca2c92190fe386eee64889e2a804c9a5b12aaea9051ecae9321dadf9"
+    },
+    {
+      "path": "Sources/CaptureSelfie/SelfieFrameAnalyzer.swift",
+      "sha256": "352f3236f4c277d1a9b525a4069240120fc9891abc0c34a0847e589e879da991"
+    },
+    {
+      "path": "Sources/CaptureSelfie/SelfieGuideGeometry.swift",
+      "sha256": "016dea2f2bc1779370145bb6f041bc0ff851dde7447d1cfb5814c6354bfe00a8"
+    },
+    {
+      "path": "Packages/IdentityEvidenceFaceMatching/Package.swift",
+      "sha256": "affb2c84e53144420fbfac1257e55f5fde19890ad22f709e260d446710981b4b"
+    },
+    {
+      "path": "Packages/IdentityEvidenceFaceMatching/Sources/IdentityEvidenceFaceMatching/FaceComparisonClocks.swift",
+      "sha256": "1fec32c6edb437884e7d9f955d93d7a0044f217d0ca9cc0792d11cb9d4e581b2"
+    },
+    {
+      "path": "Packages/IdentityEvidenceFaceMatching/Sources/IdentityEvidenceFaceMatching/FaceComparisonCustody.swift",
+      "sha256": "43dca5153de459b0f6b8e7ee20875462f6c9f56ac08430bd66c769c9a709cad8"
+    },
+    {
+      "path": "Packages/IdentityEvidenceFaceMatching/Sources/IdentityEvidenceFaceMatching/FaceComparisonObservation.swift",
+      "sha256": "9e1cabe3b196535a3ead997e97b5d670af7b87c2d334d9ba677548cdcc6d9acb"
+    },
+    {
+      "path": "Packages/IdentityEvidenceFaceMatching/Sources/IdentityEvidenceFaceMatching/FaceComparisonPipeline.swift",
+      "sha256": "4f354594c962d789d46d96cea2f3d6808663cc8afa918e2e3ad40668ecf04cfb"
+    },
+    {
+      "path": "Packages/IdentityEvidenceFaceMatching/Sources/IdentityEvidenceFaceMatching/FaceComparisonProcessing.swift",
+      "sha256": "9e03d516b5aab9267e45a51fd25027833394d0bb179d72c2ed86a9e7769a1546"
+    },
+    {
+      "path": "Packages/IdentityEvidenceFaceMatching/Sources/IdentityEvidenceFaceMatching/FaceComparisonRecovery.swift",
+      "sha256": "c36afbcf3b9c87e931a767b1fc8831129b30d9bfb94c328259143f6a14930b52"
+    },
+    {
+      "path": "Packages/IdentityEvidenceFaceMatching/Sources/IdentityEvidenceFaceMatching/FaceComparisonResultCustody.swift",
+      "sha256": "a660b30a90234a79db29b94621ab9b460434be9f8853302defb7aa0d5d81eb43"
+    },
+    {
+      "path": "Packages/IdentityEvidenceFaceMatching/Sources/IdentityEvidenceFaceMatching/FaceComparisonRoute.swift",
+      "sha256": "dea1e275838d2bcc49fd525ada35c56e8fab1e474c135dff84c25d281c2b1c11"
+    },
+    {
+      "path": "Packages/IdentityEvidenceFaceMatching/Sources/IdentityEvidenceFaceMatching/FaceComparisonSession.swift",
+      "sha256": "6a07f3ebdfc56f4c7bda042f6b48e6e8e8170e57438e85f89f63c42196d783d3"
+    },
+    {
+      "path": "Packages/IdentityEvidenceFaceMatching/Sources/IdentityEvidenceFaceMatching/FaceComparisonSubmissionEvidence.swift",
+      "sha256": "d42dee40981c20d7b6706207e8d30e8057644f03dffb285dc6a022466843107b"
+    },
+    {
+      "path": "Packages/IdentityEvidenceFaceMatching/Sources/IdentityEvidenceFaceMatching/FaceComparisonTimings.swift",
+      "sha256": "90c7b960b1c8924e51e5f592a3081a776416ee85f19583d2a0f14a34021752f8"
+    },
+    {
+      "path": "Packages/IdentityEvidenceFaceMatching/Sources/IdentityEvidenceFaceMatching/NativeSelfieCapture.swift",
+      "sha256": "b907d9416391ee65912e110792414e03214b6ff95b7629da94f8a4a5042937ee"
+    },
+    {
+      "path": "Packages/IdentityEvidenceFaceMatching/Sources/IdentityEvidenceFaceMatching/SelfieCompatibility.swift",
+      "sha256": "b00b44eb8b074ac6c8dcc60dd886ddc16b73e94ff5563c805e302b95d00f6d10"
+    },
+    {
+      "path": "Packages/IdentityEvidenceFaceMatching/Sources/IdentityEvidenceFaceMatching/SelfieReceiptLegacyEncoding.swift",
+      "sha256": "143e00aa6e21faff20d1ab7b181a0919787e55452aec7873dc3a77d2c5962f58"
+    },
+    {
+      "path": "Packages/IdentityEvidenceFaceMatching/Sources/IdentityEvidenceFaceMatching/TransientFaceComparison.swift",
+      "sha256": "f8bcf098727edd726bda118160006c72fcf804201d4c2268f350f67bb38e425c"
+    },
+    {
+      "path": "Packages/IdentityEvidenceFaceMatching/Sources/IdentityEvidenceFaceMatching/TransientFaceComparisonValidation.swift",
+      "sha256": "378de712aa1da5e51bd120c4062b698012e30908ca33b9071f20e968cc36158f"
+    },
+    {
+      "path": "Packages/IdentityEvidenceFaceMatching/Tests/IdentityEvidenceFaceMatchingTests/FaceComparisonLogPrivacyTests.swift",
+      "sha256": "25b27917d038524e87f29bdff3ec93eba453ec375bd025e3f37fc6ebf357a4b2"
+    },
+    {
+      "path": "Packages/IdentityEvidenceFaceMatching/Tests/IdentityEvidenceFaceMatchingTests/FaceComparisonReferenceTests.swift",
+      "sha256": "9a091f342aff8ccd343faf5fa948ec813c654cf0ba697db758ed5ebf40d1c8d2"
+    },
+    {
+      "path": "Packages/IdentityEvidenceFaceMatching/Tests/IdentityEvidenceFaceMatchingTests/FaceComparisonResultCustodyTests.swift",
+      "sha256": "edc6142667a5e7a0a91ced616a4de7f8fc10ed70a02c12f5e06956402b02e249"
+    },
+    {
+      "path": "Packages/IdentityEvidenceFaceMatching/Tests/IdentityEvidenceFaceMatchingTests/FaceComparisonResultFixture.swift",
+      "sha256": "615ff9a2143ce8848235d39de3be2328729b31308b4f32720c6d951e6c38e443"
+    },
+    {
+      "path": "Packages/IdentityEvidenceFaceMatching/Tests/IdentityEvidenceFaceMatchingTests/FaceComparisonSessionTests.swift",
+      "sha256": "83e639b2975856c7a56990e3ec11bc3fcb2c4ad220340e66740156781a9210d5"
+    },
+    {
+      "path": "Packages/IdentityEvidenceFaceMatching/Tests/IdentityEvidenceFaceMatchingTests/FaceComparisonSubmissionEvidenceTests.swift",
+      "sha256": "4950975fe00d33e2839faba2088f4100e558e0e6fe5f1ceb5d608ba3288fa51f"
+    },
+    {
+      "path": "Packages/IdentityEvidenceFaceMatching/Tests/IdentityEvidenceFaceMatchingTests/FaceDecisionFunctionTests.swift",
+      "sha256": "0846bcc3b938f6eb0ed6836fe3e4f696f7a67105b11b23171864d0f0edb22954"
+    },
+    {
+      "path": "Packages/IdentityEvidenceFaceMatching/Tests/IdentityEvidenceFaceMatchingTests/FaceEmbeddingValidityTests.swift",
+      "sha256": "c68ec0b185d73acb919ded89ea6297ab0743340cefb1b904b4bf46e27fdb1212"
+    },
+    {
+      "path": "Packages/IdentityEvidenceFaceMatching/Tests/IdentityEvidenceFaceMatchingTests/FaceRouteFormalPropertyTests.swift",
+      "sha256": "b52d0e0be3867ce8b6ef19300a15e5e5066f517582a3c8923331ac37abd1453f"
+    },
+    {
+      "path": "Packages/IdentityEvidenceFaceMatching/Tests/IdentityEvidenceFaceMatchingTests/TransientComparisonValidationTests.swift",
+      "sha256": "97a7cb5aadee62d268be0dc098159f0be6f093d2e75e076a020f2570d28e70fe"
+    },
+    {
+      "path": "ThirdParty/FaceMatching/Package.swift",
+      "sha256": "003d031c60be092dd304b97dbd60983dcb1e1561e61a215f3066d741e1976607"
+    },
+    {
+      "path": "ThirdParty/FaceMatching/Sources/FaceMatching/DepthLiveness.swift",
+      "sha256": "a5684c0d10c4c388a078d050774a3b5f14e207c673b42a07f1ce6bde1b33dc43"
+    },
+    {
+      "path": "ThirdParty/FaceMatching/Sources/FaceMatching/FaceCeremony.swift",
+      "sha256": "fc129a199b6bb73f80ad4b4252f5fd01d109ea426c36ea1d3f76b80077d85984"
+    },
+    {
+      "path": "ThirdParty/FaceMatching/Sources/FaceMatching/FaceDetector.swift",
+      "sha256": "3985da40c7ff4c5a17870f0fc2dd051a797f60b820042fd35c920f06e0011bb2"
+    },
+    {
+      "path": "ThirdParty/FaceMatching/Sources/FaceMatching/FaceMatch+iOS.swift",
+      "sha256": "50f4e965f2c59cf298a9dec11895ebead48400d6b44ca518e5100ba0b6b0e97c"
+    },
+    {
+      "path": "ThirdParty/FaceMatching/Sources/FaceMatching/FaceMatch.swift",
+      "sha256": "0ba05feb319263c9c6a454b6c32b0d1e84fdeea759d4bb78eec74bb1b9114fcf"
+    },
+    {
+      "path": "ThirdParty/FaceMatching/Tests/FaceMatchingTests/FaceCeremonyTests.swift",
+      "sha256": "f032c6bdd9c99addd68c6ef9cc247eeb21154ab1370d9f0a7a3bdb2872b60018"
+    },
+    {
+      "path": "ThirdParty/FaceMatching/Tests/FaceMatchingTests/FaceDetectorTests.swift",
+      "sha256": "ad340c4a4bbe11d94c0ff1d8c619daec4ea510829a6ad9681e9cc8e0ed580bef"
+    },
+    {
+      "path": "ThirdParty/FaceMatching/Tests/FaceMatchingTests/FaceMatchFormalPropertyTests.swift",
+      "sha256": "046eb5160c19bb8efc1ddf2ca59e98404423178e170d6c358c703e6cdaa4c72a"
+    },
+    {
+      "path": "ThirdParty/FaceMatching/Tests/FaceMatchingTests/FaceMatchTests.swift",
+      "sha256": "a1449848ce31df47a0748fae110cf5892ba1cad9a9382ead2339cc8fad2e4258"
+    },
+    {
+      "path": "ThirdParty/FaceMatching/Tests/FaceMatchingTests/FaceTrackingLivenessPolicyTests.swift",
+      "sha256": "8eeb3ef42b6c33741d4820ed59d7397082b1be238567a3c171d529903b1d593c"
+    }
+  ]
+}

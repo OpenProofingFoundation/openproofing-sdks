@@ -1,0 +1,2596 @@
+{
+  "relationships": [
+    {
+      "kind": "conformsTo",
+      "source": "s:15KenshikiSensors13SensorVector3V",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15KenshikiSensors13SensorVector3V",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15KenshikiSensors13SensorVector3V",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15KenshikiSensors15SensorClockKindO",
+      "target": "s:SH"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15KenshikiSensors15SensorClockKindO",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15KenshikiSensors15SensorClockKindO",
+      "target": "s:SY"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15KenshikiSensors15SensorClockKindO",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15KenshikiSensors15SensorClockKindO",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15KenshikiSensors17SensorClockAnchorV",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15KenshikiSensors17SensorClockAnchorV",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15KenshikiSensors17SensorClockAnchorV",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15KenshikiSensors17SensorClockDomainV",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15KenshikiSensors17SensorClockDomainV",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15KenshikiSensors17SensorClockDomainV",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15KenshikiSensors17SensorMeasurementV",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15KenshikiSensors17SensorMeasurementV",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15KenshikiSensors17SensorMeasurementV",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15KenshikiSensors18SensorFrameLineageO",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15KenshikiSensors18SensorFrameLineageO",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15KenshikiSensors18SensorFrameLineageO",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15KenshikiSensors18SensorWindowTimingV",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15KenshikiSensors18SensorWindowTimingV",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15KenshikiSensors18SensorWindowTimingV",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15KenshikiSensors20SensorEvidenceWindowV",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15KenshikiSensors20SensorEvidenceWindowV",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15KenshikiSensors20SensorEvidenceWindowV",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15KenshikiSensors21CompletedSensorWindowV",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15KenshikiSensors21CompletedSensorWindowV",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15KenshikiSensors21CompletedSensorWindowV",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15KenshikiSensors21EmpiricalDistributionV",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15KenshikiSensors21EmpiricalDistributionV",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15KenshikiSensors21EmpiricalDistributionV",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15KenshikiSensors21SensorDerivationInputV",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15KenshikiSensors21SensorDerivationInputV",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15KenshikiSensors21SensorDerivationInputV",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15KenshikiSensors21SensorMeasurementTimeV",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15KenshikiSensors21SensorMeasurementTimeV",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15KenshikiSensors21SensorMeasurementTimeV",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15KenshikiSensors21SensorMeasurementUnitO",
+      "target": "s:SH"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15KenshikiSensors21SensorMeasurementUnitO",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15KenshikiSensors21SensorMeasurementUnitO",
+      "target": "s:SY"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15KenshikiSensors21SensorMeasurementUnitO",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15KenshikiSensors21SensorMeasurementUnitO",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15KenshikiSensors21SensorSampleRetentionO",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15KenshikiSensors21SensorSampleRetentionO",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15KenshikiSensors21SensorSampleRetentionO",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15KenshikiSensors21SensorSourceSessionIDV",
+      "target": "s:SE"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15KenshikiSensors21SensorSourceSessionIDV",
+      "target": "s:SH"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15KenshikiSensors21SensorSourceSessionIDV",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15KenshikiSensors21SensorSourceSessionIDV",
+      "target": "s:SY"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15KenshikiSensors21SensorSourceSessionIDV",
+      "target": "s:Se"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15KenshikiSensors21SensorSourceSessionIDV",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15KenshikiSensors21SensorSourceSessionIDV",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15KenshikiSensors22SensorClockCorrelationV",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15KenshikiSensors22SensorClockCorrelationV",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15KenshikiSensors22SensorClockCorrelationV",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15KenshikiSensors22SensorDerivationExtentO",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15KenshikiSensors22SensorDerivationExtentO",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15KenshikiSensors22SensorDerivationExtentO",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15KenshikiSensors22SensorEvidenceIntervalV",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15KenshikiSensors22SensorEvidenceIntervalV",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15KenshikiSensors22SensorEvidenceIntervalV",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15KenshikiSensors22SensorEvidenceOmissionV",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15KenshikiSensors22SensorEvidenceOmissionV",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15KenshikiSensors22SensorEvidenceOmissionV",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15KenshikiSensors22SensorGravityInclusionO",
+      "target": "s:SH"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15KenshikiSensors22SensorGravityInclusionO",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15KenshikiSensors22SensorGravityInclusionO",
+      "target": "s:SY"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15KenshikiSensors22SensorGravityInclusionO",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15KenshikiSensors22SensorGravityInclusionO",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15KenshikiSensors22SensorMeasurementShapeO",
+      "target": "s:SH"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15KenshikiSensors22SensorMeasurementShapeO",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15KenshikiSensors22SensorMeasurementShapeO",
+      "target": "s:SY"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15KenshikiSensors22SensorMeasurementShapeO",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15KenshikiSensors22SensorMeasurementShapeO",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15KenshikiSensors22SensorMeasurementValueO",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15KenshikiSensors22SensorMeasurementValueO",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15KenshikiSensors22SensorMeasurementValueO",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15KenshikiSensors22SensorWindowCompletionO",
+      "target": "s:SH"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15KenshikiSensors22SensorWindowCompletionO",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15KenshikiSensors22SensorWindowCompletionO",
+      "target": "s:SY"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15KenshikiSensors22SensorWindowCompletionO",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15KenshikiSensors22SensorWindowCompletionO",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15KenshikiSensors23SensorArtifactReferenceV",
+      "target": "s:SH"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15KenshikiSensors23SensorArtifactReferenceV",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15KenshikiSensors23SensorArtifactReferenceV",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15KenshikiSensors23SensorArtifactReferenceV",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15KenshikiSensors23SensorDerivationBindingV",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15KenshikiSensors23SensorDerivationBindingV",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15KenshikiSensors23SensorDerivationBindingV",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15KenshikiSensors23SensorMeasurementOriginO",
+      "target": "s:SH"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15KenshikiSensors23SensorMeasurementOriginO",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15KenshikiSensors23SensorMeasurementOriginO",
+      "target": "s:SY"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15KenshikiSensors23SensorMeasurementOriginO",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15KenshikiSensors23SensorMeasurementOriginO",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15KenshikiSensors23TimestampedSensorSampleV",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15KenshikiSensors23TimestampedSensorSampleV",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15KenshikiSensors25DeviceMotionWindowReducerV",
+      "target": "s:15KenshikiSensors20BoundedWindowReducerP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15KenshikiSensors25SensorDerivationInputRoleO",
+      "target": "s:SH"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15KenshikiSensors25SensorDerivationInputRoleO",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15KenshikiSensors25SensorDerivationInputRoleO",
+      "target": "s:SY"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15KenshikiSensors25SensorDerivationInputRoleO",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15KenshikiSensors25SensorDerivationInputRoleO",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15KenshikiSensors25SensorMeasurementQuantityO",
+      "target": "s:SH"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15KenshikiSensors25SensorMeasurementQuantityO",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15KenshikiSensors25SensorMeasurementQuantityO",
+      "target": "s:SY"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15KenshikiSensors25SensorMeasurementQuantityO",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15KenshikiSensors25SensorMeasurementQuantityO",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15KenshikiSensors25SensorWindowQualityPolicyV",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15KenshikiSensors25SensorWindowQualityPolicyV",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15KenshikiSensors25SensorWindowQualityPolicyV",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15KenshikiSensors25SensorWindowSpecificationV",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15KenshikiSensors25SensorWindowSpecificationV",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15KenshikiSensors25SensorWindowSpecificationV",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15KenshikiSensors26SensorDerivationLimitationO",
+      "target": "s:SH"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15KenshikiSensors26SensorDerivationLimitationO",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15KenshikiSensors26SensorDerivationLimitationO",
+      "target": "s:SY"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15KenshikiSensors26SensorDerivationLimitationO",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15KenshikiSensors26SensorDerivationLimitationO",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15KenshikiSensors26SensorEvidenceAvailabilityO",
+      "target": "s:SH"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15KenshikiSensors26SensorEvidenceAvailabilityO",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15KenshikiSensors26SensorEvidenceAvailabilityO",
+      "target": "s:SY"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15KenshikiSensors26SensorEvidenceAvailabilityO",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15KenshikiSensors26SensorEvidenceAvailabilityO",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15KenshikiSensors27DeviceMotionAggregateSampleV",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15KenshikiSensors27DeviceMotionAggregateSampleV",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15KenshikiSensors27DeviceMotionAggregateSampleV",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15KenshikiSensors27SensorEvidenceContractErrorO",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15KenshikiSensors27SensorEvidenceContractErrorO",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15KenshikiSensors27SensorEvidenceContractErrorO",
+      "target": "s:s5ErrorP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15KenshikiSensors27SensorEvidenceContractErrorO",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15KenshikiSensors27SensorMeasurementDescriptorV",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15KenshikiSensors27SensorMeasurementDescriptorV",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15KenshikiSensors27SensorMeasurementDescriptorV",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15KenshikiSensors28SensorEvidenceOmissionReasonO",
+      "target": "s:SH"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15KenshikiSensors28SensorEvidenceOmissionReasonO",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15KenshikiSensors28SensorEvidenceOmissionReasonO",
+      "target": "s:SY"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15KenshikiSensors28SensorEvidenceOmissionReasonO",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15KenshikiSensors28SensorEvidenceOmissionReasonO",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15KenshikiSensors30SensorWindowAcquisitionQualityO",
+      "target": "s:SH"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15KenshikiSensors30SensorWindowAcquisitionQualityO",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15KenshikiSensors30SensorWindowAcquisitionQualityO",
+      "target": "s:SY"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15KenshikiSensors30SensorWindowAcquisitionQualityO",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15KenshikiSensors30SensorWindowAcquisitionQualityO",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15KenshikiSensors32RecordedAccelerationWindowSampleV",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15KenshikiSensors32RecordedAccelerationWindowSampleV",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15KenshikiSensors32RecordedAccelerationWindowSampleV",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15KenshikiSensors32RecordedAccelerationWindowTimingV",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15KenshikiSensors32RecordedAccelerationWindowTimingV",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15KenshikiSensors32RecordedAccelerationWindowTimingV",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15KenshikiSensors33DeviceMotionAggregateMeasurementsV",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15KenshikiSensors33DeviceMotionAggregateMeasurementsV",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15KenshikiSensors33DeviceMotionAggregateMeasurementsV",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15KenshikiSensors33RecordedAccelerationWindowReducerV",
+      "target": "s:15KenshikiSensors20BoundedWindowReducerP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15KenshikiSensors35CompletedRecordedAccelerationWindowV",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15KenshikiSensors35CompletedRecordedAccelerationWindowV",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15KenshikiSensors35CompletedRecordedAccelerationWindowV",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15KenshikiSensors35RecordedAccelerationAggregateSampleV",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15KenshikiSensors35RecordedAccelerationAggregateSampleV",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15KenshikiSensors35RecordedAccelerationAggregateSampleV",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15KenshikiSensors36RecordedAccelerationWindowProjectionV",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15KenshikiSensors36RecordedAccelerationWindowProjectionV",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15KenshikiSensors41RecordedAccelerationAggregateMeasurementsV",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15KenshikiSensors41RecordedAccelerationAggregateMeasurementsV",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15KenshikiSensors41RecordedAccelerationAggregateMeasurementsV",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15KenshikiSensors42RecordedAccelerationWindowProjectionResultV",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15KenshikiSensors42RecordedAccelerationWindowProjectionResultV",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15KenshikiSensors42RecordedAccelerationWindowProjectionResultV",
+      "target": "s:s8SendableP"
+    }
+  ],
+  "symbols": [
+    {
+      "declaration": "struct SensorVector3",
+      "id": "s:15KenshikiSensors13SensorVector3V",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "init(x: Double, y: Double, z: Double)",
+      "id": "s:15KenshikiSensors13SensorVector3V1x1y1zACSd_S2dtcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "let x: Double",
+      "id": "s:15KenshikiSensors13SensorVector3V1xSdvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let y: Double",
+      "id": "s:15KenshikiSensors13SensorVector3V1ySdvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let z: Double",
+      "id": "s:15KenshikiSensors13SensorVector3V1zSdvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "var isFinite: Bool { get }",
+      "id": "s:15KenshikiSensors13SensorVector3V8isFiniteSbvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "var magnitude: Double { get }",
+      "id": "s:15KenshikiSensors13SensorVector3V9magnitudeSdvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "enum SensorClockKind",
+      "id": "s:15KenshikiSensors15SensorClockKindO",
+      "kind": "swift.enum"
+    },
+    {
+      "declaration": "case wallClock",
+      "id": "s:15KenshikiSensors15SensorClockKindO04wallD0yA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case providerDefined",
+      "id": "s:15KenshikiSensors15SensorClockKindO15providerDefinedyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "init?(rawValue: String)",
+      "id": "s:15KenshikiSensors15SensorClockKindO8rawValueACSgSS_tcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "case monotonic",
+      "id": "s:15KenshikiSensors15SensorClockKindO9monotonicyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "struct SensorClockAnchor",
+      "id": "s:15KenshikiSensors17SensorClockAnchorV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "let wallClock: Date",
+      "id": "s:15KenshikiSensors17SensorClockAnchorV04wallD010Foundation4DateVvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "func wallClockDate(for sensorTimestamp: TimeInterval) -> Date",
+      "id": "s:15KenshikiSensors17SensorClockAnchorV04wallD4Date3for10Foundation0G0VSd_tF",
+      "kind": "swift.method"
+    },
+    {
+      "declaration": "init(sensorTimestamp: TimeInterval, wallClock: Date)",
+      "id": "s:15KenshikiSensors17SensorClockAnchorV15sensorTimestamp04wallD0ACSd_10Foundation4DateVtcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "let sensorTimestamp: TimeInterval",
+      "id": "s:15KenshikiSensors17SensorClockAnchorV15sensorTimestampSdvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "struct SensorClockDomain",
+      "id": "s:15KenshikiSensors17SensorClockDomainV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "init(identifier: String, session: SensorSourceSessionID, kind: SensorClockKind) throws",
+      "id": "s:15KenshikiSensors17SensorClockDomainV10identifier7session4kindACSS_AA0C15SourceSessionIDVAA0cD4KindOtKcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "let identifier: String",
+      "id": "s:15KenshikiSensors17SensorClockDomainV10identifierSSvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let kind: SensorClockKind",
+      "id": "s:15KenshikiSensors17SensorClockDomainV4kindAA0cD4KindOvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let session: SensorSourceSessionID",
+      "id": "s:15KenshikiSensors17SensorClockDomainV7sessionAA0C15SourceSessionIDVvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "struct SensorMeasurement",
+      "id": "s:15KenshikiSensors17SensorMeasurementV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "let derivation: SensorDerivationBinding?",
+      "id": "s:15KenshikiSensors17SensorMeasurementV10derivationAA0C17DerivationBindingVSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let descriptor: SensorMeasurementDescriptor",
+      "id": "s:15KenshikiSensors17SensorMeasurementV10descriptorAA0cD10DescriptorVvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let receivedAt: SensorMeasurementTime?",
+      "id": "s:15KenshikiSensors17SensorMeasurementV10receivedAtAA0cD4TimeVSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let time: SensorMeasurementTime",
+      "id": "s:15KenshikiSensors17SensorMeasurementV4timeAA0cD4TimeVvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let value: SensorMeasurementValue",
+      "id": "s:15KenshikiSensors17SensorMeasurementV5valueAA0cD5ValueOvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "init(sampleID: String, sequence: UInt64, descriptor: SensorMeasurementDescriptor, time: SensorMeasurementTime, receivedAt: SensorMeasurementTime? = nil, value: SensorMeasurementValue, derivation: SensorDerivationBinding? = nil) throws",
+      "id": "s:15KenshikiSensors17SensorMeasurementV8sampleID8sequence10descriptor4time10receivedAt5value10derivationACSS_s6UInt64VAA0cD10DescriptorVAA0cD4TimeVAPSgAA0cD5ValueOAA0C17DerivationBindingVSgtKcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "let sampleID: String",
+      "id": "s:15KenshikiSensors17SensorMeasurementV8sampleIDSSvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let sequence: UInt64",
+      "id": "s:15KenshikiSensors17SensorMeasurementV8sequences6UInt64Vvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "enum SensorFrameLineage",
+      "id": "s:15KenshikiSensors18SensorFrameLineageO",
+      "kind": "swift.enum"
+    },
+    {
+      "declaration": "case notExposed",
+      "id": "s:15KenshikiSensors18SensorFrameLineageO10notExposedyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case transformed(sourceFrameID: String, binding: SensorDerivationBinding)",
+      "id": "s:15KenshikiSensors18SensorFrameLineageO11transformedyACSS_AA0C17DerivationBindingVtcACmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case reported",
+      "id": "s:15KenshikiSensors18SensorFrameLineageO8reportedyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "struct SensorWindowTiming",
+      "id": "s:15KenshikiSensors18SensorWindowTimingV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "let sampleCount: Int",
+      "id": "s:15KenshikiSensors18SensorWindowTimingV11sampleCountSivp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let leadingGapSeconds: TimeInterval?",
+      "id": "s:15KenshikiSensors18SensorWindowTimingV17leadingGapSecondsSdSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let requestedSampleHz: Double",
+      "id": "s:15KenshikiSensors18SensorWindowTimingV17requestedSampleHzSdvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let acquisitionQuality: SensorWindowAcquisitionQuality",
+      "id": "s:15KenshikiSensors18SensorWindowTimingV18acquisitionQualityAA0cd11AcquisitionG0Ovp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let invalidSampleCount: Int",
+      "id": "s:15KenshikiSensors18SensorWindowTimingV18invalidSampleCountSivp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let trailingGapSeconds: TimeInterval?",
+      "id": "s:15KenshikiSensors18SensorWindowTimingV18trailingGapSecondsSdSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let wallClockLastValid: Date?",
+      "id": "s:15KenshikiSensors18SensorWindowTimingV18wallClockLastValid10Foundation4DateVSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let expectedSampleCount: Int",
+      "id": "s:15KenshikiSensors18SensorWindowTimingV19expectedSampleCountSivp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let sensorTimestampLast: TimeInterval?",
+      "id": "s:15KenshikiSensors18SensorWindowTimingV19sensorTimestampLastSdSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let wallClockFirstValid: Date?",
+      "id": "s:15KenshikiSensors18SensorWindowTimingV19wallClockFirstValid10Foundation4DateVSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let duplicateSampleCount: Int",
+      "id": "s:15KenshikiSensors18SensorWindowTimingV20duplicateSampleCountSivp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let sensorTimestampFirst: TimeInterval?",
+      "id": "s:15KenshikiSensors18SensorWindowTimingV20sensorTimestampFirstSdSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let outOfOrderSampleCount: Int",
+      "id": "s:15KenshikiSensors18SensorWindowTimingV21outOfOrderSampleCountSivp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let wallClockLastReceived: Date?",
+      "id": "s:15KenshikiSensors18SensorWindowTimingV21wallClockLastReceived10Foundation4DateVSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let observedMedianSampleHz: Double?",
+      "id": "s:15KenshikiSensors18SensorWindowTimingV22observedMedianSampleHzSdSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let wallClockFirstReceived: Date?",
+      "id": "s:15KenshikiSensors18SensorWindowTimingV22wallClockFirstReceived10Foundation4DateVSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let maximumSampleGapSeconds: TimeInterval?",
+      "id": "s:15KenshikiSensors18SensorWindowTimingV23maximumSampleGapSecondsSdSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let temporalCoverageFraction: Double",
+      "id": "s:15KenshikiSensors18SensorWindowTimingV24temporalCoverageFractionSdvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let callbackLatencyLastSeconds: TimeInterval?",
+      "id": "s:15KenshikiSensors18SensorWindowTimingV26callbackLatencyLastSecondsSdSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let callbackLatencyFirstSeconds: TimeInterval?",
+      "id": "s:15KenshikiSensors18SensorWindowTimingV27callbackLatencyFirstSecondsSdSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "protocol BoundedWindowReducer",
+      "id": "s:15KenshikiSensors20BoundedWindowReducerP",
+      "kind": "swift.protocol"
+    },
+    {
+      "declaration": "associatedtype Measurements : Equatable, Sendable",
+      "id": "s:15KenshikiSensors20BoundedWindowReducerP12MeasurementsQa",
+      "kind": "swift.associatedtype"
+    },
+    {
+      "declaration": "func measurements() -> Self.Measurements?",
+      "id": "s:15KenshikiSensors20BoundedWindowReducerP12measurements12MeasurementsQzSgyF",
+      "kind": "swift.method"
+    },
+    {
+      "declaration": "associatedtype Sample : Sendable",
+      "id": "s:15KenshikiSensors20BoundedWindowReducerP6SampleQa",
+      "kind": "swift.associatedtype"
+    },
+    {
+      "declaration": "mutating func ingest(_ sample: Self.Sample)",
+      "id": "s:15KenshikiSensors20BoundedWindowReducerP6ingestyy6SampleQzF",
+      "kind": "swift.method"
+    },
+    {
+      "declaration": "func accepts(_ sample: Self.Sample) -> Bool",
+      "id": "s:15KenshikiSensors20BoundedWindowReducerP7acceptsySb6SampleQzF",
+      "kind": "swift.method"
+    },
+    {
+      "declaration": "init()",
+      "id": "s:15KenshikiSensors20BoundedWindowReducerPxycfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "struct SensorEvidenceWindow",
+      "id": "s:15KenshikiSensors20SensorEvidenceWindowV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "let descriptor: SensorMeasurementDescriptor",
+      "id": "s:15KenshikiSensors20SensorEvidenceWindowV10descriptorAA0C21MeasurementDescriptorVvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let availability: SensorEvidenceAvailability",
+      "id": "s:15KenshikiSensors20SensorEvidenceWindowV12availabilityAA0cD12AvailabilityOvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "static let contractVersion: String",
+      "id": "s:15KenshikiSensors20SensorEvidenceWindowV15contractVersionSSvpZ",
+      "kind": "swift.type.property"
+    },
+    {
+      "declaration": "let clockCorrelations: [SensorClockCorrelation]",
+      "id": "s:15KenshikiSensors20SensorEvidenceWindowV17clockCorrelationsSayAA0C16ClockCorrelationVGvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "static let maximumSampleCount: Int",
+      "id": "s:15KenshikiSensors20SensorEvidenceWindowV18maximumSampleCountSivpZ",
+      "kind": "swift.type.property"
+    },
+    {
+      "declaration": "let nominalPeriodSeconds: Double?",
+      "id": "s:15KenshikiSensors20SensorEvidenceWindowV20nominalPeriodSecondsSdSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let bounds: SensorEvidenceInterval",
+      "id": "s:15KenshikiSensors20SensorEvidenceWindowV6boundsAA0cD8IntervalVvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "init(windowID: String, descriptor: SensorMeasurementDescriptor, bounds: SensorEvidenceInterval, nominalPeriodSeconds: Double? = nil, retention: SensorSampleRetention, availability: SensorEvidenceAvailability, omissions: [SensorEvidenceOmission] = [], clockCorrelations: [SensorClockCorrelation] = []) throws",
+      "id": "s:15KenshikiSensors20SensorEvidenceWindowV8windowID10descriptor6bounds20nominalPeriodSeconds9retention12availability9omissions17clockCorrelationsACSS_AA0C21MeasurementDescriptorVAA0cD8IntervalVSdSgAA0C15SampleRetentionOAA0cD12AvailabilityOSayAA0cD8OmissionVGSayAA0C16ClockCorrelationVGtKcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "let windowID: String",
+      "id": "s:15KenshikiSensors20SensorEvidenceWindowV8windowIDSSvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let omissions: [SensorEvidenceOmission]",
+      "id": "s:15KenshikiSensors20SensorEvidenceWindowV9omissionsSayAA0cD8OmissionVGvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let retention: SensorSampleRetention",
+      "id": "s:15KenshikiSensors20SensorEvidenceWindowV9retentionAA0C15SampleRetentionOvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "struct TumblingSensorWindow<Reducer> where Reducer : BoundedWindowReducer",
+      "id": "s:15KenshikiSensors20TumblingSensorWindowV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "let clockAnchor: SensorClockAnchor",
+      "id": "s:15KenshikiSensors20TumblingSensorWindowV11clockAnchorAA0d5ClockG0Vvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let specification: SensorWindowSpecification",
+      "id": "s:15KenshikiSensors20TumblingSensorWindowV13specificationAA0dE13SpecificationVvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "init(sourceSessionID: SensorSourceSessionID, clockAnchor: SensorClockAnchor, specification: SensorWindowSpecification)",
+      "id": "s:15KenshikiSensors20TumblingSensorWindowV15sourceSessionID11clockAnchor13specificationACyxGAA0d6SourcegH0V_AA0d5ClockJ0VAA0dE13SpecificationVtcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "let sourceSessionID: SensorSourceSessionID",
+      "id": "s:15KenshikiSensors20TumblingSensorWindowV15sourceSessionIDAA0d6SourcegH0Vvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "mutating func recordInvalidSample()",
+      "id": "s:15KenshikiSensors20TumblingSensorWindowV19recordInvalidSampleyyF",
+      "kind": "swift.method"
+    },
+    {
+      "declaration": "mutating func flush(completion: SensorWindowCompletion) -> CompletedSensorWindow<Reducer.Measurements>?",
+      "id": "s:15KenshikiSensors20TumblingSensorWindowV5flush10completionAA09CompleteddE0Vy12MeasurementsQzGSgAA0dE10CompletionO_tF",
+      "kind": "swift.method"
+    },
+    {
+      "declaration": "mutating func ingest(_ sample: TimestampedSensorSample<Reducer.Sample>) -> CompletedSensorWindow<Reducer.Measurements>?",
+      "id": "s:15KenshikiSensors20TumblingSensorWindowV6ingestyAA09CompleteddE0Vy12MeasurementsQzGSgAA011TimestampedD6SampleVy0J0QzGF",
+      "kind": "swift.method"
+    },
+    {
+      "declaration": "struct CompletedSensorWindow<Measurements> where Measurements : Equatable, Measurements : Sendable",
+      "id": "s:15KenshikiSensors21CompletedSensorWindowV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "let completion: SensorWindowCompletion",
+      "id": "s:15KenshikiSensors21CompletedSensorWindowV10completionAA0dE10CompletionOvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let measurements: Measurements?",
+      "id": "s:15KenshikiSensors21CompletedSensorWindowV12measurementsxSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let monotonicBounds: Range<TimeInterval>",
+      "id": "s:15KenshikiSensors21CompletedSensorWindowV15monotonicBoundsSnySdGvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "init(sourceSessionID: SensorSourceSessionID, monotonicBounds: Range<TimeInterval>, wallClockBounds: DateInterval, timing: SensorWindowTiming, measurements: Measurements?, completion: SensorWindowCompletion, timingContractVersion: String)",
+      "id": "s:15KenshikiSensors21CompletedSensorWindowV15sourceSessionID15monotonicBounds09wallClockJ06timing12measurements10completion0M15ContractVersionACyxGAA0d6SourcegH0V_SnySdG10Foundation12DateIntervalVAA0dE6TimingVxSgAA0dE10CompletionOSStcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "let sourceSessionID: SensorSourceSessionID",
+      "id": "s:15KenshikiSensors21CompletedSensorWindowV15sourceSessionIDAA0d6SourcegH0Vvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let wallClockBounds: DateInterval",
+      "id": "s:15KenshikiSensors21CompletedSensorWindowV15wallClockBounds10Foundation12DateIntervalVvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let timingContractVersion: String",
+      "id": "s:15KenshikiSensors21CompletedSensorWindowV21timingContractVersionSSvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let timing: SensorWindowTiming",
+      "id": "s:15KenshikiSensors21CompletedSensorWindowV6timingAA0dE6TimingVvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "struct EmpiricalDistribution",
+      "id": "s:15KenshikiSensors21EmpiricalDistributionV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "let rootMeanSquare: Double",
+      "id": "s:15KenshikiSensors21EmpiricalDistributionV14rootMeanSquareSdvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let p95: Double",
+      "id": "s:15KenshikiSensors21EmpiricalDistributionV3p95Sdvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let count: Int",
+      "id": "s:15KenshikiSensors21EmpiricalDistributionV5countSivp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let median: Double",
+      "id": "s:15KenshikiSensors21EmpiricalDistributionV6medianSdvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "init?(values: [Double])",
+      "id": "s:15KenshikiSensors21EmpiricalDistributionV6valuesACSgSaySdG_tcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "let maximum: Double",
+      "id": "s:15KenshikiSensors21EmpiricalDistributionV7maximumSdvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "struct SensorDerivationInput",
+      "id": "s:15KenshikiSensors21SensorDerivationInputV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "let reasonCode: String?",
+      "id": "s:15KenshikiSensors21SensorDerivationInputV10reasonCodeSSSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let role: SensorDerivationInputRole",
+      "id": "s:15KenshikiSensors21SensorDerivationInputV4roleAA0cdE4RoleOvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let extent: SensorDerivationExtent",
+      "id": "s:15KenshikiSensors21SensorDerivationInputV6extentAA0cD6ExtentOvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let selector: String",
+      "id": "s:15KenshikiSensors21SensorDerivationInputV8selectorSSvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "init(reference: SensorArtifactReference, selector: String, role: SensorDerivationInputRole, extent: SensorDerivationExtent, reasonCode: String? = nil) throws",
+      "id": "s:15KenshikiSensors21SensorDerivationInputV9reference8selector4role6extent10reasonCodeAcA0C17ArtifactReferenceV_SSAA0cdE4RoleOAA0cD6ExtentOSSSgtKcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "let reference: SensorArtifactReference",
+      "id": "s:15KenshikiSensors21SensorDerivationInputV9referenceAA0C17ArtifactReferenceVvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "struct SensorMeasurementTime",
+      "id": "s:15KenshikiSensors21SensorMeasurementTimeV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "init(clock: SensorClockDomain, seconds: Double) throws",
+      "id": "s:15KenshikiSensors21SensorMeasurementTimeV5clock7secondsAcA0C11ClockDomainV_SdtKcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "let clock: SensorClockDomain",
+      "id": "s:15KenshikiSensors21SensorMeasurementTimeV5clockAA0C11ClockDomainVvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let seconds: Double",
+      "id": "s:15KenshikiSensors21SensorMeasurementTimeV7secondsSdvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "enum SensorMeasurementUnit",
+      "id": "s:15KenshikiSensors21SensorMeasurementUnitO",
+      "kind": "swift.enum"
+    },
+    {
+      "declaration": "case microtesla",
+      "id": "s:15KenshikiSensors21SensorMeasurementUnitO10microteslayA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case kilopascals",
+      "id": "s:15KenshikiSensors21SensorMeasurementUnitO11kilopascalsyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case dimensionless",
+      "id": "s:15KenshikiSensors21SensorMeasurementUnitO13dimensionlessyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case standardGravity",
+      "id": "s:15KenshikiSensors21SensorMeasurementUnitO15standardGravityyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case radiansPerSecond",
+      "id": "s:15KenshikiSensors21SensorMeasurementUnitO16radiansPerSecondyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case metersPerSecondSquared",
+      "id": "s:15KenshikiSensors21SensorMeasurementUnitO22metersPerSecondSquaredyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case radians",
+      "id": "s:15KenshikiSensors21SensorMeasurementUnitO7radiansyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "init?(rawValue: String)",
+      "id": "s:15KenshikiSensors21SensorMeasurementUnitO8rawValueACSgSS_tcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "enum SensorSampleRetention",
+      "id": "s:15KenshikiSensors21SensorSampleRetentionO",
+      "kind": "swift.enum"
+    },
+    {
+      "declaration": "case aggregateOnly(aggregates: [SensorArtifactReference], sourceSampleIDs: [String])",
+      "id": "s:15KenshikiSensors21SensorSampleRetentionO13aggregateOnlyyACSayAA0C17ArtifactReferenceVG_SaySSGtcACmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case none",
+      "id": "s:15KenshikiSensors21SensorSampleRetentionO4noneyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case inline([SensorMeasurement])",
+      "id": "s:15KenshikiSensors21SensorSampleRetentionO6inlineyACSayAA0C11MeasurementVGcACmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case external(reference: SensorArtifactReference, sampleIDs: [String])",
+      "id": "s:15KenshikiSensors21SensorSampleRetentionO8externalyAcA0C17ArtifactReferenceV_SaySSGtcACmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "struct SensorSourceSessionID",
+      "id": "s:15KenshikiSensors21SensorSourceSessionIDV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "init(from decoder: any Decoder) throws",
+      "id": "s:15KenshikiSensors21SensorSourceSessionIDV4fromACs7Decoder_p_tKcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "static func random() -> SensorSourceSessionID",
+      "id": "s:15KenshikiSensors21SensorSourceSessionIDV6randomACyFZ",
+      "kind": "swift.type.method"
+    },
+    {
+      "declaration": "init(rawValue: String)",
+      "id": "s:15KenshikiSensors21SensorSourceSessionIDV8rawValueACSS_tcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "let rawValue: String",
+      "id": "s:15KenshikiSensors21SensorSourceSessionIDV8rawValueSSvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "struct SensorClockCorrelation",
+      "id": "s:15KenshikiSensors22SensorClockCorrelationV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "let uncertaintySeconds: Double",
+      "id": "s:15KenshikiSensors22SensorClockCorrelationV18uncertaintySecondsSdvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "init(source: SensorMeasurementTime, target: SensorMeasurementTime, uncertaintySeconds: Double) throws",
+      "id": "s:15KenshikiSensors22SensorClockCorrelationV6source6target18uncertaintySecondsAcA0C15MeasurementTimeV_AHSdtKcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "let source: SensorMeasurementTime",
+      "id": "s:15KenshikiSensors22SensorClockCorrelationV6sourceAA0C15MeasurementTimeVvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let target: SensorMeasurementTime",
+      "id": "s:15KenshikiSensors22SensorClockCorrelationV6targetAA0C15MeasurementTimeVvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "enum SensorDerivationExtent",
+      "id": "s:15KenshikiSensors22SensorDerivationExtentO",
+      "kind": "swift.enum"
+    },
+    {
+      "declaration": "case point(SensorMeasurementTime)",
+      "id": "s:15KenshikiSensors22SensorDerivationExtentO5pointyAcA0C15MeasurementTimeVcACmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case interval(SensorEvidenceInterval)",
+      "id": "s:15KenshikiSensors22SensorDerivationExtentO8intervalyAcA0C16EvidenceIntervalVcACmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "struct SensorEvidenceInterval",
+      "id": "s:15KenshikiSensors22SensorEvidenceIntervalV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "let end: Double",
+      "id": "s:15KenshikiSensors22SensorEvidenceIntervalV3endSdvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "init(clock: SensorClockDomain, start: Double, end: Double) throws",
+      "id": "s:15KenshikiSensors22SensorEvidenceIntervalV5clock5start3endAcA0C11ClockDomainV_S2dtKcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "let clock: SensorClockDomain",
+      "id": "s:15KenshikiSensors22SensorEvidenceIntervalV5clockAA0C11ClockDomainVvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let start: Double",
+      "id": "s:15KenshikiSensors22SensorEvidenceIntervalV5startSdvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "struct SensorEvidenceOmission",
+      "id": "s:15KenshikiSensors22SensorEvidenceOmissionV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "init(reason: SensorEvidenceOmissionReason, interval: SensorEvidenceInterval? = nil, sampleIDs: [String] = []) throws",
+      "id": "s:15KenshikiSensors22SensorEvidenceOmissionV6reason8interval9sampleIDsAcA0cdE6ReasonO_AA0cD8IntervalVSgSaySSGtKcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "let reason: SensorEvidenceOmissionReason",
+      "id": "s:15KenshikiSensors22SensorEvidenceOmissionV6reasonAA0cdE6ReasonOvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let interval: SensorEvidenceInterval?",
+      "id": "s:15KenshikiSensors22SensorEvidenceOmissionV8intervalAA0cD8IntervalVSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let sampleIDs: [String]",
+      "id": "s:15KenshikiSensors22SensorEvidenceOmissionV9sampleIDsSaySSGvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "enum SensorGravityInclusion",
+      "id": "s:15KenshikiSensors22SensorGravityInclusionO",
+      "kind": "swift.enum"
+    },
+    {
+      "declaration": "case gravityOnly",
+      "id": "s:15KenshikiSensors22SensorGravityInclusionO11gravityOnlyyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case notApplicable",
+      "id": "s:15KenshikiSensors22SensorGravityInclusionO13notApplicableyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case excluded",
+      "id": "s:15KenshikiSensors22SensorGravityInclusionO8excludedyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case included",
+      "id": "s:15KenshikiSensors22SensorGravityInclusionO8includedyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "init?(rawValue: String)",
+      "id": "s:15KenshikiSensors22SensorGravityInclusionO8rawValueACSgSS_tcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "enum SensorMeasurementShape",
+      "id": "s:15KenshikiSensors22SensorMeasurementShapeO",
+      "kind": "swift.enum"
+    },
+    {
+      "declaration": "case scalar",
+      "id": "s:15KenshikiSensors22SensorMeasurementShapeO6scalaryA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case vector3",
+      "id": "s:15KenshikiSensors22SensorMeasurementShapeO7vector3yA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "init?(rawValue: String)",
+      "id": "s:15KenshikiSensors22SensorMeasurementShapeO8rawValueACSgSS_tcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "enum SensorMeasurementValue",
+      "id": "s:15KenshikiSensors22SensorMeasurementValueO",
+      "kind": "swift.enum"
+    },
+    {
+      "declaration": "case scalar(Double)",
+      "id": "s:15KenshikiSensors22SensorMeasurementValueO6scalaryACSdcACmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case vector(SensorVector3)",
+      "id": "s:15KenshikiSensors22SensorMeasurementValueO6vectoryAcA0C7Vector3VcACmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "enum SensorWindowCompletion",
+      "id": "s:15KenshikiSensors22SensorWindowCompletionO",
+      "kind": "swift.enum"
+    },
+    {
+      "declaration": "case interrupted",
+      "id": "s:15KenshikiSensors22SensorWindowCompletionO11interruptedyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case sourceChanged",
+      "id": "s:15KenshikiSensors22SensorWindowCompletionO13sourceChangedyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case sourceStopped",
+      "id": "s:15KenshikiSensors22SensorWindowCompletionO13sourceStoppedyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case closed",
+      "id": "s:15KenshikiSensors22SensorWindowCompletionO6closedyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "init?(rawValue: String)",
+      "id": "s:15KenshikiSensors22SensorWindowCompletionO8rawValueACSgSS_tcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "struct SensorArtifactReference",
+      "id": "s:15KenshikiSensors23SensorArtifactReferenceV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "let sha256: String",
+      "id": "s:15KenshikiSensors23SensorArtifactReferenceV6sha256SSvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "init(recordID: String, sha256: String) throws",
+      "id": "s:15KenshikiSensors23SensorArtifactReferenceV8recordID6sha256ACSS_SStKcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "let recordID: String",
+      "id": "s:15KenshikiSensors23SensorArtifactReferenceV8recordIDSSvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "struct SensorDerivationBinding",
+      "id": "s:15KenshikiSensors23SensorDerivationBindingV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "let limitations: [SensorDerivationLimitation]",
+      "id": "s:15KenshikiSensors23SensorDerivationBindingV11limitationsSayAA0cD10LimitationOGvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let configuration: SensorArtifactReference",
+      "id": "s:15KenshikiSensors23SensorDerivationBindingV13configurationAA0C17ArtifactReferenceVvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "static let maximumInputs: Int",
+      "id": "s:15KenshikiSensors23SensorDerivationBindingV13maximumInputsSivpZ",
+      "kind": "swift.type.property"
+    },
+    {
+      "declaration": "let methodVersion: String",
+      "id": "s:15KenshikiSensors23SensorDerivationBindingV13methodVersionSSvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let inputs: [SensorDerivationInput]",
+      "id": "s:15KenshikiSensors23SensorDerivationBindingV6inputsSayAA0cD5InputVGvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "init(methodID: String, methodVersion: String, configuration: SensorArtifactReference, inputs: [SensorDerivationInput], limitations: [SensorDerivationLimitation]) throws",
+      "id": "s:15KenshikiSensors23SensorDerivationBindingV8methodID0F7Version13configuration6inputs11limitationsACSS_SSAA0C17ArtifactReferenceVSayAA0cD5InputVGSayAA0cD10LimitationOGtKcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "let methodID: String",
+      "id": "s:15KenshikiSensors23SensorDerivationBindingV8methodIDSSvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "enum SensorMeasurementOrigin",
+      "id": "s:15KenshikiSensors23SensorMeasurementOriginO",
+      "kind": "swift.enum"
+    },
+    {
+      "declaration": "case nativeSensor",
+      "id": "s:15KenshikiSensors23SensorMeasurementOriginO06nativeC0yA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case platformFused",
+      "id": "s:15KenshikiSensors23SensorMeasurementOriginO13platformFusedyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case derived",
+      "id": "s:15KenshikiSensors23SensorMeasurementOriginO7derivedyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "init?(rawValue: String)",
+      "id": "s:15KenshikiSensors23SensorMeasurementOriginO8rawValueACSgSS_tcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "struct TimestampedSensorSample<Value> where Value : Sendable",
+      "id": "s:15KenshikiSensors23TimestampedSensorSampleV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "let receivedAt: Date",
+      "id": "s:15KenshikiSensors23TimestampedSensorSampleV10receivedAt10Foundation4DateVvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "init(sensorTimestamp: TimeInterval, receivedAt: Date, systemUptimeAtReceipt: TimeInterval, value: Value)",
+      "id": "s:15KenshikiSensors23TimestampedSensorSampleV15sensorTimestamp10receivedAt012systemUptimeI7Receipt5valueACyxGSd_10Foundation4DateVSdxtcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "let sensorTimestamp: TimeInterval",
+      "id": "s:15KenshikiSensors23TimestampedSensorSampleV15sensorTimestampSdvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let systemUptimeAtReceipt: TimeInterval",
+      "id": "s:15KenshikiSensors23TimestampedSensorSampleV21systemUptimeAtReceiptSdvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let value: Value",
+      "id": "s:15KenshikiSensors23TimestampedSensorSampleV5valuexvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "struct DeviceMotionWindowReducer",
+      "id": "s:15KenshikiSensors25DeviceMotionWindowReducerV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "func measurements() -> DeviceMotionAggregateMeasurements?",
+      "id": "s:15KenshikiSensors25DeviceMotionWindowReducerV12measurementsAA0cD21AggregateMeasurementsVSgyF",
+      "kind": "swift.method"
+    },
+    {
+      "declaration": "mutating func ingest(_ sample: DeviceMotionAggregateSample)",
+      "id": "s:15KenshikiSensors25DeviceMotionWindowReducerV6ingestyyAA0cD15AggregateSampleVF",
+      "kind": "swift.method"
+    },
+    {
+      "declaration": "func accepts(_ sample: DeviceMotionAggregateSample) -> Bool",
+      "id": "s:15KenshikiSensors25DeviceMotionWindowReducerV7acceptsySbAA0cD15AggregateSampleVF",
+      "kind": "swift.method"
+    },
+    {
+      "declaration": "init()",
+      "id": "s:15KenshikiSensors25DeviceMotionWindowReducerVACycfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "enum SensorDerivationInputRole",
+      "id": "s:15KenshikiSensors25SensorDerivationInputRoleO",
+      "kind": "swift.enum"
+    },
+    {
+      "declaration": "case supporting",
+      "id": "s:15KenshikiSensors25SensorDerivationInputRoleO10supportingyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case contradicting",
+      "id": "s:15KenshikiSensors25SensorDerivationInputRoleO13contradictingyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case context",
+      "id": "s:15KenshikiSensors25SensorDerivationInputRoleO7contextyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case omission",
+      "id": "s:15KenshikiSensors25SensorDerivationInputRoleO8omissionyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "init?(rawValue: String)",
+      "id": "s:15KenshikiSensors25SensorDerivationInputRoleO8rawValueACSgSS_tcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "case rejected",
+      "id": "s:15KenshikiSensors25SensorDerivationInputRoleO8rejectedyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "enum SensorMeasurementQuantity",
+      "id": "s:15KenshikiSensors25SensorMeasurementQuantityO",
+      "kind": "swift.enum"
+    },
+    {
+      "declaration": "case acceleration",
+      "id": "s:15KenshikiSensors25SensorMeasurementQuantityO12accelerationyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case dimensionless",
+      "id": "s:15KenshikiSensors25SensorMeasurementQuantityO13dimensionlessyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case magneticField",
+      "id": "s:15KenshikiSensors25SensorMeasurementQuantityO13magneticFieldyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case angularVelocity",
+      "id": "s:15KenshikiSensors25SensorMeasurementQuantityO15angularVelocityyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case angle",
+      "id": "s:15KenshikiSensors25SensorMeasurementQuantityO5angleyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case pressure",
+      "id": "s:15KenshikiSensors25SensorMeasurementQuantityO8pressureyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "init?(rawValue: String)",
+      "id": "s:15KenshikiSensors25SensorMeasurementQuantityO8rawValueACSgSS_tcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "struct SensorWindowQualityPolicy",
+      "id": "s:15KenshikiSensors25SensorWindowQualityPolicyV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "let maximumGapPeriods: Double",
+      "id": "s:15KenshikiSensors25SensorWindowQualityPolicyV17maximumGapPeriodsSdvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "init(minimumExpectedCountFraction: Double = 0.95, minimumTemporalCoverageFraction: Double = 0.95, maximumGapPeriods: Double = 3)",
+      "id": "s:15KenshikiSensors25SensorWindowQualityPolicyV28minimumExpectedCountFraction0g16TemporalCoverageJ017maximumGapPeriodsACSd_S2dtcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "let minimumExpectedCountFraction: Double",
+      "id": "s:15KenshikiSensors25SensorWindowQualityPolicyV28minimumExpectedCountFractionSdvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let minimumTemporalCoverageFraction: Double",
+      "id": "s:15KenshikiSensors25SensorWindowQualityPolicyV31minimumTemporalCoverageFractionSdvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "struct SensorWindowSpecification",
+      "id": "s:15KenshikiSensors25SensorWindowSpecificationV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "func canonicalWindowStart(containing sensorTimestamp: TimeInterval) -> TimeInterval",
+      "id": "s:15KenshikiSensors25SensorWindowSpecificationV09canonicalD5Start10containingS2d_tF",
+      "kind": "swift.method"
+    },
+    {
+      "declaration": "let nominalPeriod: TimeInterval",
+      "id": "s:15KenshikiSensors25SensorWindowSpecificationV13nominalPeriodSdvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let qualityPolicy: SensorWindowQualityPolicy",
+      "id": "s:15KenshikiSensors25SensorWindowSpecificationV13qualityPolicyAA0cd7QualityG0Vvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let contractVersion: String",
+      "id": "s:15KenshikiSensors25SensorWindowSpecificationV15contractVersionSSvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "var expectedSampleCount: Int { get }",
+      "id": "s:15KenshikiSensors25SensorWindowSpecificationV19expectedSampleCountSivp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "static let maximumExpectedSampleCount: Int",
+      "id": "s:15KenshikiSensors25SensorWindowSpecificationV26maximumExpectedSampleCountSivpZ",
+      "kind": "swift.type.property"
+    },
+    {
+      "declaration": "init(duration: TimeInterval = 60, nominalPeriod: TimeInterval, qualityPolicy: SensorWindowQualityPolicy = .init(), contractVersion: String = \"pulse.sensor_window_timing.v1\")",
+      "id": "s:15KenshikiSensors25SensorWindowSpecificationV8duration13nominalPeriod13qualityPolicy15contractVersionACSd_SdAA0cd7QualityJ0VSStcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "let duration: TimeInterval",
+      "id": "s:15KenshikiSensors25SensorWindowSpecificationV8durationSdvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "enum SensorDerivationLimitation",
+      "id": "s:15KenshikiSensors26SensorDerivationLimitationO",
+      "kind": "swift.enum"
+    },
+    {
+      "declaration": "case partialInput",
+      "id": "s:15KenshikiSensors26SensorDerivationLimitationO12partialInputyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case unavailableInput",
+      "id": "s:15KenshikiSensors26SensorDerivationLimitationO16unavailableInputyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case resolutionUnknown",
+      "id": "s:15KenshikiSensors26SensorDerivationLimitationO17resolutionUnknownyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case methodNotQualified",
+      "id": "s:15KenshikiSensors26SensorDerivationLimitationO18methodNotQualifiedyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case rawSamplesNotRetained",
+      "id": "s:15KenshikiSensors26SensorDerivationLimitationO21rawSamplesNotRetainedyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case calibrationUnavailable",
+      "id": "s:15KenshikiSensors26SensorDerivationLimitationO22calibrationUnavailableyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case clockAlignmentUncertain",
+      "id": "s:15KenshikiSensors26SensorDerivationLimitationO23clockAlignmentUncertainyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case sourceAuthenticityUnverified",
+      "id": "s:15KenshikiSensors26SensorDerivationLimitationO28sourceAuthenticityUnverifiedyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "init?(rawValue: String)",
+      "id": "s:15KenshikiSensors26SensorDerivationLimitationO8rawValueACSgSS_tcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "enum SensorEvidenceAvailability",
+      "id": "s:15KenshikiSensors26SensorEvidenceAvailabilityO",
+      "kind": "swift.enum"
+    },
+    {
+      "declaration": "case unavailable",
+      "id": "s:15KenshikiSensors26SensorEvidenceAvailabilityO11unavailableyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case empty",
+      "id": "s:15KenshikiSensors26SensorEvidenceAvailabilityO5emptyyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case partial",
+      "id": "s:15KenshikiSensors26SensorEvidenceAvailabilityO7partialyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case observed",
+      "id": "s:15KenshikiSensors26SensorEvidenceAvailabilityO8observedyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "init?(rawValue: String)",
+      "id": "s:15KenshikiSensors26SensorEvidenceAvailabilityO8rawValueACSgSS_tcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "struct DeviceMotionAggregateSample",
+      "id": "s:15KenshikiSensors27DeviceMotionAggregateSampleV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "let rotationRate: SensorVector3",
+      "id": "s:15KenshikiSensors27DeviceMotionAggregateSampleV12rotationRateAA13SensorVector3Vvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let sensorLocation: String",
+      "id": "s:15KenshikiSensors27DeviceMotionAggregateSampleV14sensorLocationSSvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "init(userAcceleration: SensorVector3, rotationRate: SensorVector3, gravity: SensorVector3, attitudeReferenceFrame: String, magneticCalibrationAccuracy: String, sensorLocation: String)",
+      "id": "s:15KenshikiSensors27DeviceMotionAggregateSampleV16userAcceleration12rotationRate7gravity22attitudeReferenceFrame27magneticCalibrationAccuracy14sensorLocationAcA13SensorVector3V_A2KS3Stcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "let userAcceleration: SensorVector3",
+      "id": "s:15KenshikiSensors27DeviceMotionAggregateSampleV16userAccelerationAA13SensorVector3Vvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let attitudeReferenceFrame: String",
+      "id": "s:15KenshikiSensors27DeviceMotionAggregateSampleV22attitudeReferenceFrameSSvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let magneticCalibrationAccuracy: String",
+      "id": "s:15KenshikiSensors27DeviceMotionAggregateSampleV27magneticCalibrationAccuracySSvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let gravity: SensorVector3",
+      "id": "s:15KenshikiSensors27DeviceMotionAggregateSampleV7gravityAA13SensorVector3Vvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "enum SensorEvidenceContractError",
+      "id": "s:15KenshikiSensors27SensorEvidenceContractErrorO",
+      "kind": "swift.enum"
+    },
+    {
+      "declaration": "case invalid(String)",
+      "id": "s:15KenshikiSensors27SensorEvidenceContractErrorO7invalidyACSScACmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "struct SensorMeasurementDescriptor",
+      "id": "s:15KenshikiSensors27SensorMeasurementDescriptorV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "let resolution: Double?",
+      "id": "s:15KenshikiSensors27SensorMeasurementDescriptorV10resolutionSdSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let calibration: SensorArtifactReference?",
+      "id": "s:15KenshikiSensors27SensorMeasurementDescriptorV11calibrationAA0C17ArtifactReferenceVSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let frameLineage: SensorFrameLineage",
+      "id": "s:15KenshikiSensors27SensorMeasurementDescriptorV12frameLineageAA0c5FrameG0Ovp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let unit: SensorMeasurementUnit",
+      "id": "s:15KenshikiSensors27SensorMeasurementDescriptorV4unitAA0cD4UnitOvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let shape: SensorMeasurementShape",
+      "id": "s:15KenshikiSensors27SensorMeasurementDescriptorV5shapeAA0cD5ShapeOvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let origin: SensorMeasurementOrigin",
+      "id": "s:15KenshikiSensors27SensorMeasurementDescriptorV6originAA0cD6OriginOvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let frameID: String",
+      "id": "s:15KenshikiSensors27SensorMeasurementDescriptorV7frameIDSSvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let gravity: SensorGravityInclusion",
+      "id": "s:15KenshikiSensors27SensorMeasurementDescriptorV7gravityAA0C16GravityInclusionOvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let quantity: SensorMeasurementQuantity",
+      "id": "s:15KenshikiSensors27SensorMeasurementDescriptorV8quantityAA0cD8QuantityOvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let sourceID: String",
+      "id": "s:15KenshikiSensors27SensorMeasurementDescriptorV8sourceIDSSvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "init(streamID: String, sourceID: String, origin: SensorMeasurementOrigin, quantity: SensorMeasurementQuantity, unit: SensorMeasurementUnit, gravity: SensorGravityInclusion, frameID: String, shape: SensorMeasurementShape = .scalar, frameLineage: SensorFrameLineage = .reported, calibration: SensorArtifactReference? = nil, resolution: Double? = nil) throws",
+      "id": "s:15KenshikiSensors27SensorMeasurementDescriptorV8streamID06sourceG06origin8quantity4unit7gravity05frameG05shape0M7Lineage11calibration10resolutionACSS_SSAA0cD6OriginOAA0cD8QuantityOAA0cD4UnitOAA0C16GravityInclusionOSSAA0cD5ShapeOAA0c5FrameO0OAA0C17ArtifactReferenceVSgSdSgtKcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "let streamID: String",
+      "id": "s:15KenshikiSensors27SensorMeasurementDescriptorV8streamIDSSvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "enum SensorEvidenceOmissionReason",
+      "id": "s:15KenshikiSensors28SensorEvidenceOmissionReasonO",
+      "kind": "swift.enum"
+    },
+    {
+      "declaration": "case outOfOrder",
+      "id": "s:15KenshikiSensors28SensorEvidenceOmissionReasonO10outOfOrderyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case interrupted",
+      "id": "s:15KenshikiSensors28SensorEvidenceOmissionReasonO11interruptedyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case unsupported",
+      "id": "s:15KenshikiSensors28SensorEvidenceOmissionReasonO11unsupportedyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case invalidSample",
+      "id": "s:15KenshikiSensors28SensorEvidenceOmissionReasonO13invalidSampleyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case rawNotRetained",
+      "id": "s:15KenshikiSensors28SensorEvidenceOmissionReasonO14rawNotRetainedyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case duplicateSample",
+      "id": "s:15KenshikiSensors28SensorEvidenceOmissionReasonO15duplicateSampleyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case permissionDenied",
+      "id": "s:15KenshikiSensors28SensorEvidenceOmissionReasonO16permissionDeniedyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case clockUncorrelated",
+      "id": "s:15KenshikiSensors28SensorEvidenceOmissionReasonO17clockUncorrelatedyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case gap",
+      "id": "s:15KenshikiSensors28SensorEvidenceOmissionReasonO3gapyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case capacity",
+      "id": "s:15KenshikiSensors28SensorEvidenceOmissionReasonO8capacityyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "init?(rawValue: String)",
+      "id": "s:15KenshikiSensors28SensorEvidenceOmissionReasonO8rawValueACSgSS_tcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "case noSamples",
+      "id": "s:15KenshikiSensors28SensorEvidenceOmissionReasonO9noSamplesyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "enum SensorWindowAcquisitionQuality",
+      "id": "s:15KenshikiSensors30SensorWindowAcquisitionQualityO",
+      "kind": "swift.enum"
+    },
+    {
+      "declaration": "case empty",
+      "id": "s:15KenshikiSensors30SensorWindowAcquisitionQualityO5emptyyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case partial",
+      "id": "s:15KenshikiSensors30SensorWindowAcquisitionQualityO7partialyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case observed",
+      "id": "s:15KenshikiSensors30SensorWindowAcquisitionQualityO8observedyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "init?(rawValue: String)",
+      "id": "s:15KenshikiSensors30SensorWindowAcquisitionQualityO8rawValueACSgSS_tcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "struct RecordedAccelerationWindowSample",
+      "id": "s:15KenshikiSensors32RecordedAccelerationWindowSampleV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "let sampleDate: Date",
+      "id": "s:15KenshikiSensors32RecordedAccelerationWindowSampleV10sampleDate10Foundation0H0Vvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "init(sampleDate: Date, sensorTimestamp: TimeInterval, acceleration: SensorVector3, recordingBatchIdentifier: UInt64)",
+      "id": "s:15KenshikiSensors32RecordedAccelerationWindowSampleV10sampleDate15sensorTimestamp12acceleration24recordingBatchIdentifierAC10Foundation0H0V_SdAA13SensorVector3Vs6UInt64Vtcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "let acceleration: SensorVector3",
+      "id": "s:15KenshikiSensors32RecordedAccelerationWindowSampleV12accelerationAA13SensorVector3Vvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let sensorTimestamp: TimeInterval",
+      "id": "s:15KenshikiSensors32RecordedAccelerationWindowSampleV15sensorTimestampSdvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let recordingBatchIdentifier: UInt64",
+      "id": "s:15KenshikiSensors32RecordedAccelerationWindowSampleV24recordingBatchIdentifiers6UInt64Vvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "struct RecordedAccelerationWindowTiming",
+      "id": "s:15KenshikiSensors32RecordedAccelerationWindowTimingV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "let sampleCount: Int",
+      "id": "s:15KenshikiSensors32RecordedAccelerationWindowTimingV11sampleCountSivp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let leadingGapSeconds: TimeInterval?",
+      "id": "s:15KenshikiSensors32RecordedAccelerationWindowTimingV17leadingGapSecondsSdSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let acquisitionQuality: SensorWindowAcquisitionQuality",
+      "id": "s:15KenshikiSensors32RecordedAccelerationWindowTimingV18acquisitionQualityAA06Sensore11AcquisitionH0Ovp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let invalidSampleCount: Int",
+      "id": "s:15KenshikiSensors32RecordedAccelerationWindowTimingV18invalidSampleCountSivp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let trailingGapSeconds: TimeInterval?",
+      "id": "s:15KenshikiSensors32RecordedAccelerationWindowTimingV18trailingGapSecondsSdSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let wallClockLastValid: Date?",
+      "id": "s:15KenshikiSensors32RecordedAccelerationWindowTimingV18wallClockLastValid10Foundation4DateVSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let expectedSampleCount: Int",
+      "id": "s:15KenshikiSensors32RecordedAccelerationWindowTimingV19expectedSampleCountSivp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let sensorTimestampLast: TimeInterval?",
+      "id": "s:15KenshikiSensors32RecordedAccelerationWindowTimingV19sensorTimestampLastSdSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let wallClockFirstValid: Date?",
+      "id": "s:15KenshikiSensors32RecordedAccelerationWindowTimingV19wallClockFirstValid10Foundation4DateVSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let duplicateSampleCount: Int",
+      "id": "s:15KenshikiSensors32RecordedAccelerationWindowTimingV20duplicateSampleCountSivp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let sensorTimestampFirst: TimeInterval?",
+      "id": "s:15KenshikiSensors32RecordedAccelerationWindowTimingV20sensorTimestampFirstSdSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let observedMedianSampleHz: Double?",
+      "id": "s:15KenshikiSensors32RecordedAccelerationWindowTimingV22observedMedianSampleHzSdSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let maximumSampleGapSeconds: TimeInterval?",
+      "id": "s:15KenshikiSensors32RecordedAccelerationWindowTimingV23maximumSampleGapSecondsSdSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let temporalCoverageFraction: Double",
+      "id": "s:15KenshikiSensors32RecordedAccelerationWindowTimingV24temporalCoverageFractionSdvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let sensorTimestampRegressionCount: Int",
+      "id": "s:15KenshikiSensors32RecordedAccelerationWindowTimingV30sensorTimestampRegressionCountSivp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "struct DeviceMotionAggregateMeasurements",
+      "id": "s:15KenshikiSensors33DeviceMotionAggregateMeasurementsV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "let gravityMean: SensorVector3",
+      "id": "s:15KenshikiSensors33DeviceMotionAggregateMeasurementsV11gravityMeanAA13SensorVector3Vvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let sensorLocation: String",
+      "id": "s:15KenshikiSensors33DeviceMotionAggregateMeasurementsV14sensorLocationSSvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let biasVectorSource: String",
+      "id": "s:15KenshikiSensors33DeviceMotionAggregateMeasurementsV16biasVectorSourceSSvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let additionalBiasApplied: Bool",
+      "id": "s:15KenshikiSensors33DeviceMotionAggregateMeasurementsV21additionalBiasAppliedSbvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let attitudeReferenceFrame: String",
+      "id": "s:15KenshikiSensors33DeviceMotionAggregateMeasurementsV22attitudeReferenceFrameSSvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let magneticCalibrationCounts: [String : Int]",
+      "id": "s:15KenshikiSensors33DeviceMotionAggregateMeasurementsV25magneticCalibrationCountsSDySSSiGvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let userAccelerationMagnitudeG: EmpiricalDistribution",
+      "id": "s:15KenshikiSensors33DeviceMotionAggregateMeasurementsV26userAccelerationMagnitudeGAA21EmpiricalDistributionVvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let rotationRateMagnitudeRadiansPerSecond: EmpiricalDistribution",
+      "id": "s:15KenshikiSensors33DeviceMotionAggregateMeasurementsV37rotationRateMagnitudeRadiansPerSecondAA21EmpiricalDistributionVvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "struct RecordedAccelerationWindowReducer",
+      "id": "s:15KenshikiSensors33RecordedAccelerationWindowReducerV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "func measurements() -> RecordedAccelerationAggregateMeasurements?",
+      "id": "s:15KenshikiSensors33RecordedAccelerationWindowReducerV12measurementsAA0cD21AggregateMeasurementsVSgyF",
+      "kind": "swift.method"
+    },
+    {
+      "declaration": "mutating func ingest(_ sample: RecordedAccelerationAggregateSample)",
+      "id": "s:15KenshikiSensors33RecordedAccelerationWindowReducerV6ingestyyAA0cD15AggregateSampleVF",
+      "kind": "swift.method"
+    },
+    {
+      "declaration": "func accepts(_ sample: RecordedAccelerationAggregateSample) -> Bool",
+      "id": "s:15KenshikiSensors33RecordedAccelerationWindowReducerV7acceptsySbAA0cD15AggregateSampleVF",
+      "kind": "swift.method"
+    },
+    {
+      "declaration": "init()",
+      "id": "s:15KenshikiSensors33RecordedAccelerationWindowReducerVACycfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "struct CompletedRecordedAccelerationWindow",
+      "id": "s:15KenshikiSensors35CompletedRecordedAccelerationWindowV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "let measurements: RecordedAccelerationAggregateMeasurements?",
+      "id": "s:15KenshikiSensors35CompletedRecordedAccelerationWindowV12measurementsAA0dE21AggregateMeasurementsVSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let wallClockBounds: DateInterval",
+      "id": "s:15KenshikiSensors35CompletedRecordedAccelerationWindowV15wallClockBounds10Foundation12DateIntervalVvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "init(wallClockBounds: DateInterval, timing: RecordedAccelerationWindowTiming, measurements: RecordedAccelerationAggregateMeasurements?, timingContractVersion: String)",
+      "id": "s:15KenshikiSensors35CompletedRecordedAccelerationWindowV15wallClockBounds6timing12measurements0J15ContractVersionAC10Foundation12DateIntervalV_AA0deF6TimingVAA0dE21AggregateMeasurementsVSgSStcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "let timingContractVersion: String",
+      "id": "s:15KenshikiSensors35CompletedRecordedAccelerationWindowV21timingContractVersionSSvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let timing: RecordedAccelerationWindowTiming",
+      "id": "s:15KenshikiSensors35CompletedRecordedAccelerationWindowV6timingAA0deF6TimingVvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "struct RecordedAccelerationAggregateSample",
+      "id": "s:15KenshikiSensors35RecordedAccelerationAggregateSampleV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "init(acceleration: SensorVector3, recordingBatchIdentifier: UInt64)",
+      "id": "s:15KenshikiSensors35RecordedAccelerationAggregateSampleV12acceleration24recordingBatchIdentifierAcA13SensorVector3V_s6UInt64Vtcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "let acceleration: SensorVector3",
+      "id": "s:15KenshikiSensors35RecordedAccelerationAggregateSampleV12accelerationAA13SensorVector3Vvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let recordingBatchIdentifier: UInt64",
+      "id": "s:15KenshikiSensors35RecordedAccelerationAggregateSampleV24recordingBatchIdentifiers6UInt64Vvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "struct RecordedAccelerationWindowProjection",
+      "id": "s:15KenshikiSensors36RecordedAccelerationWindowProjectionV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "static let nominalPeriod: TimeInterval",
+      "id": "s:15KenshikiSensors36RecordedAccelerationWindowProjectionV13nominalPeriodSdvpZ",
+      "kind": "swift.type.property"
+    },
+    {
+      "declaration": "static let windowDuration: TimeInterval",
+      "id": "s:15KenshikiSensors36RecordedAccelerationWindowProjectionV14windowDurationSdvpZ",
+      "kind": "swift.type.property"
+    },
+    {
+      "declaration": "static let timingContractVersion: String",
+      "id": "s:15KenshikiSensors36RecordedAccelerationWindowProjectionV21timingContractVersionSSvpZ",
+      "kind": "swift.type.property"
+    },
+    {
+      "declaration": "func project(samples: [RecordedAccelerationWindowSample], finalizationCutoff: Date) -> RecordedAccelerationWindowProjectionResult",
+      "id": "s:15KenshikiSensors36RecordedAccelerationWindowProjectionV7project7samples18finalizationCutoffAA0cdeF6ResultVSayAA0cdE6SampleVG_10Foundation4DateVtF",
+      "kind": "swift.method"
+    },
+    {
+      "declaration": "init()",
+      "id": "s:15KenshikiSensors36RecordedAccelerationWindowProjectionVACycfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "struct RecordedAccelerationAggregateMeasurements",
+      "id": "s:15KenshikiSensors41RecordedAccelerationAggregateMeasurementsV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "let rawAccelerationMagnitudeG: EmpiricalDistribution",
+      "id": "s:15KenshikiSensors41RecordedAccelerationAggregateMeasurementsV03rawD10MagnitudeGAA21EmpiricalDistributionVvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let rawAccelerationXG: EmpiricalDistribution",
+      "id": "s:15KenshikiSensors41RecordedAccelerationAggregateMeasurementsV03rawD2XGAA21EmpiricalDistributionVvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let rawAccelerationYG: EmpiricalDistribution",
+      "id": "s:15KenshikiSensors41RecordedAccelerationAggregateMeasurementsV03rawD2YGAA21EmpiricalDistributionVvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let rawAccelerationZG: EmpiricalDistribution",
+      "id": "s:15KenshikiSensors41RecordedAccelerationAggregateMeasurementsV03rawD2ZGAA21EmpiricalDistributionVvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let recordedSampleCount: Int",
+      "id": "s:15KenshikiSensors41RecordedAccelerationAggregateMeasurementsV19recordedSampleCountSivp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let distinctRecordingBatchCount: Int",
+      "id": "s:15KenshikiSensors41RecordedAccelerationAggregateMeasurementsV27distinctRecordingBatchCountSivp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let recordingBatchIdentifierDigest: String",
+      "id": "s:15KenshikiSensors41RecordedAccelerationAggregateMeasurementsV30recordingBatchIdentifierDigestSSvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let recordingBatchIdentifierMaximum: UInt64",
+      "id": "s:15KenshikiSensors41RecordedAccelerationAggregateMeasurementsV31recordingBatchIdentifierMaximums6UInt64Vvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let recordingBatchIdentifierMinimum: UInt64",
+      "id": "s:15KenshikiSensors41RecordedAccelerationAggregateMeasurementsV31recordingBatchIdentifierMinimums6UInt64Vvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "struct RecordedAccelerationWindowProjectionResult",
+      "id": "s:15KenshikiSensors42RecordedAccelerationWindowProjectionResultV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "let inputSampleCount: Int",
+      "id": "s:15KenshikiSensors42RecordedAccelerationWindowProjectionResultV16inputSampleCountSivp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let unroutableSampleCount: Int",
+      "id": "s:15KenshikiSensors42RecordedAccelerationWindowProjectionResultV21unroutableSampleCountSivp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let conflictingSampleCount: Int",
+      "id": "s:15KenshikiSensors42RecordedAccelerationWindowProjectionResultV22conflictingSampleCountSivp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let cutoffExcludedSampleCount: Int",
+      "id": "s:15KenshikiSensors42RecordedAccelerationWindowProjectionResultV25cutoffExcludedSampleCountSivp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let conflictingSampleIdentityCount: Int",
+      "id": "s:15KenshikiSensors42RecordedAccelerationWindowProjectionResultV30conflictingSampleIdentityCountSivp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "init(windows: [CompletedRecordedAccelerationWindow], inputSampleCount: Int, unroutableSampleCount: Int, cutoffExcludedSampleCount: Int, conflictingSampleIdentityCount: Int, conflictingSampleCount: Int)",
+      "id": "s:15KenshikiSensors42RecordedAccelerationWindowProjectionResultV7windows16inputSampleCount010unroutablejK0014cutoffExcludedjK0011conflictingj8IdentityK00ojK0ACSayAA09CompletedcdE0VG_S5itcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "let windows: [CompletedRecordedAccelerationWindow]",
+      "id": "s:15KenshikiSensors42RecordedAccelerationWindowProjectionResultV7windowsSayAA09CompletedcdE0VGvp",
+      "kind": "swift.property"
+    }
+  ]
+}

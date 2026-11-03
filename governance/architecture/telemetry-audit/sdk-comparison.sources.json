@@ -1,0 +1,367 @@
+{
+  "schemaVersion": 1,
+  "recordedAt": "2026-10-26T18:26:10.339022+00:00",
+  "scope": "Parent full-file reads for SDK comparison; initial baseline covers 27 inputs; additional reads have post-read hashes only",
+  "files": [
+    {
+      "path": "/Users/shf/Developer/kenshiki-sdks/AGENTS.md",
+      "readInFull": true,
+      "sha256Start": "06ed87c8d8a9dc83e982450fba4c2205a8154587c2a66d92abf55089bf6c3888",
+      "sha256End": "06ed87c8d8a9dc83e982450fba4c2205a8154587c2a66d92abf55089bf6c3888",
+      "hashInterval": "audit baseline to report",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/shf/Developer/kenshiki-sdks/CLAUDE.md",
+      "readInFull": true,
+      "sha256Start": "6b5dd9a78796973fe9cf1a8dd446e51b542e74582c67c13306a5392946f0e8fc",
+      "sha256End": "6b5dd9a78796973fe9cf1a8dd446e51b542e74582c67c13306a5392946f0e8fc",
+      "hashInterval": "audit baseline to report",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/shf/Developer/kenshiki-sdks/Package.swift",
+      "readInFull": true,
+      "sha256Start": "57d03da1c4cb057fc5643d202fb5a8c186f6bbe31e46fd68f3c013721d3a43f8",
+      "sha256End": "57d03da1c4cb057fc5643d202fb5a8c186f6bbe31e46fd68f3c013721d3a43f8",
+      "hashInterval": "audit baseline to report",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/shf/Developer/kenshiki-sdks/README.md",
+      "readInFull": true,
+      "sha256Start": "5275a1415de2956d31bc1ac57190b858b15f35ab3b67e9291340db637bde2bd3",
+      "sha256End": "5275a1415de2956d31bc1ac57190b858b15f35ab3b67e9291340db637bde2bd3",
+      "hashInterval": "audit baseline to report",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/shf/Developer/kenshiki-sdks/biometric/AGENTS.md",
+      "readInFull": true,
+      "sha256Start": null,
+      "sha256End": "4af113125e03507469d510b7ee578c2004e976afeb20b0b86c368ece877f1196",
+      "hashInterval": "post-full-read checkpoint only",
+      "unchanged": null
+    },
+    {
+      "path": "/Users/shf/Developer/kenshiki-sdks/biometric/ios/Sources/BiometricCapture/NativeSelfieMotion.swift",
+      "readInFull": true,
+      "sha256Start": "0d989846c0cd79ce4f1ee5cdf8160332b74e66ddc34258763b1e86304564e4c4",
+      "sha256End": "0d989846c0cd79ce4f1ee5cdf8160332b74e66ddc34258763b1e86304564e4c4",
+      "hashInterval": "audit baseline to report",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/shf/Developer/kenshiki-sdks/biometric/ios/Sources/BiometricCapture/NativeSelfieSession.swift",
+      "readInFull": true,
+      "sha256Start": null,
+      "sha256End": "89d99da86dce523372bcf18ee03c1f810c62915e8ebe87eb3e5c81f505d88fb6",
+      "hashInterval": "post-full-read checkpoint only",
+      "unchanged": null
+    },
+    {
+      "path": "/Users/shf/Developer/kenshiki-sdks/biometric/ios/Sources/BiometricCapture/SelfieAdmissionReceipt.swift",
+      "readInFull": true,
+      "sha256Start": null,
+      "sha256End": "891fbd228f2b13e8b7de30a9262efc9cf60a7a2e14de841973f10bc8a77812bd",
+      "hashInterval": "post-full-read checkpoint only",
+      "unchanged": null
+    },
+    {
+      "path": "/Users/shf/Developer/kenshiki-sdks/biometric/ios/Sources/BiometricCapture/SelfieMotionEvidence.swift",
+      "readInFull": true,
+      "sha256Start": "50a932a6c40487b4487c1150ef28228090f8242723a55d8178209cdbcc882d03",
+      "sha256End": "50a932a6c40487b4487c1150ef28228090f8242723a55d8178209cdbcc882d03",
+      "hashInterval": "audit baseline to report",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/shf/Developer/kenshiki-sdks/document/AGENTS.md",
+      "readInFull": true,
+      "sha256Start": null,
+      "sha256End": "af3495eb39940715ef67667de54f07f8c30d06455691b56df7d41291adadfbba",
+      "hashInterval": "post-full-read checkpoint only",
+      "unchanged": null
+    },
+    {
+      "path": "/Users/shf/Developer/kenshiki-sdks/document/docs/capture-telemetry.md",
+      "readInFull": true,
+      "sha256Start": "0e08ccec293b33116beae33d458c31458441d573382062ed67e155b4c152d756",
+      "sha256End": "0e08ccec293b33116beae33d458c31458441d573382062ed67e155b4c152d756",
+      "hashInterval": "audit baseline to report",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/shf/Developer/kenshiki-sdks/document/ios/Sources/DocumentCaptureApple/DocumentFrontCaptureController.swift",
+      "readInFull": true,
+      "sha256Start": null,
+      "sha256End": "131134030210bcd4bbcf058df7db9af1c6c03dc157a57288ec6ecd10b865de27",
+      "hashInterval": "post-full-read checkpoint only",
+      "unchanged": null
+    },
+    {
+      "path": "/Users/shf/Developer/kenshiki-sdks/document/ios/Sources/DocumentCaptureApple/DocumentLevelMotionSource.swift",
+      "readInFull": true,
+      "sha256Start": null,
+      "sha256End": "d01721e430d61f947a03ce1c4dab0cfe7c53d307adf3001bb95bf14f228ac3c7",
+      "hashInterval": "post-full-read checkpoint only",
+      "unchanged": null
+    },
+    {
+      "path": "/Users/shf/Developer/kenshiki-sdks/document/ios/Sources/DocumentCaptureApple/DocumentMotionEvidence.swift",
+      "readInFull": true,
+      "sha256Start": "06b718649b8f031e2c1cd44a23e8ca6e791558735181d8c0a9c2354557cb677d",
+      "sha256End": "06b718649b8f031e2c1cd44a23e8ca6e791558735181d8c0a9c2354557cb677d",
+      "hashInterval": "audit baseline to report",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/shf/Developer/kenshiki-sdks/document/ios/Sources/DocumentCaptureApple/DocumentMotionRecorder.swift",
+      "readInFull": true,
+      "sha256Start": "a52580a3d4448b0296d869252813567e099dd328c31adaa6f9cbbc9a50d7498c",
+      "sha256End": "a52580a3d4448b0296d869252813567e099dd328c31adaa6f9cbbc9a50d7498c",
+      "hashInterval": "audit baseline to report",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/shf/Developer/kenshiki-sdks/document/ios/Sources/DocumentCaptureApple/DocumentTemporalEvidence.swift",
+      "readInFull": true,
+      "sha256Start": null,
+      "sha256End": "b23fe07bb49ac59980d7be91a2e4581d2a7d7c9a3e3a7af7112d230f3cd91d41",
+      "hashInterval": "post-full-read checkpoint only",
+      "unchanged": null
+    },
+    {
+      "path": "/Users/shf/Developer/kenshiki-sdks/document/ios/Sources/DocumentCaptureApple/DocumentTemporalEvidenceManifest.swift",
+      "readInFull": true,
+      "sha256Start": null,
+      "sha256End": "256fccef707e02359c2aca3a98fb2b0aabf5ba263f79621dee81a2d9521ab128",
+      "hashInterval": "post-full-read checkpoint only",
+      "unchanged": null
+    },
+    {
+      "path": "/Users/shf/Developer/kenshiki-sdks/document/ios/Sources/DocumentCaptureApple/DocumentTemporalMotionCollector.swift",
+      "readInFull": true,
+      "sha256Start": "5f102ce32b96c3a67cd76e8c48c117ecc37b272a8aa5c6a53bfde0a2de31584e",
+      "sha256End": "5f102ce32b96c3a67cd76e8c48c117ecc37b272a8aa5c6a53bfde0a2de31584e",
+      "hashInterval": "audit baseline to report",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/shf/Developer/kenshiki-sdks/document/ios/Tests/AppleTests/DocumentMotionEvidenceTests.swift",
+      "readInFull": true,
+      "sha256Start": null,
+      "sha256End": "24776b90ab0dcaf7412842de526b79122d55c3f5abff1437bd329b8ba7f07bc2",
+      "hashInterval": "post-full-read checkpoint only",
+      "unchanged": null
+    },
+    {
+      "path": "/Users/shf/Developer/kenshiki-sdks/foundation/motion/Package.swift",
+      "readInFull": true,
+      "sha256Start": "6263b0ceaa3de8f847bf7065b232ab70f9099b956211da3917e8cbd34602e83a",
+      "sha256End": "6263b0ceaa3de8f847bf7065b232ab70f9099b956211da3917e8cbd34602e83a",
+      "hashInterval": "audit baseline to report",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/shf/Developer/kenshiki-sdks/foundation/motion/README.md",
+      "readInFull": true,
+      "sha256Start": "72122553449a19691a2e8d7d0f4f45053549850b056e82ccabd8854e203181e1",
+      "sha256End": "72122553449a19691a2e8d7d0f4f45053549850b056e82ccabd8854e203181e1",
+      "hashInterval": "audit baseline to report",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/shf/Developer/kenshiki-sdks/foundation/motion/Sources/KenshikiMotion/PulseCeremonyMotionSummary.swift",
+      "readInFull": true,
+      "sha256Start": "b544c0b87acb80b39fad51b17b947dc1d5d93ee495f949efc5089499aac89d06",
+      "sha256End": "b544c0b87acb80b39fad51b17b947dc1d5d93ee495f949efc5089499aac89d06",
+      "hashInterval": "audit baseline to report",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/shf/Developer/kenshiki-sdks/foundation/motion/Sources/KenshikiMotion/PulseCeremonyMotionTrace.swift",
+      "readInFull": true,
+      "sha256Start": "498beff60def9aaca4bd4070ef206a34cf55585bf8c20b72bbaf39668a779d53",
+      "sha256End": "498beff60def9aaca4bd4070ef206a34cf55585bf8c20b72bbaf39668a779d53",
+      "hashInterval": "audit baseline to report",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/shf/Developer/kenshiki-sdks/foundation/motion/Sources/KenshikiMotion/PulseCeremonyMotionWitness.swift",
+      "readInFull": true,
+      "sha256Start": "69905837f8f3f38cc99ec94c6ee5a2295efaa6468926cf73a625f8983b6d8466",
+      "sha256End": "69905837f8f3f38cc99ec94c6ee5a2295efaa6468926cf73a625f8983b6d8466",
+      "hashInterval": "audit baseline to report",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/shf/Developer/kenshiki-sdks/foundation/motion/Sources/KenshikiMotion/PulseMotionPermission.swift",
+      "readInFull": true,
+      "sha256Start": "e62b11a65a5cf247e6925fc00d2c9f30175dc8461482451e1f09a13413b8e0d5",
+      "sha256End": "e62b11a65a5cf247e6925fc00d2c9f30175dc8461482451e1f09a13413b8e0d5",
+      "hashInterval": "audit baseline to report",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/shf/Developer/kenshiki-sdks/foundation/motion/Tests/KenshikiMotionTests/PulseCeremonyMotionSummaryTests.swift",
+      "readInFull": true,
+      "sha256Start": "6a3c40e4243bf8eedeb0acd8f0dfb073be28b11b93f5c487cc5d0fe9dd27b53d",
+      "sha256End": "6a3c40e4243bf8eedeb0acd8f0dfb073be28b11b93f5c487cc5d0fe9dd27b53d",
+      "hashInterval": "audit baseline to report",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/shf/Developer/kenshiki-sdks/foundation/motion/Tests/KenshikiMotionTests/PulseCeremonyMotionWitnessTests.swift",
+      "readInFull": true,
+      "sha256Start": "9f2c3aa66b9f7207023f611fe75f15cd6a9e35627eef9cd880cddbeadfc8f877",
+      "sha256End": "9f2c3aa66b9f7207023f611fe75f15cd6a9e35627eef9cd880cddbeadfc8f877",
+      "hashInterval": "audit baseline to report",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/shf/Developer/kenshiki-sdks/foundation/motion/Tests/KenshikiMotionTests/PulseMotionPermissionTests.swift",
+      "readInFull": true,
+      "sha256Start": "987a24c15ffa3f07c659ff983c065f5fbbadb49b0bcbf4682c7edadf8095b309",
+      "sha256End": "987a24c15ffa3f07c659ff983c065f5fbbadb49b0bcbf4682c7edadf8095b309",
+      "hashInterval": "audit baseline to report",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/shf/Developer/kenshiki-sdks/foundation/motion/check.py",
+      "readInFull": true,
+      "sha256Start": "fb8d07e7a5edc80d2f168ed67259b06483ecfe9695845a019c1f77ac177608d3",
+      "sha256End": "fb8d07e7a5edc80d2f168ed67259b06483ecfe9695845a019c1f77ac177608d3",
+      "hashInterval": "audit baseline to report",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/shf/Developer/kenshiki-sdks/foundation/motion/sources.json",
+      "readInFull": true,
+      "sha256Start": "7edd91074161ec6006886620df1e48de4b6633f016436be05970a07a188bb596",
+      "sha256End": "7edd91074161ec6006886620df1e48de4b6633f016436be05970a07a188bb596",
+      "hashInterval": "audit baseline to report",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/shf/Developer/kenshiki-sdks/governance/architecture/APP-ARCH-001.md",
+      "readInFull": true,
+      "sha256Start": "31e0f180e89ece414c4794cdee529e8ba00617f2f0ef8b20a7ef2ab17da70046",
+      "sha256End": "31e0f180e89ece414c4794cdee529e8ba00617f2f0ef8b20a7ef2ab17da70046",
+      "hashInterval": "audit baseline to report",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/shf/Developer/kenshiki-sdks/governance/architecture/README.md",
+      "readInFull": true,
+      "sha256Start": null,
+      "sha256End": "9e549d77e82d8b8328d05254ff2b9c70b15fbbd2f897fe85a6253f35695cf1a4",
+      "hashInterval": "post-authored-navigation-link checkpoint; documentation only",
+      "unchanged": null
+    },
+    {
+      "path": "/Users/shf/Developer/kenshiki-sdks/governance/monorepo.md",
+      "readInFull": true,
+      "sha256Start": "cea75323268695282269ea672f9cfb47844a2fca45f9dd3ad5660360476e08f3",
+      "sha256End": "cea75323268695282269ea672f9cfb47844a2fca45f9dd3ad5660360476e08f3",
+      "hashInterval": "audit baseline to report",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/shf/Developer/kenshiki-sdks/passport/AGENTS.md",
+      "readInFull": true,
+      "sha256Start": null,
+      "sha256End": "fe2620d12559066b558b5570a75de9ded44aa368221ae6bbc3607f2cee7816b7",
+      "hashInterval": "post-full-read checkpoint only",
+      "unchanged": null
+    },
+    {
+      "path": "/Users/shf/Developer/kenshiki-sdks/reference-apps/AGENTS.md",
+      "readInFull": true,
+      "sha256Start": null,
+      "sha256End": "440867d4935ef36873fe983802157939a62be94b8112a0cc7112a0d9aae8459d",
+      "hashInterval": "post-full-read checkpoint only",
+      "unchanged": null
+    },
+    {
+      "path": "/Users/shf/Developer/kenshiki-sdks/reference-apps/ios/ControllerTests/WorkflowEvidenceTests.swift",
+      "readInFull": true,
+      "sha256Start": null,
+      "sha256End": "5a63c41c80e40b533b2d881e30364417bf90d1f7b80fc611f3aa6d0c1fccd29b",
+      "hashInterval": "post-full-read checkpoint only",
+      "unchanged": null
+    },
+    {
+      "path": "/Users/shf/Developer/kenshiki-sdks/reference-apps/ios/Sources/PassportFaceJourneyHost.swift",
+      "readInFull": true,
+      "sha256Start": null,
+      "sha256End": "91c221ec9d4d40b42038ce95bb7faa394dddb933feedefe784906ad81e3e7dd5",
+      "hashInterval": "post-full-read checkpoint only",
+      "unchanged": null
+    },
+    {
+      "path": "/Users/shf/Developer/kenshiki-sdks/reference-apps/ios/Sources/PassportFlowHost.swift",
+      "readInFull": true,
+      "sha256Start": null,
+      "sha256End": "933aa7b4aeaefdee62e84ca6ae505613e190f4b61de3cd9c3b24cf3f746a34f5",
+      "hashInterval": "post-full-read checkpoint only",
+      "unchanged": null
+    },
+    {
+      "path": "/Users/shf/Developer/kenshiki-sdks/reference-apps/ios/Sources/SavedFaceWorkflow.swift",
+      "readInFull": true,
+      "sha256Start": "0795e5e108d267899e463ee83f709b06817bfc8658e751b73e36e97ea32df1cd",
+      "sha256End": "0795e5e108d267899e463ee83f709b06817bfc8658e751b73e36e97ea32df1cd",
+      "hashInterval": "audit baseline to report",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/shf/Developer/kenshiki-sdks/reference-apps/ios/Sources/WorkflowEvidenceRecorder.swift",
+      "readInFull": true,
+      "sha256Start": "ed87b2616c97bfbf81742119827320cf0afb935241500cde3542890653e3dc66",
+      "sha256End": "ed87b2616c97bfbf81742119827320cf0afb935241500cde3542890653e3dc66",
+      "hashInterval": "audit baseline to report",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/shf/Developer/kenshiki-sdks/reference-apps/ios/Sources/WorkflowMotionProjection.swift",
+      "readInFull": true,
+      "sha256Start": "04475a0bc40cef8d8e9fb53abd95087125c085155d152b513dfb734f886a55ff",
+      "sha256End": "04475a0bc40cef8d8e9fb53abd95087125c085155d152b513dfb734f886a55ff",
+      "hashInterval": "audit baseline to report",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/shf/Developer/kenshiki-sdks/reference-apps/ios/Sources/WorkflowSensorHost.swift",
+      "readInFull": true,
+      "sha256Start": "c71c777b92df4825ad5767d4f36a10cf04871698673851043153c13fa87614d2",
+      "sha256End": "c71c777b92df4825ad5767d4f36a10cf04871698673851043153c13fa87614d2",
+      "hashInterval": "audit baseline to report",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/shf/Developer/pulse-ios/Samples/KenshikiDeviceDemo/Sources/HomeDevicePhysicsRead.swift",
+      "readInFull": true,
+      "sha256Start": null,
+      "sha256End": "33b0b8ab19e448c15359717903f68cf48749b29c5688bc312d1d42a9b457e6a1",
+      "hashInterval": "post-full-read checkpoint only",
+      "unchanged": null
+    },
+    {
+      "path": "/Users/shf/Developer/pulse-ios/Samples/KenshikiDeviceDemo/Sources/SensorHistoryJournalCoordinator.swift",
+      "readInFull": true,
+      "sha256Start": null,
+      "sha256End": "d45d4a9c2c3f42b46adcabf2fa1daa73db8a5818be7f0c14194d2f9fac453ec5",
+      "hashInterval": "post-full-read checkpoint only",
+      "unchanged": null
+    },
+    {
+      "path": "/Users/shf/Developer/pulse-ios/Sources/KenshikiDeviceSDK/SensorTemporalSummary.swift",
+      "readInFull": true,
+      "sha256Start": null,
+      "sha256End": "dbb2c5ee9b5f28eb5b2f1eb8314a94a6a301073652697a4010f4434d07bd092d",
+      "hashInterval": "post-full-read checkpoint only",
+      "unchanged": null
+    }
+  ]
+}

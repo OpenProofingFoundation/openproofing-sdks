@@ -1,0 +1,60 @@
+name: DocumentCaptureExample
+options:
+  bundleIdPrefix: com.kenshiki.examples
+  deploymentTarget:
+    iOS: "18.0"
+packages:
+  KenshikiDocument:
+    path: ../..
+  KenshikiDesign:
+    path: ../../../design-system
+settings:
+  base:
+    SWIFT_VERSION: "6.0"
+    DEVELOPMENT_TEAM: ""
+    SWIFT_TREAT_WARNINGS_AS_ERRORS: YES
+    GCC_TREAT_WARNINGS_AS_ERRORS: YES
+targets:
+  DocumentCaptureExample:
+    type: application
+    platform: iOS
+    info:
+      path: DocumentCaptureExample-Info.plist
+      properties:
+        NSCameraUsageDescription: permission.camera
+        UILaunchScreen:
+          UIImageRespectsSafeAreaInsets: true
+        UISupportedInterfaceOrientations:
+          - UIInterfaceOrientationPortrait
+          - UIInterfaceOrientationLandscapeLeft
+          - UIInterfaceOrientationLandscapeRight
+          - UIInterfaceOrientationPortraitUpsideDown
+        UIApplicationSceneManifest:
+          UIApplicationSupportsMultipleScenes: false
+    sources:
+      - Sources
+      - path: ../../../design-system/generated/swift/en.lproj/InfoPlist.strings
+        buildPhase: resources
+      - path: ../../../design-system/generated/swift/en-XA.lproj/InfoPlist.strings
+        buildPhase: resources
+      - path: ../../../design-system/generated/swift/ar-XB.lproj/InfoPlist.strings
+        buildPhase: resources
+    dependencies:
+      - package: KenshikiDocument
+        product: DocumentSDK
+      - package: KenshikiDocument
+        product: DocumentCaptureApple
+      - package: KenshikiDocument
+        product: DocumentCapturePreview
+      - package: KenshikiDesign
+        product: KenshikiDesign
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.kenshiki.examples.document
+        TARGETED_DEVICE_FAMILY: "1,2"
+        GENERATE_INFOPLIST_FILE: NO
+schemes:
+  DocumentCaptureExample:
+    build:
+      targets:
+        DocumentCaptureExample: all

@@ -1,0 +1,9 @@
+{
+  "source": "pulse-compliance/references/aamva",
+  "scope": "Pinned internal synthetic conformance fixtures; no provider calls or supplier qualification",
+  "files": {
+    "pulse-dldv.openapi.yaml": "cc6edc29cdd74e6cc37587f1099de0232cf8681bc5625ae60f7b4d02610c9ca9",
+    "trusona-id-verification-v1.source.yaml": "bd6ac4b3811cb2b240db18f1875fa6fda0955eb4affe7c239dd61475dbdf3adc",
+    "trusona-adapter-vectors.json": "99f58d1963cd32f0de1ee056c47f6813e04f830982bd1e92bcdd919cfd8cb105"
+  }
+}

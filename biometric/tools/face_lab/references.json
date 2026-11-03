@@ -1,0 +1,44 @@
+[
+  {
+    "name": "adaface",
+    "repository": "https://github.com/mk-minchul/AdaFace",
+    "revision": "c60eaa786a42c03444f3df7096dbaf9d57ae010d",
+    "license": "MIT for inspected code; no weight/data licence inferred",
+    "files": [
+      {
+        "path": "LICENSE",
+        "sha256": "95b6e493eb9dba27f2150304e790ae254bab18d1611f4d6e2ade28fa3a271583"
+      },
+      {
+        "path": "README.md",
+        "sha256": "c3e65e47bb06a6387287bb76efe0fcf835ffbec466c305eb0a9744cc362ff18a"
+      },
+      {
+        "path": "head.py",
+        "sha256": "ba3c7482736d6f912db8c9351cc6d210e74243cc9915ee4eb06945a153583d41"
+      },
+      {
+        "path": "net.py",
+        "sha256": "b4db4eb0174a385fd29e5f616391b50d443f455990c8b88dcab1f8021af8ba4c"
+      }
+    ],
+    "scope": "code/reference inspection only; not executed or imported into SDK"
+  },
+  {
+    "name": "cvlface",
+    "repository": "https://github.com/mk-minchul/CVLface",
+    "revision": "308142aa50adf2e187711354f7524635d3414f1e",
+    "license": "MIT for inspected code; no weight/data licence inferred",
+    "files": [
+      {
+        "path": "LICENSE",
+        "sha256": "95b6e493eb9dba27f2150304e790ae254bab18d1611f4d6e2ade28fa3a271583"
+      },
+      {
+        "path": "README.md",
+        "sha256": "82270493aabca8cbedce177b93e09d460a24a3cce510f9ec1efc77b0401ce1c1"
+      }
+    ],
+    "scope": "code/reference inspection only; not executed or imported into SDK"
+  }
+]

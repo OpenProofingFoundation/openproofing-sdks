@@ -1,0 +1,31 @@
+{
+  "checkedDate": "2026-10-16",
+  "upstreamRepository": "https://github.com/usnistgov/frvt",
+  "upstreamRevision": "18c2f84d80c0636cede6ff1db0479fe068aedac4",
+  "apiRevision": "6.0.1",
+  "generalSpecificationsRevision": "3.1",
+  "apiURL": "https://pages.nist.gov/frvt/api/FRVT_ongoing_11_api.pdf",
+  "generalSpecificationsURL": "https://pages.nist.gov/frvt/api/FRVT_common.pdf",
+  "sources": [
+    {
+      "path": "11/src/include/frvt11.h",
+      "url": "https://raw.githubusercontent.com/usnistgov/frvt/18c2f84d80c0636cede6ff1db0479fe068aedac4/11/src/include/frvt11.h",
+      "sha256": "4df7c24f4b282c14ab6530c4dcf4d4c10cdc21c86c4b769924c5253d436f91d8"
+    },
+    {
+      "path": "common/src/include/frvt_structs.h",
+      "url": "https://raw.githubusercontent.com/usnistgov/frvt/18c2f84d80c0636cede6ff1db0479fe068aedac4/common/src/include/frvt_structs.h",
+      "sha256": "6081f02b230d8dac78f008c4ca57ee2600c8ec87e765b74f2a054a9a9fb07ee0"
+    },
+    {
+      "path": "11/README.md",
+      "url": "https://raw.githubusercontent.com/usnistgov/frvt/18c2f84d80c0636cede6ff1db0479fe068aedac4/11/README.md",
+      "sha256": "8f4784883ca1f8d2bd75b4c36209b490661852b5f7510388401eb51762db94da"
+    },
+    {
+      "path": "11/CMakeLists.txt",
+      "url": "https://raw.githubusercontent.com/usnistgov/frvt/18c2f84d80c0636cede6ff1db0479fe068aedac4/11/CMakeLists.txt",
+      "sha256": "7ac6fd3e9fe05d21141ccbcaad616076dd62ba81abe4011780666568f5b6bae0"
+    }
+  ]
+}

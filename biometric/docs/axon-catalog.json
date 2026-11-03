@@ -1,0 +1,334 @@
+{
+  "date": "2026-10-16",
+  "source": "https://www.kaggle.com/axondata/datasets",
+  "scope": "Complete public listing metadata obtained by following pages until an empty page; advertised titles/bytes are not inspected sample/subject counts",
+  "datasets": [
+    {
+      "ref": "axondata/ibeta-level-1-paper-attacks",
+      "title": "iBeta Level 1 Liveness Detection dataset (30k+)",
+      "totalBytes": 2121401578,
+      "currentVersionNumber": 6,
+      "licenseName": "Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)"
+    },
+    {
+      "ref": "axondata/cracked-and-intact-smartphone-images-dataset",
+      "title": "Cracked & Intact Smartphone Images Dataset",
+      "totalBytes": 44825428,
+      "currentVersionNumber": 1,
+      "licenseName": "Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)"
+    },
+    {
+      "ref": "axondata/replay-attack-dataset",
+      "title": "Replay Attack Dataset - Display & Mobile Spoofing",
+      "totalBytes": 2266451765,
+      "currentVersionNumber": 1,
+      "licenseName": "Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)"
+    },
+    {
+      "ref": "axondata/face-anti-spoofing-dataset",
+      "title": "Anti-Spoofing Dataset, 100,000 sets",
+      "totalBytes": 5303334712,
+      "currentVersionNumber": 1,
+      "licenseName": "Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)"
+    },
+    {
+      "ref": "axondata/selfie-and-official-id-photo-dataset-18k-images",
+      "title": "Face Verification: Selfie with ID Dataset (150k)",
+      "totalBytes": 213472857,
+      "currentVersionNumber": 6,
+      "licenseName": "Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)"
+    },
+    {
+      "ref": "axondata/face-anti-spoofing-advanced-paper-attacks",
+      "title": "Anti-Spoofing Paper Attacks Dataset - 5,000 videos",
+      "totalBytes": 314402488,
+      "currentVersionNumber": 1,
+      "licenseName": "Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)"
+    },
+    {
+      "ref": "axondata/face-recognition-age-estimation-dataset",
+      "title": "Age Estimation Dataset: Minors (10-30) | 10K Faces",
+      "totalBytes": 141003191,
+      "currentVersionNumber": 2,
+      "licenseName": "Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)"
+    },
+    {
+      "ref": "axondata/silicone-mask-biometric-attack-dataset",
+      "title": "Silicone Mask Attack Dataset - 12,500+ Videos ",
+      "totalBytes": 1441305204,
+      "currentVersionNumber": 6,
+      "licenseName": "Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)"
+    },
+    {
+      "ref": "axondata/face-recognition-dataset-selfies-videos",
+      "title": "Face Recognition Dataset - 89K Selfies & Videos",
+      "totalBytes": 244566142,
+      "currentVersionNumber": 3,
+      "licenseName": "Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)"
+    },
+    {
+      "ref": "axondata/english-call-center-speech-recognition",
+      "title": "English Call Center Speech Recognition Dataset",
+      "totalBytes": 2719454,
+      "currentVersionNumber": 1,
+      "licenseName": "Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)"
+    },
+    {
+      "ref": "axondata/nist-dataset-3m-unique-biometric-faces",
+      "title": "NIST Face Recognition Dataset: 3M+ Human Faces ",
+      "totalBytes": 43088192,
+      "currentVersionNumber": 1,
+      "licenseName": "Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)"
+    },
+    {
+      "ref": "axondata/pad-ibeta-level-2",
+      "title": "iBeta Level 2 Dataset: 25,000+ Attack Videos",
+      "totalBytes": 2576150650,
+      "currentVersionNumber": 2,
+      "licenseName": "Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)"
+    },
+    {
+      "ref": "axondata/historic-current-face-images-dataset",
+      "title": "Face Recognition Dataset: Historical Face Images",
+      "totalBytes": 99580455,
+      "currentVersionNumber": 2,
+      "licenseName": "Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)"
+    },
+    {
+      "ref": "axondata/ibeta-high-fidelity-rubber-mask-dataset",
+      "title": "iBeta 3 High-Fidelity Resin Mask Dataset - 5,000+",
+      "totalBytes": 505588816,
+      "currentVersionNumber": 1,
+      "licenseName": "Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)"
+    },
+    {
+      "ref": "axondata/call-center-speech-dataset",
+      "title": "Call Center Speech Recognition Dataset",
+      "totalBytes": 12766164,
+      "currentVersionNumber": 1,
+      "licenseName": "Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)"
+    },
+    {
+      "ref": "axondata/photo-print-attacks-dataset-1k-individuals",
+      "title": "Anti-Spoofing Photo Print Attack Dataset - 7,000+",
+      "totalBytes": 1148475385,
+      "currentVersionNumber": 4,
+      "licenseName": "Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)"
+    },
+    {
+      "ref": "axondata/anti-spoofing-live-dataset",
+      "title": "Anti Spoofing Real Dataset - 6,000+ files",
+      "totalBytes": 8568557,
+      "currentVersionNumber": 1,
+      "licenseName": "Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)"
+    },
+    {
+      "ref": "axondata/3d-mannequin-dataset-for-liveness-detection",
+      "title": "3D Mannequin Dataset for Face Anti-Spoofing",
+      "totalBytes": 3296452,
+      "currentVersionNumber": 1,
+      "licenseName": "Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)"
+    },
+    {
+      "ref": "axondata/footstep-sound-dataset",
+      "title": "Footstep Sound Dataset - 50 Hours of Walking Audio",
+      "totalBytes": 36229933,
+      "currentVersionNumber": 2,
+      "licenseName": "Unknown"
+    },
+    {
+      "ref": "axondata/liveness-detection-real-and-display-attacks-5k",
+      "title": "Liveness Detection Replay Attack Dataset - 5,000+ ",
+      "totalBytes": 163792486,
+      "currentVersionNumber": 4,
+      "licenseName": "Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)"
+    },
+    {
+      "ref": "axondata/children-faces-synthetic-liveness-detection",
+      "title": "Synthetic Children Faces for Deepfake Detection",
+      "totalBytes": 158538779,
+      "currentVersionNumber": 3,
+      "licenseName": "Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)"
+    },
+    {
+      "ref": "axondata/high-fidelity-rubber-mask-attack-dataset",
+      "title": "Real Face vs 3D Resin Mask - 5,000+ Videos",
+      "totalBytes": 325451231,
+      "currentVersionNumber": 2,
+      "licenseName": "Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)"
+    },
+    {
+      "ref": "axondata/palm-recognition-large-scale",
+      "title": "Hand Palm Dataset \u2014 24K Images",
+      "totalBytes": 896041511,
+      "currentVersionNumber": 1,
+      "licenseName": "Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)"
+    },
+    {
+      "ref": "axondata/textile-3d-face-mask-attack-dataset",
+      "title": "3D Cloth Mask Face Anti-Spoofing Dataset - 11,000+",
+      "totalBytes": 1221007586,
+      "currentVersionNumber": 1,
+      "licenseName": "Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)"
+    },
+    {
+      "ref": "axondata/ibeta-level-3-dataset",
+      "title": "iBeta Level 3 Dataset: 10,000+ Videos",
+      "totalBytes": 831039753,
+      "currentVersionNumber": 1,
+      "licenseName": "Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)"
+    },
+    {
+      "ref": "axondata/3d-paper-mask-attack-dataset",
+      "title": "3D paper mask attack dataset - 2,000+ Videos",
+      "totalBytes": 431941743,
+      "currentVersionNumber": 1,
+      "licenseName": "Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)"
+    },
+    {
+      "ref": "axondata/background-noise-detection-dataset",
+      "title": "Background Noise Detection Dataset",
+      "totalBytes": 132008482,
+      "currentVersionNumber": 1,
+      "licenseName": "Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)"
+    },
+    {
+      "ref": "axondata/russian-call-center-audio-transcription",
+      "title": "Russian Call Center Audio Transcription Dataset",
+      "totalBytes": 2578253,
+      "currentVersionNumber": 1,
+      "licenseName": "Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)"
+    },
+    {
+      "ref": "axondata/foraminal-stenosis-mri-dataset",
+      "title": "Foraminal Stenosis MRI Dataset",
+      "totalBytes": 12204853,
+      "currentVersionNumber": 1,
+      "licenseName": "Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)"
+    },
+    {
+      "ref": "axondata/baby-cry-dataset",
+      "title": "Baby Cry Dataset - 50+ Hours of Real Infant Cry ",
+      "totalBytes": 29744120,
+      "currentVersionNumber": 1,
+      "licenseName": "Unknown"
+    },
+    {
+      "ref": "axondata/replay-attack-mobile-dataset-ibeta-1",
+      "title": "Anti-Spoofing Mobile Replay Dataset - 4,000+",
+      "totalBytes": 2661904807,
+      "currentVersionNumber": 4,
+      "licenseName": "Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)"
+    },
+    {
+      "ref": "axondata/latex-mask-dataset",
+      "title": "Latex Mask Dataset - 5,000 Videos",
+      "totalBytes": 2040833151,
+      "currentVersionNumber": 2,
+      "licenseName": "Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)"
+    },
+    {
+      "ref": "axondata/spanish-contact-center-audio-transcription",
+      "title": "Spanish Contact Center Audio Transcription Dataset",
+      "totalBytes": 2005481,
+      "currentVersionNumber": 1,
+      "licenseName": "Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)"
+    },
+    {
+      "ref": "axondata/german-call-center-voice-recognition",
+      "title": "German Call Center Voice Recognition Dataset",
+      "totalBytes": 615908,
+      "currentVersionNumber": 1,
+      "licenseName": "Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)"
+    },
+    {
+      "ref": "axondata/wrapped-3d-attacks",
+      "title": "Wrapped 3D Paper Mask Dataset - 4,000 Videos",
+      "totalBytes": 1276331140,
+      "currentVersionNumber": 3,
+      "licenseName": "Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)"
+    },
+    {
+      "ref": "axondata/pc-web-ir-rgb-webcam-dataset-ibeta-level-1",
+      "title": "IR + RGB Webcam Face Liveness Dataset for iBeta 1",
+      "totalBytes": 80553958,
+      "currentVersionNumber": 1,
+      "licenseName": "Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)"
+    },
+    {
+      "ref": "axondata/portuguese-contact-center-voice-recognition",
+      "title": " Portuguese Contact Center Voice Recognition",
+      "totalBytes": 1829097,
+      "currentVersionNumber": 1,
+      "licenseName": "Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)"
+    },
+    {
+      "ref": "axondata/liveness-detection-dataset-cutout-2d-attacks",
+      "title": "Cutout 2D Mask Attacks Dataset - 4,000+ Videos",
+      "totalBytes": 1171940662,
+      "currentVersionNumber": 4,
+      "licenseName": "Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)"
+    },
+    {
+      "ref": "axondata/face-spoofing-in-the-wild-multi-mask",
+      "title": "Anti-Spoofing Multi Mask Dataset in the Wild",
+      "totalBytes": 9229113,
+      "currentVersionNumber": 2,
+      "licenseName": "Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)"
+    },
+    {
+      "ref": "axondata/polish-call-center-customer-support",
+      "title": "Polish Call Center Customer Support Dataset",
+      "totalBytes": 1196717,
+      "currentVersionNumber": 1,
+      "licenseName": "Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)"
+    },
+    {
+      "ref": "axondata/print-mask-attack-face-spoofing",
+      "title": "Print Cardboard Mask Dataset - 3K Spoofing Videos",
+      "totalBytes": 1939926517,
+      "currentVersionNumber": 1,
+      "licenseName": "Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)"
+    },
+    {
+      "ref": "axondata/cut-out-paper-mask-face-anti-spoofing",
+      "title": "Cut-Out Paper Mask Dataset - 3K Spoofing Videos",
+      "totalBytes": 4539123845,
+      "currentVersionNumber": 1,
+      "licenseName": "Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)"
+    },
+    {
+      "ref": "axondata/egocentric-pov-video-dataset",
+      "title": "Egocentric POV Video Dataset - 200+ hours",
+      "totalBytes": 1240588831,
+      "currentVersionNumber": 1,
+      "licenseName": "Unknown"
+    }
+  ],
+  "pages": [
+    {
+      "page": 1,
+      "returned": 20,
+      "sha256": "858abf830b247970f00a785c561b952f38fb2d78655ebc7d6bbe9904c85136b2"
+    },
+    {
+      "page": 2,
+      "returned": 20,
+      "sha256": "b6d32b67fcedee0b154374661b7359f7686d0538af4b13408a671fe8fa4d9201"
+    },
+    {
+      "page": 3,
+      "returned": 3,
+      "sha256": "36a669b94dae2da606d713729d67cbb13f5c350653cdc5453225ca6eaa16c92b"
+    },
+    {
+      "page": 4,
+      "returned": 0,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    }
+  ],
+  "downloadedDatasetRefsAtCatalogCapture": [
+    "axondata/selfie-and-official-id-photo-dataset-18k-images"
+  ],
+  "executionStatus": "Catalogue captured before the batch. Query external data/canonical/index.sqlite and data/catalog/acquisition.log for current execution; do not infer download completion from this metadata listing."
+}

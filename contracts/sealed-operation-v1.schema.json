@@ -1,0 +1,131 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Sealed operation v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "application_id",
+    "installation_id",
+    "audience",
+    "operation_kind",
+    "operation_id",
+    "target_id",
+    "generation",
+    "challenge_id",
+    "purpose",
+    "v",
+    "expected_revision",
+    "issued_at",
+    "expires_at",
+    "content_digest",
+    "recipient"
+  ],
+  "properties": {
+    "application_id": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 256,
+      "pattern": "^[!-~]+$"
+    },
+    "installation_id": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 256,
+      "pattern": "^[!-~]+$"
+    },
+    "audience": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 256,
+      "pattern": "^[!-~]+$"
+    },
+    "operation_kind": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 256,
+      "pattern": "^[!-~]+$"
+    },
+    "operation_id": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 256,
+      "pattern": "^[!-~]+$"
+    },
+    "target_id": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 256,
+      "pattern": "^[!-~]+$"
+    },
+    "generation": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 256,
+      "pattern": "^[!-~]+$"
+    },
+    "challenge_id": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 256,
+      "pattern": "^[!-~]+$"
+    },
+    "purpose": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 256,
+      "pattern": "^[!-~]+$"
+    },
+    "v": {
+      "const": "kenshiki.sealed-operation.v1"
+    },
+    "expected_revision": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 9007199254740990
+    },
+    "issued_at": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 9007199254740991
+    },
+    "expires_at": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 9007199254740991
+    },
+    "content_digest": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "recipient": {
+      "oneOf": [
+        {
+          "type": "null"
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "kind",
+            "id"
+          ],
+          "properties": {
+            "kind": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 256,
+              "pattern": "^[!-~]+$"
+            },
+            "id": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 256,
+              "pattern": "^[!-~]+$"
+            }
+          }
+        }
+      ]
+    }
+  },
+  "description": "UTF-8 sorted-key compact JSON, no Unicode normalization; SHA256(domain UTF8 + NUL + canonical operation). Domain kenshiki:sealed-operation:v1. expires_at > issued_at and lifetime <=300 seconds. Content digest covers exact product canonical content bytes. Unknown fields rejected. Server validates configured audience/application/installation and generation independently."
+}

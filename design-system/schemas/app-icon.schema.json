@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$defs": {
+    "color": {"type": "string", "pattern": "#[0-9A-F]{6}"},
+    "gradient": {"type": "array", "minItems": 2, "maxItems": 2, "items": {"$ref": "#/$defs/color"}}
+  },
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schemaVersion", "name", "background", "darkBackground", "coreGradient", "ringsGradient", "coreRadius", "ringRadii", "ringOpacityPercent", "strokeWidth"],
+  "properties": {
+    "schemaVersion": {"const": 1},
+    "name": {"const": "KenshikiReference"},
+    "background": {"$ref": "#/$defs/color"},
+    "darkBackground": {"$ref": "#/$defs/color"},
+    "coreGradient": {"$ref": "#/$defs/gradient"},
+    "ringsGradient": {"$ref": "#/$defs/gradient"},
+    "coreRadius": {"type": "integer", "minimum": 64, "maximum": 96},
+    "ringRadii": {"type": "array", "minItems": 3, "maxItems": 3, "items": {"type": "integer", "minimum": 150, "maximum": 380}},
+    "ringOpacityPercent": {"type": "array", "minItems": 3, "maxItems": 3, "items": {"type": "integer", "minimum": 1, "maximum": 100}},
+    "strokeWidth": {"type": "integer", "minimum": 32, "maximum": 64}
+  }
+}

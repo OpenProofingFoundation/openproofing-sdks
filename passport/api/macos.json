@@ -1,0 +1,971 @@
+{
+  "relationships": [
+    {
+      "kind": "conformsTo",
+      "source": "s:11PassportSDK0A11PACEFailureV",
+      "target": "s:SE"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11PassportSDK0A11PACEFailureV",
+      "target": "s:Se"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11PassportSDK0A11PACEFailureV",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11PassportSDK0A11PACEFailureV",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11PassportSDK0A11ReadFailureO",
+      "target": "s:SE"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11PassportSDK0A11ReadFailureO",
+      "target": "s:SH"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11PassportSDK0A11ReadFailureO",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11PassportSDK0A11ReadFailureO",
+      "target": "s:SY"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11PassportSDK0A11ReadFailureO",
+      "target": "s:Se"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11PassportSDK0A11ReadFailureO",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11PassportSDK0A11ReadFailureO",
+      "target": "s:s5ErrorP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11PassportSDK0A11ReadFailureO",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11PassportSDK0A12CheckOutcomeO",
+      "target": "s:SE"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11PassportSDK0A12CheckOutcomeO",
+      "target": "s:SH"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11PassportSDK0A12CheckOutcomeO",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11PassportSDK0A12CheckOutcomeO",
+      "target": "s:SY"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11PassportSDK0A12CheckOutcomeO",
+      "target": "s:Se"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11PassportSDK0A12CheckOutcomeO",
+      "target": "s:s12CaseIterableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11PassportSDK0A12CheckOutcomeO",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11PassportSDK0A12CheckOutcomeO",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11PassportSDK0A14MRZObservationV",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11PassportSDK0A14MRZObservationV",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11PassportSDK0A14MRZObservationV",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11PassportSDK0A14MRZObservationV12CompletenessO",
+      "target": "s:SH"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11PassportSDK0A14MRZObservationV12CompletenessO",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11PassportSDK0A14MRZObservationV12CompletenessO",
+      "target": "s:SY"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11PassportSDK0A14MRZObservationV12CompletenessO",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11PassportSDK0A14MRZObservationV12CompletenessO",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11PassportSDK0A14MRZObservationV12MissingFieldO",
+      "target": "s:SH"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11PassportSDK0A14MRZObservationV12MissingFieldO",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11PassportSDK0A14MRZObservationV12MissingFieldO",
+      "target": "s:SY"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11PassportSDK0A14MRZObservationV12MissingFieldO",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11PassportSDK0A14MRZObservationV12MissingFieldO",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11PassportSDK0A15ReadObservationV",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11PassportSDK0A15ReadObservationV",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11PassportSDK0A19ProtocolObservationO",
+      "target": "s:SE"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11PassportSDK0A19ProtocolObservationO",
+      "target": "s:SH"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11PassportSDK0A19ProtocolObservationO",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11PassportSDK0A19ProtocolObservationO",
+      "target": "s:SY"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11PassportSDK0A19ProtocolObservationO",
+      "target": "s:Se"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11PassportSDK0A19ProtocolObservationO",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11PassportSDK0A19ProtocolObservationO",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11PassportSDK0A25CorrespondenceObservationV",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11PassportSDK0A25CorrespondenceObservationV",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11PassportSDK0A25CorrespondenceObservationV",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11PassportSDK0A25CorrespondenceObservationV10ComparisonO",
+      "target": "s:SE"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11PassportSDK0A25CorrespondenceObservationV10ComparisonO",
+      "target": "s:SH"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11PassportSDK0A25CorrespondenceObservationV10ComparisonO",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11PassportSDK0A25CorrespondenceObservationV10ComparisonO",
+      "target": "s:SY"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11PassportSDK0A25CorrespondenceObservationV10ComparisonO",
+      "target": "s:Se"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11PassportSDK0A25CorrespondenceObservationV10ComparisonO",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11PassportSDK0A25CorrespondenceObservationV10ComparisonO",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11PassportSDK0A25CorrespondenceObservationV5FieldO",
+      "target": "s:SE"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11PassportSDK0A25CorrespondenceObservationV5FieldO",
+      "target": "s:SH"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11PassportSDK0A25CorrespondenceObservationV5FieldO",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11PassportSDK0A25CorrespondenceObservationV5FieldO",
+      "target": "s:SY"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11PassportSDK0A25CorrespondenceObservationV5FieldO",
+      "target": "s:Se"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11PassportSDK0A25CorrespondenceObservationV5FieldO",
+      "target": "s:s12CaseIterableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11PassportSDK0A25CorrespondenceObservationV5FieldO",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11PassportSDK0A25CorrespondenceObservationV5FieldO",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11PassportSDK0A27ChipAuthenticationChallengeV",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11PassportSDK0A27ChipAuthenticationChallengeV",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11PassportSDK0A27ChipAuthenticationChallengeV",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11PassportSDK0A9AccessKeyV",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11PassportSDK0A9AccessKeyV",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11PassportSDK0A9AccessKeyV",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11PassportSDK0A9ReadEventO",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11PassportSDK0A9ReadEventO",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:11PassportSDK0A9ReadEventO",
+      "target": "s:s8SendableP"
+    }
+  ],
+  "symbols": [
+    {
+      "declaration": "struct PassportPACEFailure",
+      "id": "s:11PassportSDK0A11PACEFailureV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "let statusWord: Int?",
+      "id": "s:11PassportSDK0A11PACEFailureV10statusWordSiSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let code: String",
+      "id": "s:11PassportSDK0A11PACEFailureV4codeSSvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "init(from decoder: any Decoder) throws",
+      "id": "s:11PassportSDK0A11PACEFailureV4fromACs7Decoder_p_tKcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "let stage: String",
+      "id": "s:11PassportSDK0A11PACEFailureV5stageSSvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "enum PassportReadFailure",
+      "id": "s:11PassportSDK0A11ReadFailureO",
+      "kind": "swift.enum"
+    },
+    {
+      "declaration": "case dataIntegrityFailure",
+      "id": "s:11PassportSDK0A11ReadFailureO013dataIntegrityD0yA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case invalidTag",
+      "id": "s:11PassportSDK0A11ReadFailureO10invalidTagyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case readFailed",
+      "id": "s:11PassportSDK0A11ReadFailureO10readFailedyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case unsupported",
+      "id": "s:11PassportSDK0A11ReadFailureO11unsupportedyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case multipleTags",
+      "id": "s:11PassportSDK0A11ReadFailureO12multipleTagsyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case connectionLost",
+      "id": "s:11PassportSDK0A11ReadFailureO14connectionLostyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case invalidAccessKey",
+      "id": "s:11PassportSDK0A11ReadFailureO16invalidAccessKeyyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case invalidChallenge",
+      "id": "s:11PassportSDK0A11ReadFailureO16invalidChallengeyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case trustAnchorNotFound",
+      "id": "s:11PassportSDK0A11ReadFailureO19trustAnchorNotFoundyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case trustAnchorsUnavailable",
+      "id": "s:11PassportSDK0A11ReadFailureO23trustAnchorsUnavailableyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case chipAuthenticationFailed",
+      "id": "s:11PassportSDK0A11ReadFailureO24chipAuthenticationFailedyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case activeAuthenticationFailed",
+      "id": "s:11PassportSDK0A11ReadFailureO26activeAuthenticationFailedyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case busy",
+      "id": "s:11PassportSDK0A11ReadFailureO4busyyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "init?(rawValue: String)",
+      "id": "s:11PassportSDK0A11ReadFailureO8rawValueACSgSS_tcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "case cancelled",
+      "id": "s:11PassportSDK0A11ReadFailureO9cancelledyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "enum PassportCheckOutcome",
+      "id": "s:11PassportSDK0A12CheckOutcomeO",
+      "kind": "swift.enum"
+    },
+    {
+      "declaration": "case unavailable",
+      "id": "s:11PassportSDK0A12CheckOutcomeO11unavailableyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case unsupported",
+      "id": "s:11PassportSDK0A12CheckOutcomeO11unsupportedyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case inconclusive",
+      "id": "s:11PassportSDK0A12CheckOutcomeO12inconclusiveyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case notPerformed",
+      "id": "s:11PassportSDK0A12CheckOutcomeO12notPerformedyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case fail",
+      "id": "s:11PassportSDK0A12CheckOutcomeO4failyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case pass",
+      "id": "s:11PassportSDK0A12CheckOutcomeO4passyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "init?(rawValue: String)",
+      "id": "s:11PassportSDK0A12CheckOutcomeO8rawValueACSgSS_tcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "enum PassportMRZOCRParser",
+      "id": "s:11PassportSDK0A12MRZOCRParserO",
+      "kind": "swift.enum"
+    },
+    {
+      "declaration": "static func parseComplete(candidates: [[String]]) -> PassportMRZObservation?",
+      "id": "s:11PassportSDK0A12MRZOCRParserO13parseComplete10candidatesAA0A14MRZObservationVSgSaySaySSGG_tFZ",
+      "kind": "swift.type.method"
+    },
+    {
+      "declaration": "static func parse(candidates: [[String]]) -> PassportMRZObservation?",
+      "id": "s:11PassportSDK0A12MRZOCRParserO5parse10candidatesAA0A14MRZObservationVSgSaySaySSGG_tFZ",
+      "kind": "swift.type.method"
+    },
+    {
+      "declaration": "struct PassportMRZObservation",
+      "id": "s:11PassportSDK0A14MRZObservationV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "let givenNames: String",
+      "id": "s:11PassportSDK0A14MRZObservationV10givenNamesSSvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let nationality: String",
+      "id": "s:11PassportSDK0A14MRZObservationV11nationalitySSvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "enum Completeness",
+      "id": "s:11PassportSDK0A14MRZObservationV12CompletenessO",
+      "kind": "swift.enum"
+    },
+    {
+      "declaration": "case partial",
+      "id": "s:11PassportSDK0A14MRZObservationV12CompletenessO7partialyA2EmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case complete",
+      "id": "s:11PassportSDK0A14MRZObservationV12CompletenessO8completeyA2EmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "init?(rawValue: String)",
+      "id": "s:11PassportSDK0A14MRZObservationV12CompletenessO8rawValueAESgSS_tcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "enum MissingField",
+      "id": "s:11PassportSDK0A14MRZObservationV12MissingFieldO",
+      "kind": "swift.enum"
+    },
+    {
+      "declaration": "case nationality",
+      "id": "s:11PassportSDK0A14MRZObservationV12MissingFieldO11nationalityyA2EmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case issuingState",
+      "id": "s:11PassportSDK0A14MRZObservationV12MissingFieldO12issuingStateyA2EmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case name",
+      "id": "s:11PassportSDK0A14MRZObservationV12MissingFieldO4nameyA2EmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "init?(rawValue: String)",
+      "id": "s:11PassportSDK0A14MRZObservationV12MissingFieldO8rawValueAESgSS_tcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "var completeness: PassportMRZObservation.Completeness { get }",
+      "id": "s:11PassportSDK0A14MRZObservationV12completenessAC12CompletenessOvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let issuingState: String",
+      "id": "s:11PassportSDK0A14MRZObservationV12issuingStateSSvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "var missingFields: [PassportMRZObservation.MissingField] { get }",
+      "id": "s:11PassportSDK0A14MRZObservationV13missingFieldsSayAC12MissingFieldOGvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let documentNumber: String",
+      "id": "s:11PassportSDK0A14MRZObservationV14documentNumberSSvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let birthDateYYMMDD: String",
+      "id": "s:11PassportSDK0A14MRZObservationV15birthDateYYMMDDSSvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let normalizedLines: [String]",
+      "id": "s:11PassportSDK0A14MRZObservationV15normalizedLinesSaySSGvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let expiryDateYYMMDD: String",
+      "id": "s:11PassportSDK0A14MRZObservationV16expiryDateYYMMDDSSvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let sex: String",
+      "id": "s:11PassportSDK0A14MRZObservationV3sexSSvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let surname: String",
+      "id": "s:11PassportSDK0A14MRZObservationV7surnameSSvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "struct PassportReadObservation",
+      "id": "s:11PassportSDK0A15ReadObservationV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "let dataGroups: [String : Data]",
+      "id": "s:11PassportSDK0A15ReadObservationV10dataGroupsSDySS10Foundation4DataVGvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let givenNames: String",
+      "id": "s:11PassportSDK0A15ReadObservationV10givenNamesSSvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let dateOfIssue: String?",
+      "id": "s:11PassportSDK0A15ReadObservationV11dateOfIssueSSSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let nationality: String",
+      "id": "s:11PassportSDK0A15ReadObservationV11nationalitySSvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "var paceFailure: PassportPACEFailure?",
+      "id": "s:11PassportSDK0A15ReadObservationV11paceFailureAA0A11PACEFailureVSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let issuingState: String",
+      "id": "s:11PassportSDK0A15ReadObservationV12issuingStateSSvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let placeOfBirth: String?",
+      "id": "s:11PassportSDK0A15ReadObservationV12placeOfBirthSSSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let documentNumber: String",
+      "id": "s:11PassportSDK0A15ReadObservationV14documentNumberSSvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let personalNumber: String?",
+      "id": "s:11PassportSDK0A15ReadObservationV14personalNumberSSSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let securityObject: Data",
+      "id": "s:11PassportSDK0A15ReadObservationV14securityObject10Foundation4DataVvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let birthDateYYMMDD: String",
+      "id": "s:11PassportSDK0A15ReadObservationV15birthDateYYMMDDSSvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let dataGroupHashes: PassportProtocolObservation",
+      "id": "s:11PassportSDK0A15ReadObservationV15dataGroupHashesAA0a8ProtocolD0Ovp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let expiryDateYYMMDD: String",
+      "id": "s:11PassportSDK0A15ReadObservationV16expiryDateYYMMDDSSvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let issuingAuthority: String?",
+      "id": "s:11PassportSDK0A15ReadObservationV16issuingAuthoritySSSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let documentSignature: PassportProtocolObservation",
+      "id": "s:11PassportSDK0A15ReadObservationV17documentSignatureAA0a8ProtocolD0Ovp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let basicAccessControl: PassportProtocolObservation",
+      "id": "s:11PassportSDK0A15ReadObservationV18basicAccessControlAA0a8ProtocolD0Ovp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let chipAuthentication: PassportProtocolObservation",
+      "id": "s:11PassportSDK0A15ReadObservationV18chipAuthenticationAA0a8ProtocolD0Ovp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let declaredDataGroups: [String]",
+      "id": "s:11PassportSDK0A15ReadObservationV18declaredDataGroupsSaySSGvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let dg2DigestAlgorithm: String?",
+      "id": "s:11PassportSDK0A15ReadObservationV18dg2DigestAlgorithmSSSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let countrySigningChain: PassportProtocolObservation",
+      "id": "s:11PassportSDK0A15ReadObservationV19countrySigningChainAA0a8ProtocolD0Ovp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let activeAuthentication: PassportProtocolObservation",
+      "id": "s:11PassportSDK0A15ReadObservationV20activeAuthenticationAA0a8ProtocolD0Ovp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let chipAuthenticationResponse: Data?",
+      "id": "s:11PassportSDK0A15ReadObservationV26chipAuthenticationResponse10Foundation4DataVSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let activeAuthenticationChallenge: Data?",
+      "id": "s:11PassportSDK0A15ReadObservationV29activeAuthenticationChallenge10Foundation4DataVSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let activeAuthenticationSignature: Data?",
+      "id": "s:11PassportSDK0A15ReadObservationV29activeAuthenticationSignature10Foundation4DataVSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let documentSigningCertificateDER: Data?",
+      "id": "s:11PassportSDK0A15ReadObservationV29documentSigningCertificateDER10Foundation4DataVSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let dg2: Data?",
+      "id": "s:11PassportSDK0A15ReadObservationV3dg210Foundation4DataVSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let sex: String",
+      "id": "s:11PassportSDK0A15ReadObservationV3sexSSvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let pace: PassportProtocolObservation",
+      "id": "s:11PassportSDK0A15ReadObservationV4paceAA0a8ProtocolD0Ovp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let surname: String",
+      "id": "s:11PassportSDK0A15ReadObservationV7surnameSSvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let portrait: Data?",
+      "id": "s:11PassportSDK0A15ReadObservationV8portrait10Foundation4DataVSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let dg2Digest: String?",
+      "id": "s:11PassportSDK0A15ReadObservationV9dg2DigestSSSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "enum PassportProtocolObservation",
+      "id": "s:11PassportSDK0A19ProtocolObservationO",
+      "kind": "swift.enum"
+    },
+    {
+      "declaration": "case notPerformed",
+      "id": "s:11PassportSDK0A19ProtocolObservationO12notPerformedyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case failed",
+      "id": "s:11PassportSDK0A19ProtocolObservationO6failedyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "init?(rawValue: String)",
+      "id": "s:11PassportSDK0A19ProtocolObservationO8rawValueACSgSS_tcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "case succeeded",
+      "id": "s:11PassportSDK0A19ProtocolObservationO9succeededyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "struct PassportCorrespondenceObservation",
+      "id": "s:11PassportSDK0A25CorrespondenceObservationV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "enum Comparison",
+      "id": "s:11PassportSDK0A25CorrespondenceObservationV10ComparisonO",
+      "kind": "swift.enum"
+    },
+    {
+      "declaration": "case notCompared",
+      "id": "s:11PassportSDK0A25CorrespondenceObservationV10ComparisonO11notComparedyA2EmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case differs",
+      "id": "s:11PassportSDK0A25CorrespondenceObservationV10ComparisonO7differsyA2EmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case matches",
+      "id": "s:11PassportSDK0A25CorrespondenceObservationV10ComparisonO7matchesyA2EmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "init?(rawValue: String)",
+      "id": "s:11PassportSDK0A25CorrespondenceObservationV10ComparisonO8rawValueAESgSS_tcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "var mismatchedFields: [PassportCorrespondenceObservation.Field] { get }",
+      "id": "s:11PassportSDK0A25CorrespondenceObservationV16mismatchedFieldsSayAC5FieldOGvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "enum Field",
+      "id": "s:11PassportSDK0A25CorrespondenceObservationV5FieldO",
+      "kind": "swift.enum"
+    },
+    {
+      "declaration": "case expiryDate",
+      "id": "s:11PassportSDK0A25CorrespondenceObservationV5FieldO10expiryDateyA2EmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case givenNames",
+      "id": "s:11PassportSDK0A25CorrespondenceObservationV5FieldO10givenNamesyA2EmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case documentNumber",
+      "id": "s:11PassportSDK0A25CorrespondenceObservationV5FieldO14documentNumberyA2EmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case surname",
+      "id": "s:11PassportSDK0A25CorrespondenceObservationV5FieldO7surnameyA2EmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "init?(rawValue: String)",
+      "id": "s:11PassportSDK0A25CorrespondenceObservationV5FieldO8rawValueAESgSS_tcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "case birthDate",
+      "id": "s:11PassportSDK0A25CorrespondenceObservationV5FieldO9birthDateyA2EmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "let fields: [PassportCorrespondenceObservation.Field : PassportCorrespondenceObservation.Comparison]",
+      "id": "s:11PassportSDK0A25CorrespondenceObservationV6fieldsSDyAC5FieldOAC10ComparisonOGvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "init(printed: PassportMRZObservation, chip: PassportReadObservation)",
+      "id": "s:11PassportSDK0A25CorrespondenceObservationV7printed4chipAcA0A14MRZObservationV_AA0a4ReadD0Vtcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "struct PassportChipAuthenticationChallenge",
+      "id": "s:11PassportSDK0A27ChipAuthenticationChallengeV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "init(protocolOID: String, keyID: Int?, terminalPublicKey: Data, protectedCommand: Data)",
+      "id": "s:11PassportSDK0A27ChipAuthenticationChallengeV11protocolOID5keyID17terminalPublicKey16protectedCommandACSS_SiSg10Foundation4DataVAKtcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "let protocolOID: String",
+      "id": "s:11PassportSDK0A27ChipAuthenticationChallengeV11protocolOIDSSvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let protectedCommand: Data",
+      "id": "s:11PassportSDK0A27ChipAuthenticationChallengeV16protectedCommand10Foundation4DataVvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let terminalPublicKey: Data",
+      "id": "s:11PassportSDK0A27ChipAuthenticationChallengeV17terminalPublicKey10Foundation4DataVvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let keyID: Int?",
+      "id": "s:11PassportSDK0A27ChipAuthenticationChallengeV5keyIDSiSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "struct PassportAccessKey",
+      "id": "s:11PassportSDK0A9AccessKeyV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "init(documentNumber: String, birthDateYYMMDD: String, expiryDateYYMMDD: String) throws",
+      "id": "s:11PassportSDK0A9AccessKeyV14documentNumber15birthDateYYMMDD06expiryhI0ACSS_S2StKcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "let value: String",
+      "id": "s:11PassportSDK0A9AccessKeyV5valueSSvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "enum PassportReadEvent",
+      "id": "s:11PassportSDK0A9ReadEventO",
+      "kind": "swift.enum"
+    },
+    {
+      "declaration": "case presenting",
+      "id": "s:11PassportSDK0A9ReadEventO10presentingyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case authenticating(progress: Int)",
+      "id": "s:11PassportSDK0A9ReadEventO14authenticatingyACSi_tcACmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case transportComplete",
+      "id": "s:11PassportSDK0A9ReadEventO17transportCompleteyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case transportFinishing",
+      "id": "s:11PassportSDK0A9ReadEventO18transportFinishingyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case activeAuthentication",
+      "id": "s:11PassportSDK0A9ReadEventO20activeAuthenticationyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case passiveAuthentication",
+      "id": "s:11PassportSDK0A9ReadEventO21passiveAuthenticationyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case failure(PassportReadFailure)",
+      "id": "s:11PassportSDK0A9ReadEventO7failureyAcA0aC7FailureOcACmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case reading(group: String, progress: Int)",
+      "id": "s:11PassportSDK0A9ReadEventO7readingyACSS_SitcACmF",
+      "kind": "swift.enum.case"
+    }
+  ]
+}

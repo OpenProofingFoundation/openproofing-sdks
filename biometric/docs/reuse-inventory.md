@@ -1,0 +1,18 @@
+# Existing face pipeline: reuse inventory
+
+Source inspected on 2026-10-16 in the existing `kenshiki-identity-sdk` working tree. [reuse-inventory.json](reuse-inventory.json) pins the inspected Swift files. This review did not extract implementation, run its source tests or change the product integration.
+
+| Existing code | Reusable responsibility | Adaptation boundary |
+| --- | --- | --- |
+| `Sources/CaptureSelfie/` | Native session/coordinator, frame/depth admission, geometry, timeout policy, captured bytes and admission receipts | Keep optional presentation separate; preserve image/time binding and actual modality support. Android counterpart remains planned. |
+| `Packages/IdentityEvidenceFaceMatching/…/FaceComparisonPipeline.swift` and `FaceComparisonRoute.swift` | Paired-reference/selfie orchestration, crop-route discipline, lazy embedding, invalid-vector admission and outcome consistency | Replace model-specific detection/alignment and bind manifest/policy identity. Existing route names, scales and thresholds are historical behavior, not automatic replacement-model settings. |
+| `FaceComparisonSession.swift`, processing, custody and recovery files | Cancellation, reservation/drain, retry, durable input/result retention, restoration and source binding | Extract product-neutral mechanisms; shared persistence/key/lifecycle dependencies belong in foundation. Product BFF acceptance stays outside the SDK. |
+| `FaceComparisonSubmissionEvidence.swift`, transient validation and observations | Validate consumed portrait/selfie/admission lineage, supported implementation, score/route consistency and metadata projection | Preserve versioned historical readers. Replacement model/preprocessing/calibration identities need their own explicit contract; a client result does not authorize server acceptance. |
+| `ThirdParty/FaceMatching/…/FaceMatch.swift` | Embedder abstraction, normalization and cosine math, scoped comparison outcomes | Separate portable math from Accelerate adapter; retain invalid-input tests. New public errors are typed/localizable rather than copied authored prose. Do not inherit old default thresholds. |
+| `FaceMatch+iOS.swift` | Core ML loading/execution, source orientation, alignment transforms and tensor/image plumbing | Require selected manifest's exact inputs, names, dimensions, normalization and preprocessing. Existing 112-pixel alignment is model-specific. Reusable source is not permission to redistribute old weights. |
+| `FaceDetector.swift` | SCRFD tensor decoding, letterboxing, NMS, coordinate mapping and Core ML execution adapter | Reuse decoding only for a compatible selected detector/output contract. Replace or separately qualify artifacts, score gates and crop routing. Keep original attribution. |
+| Existing face and capture test suites | Invalid embeddings, route invariants, source substitution, cancellation/races, recovery/custody, numerical and detector geometry fixtures | Move relevant behavior tests and synthetic fixtures with each component; distinguish included test source from executed platform evidence. |
+
+The source package is a locally maintained fork with import/provenance records. Its reusable code and its InsightFace-derived weights are separate extraction decisions. No existing detector/embedder model bytes were copied into this monorepo.
+
+Shared MobileViT-CDCN material/PAD is proposed in the specification; its face/document trained artifacts and evaluation are not established by the existing comparator. Android capability implementations and the actual Linux/NIST algorithm adapter/harness are also planned. Model selection follows [the shared model-role record](../../governance/model-selection.md).

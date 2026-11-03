@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "contract": "kenshiki.portrait-selfie/1",
+  "pixelFormats": {
+    "rgb8": 3,
+    "gray8": 1
+  },
+  "coordinateConvention": "top_left_pixel_edges_centers_at_half",
+  "maxDimension": 16384,
+  "maxPixels": 67108864,
+  "maxBytes": 268435456,
+  "digestAlgorithm": "sha256_exact_bytes",
+  "bindingFields": [
+    "sessionID",
+    "attemptID",
+    "operationID",
+    "referenceCaptureID",
+    "probeCaptureID",
+    "referenceArtifactID",
+    "probeArtifactID",
+    "referenceSourceSHA256",
+    "probeSourceSHA256",
+    "referenceSHA256",
+    "probeSHA256",
+    "referenceLineageSHA256",
+    "probeLineageSHA256",
+    "artifactManifestSHA256",
+    "preprocessingManifestSHA256"
+  ],
+  "failures": [
+    "invalid_schema",
+    "invalid_pixels",
+    "unsupported_format",
+    "resource_limit",
+    "integrity_failure",
+    "binding_mismatch",
+    "operation_unavailable",
+    "operation_reused"
+  ],
+  "fixtureScope": "Portable decoded pixels and interactive binding; native conformance implemented, capture/decoder/proof/inference separate",
+  "consumers": [
+    "swift",
+    "kotlin",
+    "cpp20_nist"
+  ],
+  "metadataIntegerRange": {
+    "minimum": 1,
+    "maximum": 9223372036854775807
+  }
+}

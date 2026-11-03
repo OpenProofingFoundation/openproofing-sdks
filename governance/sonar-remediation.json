@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-16",
+  "implementationRevision": "4326b58ca20bf27b242e032bdc56aa7a30cbc739",
+  "sonarAnalysis": "34bc8b2f-f503-45b5-84b1-84aea41673ec",
+  "sonar": {
+    "openIssues": 0,
+    "bugs": 0,
+    "vulnerabilities": 0,
+    "codeSmells": 0,
+    "securityRating": "A",
+    "reliabilityRating": "A",
+    "qualityGate": "OK",
+    "duplicationPercent": 0.7,
+    "newCodeDuplicationPercent": 0.3,
+    "duplicatedLines": 123,
+    "duplicatedBlocks": 6
+  },
+  "before": {
+    "openIssues": 293,
+    "duplicationPercent": 64.1,
+    "duplicatedLines": 16231
+  },
+  "triage": "Two original JSON secret findings were proven to be exact Swift source SHA-256 digests; evidence is in sonar-triage.json. No rule/analysis exclusions or gate relaxations.",
+  "remainingDuplication": "Thin capability entry points and independent native quality-test harnesses; no copied quality implementation.",
+  "localValidation": {
+    "rootRegressionTests": 22,
+    "sharedCapabilityRegressionTests": 76,
+    "biometricCompleteGuardTests": 46,
+    "nativeLanes": "All three SDKs passed macOS, iOS device, iOS simulator, Android assemble/lint/API/AAR checks. Biometric has eight Android primitive tests; document/passport remain scaffolds.",
+    "nist": "Official null-driver synthetic mechanics pass on native clang and emulated Linux g++13. Official headers/C++ remain unchanged. Rebuilt development container runs as UID10001.",
+    "differentialChecks": "Original engine adversarial suite, 48 spec cases, CLI behavior and tens of thousands of lexical cases preserved."
+  },
+  "implementationCIRun": "https://github.com/Kenshiki-Labs/kenshiki-sdks/actions/runs/38989547729",
+  "verificationNote": "The Sonar result above was observed at the exact implementation revision. Consult GitHub for the live CI status and the latest documentation checkpoint checks."
+}

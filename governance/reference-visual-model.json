@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "profileID": "lfm25-vl16b-affine4-g64-mlx-pair-json-v1",
+  "directoryName": "LiquidFaceModel",
+  "publisher": "LiquidAI/LFM2.5-VL-1.6B",
+  "publisherRevision": "919fde3d022e3f90a4716006f993938ee8c2eb97",
+  "parentWeightSHA256": "7fc7458e4382fc6e558cfdda45857fbf9ab5b40a8bf199c9cd073003b14ac26d",
+  "weightSHA256": "bf86cc6b16e4f6a870336d5e0ebad0c5cf1d63214efef8efeb8b9655174b3913",
+  "conversion": {
+    "runtime": "mlx-vlm 0.7.9",
+    "method": "rtn",
+    "bits": 4,
+    "groupSize": 64,
+    "mode": "affine",
+    "visionDType": "bfloat16"
+  },
+  "files": [
+    {
+      "name": "LICENSE",
+      "bytes": 10596,
+      "sha256": "5188f2b355da20647257a3156db5834c794e5fb5e6d8dc4d4cdbb3180e75b85b"
+    },
+    {
+      "name": "chat_template.jinja",
+      "bytes": 2596,
+      "sha256": "c20dd9d9f7497c9e520eb51203500604b00f19c9ad54d883066d93a8b8ee8d09"
+    },
+    {
+      "name": "config.json",
+      "bytes": 3167,
+      "sha256": "d2d56ea2ce0a9d741cd41f28b3517fb61e95cc1a84d1cb2bf106a96254a4d737"
+    },
+    {
+      "name": "generation_config.json",
+      "bytes": 136,
+      "sha256": "40d17f9ec64c97e8fd5400540960b6a9761ed6d6acc0b1ab6a6656055e4755b3"
+    },
+    {
+      "name": "model.safetensors",
+      "bytes": 1511170678,
+      "sha256": "bf86cc6b16e4f6a870336d5e0ebad0c5cf1d63214efef8efeb8b9655174b3913"
+    },
+    {
+      "name": "model.safetensors.index.json",
+      "bytes": 64619,
+      "sha256": "988fdc801505ad4d4619b21b05dd9a2d29e5311efdeea44d4a1bd9bc2eba6dca"
+    },
+    {
+      "name": "processor_config.json",
+      "bytes": 720,
+      "sha256": "56c87f25f46eb91a7c098ad58389755ff5a739b68a4fc2789e61c7382f769c1c"
+    },
+    {
+      "name": "tokenizer.json",
+      "bytes": 4733040,
+      "sha256": "f3910942aa907c48b0cc20ec426ee38bfa8dcda8feecf035ced981918cb30f14"
+    },
+    {
+      "name": "tokenizer_config.json",
+      "bytes": 827,
+      "sha256": "24af1ed78f3353a4ca007ab52d121050db9c32fbc7ccea2ae18f038259b51667"
+    }
+  ]
+}

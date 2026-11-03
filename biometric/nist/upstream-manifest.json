@@ -1,0 +1,188 @@
+{
+  "schemaVersion": 1,
+  "repository": "https://github.com/usnistgov/frvt",
+  "revision": "18c2f84d80c0636cede6ff1db0479fe068aedac4",
+  "scope": "Pinned official 1:1 validation code, common utilities, input lists and license; four Bash scripts carry attributed reliability patches. API headers and C++ driver/reference remain unmodified. No image corpus.",
+  "files": [
+    {
+      "path": "11/CMakeLists.txt",
+      "sha256": "7ac6fd3e9fe05d21141ccbcaad616076dd62ba81abe4011780666568f5b6bae0",
+      "gitBlobSHA1": "e370a22bc8c2fe78a5975faf1e640a0494903e36",
+      "bytes": 197,
+      "executable": true
+    },
+    {
+      "path": "11/README.md",
+      "sha256": "8f4784883ca1f8d2bd75b4c36209b490661852b5f7510388401eb51762db94da",
+      "gitBlobSHA1": "50179d516b2e4efa495b032c4967dfa1a2817b62",
+      "bytes": 4212,
+      "executable": true
+    },
+    {
+      "path": "11/input/enroll.txt",
+      "sha256": "b41b11f09aeed47fb917ea1fdb4f65498b4dcc2444cdd1c460aad09a0b9f0caf",
+      "gitBlobSHA1": "5dfe1ef1e4e5dfbb6e11ee7a38b640f1041ffbde",
+      "bytes": 37947,
+      "executable": false
+    },
+    {
+      "path": "11/input/enroll_multiface.txt",
+      "sha256": "0520d6f1fec8550ee52f6a166b42f16022c628ef858a6e7a8abd25ea80c6c5d9",
+      "gitBlobSHA1": "9404d8bf4bf9a79e8d91af0f9193b6d9096d9005",
+      "bytes": 1509,
+      "executable": true
+    },
+    {
+      "path": "11/input/match.txt",
+      "sha256": "51052eecc225057ec5e0ea7fcdee9a125e0995d45576820f96d3c3e2c05c5f01",
+      "gitBlobSHA1": "cca98c2f0efe7d4a7275995a9696bb4803f2c680",
+      "bytes": 17177,
+      "executable": false
+    },
+    {
+      "path": "11/input/short_enroll.txt",
+      "sha256": "54a6c02143ff4e6f43ed3842fe25c65e7fbc3e6df2b65a9e68df6179ca788f42",
+      "gitBlobSHA1": "9706196743b0301bb6b56ccc1be3f7a5fcc4d7c1",
+      "bytes": 555,
+      "executable": true
+    },
+    {
+      "path": "11/input/verif.txt",
+      "sha256": "d1aa7224c72a337a74350488a8db6e7e79dee866b59104cf077dfe217e651288",
+      "gitBlobSHA1": "f36ea928f5894e750bf22b256f275840b4982513",
+      "bytes": 37322,
+      "executable": false
+    },
+    {
+      "path": "11/input/verif_multiperson.txt",
+      "sha256": "89a6ae7f20f535c97515f2ae76345536b6552724d5dcdfa7559aa4942c29765c",
+      "gitBlobSHA1": "4a1cba15e6d8533f9c896be7f8a2e65414c4a32a",
+      "bytes": 1125,
+      "executable": true
+    },
+    {
+      "path": "11/run_validate_11.sh",
+      "sha256": "2b43f9c9b8f0a6bd710e6f3943c2af5d834a6159b0548f752cfd7bc83705037a",
+      "gitBlobSHA1": "1686b5b53b4cf191275fe3359138e3f4963fdeac",
+      "bytes": 4428,
+      "executable": true,
+      "upstreamSHA256": "a5242e9c0298a17d0ec961362b6aeabe6ac16af27167265c2e4e5b45d74f5f99",
+      "upstreamBytes": 4220,
+      "modification": "Kenshiki Labs 2026-10-16: Bash [[ tests, stderr errors, command substitutions, explicit function returns, shared success diagnostic; HTTPS submission link."
+    },
+    {
+      "path": "11/scripts/build_null_impl.sh",
+      "sha256": "ce96c41d45396b113c7a79f0c02e696c3ca820228f689f61df89955328adce1a",
+      "gitBlobSHA1": "18c5965cb080e99cefe644e663bcc9fa21625780",
+      "bytes": 166,
+      "executable": true
+    },
+    {
+      "path": "11/scripts/compile_and_link.sh",
+      "sha256": "4fa2ac32cd97fb0867f733dd2a5f23411688da99301250c4de769bb7f1863e0f",
+      "gitBlobSHA1": "84f5f4d9b8cbebd3a8f717a65a3a98ba99903a4f",
+      "bytes": 1666,
+      "executable": true,
+      "upstreamSHA256": "df7ce931692820a76556985274067b1174302ce59d1478b8b48990984a789a42",
+      "upstreamBytes": 1468,
+      "modification": "Kenshiki Labs 2026-10-16: Bash [[ tests, stderr errors, command substitutions, explicit function returns, shared success diagnostic; HTTPS submission link."
+    },
+    {
+      "path": "11/scripts/run_testdriver.sh",
+      "sha256": "2ebc91dadab906f8e3cbff1ff30d682de58aa5d0df7649aa941a4c7246713af6",
+      "gitBlobSHA1": "ebc280f98a725fcc81945d0302ec27c964e48f2e",
+      "bytes": 7154,
+      "executable": true,
+      "upstreamSHA256": "b4e0edd429eb1b7b405f5595be09130e0f8e2f109190c1bf9b6101e8162daba6",
+      "upstreamBytes": 6885,
+      "modification": "Kenshiki Labs 2026-10-16: Bash [[ tests, stderr errors, command substitutions, explicit function returns, shared success diagnostic; HTTPS submission link."
+    },
+    {
+      "path": "11/src/include/frvt11.h",
+      "sha256": "4df7c24f4b282c14ab6530c4dcf4d4c10cdc21c86c4b769924c5253d436f91d8",
+      "gitBlobSHA1": "b71ff7505aa236adf7c7e1f5e214be06a90c068c",
+      "bytes": 9602,
+      "executable": true
+    },
+    {
+      "path": "11/src/nullImpl/CMakeLists.txt",
+      "sha256": "7ef4d7b3074aa782a6a500a24fd0d54be3b481ea55affcedca37f4eddd63c0e7",
+      "gitBlobSHA1": "6ee6124bb24f59012dda7dee5314133f06e7208f",
+      "bytes": 451,
+      "executable": true
+    },
+    {
+      "path": "11/src/nullImpl/nullimplfrvt11.cpp",
+      "sha256": "b935f4de2ba5f0062fe9064ad6adf4142105d86c3f5cb780709d782f4a65decd",
+      "gitBlobSHA1": "a927a0e811a8f11d342a5e8a628d7a9e775547fc",
+      "bytes": 3243,
+      "executable": true
+    },
+    {
+      "path": "11/src/nullImpl/nullimplfrvt11.h",
+      "sha256": "81be224b946ce0520ebdd0b19c12a152d5d8b0a2cd36ad0a1a905e7e919cdc96",
+      "gitBlobSHA1": "5c75ddc826116b26db7609a8f5f74706c6a993c9",
+      "bytes": 2022,
+      "executable": true
+    },
+    {
+      "path": "11/src/testdriver/CMakeLists.txt",
+      "sha256": "84b5aeef721f1bb3f1d6aee1e63b03033d13db3ac6a74e204633a10bd3a14669",
+      "gitBlobSHA1": "9b9b90a6f81e5419c28e1ee2128de9b68557e81b",
+      "bytes": 609,
+      "executable": false
+    },
+    {
+      "path": "11/src/testdriver/validate11.cpp",
+      "sha256": "9831f4beebbf87f4669f3943712b566a83fb8ca455f510a855f27c50336cfd60",
+      "gitBlobSHA1": "25010a32271576f79bccc872f04b49dd35989331",
+      "bytes": 16408,
+      "executable": true
+    },
+    {
+      "path": "LICENSE.md",
+      "sha256": "5f5ef21824b1afd44ad2cda011d6d3c69d8b286d09d2b46d33f152fcd102636d",
+      "gitBlobSHA1": "9d0ddd46b9b5520aa10287f93fd819d1bbe7e8fb",
+      "bytes": 2237,
+      "executable": false
+    },
+    {
+      "path": "common/scripts/count_threads.sh",
+      "sha256": "059318b90b5ae21df4788735546653f63fca9231ea653d067449a854047570ef",
+      "gitBlobSHA1": "09ef2af84fdf4372fa8b0f23a32a7d81772177f2",
+      "bytes": 114,
+      "executable": true
+    },
+    {
+      "path": "common/scripts/utils.sh",
+      "sha256": "6c07fc75dd4bcdbdfea9b9d7c727eddaf0ad83e9c96c814adf7c73833e12494e",
+      "gitBlobSHA1": "c9917e96c7e5c22041bd4038f69b4950daa4d9ff",
+      "bytes": 3077,
+      "executable": true,
+      "upstreamSHA256": "d2d2e3ee3449a6377a2524c963d7a63b139df42eb3abecaa642749bc0a53daa0",
+      "upstreamBytes": 2747,
+      "modification": "Kenshiki Labs 2026-10-16: Bash [[ tests, stderr errors, command substitutions, explicit function returns, shared success diagnostic; HTTPS submission link."
+    },
+    {
+      "path": "common/src/include/frvt_structs.h",
+      "sha256": "6081f02b230d8dac78f008c4ca57ee2600c8ec87e765b74f2a054a9a9fb07ee0",
+      "gitBlobSHA1": "4712f3fb30c3f024b8891f55df96cbd20ff7b6be",
+      "bytes": 13166,
+      "executable": false
+    },
+    {
+      "path": "common/src/include/util.h",
+      "sha256": "64224eec035c90066c1035cbdae72bc9f64c5a891e09b184fed9f99d21bd8a0b",
+      "gitBlobSHA1": "8ae93e7ec951c66ac5cbda4bb4d79b5768329c23",
+      "bytes": 3932,
+      "executable": true
+    },
+    {
+      "path": "common/src/util/util.cpp",
+      "sha256": "b6ba0c34c0baec298f4fa64c55962b2fdd8bb0a7f9276966b983f1383e9b8e3e",
+      "gitBlobSHA1": "be2646361b837028996ccce1be75d4c44d76db62",
+      "bytes": 10314,
+      "executable": true
+    }
+  ]
+}

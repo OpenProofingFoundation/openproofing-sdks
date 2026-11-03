@@ -1,0 +1,217 @@
+{
+  "recordedAt": "2026-10-26T19:56:24.889077+00:00",
+  "contract": "kenshiki.sensor_measurement_window.v1",
+  "native": {
+    "macos": {
+      "receipt": ".build/sensors-qualification/macos-ou7yw_0g/receipt.json",
+      "receiptSHA256": "12cf7f70f7ca1d7807569ca8f45b2b9678ce3e414d408ac3a6ad4236a5151759",
+      "executedTests": 58,
+      "requiredTests": 58,
+      "apiSHA256": "dd4a2eca31ae8044eaf1c6fc9f2e6323e3d2ba80a9fd017c3654dec28eb06d48",
+      "compiledArtifacts": 119,
+      "toolchain": {
+        "swift": "Apple Swift version 6.3.3 (swiftlang-6.3.3.1.3 clang-2100.1.1.101)\nTarget: arm64-apple-macosx26.0",
+        "xcode": "Xcode 26.6\nBuild version 17F113",
+        "sdkPath": "/Applications/Xcode-26.6.0-Release.Candidate.2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+        "sdkVersion": "26.5"
+      },
+      "passed": true,
+      "preservedReceipt": "foundation/sensors/validation/macos.json",
+      "qualifiedRevision": "ad304a9d997298ab111808e41047dd0a590aa06e",
+      "qualifiedCheckoutClean": true,
+      "externalConsumer": {
+        "passed": true,
+        "buildCommand": [
+          "swift",
+          "build",
+          "--package-path",
+          "/Users/shf/Developer/worktrees/sdk-sensors-foundation-20261026/foundation/sensors/Integration/Consumer",
+          "--scratch-path",
+          "/Users/shf/Developer/worktrees/sdk-sensors-foundation-20261026/.build/sensors-qualification/macos-ou7yw_0g/consumer-build",
+          "--product",
+          "SensorsConsumer",
+          "-Xswiftc",
+          "-warnings-as-errors"
+        ],
+        "buildLogSHA256": "20e98f08df18cfd0223c1fbf25c69c08235271b596952ce53001806a4991e297",
+        "command": [
+          "/Users/shf/Developer/worktrees/sdk-sensors-foundation-20261026/.build/sensors-qualification/macos-ou7yw_0g/consumer-build/arm64-apple-macosx/debug/SensorsConsumer"
+        ],
+        "returncode": 0,
+        "stdoutSHA256": "c2afff84d2c840248a410579dff011eb151741482c19883bc8ae2b9e7e98fb0e",
+        "stderrSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "binaryPath": "consumer-build/arm64-apple-macosx/debug/SensorsConsumer",
+        "binarySHA256": "6f7be4928c228b8c167a4852d5cf2b950c4b45fdcf387fc303b75c1cd6a5731b",
+        "endBinarySHA256": "6f7be4928c228b8c167a4852d5cf2b950c4b45fdcf387fc303b75c1cd6a5731b",
+        "outcome": {
+          "schemaVersion": 1,
+          "consumer": "SensorsConsumer",
+          "passed": true,
+          "assertions": [
+            "observed-window",
+            "complete-coverage",
+            "r7-median",
+            "rms",
+            "half-open-routing",
+            "partial-window",
+            "invalid-distribution-rejected"
+          ]
+        }
+      }
+    },
+    "ios-device": {
+      "receipt": ".build/sensors-qualification/ios-device-amatj7y_/receipt.json",
+      "receiptSHA256": "73a2ffdf699503527bf1c21c4640049f2f6e2231ec7e5558d24888ba48536a92",
+      "executedTests": 0,
+      "requiredTests": 58,
+      "apiSHA256": "dd4a2eca31ae8044eaf1c6fc9f2e6323e3d2ba80a9fd017c3654dec28eb06d48",
+      "compiledArtifacts": 5,
+      "toolchain": {
+        "swift": "Apple Swift version 6.3.3 (swiftlang-6.3.3.1.3 clang-2100.1.1.101)\nTarget: arm64-apple-macosx26.0",
+        "xcode": "Xcode 26.6\nBuild version 17F113",
+        "sdkPath": "/Applications/Xcode-26.6.0-Release.Candidate.2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.5.sdk",
+        "sdkVersion": "26.5"
+      },
+      "passed": true,
+      "preservedReceipt": "foundation/sensors/validation/ios-device.json",
+      "qualifiedRevision": "ad304a9d997298ab111808e41047dd0a590aa06e",
+      "qualifiedCheckoutClean": true
+    },
+    "ios-simulator": {
+      "receipt": ".build/sensors-qualification/ios-simulator-d15xg4cr/receipt.json",
+      "receiptSHA256": "c00ac93526321023eaeb3fcebadd4b0ea885906fedfe8c213ecb4948e94745d9",
+      "executedTests": 58,
+      "requiredTests": 58,
+      "apiSHA256": "dd4a2eca31ae8044eaf1c6fc9f2e6323e3d2ba80a9fd017c3654dec28eb06d48",
+      "compiledArtifacts": 15,
+      "toolchain": {
+        "swift": "Apple Swift version 6.3.3 (swiftlang-6.3.3.1.3 clang-2100.1.1.101)\nTarget: arm64-apple-macosx26.0",
+        "xcode": "Xcode 26.6\nBuild version 17F113",
+        "sdkPath": "/Applications/Xcode-26.6.0-Release.Candidate.2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk",
+        "sdkVersion": "26.5"
+      },
+      "passed": true,
+      "preservedReceipt": "foundation/sensors/validation/ios-simulator.json",
+      "qualifiedRevision": "ad304a9d997298ab111808e41047dd0a590aa06e",
+      "qualifiedCheckoutClean": true
+    }
+  },
+  "sourceDrift": [],
+  "legacyMotion": {
+    "receipt": ".build/foundation-motion/receipt.json",
+    "receiptSHA256": "d090d466dba28cf8a0596c38a36d46a2a84e16f27105f48de2d188acab4c98dd",
+    "executedTests": 18,
+    "passed": true,
+    "preservedReceipt": "foundation/sensors/validation/legacy-motion.json"
+  },
+  "donorInputsUnchanged": true,
+  "donorInputDrift": [],
+  "passedNativeAndLegacy": true,
+  "repositoryGuards": {
+    "command": [
+      "npm",
+      "run",
+      "check"
+    ],
+    "exitCode": 0,
+    "passed": true,
+    "passedStages": [
+      "all-guards-root-config",
+      "all-guards-root-lock",
+      "all-guards-sensors-boundaries",
+      "all-guards-root-regressions",
+      "all-guards-architecture",
+      "all-guards-presentation-boundaries",
+      "all-guards-pulse-boundaries",
+      "all-guards-reader-runtime",
+      "all-guards-design-resources",
+      "all-guards-design-regressions",
+      "document-guards",
+      "passport-guards",
+      "biometric-guards"
+    ],
+    "governanceRegressionTests": 307,
+    "log": "/Users/shf/Developer/worktrees/sensors-integration-evidence-20261026/integration-root-check.log",
+    "logSHA256": "468e1dda55cdc2a4fadecb66e7cfcc2b812e10d1ce28977113b8dc1e73a7021c",
+    "governanceLogSHA256": "db467bb26e5b75de36aa84492b3b45395eb297a44324bd92801925bdf3f59d9b",
+    "qualifiedRevision": "ad304a9d997298ab111808e41047dd0a590aa06e"
+  },
+  "deliveryState": "committed_source_qualified",
+  "revision": "ad304a9d997298ab111808e41047dd0a590aa06e",
+  "branch": "feat/sensors-foundation-20261026",
+  "existingMechanismsReused": [
+    "Nine audited Pulse clock/window/statistics/reducer sources",
+    "24 existing known-answer conformance cases",
+    "Existing temporal support and quality definitions; no new liveness threshold",
+    "Existing native evidence and compiler-API validators"
+  ],
+  "newContract": {
+    "identity": "kenshiki.sensor_measurement_window.v1",
+    "document": "contracts/sensor-measurement-window-v1.md",
+    "canonicalVectors": "contracts/sensor-measurement-window-v1.vectors.json",
+    "vectorCases": 13,
+    "newEvidenceSourceFiles": 3,
+    "contractTestCases": 25,
+    "defensiveCoreTestCases": 5,
+    "fullNativeTestCases": 58,
+    "scope": "Native/fused/derived class, units/gravity, shape/frame/transform lineage, clock session/correlation uncertainty, retention/absence/omissions and all-input immutable derivation binding",
+    "pipelineIntegrationTestCases": 4
+  },
+  "independentReview": {
+    "finding": "Conflicting hashes for the same record ID across nested calibration/transformation/derivation/window references",
+    "resolution": "Internal commitment reconciliation at descriptor, measurement and window boundaries",
+    "regressionCases": 3,
+    "rereview": "No remaining blocker found within the reviewed contract scope",
+    "additionalFindings": [
+      "Canonically equivalent Unicode record IDs bypassed duplicate record/selector checks",
+      "Per-sample omission scans could make large partial-window validation quadratic"
+    ],
+    "additionalResolution": "Per-record canonical String selector sets and precomputed gap/clock omission flags",
+    "additionalRegressionCases": 3,
+    "apiReview": "Removed four extraction-added public constructors after callsite review proved results are produced within the module; immutable public result fields and mathematics are preserved",
+    "guardHardening": "Executable repinned package/product/target/dependency/resource mutations now rejected; external consumer cannot redirect dependencies, hide inputs, forge success, reuse scratch outputs or substitute executed binaries."
+  },
+  "remainingDecisionsAndPhysicalEvidence": [
+    "Adapter-specific acquisition/retention profiles and capacity policy",
+    "Historical aggregate adaptation when exact source sample identities are absent",
+    "Actual clock/camera correlation and uncertainty measurements",
+    "Additional native sensor value shapes, Android and remote package distribution",
+    "App-specific storage/cancellation/erasure/capture binding and adoption",
+    "Separately labelled physical captures and independent ground truth for sensor accuracy, human handling or PAD"
+  ],
+  "notPerformed": [
+    "Pulse/capability app migration",
+    "New collector or liveness model",
+    "Device installation or physical sensor acceptance",
+    "Release publication",
+    "Sensor-to-durable-custody/recovery/fusion/BFF end-to-end integration"
+  ],
+  "passed": true,
+  "hostedCI": {
+    "pullRequest": "https://github.com/Kenshiki-Labs/kenshiki-sdks/pull/15",
+    "target": "dev",
+    "scope": "Final-commit check runs and Git integration state are recorded in the pull request."
+  },
+  "integrationCoverage": {
+    "publicAPICases": 4,
+    "separateSwiftPMConsumer": {
+      "product": "KenshikiSensors",
+      "packageIdentity": "sensors",
+      "platform": "macos",
+      "executedAssertions": 7,
+      "passed": true
+    },
+    "sensorPackagingAndRunnerTests": 20,
+    "scope": [
+      "Public atom admission through actual reducers, exact fixture commitments and derived evidence",
+      "Gap, callback replay/order, session and half-open boundary handling",
+      "Live/historical raw-acceleration parity and gravity/unit separation",
+      "Separate-package public product selection, compile, link and execution"
+    ],
+    "limits": [
+      "Fixture-owned encoding is not a shipped persistence or production wire adapter",
+      "No cross-window durable replay ledger is implemented",
+      "No physical acquisition, sensor authenticity, custody/recovery, fusion or BFF end-to-end adoption"
+    ]
+  }
+}

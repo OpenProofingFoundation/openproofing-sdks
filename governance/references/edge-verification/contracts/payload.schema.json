@@ -1,0 +1,366 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "urn:kenshiki:spec-idbio-200:v3.1:payload",
+  "title": "Proposed iOS edge verification unsigned payload",
+  "description": "Candidate contract only; schema validation never authenticates evidence or authorizes acceptance.",
+  "type": "object",
+  "additionalProperties": false,
+  "definitions": {
+    "uuid": {
+      "type": "string",
+      "format": "uuid"
+    },
+    "sha256": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$"
+    },
+    "identifier": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 200
+    },
+    "capture": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "captureId": {
+          "$ref": "#/definitions/uuid"
+        },
+        "sha256": {
+          "$ref": "#/definitions/sha256"
+        }
+      },
+      "required": [
+        "captureId",
+        "sha256"
+      ]
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "pass",
+        "fail",
+        "inconclusive",
+        "unavailable",
+        "unsupported",
+        "not_performed"
+      ]
+    }
+  },
+  "properties": {
+    "schemaVersion": {
+      "const": "SPEC-IDBIO-200-v3.1"
+    },
+    "session": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "sessionId": {
+          "$ref": "#/definitions/uuid"
+        },
+        "generation": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 9007199254740991
+        },
+        "revision": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 9007199254740991
+        },
+        "attemptId": {
+          "$ref": "#/definitions/uuid"
+        },
+        "attemptChallenge": {
+          "$ref": "#/definitions/sha256"
+        },
+        "installationId": {
+          "$ref": "#/definitions/identifier"
+        },
+        "documentCheckId": {
+          "$ref": "#/definitions/uuid"
+        },
+        "documentOperationId": {
+          "$ref": "#/definitions/uuid"
+        },
+        "phoneRun": {
+          "$ref": "#/definitions/uuid"
+        }
+      },
+      "required": [
+        "sessionId",
+        "generation",
+        "revision",
+        "attemptId",
+        "attemptChallenge",
+        "installationId",
+        "documentCheckId",
+        "documentOperationId",
+        "phoneRun"
+      ]
+    },
+    "capture": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "front": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/capture"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "back": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/capture"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "selfie": {
+          "$ref": "#/definitions/capture"
+        },
+        "portrait": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "sha256": {
+              "$ref": "#/definitions/sha256"
+            },
+            "sourceSha256": {
+              "$ref": "#/definitions/sha256"
+            },
+            "derivationSha256": {
+              "$ref": "#/definitions/sha256"
+            }
+          },
+          "required": [
+            "sha256",
+            "sourceSha256",
+            "derivationSha256"
+          ]
+        }
+      },
+      "required": [
+        "front",
+        "back",
+        "selfie",
+        "portrait"
+      ]
+    },
+    "artifacts": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "modelManifestSha256": {
+          "$ref": "#/definitions/sha256"
+        },
+        "calibrationSha256": {
+          "$ref": "#/definitions/sha256"
+        },
+        "policySha256": {
+          "$ref": "#/definitions/sha256"
+        }
+      },
+      "required": [
+        "modelManifestSha256",
+        "calibrationSha256",
+        "policySha256"
+      ]
+    },
+    "evidence": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "cadastralReportSha256": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/sha256"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "custodyRootSha256": {
+          "$ref": "#/definitions/sha256"
+        },
+        "admissionReceiptSha256": {
+          "$ref": "#/definitions/sha256"
+        }
+      },
+      "required": [
+        "cadastralReportSha256",
+        "custodyRootSha256",
+        "admissionReceiptSha256"
+      ]
+    },
+    "credential": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "path": {
+          "type": "string",
+          "enum": [
+            "physical_id1",
+            "icao9303",
+            "mdl18013_5"
+          ]
+        },
+        "reportSha256": {
+          "$ref": "#/definitions/sha256"
+        }
+      },
+      "required": [
+        "path",
+        "reportSha256"
+      ]
+    },
+    "services": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "issuerReceiptId": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/identifier"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "credentialReceiptId": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/identifier"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "phoneReceiptId": {
+          "$ref": "#/definitions/identifier"
+        }
+      },
+      "required": [
+        "issuerReceiptId",
+        "credentialReceiptId",
+        "phoneReceiptId"
+      ]
+    },
+    "outcomes": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "face": {
+          "type": "string",
+          "enum": [
+            "pass",
+            "manual_review",
+            "fail",
+            "unavailable"
+          ]
+        },
+        "document": {
+          "$ref": "#/definitions/status"
+        },
+        "physical": {
+          "$ref": "#/definitions/status"
+        }
+      },
+      "required": [
+        "face",
+        "document",
+        "physical"
+      ]
+    },
+    "policyProfile": {
+      "$ref": "#/definitions/identifier"
+    },
+    "issuedAt": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 9007199254740991
+    }
+  },
+  "required": [
+    "schemaVersion",
+    "session",
+    "capture",
+    "artifacts",
+    "evidence",
+    "credential",
+    "services",
+    "outcomes",
+    "policyProfile",
+    "issuedAt"
+  ],
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "credential": {
+            "properties": {
+              "path": {
+                "const": "physical_id1"
+              }
+            }
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "capture": {
+            "properties": {
+              "front": {
+                "$ref": "#/definitions/capture"
+              },
+              "back": {
+                "$ref": "#/definitions/capture"
+              }
+            }
+          },
+          "evidence": {
+            "properties": {
+              "cadastralReportSha256": {
+                "$ref": "#/definitions/sha256"
+              }
+            }
+          },
+          "services": {
+            "properties": {
+              "issuerReceiptId": {
+                "$ref": "#/definitions/identifier"
+              },
+              "credentialReceiptId": {
+                "type": "null"
+              }
+            }
+          }
+        }
+      },
+      "else": {
+        "properties": {
+          "services": {
+            "properties": {
+              "issuerReceiptId": {
+                "type": "null"
+              },
+              "credentialReceiptId": {
+                "$ref": "#/definitions/identifier"
+              }
+            }
+          }
+        }
+      }
+    }
+  ]
+}

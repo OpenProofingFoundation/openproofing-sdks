@@ -1,0 +1,931 @@
+{
+  "relationships": [
+    {
+      "kind": "conformsTo",
+      "source": "s:18BiometricInference04FaceB7FailureO",
+      "target": "s:SH"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:18BiometricInference04FaceB7FailureO",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:18BiometricInference04FaceB7FailureO",
+      "target": "s:SY"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:18BiometricInference04FaceB7FailureO",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:18BiometricInference04FaceB7FailureO",
+      "target": "s:s5ErrorP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:18BiometricInference04FaceB7FailureO",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:18BiometricInference18AuraFaceComparisonC",
+      "target": "s:ScA"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:18BiometricInference18AuraFaceComparisonC",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:18BiometricInference18AuraFaceComparisonC",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:18BiometricInference18FaceFrameSelectionO0E0V",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:18BiometricInference18FaceFrameSelectionO0E0V",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:18BiometricInference18FaceFrameSelectionO0E0V",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:18BiometricInference18FaceFrameSelectionO10ExclusionsV",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:18BiometricInference18FaceFrameSelectionO10ExclusionsV",
+      "target": "s:SY"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:18BiometricInference18FaceFrameSelectionO10ExclusionsV",
+      "target": "s:s10SetAlgebraP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:18BiometricInference18FaceFrameSelectionO10ExclusionsV",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:18BiometricInference18FaceFrameSelectionO10ExclusionsV",
+      "target": "s:s25ExpressibleByArrayLiteralP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:18BiometricInference18FaceFrameSelectionO10ExclusionsV",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:18BiometricInference18FaceFrameSelectionO10ExclusionsV",
+      "target": "s:s9OptionSetP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:18BiometricInference18FaceFrameSelectionO10IdentitiesV",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:18BiometricInference18FaceFrameSelectionO10IdentitiesV",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:18BiometricInference18FaceFrameSelectionO10IdentitiesV",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:18BiometricInference18FaceFrameSelectionO13ConfigurationV",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:18BiometricInference18FaceFrameSelectionO13ConfigurationV",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:18BiometricInference18FaceFrameSelectionO13ConfigurationV",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:18BiometricInference18FaceFrameSelectionO13MatcherStatusO",
+      "target": "s:SH"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:18BiometricInference18FaceFrameSelectionO13MatcherStatusO",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:18BiometricInference18FaceFrameSelectionO13MatcherStatusO",
+      "target": "s:SY"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:18BiometricInference18FaceFrameSelectionO13MatcherStatusO",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:18BiometricInference18FaceFrameSelectionO13MatcherStatusO",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:18BiometricInference18FaceFrameSelectionO15CandidateResultV",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:18BiometricInference18FaceFrameSelectionO15CandidateResultV",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:18BiometricInference18FaceFrameSelectionO15CandidateResultV",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:18BiometricInference18FaceFrameSelectionO5ScoreV",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:18BiometricInference18FaceFrameSelectionO5ScoreV",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:18BiometricInference18FaceFrameSelectionO5ScoreV",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:18BiometricInference18FaceFrameSelectionO6PolicyO",
+      "target": "s:SH"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:18BiometricInference18FaceFrameSelectionO6PolicyO",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:18BiometricInference18FaceFrameSelectionO6PolicyO",
+      "target": "s:SY"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:18BiometricInference18FaceFrameSelectionO6PolicyO",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:18BiometricInference18FaceFrameSelectionO6PolicyO",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:18BiometricInference18FaceFrameSelectionO6ReportV",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:18BiometricInference18FaceFrameSelectionO6ReportV",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:18BiometricInference18FaceFrameSelectionO6ReportV",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:18BiometricInference18FaceFrameSelectionO6SourceV",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:18BiometricInference18FaceFrameSelectionO6SourceV",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:18BiometricInference18FaceFrameSelectionO6SourceV",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:18BiometricInference18FaceFrameSelectionO7FailureO",
+      "target": "s:SH"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:18BiometricInference18FaceFrameSelectionO7FailureO",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:18BiometricInference18FaceFrameSelectionO7FailureO",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:18BiometricInference18FaceFrameSelectionO7FailureO",
+      "target": "s:s5ErrorP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:18BiometricInference18FaceFrameSelectionO7FailureO",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:18BiometricInference18FaceFrameSelectionO7MatcherV",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:18BiometricInference18FaceFrameSelectionO7MatcherV",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:18BiometricInference18FaceFrameSelectionO7MatcherV",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:18BiometricInference18FaceFrameSelectionO7OutcomeO",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:18BiometricInference18FaceFrameSelectionO7OutcomeO",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:18BiometricInference18FaceFrameSelectionO7OutcomeO",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:18BiometricInference18FaceFrameSelectionO7QualityV",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:18BiometricInference18FaceFrameSelectionO7QualityV",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:18BiometricInference18FaceFrameSelectionO7QualityV",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:18BiometricInference18FaceFrameSelectionO8IdentityV",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:18BiometricInference18FaceFrameSelectionO8IdentityV",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:18BiometricInference18FaceFrameSelectionO8IdentityV",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:18BiometricInference18FaceFrameSelectionO9CandidateV",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:18BiometricInference18FaceFrameSelectionO9CandidateV",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:18BiometricInference18FaceFrameSelectionO9CandidateV",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:18BiometricInference25FaceSimilarityObservationV",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:18BiometricInference25FaceSimilarityObservationV",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:18BiometricInference29FaceImagePreflightObservationV",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:18BiometricInference29FaceImagePreflightObservationV",
+      "target": "s:s8SendableP"
+    }
+  ],
+  "symbols": [
+    {
+      "declaration": "enum FaceInferenceFailure",
+      "id": "s:18BiometricInference04FaceB7FailureO",
+      "kind": "swift.enum"
+    },
+    {
+      "declaration": "case faceMissing",
+      "id": "s:18BiometricInference04FaceB7FailureO11faceMissingyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case invalidImage",
+      "id": "s:18BiometricInference04FaceB7FailureO12invalidImageyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case multipleFaces",
+      "id": "s:18BiometricInference04FaceB7FailureO13multipleFacesyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case resourceLimit",
+      "id": "s:18BiometricInference04FaceB7FailureO13resourceLimityA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case sourceMismatch",
+      "id": "s:18BiometricInference04FaceB7FailureO14sourceMismatchyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case alignmentFailed",
+      "id": "s:18BiometricInference04FaceB7FailureO15alignmentFailedyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case inferenceFailed",
+      "id": "s:18BiometricInference04FaceB7FailureO15inferenceFailedyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case modelUnavailable",
+      "id": "s:18BiometricInference04FaceB7FailureO16modelUnavailableyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case landmarksUnavailable",
+      "id": "s:18BiometricInference04FaceB7FailureO20landmarksUnavailableyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "init?(rawValue: String)",
+      "id": "s:18BiometricInference04FaceB7FailureO8rawValueACSgSS_tcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "actor AuraFaceComparison",
+      "id": "s:18BiometricInference18AuraFaceComparisonC",
+      "kind": "swift.class"
+    },
+    {
+      "declaration": "func compare(reference: Data, referenceSHA256: String, preparedSelfie: FaceImagePreflightObservation) throws -> FaceSimilarityObservation",
+      "id": "s:18BiometricInference18AuraFaceComparisonC7compare9reference0G6SHA25614preparedSelfieAA0D21SimilarityObservationV10Foundation4DataV_SSAA0d14ImagePreflightL0VtKF",
+      "kind": "swift.method"
+    },
+    {
+      "declaration": "func compare(reference: Data, referenceSHA256: String, selfie: Data, selfieSHA256: String) throws -> FaceSimilarityObservation",
+      "id": "s:18BiometricInference18AuraFaceComparisonC7compare9reference0G6SHA2566selfie0iH0AA0D21SimilarityObservationV10Foundation4DataV_SSAMSStKF",
+      "kind": "swift.method"
+    },
+    {
+      "declaration": "init(modelURL: URL)",
+      "id": "s:18BiometricInference18AuraFaceComparisonC8modelURLAC10Foundation0G0V_tcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "func preflight(image: Data, sourceSHA256: String) async throws -> FaceImagePreflightObservation",
+      "id": "s:18BiometricInference18AuraFaceComparisonC9preflight5image12sourceSHA256AA0D25ImagePreflightObservationV10Foundation4DataV_SStYaKF",
+      "kind": "swift.method"
+    },
+    {
+      "declaration": "enum FaceFrameSelection",
+      "id": "s:18BiometricInference18FaceFrameSelectionO",
+      "kind": "swift.enum"
+    },
+    {
+      "declaration": "struct Selection",
+      "id": "s:18BiometricInference18FaceFrameSelectionO0E0V",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "let inputOffset: Int",
+      "id": "s:18BiometricInference18FaceFrameSelectionO0E0V11inputOffsetSivp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let alignedSHA256: String",
+      "id": "s:18BiometricInference18FaceFrameSelectionO0E0V13alignedSHA256SSvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let source: FaceFrameSelection.Source",
+      "id": "s:18BiometricInference18FaceFrameSelectionO0E0V6sourceAC6SourceVvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "struct Exclusions",
+      "id": "s:18BiometricInference18FaceFrameSelectionO10ExclusionsV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "static let invalidUQS: FaceFrameSelection.Exclusions",
+      "id": "s:18BiometricInference18FaceFrameSelectionO10ExclusionsV10invalidUQSAEvpZ",
+      "kind": "swift.type.property"
+    },
+    {
+      "declaration": "static let qualityFailed: FaceFrameSelection.Exclusions",
+      "id": "s:18BiometricInference18FaceFrameSelectionO10ExclusionsV13qualityFailedAEvpZ",
+      "kind": "swift.type.property"
+    },
+    {
+      "declaration": "static let alignedUnavailable: FaceFrameSelection.Exclusions",
+      "id": "s:18BiometricInference18FaceFrameSelectionO10ExclusionsV18alignedUnavailableAEvpZ",
+      "kind": "swift.type.property"
+    },
+    {
+      "declaration": "static let matcherSourceMismatch: FaceFrameSelection.Exclusions",
+      "id": "s:18BiometricInference18FaceFrameSelectionO10ExclusionsV21matcherSourceMismatchAEvpZ",
+      "kind": "swift.type.property"
+    },
+    {
+      "declaration": "static let qualitySourceMismatch: FaceFrameSelection.Exclusions",
+      "id": "s:18BiometricInference18FaceFrameSelectionO10ExclusionsV21qualitySourceMismatchAEvpZ",
+      "kind": "swift.type.property"
+    },
+    {
+      "declaration": "static let matcherPreparationUnavailable: FaceFrameSelection.Exclusions",
+      "id": "s:18BiometricInference18FaceFrameSelectionO10ExclusionsV29matcherPreparationUnavailableAEvpZ",
+      "kind": "swift.type.property"
+    },
+    {
+      "declaration": "init(rawValue: UInt32)",
+      "id": "s:18BiometricInference18FaceFrameSelectionO10ExclusionsV8rawValueAEs6UInt32V_tcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "let rawValue: UInt32",
+      "id": "s:18BiometricInference18FaceFrameSelectionO10ExclusionsV8rawValues6UInt32Vvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "static let faceCount: FaceFrameSelection.Exclusions",
+      "id": "s:18BiometricInference18FaceFrameSelectionO10ExclusionsV9faceCountAEvpZ",
+      "kind": "swift.type.property"
+    },
+    {
+      "declaration": "static let uqsFailed: FaceFrameSelection.Exclusions",
+      "id": "s:18BiometricInference18FaceFrameSelectionO10ExclusionsV9uqsFailedAEvpZ",
+      "kind": "swift.type.property"
+    },
+    {
+      "declaration": "struct Identities",
+      "id": "s:18BiometricInference18FaceFrameSelectionO10IdentitiesV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "let matcherArtifact: FaceFrameSelection.Identity",
+      "id": "s:18BiometricInference18FaceFrameSelectionO10IdentitiesV15matcherArtifactAC8IdentityVvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let qualityArtifact: FaceFrameSelection.Identity",
+      "id": "s:18BiometricInference18FaceFrameSelectionO10IdentitiesV15qualityArtifactAC8IdentityVvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "init(policy: FaceFrameSelection.Identity, qualityArtifact: FaceFrameSelection.Identity, matcherArtifact: FaceFrameSelection.Identity)",
+      "id": "s:18BiometricInference18FaceFrameSelectionO10IdentitiesV6policy15qualityArtifact07matcherI0AeC8IdentityV_A2Jtcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "let policy: FaceFrameSelection.Identity",
+      "id": "s:18BiometricInference18FaceFrameSelectionO10IdentitiesV6policyAC8IdentityVvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "struct Configuration",
+      "id": "s:18BiometricInference18FaceFrameSelectionO13ConfigurationV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "let identities: FaceFrameSelection.Identities",
+      "id": "s:18BiometricInference18FaceFrameSelectionO13ConfigurationV10identitiesAC10IdentitiesVvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "init(policy: FaceFrameSelection.Policy, identities: FaceFrameSelection.Identities)",
+      "id": "s:18BiometricInference18FaceFrameSelectionO13ConfigurationV6policy10identitiesAeC6PolicyO_AC10IdentitiesVtcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "let policy: FaceFrameSelection.Policy",
+      "id": "s:18BiometricInference18FaceFrameSelectionO13ConfigurationV6policyAC6PolicyOvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "enum MatcherStatus",
+      "id": "s:18BiometricInference18FaceFrameSelectionO13MatcherStatusO",
+      "kind": "swift.enum"
+    },
+    {
+      "declaration": "case notAssessed",
+      "id": "s:18BiometricInference18FaceFrameSelectionO13MatcherStatusO11notAssessedyA2EmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case failed",
+      "id": "s:18BiometricInference18FaceFrameSelectionO13MatcherStatusO6failedyA2EmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case passed",
+      "id": "s:18BiometricInference18FaceFrameSelectionO13MatcherStatusO6passedyA2EmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "init?(rawValue: Int32)",
+      "id": "s:18BiometricInference18FaceFrameSelectionO13MatcherStatusO8rawValueAESgs5Int32V_tcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "struct CandidateResult",
+      "id": "s:18BiometricInference18FaceFrameSelectionO15CandidateResultV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "let exclusions: FaceFrameSelection.Exclusions",
+      "id": "s:18BiometricInference18FaceFrameSelectionO15CandidateResultV10exclusionsAC10ExclusionsVvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let source: FaceFrameSelection.Source",
+      "id": "s:18BiometricInference18FaceFrameSelectionO15CandidateResultV6sourceAC6SourceVvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "static let maximumCandidates: Int",
+      "id": "s:18BiometricInference18FaceFrameSelectionO17maximumCandidatesSivpZ",
+      "kind": "swift.type.property"
+    },
+    {
+      "declaration": "struct Score",
+      "id": "s:18BiometricInference18FaceFrameSelectionO5ScoreV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "init(code: Int32, native: Double, mapped: Double)",
+      "id": "s:18BiometricInference18FaceFrameSelectionO5ScoreV4code6native6mappedAEs5Int32V_S2dtcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "let code: Int32",
+      "id": "s:18BiometricInference18FaceFrameSelectionO5ScoreV4codes5Int32Vvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let mapped: Double",
+      "id": "s:18BiometricInference18FaceFrameSelectionO5ScoreV6mappedSdvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let native: Double",
+      "id": "s:18BiometricInference18FaceFrameSelectionO5ScoreV6nativeSdvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "enum Policy",
+      "id": "s:18BiometricInference18FaceFrameSelectionO6PolicyO",
+      "kind": "swift.enum"
+    },
+    {
+      "declaration": "case firstEligible",
+      "id": "s:18BiometricInference18FaceFrameSelectionO6PolicyO13firstEligibleyA2EmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case highestNativeUQS",
+      "id": "s:18BiometricInference18FaceFrameSelectionO6PolicyO16highestNativeUQSyA2EmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "init?(rawValue: Int32)",
+      "id": "s:18BiometricInference18FaceFrameSelectionO6PolicyO8rawValueAESgs5Int32V_tcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "struct Report",
+      "id": "s:18BiometricInference18FaceFrameSelectionO6ReportV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "let candidates: [FaceFrameSelection.CandidateResult]",
+      "id": "s:18BiometricInference18FaceFrameSelectionO6ReportV10candidatesSayAC15CandidateResultVGvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let configuration: FaceFrameSelection.Configuration",
+      "id": "s:18BiometricInference18FaceFrameSelectionO6ReportV13configurationAC13ConfigurationVvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let outcome: FaceFrameSelection.Outcome",
+      "id": "s:18BiometricInference18FaceFrameSelectionO6ReportV7outcomeAC7OutcomeOvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "struct Source",
+      "id": "s:18BiometricInference18FaceFrameSelectionO6SourceV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "let originalFrameIndex: UInt32",
+      "id": "s:18BiometricInference18FaceFrameSelectionO6SourceV08originalD5Indexs6UInt32Vvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "init(identifier: String, originalFrameIndex: UInt32, sha256: String)",
+      "id": "s:18BiometricInference18FaceFrameSelectionO6SourceV10identifier08originalD5Index6sha256AESS_s6UInt32VSStcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "let identifier: String",
+      "id": "s:18BiometricInference18FaceFrameSelectionO6SourceV10identifierSSvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let sha256: String",
+      "id": "s:18BiometricInference18FaceFrameSelectionO6SourceV6sha256SSvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "static func select(_ candidates: [FaceFrameSelection.Candidate], configuration: FaceFrameSelection.Configuration) throws -> FaceFrameSelection.Report",
+      "id": "s:18BiometricInference18FaceFrameSelectionO6select_13configurationAC6ReportVSayAC9CandidateVG_AC13ConfigurationVtKFZ",
+      "kind": "swift.type.method"
+    },
+    {
+      "declaration": "enum Failure",
+      "id": "s:18BiometricInference18FaceFrameSelectionO7FailureO",
+      "kind": "swift.enum"
+    },
+    {
+      "declaration": "case duplicateIndex",
+      "id": "s:18BiometricInference18FaceFrameSelectionO7FailureO14duplicateIndexyA2EmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case invalidBuffers",
+      "id": "s:18BiometricInference18FaceFrameSelectionO7FailureO14invalidBuffersyA2EmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case invalidCandidate",
+      "id": "s:18BiometricInference18FaceFrameSelectionO7FailureO16invalidCandidateyA2EmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case tooManyCandidates",
+      "id": "s:18BiometricInference18FaceFrameSelectionO7FailureO17tooManyCandidatesyA2EmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case duplicateIdentifier",
+      "id": "s:18BiometricInference18FaceFrameSelectionO7FailureO19duplicateIdentifieryA2EmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case invalidConfiguration",
+      "id": "s:18BiometricInference18FaceFrameSelectionO7FailureO20invalidConfigurationyA2EmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "struct Matcher",
+      "id": "s:18BiometricInference18FaceFrameSelectionO7MatcherV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "init(sourceSHA256: String?, status: FaceFrameSelection.MatcherStatus, alignedSHA256: String? = nil)",
+      "id": "s:18BiometricInference18FaceFrameSelectionO7MatcherV12sourceSHA2566status07alignedH0AESSSg_AC0F6StatusOAItcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "let sourceSHA256: String?",
+      "id": "s:18BiometricInference18FaceFrameSelectionO7MatcherV12sourceSHA256SSSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let alignedSHA256: String?",
+      "id": "s:18BiometricInference18FaceFrameSelectionO7MatcherV13alignedSHA256SSSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let status: FaceFrameSelection.MatcherStatus",
+      "id": "s:18BiometricInference18FaceFrameSelectionO7MatcherV6statusAC0F6StatusOvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "enum Outcome",
+      "id": "s:18BiometricInference18FaceFrameSelectionO7OutcomeO",
+      "kind": "swift.enum"
+    },
+    {
+      "declaration": "case noSelection",
+      "id": "s:18BiometricInference18FaceFrameSelectionO7OutcomeO02noE0yA2EmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case selected(FaceFrameSelection.Selection)",
+      "id": "s:18BiometricInference18FaceFrameSelectionO7OutcomeO8selectedyAeC0E0VcAEmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "struct Quality",
+      "id": "s:18BiometricInference18FaceFrameSelectionO7QualityV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "let returnCode: Int32",
+      "id": "s:18BiometricInference18FaceFrameSelectionO7QualityV10returnCodes5Int32Vvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "init(sourceSHA256: String?, returnCode: Int32, faceCount: Int32, score: FaceFrameSelection.Score)",
+      "id": "s:18BiometricInference18FaceFrameSelectionO7QualityV12sourceSHA25610returnCode9faceCount5scoreAESSSg_s5Int32VAlC5ScoreVtcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "let sourceSHA256: String?",
+      "id": "s:18BiometricInference18FaceFrameSelectionO7QualityV12sourceSHA256SSSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let score: FaceFrameSelection.Score",
+      "id": "s:18BiometricInference18FaceFrameSelectionO7QualityV5scoreAC5ScoreVvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let faceCount: Int32",
+      "id": "s:18BiometricInference18FaceFrameSelectionO7QualityV9faceCounts5Int32Vvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "struct Identity",
+      "id": "s:18BiometricInference18FaceFrameSelectionO8IdentityV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "init(identifier: String, sha256: String)",
+      "id": "s:18BiometricInference18FaceFrameSelectionO8IdentityV10identifier6sha256AESS_SStcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "let identifier: String",
+      "id": "s:18BiometricInference18FaceFrameSelectionO8IdentityV10identifierSSvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let sha256: String",
+      "id": "s:18BiometricInference18FaceFrameSelectionO8IdentityV6sha256SSvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "struct Candidate",
+      "id": "s:18BiometricInference18FaceFrameSelectionO9CandidateV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "init(source: FaceFrameSelection.Source, quality: FaceFrameSelection.Quality, matcher: FaceFrameSelection.Matcher)",
+      "id": "s:18BiometricInference18FaceFrameSelectionO9CandidateV6source7quality7matcherAeC6SourceV_AC7QualityVAC7MatcherVtcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "let source: FaceFrameSelection.Source",
+      "id": "s:18BiometricInference18FaceFrameSelectionO9CandidateV6sourceAC6SourceVvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let matcher: FaceFrameSelection.Matcher",
+      "id": "s:18BiometricInference18FaceFrameSelectionO9CandidateV7matcherAC7MatcherVvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let quality: FaceFrameSelection.Quality",
+      "id": "s:18BiometricInference18FaceFrameSelectionO9CandidateV7qualityAC7QualityVvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "struct FaceSimilarityObservation",
+      "id": "s:18BiometricInference25FaceSimilarityObservationV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "let similarity: CosineSimilarity",
+      "id": "s:18BiometricInference25FaceSimilarityObservationV10similarity0A3SDK06CosineD0Vvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let selfieSHA256: String",
+      "id": "s:18BiometricInference25FaceSimilarityObservationV12selfieSHA256SSvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let alignmentRoute: String",
+      "id": "s:18BiometricInference25FaceSimilarityObservationV14alignmentRouteSSvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let referenceSHA256: String",
+      "id": "s:18BiometricInference25FaceSimilarityObservationV15referenceSHA256SSvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let selfieAlignedSHA256: String",
+      "id": "s:18BiometricInference25FaceSimilarityObservationV19selfieAlignedSHA256SSvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let artifactManifestSHA256: String",
+      "id": "s:18BiometricInference25FaceSimilarityObservationV22artifactManifestSHA256SSvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let referenceAlignedSHA256: String",
+      "id": "s:18BiometricInference25FaceSimilarityObservationV22referenceAlignedSHA256SSvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "struct FaceImagePreflightObservation",
+      "id": "s:18BiometricInference29FaceImagePreflightObservationV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "let sourceSHA256: String",
+      "id": "s:18BiometricInference29FaceImagePreflightObservationV12sourceSHA256SSvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let alignedSHA256: String",
+      "id": "s:18BiometricInference29FaceImagePreflightObservationV13alignedSHA256SSvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let alignmentRoute: String",
+      "id": "s:18BiometricInference29FaceImagePreflightObservationV14alignmentRouteSSvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let artifactManifestSHA256: String",
+      "id": "s:18BiometricInference29FaceImagePreflightObservationV22artifactManifestSHA256SSvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let width: Int",
+      "id": "s:18BiometricInference29FaceImagePreflightObservationV5widthSivp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let height: Int",
+      "id": "s:18BiometricInference29FaceImagePreflightObservationV6heightSivp",
+      "kind": "swift.property"
+    }
+  ]
+}

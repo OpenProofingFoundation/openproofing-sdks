@@ -1,0 +1,82 @@
+{
+  "version": 1,
+  "scope": "Thin native reference adapter over the optional shared KenshikiPulsePassport service; neutral passport and biometric SDKs remain independent.",
+  "sources": [
+    {
+      "repository": "kenshiki-identity-sdk",
+      "revision": "0a1d0a0ec0fb7d3f435fb25608ca25e7b673bdbd",
+      "path": "Packages/IdentityGateway/Sources/IdentityGateway/PulsePassportClient.swift",
+      "sha256": "1cf3a2efdf8e101c0bb7606f7725c793b7268c732225db808aaa982b66173719",
+      "dirty": false
+    },
+    {
+      "repository": "kenshiki-identity-sdk",
+      "revision": "0a1d0a0ec0fb7d3f435fb25608ca25e7b673bdbd",
+      "path": "Packages/IdentityGateway/Sources/IdentityGateway/PulseRegistrationRecovery.swift",
+      "sha256": "f9b1d1865b11bcaa98f454d5e4ce28a39e99cb93a358775c13f4700f87e43a69",
+      "dirty": false
+    },
+    {
+      "repository": "kenshiki-identity-sdk",
+      "revision": "0a1d0a0ec0fb7d3f435fb25608ca25e7b673bdbd",
+      "path": "Packages/IdentityGateway/Sources/IdentityGateway/PulseRegistrationAttestationRetry.swift",
+      "sha256": "d592f755970799f60a0b44968d03b6077e06935a5bf04c0dae487903b1573070",
+      "dirty": false
+    },
+    {
+      "repository": "kenshiki-identity-sdk",
+      "revision": "0a1d0a0ec0fb7d3f435fb25608ca25e7b673bdbd",
+      "path": "Packages/IdentityGateway/Sources/IdentityGateway/PulseInstallationRegistrationClient.swift",
+      "sha256": "f2d26cdbe131fa12a97f39c60e076a8f4f17483ac384e45b73a9579c893f662c",
+      "dirty": false
+    },
+    {
+      "repository": "kenshiki-identity-sdk",
+      "revision": "0a1d0a0ec0fb7d3f435fb25608ca25e7b673bdbd",
+      "path": "Packages/IdentityGateway/Sources/IdentityGateway/PulseRegistrationModels.swift",
+      "sha256": "710589fb41cf18164c8f13e7c74ccd1b8359424fadcad8aeafdb49be39eae7bc",
+      "dirty": false
+    },
+    {
+      "repository": "kenshiki-identity-sdk",
+      "revision": "0a1d0a0ec0fb7d3f435fb25608ca25e7b673bdbd",
+      "path": "Packages/IdentityGateway/Sources/IdentityGateway/PulseNativeAttestation.swift",
+      "sha256": "f52811deafe0932081bc1e4269f42ee02c4e2adf947b917b1150a90482bbae8d",
+      "dirty": false
+    },
+    {
+      "repository": "kenshiki-identity-sdk",
+      "revision": "0a1d0a0ec0fb7d3f435fb25608ca25e7b673bdbd",
+      "path": "Packages/IdentityGateway/Sources/IdentityGateway/PulseBoundedHTTPTransport.swift",
+      "sha256": "3b3762ab7bb72cb2eb19267e0bb94f87aabc84961f94d18ca2c5bace560b834f",
+      "dirty": false
+    },
+    {
+      "repository": "kenshiki-identity-sdk",
+      "revision": "0a1d0a0ec0fb7d3f435fb25608ca25e7b673bdbd",
+      "path": "Packages/IdentityGateway/Sources/IdentityGateway/PulseRegistrationHTTPFailure.swift",
+      "sha256": "fc62ae83c34e8d0e7530c063bbae114b7afa593b2cdd16482cdbb8ff0d41448b",
+      "dirty": false
+    },
+    {
+      "repository": "pulse-ios",
+      "revision": "960f6ab2c88c947bdb3406eb8b10a8a38e106e2a",
+      "path": "Samples/KenshikiDeviceDemo/Sources/PassportChipRead.swift",
+      "sha256": "92d98e1ddc42e61ca6bd0438d30248ea45d0c3302e773b8d980992b56c4327d3",
+      "dirty": false
+    }
+  ],
+  "destinationChanges": [
+    "The original complete Pulse preparation, wire, registration and verification mechanisms now live once in services/pulse; see services/pulse/provenance.json and governance/architecture/APP-ARCH-001.md A.17.",
+    "Use shared KenshikiOperationBinding CanonicalJSON, RegisteredKeyEnrollmentCustody, RegisteredAppAttestSigner and RegisteredKeyAttestationRetryPolicy through the service.",
+    "Native adapters retain reader/proof mapping, page correspondence, protected persistence, localization and lifecycle fencing; no legacy identity SDK dependency is linked into reference.",
+    "Use a separate reference-app device-only Keychain namespace for registration custody and credentials; no existing Pulse identity is imported.",
+    "Preserve exact session/nonce/workflow/operation binding, challenge retirement, bounded responses, truthful failed verdicts and private holder-capability custody.",
+    "Retain actual SOD-bound server validation reports; private capability bytes never enter public exports, diagnostics or presentation.",
+    "Project actual bounded NFC stage/data-group percentages and explicit transport completion with localized native percent formatting.",
+    "Record bounded sanitized diagnostic stages, protocol outcomes, HTTP status and exact allowlisted failure codes; unknown server text is hashed, with credentials and passport content excluded.",
+    "Classify exact known server trust-provisioning failures as configuration errors without weakening failed-verdict rejection.",
+    "Debug builds record source-bound SOD envelope tags, lengths and exact-fit metadata before submission and on refusal; no passport bytes are exported and verification behavior is unchanged."
+  ],
+  "validation": "Source/protocol tests, native compilation, signed installation and physical chip/server acceptance require separate current receipts."
+}

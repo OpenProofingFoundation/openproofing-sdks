@@ -1,0 +1,6 @@
+{
+  "ios/Sources/BiometricInference/AuraFaceComparison.swift": "c9fff9dd3e18c425ffa00b91f7c943325a36556638aa4337efbe6a3776404f6b",
+  "ios/Sources/BiometricInference/FaceFrameSelection.swift": "3ffa0e32b29870377e28b5be5e869a6ce6dad6d5b87edfcdfd6a9c74231f3006",
+  "ios/Tests/InferenceTests/AuraFaceComparisonTests.swift": "2cef440c446b7c8753df0a344954bfe1c15d93d5dfdb3ebd5be3320bde3a0ae9",
+  "ios/Tests/InferenceTests/FaceFrameSelectionTests.swift": "ea9f615117aa76a943ce5d819a51a7f43e8f2a52f58dd4845a75a5a45a3d6476"
+}

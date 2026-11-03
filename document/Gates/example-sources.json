@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "role": "host",
+  "files": {
+    "examples/ios/Sources/DocumentCaptureExampleApp.swift": "2418d9681c2434acd4fb9e1d396ae32371b712919bd155171205d20a5284d19a",
+    "examples/ios/Sources/DocumentCaptureExampleController.swift": "2fadf149c145653c852f3e5827a5e107bd172c7a8fd298b18085c17a02472407",
+    "examples/ios/project.yml": "376ca2f7916ab6e5eb06f0749ad0a7807a4e9339b45de528c5de738055dd3d86"
+  }
+}

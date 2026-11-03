@@ -1,0 +1,1183 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		034DECBDA9F8190848B1E21E /* CaptureMeasurements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28BE3E8707EC8D1EB8B346BD /* CaptureMeasurements.swift */; };
+		052675FCE0E40E80B168D559 /* FaceWorkflowPipeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC8AB37812780AE18FFD94D /* FaceWorkflowPipeline.swift */; };
+		063F252BAEC9C51E465B4E2B /* KenshikiDesign.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7139FB10B0E1B29F7D9BB9B /* KenshikiDesign.swift */; };
+		07C4C034F686ADB70C264657 /* en.lproj in Resources */ = {isa = PBXBuildFile; fileRef = ACB729D76EEDC4B0116BFC60 /* en.lproj */; };
+		095928D7E9C1E0D028AA35C4 /* SQLCipher in Frameworks */ = {isa = PBXBuildFile; productRef = A34CF447D2A376231F078AFF /* SQLCipher */; };
+		09728A09FCCAB07AB8A71E95 /* PassportPulseRegistration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DDC2F48AA5EBB46A42C972C /* PassportPulseRegistration.swift */; };
+		0BB2D3D29C0E5AC3BF8D6F65 /* SavedPassportCapture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633ECADEACF936D5C84023DB /* SavedPassportCapture.swift */; };
+		0F64D59F90557BDDB4B82E41 /* PulseRegistrationRecovery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D81F4E37075A29DD6DD56B0 /* PulseRegistrationRecovery.swift */; };
+		183E75D00F7F0C0E078AA4D8 /* LiquidPassIntegrationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C098943ED5E470B0EC08E16E /* LiquidPassIntegrationTests.swift */; };
+		1C89EAA117FA5EFC042A34CA /* WorkflowEvidenceRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4237B3ABDBDFED81C8980E06 /* WorkflowEvidenceRecorder.swift */; };
+		1CA1CAB1DEFFCE8839E55429 /* PassportCaptureSchema.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC645C3FAAEDF9E72BE2240E /* PassportCaptureSchema.swift */; };
+		1FF3D84BBC21E87803C93433 /* BiometricCaptureController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B772E3D5735F22C3D7F145D8 /* BiometricCaptureController.swift */; };
+		201A9E78EE230617A47D2CF2 /* PassportFlowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B82B6589203A8E303AE83C4 /* PassportFlowController.swift */; };
+		21F417C6D4A1F1371BCEFC63 /* ar-XB.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 48D480975329A2B31AEA731E /* ar-XB.lproj */; };
+		2218026CB26703300659B595 /* FaceCaptureSelectionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBBCD698DA012A56A0D4B660 /* FaceCaptureSelectionTests.swift */; };
+		23CA2517BC1B11F03BAC628C /* SavedLiquidPass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5AD112BC432B71E2440040C /* SavedLiquidPass.swift */; };
+		28FF1F12E8E8E75C8BA62152 /* BiometricCaptureHost.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C0057854763205CC174A95 /* BiometricCaptureHost.swift */; };
+		2CABC5882376B7FB3F0E92A0 /* KenshikiMotion in Frameworks */ = {isa = PBXBuildFile; productRef = B9D24AB0AE1B2E1CC69483BF /* KenshikiMotion */; };
+		2CEA397E6743ADBC280C8351 /* KenshikiEvidenceManifest in Frameworks */ = {isa = PBXBuildFile; productRef = CA030B7628BC90AFBE5535B5 /* KenshikiEvidenceManifest */; };
+		2E9D6F6F1F0FF084E7382BD5 /* LiquidRetirementTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ABCC595C488B87642441D1F /* LiquidRetirementTests.swift */; };
+		305C994810F66252DA038EA8 /* DocumentCapturePreview in Frameworks */ = {isa = PBXBuildFile; productRef = 3EC94EC2433B73A74B366400 /* DocumentCapturePreview */; };
+		367C39A88731ED2ED52BB56C /* PulseRegistrationAttestationRetry.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B5A9E1F348CC34410D4AB3 /* PulseRegistrationAttestationRetry.swift */; };
+		378501D62D75BA085925CC17 /* PulsePassportClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B20276BC122068127A75CA /* PulsePassportClient.swift */; };
+		3D1062681151F209C973C096 /* DocumentFlowHostLifecycleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A38A288158ED87B371E1CD4 /* DocumentFlowHostLifecycleTests.swift */; };
+		3FC98C4A6AA19F5768B538FD /* PassportPulseRegistrationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C370C845A6C1FD20D723FD0 /* PassportPulseRegistrationTests.swift */; };
+		40F45F75F249CD4134D0BB28 /* BiometricInference in Frameworks */ = {isa = PBXBuildFile; productRef = C57C2B4F022ED09372579672 /* BiometricInference */; };
+		412E9641DF83C8C6B4B480ED /* WorkflowSmokeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E578F1E795CE77BE545FDF77 /* WorkflowSmokeTests.swift */; };
+		4175FE2ADF40D8A995B87A1F /* FaceInferenceScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1673134D3118C096DE665736 /* FaceInferenceScheduler.swift */; };
+		41D46E4F1F77A7D75BC325D0 /* PassportFlowRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387EE0EEBBEC5302FB06A80D /* PassportFlowRenderer.swift */; };
+		498F48B43D9D128553149E5C /* PassportFlowControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7105AF5F9798C4F37F558CF /* PassportFlowControllerTests.swift */; };
+		4E16EC6D00689E6580BAA391 /* KenshikiProtectedStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 15448B83FFD68FA661F286AE /* KenshikiProtectedStorage */; };
+		4E9280A1BDA47CDEB6677F75 /* LegacyLiquidArchive.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2104BA28A5FEC4D652B14D /* LegacyLiquidArchive.swift */; };
+		50C31C583086F00A0EB8F07C /* WorkflowMotionProjection.swift in Sources */ = {isa = PBXBuildFile; fileRef = F444178933A5ADE48AD6C0D5 /* WorkflowMotionProjection.swift */; };
+		528E0BB68B2D07E7BE11C657 /* KenshikiEvidenceManifest in Frameworks */ = {isa = PBXBuildFile; productRef = CB62F6B5E6DE1688C20F9872 /* KenshikiEvidenceManifest */; };
+		52EE67C4EE848014F5DF9CC6 /* PassportServerCeremonyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E1063D8C6F4E296AA97E20 /* PassportServerCeremonyTests.swift */; };
+		55A2CCCE1F3442F962C0FED8 /* PassportCaptureStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580278AD9A977BFA7C2E3C98 /* PassportCaptureStore.swift */; };
+		5630F7B8949A6B85A529F16F /* ReviewJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C907AC7542AB33F1690ED07 /* ReviewJSON.swift */; };
+		5817B55623F00AE15F4AB303 /* DocumentFlowPersistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C6BD906F8C85D6E8EC3DCF4 /* DocumentFlowPersistence.swift */; };
+		5928F8809F4627C2478BF0DB /* DocumentSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 7315B1C578E29ECCCA8FD829 /* DocumentSDK */; };
+		5CF1FD8AAA631D34BAA16F9D /* DocumentFlowPersistenceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BEA55ECD456DC7C5C91DE9 /* DocumentFlowPersistenceTests.swift */; };
+		629D08836ADC08A5CB7AB0E0 /* DocumentFlowSQLiteStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C0B529B5F92EB4ACAFA188 /* DocumentFlowSQLiteStore.swift */; };
+		676A1BE68A021819C772D4F1 /* KenshikiReference.icon in Resources */ = {isa = PBXBuildFile; fileRef = 791B8486063A6477A48D3D0C /* KenshikiReference.icon */; };
+		6871328332E5FD108500E794 /* PassportCaptureStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5603BD3BCD612338B34EF600 /* PassportCaptureStoreTests.swift */; };
+		746C4D31708BC1A3E67828F4 /* BiometricCaptureRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42374A5448698F8F5DC09FB0 /* BiometricCaptureRenderer.swift */; };
+		77573D9A9F0DE842DE11EE27 /* SavedFaceWorkflow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79EEF9B30F51DAC72487A0AF /* SavedFaceWorkflow.swift */; };
+		78FE58E33E73284595D092D5 /* CaptureEvidenceCustody in Frameworks */ = {isa = PBXBuildFile; productRef = 6078FDCF2F5DB915852FD28E /* CaptureEvidenceCustody */; };
+		7948690597DACE50B3F3E5CA /* FaceCaptureSelectionProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17DCD0D121F4DC27DEF0409B /* FaceCaptureSelectionProcessor.swift */; };
+		7D8B4E7DA56AFEBD2486D72A /* BiometricQuality in Frameworks */ = {isa = PBXBuildFile; productRef = 4945DB186D22E7460E538646 /* BiometricQuality */; };
+		7E2C81DEE9492E173D22B08B /* PassportPulseWire.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE2BD924A2442E01F02977CD /* PassportPulseWire.swift */; };
+		7E70439232C4EAF67802C328 /* en-XA.lproj in Resources */ = {isa = PBXBuildFile; fileRef = FEBD1EC2BD802F02DD68421A /* en-XA.lproj */; };
+		813382E77F025EA768B70984 /* DocumentFlowRendererTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F680002E7767421ED7FBA2 /* DocumentFlowRendererTests.swift */; };
+		823304C96CDE895E2B74AA51 /* NativeDocumentFlowCamera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21DFD6C0BEB5B72371F70B81 /* NativeDocumentFlowCamera.swift */; };
+		9117E7E98AF64A451CCDD8FB /* PassportMRZCapture in Frameworks */ = {isa = PBXBuildFile; productRef = C03E786E6EB072CA95124D1E /* PassportMRZCapture */; };
+		927CEF35CDC847B067578953 /* FaceComparisonController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7475DC5133D3D144AC4F59B4 /* FaceComparisonController.swift */; };
+		95AF84CDAE12A56182EE0933 /* PassportServerPresentationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B03DB1094CD030189A3D7E /* PassportServerPresentationTests.swift */; };
+		9615C7033608C92F07DCEDCF /* DocumentFlowControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89BEAFB8BC74C48EF5723074 /* DocumentFlowControllerTests.swift */; };
+		97298895351731275C2783A6 /* ReferenceRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B4562DB1E4917B0D59913F2 /* ReferenceRenderer.swift */; };
+		974028F20DBB23579C3FD699 /* DocumentFlowHost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6702C4B3377A9AD490D770C3 /* DocumentFlowHost.swift */; };
+		994ABA367A78A8A919A75A14 /* FaceComparisonHost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9365D55B7B622CF86F642282 /* FaceComparisonHost.swift */; };
+		9CB92813BB0F744F5D0A6814 /* ArchiveDescriptorFixture.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40A1E35EEE4C9EBF337875C /* ArchiveDescriptorFixture.swift */; };
+		A122CCF60CCB529477398214 /* NativePageContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB5B120E3C834E9B3C639C3 /* NativePageContainer.swift */; };
+		A3DCF89CB58C8027126ADCFE /* VisualFaceAssessment.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93052AF30C8AEB55E42199F /* VisualFaceAssessment.swift */; };
+		A40F6E17726170C1F0D85CE1 /* LiquidEvidencePass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D9D601AB798A111E74E99C /* LiquidEvidencePass.swift */; };
+		A4FD211265D04F090219B42C /* StorageHealthTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6F558B050B91A595143F56 /* StorageHealthTests.swift */; };
+		A505C4004983563951E6640A /* BiometricCaptureControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 915A9B40F2CA073FFDF255EC /* BiometricCaptureControllerTests.swift */; };
+		A72FCE93F7B1C89A7A516293 /* StorageHealthDiagnostics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D104599E4172486573FFF40 /* StorageHealthDiagnostics.swift */; };
+		A78B64BDA05C5333C99F2CCE /* DocumentFlowCaptureMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E34B19C1A1EF6D255D4F766 /* DocumentFlowCaptureMetadata.swift */; };
+		A95E8A8838D9D5A58585ECDD /* PassportFaceJourneyHost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62AE4BCC13D46F3942A6F157 /* PassportFaceJourneyHost.swift */; };
+		A9BE47DF820B96608B3211F2 /* WorkflowEvidenceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5797EE4BFADB3B3855030C65 /* WorkflowEvidenceTests.swift */; };
+		A9FE277042B643D1D95FE0CF /* KenshikiOperationBinding in Frameworks */ = {isa = PBXBuildFile; productRef = 841948AEF692A622D6D11095 /* KenshikiOperationBinding */; };
+		ABD04F60A69999732C1FB5E6 /* PassportServerCeremony.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E6854843974DBC31E08C7B /* PassportServerCeremony.swift */; };
+		ACD3C073AF1AD7C6D3B55A1B /* FaceCaptureSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2DAEDC4946C801DCE86B435 /* FaceCaptureSelection.swift */; };
+		AD770732EB85D29DFBDF6283 /* FaceComparisonControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37E9DA388220E0C3E0D6755C /* FaceComparisonControllerTests.swift */; };
+		ADDFEF08237154BB8D2C86E2 /* SavedMRZCapture.swift in Sources */ = {isa = PBXBuildFile; fileRef = E947F3192A0DEC86825559D3 /* SavedMRZCapture.swift */; };
+		B323B13357866084D7BEC5E2 /* SQLCipher in Frameworks */ = {isa = PBXBuildFile; productRef = A1B3198769A19D739419873E /* SQLCipher */; };
+		B54BA28C30784F45E19A837B /* BiometricCaptureHostTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A2B3E40B5CEA97BA1BD8AE4 /* BiometricCaptureHostTests.swift */; };
+		B63E743A55C538E18014099A /* KenshikiProtectedStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 728D5F124322C16FC638D17C /* KenshikiProtectedStorage */; };
+		B8934C694072F353FEB2C95E /* WorkflowRecoveryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD5F6307E0D9F2ABE1CA12B /* WorkflowRecoveryTests.swift */; };
+		BE8AE81E8BAFF740339D43A0 /* DocumentFlowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A079C5EC4300852C06558CBE /* DocumentFlowController.swift */; };
+		C23933AECCAE59DA0D5482B5 /* CaptureEvidenceCustody in Frameworks */ = {isa = PBXBuildFile; productRef = A2F51F7A9CF929D6B3A7555E /* CaptureEvidenceCustody */; };
+		C383C63EB87EC7FFFDC96661 /* PassportNFC in Frameworks */ = {isa = PBXBuildFile; productRef = 0474A3271604E5B848F9EA1E /* PassportNFC */; };
+		C5B11E9D198C42702C687993 /* SavedPassportJourneyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E2D05378B6E6641F5B4DAD /* SavedPassportJourneyTests.swift */; };
+		CDC99B0CD540889768F482A8 /* BiometricCapture in Frameworks */ = {isa = PBXBuildFile; productRef = 86BC66D89319BC6CC516E89A /* BiometricCapture */; };
+		D934CF179C231065452172B7 /* FaceCaptureQualitySession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D2A64E2C92636711E056F5 /* FaceCaptureQualitySession.swift */; };
+		D9831770DB666FCE5C5BCF25 /* DocumentFrontCapturePresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A843FE87956F18B9ACA7D64D /* DocumentFrontCapturePresentation.swift */; };
+		D9B0ABD7AE69A839EAB33E0A /* LegacyEvidenceBindings.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05A1EE06E77640F01E4DC51 /* LegacyEvidenceBindings.swift */; };
+		DA7C15CA92120AE7C990A6A8 /* DocumentFlowSQLiteStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992A65929243082EF620F971 /* DocumentFlowSQLiteStoreTests.swift */; };
+		DADCC7B708F47C4F7506C57E /* PassportFaceJourneyController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF211628E9DEAD5DDB6A5D4 /* PassportFaceJourneyController.swift */; };
+		DB32EB7ED3C566945477EC13 /* KenshikiPulsePassport in Frameworks */ = {isa = PBXBuildFile; productRef = 744C8E4B991D945B88B93CBD /* KenshikiPulsePassport */; };
+		DC6013EE04361FD3A0B413ED /* PassportFaceJourneyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA8FDD29A5BFE9AAECFEC53 /* PassportFaceJourneyTests.swift */; };
+		DC989C21287ADC3D8D477686 /* FaceInferenceSchedulerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2486ACF945D7AD5ABF5CB95 /* FaceInferenceSchedulerTests.swift */; };
+		DCC5B1BC6A5071D85B88B952 /* DocumentFlowRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D08778D1D27046D731B86D9 /* DocumentFlowRenderer.swift */; };
+		DDA2F0501BBAC0DB068DFB6E /* KenshikiPresentation in Frameworks */ = {isa = PBXBuildFile; productRef = C606793DBDA9841E3C2BC35B /* KenshikiPresentation */; };
+		E50A27D9460C39604C018858 /* PassportFlowHost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A486DAEC70760CDF7F416AF /* PassportFlowHost.swift */; };
+		E657B0C4554C7AF36514A1FE /* ApplicationHost.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAEDD2CA2C9B5316BE9BF146 /* ApplicationHost.swift */; };
+		E6B809FE756BD0E634FF2C4F /* PassportServerPresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F8E15A92EADD2E1D9D9253E /* PassportServerPresentation.swift */; };
+		EA40A65593AA9B01650A2860 /* PassportSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 0B811C95539DFB989A747645 /* PassportSDK */; };
+		ED0B266F7B25BE2B51937184 /* BiometricCapturePreview in Frameworks */ = {isa = PBXBuildFile; productRef = A5F81B98460A1638977BDA4C /* BiometricCapturePreview */; };
+		F011C77EB1C91AB9AFE2C19E /* VisualEvidenceReview.swift in Sources */ = {isa = PBXBuildFile; fileRef = E99C660EDC2EFCFE280D37DA /* VisualEvidenceReview.swift */; };
+		F110E0B55A2C1D845F3FBDE9 /* WorkflowSensorHost.swift in Sources */ = {isa = PBXBuildFile; fileRef = C29943BC92C3281EE9949B65 /* WorkflowSensorHost.swift */; };
+		F25958F149BBAD8EAC13D73D /* FaceWorkflowPersistenceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940EF791B169F7027347B235 /* FaceWorkflowPersistenceTests.swift */; };
+		FBCCB58E0380DDCE701E94F2 /* PassportMRZPreview in Frameworks */ = {isa = PBXBuildFile; productRef = E0CB671F80A5711AC71A2D15 /* PassportMRZPreview */; };
+		FEA252F09E084B458E556C2E /* DocumentCaptureApple in Frameworks */ = {isa = PBXBuildFile; productRef = 79AF30D90BB7D87C9D62A9A6 /* DocumentCaptureApple */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		656B0E8640F4F6903B52C0EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7D70FD20969A892D4E8EEE95 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7880EE79B5456F9CAECA3FF4;
+			remoteInfo = KenshikiReference;
+		};
+		B8CE5F8E267C2DD244ED329A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7D70FD20969A892D4E8EEE95 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7880EE79B5456F9CAECA3FF4;
+			remoteInfo = KenshikiReference;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D08778D1D27046D731B86D9 /* DocumentFlowRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentFlowRenderer.swift; sourceTree = "<group>"; };
+		1673134D3118C096DE665736 /* FaceInferenceScheduler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceInferenceScheduler.swift; sourceTree = "<group>"; };
+		17DCD0D121F4DC27DEF0409B /* FaceCaptureSelectionProcessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceCaptureSelectionProcessor.swift; sourceTree = "<group>"; };
+		1B4562DB1E4917B0D59913F2 /* ReferenceRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReferenceRenderer.swift; sourceTree = "<group>"; };
+		1B82B6589203A8E303AE83C4 /* PassportFlowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassportFlowController.swift; sourceTree = "<group>"; };
+		1D104599E4172486573FFF40 /* StorageHealthDiagnostics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageHealthDiagnostics.swift; sourceTree = "<group>"; };
+		21DFD6C0BEB5B72371F70B81 /* NativeDocumentFlowCamera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NativeDocumentFlowCamera.swift; sourceTree = "<group>"; };
+		28BE3E8707EC8D1EB8B346BD /* CaptureMeasurements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptureMeasurements.swift; sourceTree = "<group>"; };
+		2A2B3E40B5CEA97BA1BD8AE4 /* BiometricCaptureHostTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiometricCaptureHostTests.swift; sourceTree = "<group>"; };
+		2ABCC595C488B87642441D1F /* LiquidRetirementTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiquidRetirementTests.swift; sourceTree = "<group>"; };
+		2C907AC7542AB33F1690ED07 /* ReviewJSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewJSON.swift; sourceTree = "<group>"; };
+		2D81F4E37075A29DD6DD56B0 /* PulseRegistrationRecovery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PulseRegistrationRecovery.swift; sourceTree = "<group>"; };
+		2DE5BA34666A7C8B28039B6D /* passport */ = {isa = PBXFileReference; lastKnownFileType = folder; name = passport; path = ../../passport; sourceTree = SOURCE_ROOT; };
+		2FA8FDD29A5BFE9AAECFEC53 /* PassportFaceJourneyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassportFaceJourneyTests.swift; sourceTree = "<group>"; };
+		33E2D05378B6E6641F5B4DAD /* SavedPassportJourneyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedPassportJourneyTests.swift; sourceTree = "<group>"; };
+		37E9DA388220E0C3E0D6755C /* FaceComparisonControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceComparisonControllerTests.swift; sourceTree = "<group>"; };
+		387EE0EEBBEC5302FB06A80D /* PassportFlowRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassportFlowRenderer.swift; sourceTree = "<group>"; };
+		3E34B19C1A1EF6D255D4F766 /* DocumentFlowCaptureMetadata.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentFlowCaptureMetadata.swift; sourceTree = "<group>"; };
+		40E6854843974DBC31E08C7B /* PassportServerCeremony.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassportServerCeremony.swift; sourceTree = "<group>"; };
+		41D9D601AB798A111E74E99C /* LiquidEvidencePass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiquidEvidencePass.swift; sourceTree = "<group>"; };
+		42374A5448698F8F5DC09FB0 /* BiometricCaptureRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiometricCaptureRenderer.swift; sourceTree = "<group>"; };
+		4237B3ABDBDFED81C8980E06 /* WorkflowEvidenceRecorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkflowEvidenceRecorder.swift; sourceTree = "<group>"; };
+		46D2A64E2C92636711E056F5 /* FaceCaptureQualitySession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceCaptureQualitySession.swift; sourceTree = "<group>"; };
+		48D480975329A2B31AEA731E /* ar-XB.lproj */ = {isa = PBXFileReference; path = "ar-XB.lproj"; sourceTree = "<group>"; };
+		50F1B3E6970EAC441627611B /* biometric */ = {isa = PBXFileReference; lastKnownFileType = folder; name = biometric; path = ../../biometric; sourceTree = SOURCE_ROOT; };
+		510EC2BB75B76F37686E3396 /* presentation */ = {isa = PBXFileReference; lastKnownFileType = folder; name = presentation; path = ../../presentation; sourceTree = SOURCE_ROOT; };
+		5603BD3BCD612338B34EF600 /* PassportCaptureStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassportCaptureStoreTests.swift; sourceTree = "<group>"; };
+		5797EE4BFADB3B3855030C65 /* WorkflowEvidenceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkflowEvidenceTests.swift; sourceTree = "<group>"; };
+		580278AD9A977BFA7C2E3C98 /* PassportCaptureStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassportCaptureStore.swift; sourceTree = "<group>"; };
+		5AC8AB37812780AE18FFD94D /* FaceWorkflowPipeline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceWorkflowPipeline.swift; sourceTree = "<group>"; };
+		5B6F558B050B91A595143F56 /* StorageHealthTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageHealthTests.swift; sourceTree = "<group>"; };
+		5F8E15A92EADD2E1D9D9253E /* PassportServerPresentation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassportServerPresentation.swift; sourceTree = "<group>"; };
+		62AE4BCC13D46F3942A6F157 /* PassportFaceJourneyHost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassportFaceJourneyHost.swift; sourceTree = "<group>"; };
+		633ECADEACF936D5C84023DB /* SavedPassportCapture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedPassportCapture.swift; sourceTree = "<group>"; };
+		63F680002E7767421ED7FBA2 /* DocumentFlowRendererTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentFlowRendererTests.swift; sourceTree = "<group>"; };
+		66B03DB1094CD030189A3D7E /* PassportServerPresentationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassportServerPresentationTests.swift; sourceTree = "<group>"; };
+		6702C4B3377A9AD490D770C3 /* DocumentFlowHost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentFlowHost.swift; sourceTree = "<group>"; };
+		72A6855E5C62831DFA374ABB /* quality-apple */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "quality-apple"; path = "../../biometric/quality-apple"; sourceTree = SOURCE_ROOT; };
+		7475DC5133D3D144AC4F59B4 /* FaceComparisonController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceComparisonController.swift; sourceTree = "<group>"; };
+		791B8486063A6477A48D3D0C /* KenshikiReference.icon */ = {isa = PBXFileReference; lastKnownFileType = wrapper.icon; path = KenshikiReference.icon; sourceTree = "<group>"; };
+		79EEF9B30F51DAC72487A0AF /* SavedFaceWorkflow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedFaceWorkflow.swift; sourceTree = "<group>"; };
+		89BEAFB8BC74C48EF5723074 /* DocumentFlowControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentFlowControllerTests.swift; sourceTree = "<group>"; };
+		8A486DAEC70760CDF7F416AF /* PassportFlowHost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassportFlowHost.swift; sourceTree = "<group>"; };
+		8C6BD906F8C85D6E8EC3DCF4 /* DocumentFlowPersistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentFlowPersistence.swift; sourceTree = "<group>"; };
+		915A9B40F2CA073FFDF255EC /* BiometricCaptureControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiometricCaptureControllerTests.swift; sourceTree = "<group>"; };
+		91F548E127C92E9FA910966F /* KenshikiReference.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = KenshikiReference.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9365D55B7B622CF86F642282 /* FaceComparisonHost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceComparisonHost.swift; sourceTree = "<group>"; };
+		93E1063D8C6F4E296AA97E20 /* PassportServerCeremonyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassportServerCeremonyTests.swift; sourceTree = "<group>"; };
+		940EF791B169F7027347B235 /* FaceWorkflowPersistenceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceWorkflowPersistenceTests.swift; sourceTree = "<group>"; };
+		992A65929243082EF620F971 /* DocumentFlowSQLiteStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentFlowSQLiteStoreTests.swift; sourceTree = "<group>"; };
+		9A38A288158ED87B371E1CD4 /* DocumentFlowHostLifecycleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentFlowHostLifecycleTests.swift; sourceTree = "<group>"; };
+		9AB5B120E3C834E9B3C639C3 /* NativePageContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NativePageContainer.swift; sourceTree = "<group>"; };
+		9C370C845A6C1FD20D723FD0 /* PassportPulseRegistrationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassportPulseRegistrationTests.swift; sourceTree = "<group>"; };
+		9DDC2F48AA5EBB46A42C972C /* PassportPulseRegistration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassportPulseRegistration.swift; sourceTree = "<group>"; };
+		A079C5EC4300852C06558CBE /* DocumentFlowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentFlowController.swift; sourceTree = "<group>"; };
+		A40A1E35EEE4C9EBF337875C /* ArchiveDescriptorFixture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchiveDescriptorFixture.swift; sourceTree = "<group>"; };
+		A6BEA55ECD456DC7C5C91DE9 /* DocumentFlowPersistenceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentFlowPersistenceTests.swift; sourceTree = "<group>"; };
+		A843FE87956F18B9ACA7D64D /* DocumentFrontCapturePresentation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentFrontCapturePresentation.swift; sourceTree = "<group>"; };
+		A93052AF30C8AEB55E42199F /* VisualFaceAssessment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisualFaceAssessment.swift; sourceTree = "<group>"; };
+		ACB729D76EEDC4B0116BFC60 /* en.lproj */ = {isa = PBXFileReference; path = en.lproj; sourceTree = "<group>"; };
+		B772E3D5735F22C3D7F145D8 /* BiometricCaptureController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiometricCaptureController.swift; sourceTree = "<group>"; };
+		BAEDD2CA2C9B5316BE9BF146 /* ApplicationHost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationHost.swift; sourceTree = "<group>"; };
+		BCC844F4D228346289F3D9A9 /* kenshiki-sdks */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "kenshiki-sdks"; path = ../..; sourceTree = SOURCE_ROOT; };
+		C098943ED5E470B0EC08E16E /* LiquidPassIntegrationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiquidPassIntegrationTests.swift; sourceTree = "<group>"; };
+		C29943BC92C3281EE9949B65 /* WorkflowSensorHost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkflowSensorHost.swift; sourceTree = "<group>"; };
+		C4790AF21076295ABA42ADA8 /* KenshikiReferenceUITests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = KenshikiReferenceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7105AF5F9798C4F37F558CF /* PassportFlowControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassportFlowControllerTests.swift; sourceTree = "<group>"; };
+		D05A1EE06E77640F01E4DC51 /* LegacyEvidenceBindings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegacyEvidenceBindings.swift; sourceTree = "<group>"; };
+		D3A1F8DEB92AF65CEA8926A9 /* document */ = {isa = PBXFileReference; lastKnownFileType = folder; name = document; path = ../../document; sourceTree = SOURCE_ROOT; };
+		D55BAD7E86F7CAEC5E119BAD /* motion */ = {isa = PBXFileReference; lastKnownFileType = folder; name = motion; path = ../../foundation/motion; sourceTree = SOURCE_ROOT; };
+		DC645C3FAAEDF9E72BE2240E /* PassportCaptureSchema.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassportCaptureSchema.swift; sourceTree = "<group>"; };
+		E2486ACF945D7AD5ABF5CB95 /* FaceInferenceSchedulerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceInferenceSchedulerTests.swift; sourceTree = "<group>"; };
+		E2B20276BC122068127A75CA /* PulsePassportClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PulsePassportClient.swift; sourceTree = "<group>"; };
+		E34F613D713F0F53DCEBB25A /* KenshikiReferenceControllerTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = KenshikiReferenceControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E578F1E795CE77BE545FDF77 /* WorkflowSmokeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkflowSmokeTests.swift; sourceTree = "<group>"; };
+		E5C0B529B5F92EB4ACAFA188 /* DocumentFlowSQLiteStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentFlowSQLiteStore.swift; sourceTree = "<group>"; };
+		E947F3192A0DEC86825559D3 /* SavedMRZCapture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedMRZCapture.swift; sourceTree = "<group>"; };
+		E99C660EDC2EFCFE280D37DA /* VisualEvidenceReview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisualEvidenceReview.swift; sourceTree = "<group>"; };
+		E9C0057854763205CC174A95 /* BiometricCaptureHost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiometricCaptureHost.swift; sourceTree = "<group>"; };
+		EAF211628E9DEAD5DDB6A5D4 /* PassportFaceJourneyController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassportFaceJourneyController.swift; sourceTree = "<group>"; };
+		EBBCD698DA012A56A0D4B660 /* FaceCaptureSelectionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceCaptureSelectionTests.swift; sourceTree = "<group>"; };
+		F2DAEDC4946C801DCE86B435 /* FaceCaptureSelection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceCaptureSelection.swift; sourceTree = "<group>"; };
+		F444178933A5ADE48AD6C0D5 /* WorkflowMotionProjection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkflowMotionProjection.swift; sourceTree = "<group>"; };
+		F5AD112BC432B71E2440040C /* SavedLiquidPass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedLiquidPass.swift; sourceTree = "<group>"; };
+		F5B5A9E1F348CC34410D4AB3 /* PulseRegistrationAttestationRetry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PulseRegistrationAttestationRetry.swift; sourceTree = "<group>"; };
+		F7139FB10B0E1B29F7D9BB9B /* KenshikiDesign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KenshikiDesign.swift; sourceTree = "<group>"; };
+		FE2BD924A2442E01F02977CD /* PassportPulseWire.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassportPulseWire.swift; sourceTree = "<group>"; };
+		FEBD1EC2BD802F02DD68421A /* en-XA.lproj */ = {isa = PBXFileReference; path = "en-XA.lproj"; sourceTree = "<group>"; };
+		FF2104BA28A5FEC4D652B14D /* LegacyLiquidArchive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegacyLiquidArchive.swift; sourceTree = "<group>"; };
+		FFD5F6307E0D9F2ABE1CA12B /* WorkflowRecoveryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkflowRecoveryTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07A60ED7479F2FF2659B388E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5928F8809F4627C2478BF0DB /* DocumentSDK in Frameworks */,
+				FEA252F09E084B458E556C2E /* DocumentCaptureApple in Frameworks */,
+				305C994810F66252DA038EA8 /* DocumentCapturePreview in Frameworks */,
+				2CABC5882376B7FB3F0E92A0 /* KenshikiMotion in Frameworks */,
+				78FE58E33E73284595D092D5 /* CaptureEvidenceCustody in Frameworks */,
+				528E0BB68B2D07E7BE11C657 /* KenshikiEvidenceManifest in Frameworks */,
+				095928D7E9C1E0D028AA35C4 /* SQLCipher in Frameworks */,
+				4E16EC6D00689E6580BAA391 /* KenshikiProtectedStorage in Frameworks */,
+				A9FE277042B643D1D95FE0CF /* KenshikiOperationBinding in Frameworks */,
+				DB32EB7ED3C566945477EC13 /* KenshikiPulsePassport in Frameworks */,
+				EA40A65593AA9B01650A2860 /* PassportSDK in Frameworks */,
+				C383C63EB87EC7FFFDC96661 /* PassportNFC in Frameworks */,
+				9117E7E98AF64A451CCDD8FB /* PassportMRZCapture in Frameworks */,
+				FBCCB58E0380DDCE701E94F2 /* PassportMRZPreview in Frameworks */,
+				DDA2F0501BBAC0DB068DFB6E /* KenshikiPresentation in Frameworks */,
+				CDC99B0CD540889768F482A8 /* BiometricCapture in Frameworks */,
+				ED0B266F7B25BE2B51937184 /* BiometricCapturePreview in Frameworks */,
+				40F45F75F249CD4134D0BB28 /* BiometricInference in Frameworks */,
+				7D8B4E7DA56AFEBD2486D72A /* BiometricQuality in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5686D6208FCF7E97D1AE07BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C23933AECCAE59DA0D5482B5 /* CaptureEvidenceCustody in Frameworks */,
+				2CEA397E6743ADBC280C8351 /* KenshikiEvidenceManifest in Frameworks */,
+				B63E743A55C538E18014099A /* KenshikiProtectedStorage in Frameworks */,
+				B323B13357866084D7BEC5E2 /* SQLCipher in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03A113AAD38CA1B1E4F88C7A /* LegacyVisualArchive */ = {
+			isa = PBXGroup;
+			children = (
+				28BE3E8707EC8D1EB8B346BD /* CaptureMeasurements.swift */,
+				D05A1EE06E77640F01E4DC51 /* LegacyEvidenceBindings.swift */,
+				41D9D601AB798A111E74E99C /* LiquidEvidencePass.swift */,
+				2C907AC7542AB33F1690ED07 /* ReviewJSON.swift */,
+				E99C660EDC2EFCFE280D37DA /* VisualEvidenceReview.swift */,
+				A93052AF30C8AEB55E42199F /* VisualFaceAssessment.swift */,
+			);
+			path = LegacyVisualArchive;
+			sourceTree = "<group>";
+		};
+		0F71B9AC77A93FBE2627188B /* swift */ = {
+			isa = PBXGroup;
+			children = (
+				48D480975329A2B31AEA731E /* ar-XB.lproj */,
+				FEBD1EC2BD802F02DD68421A /* en-XA.lproj */,
+				ACB729D76EEDC4B0116BFC60 /* en.lproj */,
+				F7139FB10B0E1B29F7D9BB9B /* KenshikiDesign.swift */,
+			);
+			name = swift;
+			path = "../../design-system/generated/swift";
+			sourceTree = "<group>";
+		};
+		2E2A812B6D2479E0AFC51DC3 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				BAEDD2CA2C9B5316BE9BF146 /* ApplicationHost.swift */,
+				B772E3D5735F22C3D7F145D8 /* BiometricCaptureController.swift */,
+				E9C0057854763205CC174A95 /* BiometricCaptureHost.swift */,
+				42374A5448698F8F5DC09FB0 /* BiometricCaptureRenderer.swift */,
+				3E34B19C1A1EF6D255D4F766 /* DocumentFlowCaptureMetadata.swift */,
+				A079C5EC4300852C06558CBE /* DocumentFlowController.swift */,
+				6702C4B3377A9AD490D770C3 /* DocumentFlowHost.swift */,
+				8C6BD906F8C85D6E8EC3DCF4 /* DocumentFlowPersistence.swift */,
+				0D08778D1D27046D731B86D9 /* DocumentFlowRenderer.swift */,
+				E5C0B529B5F92EB4ACAFA188 /* DocumentFlowSQLiteStore.swift */,
+				A843FE87956F18B9ACA7D64D /* DocumentFrontCapturePresentation.swift */,
+				46D2A64E2C92636711E056F5 /* FaceCaptureQualitySession.swift */,
+				F2DAEDC4946C801DCE86B435 /* FaceCaptureSelection.swift */,
+				17DCD0D121F4DC27DEF0409B /* FaceCaptureSelectionProcessor.swift */,
+				7475DC5133D3D144AC4F59B4 /* FaceComparisonController.swift */,
+				9365D55B7B622CF86F642282 /* FaceComparisonHost.swift */,
+				1673134D3118C096DE665736 /* FaceInferenceScheduler.swift */,
+				5AC8AB37812780AE18FFD94D /* FaceWorkflowPipeline.swift */,
+				FF2104BA28A5FEC4D652B14D /* LegacyLiquidArchive.swift */,
+				21DFD6C0BEB5B72371F70B81 /* NativeDocumentFlowCamera.swift */,
+				9AB5B120E3C834E9B3C639C3 /* NativePageContainer.swift */,
+				DC645C3FAAEDF9E72BE2240E /* PassportCaptureSchema.swift */,
+				580278AD9A977BFA7C2E3C98 /* PassportCaptureStore.swift */,
+				EAF211628E9DEAD5DDB6A5D4 /* PassportFaceJourneyController.swift */,
+				62AE4BCC13D46F3942A6F157 /* PassportFaceJourneyHost.swift */,
+				1B82B6589203A8E303AE83C4 /* PassportFlowController.swift */,
+				8A486DAEC70760CDF7F416AF /* PassportFlowHost.swift */,
+				387EE0EEBBEC5302FB06A80D /* PassportFlowRenderer.swift */,
+				9DDC2F48AA5EBB46A42C972C /* PassportPulseRegistration.swift */,
+				FE2BD924A2442E01F02977CD /* PassportPulseWire.swift */,
+				40E6854843974DBC31E08C7B /* PassportServerCeremony.swift */,
+				5F8E15A92EADD2E1D9D9253E /* PassportServerPresentation.swift */,
+				E2B20276BC122068127A75CA /* PulsePassportClient.swift */,
+				F5B5A9E1F348CC34410D4AB3 /* PulseRegistrationAttestationRetry.swift */,
+				2D81F4E37075A29DD6DD56B0 /* PulseRegistrationRecovery.swift */,
+				1B4562DB1E4917B0D59913F2 /* ReferenceRenderer.swift */,
+				79EEF9B30F51DAC72487A0AF /* SavedFaceWorkflow.swift */,
+				F5AD112BC432B71E2440040C /* SavedLiquidPass.swift */,
+				E947F3192A0DEC86825559D3 /* SavedMRZCapture.swift */,
+				633ECADEACF936D5C84023DB /* SavedPassportCapture.swift */,
+				1D104599E4172486573FFF40 /* StorageHealthDiagnostics.swift */,
+				4237B3ABDBDFED81C8980E06 /* WorkflowEvidenceRecorder.swift */,
+				F444178933A5ADE48AD6C0D5 /* WorkflowMotionProjection.swift */,
+				C29943BC92C3281EE9949B65 /* WorkflowSensorHost.swift */,
+				03A113AAD38CA1B1E4F88C7A /* LegacyVisualArchive */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		9154D2AB7486AB8E8E5F61AF = {
+			isa = PBXGroup;
+			children = (
+				B6919CAF192256B4DB282FA9 /* ControllerTests */,
+				EA5C921B5E7AAA1BDBE994EE /* ios */,
+				A84427DB8398E5FC90C8C13A /* Packages */,
+				2E2A812B6D2479E0AFC51DC3 /* Sources */,
+				0F71B9AC77A93FBE2627188B /* swift */,
+				D896CFD7430360E2F91C0EAC /* Tests */,
+				DED2BFCD181975A35535EB50 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A84427DB8398E5FC90C8C13A /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				50F1B3E6970EAC441627611B /* biometric */,
+				D3A1F8DEB92AF65CEA8926A9 /* document */,
+				BCC844F4D228346289F3D9A9 /* kenshiki-sdks */,
+				D55BAD7E86F7CAEC5E119BAD /* motion */,
+				2DE5BA34666A7C8B28039B6D /* passport */,
+				510EC2BB75B76F37686E3396 /* presentation */,
+				72A6855E5C62831DFA374ABB /* quality-apple */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+		B6919CAF192256B4DB282FA9 /* ControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				A40A1E35EEE4C9EBF337875C /* ArchiveDescriptorFixture.swift */,
+				915A9B40F2CA073FFDF255EC /* BiometricCaptureControllerTests.swift */,
+				2A2B3E40B5CEA97BA1BD8AE4 /* BiometricCaptureHostTests.swift */,
+				89BEAFB8BC74C48EF5723074 /* DocumentFlowControllerTests.swift */,
+				9A38A288158ED87B371E1CD4 /* DocumentFlowHostLifecycleTests.swift */,
+				A6BEA55ECD456DC7C5C91DE9 /* DocumentFlowPersistenceTests.swift */,
+				63F680002E7767421ED7FBA2 /* DocumentFlowRendererTests.swift */,
+				992A65929243082EF620F971 /* DocumentFlowSQLiteStoreTests.swift */,
+				EBBCD698DA012A56A0D4B660 /* FaceCaptureSelectionTests.swift */,
+				37E9DA388220E0C3E0D6755C /* FaceComparisonControllerTests.swift */,
+				E2486ACF945D7AD5ABF5CB95 /* FaceInferenceSchedulerTests.swift */,
+				940EF791B169F7027347B235 /* FaceWorkflowPersistenceTests.swift */,
+				C098943ED5E470B0EC08E16E /* LiquidPassIntegrationTests.swift */,
+				2ABCC595C488B87642441D1F /* LiquidRetirementTests.swift */,
+				5603BD3BCD612338B34EF600 /* PassportCaptureStoreTests.swift */,
+				2FA8FDD29A5BFE9AAECFEC53 /* PassportFaceJourneyTests.swift */,
+				C7105AF5F9798C4F37F558CF /* PassportFlowControllerTests.swift */,
+				9C370C845A6C1FD20D723FD0 /* PassportPulseRegistrationTests.swift */,
+				93E1063D8C6F4E296AA97E20 /* PassportServerCeremonyTests.swift */,
+				66B03DB1094CD030189A3D7E /* PassportServerPresentationTests.swift */,
+				33E2D05378B6E6641F5B4DAD /* SavedPassportJourneyTests.swift */,
+				5B6F558B050B91A595143F56 /* StorageHealthTests.swift */,
+				5797EE4BFADB3B3855030C65 /* WorkflowEvidenceTests.swift */,
+				FFD5F6307E0D9F2ABE1CA12B /* WorkflowRecoveryTests.swift */,
+			);
+			path = ControllerTests;
+			sourceTree = "<group>";
+		};
+		D896CFD7430360E2F91C0EAC /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				E578F1E795CE77BE545FDF77 /* WorkflowSmokeTests.swift */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		DED2BFCD181975A35535EB50 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				91F548E127C92E9FA910966F /* KenshikiReference.app */,
+				E34F613D713F0F53DCEBB25A /* KenshikiReferenceControllerTests.xctest */,
+				C4790AF21076295ABA42ADA8 /* KenshikiReferenceUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA5C921B5E7AAA1BDBE994EE /* ios */ = {
+			isa = PBXGroup;
+			children = (
+				791B8486063A6477A48D3D0C /* KenshikiReference.icon */,
+			);
+			name = ios;
+			path = "../../design-system/generated/ios";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2484B34D35CE663B69F91BBF /* KenshikiReferenceControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE7B7058C88B362E51AA0A5D /* Build configuration list for PBXNativeTarget "KenshikiReferenceControllerTests" */;
+			buildPhases = (
+				C5FAFC8C3EC8051F3E2B3648 /* Sources */,
+				5686D6208FCF7E97D1AE07BC /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				14E465CEE57304ACC2BB49B8 /* PBXTargetDependency */,
+			);
+			name = KenshikiReferenceControllerTests;
+			packageProductDependencies = (
+				A2F51F7A9CF929D6B3A7555E /* CaptureEvidenceCustody */,
+				CA030B7628BC90AFBE5535B5 /* KenshikiEvidenceManifest */,
+				728D5F124322C16FC638D17C /* KenshikiProtectedStorage */,
+				A1B3198769A19D739419873E /* SQLCipher */,
+			);
+			productName = KenshikiReferenceControllerTests;
+			productReference = E34F613D713F0F53DCEBB25A /* KenshikiReferenceControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6C86830142ED810B95296760 /* KenshikiReferenceUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A59E4E3CE574739A6B95B84 /* Build configuration list for PBXNativeTarget "KenshikiReferenceUITests" */;
+			buildPhases = (
+				2D711C02F8D4FE2541A577B4 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D43B1BF04CBF2F38A3BF5F76 /* PBXTargetDependency */,
+			);
+			name = KenshikiReferenceUITests;
+			packageProductDependencies = (
+			);
+			productName = KenshikiReferenceUITests;
+			productReference = C4790AF21076295ABA42ADA8 /* KenshikiReferenceUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		7880EE79B5456F9CAECA3FF4 /* KenshikiReference */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E1A1518F1A0040B256992DF /* Build configuration list for PBXNativeTarget "KenshikiReference" */;
+			buildPhases = (
+				4406D11A46751CE2E37F73BD /* Provision public passport trust */,
+				F0B91540D383497617E8587A /* Provision pinned face model */,
+				951B6568C4B28B0D1D76B6EB /* Provision pinned face quality profile */,
+				6CFC5BC342F1C18871788D03 /* Sources */,
+				8E07515A7144F1829406EC66 /* Resources */,
+				07A60ED7479F2FF2659B388E /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KenshikiReference;
+			packageProductDependencies = (
+				7315B1C578E29ECCCA8FD829 /* DocumentSDK */,
+				79AF30D90BB7D87C9D62A9A6 /* DocumentCaptureApple */,
+				3EC94EC2433B73A74B366400 /* DocumentCapturePreview */,
+				B9D24AB0AE1B2E1CC69483BF /* KenshikiMotion */,
+				6078FDCF2F5DB915852FD28E /* CaptureEvidenceCustody */,
+				CB62F6B5E6DE1688C20F9872 /* KenshikiEvidenceManifest */,
+				A34CF447D2A376231F078AFF /* SQLCipher */,
+				15448B83FFD68FA661F286AE /* KenshikiProtectedStorage */,
+				841948AEF692A622D6D11095 /* KenshikiOperationBinding */,
+				744C8E4B991D945B88B93CBD /* KenshikiPulsePassport */,
+				0B811C95539DFB989A747645 /* PassportSDK */,
+				0474A3271604E5B848F9EA1E /* PassportNFC */,
+				C03E786E6EB072CA95124D1E /* PassportMRZCapture */,
+				E0CB671F80A5711AC71A2D15 /* PassportMRZPreview */,
+				C606793DBDA9841E3C2BC35B /* KenshikiPresentation */,
+				86BC66D89319BC6CC516E89A /* BiometricCapture */,
+				A5F81B98460A1638977BDA4C /* BiometricCapturePreview */,
+				C57C2B4F022ED09372579672 /* BiometricInference */,
+				4945DB186D22E7460E538646 /* BiometricQuality */,
+			);
+			productName = KenshikiReference;
+			productReference = 91F548E127C92E9FA910966F /* KenshikiReference.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7D70FD20969A892D4E8EEE95 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					2484B34D35CE663B69F91BBF = {
+						DevelopmentTeam = "";
+					};
+					6C86830142ED810B95296760 = {
+						DevelopmentTeam = "";
+						TestTargetID = 7880EE79B5456F9CAECA3FF4;
+					};
+					7880EE79B5456F9CAECA3FF4 = {
+						DevelopmentTeam = "";
+					};
+				};
+			};
+			buildConfigurationList = F31A5292AB3F179EBC5ED245 /* Build configuration list for PBXProject "KenshikiReference" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 9154D2AB7486AB8E8E5F61AF;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				C800513CE67AD4894695068A /* XCRemoteSwiftPackageReference "SQLCipher.swift" */,
+				2AF123AE18F7766575C2EF02 /* XCLocalSwiftPackageReference "../../biometric" */,
+				BD1E81A4387CF951816FAFB7 /* XCLocalSwiftPackageReference "../../document" */,
+				C9A274CC8951DE25C79842FD /* XCLocalSwiftPackageReference "../../biometric/quality-apple" */,
+				864B92CBB3F53AA5BF54EE66 /* XCLocalSwiftPackageReference "../.." */,
+				A19F36C24BB160AAFAD1ADF1 /* XCLocalSwiftPackageReference "../../foundation/motion" */,
+				2F38E3115A60B5D9564C36EA /* XCLocalSwiftPackageReference "../../passport" */,
+				E03D06047D89E7F6248139AA /* XCLocalSwiftPackageReference "../../presentation" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = DED2BFCD181975A35535EB50 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7880EE79B5456F9CAECA3FF4 /* KenshikiReference */,
+				2484B34D35CE663B69F91BBF /* KenshikiReferenceControllerTests */,
+				6C86830142ED810B95296760 /* KenshikiReferenceUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8E07515A7144F1829406EC66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				676A1BE68A021819C772D4F1 /* KenshikiReference.icon in Resources */,
+				21F417C6D4A1F1371BCEFC63 /* ar-XB.lproj in Resources */,
+				7E70439232C4EAF67802C328 /* en-XA.lproj in Resources */,
+				07C4C034F686ADB70C264657 /* en.lproj in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4406D11A46751CE2E37F73BD /* Provision public passport trust */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Provision public passport trust";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "python3 \"$SRCROOT/../../scripts/provision_reference_trust.py\" --output \"$TARGET_BUILD_DIR/$UNLOCALIZED_RESOURCES_FOLDER_PATH\"";
+		};
+		951B6568C4B28B0D1D76B6EB /* Provision pinned face quality profile */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Provision pinned face quality profile";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "python3 \"$SRCROOT/../../scripts/provision_reference_quality.py\" --output \"$TARGET_BUILD_DIR/$UNLOCALIZED_RESOURCES_FOLDER_PATH\"";
+		};
+		F0B91540D383497617E8587A /* Provision pinned face model */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Provision pinned face model";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "python3 \"$SRCROOT/../../scripts/provision_reference_model.py\" --output \"$TARGET_BUILD_DIR/$UNLOCALIZED_RESOURCES_FOLDER_PATH\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2D711C02F8D4FE2541A577B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				412E9641DF83C8C6B4B480ED /* WorkflowSmokeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CFC5BC342F1C18871788D03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E657B0C4554C7AF36514A1FE /* ApplicationHost.swift in Sources */,
+				1FF3D84BBC21E87803C93433 /* BiometricCaptureController.swift in Sources */,
+				28FF1F12E8E8E75C8BA62152 /* BiometricCaptureHost.swift in Sources */,
+				746C4D31708BC1A3E67828F4 /* BiometricCaptureRenderer.swift in Sources */,
+				034DECBDA9F8190848B1E21E /* CaptureMeasurements.swift in Sources */,
+				A78B64BDA05C5333C99F2CCE /* DocumentFlowCaptureMetadata.swift in Sources */,
+				BE8AE81E8BAFF740339D43A0 /* DocumentFlowController.swift in Sources */,
+				974028F20DBB23579C3FD699 /* DocumentFlowHost.swift in Sources */,
+				5817B55623F00AE15F4AB303 /* DocumentFlowPersistence.swift in Sources */,
+				DCC5B1BC6A5071D85B88B952 /* DocumentFlowRenderer.swift in Sources */,
+				629D08836ADC08A5CB7AB0E0 /* DocumentFlowSQLiteStore.swift in Sources */,
+				D9831770DB666FCE5C5BCF25 /* DocumentFrontCapturePresentation.swift in Sources */,
+				D934CF179C231065452172B7 /* FaceCaptureQualitySession.swift in Sources */,
+				ACD3C073AF1AD7C6D3B55A1B /* FaceCaptureSelection.swift in Sources */,
+				7948690597DACE50B3F3E5CA /* FaceCaptureSelectionProcessor.swift in Sources */,
+				927CEF35CDC847B067578953 /* FaceComparisonController.swift in Sources */,
+				994ABA367A78A8A919A75A14 /* FaceComparisonHost.swift in Sources */,
+				4175FE2ADF40D8A995B87A1F /* FaceInferenceScheduler.swift in Sources */,
+				052675FCE0E40E80B168D559 /* FaceWorkflowPipeline.swift in Sources */,
+				063F252BAEC9C51E465B4E2B /* KenshikiDesign.swift in Sources */,
+				D9B0ABD7AE69A839EAB33E0A /* LegacyEvidenceBindings.swift in Sources */,
+				4E9280A1BDA47CDEB6677F75 /* LegacyLiquidArchive.swift in Sources */,
+				A40F6E17726170C1F0D85CE1 /* LiquidEvidencePass.swift in Sources */,
+				823304C96CDE895E2B74AA51 /* NativeDocumentFlowCamera.swift in Sources */,
+				A122CCF60CCB529477398214 /* NativePageContainer.swift in Sources */,
+				1CA1CAB1DEFFCE8839E55429 /* PassportCaptureSchema.swift in Sources */,
+				55A2CCCE1F3442F962C0FED8 /* PassportCaptureStore.swift in Sources */,
+				DADCC7B708F47C4F7506C57E /* PassportFaceJourneyController.swift in Sources */,
+				A95E8A8838D9D5A58585ECDD /* PassportFaceJourneyHost.swift in Sources */,
+				201A9E78EE230617A47D2CF2 /* PassportFlowController.swift in Sources */,
+				E50A27D9460C39604C018858 /* PassportFlowHost.swift in Sources */,
+				41D46E4F1F77A7D75BC325D0 /* PassportFlowRenderer.swift in Sources */,
+				09728A09FCCAB07AB8A71E95 /* PassportPulseRegistration.swift in Sources */,
+				7E2C81DEE9492E173D22B08B /* PassportPulseWire.swift in Sources */,
+				ABD04F60A69999732C1FB5E6 /* PassportServerCeremony.swift in Sources */,
+				E6B809FE756BD0E634FF2C4F /* PassportServerPresentation.swift in Sources */,
+				378501D62D75BA085925CC17 /* PulsePassportClient.swift in Sources */,
+				367C39A88731ED2ED52BB56C /* PulseRegistrationAttestationRetry.swift in Sources */,
+				0F64D59F90557BDDB4B82E41 /* PulseRegistrationRecovery.swift in Sources */,
+				97298895351731275C2783A6 /* ReferenceRenderer.swift in Sources */,
+				5630F7B8949A6B85A529F16F /* ReviewJSON.swift in Sources */,
+				77573D9A9F0DE842DE11EE27 /* SavedFaceWorkflow.swift in Sources */,
+				23CA2517BC1B11F03BAC628C /* SavedLiquidPass.swift in Sources */,
+				ADDFEF08237154BB8D2C86E2 /* SavedMRZCapture.swift in Sources */,
+				0BB2D3D29C0E5AC3BF8D6F65 /* SavedPassportCapture.swift in Sources */,
+				A72FCE93F7B1C89A7A516293 /* StorageHealthDiagnostics.swift in Sources */,
+				F011C77EB1C91AB9AFE2C19E /* VisualEvidenceReview.swift in Sources */,
+				A3DCF89CB58C8027126ADCFE /* VisualFaceAssessment.swift in Sources */,
+				1C89EAA117FA5EFC042A34CA /* WorkflowEvidenceRecorder.swift in Sources */,
+				50C31C583086F00A0EB8F07C /* WorkflowMotionProjection.swift in Sources */,
+				F110E0B55A2C1D845F3FBDE9 /* WorkflowSensorHost.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5FAFC8C3EC8051F3E2B3648 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CB92813BB0F744F5D0A6814 /* ArchiveDescriptorFixture.swift in Sources */,
+				A505C4004983563951E6640A /* BiometricCaptureControllerTests.swift in Sources */,
+				B54BA28C30784F45E19A837B /* BiometricCaptureHostTests.swift in Sources */,
+				9615C7033608C92F07DCEDCF /* DocumentFlowControllerTests.swift in Sources */,
+				3D1062681151F209C973C096 /* DocumentFlowHostLifecycleTests.swift in Sources */,
+				5CF1FD8AAA631D34BAA16F9D /* DocumentFlowPersistenceTests.swift in Sources */,
+				813382E77F025EA768B70984 /* DocumentFlowRendererTests.swift in Sources */,
+				DA7C15CA92120AE7C990A6A8 /* DocumentFlowSQLiteStoreTests.swift in Sources */,
+				2218026CB26703300659B595 /* FaceCaptureSelectionTests.swift in Sources */,
+				AD770732EB85D29DFBDF6283 /* FaceComparisonControllerTests.swift in Sources */,
+				DC989C21287ADC3D8D477686 /* FaceInferenceSchedulerTests.swift in Sources */,
+				F25958F149BBAD8EAC13D73D /* FaceWorkflowPersistenceTests.swift in Sources */,
+				183E75D00F7F0C0E078AA4D8 /* LiquidPassIntegrationTests.swift in Sources */,
+				2E9D6F6F1F0FF084E7382BD5 /* LiquidRetirementTests.swift in Sources */,
+				6871328332E5FD108500E794 /* PassportCaptureStoreTests.swift in Sources */,
+				DC6013EE04361FD3A0B413ED /* PassportFaceJourneyTests.swift in Sources */,
+				498F48B43D9D128553149E5C /* PassportFlowControllerTests.swift in Sources */,
+				3FC98C4A6AA19F5768B538FD /* PassportPulseRegistrationTests.swift in Sources */,
+				52EE67C4EE848014F5DF9CC6 /* PassportServerCeremonyTests.swift in Sources */,
+				95AF84CDAE12A56182EE0933 /* PassportServerPresentationTests.swift in Sources */,
+				C5B11E9D198C42702C687993 /* SavedPassportJourneyTests.swift in Sources */,
+				A4FD211265D04F090219B42C /* StorageHealthTests.swift in Sources */,
+				A9BE47DF820B96608B3211F2 /* WorkflowEvidenceTests.swift in Sources */,
+				B8934C694072F353FEB2C95E /* WorkflowRecoveryTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		14E465CEE57304ACC2BB49B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7880EE79B5456F9CAECA3FF4 /* KenshikiReference */;
+			targetProxy = 656B0E8640F4F6903B52C0EC /* PBXContainerItemProxy */;
+		};
+		D43B1BF04CBF2F38A3BF5F76 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7880EE79B5456F9CAECA3FF4 /* KenshikiReference */;
+			targetProxy = B8CE5F8E267C2DD244ED329A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		09F9B14EE094A202145C3FBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = KenshikiReference;
+				CODE_SIGN_ENTITLEMENTS = KenshikiReference.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "KenshikiReference-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "$(PRODUCT_NAME)";
+				INFOPLIST_KEY_NFCReaderUsageDescription = "$(PRODUCT_NAME)";
+				INFOPLIST_KEY_NSCameraUsageDescription = "$(PRODUCT_NAME)";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "$(PRODUCT_NAME)";
+				INFOPLIST_KEY_NSMotionUsageDescription = "$(PRODUCT_NAME)";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = NO;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kenshiki.reference;
+				SDKROOT = iphoneos;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7DF4D71182638A643C708111 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kenshiki.KenshikiReferenceUITests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KenshikiReference;
+			};
+			name = Release;
+		};
+		8B1B19F8D8B77642122501B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kenshiki.KenshikiReferenceControllerTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KenshikiReference.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KenshikiReference";
+			};
+			name = Release;
+		};
+		8F468607C2BA2A1429E882EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = KenshikiReference;
+				CODE_SIGN_ENTITLEMENTS = KenshikiReference.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "KenshikiReference-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "$(PRODUCT_NAME)";
+				INFOPLIST_KEY_NFCReaderUsageDescription = "$(PRODUCT_NAME)";
+				INFOPLIST_KEY_NSCameraUsageDescription = "$(PRODUCT_NAME)";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "$(PRODUCT_NAME)";
+				INFOPLIST_KEY_NSMotionUsageDescription = "$(PRODUCT_NAME)";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = NO;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kenshiki.reference;
+				SDKROOT = iphoneos;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A601811718202785F07D2D4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_TREAT_WARNINGS_AS_ERRORS = YES;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		B3A0C6A74C57E75EFE9BAC4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kenshiki.KenshikiReferenceUITests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KenshikiReference;
+			};
+			name = Debug;
+		};
+		BEA5466FDC4406F55ADEA540 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_TREAT_WARNINGS_AS_ERRORS = YES;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+		C60AA552A0EF641B32AC0B2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kenshiki.KenshikiReferenceControllerTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KenshikiReference.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KenshikiReference";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A59E4E3CE574739A6B95B84 /* Build configuration list for PBXNativeTarget "KenshikiReferenceUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3A0C6A74C57E75EFE9BAC4D /* Debug */,
+				7DF4D71182638A643C708111 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		4E1A1518F1A0040B256992DF /* Build configuration list for PBXNativeTarget "KenshikiReference" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F468607C2BA2A1429E882EB /* Debug */,
+				09F9B14EE094A202145C3FBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		AE7B7058C88B362E51AA0A5D /* Build configuration list for PBXNativeTarget "KenshikiReferenceControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C60AA552A0EF641B32AC0B2B /* Debug */,
+				8B1B19F8D8B77642122501B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F31A5292AB3F179EBC5ED245 /* Build configuration list for PBXProject "KenshikiReference" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A601811718202785F07D2D4E /* Debug */,
+				BEA5466FDC4406F55ADEA540 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		2AF123AE18F7766575C2EF02 /* XCLocalSwiftPackageReference "../../biometric" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../../biometric;
+		};
+		2F38E3115A60B5D9564C36EA /* XCLocalSwiftPackageReference "../../passport" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../../passport;
+		};
+		864B92CBB3F53AA5BF54EE66 /* XCLocalSwiftPackageReference "../.." */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../..;
+		};
+		A19F36C24BB160AAFAD1ADF1 /* XCLocalSwiftPackageReference "../../foundation/motion" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../../foundation/motion;
+		};
+		BD1E81A4387CF951816FAFB7 /* XCLocalSwiftPackageReference "../../document" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../../document;
+		};
+		C9A274CC8951DE25C79842FD /* XCLocalSwiftPackageReference "../../biometric/quality-apple" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = "../../biometric/quality-apple";
+		};
+		E03D06047D89E7F6248139AA /* XCLocalSwiftPackageReference "../../presentation" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../../presentation;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C800513CE67AD4894695068A /* XCRemoteSwiftPackageReference "SQLCipher.swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sqlcipher/SQLCipher.swift.git";
+			requirement = {
+				kind = revision;
+				revision = 39f212458aeb88e33bdac2200a793a3f0d55d32b;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0474A3271604E5B848F9EA1E /* PassportNFC */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = PassportNFC;
+		};
+		0B811C95539DFB989A747645 /* PassportSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = PassportSDK;
+		};
+		15448B83FFD68FA661F286AE /* KenshikiProtectedStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = KenshikiProtectedStorage;
+		};
+		3EC94EC2433B73A74B366400 /* DocumentCapturePreview */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = DocumentCapturePreview;
+		};
+		4945DB186D22E7460E538646 /* BiometricQuality */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = BiometricQuality;
+		};
+		6078FDCF2F5DB915852FD28E /* CaptureEvidenceCustody */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = CaptureEvidenceCustody;
+		};
+		728D5F124322C16FC638D17C /* KenshikiProtectedStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = KenshikiProtectedStorage;
+		};
+		7315B1C578E29ECCCA8FD829 /* DocumentSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = DocumentSDK;
+		};
+		744C8E4B991D945B88B93CBD /* KenshikiPulsePassport */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = KenshikiPulsePassport;
+		};
+		79AF30D90BB7D87C9D62A9A6 /* DocumentCaptureApple */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = DocumentCaptureApple;
+		};
+		841948AEF692A622D6D11095 /* KenshikiOperationBinding */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = KenshikiOperationBinding;
+		};
+		86BC66D89319BC6CC516E89A /* BiometricCapture */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = BiometricCapture;
+		};
+		A1B3198769A19D739419873E /* SQLCipher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C800513CE67AD4894695068A /* XCRemoteSwiftPackageReference "SQLCipher.swift" */;
+			productName = SQLCipher;
+		};
+		A2F51F7A9CF929D6B3A7555E /* CaptureEvidenceCustody */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = CaptureEvidenceCustody;
+		};
+		A34CF447D2A376231F078AFF /* SQLCipher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C800513CE67AD4894695068A /* XCRemoteSwiftPackageReference "SQLCipher.swift" */;
+			productName = SQLCipher;
+		};
+		A5F81B98460A1638977BDA4C /* BiometricCapturePreview */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = BiometricCapturePreview;
+		};
+		B9D24AB0AE1B2E1CC69483BF /* KenshikiMotion */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = KenshikiMotion;
+		};
+		C03E786E6EB072CA95124D1E /* PassportMRZCapture */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = PassportMRZCapture;
+		};
+		C57C2B4F022ED09372579672 /* BiometricInference */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = BiometricInference;
+		};
+		C606793DBDA9841E3C2BC35B /* KenshikiPresentation */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = KenshikiPresentation;
+		};
+		CA030B7628BC90AFBE5535B5 /* KenshikiEvidenceManifest */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = KenshikiEvidenceManifest;
+		};
+		CB62F6B5E6DE1688C20F9872 /* KenshikiEvidenceManifest */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = KenshikiEvidenceManifest;
+		};
+		E0CB671F80A5711AC71A2D15 /* PassportMRZPreview */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = PassportMRZPreview;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 7D70FD20969A892D4E8EEE95 /* Project object */;
+}

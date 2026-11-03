@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "status": "implemented_and_locally_validated",
+  "recordedUTC": "2026-10-17T23:12:58.097123+00:00",
+  "scope": "Fixed aligned-input C++ CPU inference; no mobile inference, face accuracy or FRTE recognition claim",
+  "artifactManifestSHA256": "9db36f239a89adfa6794f616f7face61f5ba1b0ca0c7f26b93a6204001856347",
+  "preprocessingManifestSHA256": "70da7b12bc90fda352222d941cc51e97288305de9522320fde8633b22a38e1d9",
+  "validation": {
+    "rootGovernancePassed": true,
+    "rootGovernanceTests": 90,
+    "capabilityGuards": [
+      "document",
+      "passport",
+      "biometric"
+    ],
+    "portablePreprocessingAssertionsPerPlatform": 37660,
+    "syntheticRuntimeAssertions": 1041,
+    "actualModelRuntimeAssertions": 1562,
+    "actualModelMaximumAbsoluteFeatureDifference": 1.96695e-06,
+    "commonPositiveVectors": 3,
+    "commonNegativeVectors": 10,
+    "cmakeOptionalTargetExplicitlyBuilt": true,
+    "sanitizers": [
+      "address",
+      "undefined"
+    ],
+    "independentCompiledMutantsKilled": 6,
+    "mutationCoreSourcesMatchCurrent": true,
+    "localSonarFiles": 8,
+    "localSonarIssues": 0,
+    "localSonarSupportsCpp": false
+  },
+  "evidence": [
+    {
+      "path": ".build/auraface-portable-final/receipt.json",
+      "sha256": "b406120bc8424e1e91bb8551a9a21531ba0c7ed6d1a36dffce8e0a6b0cec5530"
+    },
+    {
+      "path": ".build/auraface-linux-final/receipt.json",
+      "sha256": "c32e44ac781555f3dc4fb8305026e7cb02e21cb406d70946e71f8ff8634ef79c"
+    },
+    {
+      "path": ".build/auraface-inference-final/receipt.json",
+      "sha256": "aca95ca7955b1733d5054905b46266c333ac77a6dc8aeb42dd14cc403b9332cd"
+    },
+    {
+      "path": ".build/auraface-ci-equivalent/receipt.json",
+      "sha256": "38483726f020f6c1590823eeb3f8f5a8f834b02b6acd91fbe9cbb74fccc683bc"
+    },
+    {
+      "path": ".build/auraface-mutations/receipt.json",
+      "sha256": "a7b3386679a4363e75870fb2f28b24eedc07ae0e6c54f2dc460c89947287e01a"
+    },
+    {
+      "path": ".build/auraface-sonar-final.json",
+      "sha256": "454a09eed9871e942de5506b02d2e4776b50742963c5a3d8ca40c13385ca6c8d"
+    },
+    {
+      "path": ".build/auraface-governance-final.log",
+      "sha256": "18291a15cd74b1a4eb5953ebc182cb9c523485ade0105a0c6e7461338f12faef"
+    },
+    {
+      "path": ".build/validation/all-guards-root-regressions.log",
+      "sha256": "28eaca8ebddfdfd2094b339e57ad6baa26de277c60fbc3daf33a0701abb0748c"
+    },
+    {
+      "path": ".build/auraface-final-focused.log",
+      "sha256": "057c533d3cf3a2a07dcf8fcf2b8df9bca6ed65031f70307e856603fcc9597dd6"
+    }
+  ],
+  "sourceSHA256": {
+    ".github/workflows/ci.yml": "2693779954ac738fd6dec8be8b0417b8ff406065d80f95525307f960e44c1371",
+    "biometric/Gates/cpp-sources.json": "87cefbf1987df0bb7f4a8bbc3369b49c5c061f324d661d702792d0b596d7be54",
+    "biometric/Gates/onnxruntime-linux-x64.json": "e16ef4e64e447b989026519e6ba240fac2c63ec1a7e5877770abf7f57b8ab716",
+    "biometric/cpp/CMakeLists.txt": "12dc31844ae989a737c3f1ce1b5f4830584411cbe8dd0245c24f26712facbca9",
+    "biometric/cpp/README.md": "b1ff51878848b75346d7498699f417ed91c96b4696a3d4f7a0f9fade1f340551",
+    "biometric/cpp/check_inference.py": "40166b83157af5df2ead105e9f24e28d89f2654133c77a22817d423547f99bea",
+    "biometric/cpp/generate_vectors.py": "eb0e65e032d1c80118577a5ec3fb883bf6611a4fbdcb6afe226a20d0d4caa520",
+    "biometric/cpp/include/kenshiki/auraface.hpp": "87e917b8f4a444b71b35f25de86eb18345af765b08c1e1294e1decaaeeba6492",
+    "biometric/cpp/include/kenshiki/auraface_input.hpp": "9320e340b2d1f5df13b82c793dc17af22280a51dab3fc6361565b94247096594",
+    "biometric/cpp/include/kenshiki/portrait.hpp": "56b54668fd42254f1706cd6e08f47d70a79d7b0cf3d7ae5d0736a01fce3e9caf",
+    "biometric/cpp/src/auraface.cpp": "7e978107629f8fb0ec7bd372412616db550759749d60ff4e180d5b3d890642c6",
+    "biometric/cpp/src/auraface_input.cpp": "fa59deb89f4d47a7c7fe45e2f11df673250f67b98eec0a2f0b564d65720a51f3",
+    "biometric/cpp/src/auraface_runtime.hpp": "92c9b489d595389f3e2093d2bd6262b3d2c3e8ac0043d36fc359be09a725fe75",
+    "biometric/cpp/src/portrait.cpp": "d7ea9c8a7da2de230e9a7fd4f9beb218f08f29df09c9da91b5240e0a1acf25e5",
+    "biometric/cpp/tests/auraface_input_tests.cpp": "f9adf33ab0cd95269325326ab30393842e8bcb097b13aad7426e4f5db260a727",
+    "biometric/cpp/tests/auraface_runtime_tests.cpp": "10e1c7e9b32c626b1979d0176f2cf70b78e211a06fef7cbe51e1d409bac15fb1",
+    "biometric/cpp/tests/contract_tests.cpp": "dd36ba7e4d8b6456f0f37c81fecde8293debdcbcc676616becfe1bfa112fcaf9",
+    "biometric/cpp/tests/generate_auraface_fixtures.py": "1253818a4a899d411efe189f66cd409234730deb6adb91e8e63dace5fe9f4307",
+    "biometric/nist/check.py": "8df5194ab164e4a6b2a27d88ec81499991433cf03a360b2b389cce60297bd9e0",
+    "contracts/auraface-aligned-input-v1.json": "70da7b12bc90fda352222d941cc51e97288305de9522320fde8633b22a38e1d9",
+    "contracts/auraface-aligned-input-v1.md": "ee6f9a2550ce2858ba00a912ad312ed0a8c48e1bd240951002dc85b9b661b077",
+    "contracts/auraface-aligned-input-v1.vectors.json": "a643fe411159f9f3b49f7e7235cdc523c352d0fbc7f341eda530f7e7e47d2b0c",
+    "contracts/auraface-artifact-v1.json": "9db36f239a89adfa6794f616f7face61f5ba1b0ca0c7f26b93a6204001856347",
+    "contracts/auraface-baseline-output-v1.json": "d4b7cd54720710dde8e6b142b709ebe9aa2897576c13817a575d5f03711d8484",
+    "governance/ci-contract.mjs": "1adf4f3b6264821b46b09cf1c4fc2ff0e05662f137673b20e34f84ef97b5afb4",
+    "governance/tests/test_cpp_boundaries.py": "bda0d01fec69b146aa829490202fc4de1a475f10ff2cc9172144404806763cee",
+    "governance/tests/test_inference_runner.py": "f622918dfa5be47415ef32c253b300ab6bc0878da24436a665685e3dbfc31051",
+    "governance/tests/test_monorepo.py": "afa39c81d4dbf6d78db77213622e81d73ea9a8a4f4438be3a5f61aacdf4c15c1",
+    "governance/tooling-lock.json": "672976553c8c61db7b7131491550bde36951a17e1cb7ab53e0d69e0cd6710d86",
+    "quality/cpp_guards.py": "4495598f101e0767b2b26eb1e9c3bfc19cdeddc59bce3d5f7bd14d1995c3824a"
+  },
+  "hostedCIForThisWorkExecuted": false,
+  "hostedSonarGateForThisWork": null,
+  "hostedDuplicationForThisWork": null,
+  "mobileInferenceImplemented": false,
+  "detectorAndAlignmentImplemented": false,
+  "frteAlgorithmAdapterImplemented": false,
+  "frteRecognitionEvaluationExecuted": false,
+  "fineTuningExecuted": false,
+  "committedOrPushedByThisTask": false
+}

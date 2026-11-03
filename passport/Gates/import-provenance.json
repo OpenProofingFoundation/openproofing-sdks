@@ -1,0 +1,38 @@
+{
+  "sourceRepository": "kenshiki-identity-sdk",
+  "sourceRevision": "4b407a7bc5eb14a2f5913a77cd919fcde4c11290",
+  "sourceState": "working-tree file hashes; unrelated edits preserved",
+  "date": "2026-10-16",
+  "files": [
+    {
+      "sourcePath": "Gates/boundary_gates.py",
+      "sourceSHA256": "4e807a8f75fc8ed528bb2874b42044f866b046548b57768c47a67ac8cea90209",
+      "destination": "../quality/upstream/boundary_gates.py",
+      "destinationSHA256": "f9242de5137681df736b0bc7b2829249be6dea4ddef87fefd1f754610b9dccf1",
+      "transform": "Shared monorepo guard; attributed behavior-preserving reliability/security refactoring",
+      "localPatches": [
+        {
+          "date": "2026-10-16",
+          "author": "Kenshiki Labs",
+          "rule": "python:S8786",
+          "description": "Bound regex backtracking; extract small lexical, parser, CLI and adversarial-probe helpers; consolidate repeated constants. Original self-tests and differential behavior checks preserved. Single shared monorepo implementation."
+        }
+      ]
+    },
+    {
+      "sourcePath": "scripts/guards/package-lock-integrity.mjs",
+      "sourceSHA256": "48ecdb888b9d57bb487e9b499073fb76d8298e65357345b097b20e35deab49b4",
+      "destination": "scripts/guards/package-lock-integrity.mjs",
+      "destinationSHA256": "96562c220b61934fddc9c3848973e158ac8c3b486c17c89ec0b055c2201c460a",
+      "transform": "Thin capability-root wrapper over shared quality/lock_integrity.mjs; original source hash retained"
+    },
+    {
+      "sourceRepository": "pulse-gov",
+      "sourcePath": "android/gradle/wrapper/gradle-wrapper.jar",
+      "sourceSHA256": "7d3a4ac4de1c32b59bc6a4eb8ecb8e612ccd0cf1ae1e99f66902da64df296172",
+      "destination": "android/gradle/wrapper/gradle-wrapper.jar",
+      "destinationSHA256": "7d3a4ac4de1c32b59bc6a4eb8ecb8e612ccd0cf1ae1e99f66902da64df296172",
+      "transform": "identity"
+    }
+  ]
+}

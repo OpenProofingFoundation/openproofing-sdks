@@ -1,0 +1,140 @@
+{
+  "schemaVersion": 1,
+  "model": "liquid",
+  "context": {
+    "requestId": "request-usable-001",
+    "operationId": "operation-usable-001",
+    "attemptId": "attempt-usable-001",
+    "challenge": "example-challenge-usable-0000000000000001",
+    "applicationId": "application-example",
+    "installationId": "installation-example",
+    "sessionId": "session-usable-001",
+    "generation": "generation-usable-001",
+    "policyId": "policy-example",
+    "policyVersion": "v1",
+    "reference": {
+      "evidenceId": "reference-usable-001",
+      "sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+    },
+    "selfie": {
+      "evidenceId": "selfie-usable-001",
+      "sha256": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb"
+    }
+  },
+  "execution": {
+    "artifactSHA256": "bf86cc6b16e4f6a870336d5e0ebad0c5cf1d63214efef8efeb8b9655174b3913",
+    "profileId": "lfm25-vl16b-affine4-g64-mlx-pair-interpretation-v2",
+    "promptSHA256": "d430c1e210df56628384d00598c83f66bcc8d3ef986b559e848a95a9d58a158d",
+    "runtime": {
+      "name": "mlx-swift-lm",
+      "version": "bb0d5b048f02e14dbf8f2d7bb1a20911a295470a",
+      "platform": "ios",
+      "osVersion": "27.2"
+    },
+    "durationMilliseconds": 3284.6,
+    "promptContractSHA256": "2e741148ff557705e3f3419b3595691fb3ec5523d4cfa1b1dfcaeadf061ec5e5",
+    "responseSchemaSHA256": "a985a2a909b3ac2e69b10ba118a897ee714f92e2318fd4ea5c2ceb938febff4d",
+    "inputSHA256": "c1b5d27600206a50ea3e394bf42e6c00862107e573ec0117b75e9064b86869b3"
+  },
+  "status": "completed",
+  "observation": {
+    "language": "en",
+    "report": {
+      "reference": {
+        "qualityIssues": [
+          "low_detail"
+        ],
+        "observations": [
+          "Both eyes, the nose outline and mouth are visible in a near-frontal portrait."
+        ],
+        "apparentAge": {
+          "rangeYears": [
+            22,
+            32
+          ],
+          "basis": "Visible facial appearance supports a broad young-adult range.",
+          "limitations": [
+            "Low reference detail makes fine age estimation unreliable."
+          ]
+        }
+      },
+      "selfie": {
+        "qualityIssues": [],
+        "observations": [
+          "The whole selfie shows a face, shoulders and a room background; the face is in focus."
+        ],
+        "apparentAge": {
+          "rangeYears": [
+            30,
+            42
+          ],
+          "basis": "Visible facial appearance supports a broad adult range that includes the supplied expected age of 36.",
+          "limitations": [
+            "Appearance varies; this range is not a measurement of chronological age."
+          ]
+        }
+      },
+      "auraReview": {
+        "relationship": "supports",
+        "evidence": [
+          "Visible eye contours, nose outline and mouth proportions are compatible with the supplied similarity interpretation."
+        ],
+        "limitations": [
+          "These observations do not independently establish identity."
+        ]
+      },
+      "ageReview": {
+        "relationship": "plausible",
+        "evidence": [
+          "The supplied dates place the holder at 26 in the reference photo and 36 at selfie capture; the broad apparent-age ranges include those ages."
+        ],
+        "limitations": [
+          "The older reference reasonably limits direct comparison of age-related appearance."
+        ]
+      },
+      "captureReview": {
+        "indicators": [
+          {
+            "indicator": "visible_bezel",
+            "status": "absent",
+            "evidence": "No display border is visible within the supplied selfie frame.",
+            "sourceImageIds": [
+              "Media-2"
+            ]
+          },
+          {
+            "indicator": "paper_texture",
+            "status": "not_observable",
+            "evidence": "The selfie does not resolve a surface on which paper texture could be assessed.",
+            "sourceImageIds": [
+              "Media-2"
+            ]
+          },
+          {
+            "indicator": "motion_parallax",
+            "status": "not_observable",
+            "evidence": "One still image supplies no change of viewpoint over time.",
+            "sourceImageIds": [
+              "Media-2"
+            ]
+          },
+          {
+            "indicator": "depth_consistency",
+            "status": "not_observable",
+            "evidence": "No TrueDepth observations were provided.",
+            "sourceImageIds": [
+              "Media-2"
+            ]
+          }
+        ],
+        "observations": [
+          "The visible room context does not itself prove physical presence or camera authenticity."
+        ],
+        "limitations": [
+          "Static absence of a bezel does not rule out display replay or other manipulation."
+        ]
+      },
+      "summary": "The visible facial details and supplied age chronology support the provided embedding interpretation. The older portrait and still-only capture limit the conclusions; the BFF retains the identity decision."
+    }
+  }
+}

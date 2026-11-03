@@ -1,0 +1,91 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Bound operation receipt v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "application_id",
+    "installation_id",
+    "audience",
+    "operation_kind",
+    "operation_id",
+    "target_id",
+    "generation",
+    "content_digest",
+    "expires_at",
+    "v",
+    "request_digest",
+    "result_digest",
+    "result_revision"
+  ],
+  "properties": {
+    "application_id": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 256,
+      "pattern": "^[!-~]+$"
+    },
+    "installation_id": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 256,
+      "pattern": "^[!-~]+$"
+    },
+    "audience": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 256,
+      "pattern": "^[!-~]+$"
+    },
+    "operation_kind": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 256,
+      "pattern": "^[!-~]+$"
+    },
+    "operation_id": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 256,
+      "pattern": "^[!-~]+$"
+    },
+    "target_id": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 256,
+      "pattern": "^[!-~]+$"
+    },
+    "generation": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 256,
+      "pattern": "^[!-~]+$"
+    },
+    "content_digest": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "expires_at": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 9007199254740991
+    },
+    "v": {
+      "const": "kenshiki.operation-receipt.v1"
+    },
+    "request_digest": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "result_digest": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "result_revision": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 9007199254740991
+    }
+  },
+  "description": "request_digest is lowercase hex of domain-separated sealed operation client-data hash; result_digest covers exact closed product canonical result excluding the receipt. Receipt expiry bounds authenticated readback, not new execution authorization. Receipt comparisons require configured authenticated service transport; they do not establish service origin independently."
+}

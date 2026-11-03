@@ -1,0 +1,44 @@
+# Monorepo ownership and migration
+
+The owner approved one `kenshiki-sdks` repository containing three independent SDK products on 2026-10-16. This supersedes the separate-repository topology, while retaining product names, public package names and independent release tracks.
+
+`document/`, `passport/` and `biometric/` were imported by unsquashed Git subtree merges. The original source commits remain ancestors; `imports.json` identifies exact revisions. Predecessor local directories and GitHub repositories remain available and have not been deleted or archived. Active development belongs in this monorepo. Coordinate any Boston developer work from the predecessor document repository by importing its commits into `document/`, with review and checks; never overwrite such work with a new scaffold.
+
+The document implementation is extracted from the original identity SDK with exact source hashes and its meaningful suites; the original checkout remains the adopting apps' compatibility input until reviewed cutovers. New reusable document work belongs in `document/`, with generic custody in `foundation/`. The architecture standard is now maintained here at `architecture/APP-ARCH-001.md`, revision 0.2. `references/` contains frozen, hash-pinned verification and boundary documents; source-code links in those snapshots refer to their original checkout. Revision 0.2 supersedes the reference spec's repository topology and passport placement; verification methods and evidence requirements continue to apply. Reconcile the next verification-spec revision before implementation extraction. Historical receipts retain their original scope and names.
+
+## Dependency and package ownership
+
+Every capability owns both platform packages, its optional native presentation/adapters, API snapshots, synthetic fixtures and behavior/assurance suites. No capability requires another SDK or a Kenshiki backend account for its headless path. Public SDK entry points remain product-specific. Consumers must not depend on the whole source tree to use one capability.
+
+`foundation/` owns selected reusable native storage/key/attestation/lifecycle products. `KenshikiOperationBinding` is exported by the repository-root Swift manifest from the same foundation sources and tests; remaining extraction and Android adoption are separate. `contracts/` owns common schemas/conformance vectors. `design-system/` now owns the JSONC design/catalog compiler and generated native resources; `presentation/` owns the optional pure Swift/Kotlin demonstration controllers; `reference-apps/` composes those into UIKit/Android hosts. Headless capabilities do not depend on these optional presentation products. Root guards reject unregistered native source: `presentation-sources.json` explicitly classifies every shared/app native file. Foundation modules still require their own package inventory, dependency rules, adversarial and native tests before extraction. One compatible foundation version is resolved per application.
+
+Per-product versions start at `0.0.0` (scaffold). Release tags are namespaced by product. Swift packages remain at `<product>/Package.swift` and Android libraries at `<product>/android/`; future consumer distribution must support an independent package install without a mandatory sibling capability. A monorepo URL alone does not make nested Swift packages independently fetchable by SwiftPM: publish per-product package artifacts or generated distribution repositories when release packaging is implemented. For the shared foundation only, the root manifest now supports Git URL plus reviewed revision consumption with no sibling checkout; independent capability packaging and registry/release automation remain separate.
+
+## Guards and CI
+
+The root `.github/workflows/ci.yml` is the executed workflow. All three capabilities run guards, macOS, unsigned iOS device, iOS simulator and Android lanes. The complete matrix is unconditional on pushes and pull requests. Its exact execution contract rejects omissions, exclusions, execution-context overrides, early-success/echo substitutions and softened failures. Actions use immutable commits and read-only permissions; all jobs preserve logs/receipts even on failure. The existing per-product lane recipes under `Gates/native-lanes.yml` remain regression-guarded recipes, not executed GitHub workflows.
+
+Root tooling has a reviewed content lock. Changes to the root check/bootstrap/CI contract require a matching lock update and passing adversarial tests. This establishes reviewable drift, not protection against an authorized reviewer deliberately changing both a guard and its lock. The imported upstream boundary engines remain unmodified and their original provenance checks still run. Every capability retains zero-debt Swift/Kotlin, dependency, privacy, source inventory, contract parity, API and packaged-artifact checks.
+
+`scripts/check.py` retains separate root and product/lane receipts under `.build/validation/`, with revision/dirty state, source/lock hashes, command, host, log digest and discovered API/AAR artifact digests. Native toolchain/test output remains in each lane log. These execution receipts do not claim complete APP-ARCH-001 EVID-01 conformance for future behavior/device suites: structured required-test-ID/count, device and acceptance receipts are added with the relevant implementation. Android scaffold unit tasks still report NO-SOURCE; macOS XCTest executes the capability guard suite.
+
+Required hosted check names are `document / <lane>`, `passport / <lane>` and `biometric / <lane>` for each of `guards`, `macos`, `ios-device`, `ios-simulator`, `android`. Remote branch enforcement is separate from workflow configuration and is not claimed by this document. No releases, public publication or production deployments occur in these QA jobs.
+
+Presentation adds five mandatory jobs named `presentation / macos`, `presentation / ios-device`, `presentation / ios-simulator`, `presentation / ios-ui` and `presentation / android`. They run root governance first, then `scripts/presentation_check.py` with the matching lane. Logs, native artifacts and scoped receipts remain under `.build/presentation/`. Source inventory, technical string-token allowlists, lexical renderer/dependency checks, strict Android verification and generator/schema/native test locks extend the existing guards. These source checks complement code review and actual compiler/UI tests; they are not a general AST or information-flow proof for arbitrary native source. Source changes during execution invalidate the native receipt. Explicit `platform-container` sources may select OS availability and supplied visual variants and manage native layout; they cannot import workflow types, own workflow state or effects, or invoke core/storage/network operations. Strict renderers retain the prepared-state boundary. Compose effects and mutable/derived application state are rejected in both rendering roles; native scroll state is a layout concern.
+
+Implementation planning lives in [APP-ARCH-001 Appendix A](architecture/APP-ARCH-001.md#appendix-a-adoption-and-implementation-plan); current delivery and blockers live in [HANDOFF.md](../HANDOFF.md).
+
+## Optional biometric capture lane
+
+The optional iOS capture products add one mandatory hosted job, `biometric / capture iOS`, and the same `scripts/capture_check.py` execution to aggregate local biometric/all validation. Its exact required test manifest, result freshness/no-skip checks, source snapshots and attempt receipts accompany the extraction. All three Swift products remain neutral and independently exported; the headless product does not import capture or preview. Native reference integration remains in the separate presentation jobs.
+
+The additional unconditional `foundation / SwiftPM root` job validates the root distribution manifest and executes the existing foundation behavior suite on macOS. Root-package inventory/dependency mutations and missing/redirected CI execution are covered by the root governance tests. The nested `foundation/Package.swift` is retained as a local developer entry point, not a second source implementation.
+
+The optional `KenshikiPulsePassport` product lives under `services/pulse/` in that
+same root distribution manifest. Three unconditional `Pulse service / macos`,
+`Pulse service / ios-device` and `Pulse service / ios-simulator` jobs qualify its
+compiled public API, strict concurrency and source-bound execution. Both test lanes
+require every declared case without skips or expected failures; the device lane
+compiles the actual iOS implementation. Neither headless capability products nor
+foundation depend on this service. See [service ownership and qualification](../services/pulse/README.md)
+and [A.17](architecture/APP-ARCH-001.md#a17-complete-pulse-passport-adoption-and-shared-repair-23-october-2026).

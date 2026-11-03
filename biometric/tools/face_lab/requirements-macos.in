@@ -1,0 +1,12 @@
+# Python 3.11, macOS arm64. PyTorch 2.7 is in coremltools 9's supported conversion range.
+torch==2.7.0
+torchvision==0.22.0
+coremltools==9.0
+onnx==1.18.0
+onnxruntime==1.22.0
+numpy==1.26.4
+pillow==11.2.1
+safetensors==0.5.3
+pillow-heif==0.22.0
+cmake==3.31.6
+ninja==1.11.1.3

@@ -1,0 +1,701 @@
+{
+  "relationships": [
+    {
+      "kind": "conformsTo",
+      "source": "s:20KenshikiPresentation10CapabilityO",
+      "target": "s:SH"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:20KenshikiPresentation10CapabilityO",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:20KenshikiPresentation10CapabilityO",
+      "target": "s:SY"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:20KenshikiPresentation10CapabilityO",
+      "target": "s:s12CaseIterableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:20KenshikiPresentation10CapabilityO",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:20KenshikiPresentation10CapabilityO",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:20KenshikiPresentation11StubOutcomeV",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:20KenshikiPresentation11StubOutcomeV",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:20KenshikiPresentation11StubOutcomeV",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:20KenshikiPresentation13WorkflowEventO",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:20KenshikiPresentation13WorkflowEventO",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:20KenshikiPresentation13WorkflowEventO",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:20KenshikiPresentation13WorkflowPhaseO",
+      "target": "s:SH"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:20KenshikiPresentation13WorkflowPhaseO",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:20KenshikiPresentation13WorkflowPhaseO",
+      "target": "s:SY"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:20KenshikiPresentation13WorkflowPhaseO",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:20KenshikiPresentation13WorkflowPhaseO",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:20KenshikiPresentation13WorkflowStateV",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:20KenshikiPresentation13WorkflowStateV",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:20KenshikiPresentation13WorkflowStateV",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:20KenshikiPresentation14OperationTokenV",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:20KenshikiPresentation14OperationTokenV",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:20KenshikiPresentation14OperationTokenV",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:20KenshikiPresentation14RecoveryReasonO",
+      "target": "s:SH"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:20KenshikiPresentation14RecoveryReasonO",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:20KenshikiPresentation14RecoveryReasonO",
+      "target": "s:SY"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:20KenshikiPresentation14RecoveryReasonO",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:20KenshikiPresentation14RecoveryReasonO",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:20KenshikiPresentation14StubCompletionO",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:20KenshikiPresentation14StubCompletionO",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:20KenshikiPresentation14StubCompletionO",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:20KenshikiPresentation14WorkflowActionV",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:20KenshikiPresentation14WorkflowActionV",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:20KenshikiPresentation14WorkflowActionV",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:20KenshikiPresentation16OperationRequestV",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:20KenshikiPresentation16OperationRequestV",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:20KenshikiPresentation16OperationRequestV",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:20KenshikiPresentation16WorkflowActionIDO",
+      "target": "s:SH"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:20KenshikiPresentation16WorkflowActionIDO",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:20KenshikiPresentation16WorkflowActionIDO",
+      "target": "s:SY"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:20KenshikiPresentation16WorkflowActionIDO",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:20KenshikiPresentation16WorkflowActionIDO",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:20KenshikiPresentation23DeterministicStubEngineV",
+      "target": "s:20KenshikiPresentation14WorkflowEngineP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:20KenshikiPresentation9StubScopeO",
+      "target": "s:SH"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:20KenshikiPresentation9StubScopeO",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:20KenshikiPresentation9StubScopeO",
+      "target": "s:SY"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:20KenshikiPresentation9StubScopeO",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:20KenshikiPresentation9StubScopeO",
+      "target": "s:s8SendableP"
+    }
+  ],
+  "symbols": [
+    {
+      "declaration": "enum Capability",
+      "id": "s:20KenshikiPresentation10CapabilityO",
+      "kind": "swift.enum"
+    },
+    {
+      "declaration": "case document",
+      "id": "s:20KenshikiPresentation10CapabilityO8documentyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case passport",
+      "id": "s:20KenshikiPresentation10CapabilityO8passportyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "init?(rawValue: String)",
+      "id": "s:20KenshikiPresentation10CapabilityO8rawValueACSgSS_tcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "var titleKey: String { get }",
+      "id": "s:20KenshikiPresentation10CapabilityO8titleKeySSvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "case biometric",
+      "id": "s:20KenshikiPresentation10CapabilityO9biometricyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "struct StubOutcome",
+      "id": "s:20KenshikiPresentation11StubOutcomeV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "let capability: Capability",
+      "id": "s:20KenshikiPresentation11StubOutcomeV10capabilityAA10CapabilityOvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let messageKey: String",
+      "id": "s:20KenshikiPresentation11StubOutcomeV10messageKeySSvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let scope: StubScope",
+      "id": "s:20KenshikiPresentation11StubOutcomeV5scopeAA0C5ScopeOvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "enum WorkflowEvent",
+      "id": "s:20KenshikiPresentation13WorkflowEventO",
+      "kind": "swift.enum"
+    },
+    {
+      "declaration": "case simulateFailure",
+      "id": "s:20KenshikiPresentation13WorkflowEventO15simulateFailureyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case fail(RecoveryReason)",
+      "id": "s:20KenshikiPresentation13WorkflowEventO4failyAcA14RecoveryReasonOcACmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case retry",
+      "id": "s:20KenshikiPresentation13WorkflowEventO5retryyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case start",
+      "id": "s:20KenshikiPresentation13WorkflowEventO5startyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case cancel",
+      "id": "s:20KenshikiPresentation13WorkflowEventO6cancelyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case advance",
+      "id": "s:20KenshikiPresentation13WorkflowEventO7advanceyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case restore",
+      "id": "s:20KenshikiPresentation13WorkflowEventO7restoreyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case complete(OperationToken, StubCompletion)",
+      "id": "s:20KenshikiPresentation13WorkflowEventO8completeyAcA14OperationTokenV_AA14StubCompletionOtcACmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case interrupt",
+      "id": "s:20KenshikiPresentation13WorkflowEventO9interruptyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "enum WorkflowPhase",
+      "id": "s:20KenshikiPresentation13WorkflowPhaseO",
+      "kind": "swift.enum"
+    },
+    {
+      "declaration": "case processing",
+      "id": "s:20KenshikiPresentation13WorkflowPhaseO10processingyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case recoverable",
+      "id": "s:20KenshikiPresentation13WorkflowPhaseO11recoverableyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case idle",
+      "id": "s:20KenshikiPresentation13WorkflowPhaseO4idleyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case ready",
+      "id": "s:20KenshikiPresentation13WorkflowPhaseO5readyyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "init?(rawValue: String)",
+      "id": "s:20KenshikiPresentation13WorkflowPhaseO8rawValueACSgSS_tcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "case cancelled",
+      "id": "s:20KenshikiPresentation13WorkflowPhaseO9cancelledyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case capturing",
+      "id": "s:20KenshikiPresentation13WorkflowPhaseO9capturingyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case completed",
+      "id": "s:20KenshikiPresentation13WorkflowPhaseO9completedyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "struct WorkflowState",
+      "id": "s:20KenshikiPresentation13WorkflowStateV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "let capability: Capability",
+      "id": "s:20KenshikiPresentation13WorkflowStateV10capabilityAA10CapabilityOvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let generation: Int",
+      "id": "s:20KenshikiPresentation13WorkflowStateV10generationSivp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let messageKey: String",
+      "id": "s:20KenshikiPresentation13WorkflowStateV10messageKeySSvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let stubNoticeKey: String",
+      "id": "s:20KenshikiPresentation13WorkflowStateV13stubNoticeKeySSvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let pendingOperation: OperationToken?",
+      "id": "s:20KenshikiPresentation13WorkflowStateV16pendingOperationAA0F5TokenVSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "var accessibilityStatusKey: String { get }",
+      "id": "s:20KenshikiPresentation13WorkflowStateV22accessibilityStatusKeySSvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let step: Int",
+      "id": "s:20KenshikiPresentation13WorkflowStateV4stepSivp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let phase: WorkflowPhase",
+      "id": "s:20KenshikiPresentation13WorkflowStateV5phaseAA0C5PhaseOvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let reason: RecoveryReason?",
+      "id": "s:20KenshikiPresentation13WorkflowStateV6reasonAA14RecoveryReasonOSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let actions: [WorkflowAction]",
+      "id": "s:20KenshikiPresentation13WorkflowStateV7actionsSayAA0C6ActionVGvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let outcome: StubOutcome?",
+      "id": "s:20KenshikiPresentation13WorkflowStateV7outcomeAA11StubOutcomeVSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let stepKey: String",
+      "id": "s:20KenshikiPresentation13WorkflowStateV7stepKeySSvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "struct OperationToken",
+      "id": "s:20KenshikiPresentation14OperationTokenV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "init(capability: Capability, sessionID: String, generation: Int, step: Int)",
+      "id": "s:20KenshikiPresentation14OperationTokenV10capability9sessionID10generation4stepAcA10CapabilityO_SSS2itcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "let capability: Capability",
+      "id": "s:20KenshikiPresentation14OperationTokenV10capabilityAA10CapabilityOvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let generation: Int",
+      "id": "s:20KenshikiPresentation14OperationTokenV10generationSivp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let step: Int",
+      "id": "s:20KenshikiPresentation14OperationTokenV4stepSivp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let sessionID: String",
+      "id": "s:20KenshikiPresentation14OperationTokenV9sessionIDSSvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "enum RecoveryReason",
+      "id": "s:20KenshikiPresentation14RecoveryReasonO",
+      "kind": "swift.enum"
+    },
+    {
+      "declaration": "var messageKey: String { get }",
+      "id": "s:20KenshikiPresentation14RecoveryReasonO10messageKeySSvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "case interrupted",
+      "id": "s:20KenshikiPresentation14RecoveryReasonO11interruptedyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case invalidInput",
+      "id": "s:20KenshikiPresentation14RecoveryReasonO12invalidInputyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case permissionDenied",
+      "id": "s:20KenshikiPresentation14RecoveryReasonO16permissionDeniedyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case serviceUnavailable",
+      "id": "s:20KenshikiPresentation14RecoveryReasonO18serviceUnavailableyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "init?(rawValue: String)",
+      "id": "s:20KenshikiPresentation14RecoveryReasonO8rawValueACSgSS_tcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "enum StubCompletion",
+      "id": "s:20KenshikiPresentation14StubCompletionO",
+      "kind": "swift.enum"
+    },
+    {
+      "declaration": "case recoverable(RecoveryReason)",
+      "id": "s:20KenshikiPresentation14StubCompletionO11recoverableyAcA14RecoveryReasonOcACmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case observed",
+      "id": "s:20KenshikiPresentation14StubCompletionO8observedyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "struct WorkflowAction",
+      "id": "s:20KenshikiPresentation14WorkflowActionV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "let id: WorkflowActionID",
+      "id": "s:20KenshikiPresentation14WorkflowActionV2idAA0cD2IDOvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let event: WorkflowEvent",
+      "id": "s:20KenshikiPresentation14WorkflowActionV5eventAA0C5EventOvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let enabled: Bool",
+      "id": "s:20KenshikiPresentation14WorkflowActionV7enabledSbvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let labelKey: String",
+      "id": "s:20KenshikiPresentation14WorkflowActionV8labelKeySSvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "protocol WorkflowEngine",
+      "id": "s:20KenshikiPresentation14WorkflowEngineP",
+      "kind": "swift.protocol"
+    },
+    {
+      "declaration": "func cancel(_ token: OperationToken)",
+      "id": "s:20KenshikiPresentation14WorkflowEngineP6cancelyyAA14OperationTokenVF",
+      "kind": "swift.method"
+    },
+    {
+      "declaration": "func resolve(_ request: OperationRequest, completion: @escaping (OperationToken, StubCompletion) -> Void)",
+      "id": "s:20KenshikiPresentation14WorkflowEngineP7resolve_10completionyAA16OperationRequestV_yAA0G5TokenV_AA14StubCompletionOtctF",
+      "kind": "swift.method"
+    },
+    {
+      "declaration": "struct OperationRequest",
+      "id": "s:20KenshikiPresentation16OperationRequestV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "let capability: Capability",
+      "id": "s:20KenshikiPresentation16OperationRequestV10capabilityAA10CapabilityOvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let contractVersion: Int",
+      "id": "s:20KenshikiPresentation16OperationRequestV15contractVersionSivp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let token: OperationToken",
+      "id": "s:20KenshikiPresentation16OperationRequestV5tokenAA0C5TokenVvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let stepKey: String",
+      "id": "s:20KenshikiPresentation16OperationRequestV7stepKeySSvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "enum WorkflowActionID",
+      "id": "s:20KenshikiPresentation16WorkflowActionIDO",
+      "kind": "swift.enum"
+    },
+    {
+      "declaration": "case simulateFailure",
+      "id": "s:20KenshikiPresentation16WorkflowActionIDO15simulateFailureyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case retry",
+      "id": "s:20KenshikiPresentation16WorkflowActionIDO5retryyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case start",
+      "id": "s:20KenshikiPresentation16WorkflowActionIDO5startyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case cancel",
+      "id": "s:20KenshikiPresentation16WorkflowActionIDO6cancelyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case advance",
+      "id": "s:20KenshikiPresentation16WorkflowActionIDO7advanceyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case restore",
+      "id": "s:20KenshikiPresentation16WorkflowActionIDO7restoreyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "init?(rawValue: String)",
+      "id": "s:20KenshikiPresentation16WorkflowActionIDO8rawValueACSgSS_tcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "final class WorkflowController",
+      "id": "s:20KenshikiPresentation18WorkflowControllerC",
+      "kind": "swift.class"
+    },
+    {
+      "declaration": "init(capability: Capability, sessionID: String = UUID().uuidString, engine: any WorkflowEngine = DeterministicStubEngine())",
+      "id": "s:20KenshikiPresentation18WorkflowControllerC10capability9sessionID6engineAcA10CapabilityO_SSAA0C6Engine_ptcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "var onStateChange: ((WorkflowState) -> Void)?",
+      "id": "s:20KenshikiPresentation18WorkflowControllerC13onStateChangeyAA0cF0VcSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "func send(_ event: WorkflowEvent)",
+      "id": "s:20KenshikiPresentation18WorkflowControllerC4sendyyAA0C5EventOF",
+      "kind": "swift.method"
+    },
+    {
+      "declaration": "var state: WorkflowState { get }",
+      "id": "s:20KenshikiPresentation18WorkflowControllerC5stateAA0C5StateVvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "struct DeterministicStubEngine",
+      "id": "s:20KenshikiPresentation23DeterministicStubEngineV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "func cancel(_: OperationToken)",
+      "id": "s:20KenshikiPresentation23DeterministicStubEngineV6cancelyyAA14OperationTokenVF",
+      "kind": "swift.method"
+    },
+    {
+      "declaration": "init(result: StubCompletion = .observed)",
+      "id": "s:20KenshikiPresentation23DeterministicStubEngineV6resultAcA0D10CompletionO_tcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "func resolve(_ request: OperationRequest, completion: @escaping (OperationToken, StubCompletion) -> Void)",
+      "id": "s:20KenshikiPresentation23DeterministicStubEngineV7resolve_10completionyAA16OperationRequestV_yAA0H5TokenV_AA0D10CompletionOtctF",
+      "kind": "swift.method"
+    },
+    {
+      "declaration": "enum StubScope",
+      "id": "s:20KenshikiPresentation9StubScopeO",
+      "kind": "swift.enum"
+    },
+    {
+      "declaration": "case demonstrationOnly",
+      "id": "s:20KenshikiPresentation9StubScopeO17demonstrationOnlyyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "init?(rawValue: String)",
+      "id": "s:20KenshikiPresentation9StubScopeO8rawValueACSgSS_tcfc",
+      "kind": "swift.init"
+    }
+  ]
+}

@@ -1,0 +1,199 @@
+{
+  "schemaVersion": 1,
+  "recordedUTC": "2026-10-17T23:46:53.756147+00:00",
+  "revision": "4645b8f4760204ad0b421e0ded7d74a267089223",
+  "state": "local uncommitted implementation; existing unrelated changes preserved",
+  "capture": {
+    "receipt": ".build/capture/ios-z2udh8_i/receipt.json",
+    "receiptSHA256": "4dbb2da77b0883b8fd828aa0cf2ab2d6d355e30f53a2ee774a767ca703eddf22",
+    "passed": true,
+    "executed": 90,
+    "allCoveredSourceHashesCurrent": true
+  },
+  "presentation": {
+    "macos": {
+      "receipt": ".build/presentation/macos.json",
+      "receiptSHA256": "62f9c977cef01c140377f8135ad529985335a8caec8985d314acc661867aee62",
+      "passed": true,
+      "tests": {
+        "executed": 11,
+        "ids": [
+          "LocalizationTests.testExplicitBundleOverrideUsesSelectedLocale",
+          "LocalizationTests.testPackagedDefaultResolvesEveryMessage",
+          "LocalizationTests.testPackagedEnglishFallbackMetadata",
+          "SyntheticBiometricEngineTests.testMalformedSessionForeignCapabilityAndTokenReplayFailClosed",
+          "SyntheticBiometricEngineTests.testSyntheticCoreCompletesAllStagesWithoutIdentityVerdict",
+          "WorkflowTests.testDeferredCompletionPublishesStateAndIgnoredEventsDoNotNotify",
+          "WorkflowTests.testEveryPresentedActionDispatchesWithoutHiddenViewDecisions",
+          "WorkflowTests.testInjectedEngineLateCallbacksAndDuplicateSubmissionsAreFenced",
+          "WorkflowTests.testSeparateControllersCannotConsumeOneAnothersCompletion",
+          "WorkflowTests.testSharedPositiveAndNegativeVectors",
+          "WorkflowTests.testUnavailableEngineRemainsRecoverableWithoutProducingOutcome"
+        ]
+      },
+      "runtimeInputsUnchangedAfterBuild": true
+    },
+    "ios-device": {
+      "receipt": ".build/presentation/ios-device.json",
+      "receiptSHA256": "33db59f8caa2fbe6141c488fa8bd8d3dd44ae6529db543fc3de2564757aae029",
+      "passed": true,
+      "tests": null,
+      "runtimeInputsUnchangedAfterBuild": true
+    },
+    "ios-simulator": {
+      "receipt": ".build/presentation/ios-simulator.json",
+      "receiptSHA256": "8faeaf70fc66e203f2ee148418d4b32a4c1822ee9f5bf89cd0484b3649f17bdc",
+      "passed": true,
+      "tests": null,
+      "runtimeInputsUnchangedAfterBuild": true
+    },
+    "ios-ui": {
+      "receipt": ".build/presentation/ios-ui.json",
+      "receiptSHA256": "581105ddb87a87f3b78d65df144d0c8963d876bc24748684d0273b14616e6643",
+      "passed": true,
+      "tests": {
+        "executed": 23,
+        "ids": [
+          "BiometricCaptureControllerTests.testBackgroundRejectsSuspendedDecodeCompletion",
+          "BiometricCaptureControllerTests.testCancellationRejectsSuspendedDecodeCompletion",
+          "BiometricCaptureControllerTests.testCancelledControllerCannotReopenOrDeliverLateFailure",
+          "BiometricCaptureControllerTests.testCapturedImageDecodesToOwnedPixelsAndRetakeClearsEvidence",
+          "BiometricCaptureControllerTests.testConsentAndVisibilityPrecedeDriverConstruction",
+          "BiometricCaptureControllerTests.testDecoderSourceSubstitutionFailsWithoutPublishingEvidence",
+          "BiometricCaptureControllerTests.testDuplicateAndRetiredCaptureCallbacksCannotReplaceOwnedEvidence",
+          "BiometricCaptureControllerTests.testFailureReasonsMapToScopedLocalizableStates",
+          "BiometricCaptureControllerTests.testHiddenAndForegroundStateCannotGrantAcquisition",
+          "BiometricCaptureControllerTests.testReentrantCancellationAtFactoryRenderViewportAndGrantNeverReactivatesDriver",
+          "BiometricCaptureControllerTests.testReentrantProcessingCancellationNeverStartsDecoder",
+          "BiometricCaptureControllerTests.testReentrantRetryCancellationCannotRetryRetiredDriver",
+          "BiometricCaptureControllerTests.testRetryPreservesSameDriverAndDoesNotAbandonOccupiedWorker",
+          "BiometricCaptureControllerTests.testShutterRequiresCurrentAdmissionReadiness",
+          "BiometricCaptureControllerTests.testViewportIsValidatedCachedAndDeliveredBeforeActivation",
+          "BiometricCaptureControllerTests.testWithdrawalInvalidatesLateCallbacksBeforeRelease",
+          "WorkflowSmokeTests.testBackgroundInterruptionRequiresExplicitRestore",
+          "WorkflowSmokeTests.testEveryCapabilityRetriesAndCompletesOnlySimulation",
+          "WorkflowSmokeTests.testEveryCapabilityRoutesStartAndCancel",
+          "WorkflowSmokeTests.testExpandedRTLAndDarkPresentationRemainsReachable",
+          "WorkflowSmokeTests.testLiveSelfieRequiresConsentAndClosesWithoutAdvancingSimulation",
+          "WorkflowSmokeTests.testLiveSelfieSimulatorExplainsUnavailableTrueDepthAndCanRetry",
+          "WorkflowSmokeTests.testNativeInstructionContainerAndBackNavigation"
+        ]
+      },
+      "runtimeInputsUnchangedAfterBuild": true
+    },
+    "android": {
+      "receipt": ".build/presentation/android.json",
+      "receiptSHA256": "5dd8897e0bedff1e704a9e80fdc92197aea0361f691b8f5e827a88d90b36d97e",
+      "passed": true,
+      "tests": {
+        "executed": 9,
+        "ids": [
+          "DesignResourcesTest.catalogResourceIdsMatchTheirDeclaredNames",
+          "SyntheticBiometricEngineTest.malformedSessionForeignCapabilityAndTokenReplayFailClosed",
+          "SyntheticBiometricEngineTest.syntheticCoreCompletesAllStagesWithoutIdentityVerdict",
+          "WorkflowTest.controllersHaveSeparateCompletionNamespaces",
+          "WorkflowTest.deferredCompletionPublishesStateAndIgnoresInvalidEvents",
+          "WorkflowTest.delayedCallbacksAndDuplicateSubmissionsAreFenced",
+          "WorkflowTest.presentedActionsAndTerminalStates",
+          "WorkflowTest.sharedPositiveAndNegativeVectors",
+          "WorkflowTest.unavailableEngineProducesNoOutcome"
+        ]
+      },
+      "runtimeInputsUnchangedAfterBuild": true
+    }
+  },
+  "nativeConsumers": {
+    "document": {
+      "command": [
+        "bash",
+        "document/scripts/check.sh",
+        "all"
+      ],
+      "launcher": "bash scripts/python.sh -c (subprocess.run, check=True)",
+      "python": "3.15.0",
+      "passed": true,
+      "log": ".build/capture-extraction/document-native-final.log",
+      "logSHA256": "0d8cf6a285bf69fded3014c52054520ae60827d81ad188437b3dbd3643f4047f"
+    },
+    "passport": {
+      "command": [
+        "bash",
+        "passport/scripts/check.sh",
+        "all"
+      ],
+      "launcher": "bash scripts/python.sh -c (subprocess.run, check=True)",
+      "python": "3.15.0",
+      "passed": true,
+      "log": ".build/capture-extraction/passport-native-final.log",
+      "logSHA256": "5196818f10063323d7711527623d279048d3687ab6e93af14415175f2221e824"
+    },
+    "biometric": {
+      "command": [
+        "bash",
+        "biometric/scripts/check.sh",
+        "all"
+      ],
+      "launcher": "bash scripts/python.sh -c (subprocess.run, check=True)",
+      "python": "3.15.0",
+      "passed": true,
+      "log": ".build/capture-extraction/biometric-native-final.log",
+      "logSHA256": "98e0f5b20f7c7f43b4a6fb37b1fba2af059f62e9b7f23025a47819e3f9f6356f"
+    }
+  },
+  "publicAPIs": {
+    "passed": true,
+    "headlessSwiftLanes": 3,
+    "captureSwiftLanes": 3,
+    "previewSwiftLanes": 2,
+    "scope": "Capture extraction preserved the pre-existing headless snapshots; existing HEAD diffs include earlier primitive work."
+  },
+  "governance": {
+    "passed": true,
+    "tests": 109,
+    "designTests": 22,
+    "guardRefactorRegressionTests": 43
+  },
+  "review": {
+    "swarm": [
+      "capture core and provenance",
+      "tests, API and CI",
+      "native reference integration",
+      "independent final core/evidence review"
+    ],
+    "findingsFixed": [
+      "mutable camera/depth ownership",
+      "unbounded depth sampling policy",
+      "mobile PNG allocation ceilings before ImageIO",
+      "blank native page caused by hidden aspect constraint",
+      "viewport timing and repeated lifecycle effects",
+      "reentrant cancellation across native effects",
+      "boundary guard missing-primary-target regression",
+      "two local Sonar guard maintainability findings"
+    ]
+  },
+  "provenance": {
+    "manifest": "biometric/Gates/capture-sources.json",
+    "manifestSHA256": "89d1cffed4470fb184f32bbed75b43b0fbad118293fbf849b5a19346f34668e5",
+    "extractedFiles": 22,
+    "donorUnchanged": true
+  },
+  "scope": {
+    "implemented": [
+      "optional iOS capture/admission and native preview",
+      "owned oriented-PNG to RGB8 conversion",
+      "separate capture-only UIKit journey",
+      "guard/API/required-test CI coverage"
+    ],
+    "notClaimed": [
+      "physical TrueDepth/rotation/filter/depth behavior acceptance",
+      "VoiceOver/TalkBack or complete accessibility acceptance",
+      "Android camera implementation",
+      "selected-model mobile detection/alignment/embedding integration",
+      "custody, attestation, BFF evidence verification",
+      "NIST FRTE recognition performance",
+      "hosted Sonar quality gate or duplication on this uncommitted tree",
+      "commit, push or public release"
+    ]
+  },
+  "evidenceNote": "Ignored raw receipts/logs retain each attempt. Native runtime/resource inputs still match their successful receipts. Subsequent documentation and equivalent guard refactoring do not rebuild native artifacts."
+}

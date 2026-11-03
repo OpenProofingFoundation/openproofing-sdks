@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 1,
+  "externalPackages": [
+    {
+      "url": "https://github.com/sqlcipher/SQLCipher.swift.git",
+      "revision": "39f212458aeb88e33bdac2200a793a3f0d55d32b"
+    }
+  ],
+  "defaultImports": [
+    "Foundation",
+    "CryptoKit",
+    "DeviceCheck",
+    "Security",
+    "SQLite3"
+  ],
+  "importOverrides": {
+    "foundation/Sources/KenshikiProtectedStorage/": [
+      "Foundation",
+      "CryptoKit",
+      "Security",
+      "Darwin",
+      "SQLCipher",
+      "KenshikiSQLCipherBridge"
+    ],
+    "foundation/Sources/KenshikiEvidenceManifest/": [
+      "Foundation",
+      "CryptoKit"
+    ],
+    "foundation/Sources/KenshikiOperationBinding/CanonicalJSON.swift": [
+      "Foundation",
+      "CryptoKit",
+      "JavaScriptCore"
+    ],
+    "foundation/Sources/KenshikiOperationBinding/OperationJournal.swift": [
+      "Foundation",
+      "SQLCipher",
+      "KenshikiProtectedStorage"
+    ],
+    "foundation/motion/Sources/KenshikiMotion/PulseCeremonyMotionSummary.swift": [
+      "Foundation",
+      "CryptoKit"
+    ],
+    "foundation/motion/Sources/KenshikiMotion/PulseCeremonyMotionWitness.swift": [
+      "Foundation",
+      "CoreMotion"
+    ],
+    "foundation/motion/Sources/KenshikiMotion/PulseMotionPermission.swift": [
+      "Foundation",
+      "CoreMotion"
+    ],
+    "foundation/motion/Sources/KenshikiMotion/PulseCeremonyMotionTrace.swift": [
+      "Foundation"
+    ],
+    "foundation/Sources/CaptureEvidenceCustody/": [
+      "Foundation",
+      "CryptoKit",
+      "Security",
+      "Darwin",
+      "KenshikiProtectedStorage",
+      "KenshikiEvidenceManifest"
+    ],
+    "foundation/sensors/Sources/KenshikiSensors/": [
+      "Foundation",
+      "CryptoKit"
+    ],
+    "foundation/sensors/Integration/Consumer/Sources/SensorsConsumer/": [
+      "Foundation",
+      "KenshikiSensors"
+    ]
+  }
+}

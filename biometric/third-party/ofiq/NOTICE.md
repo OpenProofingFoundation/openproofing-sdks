@@ -1,0 +1,5 @@
+# Optional native face quality dependencies
+
+The source-built OFIQ adapter uses OFIQ 1.0.3 (df8fbb5e4bd8de09ae998ff69bc252f6be4367f8), OpenCV 4.5.5 (dad26339a975b49cfb6c7dbe4bd5276c9dcb36e2), bundled protobuf, tao-json beta.13, PEGTL 3.2.7 and magic_enum 0.8.1. Exact acquisition revisions and archive hashes are in tools/native_quality/build.py.
+
+The recipe records the actual modified upstream paths: serial ORT execution, native allocation ownership and Apple/RGB-only build integration. Encoded image codecs and the unused OFIQ file-image helper are omitted. Upstream algorithm and model files are not relicensed. Notices below are unchanged upstream copies, pinned by licenses.json. SDK integrators distributing this static adapter must carry these notices and the separate ONNX Runtime notices; the reference helper packages them under NativeQualityNotices. Model notices are part of the separately pinned external profile, which is not included here. Apple system zlib is dynamically resolved.

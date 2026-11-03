@@ -1,0 +1,191 @@
+{
+  "testOnly": true,
+  "notice": "All IDs, hashes, receipts and proof results are synthetic. assertionObject is deliberately not an App Attest proof. This is not release approval or service evidence.",
+  "payload": {
+    "schemaVersion": "SPEC-IDBIO-200-v3.1",
+    "session": {
+      "sessionId": "00000000-0000-4000-8000-000000000001",
+      "generation": 1,
+      "revision": 1,
+      "attemptId": "00000000-0000-4000-8000-000000000002",
+      "attemptChallenge": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "installationId": "example-installation",
+      "documentCheckId": "00000000-0000-4000-8000-000000000003",
+      "documentOperationId": "00000000-0000-4000-8000-000000000004",
+      "phoneRun": "00000000-0000-4000-8000-000000000005"
+    },
+    "capture": {
+      "front": null,
+      "back": null,
+      "selfie": {
+        "captureId": "00000000-0000-4000-8000-000000000008",
+        "sha256": "dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd"
+      },
+      "portrait": {
+        "sha256": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+        "sourceSha256": "9999999999999999999999999999999999999999999999999999999999999999",
+        "derivationSha256": "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+      }
+    },
+    "artifacts": {
+      "modelManifestSha256": "1111111111111111111111111111111111111111111111111111111111111111",
+      "calibrationSha256": "2222222222222222222222222222222222222222222222222222222222222222",
+      "policySha256": "3333333333333333333333333333333333333333333333333333333333333333"
+    },
+    "evidence": {
+      "cadastralReportSha256": null,
+      "custodyRootSha256": "5555555555555555555555555555555555555555555555555555555555555555",
+      "admissionReceiptSha256": "6666666666666666666666666666666666666666666666666666666666666666"
+    },
+    "credential": {
+      "path": "icao9303",
+      "reportSha256": "7777777777777777777777777777777777777777777777777777777777777777"
+    },
+    "services": {
+      "issuerReceiptId": null,
+      "credentialReceiptId": "example-credential-receipt",
+      "phoneReceiptId": "example-phone-receipt"
+    },
+    "outcomes": {
+      "face": "pass",
+      "document": "pass",
+      "physical": "not_performed"
+    },
+    "policyProfile": "example-ios-icao9303-complete-signals-v1",
+    "issuedAt": 1792191600000
+  },
+  "envelope": {
+    "payloadJson": "{\"schemaVersion\":\"SPEC-IDBIO-200-v3.1\",\"session\":{\"sessionId\":\"00000000-0000-4000-8000-000000000001\",\"generation\":1,\"revision\":1,\"attemptId\":\"00000000-0000-4000-8000-000000000002\",\"attemptChallenge\":\"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\",\"installationId\":\"example-installation\",\"documentCheckId\":\"00000000-0000-4000-8000-000000000003\",\"documentOperationId\":\"00000000-0000-4000-8000-000000000004\",\"phoneRun\":\"00000000-0000-4000-8000-000000000005\"},\"capture\":{\"front\":null,\"back\":null,\"selfie\":{\"captureId\":\"00000000-0000-4000-8000-000000000008\",\"sha256\":\"dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd\"},\"portrait\":{\"sha256\":\"eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee\",\"sourceSha256\":\"9999999999999999999999999999999999999999999999999999999999999999\",\"derivationSha256\":\"ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff\"}},\"artifacts\":{\"modelManifestSha256\":\"1111111111111111111111111111111111111111111111111111111111111111\",\"calibrationSha256\":\"2222222222222222222222222222222222222222222222222222222222222222\",\"policySha256\":\"3333333333333333333333333333333333333333333333333333333333333333\"},\"evidence\":{\"cadastralReportSha256\":null,\"custodyRootSha256\":\"5555555555555555555555555555555555555555555555555555555555555555\",\"admissionReceiptSha256\":\"6666666666666666666666666666666666666666666666666666666666666666\"},\"credential\":{\"path\":\"icao9303\",\"reportSha256\":\"7777777777777777777777777777777777777777777777777777777777777777\"},\"services\":{\"issuerReceiptId\":null,\"credentialReceiptId\":\"example-credential-receipt\",\"phoneReceiptId\":\"example-phone-receipt\"},\"outcomes\":{\"face\":\"pass\",\"document\":\"pass\",\"physical\":\"not_performed\"},\"policyProfile\":\"example-ios-icao9303-complete-signals-v1\",\"issuedAt\":1792191600000}",
+    "challenge": "AAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8",
+    "appAttestAssertion": {
+      "keyId": "example-opaque-platform-key-id",
+      "assertionObject": "Tk9UX0FfUkVBTF9BUFBfQVRURVNUX0FTU0VSVElPTg",
+      "clientDataHash": "bZ-OmKhM_piWlXdhHEUkCUWPT1JWk7X_aCawqe2yn84"
+    }
+  },
+  "syntheticServer": {
+    "proofVerified": true,
+    "registeredKeyId": "example-opaque-platform-key-id",
+    "proofEnvironment": "production",
+    "expectedEnvironment": "production",
+    "challenge": "AAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8",
+    "challengeConsumed": false,
+    "challengeExpiresAt": 1792191660000,
+    "now": 1792191610000,
+    "attemptStartedAt": 1792191590000,
+    "assertionCounter": 2,
+    "storedCounter": 1,
+    "session": {
+      "sessionId": "00000000-0000-4000-8000-000000000001",
+      "generation": 1,
+      "revision": 1,
+      "attemptId": "00000000-0000-4000-8000-000000000002",
+      "attemptChallenge": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "installationId": "example-installation",
+      "documentCheckId": "00000000-0000-4000-8000-000000000003",
+      "documentOperationId": "00000000-0000-4000-8000-000000000004",
+      "phoneRun": "00000000-0000-4000-8000-000000000005"
+    },
+    "allowedArtifacts": {
+      "modelManifestSha256": "1111111111111111111111111111111111111111111111111111111111111111",
+      "calibrationSha256": "2222222222222222222222222222222222222222222222222222222222222222",
+      "policySha256": "3333333333333333333333333333333333333333333333333333333333333333"
+    },
+    "policyProfile": "example-ios-icao9303-complete-signals-v1",
+    "allowedServiceOutcomes": {
+      "issuer": [
+        "pass"
+      ],
+      "phone": [
+        "agreed",
+        "single_provider"
+      ],
+      "credential": [
+        "pass"
+      ]
+    },
+    "receipts": {
+      "example-phone-receipt": {
+        "kind": "phone",
+        "verified": true,
+        "binding": {
+          "sessionId": "00000000-0000-4000-8000-000000000001",
+          "generation": 1,
+          "revision": 1,
+          "attemptId": "00000000-0000-4000-8000-000000000002",
+          "attemptChallenge": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "installationId": "example-installation",
+          "documentCheckId": "00000000-0000-4000-8000-000000000003",
+          "documentOperationId": "00000000-0000-4000-8000-000000000004",
+          "phoneRun": "00000000-0000-4000-8000-000000000005",
+          "subjectDigest": "8888888888888888888888888888888888888888888888888888888888888888"
+        },
+        "outcome": "single_provider",
+        "expiresAt": 1792191660000
+      },
+      "example-credential-receipt": {
+        "kind": "credential",
+        "verified": true,
+        "binding": {
+          "sessionId": "00000000-0000-4000-8000-000000000001",
+          "generation": 1,
+          "revision": 1,
+          "attemptId": "00000000-0000-4000-8000-000000000002",
+          "attemptChallenge": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "installationId": "example-installation",
+          "documentCheckId": "00000000-0000-4000-8000-000000000003",
+          "documentOperationId": "00000000-0000-4000-8000-000000000004",
+          "phoneRun": "00000000-0000-4000-8000-000000000005",
+          "subjectDigest": "8888888888888888888888888888888888888888888888888888888888888888"
+        },
+        "outcome": "pass",
+        "expiresAt": 1792191660000,
+        "reportSha256": "7777777777777777777777777777777777777777777777777777777777777777",
+        "portraitSourceSha256": "9999999999999999999999999999999999999999999999999999999999999999"
+      }
+    },
+    "expectedSubjectDigest": "8888888888888888888888888888888888888888888888888888888888888888",
+    "priorResult": null,
+    "replayReadAllowed": true,
+    "trustedEvidence": {
+      "authenticated": true,
+      "capture": {
+        "front": null,
+        "back": null,
+        "selfie": {
+          "captureId": "00000000-0000-4000-8000-000000000008",
+          "sha256": "dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd"
+        },
+        "portrait": {
+          "sha256": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+          "sourceSha256": "9999999999999999999999999999999999999999999999999999999999999999",
+          "derivationSha256": "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+        }
+      },
+      "evidence": {
+        "cadastralReportSha256": null,
+        "custodyRootSha256": "5555555555555555555555555555555555555555555555555555555555555555",
+        "admissionReceiptSha256": "6666666666666666666666666666666666666666666666666666666666666666"
+      },
+      "credential": {
+        "path": "icao9303",
+        "reportSha256": "7777777777777777777777777777777777777777777777777777777777777777"
+      },
+      "admission": {
+        "selfieCaptureId": "00000000-0000-4000-8000-000000000008",
+        "selfieSha256": "dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd",
+        "assessment": "live"
+      },
+      "outcomes": {
+        "face": "pass",
+        "document": "pass",
+        "physical": "not_performed"
+      },
+      "artifacts": {
+        "modelManifestSha256": "1111111111111111111111111111111111111111111111111111111111111111",
+        "calibrationSha256": "2222222222222222222222222222222222222222222222222222222222222222",
+        "policySha256": "3333333333333333333333333333333333333333333333333333333333333333"
+      }
+    }
+  }
+}

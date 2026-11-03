@@ -1,0 +1,49 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "payloadJson": {
+      "type": "string",
+      "minLength": 2,
+      "maxLength": 32768
+    },
+    "challenge": {
+      "type": "string",
+      "pattern": "^[A-Za-z0-9_-]{43}$"
+    },
+    "appAttestAssertion": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "keyId": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 256
+        },
+        "assertionObject": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9_-]+$",
+          "maxLength": 32768
+        },
+        "clientDataHash": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9_-]{43}$"
+        }
+      },
+      "required": [
+        "keyId",
+        "assertionObject",
+        "clientDataHash"
+      ]
+    }
+  },
+  "required": [
+    "payloadJson",
+    "challenge",
+    "appAttestAssertion"
+  ],
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "urn:kenshiki:spec-idbio-200:v3.1:ios-envelope",
+  "title": "Proposed iOS detached App Attest envelope",
+  "description": "Candidate transport shape. Native App Attest verification, trust, counter and single-use challenge checks are mandatory outside JSON Schema."
+}

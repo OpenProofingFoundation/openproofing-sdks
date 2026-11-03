@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "files": {
+    "OFIQ-LICENSE.md": "25d99e1d1721ec69705c9ed2157c0d21957609d15db0de4787500696d52f6a7c",
+    "OpenCV-LICENSE.txt": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+    "OpenCV-BSD-LICENSE.txt": "a5a7cf90fe5ac9763baad852cf69cf9d9b89bff934a679fdc5c8fcecaeba9a25",
+    "OpenCV-LICENSE-CHANGE-NOTICE.txt": "9b1b852ba5eaa8d89938d2368ec57eb4fa3c4acc83ff2d87109c157764c11f2a",
+    "Protobuf-LICENSE.txt": "6e5e117324afd944dcf67f36cf329843bc1a92229a8cd9bb573d7a83130fea7d",
+    "tao-json-LICENSE.txt": "602837e0001cf456b72e572bde7cb61fa2b17ebf7ec78cce8ee360bd92509842",
+    "tao-json-LICENSE.itoa.txt": "b1cc99cb01223a467138c7873b038e024efd2a8f564dc6f0be55d8c2473f65ca",
+    "tao-json-LICENSE.double-conversion.txt": "ef8599d76a8c81992bfc72d3b70317c876c2bab0e593bf43305561590ea31a15",
+    "tao-json-LICENSE.ryu.txt": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "PEGTL-LICENSE.txt": "d38623e03c59b8c1ff4df81dbefb3bfa798cd6ac1c5c52420c88eff09e389aa9",
+    "magic-enum-LICENSE.txt": "c88a8b1bbf8af42afd54da8477a34f0522cabe742acbb6706767b761931ab245",
+    "NOTICE.md": "191c93a96dc1cadcf26d609e2c0f9169a202db6289a8487c0c33eeb29cf6caa5"
+  }
+}

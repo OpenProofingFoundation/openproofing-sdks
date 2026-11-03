@@ -1,0 +1,449 @@
+{
+  "schemaVersion": 1,
+  "papers": [
+    {
+      "id": "2003.04092v1",
+      "title": "Searching Central Difference Convolutional Networks for Face Anti-Spoofing",
+      "authors": [
+        "Zitong Yu",
+        "Chenxu Zhao",
+        "Zezheng Wang",
+        "Yunxiao Qin",
+        "Zhuo Su",
+        "Xiaobai Li",
+        "Feng Zhou",
+        "Guoying Zhao"
+      ],
+      "published": "2020-03-09T12:48:37Z",
+      "updated": "2020-03-09T12:48:37Z",
+      "url": "https://arxiv.org/abs/2003.04092v1",
+      "pdfURL": "https://arxiv.org/pdf/2003.04092v1",
+      "localPath": "papers/2003.04092v1.pdf",
+      "sha256": "80b437ff1b4db174f3706db93740c33c15e483d49a20abb4577f28160f34e6b8",
+      "bytes": 4841695,
+      "licenseURLs": [
+        "http://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+      ],
+      "reviewStatus": "relevant_method_sections_reviewed_not_reproduced",
+      "retrievedUTC": "2026-10-17T20:05:42.659501+00:00",
+      "reviewedSections": [
+        "Section 3.1, PDF p. 3, equations 3-4 and operator decomposition"
+      ],
+      "decisionStatus": "reference_only_no_artifact_selected"
+    },
+    {
+      "id": "1503.03832v3",
+      "title": "FaceNet: A Unified Embedding for Face Recognition and Clustering",
+      "authors": [
+        "Florian Schroff",
+        "Dmitry Kalenichenko",
+        "James Philbin"
+      ],
+      "published": "2015-03-12T18:10:53Z",
+      "updated": "2015-06-17T23:35:47Z",
+      "url": "https://arxiv.org/abs/1503.03832v3",
+      "pdfURL": "https://arxiv.org/pdf/1503.03832v3",
+      "localPath": "papers/1503.03832v3.pdf",
+      "sha256": "aec7aebccb664dd15fa34da1d26e8fb99dcc21752179153c759c6e57025321f8",
+      "bytes": 4705274,
+      "licenseURLs": [
+        "http://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+      ],
+      "reviewStatus": "relevant_method_sections_reviewed_not_reproduced",
+      "retrievedUTC": "2026-10-17T20:05:51.203470+00:00",
+      "reviewedSections": [
+        "PDF pp. 2-3, embedding and triplet objective"
+      ],
+      "decisionStatus": "reference_only_no_artifact_selected"
+    },
+    {
+      "id": "2110.02178v2",
+      "title": "MobileViT: Light-weight, General-purpose, and Mobile-friendly Vision Transformer",
+      "authors": [
+        "Sachin Mehta",
+        "Mohammad Rastegari"
+      ],
+      "published": "2021-10-05T17:07:53Z",
+      "updated": "2022-03-04T17:17:31Z",
+      "url": "https://arxiv.org/abs/2110.02178v2",
+      "pdfURL": "https://arxiv.org/pdf/2110.02178v2",
+      "localPath": "papers/2110.02178v2.pdf",
+      "sha256": "f0257b993891fcc8ebfd17bfe29c949cc5be97af7ae2cbc7fb899165c7533281",
+      "bytes": 10601559,
+      "licenseURLs": [
+        "http://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+      ],
+      "reviewStatus": "relevant_method_sections_reviewed_not_reproduced",
+      "retrievedUTC": "2026-10-17T20:06:01.203224+00:00",
+      "reviewedSections": [
+        "Section 3, PDF pp. 4-5, local/global unfolding and folding"
+      ],
+      "decisionStatus": "reference_only_no_artifact_selected"
+    },
+    {
+      "id": "2204.00964v2",
+      "title": "AdaFace: Quality Adaptive Margin for Face Recognition",
+      "authors": [
+        "Minchul Kim",
+        "Anil K. Jain",
+        "Xiaoming Liu"
+      ],
+      "published": "2022-04-03T01:23:41Z",
+      "updated": "2023-02-16T04:09:47Z",
+      "url": "https://arxiv.org/abs/2204.00964v2",
+      "pdfURL": "https://arxiv.org/pdf/2204.00964v2",
+      "localPath": "papers/2204.00964v2.pdf",
+      "sha256": "a147af0c5d6ca85e2e1266e5d38eda83e9e6e5da62154bdfadd93ee63c87898b",
+      "bytes": 7139147,
+      "licenseURLs": [
+        "http://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+      ],
+      "reviewStatus": "relevant_method_sections_reviewed_not_reproduced",
+      "retrievedUTC": "2026-10-17T20:06:11.162037+00:00",
+      "reviewedSections": [
+        "Sections 3.2-3.3, PDF pp. 5-6, equations 16-19"
+      ],
+      "decisionStatus": "reference_only_no_artifact_selected"
+    },
+    {
+      "id": "1904.09658v4",
+      "title": "Probabilistic Face Embeddings",
+      "authors": [
+        "Yichun Shi",
+        "Anil K. Jain"
+      ],
+      "published": "2019-04-21T21:08:00Z",
+      "updated": "2019-08-07T05:24:06Z",
+      "url": "https://arxiv.org/abs/1904.09658v4",
+      "pdfURL": "https://arxiv.org/pdf/1904.09658v4",
+      "localPath": "papers/1904.09658v4.pdf",
+      "sha256": "5350dcefc5891af8cfb62e6f763eadb964e5b74ac40a1cfe1ae4485c61dc762d",
+      "bytes": 1995504,
+      "licenseURLs": [
+        "http://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+      ],
+      "reviewStatus": "relevant_method_sections_reviewed_not_reproduced",
+      "retrievedUTC": "2026-10-17T20:06:19.508217+00:00",
+      "reviewedSections": [
+        "Section 4, PDF pp. 4-5, Gaussian embedding and matching score"
+      ],
+      "decisionStatus": "reference_only_no_artifact_selected"
+    },
+    {
+      "id": "2105.04714v1",
+      "title": "Sample and Computation Redistribution for Efficient Face Detection",
+      "authors": [
+        "Jia Guo",
+        "Jiankang Deng",
+        "Alexandros Lattas",
+        "Stefanos Zafeiriou"
+      ],
+      "published": "2021-05-10T23:51:14Z",
+      "updated": "2021-05-10T23:51:14Z",
+      "url": "https://arxiv.org/abs/2105.04714v1",
+      "pdfURL": "https://arxiv.org/pdf/2105.04714v1",
+      "localPath": "papers/2105.04714v1.pdf",
+      "sha256": "24a44165a394f943ad824d2a75dedd4c9a4cfd7d506fe58636abc764b2099bd3",
+      "bytes": 5074017,
+      "licenseURLs": [
+        "http://creativecommons.org/licenses/by/4.0/"
+      ],
+      "reviewStatus": "relevant_method_sections_reviewed_not_reproduced",
+      "retrievedUTC": "2026-10-17T20:06:28.811275+00:00",
+      "reviewedSections": [
+        "Section 3, PDF pp. 3-5, sample/computation redistribution"
+      ],
+      "decisionStatus": "reference_only_no_artifact_selected"
+    },
+    {
+      "id": "1804.07573v4",
+      "title": "MobileFaceNets: Efficient CNNs for Accurate Real-Time Face Verification on Mobile Devices",
+      "authors": [
+        "Sheng Chen",
+        "Yang Liu",
+        "Xiang Gao",
+        "Zhen Han"
+      ],
+      "published": "2018-04-20T12:18:57Z",
+      "updated": "2018-06-15T02:50:58Z",
+      "url": "https://arxiv.org/abs/1804.07573v4",
+      "pdfURL": "https://arxiv.org/pdf/1804.07573v4",
+      "localPath": "papers/1804.07573v4.pdf",
+      "sha256": "375bd352aa28eb33585ea2bffc0cfe4e8f0830bce2b8465e2a65b106edbdae1b",
+      "bytes": 374011,
+      "licenseURLs": [
+        "http://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+      ],
+      "reviewStatus": "relevant_method_sections_reviewed_not_reproduced",
+      "retrievedUTC": "2026-10-17T20:06:36.291113+00:00",
+      "reviewedSections": [
+        "PDF pp. 2 and 5-6, spatial aggregation and mobile architecture"
+      ],
+      "decisionStatus": "reference_only_no_artifact_selected"
+    },
+    {
+      "id": "1907.04047v1",
+      "title": "Deep Pixel-wise Binary Supervision for Face Presentation Attack Detection",
+      "authors": [
+        "Anjith George",
+        "Sebastien Marcel"
+      ],
+      "published": "2019-07-09T08:45:33Z",
+      "updated": "2019-07-09T08:45:33Z",
+      "url": "https://arxiv.org/abs/1907.04047v1",
+      "pdfURL": "https://arxiv.org/pdf/1907.04047v1",
+      "localPath": "papers/1907.04047v1.pdf",
+      "sha256": "88353fe2e54e9c632d68220e8da1354b1c3aad5af6d7d30698d8b8c1c7dcc441",
+      "bytes": 2304285,
+      "licenseURLs": [
+        "http://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+      ],
+      "reviewStatus": "relevant_method_sections_reviewed_not_reproduced",
+      "retrievedUTC": "2026-10-17T20:06:46.279344+00:00",
+      "reviewedSections": [
+        "Section 3, PDF pp. 3-4, pixel/image supervision and aggregation"
+      ],
+      "decisionStatus": "reference_only_no_artifact_selected"
+    },
+    {
+      "id": "2103.06627v4",
+      "title": "MagFace: A Universal Representation for Face Recognition and Quality Assessment",
+      "authors": [
+        "Qiang Meng",
+        "Shichao Zhao",
+        "Zhida Huang",
+        "Feng Zhou"
+      ],
+      "published": "2021-03-11T11:58:21Z",
+      "updated": "2021-07-26T12:54:25Z",
+      "url": "https://arxiv.org/abs/2103.06627v4",
+      "pdfURL": "https://arxiv.org/pdf/2103.06627v4",
+      "localPath": "papers/2103.06627v4.pdf",
+      "sha256": "9f134bf0811d443fbb83be1f3bf2c183b3adae60e135191e608eeb224d8b09e5",
+      "bytes": 1421609,
+      "licenseURLs": [
+        "http://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+      ],
+      "reviewStatus": "relevant_method_sections_reviewed_not_reproduced",
+      "retrievedUTC": "2026-10-17T20:06:54.547969+00:00",
+      "reviewedSections": [
+        "Section 3.2, PDF p. 4, magnitude-aware objective and conditional properties"
+      ],
+      "decisionStatus": "reference_only_no_artifact_selected"
+    },
+    {
+      "id": "1801.09414v2",
+      "title": "CosFace: Large Margin Cosine Loss for Deep Face Recognition",
+      "authors": [
+        "Hao Wang",
+        "Yitong Wang",
+        "Zheng Zhou",
+        "Xing Ji",
+        "Dihong Gong",
+        "Jingchao Zhou",
+        "Zhifeng Li",
+        "Wei Liu"
+      ],
+      "published": "2018-01-29T09:23:55Z",
+      "updated": "2018-04-03T11:15:57Z",
+      "url": "https://arxiv.org/abs/1801.09414v2",
+      "pdfURL": "https://arxiv.org/pdf/1801.09414v2",
+      "localPath": "papers/1801.09414v2.pdf",
+      "sha256": "ce01fed77c202a9b4cfee11aac6da67c04565309b5e23c06db84e7baf541cb08",
+      "bytes": 1114886,
+      "licenseURLs": [
+        "http://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+      ],
+      "reviewStatus": "relevant_method_sections_reviewed_not_reproduced",
+      "retrievedUTC": "2026-10-17T20:07:03.083246+00:00",
+      "reviewedSections": [
+        "PDF pp. 3-4, normalized cosine-margin objective"
+      ],
+      "decisionStatus": "reference_only_no_artifact_selected"
+    },
+    {
+      "id": "1801.07698v4",
+      "title": "ArcFace: Additive Angular Margin Loss for Deep Face Recognition",
+      "authors": [
+        "Jiankang Deng",
+        "Jia Guo",
+        "Jing Yang",
+        "Niannan Xue",
+        "Irene Kotsia",
+        "Stefanos Zafeiriou"
+      ],
+      "published": "2018-01-23T18:39:19Z",
+      "updated": "2022-09-04T16:26:45Z",
+      "url": "https://arxiv.org/abs/1801.07698v4",
+      "pdfURL": "https://arxiv.org/pdf/1801.07698v4",
+      "localPath": "papers/1801.07698v4.pdf",
+      "sha256": "b3a622d7cbb03af0a035c9833d5d913ede525d81244ace47997f9fb19e791cf4",
+      "bytes": 11455007,
+      "licenseURLs": [
+        "http://creativecommons.org/licenses/by/4.0/"
+      ],
+      "reviewStatus": "relevant_method_sections_reviewed_not_reproduced",
+      "retrievedUTC": "2026-10-17T20:07:14.043796+00:00",
+      "reviewedSections": [
+        "Section 3, PDF pp. 4-6, angular margin and sub-center distinction"
+      ],
+      "decisionStatus": "reference_only_no_artifact_selected"
+    },
+    {
+      "id": "1704.08063v4",
+      "title": "SphereFace: Deep Hypersphere Embedding for Face Recognition",
+      "authors": [
+        "Weiyang Liu",
+        "Yandong Wen",
+        "Zhiding Yu",
+        "Ming Li",
+        "Bhiksha Raj",
+        "Le Song"
+      ],
+      "published": "2017-04-26T11:37:22Z",
+      "updated": "2018-01-29T23:24:56Z",
+      "url": "https://arxiv.org/abs/1704.08063v4",
+      "pdfURL": "https://arxiv.org/pdf/1704.08063v4",
+      "localPath": "papers/1704.08063v4.pdf",
+      "sha256": "1599bf80086d82085de25de4273bb0f30557a17362d6d7f391b2ea7a56643fa0",
+      "bytes": 5821983,
+      "licenseURLs": [
+        "http://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+      ],
+      "reviewStatus": "relevant_method_sections_reviewed_not_reproduced",
+      "retrievedUTC": "2026-10-17T20:07:23.806923+00:00",
+      "reviewedSections": [
+        "PDF pp. 3-5, angular decision boundary and piecewise domain"
+      ],
+      "decisionStatus": "reference_only_no_artifact_selected"
+    },
+    {
+      "id": "2210.02579v1",
+      "title": "DigiFace-1M: 1 Million Digital Face Images for Face Recognition",
+      "authors": [
+        "Gwangbin Bae",
+        "Martin de La Gorce",
+        "Tadas Baltrusaitis",
+        "Charlie Hewitt",
+        "Dong Chen",
+        "Julien Valentin",
+        "Roberto Cipolla",
+        "Jingjing Shen"
+      ],
+      "published": "2022-10-05T22:02:48Z",
+      "updated": "2022-10-05T22:02:48Z",
+      "url": "https://arxiv.org/abs/2210.02579v1",
+      "pdfURL": "https://arxiv.org/pdf/2210.02579v1",
+      "localPath": "papers/2210.02579v1.pdf",
+      "sha256": "76c7bb2b0894efbe91f1666b20e2a464584d629bbd30ee8d1c857cc4798e99f3",
+      "bytes": 2530210,
+      "licenseURLs": [
+        "http://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+      ],
+      "reviewStatus": "relevant_method_sections_reviewed_not_reproduced",
+      "retrievedUTC": "2026-10-17T20:09:48.769923+00:00",
+      "reviewedSections": [
+        "Sections 3-4, PDF pp. 3-6, data generation and augmentation"
+      ],
+      "decisionStatus": "reference_only_no_artifact_selected"
+    },
+    {
+      "id": "2404.06663v1",
+      "title": "Multi-modal Document Presentation Attack Detection With Forensics Trace Disentanglement",
+      "authors": [
+        "Changsheng Chen",
+        "Yongyi Deng",
+        "Liangwei Lin",
+        "Zitong Yu",
+        "Zhimao Lai"
+      ],
+      "published": "2024-04-10T00:11:03Z",
+      "updated": "2024-04-10T00:11:03Z",
+      "url": "https://arxiv.org/abs/2404.06663v1",
+      "pdfURL": "https://arxiv.org/pdf/2404.06663v1",
+      "localPath": "papers/2404.06663v1.pdf",
+      "sha256": "aec65053ce92444cbfbf0be77389452e189776ca64a54dfad3d3baef992d1a11",
+      "bytes": 996686,
+      "licenseURLs": [
+        "http://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+      ],
+      "reviewStatus": "relevant_method_sections_reviewed_not_reproduced",
+      "retrievedUTC": "2026-10-17T20:09:55.192322+00:00",
+      "reviewedSections": [
+        "Section 2, PDF pp. 2-4, recapture trace disentanglement"
+      ],
+      "decisionStatus": "reference_only_no_artifact_selected"
+    },
+    {
+      "id": "1902.03138v6",
+      "title": "A Purely Algebraic Justification of the Kabsch-Umeyama Algorithm",
+      "authors": [
+        "Jim Lawrence",
+        "Javier Bernal",
+        "Christoph Witzgall"
+      ],
+      "published": "2019-02-07T17:19:26Z",
+      "updated": "2019-10-08T21:20:01Z",
+      "url": "https://arxiv.org/abs/1902.03138v6",
+      "pdfURL": "https://arxiv.org/pdf/1902.03138v6",
+      "localPath": "papers/1902.03138v6.pdf",
+      "sha256": "bdef70557aabc2511f0e75bc6fb46c50ab734b8d0009cd6aa885fcbc5bd824b9",
+      "bytes": 119457,
+      "licenseURLs": [
+        "http://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+      ],
+      "reviewStatus": "relevant_method_sections_reviewed_not_reproduced",
+      "retrievedUTC": "2026-10-17T20:10:09.866092+00:00",
+      "reviewedSections": [
+        "PDF pp. 2-4, centered rigid fit and determinant-corrected SVD"
+      ],
+      "decisionStatus": "reference_only_no_artifact_selected"
+    },
+    {
+      "id": "2606.05126v1",
+      "title": "A-Live: Passive Liveness Detection via Neuromuscular Micro-Motion Signatures on Commodity Sensors",
+      "authors": [
+        "Mohammed Gharib",
+        "Sam Burns",
+        "Martin Zizi"
+      ],
+      "published": "2026-06-03T17:30:30Z",
+      "updated": "2026-06-03T17:30:30Z",
+      "url": "https://arxiv.org/abs/2606.05126v1",
+      "pdfURL": "https://arxiv.org/pdf/2606.05126v1",
+      "localPath": "papers/2606.05126v1.pdf",
+      "sha256": "1756c2bdd89eb572d9a49042460a9a9df079afd1016e549016917e68131fe7fe",
+      "bytes": 465925,
+      "licenseURLs": [
+        "http://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+      ],
+      "reviewStatus": "relevant_method_sections_reviewed_not_reproduced",
+      "retrievedUTC": "2026-10-26T17:46:04.229990+00:00",
+      "reviewedSections": [
+        "Sections 4-5.1, PDF pp. 4-5: human-presence target, adversarial assumptions, six-axis IMU input, one-second windows and signal units"
+      ],
+      "decisionStatus": "reference_only_no_artifact_selected"
+    }
+  ],
+  "scope": "Published reference papers only; not model weights, a training/evaluation corpus or reproduced benchmark evidence",
+  "externalAuthorities": [
+    {
+      "id": "nist-frte11",
+      "url": "https://pages.nist.gov/frvt/api/FRVT_ongoing_11_api.pdf",
+      "localSourceManifest": "../../biometric/nist/sources.json",
+      "pdfAcquisitionStatus": "HTTP_403_not_cached"
+    },
+    {
+      "id": "nist-general",
+      "url": "https://pages.nist.gov/frvt/api/FRVT_common.pdf",
+      "localSourceManifest": "../../biometric/nist/sources.json",
+      "pdfAcquisitionStatus": "HTTP_403_not_cached"
+    },
+    {
+      "id": "nistir-7740",
+      "url": "https://www.nist.gov/publications/comparison-confidence-intervals-large-operational-biometric-data-parametric-and-non",
+      "reviewScope": "publication abstract only; full interval derivations not incorporated",
+      "pdfAcquisitionStatus": "HTTP_403_not_cached"
+    }
+  ]
+}

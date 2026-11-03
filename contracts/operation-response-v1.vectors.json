@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "operation": {
+    "v": "kenshiki.sealed-operation.v1",
+    "application_id": "synthetic.app",
+    "installation_id": "installation-1",
+    "audience": "https://synthetic.invalid",
+    "operation_kind": "presence_share_start",
+    "operation_id": "operation-1",
+    "target_id": "resource-1",
+    "generation": "generation-1",
+    "expected_revision": 0,
+    "challenge_id": "challenge-1",
+    "issued_at": 1792267200,
+    "expires_at": 1792267500,
+    "content_digest": "0cd4101d3beb3cdd08a62cb8508f2a2a0942b290a02d6ba252d5fb481d3ce054",
+    "purpose": "share",
+    "recipient": null
+  },
+  "resultCanonical": "{\"share_id\":\"resource-1\",\"status\":\"ended\"}",
+  "flat": {
+    "share_id": "resource-1",
+    "status": "ended",
+    "receipt": {
+      "v": "kenshiki.operation-receipt.v1",
+      "audience": "https://synthetic.invalid",
+      "application_id": "synthetic.app",
+      "installation_id": "installation-1",
+      "operation_kind": "presence_share_start",
+      "operation_id": "operation-1",
+      "target_id": "resource-1",
+      "generation": "generation-1",
+      "request_digest": "be60a8fde6f33bd7beed7b8ef3fd4ae5bdb01fb63f75c357e3fc876d8089c66b",
+      "content_digest": "0cd4101d3beb3cdd08a62cb8508f2a2a0942b290a02d6ba252d5fb481d3ce054",
+      "result_digest": "6a526b6e1a583033e9a5e259696a9908d2ea1ff75635a323e1a0d5af7e99b224",
+      "result_revision": 1,
+      "expires_at": 1792267800
+    }
+  },
+  "wrapped": {
+    "result": {
+      "share_id": "resource-1",
+      "status": "ended"
+    },
+    "receipt": {
+      "v": "kenshiki.operation-receipt.v1",
+      "audience": "https://synthetic.invalid",
+      "application_id": "synthetic.app",
+      "installation_id": "installation-1",
+      "operation_kind": "presence_share_start",
+      "operation_id": "operation-1",
+      "target_id": "resource-1",
+      "generation": "generation-1",
+      "request_digest": "be60a8fde6f33bd7beed7b8ef3fd4ae5bdb01fb63f75c357e3fc876d8089c66b",
+      "content_digest": "0cd4101d3beb3cdd08a62cb8508f2a2a0942b290a02d6ba252d5fb481d3ce054",
+      "result_digest": "6a526b6e1a583033e9a5e259696a9908d2ea1ff75635a323e1a0d5af7e99b224",
+      "result_revision": 1,
+      "expires_at": 1792267800
+    }
+  }
+}

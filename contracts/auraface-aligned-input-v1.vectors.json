@@ -1,0 +1,101 @@
+{
+  "contract": "auraface-aligned-input",
+  "version": 1,
+  "scope": "synthetic_aligned_pixels_no_recognition_accuracy_claim",
+  "cases": [
+    {
+      "id": "ramp",
+      "generator": "(pixel_index * 37 + channel_index * 83) modulo 256",
+      "inputSHA256": "ca4b1f1fc20c1634be2d7b3a66001f8a25a63e1150b0350b09d933766903691b",
+      "tensorSHA256": "7ce29b1f15bfc81d53008c9f757e16c5d10ca6d5f7f91f06e2cdc2abc1dfd2a1",
+      "tensorByteLength": 150528
+    },
+    {
+      "id": "black",
+      "generator": "constant_0",
+      "inputSHA256": "064472034d4d30eef4b30d1f71db4d142ab7f646582e44e062fe897d0b5b7e23",
+      "tensorSHA256": "f7817de463c8b005aa64d1bc5c6e728883972f814fd64ef9528e85f794b19786",
+      "tensorByteLength": 150528
+    },
+    {
+      "id": "white",
+      "generator": "constant_255",
+      "inputSHA256": "f278d511427329d16ae4ea3daa35f191dfed66e46f958b60abc6d0fb32289cd9",
+      "tensorSHA256": "f7bed17673e4e40e048519d42212820827874081e3fe02a042f46e7507b4169e",
+      "tensorByteLength": 150528
+    }
+  ],
+  "negativeCases": [
+    {
+      "id": "orientation_2",
+      "mutation": {
+        "orientation": 2
+      },
+      "expectedFailure": "invalid_input"
+    },
+    {
+      "id": "orientation_3",
+      "mutation": {
+        "orientation": 3
+      },
+      "expectedFailure": "invalid_input"
+    },
+    {
+      "id": "orientation_4",
+      "mutation": {
+        "orientation": 4
+      },
+      "expectedFailure": "invalid_input"
+    },
+    {
+      "id": "orientation_5",
+      "mutation": {
+        "orientation": 5
+      },
+      "expectedFailure": "invalid_input"
+    },
+    {
+      "id": "orientation_6",
+      "mutation": {
+        "orientation": 6
+      },
+      "expectedFailure": "invalid_input"
+    },
+    {
+      "id": "orientation_7",
+      "mutation": {
+        "orientation": 7
+      },
+      "expectedFailure": "invalid_input"
+    },
+    {
+      "id": "orientation_8",
+      "mutation": {
+        "orientation": 8
+      },
+      "expectedFailure": "invalid_input"
+    },
+    {
+      "id": "width_111",
+      "mutation": {
+        "width": 111
+      },
+      "expectedFailure": "invalid_input"
+    },
+    {
+      "id": "height_113",
+      "mutation": {
+        "height": 113
+      },
+      "expectedFailure": "invalid_input"
+    },
+    {
+      "id": "grayscale",
+      "mutation": {
+        "pixelFormat": "gray8"
+      },
+      "expectedFailure": "invalid_input"
+    }
+  ],
+  "failureVocabularyScope": "adapter_invalid_input_after_portable_snapshot_validation_fixed_manifest_has_no_caller_override"
+}

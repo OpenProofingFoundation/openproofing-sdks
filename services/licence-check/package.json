@@ -1,0 +1,23 @@
+{
+  "name": "kenshiki-licence-check-workspace",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "core",
+    "trusona"
+  ],
+  "engines": {
+    "node": ">=22.22.2"
+  },
+  "scripts": {
+    "build": "npm run build --workspace @kenshiki-labs/licence-check && npm run build --workspace @kenshiki-labs/licence-check-trusona",
+    "check": "node scripts/check.mjs",
+    "test": "npm run test --workspaces",
+    "test:consumer": "node scripts/consumer.mjs"
+  },
+  "devDependencies": {
+    "typescript": "5.9.3",
+    "@types/node": "22.10.2"
+  }
+}

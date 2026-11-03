@@ -1,0 +1,414 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://schemas.kenshiki.dev/contracts/auraface-bff-observation-v1.schema.json",
+  "title": "PROPOSED AuraFace BFF observation v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "model",
+    "context",
+    "execution",
+    "status"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "const": 1
+    },
+    "model": {
+      "const": "auraface"
+    },
+    "context": {
+      "$ref": "face-comparison-bff-common-v1.schema.json#/$defs/context"
+    },
+    "execution": {
+      "allOf": [
+        {
+          "$ref": "face-comparison-bff-common-v1.schema.json#/$defs/execution"
+        },
+        {
+          "properties": {
+            "artifactSHA256": {
+              "const": "a7933ea5330113b01c9b60351d8f4c33003f145d8470ac5f0e52ee2effe25c60"
+            },
+            "profileId": {
+              "const": "auraface-v1-apple-vision3-rgb112-ort122-cpu-v1"
+            },
+            "runtime": {
+              "properties": {
+                "name": {
+                  "const": "onnxruntime"
+                },
+                "version": {
+                  "const": "1.22.0"
+                }
+              }
+            }
+          },
+          "not": {
+            "required": [
+              "promptSHA256"
+            ]
+          }
+        }
+      ]
+    },
+    "status": {
+      "enum": [
+        "completed",
+        "failed",
+        "unavailable"
+      ]
+    },
+    "observation": {
+      "$ref": "#/$defs/observation"
+    },
+    "failure": {
+      "$ref": "face-comparison-bff-common-v1.schema.json#/$defs/failure"
+    }
+  },
+  "oneOf": [
+    {
+      "properties": {
+        "status": {
+          "const": "completed"
+        },
+        "execution": {
+          "properties": {
+            "runtime": {
+              "properties": {
+                "platform": {
+                  "enum": [
+                    "ios",
+                    "macos"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      "required": [
+        "observation"
+      ],
+      "not": {
+        "required": [
+          "failure"
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": {
+          "const": "failed"
+        },
+        "failure": {
+          "allOf": [
+            {
+              "$ref": "face-comparison-bff-common-v1.schema.json#/$defs/failure"
+            },
+            {
+              "oneOf": [
+                {
+                  "properties": {
+                    "code": {
+                      "const": "invalid_image"
+                    },
+                    "stage": {
+                      "const": "input_validation"
+                    }
+                  }
+                },
+                {
+                  "properties": {
+                    "code": {
+                      "const": "resource_limit"
+                    },
+                    "stage": {
+                      "const": "input_validation"
+                    }
+                  }
+                },
+                {
+                  "properties": {
+                    "code": {
+                      "const": "source_mismatch"
+                    },
+                    "stage": {
+                      "const": "input_validation"
+                    }
+                  }
+                },
+                {
+                  "properties": {
+                    "code": {
+                      "const": "face_missing"
+                    },
+                    "stage": {
+                      "const": "input_validation"
+                    }
+                  }
+                },
+                {
+                  "properties": {
+                    "code": {
+                      "const": "multiple_faces"
+                    },
+                    "stage": {
+                      "const": "input_validation"
+                    }
+                  }
+                },
+                {
+                  "properties": {
+                    "code": {
+                      "const": "landmarks_unavailable"
+                    },
+                    "stage": {
+                      "const": "input_validation"
+                    }
+                  }
+                },
+                {
+                  "properties": {
+                    "code": {
+                      "const": "alignment_failed"
+                    },
+                    "stage": {
+                      "const": "inference"
+                    }
+                  }
+                },
+                {
+                  "properties": {
+                    "code": {
+                      "const": "inference_failed"
+                    },
+                    "stage": {
+                      "const": "inference"
+                    }
+                  }
+                },
+                {
+                  "properties": {
+                    "code": {
+                      "const": "cancelled"
+                    },
+                    "stage": {
+                      "const": "input_validation"
+                    }
+                  }
+                },
+                {
+                  "properties": {
+                    "code": {
+                      "const": "cancelled"
+                    },
+                    "stage": {
+                      "const": "artifact_verification"
+                    }
+                  }
+                },
+                {
+                  "properties": {
+                    "code": {
+                      "const": "cancelled"
+                    },
+                    "stage": {
+                      "const": "runtime"
+                    }
+                  }
+                },
+                {
+                  "properties": {
+                    "code": {
+                      "const": "cancelled"
+                    },
+                    "stage": {
+                      "const": "inference"
+                    }
+                  }
+                },
+                {
+                  "properties": {
+                    "code": {
+                      "const": "cancelled"
+                    },
+                    "stage": {
+                      "const": "output_validation"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "required": [
+        "failure"
+      ],
+      "not": {
+        "required": [
+          "observation"
+        ]
+      }
+    },
+    {
+      "properties": {
+        "status": {
+          "const": "unavailable"
+        },
+        "failure": {
+          "allOf": [
+            {
+              "$ref": "face-comparison-bff-common-v1.schema.json#/$defs/failure"
+            },
+            {
+              "oneOf": [
+                {
+                  "properties": {
+                    "code": {
+                      "const": "model_unavailable"
+                    },
+                    "stage": {
+                      "const": "artifact_verification"
+                    }
+                  }
+                },
+                {
+                  "properties": {
+                    "code": {
+                      "const": "runtime_unavailable"
+                    },
+                    "stage": {
+                      "const": "runtime"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "required": [
+        "failure"
+      ],
+      "not": {
+        "required": [
+          "observation"
+        ]
+      }
+    }
+  ],
+  "$defs": {
+    "plan": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "schemaVersion",
+        "model",
+        "profileId",
+        "artifactSHA256",
+        "artifactManifestSHA256",
+        "preprocessingManifestSHA256",
+        "alignmentRoute"
+      ],
+      "properties": {
+        "schemaVersion": {
+          "const": 1
+        },
+        "model": {
+          "const": "auraface"
+        },
+        "profileId": {
+          "const": "auraface-v1-apple-vision3-rgb112-ort122-cpu-v1"
+        },
+        "artifactSHA256": {
+          "const": "a7933ea5330113b01c9b60351d8f4c33003f145d8470ac5f0e52ee2effe25c60"
+        },
+        "artifactManifestSHA256": {
+          "const": "9db36f239a89adfa6794f616f7face61f5ba1b0ca0c7f26b93a6204001856347"
+        },
+        "preprocessingManifestSHA256": {
+          "const": "70da7b12bc90fda352222d941cc51e97288305de9522320fde8633b22a38e1d9"
+        },
+        "alignmentRoute": {
+          "const": "apple-vision-revision3-five-point-cpp-bilinear-v1"
+        }
+      }
+    },
+    "observation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "cosineSimilarity",
+        "referenceAlignedSHA256",
+        "selfieAlignedSHA256",
+        "artifactManifestSHA256",
+        "preprocessingManifestSHA256",
+        "alignmentRoute",
+        "embeddingDimensions",
+        "alignedInput"
+      ],
+      "properties": {
+        "cosineSimilarity": {
+          "type": "number",
+          "minimum": -1,
+          "maximum": 1
+        },
+        "referenceAlignedSHA256": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{64}$",
+          "minLength": 64,
+          "maxLength": 64
+        },
+        "selfieAlignedSHA256": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{64}$",
+          "minLength": 64,
+          "maxLength": 64
+        },
+        "artifactManifestSHA256": {
+          "const": "9db36f239a89adfa6794f616f7face61f5ba1b0ca0c7f26b93a6204001856347"
+        },
+        "preprocessingManifestSHA256": {
+          "const": "70da7b12bc90fda352222d941cc51e97288305de9522320fde8633b22a38e1d9"
+        },
+        "alignmentRoute": {
+          "const": "apple-vision-revision3-five-point-cpp-bilinear-v1"
+        },
+        "embeddingDimensions": {
+          "const": 512
+        },
+        "alignedInput": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "pixelFormat",
+            "width",
+            "height",
+            "orientation",
+            "byteLength"
+          ],
+          "properties": {
+            "pixelFormat": {
+              "const": "rgb8"
+            },
+            "width": {
+              "const": 112
+            },
+            "height": {
+              "const": 112
+            },
+            "orientation": {
+              "const": 1
+            },
+            "byteLength": {
+              "const": 37632
+            }
+          }
+        }
+      }
+    }
+  }
+}

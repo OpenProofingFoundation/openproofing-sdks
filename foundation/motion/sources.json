@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "donorRepository": "pulse-ios",
+  "donorRevision": "c77d87bacd166eabcc69e2de1afadbd8fa7d8de8",
+  "files": {
+    "foundation/motion/Package.swift": {
+      "destinationSHA256": "6263b0ceaa3de8f847bf7065b232ab70f9099b956211da3917e8cbd34602e83a"
+    },
+    "foundation/motion/Sources/KenshikiMotion/PulseCeremonyMotionSummary.swift": {
+      "destinationSHA256": "b544c0b87acb80b39fad51b17b947dc1d5d93ee495f949efc5089499aac89d06",
+      "sourcePath": "Sources/KenshikiDeviceSDK/PulseCeremonyMotionSummary.swift",
+      "sourceSHA256": "b544c0b87acb80b39fad51b17b947dc1d5d93ee495f949efc5089499aac89d06",
+      "patches": []
+    },
+    "foundation/motion/Sources/KenshikiMotion/PulseCeremonyMotionWitness.swift": {
+      "destinationSHA256": "69905837f8f3f38cc99ec94c6ee5a2295efaa6468926cf73a625f8983b6d8466",
+      "sourcePath": "Sources/KenshikiDeviceSDK/PulseCeremonyMotionWitness.swift",
+      "sourceSHA256": "904f75eca209849643abb1a088dfc35c9c599c14e09500d1d3e9794d9a5b1995",
+      "patches": [
+        "Preserved public witness and original summary types; isolated bounded state for frame-aligned sampling, selected calibration, monotonic timestamps and cancellation tests."
+      ]
+    },
+    "foundation/motion/Tests/KenshikiMotionTests/PulseCeremonyMotionSummaryTests.swift": {
+      "destinationSHA256": "6a3c40e4243bf8eedeb0acd8f0dfb073be28b11b93f5c487cc5d0fe9dd27b53d",
+      "sourcePath": "Tests/KenshikiDeviceSDKTests/PulseCeremonyMotionSummaryTests.swift",
+      "sourceSHA256": "8e0be198230df7035649cebfc71ad826ee721c4e7946979396ee8ad871904a93",
+      "patches": [
+        "Import the shared module instead of the application SDK."
+      ]
+    },
+    "foundation/motion/Sources/KenshikiMotion/PulseCeremonyMotionTrace.swift": {
+      "origin": "new",
+      "patches": [
+        "Isolated bounded witness state or explicitly requested permission adapter and its regression coverage."
+      ],
+      "destinationSHA256": "498beff60def9aaca4bd4070ef206a34cf55585bf8c20b72bbaf39668a779d53"
+    },
+    "foundation/motion/Sources/KenshikiMotion/PulseMotionPermission.swift": {
+      "origin": "new",
+      "patches": [
+        "Extracted Motion/Fitness permission query without UI, location, contact or activity retention."
+      ],
+      "destinationSHA256": "e62b11a65a5cf247e6925fc00d2c9f30175dc8461482451e1f09a13413b8e0d5",
+      "sourcePath": "Samples/KenshikiDeviceDemo/Sources/PermissionsManager.swift",
+      "sourceSHA256": "7b14195d01a06a9d98c6ceaa0655862be53191ea8cbbcff7378d16dfbebbd98d"
+    },
+    "foundation/motion/Tests/KenshikiMotionTests/PulseCeremonyMotionWitnessTests.swift": {
+      "origin": "new",
+      "patches": [
+        "Isolated bounded witness state or explicitly requested permission adapter and its regression coverage."
+      ],
+      "destinationSHA256": "9f2c3aa66b9f7207023f611fe75f15cd6a9e35627eef9cd880cddbeadfc8f877"
+    },
+    "foundation/motion/Tests/KenshikiMotionTests/PulseMotionPermissionTests.swift": {
+      "origin": "new",
+      "patches": [
+        "Exercise permission reentrancy and cancellation through the same bounded query completion path."
+      ],
+      "destinationSHA256": "987a24c15ffa3f07c659ff983c065f5fbbadb49b0bcbf4682c7edadf8095b309"
+    }
+  }
+}

@@ -1,0 +1,369 @@
+{
+  "schemaVersion": 1,
+  "scope": "Full-file motion mathematics and test source inspection; no Pulse suites executed by this agent.",
+  "hashInterval": "Report-finalization interval, captured after initial full reads; not a pre-read or entire-session source freeze.",
+  "startedAt": "2026-10-26T18:23:48.697408+00:00",
+  "repositories": [
+    {
+      "path": "/Users/shf/Developer/pulse-ios",
+      "revision": "d6d544a75d3b79106eb8224a6f93f0b7536d2e2f",
+      "branch": "fix/gateway-licence-wiring-20261025",
+      "dirty": true
+    },
+    {
+      "path": "/Users/shf/Developer/kenshiki-sdks",
+      "revision": "04309902f45cea28505713a2b229f2b582d823c1",
+      "branch": "fix/canonical-front-capture-20261025",
+      "dirty": true
+    }
+  ],
+  "files": [
+    {
+      "path": "/Users/shf/Developer/pulse-ios/AGENTS.md",
+      "readInFull": true,
+      "sha256Start": "0c16519b13ca10ee28cf6aec45693c6797993f33754b629dae8a6714b33d27ef",
+      "sha256End": "0c16519b13ca10ee28cf6aec45693c6797993f33754b629dae8a6714b33d27ef",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/shf/Developer/pulse-ios/CLAUDE.md",
+      "readInFull": true,
+      "sha256Start": "2f6ec1dc3f01892737b17f84fd9b3e1f70c5c48c018dfb37a1b2ed18975abc40",
+      "sha256End": "2f6ec1dc3f01892737b17f84fd9b3e1f70c5c48c018dfb37a1b2ed18975abc40",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/shf/Developer/kenshiki-sdks/AGENTS.md",
+      "readInFull": true,
+      "sha256Start": "06ed87c8d8a9dc83e982450fba4c2205a8154587c2a66d92abf55089bf6c3888",
+      "sha256End": "06ed87c8d8a9dc83e982450fba4c2205a8154587c2a66d92abf55089bf6c3888",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/shf/Developer/kenshiki-sdks/CLAUDE.md",
+      "readInFull": true,
+      "sha256Start": "6b5dd9a78796973fe9cf1a8dd446e51b542e74582c67c13306a5392946f0e8fc",
+      "sha256End": "6b5dd9a78796973fe9cf1a8dd446e51b542e74582c67c13306a5392946f0e8fc",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/shf/Developer/kenshiki-sdks/governance/architecture/APP-ARCH-001.md",
+      "readInFull": true,
+      "sha256Start": "31e0f180e89ece414c4794cdee529e8ba00617f2f0ef8b20a7ef2ab17da70046",
+      "sha256End": "31e0f180e89ece414c4794cdee529e8ba00617f2f0ef8b20a7ef2ab17da70046",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/shf/Developer/pulse-ios/Sources/KenshikiDeviceSDK/SensorVector3.swift",
+      "readInFull": true,
+      "sha256Start": "ba980817ee4fe8b22460eccdc5df335da56a9b3c8f07d31772577cc3e2dbc716",
+      "sha256End": "ba980817ee4fe8b22460eccdc5df335da56a9b3c8f07d31772577cc3e2dbc716",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/shf/Developer/pulse-ios/Sources/KenshikiDeviceSDK/EmpiricalDistribution.swift",
+      "readInFull": true,
+      "sha256Start": "8b51154d679500df442e410aab4d0e3bab3b61b793636b420f3d5324a36d74ae",
+      "sha256End": "8b51154d679500df442e410aab4d0e3bab3b61b793636b420f3d5324a36d74ae",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/shf/Developer/pulse-ios/Sources/KenshikiDeviceSDK/SensorTemporalSummary.swift",
+      "readInFull": true,
+      "sha256Start": "dbb2c5ee9b5f28eb5b2f1eb8314a94a6a301073652697a4010f4434d07bd092d",
+      "sha256End": "dbb2c5ee9b5f28eb5b2f1eb8314a94a6a301073652697a4010f4434d07bd092d",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/shf/Developer/pulse-ios/Sources/KenshikiDeviceSDK/SensorSampleTime.swift",
+      "readInFull": true,
+      "sha256Start": "50f35ac3797943581653a37527750b764186ccdb5ec9784adb69d0a9f7de4054",
+      "sha256End": "50f35ac3797943581653a37527750b764186ccdb5ec9784adb69d0a9f7de4054",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/shf/Developer/pulse-ios/Sources/KenshikiDeviceSDK/SensorWindowTiming.swift",
+      "readInFull": true,
+      "sha256Start": "77527f4c6e9200b09ece7b95ac4dae04f56de37b0015fadb5493524b6442df86",
+      "sha256End": "77527f4c6e9200b09ece7b95ac4dae04f56de37b0015fadb5493524b6442df86",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/shf/Developer/pulse-ios/Sources/KenshikiDeviceSDK/BoundedSensorWindow.swift",
+      "readInFull": true,
+      "sha256Start": "3e7b2aebc758615ab9e03a87c3cc660a65aafaede537f329fea77bf15aa8b88e",
+      "sha256End": "3e7b2aebc758615ab9e03a87c3cc660a65aafaede537f329fea77bf15aa8b88e",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/shf/Developer/pulse-ios/Sources/KenshikiDeviceSDK/DeviceMotionAggregate.swift",
+      "readInFull": true,
+      "sha256Start": "5e4e794f05c9f52847edbf616b8fbe29625ba34bbb746bb3953b42cc909d0abf",
+      "sha256End": "5e4e794f05c9f52847edbf616b8fbe29625ba34bbb746bb3953b42cc909d0abf",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/shf/Developer/pulse-ios/Sources/KenshikiDeviceSDK/DeviceMotionWindow.swift",
+      "readInFull": true,
+      "sha256Start": "d524c7ca5f172caec7dcfbd6e856782ddc13ec1c81e5470d87a3c6c4df14c59f",
+      "sha256End": "d524c7ca5f172caec7dcfbd6e856782ddc13ec1c81e5470d87a3c6c4df14c59f",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/shf/Developer/pulse-ios/Sources/KenshikiDeviceSDK/DeviceMotionEvidenceWindow.swift",
+      "readInFull": true,
+      "sha256Start": "f8923d58099d4593385fb2268384eb08f1bae40f4c53c822ee8102843a70372e",
+      "sha256End": "f8923d58099d4593385fb2268384eb08f1bae40f4c53c822ee8102843a70372e",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/shf/Developer/pulse-ios/Sources/KenshikiDeviceSDK/RecordedAccelerationAggregate.swift",
+      "readInFull": true,
+      "sha256Start": "f8bafb2cbd51df4cd30a2d557453f940bc0bbf5be8555a2cc1f53d1517f276d4",
+      "sha256End": "f8bafb2cbd51df4cd30a2d557453f940bc0bbf5be8555a2cc1f53d1517f276d4",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/shf/Developer/pulse-ios/Sources/KenshikiDeviceSDK/RecordedAccelerationWindow.swift",
+      "readInFull": true,
+      "sha256Start": "229df1b7684a7eac084e2f1184311c71d0aec0ee0de85c802611dd59e8dbadb6",
+      "sha256End": "229df1b7684a7eac084e2f1184311c71d0aec0ee0de85c802611dd59e8dbadb6",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/shf/Developer/pulse-ios/Sources/KenshikiDeviceSDK/PulseCeremonyMotionSummary.swift",
+      "readInFull": true,
+      "sha256Start": "b544c0b87acb80b39fad51b17b947dc1d5d93ee495f949efc5089499aac89d06",
+      "sha256End": "b544c0b87acb80b39fad51b17b947dc1d5d93ee495f949efc5089499aac89d06",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/shf/Developer/pulse-ios/Sources/KenshikiDeviceSDK/PulseCeremonyMotionWitness.swift",
+      "readInFull": true,
+      "sha256Start": "904f75eca209849643abb1a088dfc35c9c599c14e09500d1d3e9794d9a5b1995",
+      "sha256End": "904f75eca209849643abb1a088dfc35c9c599c14e09500d1d3e9794d9a5b1995",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/shf/Developer/pulse-ios/Tests/KenshikiDeviceSDKTests/SensorWindowTimingTests.swift",
+      "readInFull": true,
+      "sha256Start": "a31e5ba31c85830f657ec02953219b5bbaa81cf0c1678c53729b270ce4176262",
+      "sha256End": "a31e5ba31c85830f657ec02953219b5bbaa81cf0c1678c53729b270ce4176262",
+      "unchanged": true,
+      "testMethodsInspected": [
+        "testPerfectOneHertzWindowIsObserved",
+        "testInternalLossCannotEarnObservedQuality",
+        "testIsolatedCallbackIsPartialRatherThanObserved",
+        "testHalfOpenBoundaryRoutesExactMinuteToNextWindow",
+        "testWallClockJumpDoesNotChangeWindowRouting",
+        "testDuplicateAndInvalidSamplesDoNotAffectMeasurementsOrCoverage",
+        "testEmpiricalDistributionPinsR7Quantiles"
+      ]
+    },
+    {
+      "path": "/Users/shf/Developer/pulse-ios/Tests/KenshikiDeviceSDKTests/SensorTemporalSummaryTests.swift",
+      "readInFull": true,
+      "sha256Start": "e135ae809ab653d008cfa309bbb022e26b9a23178f2c97b207c6bb9008f810ac",
+      "sha256End": "e135ae809ab653d008cfa309bbb022e26b9a23178f2c97b207c6bb9008f810ac",
+      "unchanged": true,
+      "testMethodsInspected": [
+        "testCountThresholdIsInclusiveAtNinetyFivePercent",
+        "testCoverageThresholdIsInclusiveAndRejectsBelowByEpsilon",
+        "testMaximumGapThresholdIsInclusiveAndRejectsAboveByEpsilon",
+        "testTranslationAcrossNegativeAndPositiveClockDomainsPreservesSummary",
+        "testLiveAndRecordedRoutesProduceEquivalentTemporalEvidence"
+      ]
+    },
+    {
+      "path": "/Users/shf/Developer/pulse-ios/Tests/KenshikiDeviceSDKTests/DeviceMotionWindowTests.swift",
+      "readInFull": true,
+      "sha256Start": "acd7594d43a25f3710294f8e43f279f811bd05fa2c46773181abbac9d92eb1c0",
+      "sha256End": "acd7594d43a25f3710294f8e43f279f811bd05fa2c46773181abbac9d92eb1c0",
+      "unchanged": true,
+      "testMethodsInspected": [
+        "testMotionSampleCountIsEveryEventTheWindowReceived",
+        "testMagnetometerSampleCountIsEveryCalibratedEvent",
+        "testALastUncalibratedEventDoesNotDiscardTheCalibratedOnesBeforeIt",
+        "testAWindowWithNoCalibratedFieldReportsNoMagnetometerSample",
+        "testAWindowWithNoEventReportsNeither",
+        "testTheRawMagnetometerFallbackCountsEveryEvent"
+      ]
+    },
+    {
+      "path": "/Users/shf/Developer/pulse-ios/Tests/KenshikiDeviceSDKTests/DeviceMotionEvidenceWindowTests.swift",
+      "readInFull": true,
+      "sha256Start": "78f0fd8a2706fd38327f4a9c9640b328a5e6ba222c6ee74ce7f6015fe4c75cdc",
+      "sha256End": "78f0fd8a2706fd38327f4a9c9640b328a5e6ba222c6ee74ce7f6015fe4c75cdc",
+      "unchanged": true,
+      "testMethodsInspected": [
+        "testObservedWindowIsACompleteTypedRoundTrip",
+        "testPartialWindowRoundTripsButDoesNotQualify",
+        "testEmptyWindowRoundTripsAsTypedAbsence",
+        "testAdapterRejectsEnvelopeAndMeasurementCorruption"
+      ]
+    },
+    {
+      "path": "/Users/shf/Developer/pulse-ios/Tests/KenshikiDeviceSDKTests/MotionAggregateReducerTests.swift",
+      "readInFull": true,
+      "sha256Start": "ca2c520ea73b56d6644c94455d0736301a60d91ed7020d16cfac40b844fe7c7b",
+      "sha256End": "ca2c520ea73b56d6644c94455d0736301a60d91ed7020d16cfac40b844fe7c7b",
+      "unchanged": true,
+      "testMethodsInspected": [
+        "testDeviceMotionUsesUnmodifiedAppleProcessedMagnitudes",
+        "testDeviceMotionRejectsMixedReferenceFrames",
+        "testRecordedAccelerationRetainsEverySampleWhileCompactlyProvenancingBatches"
+      ]
+    },
+    {
+      "path": "/Users/shf/Developer/pulse-ios/Tests/KenshikiDeviceSDKTests/RecordedAccelerationWindowTests.swift",
+      "readInFull": true,
+      "sha256Start": "713a6050c8be57af4785839dd067827db139317f93cb5928f1fa906f08f0467b",
+      "sha256End": "713a6050c8be57af4785839dd067827db139317f93cb5928f1fa906f08f0467b",
+      "unchanged": true,
+      "testMethodsInspected": [
+        "testSortsDeduplicatesAndReportsActualBounds",
+        "testConflictingSampleIdentityIsRejectedWithoutInputOrderChoosingEvidence",
+        "testInvalidWallDatesAreReportedAsUnroutable",
+        "testSignedZeroOrderingIsBitDeterministic",
+        "testSensorTimestampRegressionIsReportedWithoutReplacingWallClockTiming",
+        "testHalfOpenBoundaryAndCutoffOnlyFinalizeClosedBins",
+        "testCompleteFiftyHertzMinuteIsObserved",
+        "testInternalGapAndMissingSupportArePartial",
+        "testStationaryRecordedAccelerationPreservesRawGravityNearOneG"
+      ]
+    },
+    {
+      "path": "/Users/shf/Developer/pulse-ios/Tests/KenshikiDeviceSDKTests/PulseCeremonyMotionSummaryTests.swift",
+      "readInFull": true,
+      "sha256Start": "8e0be198230df7035649cebfc71ad826ee721c4e7946979396ee8ad871904a93",
+      "sha256End": "8e0be198230df7035649cebfc71ad826ee721c4e7946979396ee8ad871904a93",
+      "unchanged": true,
+      "testMethodsInspected": [
+        "testDeadStillTraceHasZeroEnergyAndNoTremorRatio",
+        "testTenHertzTremorDominatesTheBandRatio",
+        "testSlowSwayFallsOutsideTheTremorBand",
+        "testSettleRatioDropsWhenTheLastFifthOfASecondIsStill",
+        "testGravityDriftIsTheAngleBetweenFirstAndLastVectors",
+        "testMagneticDeltaIsMaxMinusMin",
+        "testMissingMagneticReferenceIsUnavailableNeverZero",
+        "testUnderOneSecondOfSamplesYieldsNoTremorRatio",
+        "testHashIsDeterministicAndSensitiveToOneSample"
+      ]
+    },
+    {
+      "path": "/Users/shf/Developer/pulse-ios/Samples/KenshikiDeviceDemo/Tests/KenshikiDeviceDemoTests/CeremonyMotionWitnessTests.swift",
+      "readInFull": true,
+      "sha256Start": "6cd743f7db0c029b2531225f92d983105512cd44ba4a4ebb9700b4a9b004c0d6",
+      "sha256End": "6cd743f7db0c029b2531225f92d983105512cd44ba4a4ebb9700b4a9b004c0d6",
+      "unchanged": true,
+      "testMethodsInspected": [
+        "testWindowIsFiledUnderTheIdentityLaneWithTheMotionAtomId",
+        "testPassportLinkedWindowUsesPersonalDataClassButFailedAttemptDoesNot",
+        "testSelectivePersonalEraseDeletesPassportMotionAndPreservesAttemptTelemetry",
+        "testPayloadCarriesEverySummaryValueAndBandsBesideThem",
+        "testAbsentFeaturesAreWrittenAsUnavailableNeverZero",
+        "testReadProjectionPicksTheNewestRowForTheCeremonyAndLabelsIt",
+        "testReadProjectionIgnoresOtherCeremoniesAndReturnsNilWhenNoneRecorded",
+        "testLabelOmitsFeaturesThatWereUnavailable",
+        "testRefreshReadsTheSubjectForTheDocumentOnFile",
+        "testUnavailableLakeSurfacesAsAnIssueNotAsNoWitness",
+        "testNoDocumentClearsTheReadWithoutTouchingTheLake",
+        "testSlowerOldSubjectRefreshCannotOverwriteNewPassport",
+        "testClearInvalidatesARefreshAlreadyInFlight",
+        "testOlderEmptyRefreshCannotNullAJustRecordedDurableRead",
+        "testApplyRejectsAReadBoundToAnotherPassportSubject",
+        "testApplyCannotReplaceANewerReadWithAnOlderWriteCompletion"
+      ]
+    },
+    {
+      "path": "/Users/shf/Developer/pulse-ios/Samples/KenshikiDeviceDemo/Sources/CeremonyMotionLakeWriter.swift",
+      "readInFull": true,
+      "sha256Start": "ccfcdb740f188f66e5b93afd9aba341a6d8079450c04cf6c22676948038f320b",
+      "sha256End": "ccfcdb740f188f66e5b93afd9aba341a6d8079450c04cf6c22676948038f320b",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/shf/Developer/pulse-ios/Samples/KenshikiDeviceDemo/Sources/CeremonyMotionReadProjection.swift",
+      "readInFull": true,
+      "sha256Start": "ab9d9a1c5c891eb748d79ad2e49a4136fc60fbb385e2b83a624fd6f11c73ec8e",
+      "sha256End": "ab9d9a1c5c891eb748d79ad2e49a4136fc60fbb385e2b83a624fd6f11c73ec8e",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/shf/Developer/pulse-ios/Makefile",
+      "readInFull": true,
+      "sha256Start": "977a76cf385302a7eefa168e88240ace0602353ba838fc9d3b478e3e642ccfc3",
+      "sha256End": "977a76cf385302a7eefa168e88240ace0602353ba838fc9d3b478e3e642ccfc3",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/shf/Developer/pulse-ios/scripts/test_sdk.sh",
+      "readInFull": true,
+      "sha256Start": "deb3f4fcb6ef72b27130bc02e71bda84caf67ad2492fcfc01c60723b2532e4fb",
+      "sha256End": "deb3f4fcb6ef72b27130bc02e71bda84caf67ad2492fcfc01c60723b2532e4fb",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/shf/Developer/pulse-ios/scripts/test_app.sh",
+      "readInFull": true,
+      "sha256Start": "d0cacb2c9fe4ba14c157cf4bba026fe8cf0b963a9efe8f63a9a4f13a6e74adff",
+      "sha256End": "d0cacb2c9fe4ba14c157cf4bba026fe8cf0b963a9efe8f63a9a4f13a6e74adff",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/shf/Developer/kenshiki-sdks/foundation/motion/Package.swift",
+      "readInFull": true,
+      "sha256Start": "6263b0ceaa3de8f847bf7065b232ab70f9099b956211da3917e8cbd34602e83a",
+      "sha256End": "6263b0ceaa3de8f847bf7065b232ab70f9099b956211da3917e8cbd34602e83a",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/shf/Developer/kenshiki-sdks/foundation/motion/README.md",
+      "readInFull": true,
+      "sha256Start": "72122553449a19691a2e8d7d0f4f45053549850b056e82ccabd8854e203181e1",
+      "sha256End": "72122553449a19691a2e8d7d0f4f45053549850b056e82ccabd8854e203181e1",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/shf/Developer/kenshiki-sdks/foundation/motion/check.py",
+      "readInFull": true,
+      "sha256Start": "fb8d07e7a5edc80d2f168ed67259b06483ecfe9695845a019c1f77ac177608d3",
+      "sha256End": "fb8d07e7a5edc80d2f168ed67259b06483ecfe9695845a019c1f77ac177608d3",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/shf/Developer/kenshiki-sdks/foundation/motion/sources.json",
+      "readInFull": true,
+      "sha256Start": "7edd91074161ec6006886620df1e48de4b6633f016436be05970a07a188bb596",
+      "sha256End": "7edd91074161ec6006886620df1e48de4b6633f016436be05970a07a188bb596",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/shf/Developer/kenshiki-sdks/foundation/motion/Sources/KenshikiMotion/PulseCeremonyMotionSummary.swift",
+      "readInFull": true,
+      "sha256Start": "b544c0b87acb80b39fad51b17b947dc1d5d93ee495f949efc5089499aac89d06",
+      "sha256End": "b544c0b87acb80b39fad51b17b947dc1d5d93ee495f949efc5089499aac89d06",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/shf/Developer/kenshiki-sdks/foundation/motion/Tests/KenshikiMotionTests/PulseCeremonyMotionSummaryTests.swift",
+      "readInFull": true,
+      "sha256Start": "6a3c40e4243bf8eedeb0acd8f0dfb073be28b11b93f5c487cc5d0fe9dd27b53d",
+      "sha256End": "6a3c40e4243bf8eedeb0acd8f0dfb073be28b11b93f5c487cc5d0fe9dd27b53d",
+      "unchanged": true,
+      "testMethodsInspected": [
+        "testDeadStillTraceHasZeroEnergyAndNoTremorRatio",
+        "testTenHertzTremorDominatesTheBandRatio",
+        "testSlowSwayFallsOutsideTheTremorBand",
+        "testSettleRatioDropsWhenTheLastFifthOfASecondIsStill",
+        "testGravityDriftIsTheAngleBetweenFirstAndLastVectors",
+        "testMagneticDeltaIsMaxMinusMin",
+        "testMissingMagneticReferenceIsUnavailableNeverZero",
+        "testUnderOneSecondOfSamplesYieldsNoTremorRatio",
+        "testHashIsDeterministicAndSensitiveToOneSample"
+      ]
+    }
+  ],
+  "endedAt": "2026-10-26T18:25:43.101609+00:00",
+  "allInputsUnchanged": true
+}

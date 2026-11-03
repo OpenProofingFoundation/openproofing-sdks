@@ -1,0 +1,376 @@
+{
+  "relationships": [
+    {
+      "kind": "conformsTo",
+      "source": "s:18PassportMRZCapture0B11OrientationO",
+      "target": "s:SH"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:18PassportMRZCapture0B11OrientationO",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:18PassportMRZCapture0B11OrientationO",
+      "target": "s:SY"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:18PassportMRZCapture0B11OrientationO",
+      "target": "s:s12CaseIterableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:18PassportMRZCapture0B11OrientationO",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:18PassportMRZCapture0B11OrientationO",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:18PassportMRZCapture11MRZOCRFrameV",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:18PassportMRZCapture11MRZOCRFrameV",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:18PassportMRZCapture12MRZOCRPolicyV",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:18PassportMRZCapture12MRZOCRPolicyV",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:18PassportMRZCapture12MRZOCRPolicyV",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:18PassportMRZCapture16MRZCameraFailureO",
+      "target": "s:SH"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:18PassportMRZCapture16MRZCameraFailureO",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:18PassportMRZCapture16MRZCameraFailureO",
+      "target": "s:SY"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:18PassportMRZCapture16MRZCameraFailureO",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:18PassportMRZCapture16MRZCameraFailureO",
+      "target": "s:s5ErrorP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:18PassportMRZCapture16MRZCameraFailureO",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:18PassportMRZCapture16NativeMRZSessionC",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:18PassportMRZCapture16NativeMRZSessionC",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:18PassportMRZCapture16NativeMRZSessionC5StateO",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:18PassportMRZCapture16NativeMRZSessionC5StateO",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:18PassportMRZCapture16NativeMRZSessionC5StateO",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:18PassportMRZCapture16NativeMRZSessionC7ConsentO",
+      "target": "s:SH"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:18PassportMRZCapture16NativeMRZSessionC7ConsentO",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:18PassportMRZCapture16NativeMRZSessionC7ConsentO",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:18PassportMRZCapture16NativeMRZSessionC7ConsentO",
+      "target": "s:s8SendableP"
+    }
+  ],
+  "symbols": [
+    {
+      "declaration": "enum MRZCaptureOrientation",
+      "id": "s:18PassportMRZCapture0B11OrientationO",
+      "kind": "swift.enum"
+    },
+    {
+      "declaration": "case landscapeLeft",
+      "id": "s:18PassportMRZCapture0B11OrientationO13landscapeLeftyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case landscapeRight",
+      "id": "s:18PassportMRZCapture0B11OrientationO14landscapeRightyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case portraitUpsideDown",
+      "id": "s:18PassportMRZCapture0B11OrientationO18portraitUpsideDownyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "var videoRotationDegrees: Double { get }",
+      "id": "s:18PassportMRZCapture0B11OrientationO20videoRotationDegreesSdvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "case portrait",
+      "id": "s:18PassportMRZCapture0B11OrientationO8portraityA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "init?(rawValue: String)",
+      "id": "s:18PassportMRZCapture0B11OrientationO8rawValueACSgSS_tcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "struct MRZOCRFrame",
+      "id": "s:18PassportMRZCapture11MRZOCRFrameV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "let candidates: [[String]]",
+      "id": "s:18PassportMRZCapture11MRZOCRFrameV10candidatesSaySaySSGGvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let orientation: MRZCaptureOrientation",
+      "id": "s:18PassportMRZCapture11MRZOCRFrameV11orientationAA0B11OrientationOvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let policy: MRZOCRPolicy",
+      "id": "s:18PassportMRZCapture11MRZOCRFrameV6policyAA12MRZOCRPolicyVvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let rowBounds: [CGRect]",
+      "id": "s:18PassportMRZCapture11MRZOCRFrameV9rowBoundsSaySo6CGRectVGvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let timestamp: TimeInterval",
+      "id": "s:18PassportMRZCapture11MRZOCRFrameV9timestampSdvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "struct MRZOCRPolicy",
+      "id": "s:18PassportMRZCapture12MRZOCRPolicyV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "init(identifier: String, candidatesPerRow: Int, minimumTextHeight: Float)",
+      "id": "s:18PassportMRZCapture12MRZOCRPolicyV10identifier16candidatesPerRow17minimumTextHeightACSS_SiSftcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "let identifier: String",
+      "id": "s:18PassportMRZCapture12MRZOCRPolicyV10identifierSSvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "static let engineeringV1: MRZOCRPolicy",
+      "id": "s:18PassportMRZCapture12MRZOCRPolicyV13engineeringV1ACvpZ",
+      "kind": "swift.type.property"
+    },
+    {
+      "declaration": "let candidatesPerRow: Int",
+      "id": "s:18PassportMRZCapture12MRZOCRPolicyV16candidatesPerRowSivp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let minimumTextHeight: Float",
+      "id": "s:18PassportMRZCapture12MRZOCRPolicyV17minimumTextHeightSfvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "enum MRZCameraFailure",
+      "id": "s:18PassportMRZCapture16MRZCameraFailureO",
+      "kind": "swift.enum"
+    },
+    {
+      "declaration": "case interrupted",
+      "id": "s:18PassportMRZCapture16MRZCameraFailureO11interruptedyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case unavailable",
+      "id": "s:18PassportMRZCapture16MRZCameraFailureO11unavailableyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case captureFailed",
+      "id": "s:18PassportMRZCapture16MRZCameraFailureO13captureFailedyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case consentRequired",
+      "id": "s:18PassportMRZCapture16MRZCameraFailureO15consentRequiredyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case recognitionFailed",
+      "id": "s:18PassportMRZCapture16MRZCameraFailureO17recognitionFailedyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case invalidConfiguration",
+      "id": "s:18PassportMRZCapture16MRZCameraFailureO20invalidConfigurationyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case cameraPermissionDenied",
+      "id": "s:18PassportMRZCapture16MRZCameraFailureO22cameraPermissionDeniedyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case busy",
+      "id": "s:18PassportMRZCapture16MRZCameraFailureO4busyyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "init?(rawValue: String)",
+      "id": "s:18PassportMRZCapture16MRZCameraFailureO8rawValueACSgSS_tcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "case cancelled",
+      "id": "s:18PassportMRZCapture16MRZCameraFailureO9cancelledyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "@MainActor final class NativeMRZSession",
+      "id": "s:18PassportMRZCapture16NativeMRZSessionC",
+      "kind": "swift.class"
+    },
+    {
+      "declaration": "@MainActor func updateOrientation(_ value: MRZCaptureOrientation)",
+      "id": "s:18PassportMRZCapture16NativeMRZSessionC17updateOrientationyyAA0bF0OF",
+      "kind": "swift.method"
+    },
+    {
+      "declaration": "@MainActor func stop() async",
+      "id": "s:18PassportMRZCapture16NativeMRZSessionC4stopyyYaF",
+      "kind": "swift.method"
+    },
+    {
+      "declaration": "enum State",
+      "id": "s:18PassportMRZCapture16NativeMRZSessionC5StateO",
+      "kind": "swift.enum"
+    },
+    {
+      "declaration": "case requestingPermission",
+      "id": "s:18PassportMRZCapture16NativeMRZSessionC5StateO20requestingPermissionyA2EmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case failed(MRZCameraFailure)",
+      "id": "s:18PassportMRZCapture16NativeMRZSessionC5StateO6failedyAeA16MRZCameraFailureOcAEmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case running",
+      "id": "s:18PassportMRZCapture16NativeMRZSessionC5StateO7runningyA2EmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case stopped",
+      "id": "s:18PassportMRZCapture16NativeMRZSessionC5StateO7stoppedyA2EmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case starting",
+      "id": "s:18PassportMRZCapture16NativeMRZSessionC5StateO8startingyA2EmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "@MainActor func start(consent: NativeMRZSession.Consent) async throws",
+      "id": "s:18PassportMRZCapture16NativeMRZSessionC5start7consentyAC7ConsentO_tYaKF",
+      "kind": "swift.method"
+    },
+    {
+      "declaration": "@MainActor var state: NativeMRZSession.State { get set }",
+      "id": "s:18PassportMRZCapture16NativeMRZSessionC5stateAC5StateOvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "@MainActor convenience init(policy: MRZOCRPolicy = .engineeringV1, notificationsCenter: NotificationCenter)",
+      "id": "s:18PassportMRZCapture16NativeMRZSessionC6policy19notificationsCenterAcA12MRZOCRPolicyV_So014NSNotificationG0Ctcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "enum Consent",
+      "id": "s:18PassportMRZCapture16NativeMRZSessionC7ConsentO",
+      "kind": "swift.enum"
+    },
+    {
+      "declaration": "case withheld",
+      "id": "s:18PassportMRZCapture16NativeMRZSessionC7ConsentO8withheldyA2EmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case permitted",
+      "id": "s:18PassportMRZCapture16NativeMRZSessionC7ConsentO9permittedyA2EmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "@MainActor var onFrame: ((MRZOCRFrame) -> Void)?",
+      "id": "s:18PassportMRZCapture16NativeMRZSessionC7onFrameyAA11MRZOCRFrameVcSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "@MainActor var onReady: ((PassportMRZObservation) -> Void)?",
+      "id": "s:18PassportMRZCapture16NativeMRZSessionC7onReadyy0A3SDK0A14MRZObservationVcSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "@MainActor var onState: ((NativeMRZSession.State) -> Void)?",
+      "id": "s:18PassportMRZCapture16NativeMRZSessionC7onStateyAC0F0OcSgvp",
+      "kind": "swift.property"
+    }
+  ]
+}

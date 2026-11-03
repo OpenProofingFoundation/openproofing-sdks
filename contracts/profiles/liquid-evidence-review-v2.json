@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "status": "engineering_native_validation",
+  "profileId": "lfm25-vl16b-affine4-g64-mlx-pair-interpretation-v2",
+  "artifactSHA256": "bf86cc6b16e4f6a870336d5e0ebad0c5cf1d63214efef8efeb8b9655174b3913",
+  "resources": {
+    "prompt": {
+      "path": "profiles/liquid-face-interpretation-v2.prompt.txt",
+      "sha256": "d430c1e210df56628384d00598c83f66bcc8d3ef986b559e848a95a9d58a158d"
+    },
+    "inputSchema": {
+      "path": "schemas/liquid-prompt-input-v2.schema.json",
+      "sha256": "241daeb5edfcc0b6657635b03d61c5b0cbf7aa0a8a0f3f48a5d38ff2e4924849"
+    },
+    "outputSchema": {
+      "path": "schemas/liquid-prompt-output-v2.schema.json",
+      "sha256": "a985a2a909b3ac2e69b10ba118a897ee714f92e2318fd4ea5c2ceb938febff4d"
+    },
+    "examples": {
+      "path": "examples/liquid-prompt-examples-v2.json",
+      "sha256": "d8a1ffc9004d839362987a8984f2cfb2ef81594b497111f3763ff869515be8d9"
+    },
+    "commonSchema": {
+      "path": "schemas/face-comparison-bff-common-v1.schema.json",
+      "sha256": "63ea3ea1f213e3206cfbbfa41292867a7c43f6b1a1a28341e93c456aff8c1c58"
+    },
+    "wireSchema": {
+      "path": "schemas/liquid-bff-observation-v1.schema.json",
+      "sha256": "45f7a8508f1da2dc97f196af7b7a50a6b582714f63cb65b9e7b8e8d97488e017"
+    },
+    "nativeInputSchema": {
+      "path": "schemas/liquid-native-prompt-input-v2.schema.json",
+      "sha256": "561eba24e9d83d768af75e46d52c01d07b180df5e5860a511d5f6dc0f3da869a"
+    },
+    "decoderSchema": {
+      "path": "schemas/liquid-decoder-output-v2.schema.json",
+      "sha256": "663b6d1714d4c2258fc818dfbfc63bd5df2fccf9d272738d5975ac0569042edf"
+    }
+  },
+  "generation": {
+    "temperature": 0,
+    "topP": 1,
+    "topK": 0,
+    "minP": 0,
+    "repetitionPenalty": null,
+    "repetitionContextSize": 20,
+    "presencePenalty": null,
+    "presenceContextSize": 20,
+    "frequencyPenalty": null,
+    "frequencyContextSize": 20,
+    "seed": null,
+    "maxNewTokens": 2048,
+    "maxOutputBytes": 16384,
+    "whitespaceSuppression": {
+      "consecutiveTokenThreshold": 3,
+      "penalty": -200,
+      "activation": "latched_for_generation",
+      "implementation": "MLXGuidedGeneration.WhitespaceTokenBias_and_WhitespaceRunTracker"
+    }
+  },
+  "limits": {
+    "maximumImages": 10,
+    "maximumInputBytes": 131072,
+    "maximumInputTokens": 8192
+  },
+  "decoder": {
+    "kind": "json_schema_constrained",
+    "runtimeProduct": "MLXGuidedGeneration",
+    "runtimeRevision": "bb0d5b048f02e14dbf8f2d7bb1a20911a295470a",
+    "responseSchemaResource": "decoderSchema",
+    "status": "native_integration_under_validation",
+    "postValidationSchemaResource": "outputSchema"
+  },
+  "runtimeMemory": {
+    "cacheLimitBytes": 134217728,
+    "prefillStepSize": 512,
+    "decodeCacheClearInterval": 32,
+    "scope": "process_wide_cache_budget_temporarily_lowered_and_restored"
+  }
+}

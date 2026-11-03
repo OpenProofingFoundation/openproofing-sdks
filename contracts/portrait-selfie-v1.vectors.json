@@ -1,0 +1,1646 @@
+{
+  "schemaVersion": 1,
+  "scope": "Synthetic decoded bytes and binding conformance only",
+  "pixelBase": {
+    "descriptor": {
+      "width": 2,
+      "height": 2,
+      "format": "rgb8",
+      "rowStrideBytes": 6,
+      "byteLength": 12,
+      "sha256": "fff3a9bcdd37363d703c1c4f9512533686157868f0d4f16a0f02d0f1da24f9a2",
+      "orientation": 1
+    },
+    "payloadHex": "000102030405060708090a0b"
+  },
+  "bindingBase": {
+    "sessionID": "00000001-0000-0000-0000-000000000000",
+    "attemptID": "00000002-0000-0000-0000-000000000000",
+    "operationID": "00000003-0000-0000-0000-000000000000",
+    "referenceCaptureID": "00000004-0000-0000-0000-000000000000",
+    "probeCaptureID": "00000005-0000-0000-0000-000000000000",
+    "referenceArtifactID": "00000006-0000-0000-0000-000000000000",
+    "probeArtifactID": "00000007-0000-0000-0000-000000000000",
+    "referenceSourceSHA256": "dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd",
+    "probeSourceSHA256": "dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd",
+    "referenceSHA256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "probeSHA256": "fff3a9bcdd37363d703c1c4f9512533686157868f0d4f16a0f02d0f1da24f9a2",
+    "referenceLineageSHA256": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+    "probeLineageSHA256": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+    "artifactManifestSHA256": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+    "preprocessingManifestSHA256": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+  },
+  "vectors": [
+    {
+      "id": "packed-rgb-valid",
+      "kind": "pixels",
+      "expect": "valid"
+    },
+    {
+      "id": "packed-gray-valid",
+      "kind": "pixels",
+      "overrides": {
+        "format": "gray8",
+        "rowStrideBytes": 2,
+        "byteLength": 4,
+        "sha256": "054edec1d0211f624fed0cbca9d4f9400b0e491c43742af2c5b0abebf0c990d8"
+      },
+      "payloadHex": "00010203",
+      "expect": "valid"
+    },
+    {
+      "id": "zero-width",
+      "kind": "pixels",
+      "overrides": {
+        "width": 0
+      },
+      "expect": "invalid_pixels"
+    },
+    {
+      "id": "negative-height",
+      "kind": "pixels",
+      "overrides": {
+        "height": -1
+      },
+      "expect": "invalid_pixels"
+    },
+    {
+      "id": "boolean-dimension",
+      "kind": "pixels",
+      "overrides": {
+        "width": true
+      },
+      "expect": "invalid_pixels"
+    },
+    {
+      "id": "dimension-ceiling",
+      "kind": "pixels",
+      "overrides": {
+        "width": 16385
+      },
+      "expect": "resource_limit"
+    },
+    {
+      "id": "pixel-ceiling",
+      "kind": "pixels",
+      "overrides": {
+        "width": 16384,
+        "height": 16384
+      },
+      "expect": "resource_limit"
+    },
+    {
+      "id": "wide-integer",
+      "kind": "pixels",
+      "overrides": {
+        "width": 4294967296
+      },
+      "expect": "resource_limit"
+    },
+    {
+      "id": "padding-not-canonical",
+      "kind": "pixels",
+      "overrides": {
+        "rowStrideBytes": 8
+      },
+      "expect": "invalid_pixels"
+    },
+    {
+      "id": "wrong-declared-size",
+      "kind": "pixels",
+      "overrides": {
+        "byteLength": 13
+      },
+      "expect": "invalid_pixels"
+    },
+    {
+      "id": "wrong-digest",
+      "kind": "pixels",
+      "overrides": {
+        "sha256": "cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc"
+      },
+      "expect": "integrity_failure"
+    },
+    {
+      "id": "malformed-digest",
+      "kind": "pixels",
+      "overrides": {
+        "sha256": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG"
+      },
+      "expect": "invalid_schema"
+    },
+    {
+      "id": "unsupported-layout",
+      "kind": "pixels",
+      "overrides": {
+        "format": "bgra8"
+      },
+      "expect": "unsupported_format"
+    },
+    {
+      "id": "invalid-orientation",
+      "kind": "pixels",
+      "overrides": {
+        "orientation": 9
+      },
+      "expect": "invalid_pixels"
+    },
+    {
+      "id": "unknown-field",
+      "kind": "pixels",
+      "overrides": {
+        "path": "/tmp/portrait"
+      },
+      "expect": "invalid_schema"
+    },
+    {
+      "id": "truncated-bytes",
+      "kind": "pixels",
+      "payloadHex": "000102030405060708090a",
+      "expect": "invalid_pixels"
+    },
+    {
+      "id": "binding-valid",
+      "kind": "binding",
+      "expect": "valid"
+    },
+    {
+      "id": "wrong-sessionID",
+      "kind": "binding",
+      "overrides": {
+        "sessionID": "ffffffff-0000-0000-0000-000000000000"
+      },
+      "expect": "binding_mismatch"
+    },
+    {
+      "id": "wrong-attemptID",
+      "kind": "binding",
+      "overrides": {
+        "attemptID": "ffffffff-0000-0000-0000-000000000000"
+      },
+      "expect": "binding_mismatch"
+    },
+    {
+      "id": "wrong-operationID",
+      "kind": "binding",
+      "overrides": {
+        "operationID": "ffffffff-0000-0000-0000-000000000000"
+      },
+      "expect": "binding_mismatch"
+    },
+    {
+      "id": "wrong-referenceCaptureID",
+      "kind": "binding",
+      "overrides": {
+        "referenceCaptureID": "ffffffff-0000-0000-0000-000000000000"
+      },
+      "expect": "binding_mismatch"
+    },
+    {
+      "id": "wrong-probeCaptureID",
+      "kind": "binding",
+      "overrides": {
+        "probeCaptureID": "ffffffff-0000-0000-0000-000000000000"
+      },
+      "expect": "binding_mismatch"
+    },
+    {
+      "id": "wrong-referenceArtifactID",
+      "kind": "binding",
+      "overrides": {
+        "referenceArtifactID": "ffffffff-0000-0000-0000-000000000000"
+      },
+      "expect": "binding_mismatch"
+    },
+    {
+      "id": "wrong-probeArtifactID",
+      "kind": "binding",
+      "overrides": {
+        "probeArtifactID": "ffffffff-0000-0000-0000-000000000000"
+      },
+      "expect": "binding_mismatch"
+    },
+    {
+      "id": "wrong-referenceSourceSHA256",
+      "kind": "binding",
+      "overrides": {
+        "referenceSourceSHA256": "cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc"
+      },
+      "expect": "binding_mismatch"
+    },
+    {
+      "id": "wrong-probeSourceSHA256",
+      "kind": "binding",
+      "overrides": {
+        "probeSourceSHA256": "cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc"
+      },
+      "expect": "binding_mismatch"
+    },
+    {
+      "id": "wrong-referenceSHA256",
+      "kind": "binding",
+      "overrides": {
+        "referenceSHA256": "cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc"
+      },
+      "expect": "binding_mismatch"
+    },
+    {
+      "id": "wrong-probeSHA256",
+      "kind": "binding",
+      "overrides": {
+        "probeSHA256": "cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc"
+      },
+      "expect": "binding_mismatch"
+    },
+    {
+      "id": "wrong-referenceLineageSHA256",
+      "kind": "binding",
+      "overrides": {
+        "referenceLineageSHA256": "cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc"
+      },
+      "expect": "binding_mismatch"
+    },
+    {
+      "id": "wrong-probeLineageSHA256",
+      "kind": "binding",
+      "overrides": {
+        "probeLineageSHA256": "cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc"
+      },
+      "expect": "binding_mismatch"
+    },
+    {
+      "id": "wrong-artifactManifestSHA256",
+      "kind": "binding",
+      "overrides": {
+        "artifactManifestSHA256": "cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc"
+      },
+      "expect": "binding_mismatch"
+    },
+    {
+      "id": "wrong-preprocessingManifestSHA256",
+      "kind": "binding",
+      "overrides": {
+        "preprocessingManifestSHA256": "cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc"
+      },
+      "expect": "binding_mismatch"
+    },
+    {
+      "id": "missing-binding",
+      "kind": "binding",
+      "removeFields": [
+        "attemptID"
+      ],
+      "expect": "invalid_schema"
+    },
+    {
+      "id": "invalid-operation-id",
+      "kind": "binding",
+      "overrides": {
+        "operationID": "../other-operation"
+      },
+      "expect": "invalid_schema"
+    },
+    {
+      "id": "type-width-null",
+      "kind": "pixels",
+      "overrides": {
+        "width": null
+      },
+      "expect": "invalid_pixels"
+    },
+    {
+      "id": "type-width-string",
+      "kind": "pixels",
+      "overrides": {
+        "width": "2"
+      },
+      "expect": "invalid_pixels"
+    },
+    {
+      "id": "type-width-float",
+      "kind": "pixels",
+      "overrides": {
+        "width": 2.0
+      },
+      "expect": "invalid_pixels"
+    },
+    {
+      "id": "type-width-array",
+      "kind": "pixels",
+      "overrides": {
+        "width": [
+          2
+        ]
+      },
+      "expect": "invalid_pixels"
+    },
+    {
+      "id": "type-width-object",
+      "kind": "pixels",
+      "overrides": {
+        "width": {
+          "value": 2
+        }
+      },
+      "expect": "invalid_pixels"
+    },
+    {
+      "id": "type-width-false",
+      "kind": "pixels",
+      "overrides": {
+        "width": false
+      },
+      "expect": "invalid_pixels"
+    },
+    {
+      "id": "missing-pixel-width",
+      "kind": "pixels",
+      "removeFields": [
+        "width"
+      ],
+      "expect": "invalid_schema"
+    },
+    {
+      "id": "type-height-null",
+      "kind": "pixels",
+      "overrides": {
+        "height": null
+      },
+      "expect": "invalid_pixels"
+    },
+    {
+      "id": "type-height-string",
+      "kind": "pixels",
+      "overrides": {
+        "height": "2"
+      },
+      "expect": "invalid_pixels"
+    },
+    {
+      "id": "type-height-float",
+      "kind": "pixels",
+      "overrides": {
+        "height": 2.0
+      },
+      "expect": "invalid_pixels"
+    },
+    {
+      "id": "type-height-array",
+      "kind": "pixels",
+      "overrides": {
+        "height": [
+          2
+        ]
+      },
+      "expect": "invalid_pixels"
+    },
+    {
+      "id": "type-height-object",
+      "kind": "pixels",
+      "overrides": {
+        "height": {
+          "value": 2
+        }
+      },
+      "expect": "invalid_pixels"
+    },
+    {
+      "id": "type-height-false",
+      "kind": "pixels",
+      "overrides": {
+        "height": false
+      },
+      "expect": "invalid_pixels"
+    },
+    {
+      "id": "missing-pixel-height",
+      "kind": "pixels",
+      "removeFields": [
+        "height"
+      ],
+      "expect": "invalid_schema"
+    },
+    {
+      "id": "type-rowStrideBytes-null",
+      "kind": "pixels",
+      "overrides": {
+        "rowStrideBytes": null
+      },
+      "expect": "invalid_pixels"
+    },
+    {
+      "id": "type-rowStrideBytes-string",
+      "kind": "pixels",
+      "overrides": {
+        "rowStrideBytes": "2"
+      },
+      "expect": "invalid_pixels"
+    },
+    {
+      "id": "type-rowStrideBytes-float",
+      "kind": "pixels",
+      "overrides": {
+        "rowStrideBytes": 2.0
+      },
+      "expect": "invalid_pixels"
+    },
+    {
+      "id": "type-rowStrideBytes-array",
+      "kind": "pixels",
+      "overrides": {
+        "rowStrideBytes": [
+          2
+        ]
+      },
+      "expect": "invalid_pixels"
+    },
+    {
+      "id": "type-rowStrideBytes-object",
+      "kind": "pixels",
+      "overrides": {
+        "rowStrideBytes": {
+          "value": 2
+        }
+      },
+      "expect": "invalid_pixels"
+    },
+    {
+      "id": "type-rowStrideBytes-false",
+      "kind": "pixels",
+      "overrides": {
+        "rowStrideBytes": false
+      },
+      "expect": "invalid_pixels"
+    },
+    {
+      "id": "missing-pixel-rowStrideBytes",
+      "kind": "pixels",
+      "removeFields": [
+        "rowStrideBytes"
+      ],
+      "expect": "invalid_schema"
+    },
+    {
+      "id": "type-byteLength-null",
+      "kind": "pixels",
+      "overrides": {
+        "byteLength": null
+      },
+      "expect": "invalid_pixels"
+    },
+    {
+      "id": "type-byteLength-string",
+      "kind": "pixels",
+      "overrides": {
+        "byteLength": "2"
+      },
+      "expect": "invalid_pixels"
+    },
+    {
+      "id": "type-byteLength-float",
+      "kind": "pixels",
+      "overrides": {
+        "byteLength": 2.0
+      },
+      "expect": "invalid_pixels"
+    },
+    {
+      "id": "type-byteLength-array",
+      "kind": "pixels",
+      "overrides": {
+        "byteLength": [
+          2
+        ]
+      },
+      "expect": "invalid_pixels"
+    },
+    {
+      "id": "type-byteLength-object",
+      "kind": "pixels",
+      "overrides": {
+        "byteLength": {
+          "value": 2
+        }
+      },
+      "expect": "invalid_pixels"
+    },
+    {
+      "id": "type-byteLength-false",
+      "kind": "pixels",
+      "overrides": {
+        "byteLength": false
+      },
+      "expect": "invalid_pixels"
+    },
+    {
+      "id": "missing-pixel-byteLength",
+      "kind": "pixels",
+      "removeFields": [
+        "byteLength"
+      ],
+      "expect": "invalid_schema"
+    },
+    {
+      "id": "type-orientation-null",
+      "kind": "pixels",
+      "overrides": {
+        "orientation": null
+      },
+      "expect": "invalid_pixels"
+    },
+    {
+      "id": "type-orientation-string",
+      "kind": "pixels",
+      "overrides": {
+        "orientation": "2"
+      },
+      "expect": "invalid_pixels"
+    },
+    {
+      "id": "type-orientation-float",
+      "kind": "pixels",
+      "overrides": {
+        "orientation": 2.0
+      },
+      "expect": "invalid_pixels"
+    },
+    {
+      "id": "type-orientation-array",
+      "kind": "pixels",
+      "overrides": {
+        "orientation": [
+          2
+        ]
+      },
+      "expect": "invalid_pixels"
+    },
+    {
+      "id": "type-orientation-object",
+      "kind": "pixels",
+      "overrides": {
+        "orientation": {
+          "value": 2
+        }
+      },
+      "expect": "invalid_pixels"
+    },
+    {
+      "id": "type-orientation-false",
+      "kind": "pixels",
+      "overrides": {
+        "orientation": false
+      },
+      "expect": "invalid_pixels"
+    },
+    {
+      "id": "missing-pixel-orientation",
+      "kind": "pixels",
+      "removeFields": [
+        "orientation"
+      ],
+      "expect": "invalid_schema"
+    },
+    {
+      "id": "orientation-valid-2",
+      "kind": "pixels",
+      "overrides": {
+        "orientation": 2
+      },
+      "expect": "valid"
+    },
+    {
+      "id": "orientation-valid-3",
+      "kind": "pixels",
+      "overrides": {
+        "orientation": 3
+      },
+      "expect": "valid"
+    },
+    {
+      "id": "orientation-valid-4",
+      "kind": "pixels",
+      "overrides": {
+        "orientation": 4
+      },
+      "expect": "valid"
+    },
+    {
+      "id": "orientation-valid-5",
+      "kind": "pixels",
+      "overrides": {
+        "orientation": 5
+      },
+      "expect": "valid"
+    },
+    {
+      "id": "orientation-valid-6",
+      "kind": "pixels",
+      "overrides": {
+        "orientation": 6
+      },
+      "expect": "valid"
+    },
+    {
+      "id": "orientation-valid-7",
+      "kind": "pixels",
+      "overrides": {
+        "orientation": 7
+      },
+      "expect": "valid"
+    },
+    {
+      "id": "orientation-valid-8",
+      "kind": "pixels",
+      "overrides": {
+        "orientation": 8
+      },
+      "expect": "valid"
+    },
+    {
+      "id": "type-sha256-null",
+      "kind": "pixels",
+      "overrides": {
+        "sha256": null
+      },
+      "expect": "invalid_schema"
+    },
+    {
+      "id": "type-sha256-number",
+      "kind": "pixels",
+      "overrides": {
+        "sha256": 1
+      },
+      "expect": "invalid_schema"
+    },
+    {
+      "id": "type-sha256-array",
+      "kind": "pixels",
+      "overrides": {
+        "sha256": []
+      },
+      "expect": "invalid_schema"
+    },
+    {
+      "id": "type-sha256-object",
+      "kind": "pixels",
+      "overrides": {
+        "sha256": {}
+      },
+      "expect": "invalid_schema"
+    },
+    {
+      "id": "missing-pixel-sha256",
+      "kind": "pixels",
+      "removeFields": [
+        "sha256"
+      ],
+      "expect": "invalid_schema"
+    },
+    {
+      "id": "type-format-null",
+      "kind": "pixels",
+      "overrides": {
+        "format": null
+      },
+      "expect": "unsupported_format"
+    },
+    {
+      "id": "type-format-number",
+      "kind": "pixels",
+      "overrides": {
+        "format": 1
+      },
+      "expect": "unsupported_format"
+    },
+    {
+      "id": "type-format-array",
+      "kind": "pixels",
+      "overrides": {
+        "format": []
+      },
+      "expect": "unsupported_format"
+    },
+    {
+      "id": "type-format-object",
+      "kind": "pixels",
+      "overrides": {
+        "format": {}
+      },
+      "expect": "unsupported_format"
+    },
+    {
+      "id": "missing-pixel-format",
+      "kind": "pixels",
+      "removeFields": [
+        "format"
+      ],
+      "expect": "invalid_schema"
+    },
+    {
+      "id": "pixel-digest-uppercase",
+      "kind": "pixels",
+      "overrides": {
+        "sha256": "FFF3A9BCDD37363D703C1C4F9512533686157868F0D4F16A0F02D0F1DA24F9A2"
+      },
+      "expect": "invalid_schema"
+    },
+    {
+      "id": "pixel-digest-newline",
+      "kind": "pixels",
+      "overrides": {
+        "sha256": "fff3a9bcdd37363d703c1c4f9512533686157868f0d4f16a0f02d0f1da24f9a2\n"
+      },
+      "expect": "invalid_schema"
+    },
+    {
+      "id": "pixel-digest-short",
+      "kind": "pixels",
+      "overrides": {
+        "sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+      },
+      "expect": "invalid_schema"
+    },
+    {
+      "id": "pixel-digest-long",
+      "kind": "pixels",
+      "overrides": {
+        "sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+      },
+      "expect": "invalid_schema"
+    },
+    {
+      "id": "payload-substitution",
+      "kind": "pixels",
+      "payloadHex": "ff0102030405060708090a0b",
+      "expect": "integrity_failure"
+    },
+    {
+      "id": "trailing-payload-byte",
+      "kind": "pixels",
+      "payloadHex": "000102030405060708090a0b00",
+      "expect": "invalid_pixels"
+    },
+    {
+      "id": "empty-payload",
+      "kind": "pixels",
+      "payloadHex": "",
+      "expect": "invalid_pixels"
+    },
+    {
+      "id": "orientation-zero",
+      "kind": "pixels",
+      "overrides": {
+        "orientation": 0
+      },
+      "expect": "invalid_pixels"
+    },
+    {
+      "id": "integer-narrowing-height",
+      "kind": "pixels",
+      "overrides": {
+        "height": 4294967298
+      },
+      "expect": "resource_limit"
+    },
+    {
+      "id": "wide-stride",
+      "kind": "pixels",
+      "overrides": {
+        "rowStrideBytes": 4294967302
+      },
+      "expect": "invalid_pixels"
+    },
+    {
+      "id": "wide-length",
+      "kind": "pixels",
+      "overrides": {
+        "byteLength": 4294967308
+      },
+      "expect": "invalid_pixels"
+    },
+    {
+      "id": "unknown-binding-field",
+      "kind": "binding",
+      "overrides": {
+        "live": true
+      },
+      "expect": "invalid_schema"
+    },
+    {
+      "id": "missing-binding-sessionID",
+      "kind": "binding",
+      "removeFields": [
+        "sessionID"
+      ],
+      "expect": "invalid_schema"
+    },
+    {
+      "id": "type-binding-sessionID-null",
+      "kind": "binding",
+      "overrides": {
+        "sessionID": null
+      },
+      "expect": "invalid_schema"
+    },
+    {
+      "id": "type-binding-sessionID-array",
+      "kind": "binding",
+      "overrides": {
+        "sessionID": []
+      },
+      "expect": "invalid_schema"
+    },
+    {
+      "id": "type-binding-sessionID-number",
+      "kind": "binding",
+      "overrides": {
+        "sessionID": 1
+      },
+      "expect": "invalid_schema"
+    },
+    {
+      "id": "type-binding-sessionID-newline",
+      "kind": "binding",
+      "overrides": {
+        "sessionID": "00000001-0000-0000-0000-000000000000\n"
+      },
+      "expect": "invalid_schema"
+    },
+    {
+      "id": "uppercase-binding-sessionID",
+      "kind": "binding",
+      "overrides": {
+        "sessionID": "AAAAAAAA-0000-0000-0000-000000000000"
+      },
+      "expect": "invalid_schema"
+    },
+    {
+      "id": "missing-binding-attemptID",
+      "kind": "binding",
+      "removeFields": [
+        "attemptID"
+      ],
+      "expect": "invalid_schema"
+    },
+    {
+      "id": "type-binding-attemptID-null",
+      "kind": "binding",
+      "overrides": {
+        "attemptID": null
+      },
+      "expect": "invalid_schema"
+    },
+    {
+      "id": "type-binding-attemptID-array",
+      "kind": "binding",
+      "overrides": {
+        "attemptID": []
+      },
+      "expect": "invalid_schema"
+    },
+    {
+      "id": "type-binding-attemptID-number",
+      "kind": "binding",
+      "overrides": {
+        "attemptID": 1
+      },
+      "expect": "invalid_schema"
+    },
+    {
+      "id": "type-binding-attemptID-newline",
+      "kind": "binding",
+      "overrides": {
+        "attemptID": "00000002-0000-0000-0000-000000000000\n"
+      },
+      "expect": "invalid_schema"
+    },
+    {
+      "id": "uppercase-binding-attemptID",
+      "kind": "binding",
+      "overrides": {
+        "attemptID": "AAAAAAAA-0000-0000-0000-000000000000"
+      },
+      "expect": "invalid_schema"
+    },
+    {
+      "id": "missing-binding-operationID",
+      "kind": "binding",
+      "removeFields": [
+        "operationID"
+      ],
+      "expect": "invalid_schema"
+    },
+    {
+      "id": "type-binding-operationID-null",
+      "kind": "binding",
+      "overrides": {
+        "operationID": null
+      },
+      "expect": "invalid_schema"
+    },
+    {
+      "id": "type-binding-operationID-array",
+      "kind": "binding",
+      "overrides": {
+        "operationID": []
+      },
+      "expect": "invalid_schema"
+    },
+    {
+      "id": "type-binding-operationID-number",
+      "kind": "binding",
+      "overrides": {
+        "operationID": 1
+      },
+      "expect": "invalid_schema"
+    },
+    {
+      "id": "type-binding-operationID-newline",
+      "kind": "binding",
+      "overrides": {
+        "operationID": "00000003-0000-0000-0000-000000000000\n"
+      },
+      "expect": "invalid_schema"
+    },
+    {
+      "id": "uppercase-binding-operationID",
+      "kind": "binding",
+      "overrides": {
+        "operationID": "AAAAAAAA-0000-0000-0000-000000000000"
+      },
+      "expect": "invalid_schema"
+    },
+    {
+      "id": "missing-binding-referenceCaptureID",
+      "kind": "binding",
+      "removeFields": [
+        "referenceCaptureID"
+      ],
+      "expect": "invalid_schema"
+    },
+    {
+      "id": "type-binding-referenceCaptureID-null",
+      "kind": "binding",
+      "overrides": {
+        "referenceCaptureID": null
+      },
+      "expect": "invalid_schema"
+    },
+    {
+      "id": "type-binding-referenceCaptureID-array",
+      "kind": "binding",
+      "overrides": {
+        "referenceCaptureID": []
+      },
+      "expect": "invalid_schema"
+    },
+    {
+      "id": "type-binding-referenceCaptureID-number",
+      "kind": "binding",
+      "overrides": {
+        "referenceCaptureID": 1
+      },
+      "expect": "invalid_schema"
+    },
+    {
+      "id": "type-binding-referenceCaptureID-newline",
+      "kind": "binding",
+      "overrides": {
+        "referenceCaptureID": "00000004-0000-0000-0000-000000000000\n"
+      },
+      "expect": "invalid_schema"
+    },
+    {
+      "id": "uppercase-binding-referenceCaptureID",
+      "kind": "binding",
+      "overrides": {
+        "referenceCaptureID": "AAAAAAAA-0000-0000-0000-000000000000"
+      },
+      "expect": "invalid_schema"
+    },
+    {
+      "id": "missing-binding-probeCaptureID",
+      "kind": "binding",
+      "removeFields": [
+        "probeCaptureID"
+      ],
+      "expect": "invalid_schema"
+    },
+    {
+      "id": "type-binding-probeCaptureID-null",
+      "kind": "binding",
+      "overrides": {
+        "probeCaptureID": null
+      },
+      "expect": "invalid_schema"
+    },
+    {
+      "id": "type-binding-probeCaptureID-array",
+      "kind": "binding",
+      "overrides": {
+        "probeCaptureID": []
+      },
+      "expect": "invalid_schema"
+    },
+    {
+      "id": "type-binding-probeCaptureID-number",
+      "kind": "binding",
+      "overrides": {
+        "probeCaptureID": 1
+      },
+      "expect": "invalid_schema"
+    },
+    {
+      "id": "type-binding-probeCaptureID-newline",
+      "kind": "binding",
+      "overrides": {
+        "probeCaptureID": "00000005-0000-0000-0000-000000000000\n"
+      },
+      "expect": "invalid_schema"
+    },
+    {
+      "id": "uppercase-binding-probeCaptureID",
+      "kind": "binding",
+      "overrides": {
+        "probeCaptureID": "AAAAAAAA-0000-0000-0000-000000000000"
+      },
+      "expect": "invalid_schema"
+    },
+    {
+      "id": "missing-binding-referenceArtifactID",
+      "kind": "binding",
+      "removeFields": [
+        "referenceArtifactID"
+      ],
+      "expect": "invalid_schema"
+    },
+    {
+      "id": "type-binding-referenceArtifactID-null",
+      "kind": "binding",
+      "overrides": {
+        "referenceArtifactID": null
+      },
+      "expect": "invalid_schema"
+    },
+    {
+      "id": "type-binding-referenceArtifactID-array",
+      "kind": "binding",
+      "overrides": {
+        "referenceArtifactID": []
+      },
+      "expect": "invalid_schema"
+    },
+    {
+      "id": "type-binding-referenceArtifactID-number",
+      "kind": "binding",
+      "overrides": {
+        "referenceArtifactID": 1
+      },
+      "expect": "invalid_schema"
+    },
+    {
+      "id": "type-binding-referenceArtifactID-newline",
+      "kind": "binding",
+      "overrides": {
+        "referenceArtifactID": "00000006-0000-0000-0000-000000000000\n"
+      },
+      "expect": "invalid_schema"
+    },
+    {
+      "id": "uppercase-binding-referenceArtifactID",
+      "kind": "binding",
+      "overrides": {
+        "referenceArtifactID": "AAAAAAAA-0000-0000-0000-000000000000"
+      },
+      "expect": "invalid_schema"
+    },
+    {
+      "id": "missing-binding-probeArtifactID",
+      "kind": "binding",
+      "removeFields": [
+        "probeArtifactID"
+      ],
+      "expect": "invalid_schema"
+    },
+    {
+      "id": "type-binding-probeArtifactID-null",
+      "kind": "binding",
+      "overrides": {
+        "probeArtifactID": null
+      },
+      "expect": "invalid_schema"
+    },
+    {
+      "id": "type-binding-probeArtifactID-array",
+      "kind": "binding",
+      "overrides": {
+        "probeArtifactID": []
+      },
+      "expect": "invalid_schema"
+    },
+    {
+      "id": "type-binding-probeArtifactID-number",
+      "kind": "binding",
+      "overrides": {
+        "probeArtifactID": 1
+      },
+      "expect": "invalid_schema"
+    },
+    {
+      "id": "type-binding-probeArtifactID-newline",
+      "kind": "binding",
+      "overrides": {
+        "probeArtifactID": "00000007-0000-0000-0000-000000000000\n"
+      },
+      "expect": "invalid_schema"
+    },
+    {
+      "id": "uppercase-binding-probeArtifactID",
+      "kind": "binding",
+      "overrides": {
+        "probeArtifactID": "AAAAAAAA-0000-0000-0000-000000000000"
+      },
+      "expect": "invalid_schema"
+    },
+    {
+      "id": "missing-binding-referenceSourceSHA256",
+      "kind": "binding",
+      "removeFields": [
+        "referenceSourceSHA256"
+      ],
+      "expect": "invalid_schema"
+    },
+    {
+      "id": "type-binding-referenceSourceSHA256-null",
+      "kind": "binding",
+      "overrides": {
+        "referenceSourceSHA256": null
+      },
+      "expect": "invalid_schema"
+    },
+    {
+      "id": "type-binding-referenceSourceSHA256-array",
+      "kind": "binding",
+      "overrides": {
+        "referenceSourceSHA256": []
+      },
+      "expect": "invalid_schema"
+    },
+    {
+      "id": "type-binding-referenceSourceSHA256-number",
+      "kind": "binding",
+      "overrides": {
+        "referenceSourceSHA256": 1
+      },
+      "expect": "invalid_schema"
+    },
+    {
+      "id": "type-binding-referenceSourceSHA256-newline",
+      "kind": "binding",
+      "overrides": {
+        "referenceSourceSHA256": "dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd\n"
+      },
+      "expect": "invalid_schema"
+    },
+    {
+      "id": "uppercase-binding-referenceSourceSHA256",
+      "kind": "binding",
+      "overrides": {
+        "referenceSourceSHA256": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+      },
+      "expect": "invalid_schema"
+    },
+    {
+      "id": "missing-binding-probeSourceSHA256",
+      "kind": "binding",
+      "removeFields": [
+        "probeSourceSHA256"
+      ],
+      "expect": "invalid_schema"
+    },
+    {
+      "id": "type-binding-probeSourceSHA256-null",
+      "kind": "binding",
+      "overrides": {
+        "probeSourceSHA256": null
+      },
+      "expect": "invalid_schema"
+    },
+    {
+      "id": "type-binding-probeSourceSHA256-array",
+      "kind": "binding",
+      "overrides": {
+        "probeSourceSHA256": []
+      },
+      "expect": "invalid_schema"
+    },
+    {
+      "id": "type-binding-probeSourceSHA256-number",
+      "kind": "binding",
+      "overrides": {
+        "probeSourceSHA256": 1
+      },
+      "expect": "invalid_schema"
+    },
+    {
+      "id": "type-binding-probeSourceSHA256-newline",
+      "kind": "binding",
+      "overrides": {
+        "probeSourceSHA256": "dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd\n"
+      },
+      "expect": "invalid_schema"
+    },
+    {
+      "id": "uppercase-binding-probeSourceSHA256",
+      "kind": "binding",
+      "overrides": {
+        "probeSourceSHA256": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+      },
+      "expect": "invalid_schema"
+    },
+    {
+      "id": "missing-binding-referenceSHA256",
+      "kind": "binding",
+      "removeFields": [
+        "referenceSHA256"
+      ],
+      "expect": "invalid_schema"
+    },
+    {
+      "id": "type-binding-referenceSHA256-null",
+      "kind": "binding",
+      "overrides": {
+        "referenceSHA256": null
+      },
+      "expect": "invalid_schema"
+    },
+    {
+      "id": "type-binding-referenceSHA256-array",
+      "kind": "binding",
+      "overrides": {
+        "referenceSHA256": []
+      },
+      "expect": "invalid_schema"
+    },
+    {
+      "id": "type-binding-referenceSHA256-number",
+      "kind": "binding",
+      "overrides": {
+        "referenceSHA256": 1
+      },
+      "expect": "invalid_schema"
+    },
+    {
+      "id": "type-binding-referenceSHA256-newline",
+      "kind": "binding",
+      "overrides": {
+        "referenceSHA256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\n"
+      },
+      "expect": "invalid_schema"
+    },
+    {
+      "id": "uppercase-binding-referenceSHA256",
+      "kind": "binding",
+      "overrides": {
+        "referenceSHA256": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+      },
+      "expect": "invalid_schema"
+    },
+    {
+      "id": "missing-binding-probeSHA256",
+      "kind": "binding",
+      "removeFields": [
+        "probeSHA256"
+      ],
+      "expect": "invalid_schema"
+    },
+    {
+      "id": "type-binding-probeSHA256-null",
+      "kind": "binding",
+      "overrides": {
+        "probeSHA256": null
+      },
+      "expect": "invalid_schema"
+    },
+    {
+      "id": "type-binding-probeSHA256-array",
+      "kind": "binding",
+      "overrides": {
+        "probeSHA256": []
+      },
+      "expect": "invalid_schema"
+    },
+    {
+      "id": "type-binding-probeSHA256-number",
+      "kind": "binding",
+      "overrides": {
+        "probeSHA256": 1
+      },
+      "expect": "invalid_schema"
+    },
+    {
+      "id": "type-binding-probeSHA256-newline",
+      "kind": "binding",
+      "overrides": {
+        "probeSHA256": "fff3a9bcdd37363d703c1c4f9512533686157868f0d4f16a0f02d0f1da24f9a2\n"
+      },
+      "expect": "invalid_schema"
+    },
+    {
+      "id": "uppercase-binding-probeSHA256",
+      "kind": "binding",
+      "overrides": {
+        "probeSHA256": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+      },
+      "expect": "invalid_schema"
+    },
+    {
+      "id": "missing-binding-referenceLineageSHA256",
+      "kind": "binding",
+      "removeFields": [
+        "referenceLineageSHA256"
+      ],
+      "expect": "invalid_schema"
+    },
+    {
+      "id": "type-binding-referenceLineageSHA256-null",
+      "kind": "binding",
+      "overrides": {
+        "referenceLineageSHA256": null
+      },
+      "expect": "invalid_schema"
+    },
+    {
+      "id": "type-binding-referenceLineageSHA256-array",
+      "kind": "binding",
+      "overrides": {
+        "referenceLineageSHA256": []
+      },
+      "expect": "invalid_schema"
+    },
+    {
+      "id": "type-binding-referenceLineageSHA256-number",
+      "kind": "binding",
+      "overrides": {
+        "referenceLineageSHA256": 1
+      },
+      "expect": "invalid_schema"
+    },
+    {
+      "id": "type-binding-referenceLineageSHA256-newline",
+      "kind": "binding",
+      "overrides": {
+        "referenceLineageSHA256": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee\n"
+      },
+      "expect": "invalid_schema"
+    },
+    {
+      "id": "uppercase-binding-referenceLineageSHA256",
+      "kind": "binding",
+      "overrides": {
+        "referenceLineageSHA256": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+      },
+      "expect": "invalid_schema"
+    },
+    {
+      "id": "missing-binding-probeLineageSHA256",
+      "kind": "binding",
+      "removeFields": [
+        "probeLineageSHA256"
+      ],
+      "expect": "invalid_schema"
+    },
+    {
+      "id": "type-binding-probeLineageSHA256-null",
+      "kind": "binding",
+      "overrides": {
+        "probeLineageSHA256": null
+      },
+      "expect": "invalid_schema"
+    },
+    {
+      "id": "type-binding-probeLineageSHA256-array",
+      "kind": "binding",
+      "overrides": {
+        "probeLineageSHA256": []
+      },
+      "expect": "invalid_schema"
+    },
+    {
+      "id": "type-binding-probeLineageSHA256-number",
+      "kind": "binding",
+      "overrides": {
+        "probeLineageSHA256": 1
+      },
+      "expect": "invalid_schema"
+    },
+    {
+      "id": "type-binding-probeLineageSHA256-newline",
+      "kind": "binding",
+      "overrides": {
+        "probeLineageSHA256": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee\n"
+      },
+      "expect": "invalid_schema"
+    },
+    {
+      "id": "uppercase-binding-probeLineageSHA256",
+      "kind": "binding",
+      "overrides": {
+        "probeLineageSHA256": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+      },
+      "expect": "invalid_schema"
+    },
+    {
+      "id": "missing-binding-artifactManifestSHA256",
+      "kind": "binding",
+      "removeFields": [
+        "artifactManifestSHA256"
+      ],
+      "expect": "invalid_schema"
+    },
+    {
+      "id": "type-binding-artifactManifestSHA256-null",
+      "kind": "binding",
+      "overrides": {
+        "artifactManifestSHA256": null
+      },
+      "expect": "invalid_schema"
+    },
+    {
+      "id": "type-binding-artifactManifestSHA256-array",
+      "kind": "binding",
+      "overrides": {
+        "artifactManifestSHA256": []
+      },
+      "expect": "invalid_schema"
+    },
+    {
+      "id": "type-binding-artifactManifestSHA256-number",
+      "kind": "binding",
+      "overrides": {
+        "artifactManifestSHA256": 1
+      },
+      "expect": "invalid_schema"
+    },
+    {
+      "id": "type-binding-artifactManifestSHA256-newline",
+      "kind": "binding",
+      "overrides": {
+        "artifactManifestSHA256": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb\n"
+      },
+      "expect": "invalid_schema"
+    },
+    {
+      "id": "uppercase-binding-artifactManifestSHA256",
+      "kind": "binding",
+      "overrides": {
+        "artifactManifestSHA256": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+      },
+      "expect": "invalid_schema"
+    },
+    {
+      "id": "missing-binding-preprocessingManifestSHA256",
+      "kind": "binding",
+      "removeFields": [
+        "preprocessingManifestSHA256"
+      ],
+      "expect": "invalid_schema"
+    },
+    {
+      "id": "type-binding-preprocessingManifestSHA256-null",
+      "kind": "binding",
+      "overrides": {
+        "preprocessingManifestSHA256": null
+      },
+      "expect": "invalid_schema"
+    },
+    {
+      "id": "type-binding-preprocessingManifestSHA256-array",
+      "kind": "binding",
+      "overrides": {
+        "preprocessingManifestSHA256": []
+      },
+      "expect": "invalid_schema"
+    },
+    {
+      "id": "type-binding-preprocessingManifestSHA256-number",
+      "kind": "binding",
+      "overrides": {
+        "preprocessingManifestSHA256": 1
+      },
+      "expect": "invalid_schema"
+    },
+    {
+      "id": "type-binding-preprocessingManifestSHA256-newline",
+      "kind": "binding",
+      "overrides": {
+        "preprocessingManifestSHA256": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee\n"
+      },
+      "expect": "invalid_schema"
+    },
+    {
+      "id": "uppercase-binding-preprocessingManifestSHA256",
+      "kind": "binding",
+      "overrides": {
+        "preprocessingManifestSHA256": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+      },
+      "expect": "invalid_schema"
+    },
+    {
+      "id": "width-above-signed64",
+      "kind": "pixels",
+      "overrides": {
+        "width": 9223372036854775808
+      },
+      "expect": "invalid_pixels"
+    },
+    {
+      "id": "width-unsigned64-max",
+      "kind": "pixels",
+      "overrides": {
+        "width": 18446744073709551615
+      },
+      "expect": "invalid_pixels"
+    },
+    {
+      "id": "height-above-signed64",
+      "kind": "pixels",
+      "overrides": {
+        "height": 9223372036854775808
+      },
+      "expect": "invalid_pixels"
+    },
+    {
+      "id": "height-unsigned64-max",
+      "kind": "pixels",
+      "overrides": {
+        "height": 18446744073709551615
+      },
+      "expect": "invalid_pixels"
+    },
+    {
+      "id": "rowStrideBytes-above-signed64",
+      "kind": "pixels",
+      "overrides": {
+        "rowStrideBytes": 9223372036854775808
+      },
+      "expect": "invalid_pixels"
+    },
+    {
+      "id": "rowStrideBytes-unsigned64-max",
+      "kind": "pixels",
+      "overrides": {
+        "rowStrideBytes": 18446744073709551615
+      },
+      "expect": "invalid_pixels"
+    },
+    {
+      "id": "byteLength-above-signed64",
+      "kind": "pixels",
+      "overrides": {
+        "byteLength": 9223372036854775808
+      },
+      "expect": "invalid_pixels"
+    },
+    {
+      "id": "byteLength-unsigned64-max",
+      "kind": "pixels",
+      "overrides": {
+        "byteLength": 18446744073709551615
+      },
+      "expect": "invalid_pixels"
+    },
+    {
+      "id": "orientation-above-signed64",
+      "kind": "pixels",
+      "overrides": {
+        "orientation": 9223372036854775808
+      },
+      "expect": "invalid_pixels"
+    },
+    {
+      "id": "orientation-unsigned64-max",
+      "kind": "pixels",
+      "overrides": {
+        "orientation": 18446744073709551615
+      },
+      "expect": "invalid_pixels"
+    },
+    {
+      "id": "width-signed64-max",
+      "kind": "pixels",
+      "overrides": {
+        "width": 9223372036854775807
+      },
+      "expect": "resource_limit"
+    },
+    {
+      "id": "width-unsigned64-positive-wrap",
+      "kind": "pixels",
+      "overrides": {
+        "width": 18446744073709551618
+      },
+      "expect": "invalid_pixels"
+    }
+  ]
+}

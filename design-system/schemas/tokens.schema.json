@@ -1,0 +1,1036 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "schemaVersion": {
+      "const": 1
+    },
+    "version": {
+      "type": "string",
+      "pattern": "^\\d+\\.\\d+\\.\\d+$"
+    },
+    "colors": {
+      "$ref": "#/$defs/palette"
+    },
+    "darkColors": {
+      "$ref": "#/$defs/palette"
+    },
+    "contrastPairs": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "array",
+        "minItems": 2,
+        "maxItems": 2,
+        "items": {
+          "type": "string",
+          "enum": [
+            "background",
+            "surface",
+            "primary",
+            "text",
+            "secondary",
+            "border",
+            "onPrimary",
+            "error"
+          ]
+        }
+      }
+    },
+    "spacing": {
+      "type": "object",
+      "properties": {
+        "page": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 128
+        },
+        "gap": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 128
+        },
+        "compact": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 128
+        }
+      },
+      "required": [
+        "page",
+        "gap",
+        "compact"
+      ],
+      "additionalProperties": false
+    },
+    "dimensions": {
+      "type": "object",
+      "properties": {
+        "minimumTargetIOS": {
+          "type": "integer",
+          "minimum": 44,
+          "maximum": 128
+        },
+        "minimumTargetAndroid": {
+          "type": "integer",
+          "minimum": 48,
+          "maximum": 128
+        },
+        "contentMax": {
+          "type": "integer",
+          "minimum": 320,
+          "maximum": 2048
+        },
+        "selfieGuideWidthPercent": {
+          "type": "integer",
+          "minimum": 10,
+          "maximum": 75
+        },
+        "selfieGuideHeightPercent": {
+          "type": "integer",
+          "minimum": 100,
+          "maximum": 133
+        },
+        "passportMediaHeight": {
+          "type": "integer",
+          "minimum": 100,
+          "maximum": 500
+        },
+        "documentLevelDiameter": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 128
+        },
+        "documentLevelTravel": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 128
+        },
+        "documentLevelInnerDiameter": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 128
+        },
+        "documentLevelBubbleDiameter": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 128
+        },
+        "documentLevelCrosshairLength": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 128
+        },
+        "documentStatusMinimumHeight": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 128
+        },
+        "documentPreviewWidth": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 2048
+        },
+        "documentPreviewHeight": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 2048
+        }
+      },
+      "required": [
+        "minimumTargetIOS",
+        "minimumTargetAndroid",
+        "contentMax",
+        "selfieGuideWidthPercent",
+        "selfieGuideHeightPercent",
+        "passportMediaHeight",
+        "documentLevelDiameter",
+        "documentLevelTravel",
+        "documentLevelInnerDiameter",
+        "documentLevelBubbleDiameter",
+        "documentLevelCrosshairLength",
+        "documentStatusMinimumHeight",
+        "documentPreviewWidth",
+        "documentPreviewHeight"
+      ],
+      "additionalProperties": false
+    },
+    "shape": {
+      "type": "object",
+      "properties": {
+        "cardRadius": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 64
+        },
+        "buttonRadius": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 64
+        }
+      },
+      "required": [
+        "cardRadius",
+        "buttonRadius"
+      ],
+      "additionalProperties": false
+    },
+    "borders": {
+      "type": "object",
+      "properties": {
+        "width": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 4
+        }
+      },
+      "required": [
+        "width"
+      ],
+      "additionalProperties": false
+    },
+    "elevation": {
+      "type": "object",
+      "properties": {
+        "card": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 24
+        }
+      },
+      "required": [
+        "card"
+      ],
+      "additionalProperties": false
+    },
+    "motion": {
+      "type": "object",
+      "properties": {
+        "durationMilliseconds": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 1000
+        },
+        "reducedMotionDurationMilliseconds": {
+          "const": 0
+        }
+      },
+      "required": [
+        "durationMilliseconds",
+        "reducedMotionDurationMilliseconds"
+      ],
+      "additionalProperties": false
+    },
+    "typography": {
+      "type": "object",
+      "properties": {
+        "title": {
+          "type": "object",
+          "properties": {
+            "ios": {
+              "type": "string",
+              "enum": [
+                "UICTFontTextStyleTitle1",
+                "UICTFontTextStyleBody",
+                "UICTFontTextStyleHeadline"
+              ]
+            },
+            "android": {
+              "type": "string",
+              "enum": [
+                "headlineMedium",
+                "bodyLarge",
+                "labelLarge"
+              ]
+            },
+            "scales": {
+              "const": true
+            },
+            "sizeSP": {
+              "type": "integer",
+              "minimum": 12,
+              "maximum": 48
+            }
+          },
+          "required": [
+            "ios",
+            "android",
+            "scales",
+            "sizeSP"
+          ],
+          "additionalProperties": false
+        },
+        "body": {
+          "type": "object",
+          "properties": {
+            "ios": {
+              "type": "string",
+              "enum": [
+                "UICTFontTextStyleTitle1",
+                "UICTFontTextStyleBody",
+                "UICTFontTextStyleHeadline"
+              ]
+            },
+            "android": {
+              "type": "string",
+              "enum": [
+                "headlineMedium",
+                "bodyLarge",
+                "labelLarge"
+              ]
+            },
+            "scales": {
+              "const": true
+            },
+            "sizeSP": {
+              "type": "integer",
+              "minimum": 12,
+              "maximum": 48
+            }
+          },
+          "required": [
+            "ios",
+            "android",
+            "scales",
+            "sizeSP"
+          ],
+          "additionalProperties": false
+        },
+        "action": {
+          "type": "object",
+          "properties": {
+            "ios": {
+              "type": "string",
+              "enum": [
+                "UICTFontTextStyleTitle1",
+                "UICTFontTextStyleBody",
+                "UICTFontTextStyleHeadline"
+              ]
+            },
+            "android": {
+              "type": "string",
+              "enum": [
+                "headlineMedium",
+                "bodyLarge",
+                "labelLarge"
+              ]
+            },
+            "scales": {
+              "const": true
+            },
+            "sizeSP": {
+              "type": "integer",
+              "minimum": 12,
+              "maximum": 48
+            }
+          },
+          "required": [
+            "ios",
+            "android",
+            "scales",
+            "sizeSP"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "title",
+        "body",
+        "action"
+      ],
+      "additionalProperties": false
+    },
+    "icons": {
+      "type": "object",
+      "properties": {
+        "back": {
+          "type": "object",
+          "properties": {
+            "ios": {
+              "const": "chevron.backward"
+            },
+            "android": {
+              "const": "arrow_back"
+            },
+            "mirrors": {
+              "const": true
+            }
+          },
+          "required": [
+            "ios",
+            "android",
+            "mirrors"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "back"
+      ],
+      "additionalProperties": false
+    },
+    "components": {
+      "type": "object",
+      "properties": {
+        "button": {
+          "type": "object",
+          "properties": {
+            "role": {
+              "const": "button"
+            },
+            "slots": {
+              "const": [
+                "label"
+              ]
+            },
+            "variants": {
+              "const": [
+                "primary",
+                "secondary"
+              ]
+            },
+            "states": {
+              "const": [
+                "enabled",
+                "disabled",
+                "focused"
+              ]
+            },
+            "foreground": {
+              "type": "string",
+              "enum": [
+                "background",
+                "surface",
+                "primary",
+                "text",
+                "secondary",
+                "border",
+                "onPrimary",
+                "error"
+              ]
+            },
+            "background": {
+              "type": "string",
+              "enum": [
+                "background",
+                "surface",
+                "primary",
+                "text",
+                "secondary",
+                "border",
+                "onPrimary",
+                "error"
+              ]
+            }
+          },
+          "required": [
+            "role",
+            "slots",
+            "variants",
+            "states",
+            "foreground",
+            "background"
+          ],
+          "additionalProperties": false
+        },
+        "card": {
+          "type": "object",
+          "properties": {
+            "role": {
+              "const": "group"
+            },
+            "slots": {
+              "const": [
+                "title",
+                "body"
+              ]
+            },
+            "variants": {
+              "const": [
+                "standard"
+              ]
+            },
+            "states": {
+              "const": [
+                "default"
+              ]
+            },
+            "foreground": {
+              "type": "string",
+              "enum": [
+                "background",
+                "surface",
+                "primary",
+                "text",
+                "secondary",
+                "border",
+                "onPrimary",
+                "error"
+              ]
+            },
+            "background": {
+              "type": "string",
+              "enum": [
+                "background",
+                "surface",
+                "primary",
+                "text",
+                "secondary",
+                "border",
+                "onPrimary",
+                "error"
+              ]
+            }
+          },
+          "required": [
+            "role",
+            "slots",
+            "variants",
+            "states",
+            "foreground",
+            "background"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "button",
+        "card"
+      ],
+      "additionalProperties": false
+    },
+    "platforms": {
+      "type": "object",
+      "properties": {
+        "ios": {
+          "type": "object",
+          "properties": {
+            "textScaling": {
+              "const": "dynamicType"
+            },
+            "direction": {
+              "const": "semantic"
+            },
+            "appearance": {
+              "const": "system"
+            }
+          },
+          "required": [
+            "textScaling",
+            "direction",
+            "appearance"
+          ],
+          "additionalProperties": false
+        },
+        "android": {
+          "type": "object",
+          "properties": {
+            "textScaling": {
+              "const": "fontScale"
+            },
+            "direction": {
+              "const": "semantic"
+            },
+            "appearance": {
+              "const": "system"
+            }
+          },
+          "required": [
+            "textScaling",
+            "direction",
+            "appearance"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "ios",
+        "android"
+      ],
+      "additionalProperties": false
+    },
+    "platformPrimitives": {
+      "type": "object",
+      "properties": {
+        "ios": {
+          "type": "object",
+          "properties": {
+            "colors": {
+              "type": "object",
+              "properties": {
+                "background": {
+                  "const": "systemBackground"
+                },
+                "groupedBackground": {
+                  "const": "systemGroupedBackground"
+                },
+                "surface": {
+                  "const": "secondarySystemGroupedBackground"
+                },
+                "text": {
+                  "const": "label"
+                },
+                "secondary": {
+                  "const": "secondaryLabel"
+                },
+                "separator": {
+                  "const": "separator"
+                },
+                "accent": {
+                  "const": "systemBlue"
+                },
+                "cameraBackground": {
+                  "const": "black"
+                },
+                "levelGood": {
+                  "const": "systemGreen"
+                },
+                "levelWarning": {
+                  "const": "systemOrange"
+                },
+                "levelTilted": {
+                  "const": "systemRed"
+                }
+              },
+              "required": [
+                "background",
+                "groupedBackground",
+                "surface",
+                "text",
+                "secondary",
+                "separator",
+                "accent",
+                "cameraBackground",
+                "levelGood",
+                "levelWarning",
+                "levelTilted"
+              ],
+              "additionalProperties": false
+            },
+            "typography": {
+              "type": "object",
+              "properties": {
+                "title": {
+                  "const": "title1"
+                },
+                "body": {
+                  "const": "body"
+                },
+                "caption": {
+                  "const": "footnote"
+                },
+                "action": {
+                  "const": "headline"
+                }
+              },
+              "required": [
+                "title",
+                "body",
+                "caption",
+                "action"
+              ],
+              "additionalProperties": false
+            },
+            "navigation": {
+              "const": "UITabBarController.independentNavigationStacks"
+            },
+            "material": {
+              "type": "object",
+              "properties": {
+                "introducedIOS": {
+                  "const": 26
+                },
+                "scope": {
+                  "const": "controlsAndNavigation"
+                },
+                "fallback": {
+                  "const": "nativeSystemAppearance"
+                },
+                "reduceTransparency": {
+                  "const": "systemManaged"
+                }
+              },
+              "required": [
+                "introducedIOS",
+                "scope",
+                "fallback",
+                "reduceTransparency"
+              ],
+              "additionalProperties": false
+            },
+            "buttons": {
+              "type": "object",
+              "properties": {
+                "primary": {
+                  "type": "object",
+                  "properties": {
+                    "modern": {
+                      "const": "filled"
+                    },
+                    "fallback": {
+                      "const": "filled"
+                    },
+                    "foreground": {
+                      "const": "background"
+                    },
+                    "background": {
+                      "const": "text"
+                    }
+                  },
+                  "required": [
+                    "modern",
+                    "fallback",
+                    "foreground",
+                    "background"
+                  ],
+                  "additionalProperties": false
+                },
+                "secondary": {
+                  "type": "object",
+                  "properties": {
+                    "modern": {
+                      "const": "glass"
+                    },
+                    "fallback": {
+                      "const": "tinted"
+                    }
+                  },
+                  "required": [
+                    "modern",
+                    "fallback"
+                  ],
+                  "additionalProperties": false
+                },
+                "tertiary": {
+                  "type": "object",
+                  "properties": {
+                    "modern": {
+                      "const": "plain"
+                    },
+                    "fallback": {
+                      "const": "plain"
+                    }
+                  },
+                  "required": [
+                    "modern",
+                    "fallback"
+                  ],
+                  "additionalProperties": false
+                }
+              },
+              "required": [
+                "primary",
+                "secondary",
+                "tertiary"
+              ],
+              "additionalProperties": false
+            },
+            "symbols": {
+              "type": "object",
+              "properties": {
+                "biometric": {
+                  "const": "person.crop.rectangle"
+                },
+                "document": {
+                  "const": "doc.text.viewfinder"
+                },
+                "passport": {
+                  "const": "book.closed"
+                },
+                "cancel": {
+                  "const": "xmark"
+                },
+                "developer": {
+                  "const": "ellipsis"
+                }
+              },
+              "required": [
+                "biometric",
+                "document",
+                "passport",
+                "cancel",
+                "developer"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "required": [
+            "colors",
+            "typography",
+            "navigation",
+            "material",
+            "buttons",
+            "symbols"
+          ],
+          "additionalProperties": false
+        },
+        "android": {
+          "type": "object",
+          "properties": {
+            "theme": {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "const": "Theme.Kenshiki.Reference"
+                },
+                "parent": {
+                  "const": "android:style/Theme.Material.Light.NoActionBar"
+                },
+                "implementation": {
+                  "const": "androidx.compose.material3.MaterialTheme"
+                },
+                "dynamicColors": {
+                  "const": "api31WhenAvailable"
+                },
+                "fallback": {
+                  "const": "material3LightDarkColorSchemes"
+                },
+                "appearance": {
+                  "const": "system"
+                },
+                "nightParent": {
+                  "const": "android:style/Theme.Material.NoActionBar"
+                }
+              },
+              "required": [
+                "name",
+                "parent",
+                "implementation",
+                "dynamicColors",
+                "fallback",
+                "appearance",
+                "nightParent"
+              ],
+              "additionalProperties": false
+            },
+            "colors": {
+              "type": "object",
+              "properties": {
+                "colorSurface": {
+                  "const": "surface"
+                },
+                "colorOnSurface": {
+                  "const": "onSurface"
+                },
+                "colorOnSurfaceVariant": {
+                  "const": "onSurfaceVariant"
+                },
+                "colorPrimary": {
+                  "const": "primary"
+                },
+                "colorOutline": {
+                  "const": "outline"
+                }
+              },
+              "required": [
+                "colorSurface",
+                "colorOnSurface",
+                "colorOnSurfaceVariant",
+                "colorPrimary",
+                "colorOutline"
+              ],
+              "additionalProperties": false
+            },
+            "typography": {
+              "type": "object",
+              "properties": {
+                "titleTextStyle": {
+                  "const": "headlineMedium"
+                },
+                "bodyTextStyle": {
+                  "const": "bodyLarge"
+                },
+                "labelTextStyle": {
+                  "const": "labelLarge"
+                }
+              },
+              "required": [
+                "titleTextStyle",
+                "bodyTextStyle",
+                "labelTextStyle"
+              ],
+              "additionalProperties": false
+            },
+            "buttons": {
+              "type": "object",
+              "properties": {
+                "primary": {
+                  "const": "Button"
+                },
+                "secondary": {
+                  "const": "OutlinedButton"
+                },
+                "tertiary": {
+                  "const": "TextButton"
+                }
+              },
+              "required": [
+                "primary",
+                "secondary",
+                "tertiary"
+              ],
+              "additionalProperties": false
+            },
+            "navigation": {
+              "const": "NavigationBar.independentDestinationState"
+            },
+            "insets": {
+              "const": "edgeToEdgeSystemBarsAndIme"
+            },
+            "shape": {
+              "const": "materialComponentDefault"
+            },
+            "motion": {
+              "const": "materialComponentAndSystemPreferences"
+            },
+            "symbols": {
+              "type": "object",
+              "properties": {
+                "biometric": {
+                  "type": "object",
+                  "properties": {
+                    "import": {
+                      "const": "androidx.compose.material.icons.filled.Person"
+                    },
+                    "expression": {
+                      "const": "androidx.compose.material.icons.Icons.Filled.Person"
+                    }
+                  },
+                  "required": [
+                    "import",
+                    "expression"
+                  ],
+                  "additionalProperties": false
+                },
+                "document": {
+                  "type": "object",
+                  "properties": {
+                    "import": {
+                      "const": "androidx.compose.material.icons.automirrored.filled.List"
+                    },
+                    "expression": {
+                      "const": "androidx.compose.material.icons.Icons.AutoMirrored.Filled.List"
+                    }
+                  },
+                  "required": [
+                    "import",
+                    "expression"
+                  ],
+                  "additionalProperties": false
+                },
+                "passport": {
+                  "type": "object",
+                  "properties": {
+                    "import": {
+                      "const": "androidx.compose.material.icons.filled.AccountBox"
+                    },
+                    "expression": {
+                      "const": "androidx.compose.material.icons.Icons.Filled.AccountBox"
+                    }
+                  },
+                  "required": [
+                    "import",
+                    "expression"
+                  ],
+                  "additionalProperties": false
+                }
+              },
+              "required": [
+                "biometric",
+                "document",
+                "passport"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "required": [
+            "theme",
+            "colors",
+            "typography",
+            "buttons",
+            "navigation",
+            "insets",
+            "shape",
+            "motion",
+            "symbols"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "ios",
+        "android"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "required": [
+    "schemaVersion",
+    "version",
+    "colors",
+    "darkColors",
+    "contrastPairs",
+    "spacing",
+    "dimensions",
+    "shape",
+    "borders",
+    "elevation",
+    "motion",
+    "typography",
+    "icons",
+    "components",
+    "platforms",
+    "platformPrimitives"
+  ],
+  "additionalProperties": false,
+  "$defs": {
+    "palette": {
+      "type": "object",
+      "properties": {
+        "background": {
+          "type": "string",
+          "pattern": "^#[0-9A-F]{6}$"
+        },
+        "surface": {
+          "type": "string",
+          "pattern": "^#[0-9A-F]{6}$"
+        },
+        "primary": {
+          "type": "string",
+          "pattern": "^#[0-9A-F]{6}$"
+        },
+        "text": {
+          "type": "string",
+          "pattern": "^#[0-9A-F]{6}$"
+        },
+        "secondary": {
+          "type": "string",
+          "pattern": "^#[0-9A-F]{6}$"
+        },
+        "border": {
+          "type": "string",
+          "pattern": "^#[0-9A-F]{6}$"
+        },
+        "onPrimary": {
+          "type": "string",
+          "pattern": "^#[0-9A-F]{6}$"
+        },
+        "error": {
+          "type": "string",
+          "pattern": "^#[0-9A-F]{6}$"
+        }
+      },
+      "required": [
+        "background",
+        "surface",
+        "primary",
+        "text",
+        "secondary",
+        "border",
+        "onPrimary",
+        "error"
+      ],
+      "additionalProperties": false
+    }
+  }
+}

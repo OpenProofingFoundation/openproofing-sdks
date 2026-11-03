@@ -1,0 +1,156 @@
+[
+  {
+    "path": "/Users/shf/Developer/pulse-ios/Samples/KenshikiDeviceDemo/Sources/ForegroundDeviceMotionAggregation.swift",
+    "sha256_start": "7bbfe2ccb6797b802893840c2fa5204b87ac1c059262791674f591cb8863e449",
+    "sha256_end": "7bbfe2ccb6797b802893840c2fa5204b87ac1c059262791674f591cb8863e449",
+    "drifted": false,
+    "read_in_full": true
+  },
+  {
+    "path": "/Users/shf/Developer/pulse-ios/Sources/KenshikiDeviceSDK/SensorWindowTiming.swift",
+    "sha256_start": "77527f4c6e9200b09ece7b95ac4dae04f56de37b0015fadb5493524b6442df86",
+    "sha256_end": "77527f4c6e9200b09ece7b95ac4dae04f56de37b0015fadb5493524b6442df86",
+    "drifted": false,
+    "read_in_full": true
+  },
+  {
+    "path": "/Users/shf/Developer/pulse-ios/Sources/KenshikiDeviceSDK/BoundedSensorWindow.swift",
+    "sha256_start": "3e7b2aebc758615ab9e03a87c3cc660a65aafaede537f329fea77bf15aa8b88e",
+    "sha256_end": "3e7b2aebc758615ab9e03a87c3cc660a65aafaede537f329fea77bf15aa8b88e",
+    "drifted": false,
+    "read_in_full": true
+  },
+  {
+    "path": "/Users/shf/Developer/pulse-ios/Samples/KenshikiDeviceDemo/Sources/SensorMonitor+Motion.swift",
+    "sha256_start": "6ab933f722464e2eb19a4414bd831f14d019812c1067e51bf777b6c891479a98",
+    "sha256_end": "6ab933f722464e2eb19a4414bd831f14d019812c1067e51bf777b6c891479a98",
+    "drifted": false,
+    "read_in_full": true
+  },
+  {
+    "path": "/Users/shf/Developer/pulse-ios/Sources/KenshikiDeviceSDK/DeviceMotionEvidenceWindow.swift",
+    "sha256_start": "f8923d58099d4593385fb2268384eb08f1bae40f4c53c822ee8102843a70372e",
+    "sha256_end": "f8923d58099d4593385fb2268384eb08f1bae40f4c53c822ee8102843a70372e",
+    "drifted": false,
+    "read_in_full": true
+  },
+  {
+    "path": "/Users/shf/Developer/pulse-ios/Sources/KenshikiDeviceSDK/DeviceMotionEvidenceLakeAdapter.swift",
+    "sha256_start": "1806a20ada1f66eabee5f08383c6749f7dca2dc8e5e7f3e587d767074d3c5dfb",
+    "sha256_end": "1806a20ada1f66eabee5f08383c6749f7dca2dc8e5e7f3e587d767074d3c5dfb",
+    "drifted": false,
+    "read_in_full": true
+  },
+  {
+    "path": "/Users/shf/Developer/pulse-ios/Samples/KenshikiDeviceDemo/Sources/MotionAggregateLakeWriter.swift",
+    "sha256_start": "bf15216e54ee6e4d2273fe231171f53eedb7832d372eb85dc729864abe6cfe05",
+    "sha256_end": "bf15216e54ee6e4d2273fe231171f53eedb7832d372eb85dc729864abe6cfe05",
+    "drifted": false,
+    "read_in_full": true
+  },
+  {
+    "path": "/Users/shf/Developer/pulse-ios/Samples/KenshikiDeviceDemo/Sources/LocalEvidenceBatchJournal.swift",
+    "sha256_start": "2b94427d1ba94e8dc85efcb8da0c6e99a5717bbb57dc9f504595944c522cb4df",
+    "sha256_end": "2b94427d1ba94e8dc85efcb8da0c6e99a5717bbb57dc9f504595944c522cb4df",
+    "drifted": false,
+    "read_in_full": true
+  },
+  {
+    "path": "/Users/shf/Developer/pulse-ios/Samples/KenshikiDeviceDemo/Sources/SensorHistoryEraseCoordinator.swift",
+    "sha256_start": "f8be13e98cd2de9849fd06733fa94350372341448c2a10cd581e16329af6f296",
+    "sha256_end": "f8be13e98cd2de9849fd06733fa94350372341448c2a10cd581e16329af6f296",
+    "drifted": false,
+    "read_in_full": true
+  },
+  {
+    "path": "/Users/shf/Developer/pulse-ios/Samples/KenshikiDeviceDemo/Sources/RecordedAccelerationHistoryLakeWriter.swift",
+    "sha256_start": "45ecbb628bb6c1a9c8e1d7cd4a2fc763d4ae0862a6dd01c96d21a1a6f4eac9b2",
+    "sha256_end": "45ecbb628bb6c1a9c8e1d7cd4a2fc763d4ae0862a6dd01c96d21a1a6f4eac9b2",
+    "drifted": false,
+    "read_in_full": true
+  },
+  {
+    "path": "/Users/shf/Developer/pulse-ios/Sources/KenshikiDeviceSDK/RecordedAccelerationWindow.swift",
+    "sha256_start": "229df1b7684a7eac084e2f1184311c71d0aec0ee0de85c802611dd59e8dbadb6",
+    "sha256_end": "229df1b7684a7eac084e2f1184311c71d0aec0ee0de85c802611dd59e8dbadb6",
+    "drifted": false,
+    "read_in_full": true
+  },
+  {
+    "path": "/Users/shf/Developer/pulse-ios/Sources/KenshikiDeviceSDK/CoreMotionRecordedAccelerationSource.swift",
+    "sha256_start": "b458c408e36c2b61ccb3dfdbcec6fe974ba697f0b1be124ff6521897eec68c89",
+    "sha256_end": "b458c408e36c2b61ccb3dfdbcec6fe974ba697f0b1be124ff6521897eec68c89",
+    "drifted": false,
+    "read_in_full": true
+  },
+  {
+    "path": "/Users/shf/Developer/pulse-ios/Samples/KenshikiDeviceDemo/Sources/SensorHistoryJournalCoordinator.swift",
+    "sha256_start": "d45d4a9c2c3f42b46adcabf2fa1daa73db8a5818be7f0c14194d2f9fac453ec5",
+    "sha256_end": "d45d4a9c2c3f42b46adcabf2fa1daa73db8a5818be7f0c14194d2f9fac453ec5",
+    "drifted": false,
+    "read_in_full": true
+  },
+  {
+    "path": "/Users/shf/Developer/pulse-ios/Samples/KenshikiDeviceDemo/Sources/SensorMonitor.swift",
+    "sha256_start": "b2a7aae96b6e6de228b5a0346ddeade13ea3a8f403e668b2802f91ff9c6ea9d6",
+    "sha256_end": "b2a7aae96b6e6de228b5a0346ddeade13ea3a8f403e668b2802f91ff9c6ea9d6",
+    "drifted": false,
+    "read_in_full": true
+  },
+  {
+    "path": "/Users/shf/Developer/pulse-ios/Samples/KenshikiDeviceDemo/Sources/SensorHistoryLakeEngine.swift",
+    "sha256_start": "6e285b0144ca6cefdd68fbc6e84404b8632ed3e6603f6819bbeda0d506f116bf",
+    "sha256_end": "6e285b0144ca6cefdd68fbc6e84404b8632ed3e6603f6819bbeda0d506f116bf",
+    "drifted": false,
+    "read_in_full": true
+  },
+  {
+    "path": "/Users/shf/Developer/pulse-ios/Samples/KenshikiDeviceDemo/Sources/AppEvidenceLake.swift",
+    "sha256_start": "98778f311489b4d4c1cc3313a1214685b2e8419c918197b79e77e3e764ff04d2",
+    "sha256_end": "98778f311489b4d4c1cc3313a1214685b2e8419c918197b79e77e3e764ff04d2",
+    "drifted": false,
+    "read_in_full": true
+  },
+  {
+    "path": "/Users/shf/Developer/pulse-ios/Samples/KenshikiDeviceDemo/Sources/SensorLakeCoordinator.swift",
+    "sha256_start": "a49fd13f550a41a0bbc5015a381e1d0cb6232785b9b9c036db8391278d4db7ef",
+    "sha256_end": "a49fd13f550a41a0bbc5015a381e1d0cb6232785b9b9c036db8391278d4db7ef",
+    "drifted": false,
+    "read_in_full": true
+  },
+  {
+    "path": "/Users/shf/Developer/pulse-ios/Sources/KenshikiDeviceSDK/SensorSampleTime.swift",
+    "sha256_start": "50f35ac3797943581653a37527750b764186ccdb5ec9784adb69d0a9f7de4054",
+    "sha256_end": "50f35ac3797943581653a37527750b764186ccdb5ec9784adb69d0a9f7de4054",
+    "drifted": false,
+    "read_in_full": true
+  },
+  {
+    "path": "/Users/shf/Developer/pulse-ios/Tests/KenshikiDeviceSDKTests/SensorWindowTimingTests.swift",
+    "sha256_start": "a31e5ba31c85830f657ec02953219b5bbaa81cf0c1678c53729b270ce4176262",
+    "sha256_end": "a31e5ba31c85830f657ec02953219b5bbaa81cf0c1678c53729b270ce4176262",
+    "drifted": false,
+    "read_in_full": true
+  },
+  {
+    "path": "/Users/shf/Developer/pulse-ios/Tests/KenshikiDeviceSDKTests/RecordedAccelerationWindowTests.swift",
+    "sha256_start": "713a6050c8be57af4785839dd067827db139317f93cb5928f1fa906f08f0467b",
+    "sha256_end": "713a6050c8be57af4785839dd067827db139317f93cb5928f1fa906f08f0467b",
+    "drifted": false,
+    "read_in_full": true
+  },
+  {
+    "path": "/Users/shf/Developer/pulse-ios/Samples/KenshikiDeviceDemo/Tests/KenshikiDeviceDemoTests/SensorHistoryJournalCoordinatorTests.swift",
+    "sha256_start": "6d9948279f948ee9d135e2f266b027e26790f4606706cef4a5ab268f9c37a2da",
+    "sha256_end": "6d9948279f948ee9d135e2f266b027e26790f4606706cef4a5ab268f9c37a2da",
+    "drifted": false,
+    "read_in_full": true
+  },
+  {
+    "path": "/Users/shf/Developer/pulse-ios/Samples/KenshikiDeviceDemo/Tests/KenshikiDeviceDemoTests/ForegroundDeviceMotionAggregationTests.swift",
+    "sha256_start": "b54a1b8465fdb59685a3f5ad36d79e0d2b52228c7d81cb42ae3317b571e4dfd1",
+    "sha256_end": "b54a1b8465fdb59685a3f5ad36d79e0d2b52228c7d81cb42ae3317b571e4dfd1",
+    "drifted": false,
+    "read_in_full": true
+  }
+]

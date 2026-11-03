@@ -1,0 +1,261 @@
+{
+  "started_at_utc": "2026-10-26T18:21:48.532234+00:00",
+  "scope": "Read-only motion reuse audit; documentation outputs only",
+  "repositories": {
+    "kenshiki-sdks": {
+      "path": "/Users/shf/Developer/kenshiki-sdks",
+      "head": "04309902f45cea28505713a2b229f2b582d823c1",
+      "branch": "fix/canonical-front-capture-20261025",
+      "status": [
+        " M README.md",
+        " M biometric/README.md",
+        " M design-system/generated/android/kotlin/KenshikiDesign.kt",
+        " M design-system/generated/android/reference/KenshikiCopyResources.kt",
+        " M design-system/generated/android/res/values-ar-rXB/strings.xml",
+        " M design-system/generated/android/res/values-en-rXA/strings.xml",
+        " M design-system/generated/android/res/values-night/themes.xml",
+        " M design-system/generated/android/res/values/strings.xml",
+        " M design-system/generated/android/res/values/themes.xml",
+        " M design-system/generated/swift/KenshikiDesign.swift",
+        " M design-system/generated/swift/ar-XB.lproj/InfoPlist.strings",
+        " M design-system/generated/swift/ar-XB.lproj/Localizable.strings",
+        " M design-system/generated/swift/en-XA.lproj/InfoPlist.strings",
+        " M design-system/generated/swift/en-XA.lproj/Localizable.strings",
+        " M design-system/generated/swift/en.lproj/InfoPlist.strings",
+        " M design-system/generated/swift/en.lproj/Localizable.strings",
+        " M design-system/schemas/catalog.schema.json",
+        " M design-system/sources/catalog.jsonc",
+        " M document/Gates/capture-sources.json",
+        " M document/Gates/capture-tests.json",
+        " M document/README.md",
+        " M document/api/DocumentCaptureApple/ios-device.json",
+        " M document/api/DocumentCaptureApple/ios-simulator.json",
+        " M document/ios/Sources/DocumentCaptureApple/AVFoundationTemporalCapture.swift",
+        " M document/ios/Sources/DocumentCaptureApple/CapturedDocumentPhoto.swift",
+        " M document/ios/Sources/DocumentCaptureApple/DocumentFrontCaptureController.swift",
+        " M document/ios/Sources/DocumentCaptureApple/DocumentLevelMotionSource.swift",
+        " M document/ios/Tests/AppleTests/DocumentFrontCaptureControllerTests.swift",
+        " M foundation/README.md",
+        " M foundation/Sources/KenshikiProtectedStorage/HardwareBoundStoreKeyCustody.swift",
+        " M foundation/Sources/KenshikiProtectedStorage/ProtectedSQLiteStore.swift",
+        " M foundation/Sources/KenshikiProtectedStorage/StoreLifecycleFence.swift",
+        " M foundation/capture-custody-extraction.json",
+        " M foundation/motion/README.md",
+        " M foundation/sources.json",
+        " M governance/architecture/APP-ARCH-001.md",
+        " M governance/architecture/README.md",
+        " M governance/presentation-sources.json",
+        " M governance/research/README.md",
+        " M governance/research/manifest.json",
+        " M governance/research/method-notes.md",
+        " M governance/tests/test_presentation_boundaries.py",
+        " M governance/tooling-lock.json",
+        " M passport/README.md",
+        " M quality/presentation_guards.py",
+        " M reference-apps/AGENTS.md",
+        " M reference-apps/README.md",
+        " M reference-apps/ios/ControllerTests/DocumentFlowControllerTests.swift",
+        " M reference-apps/ios/ControllerTests/DocumentFlowHostLifecycleTests.swift",
+        " M reference-apps/ios/ControllerTests/DocumentFlowRendererTests.swift",
+        " M reference-apps/ios/ControllerTests/StorageHealthTests.swift",
+        " M reference-apps/ios/KenshikiReference.xcodeproj/project.pbxproj",
+        " M reference-apps/ios/Sources/DocumentFlowController.swift",
+        " M reference-apps/ios/Sources/DocumentFlowHost.swift",
+        " M reference-apps/ios/Sources/NativeDocumentFlowCamera.swift",
+        " M reference-apps/ios/project.yml",
+        " M scripts/presentation_check.py",
+        "?? document/docs/capture-telemetry.md",
+        "?? document/ios/Sources/DocumentCaptureApple/DocumentMotionEvidence.swift",
+        "?? document/ios/Sources/DocumentCaptureApple/DocumentMotionRecorder.swift",
+        "?? document/ios/Tests/AppleTests/DocumentMotionEvidenceTests.swift",
+        "?? foundation/Sources/CaptureEvidenceCustody/SecureEnclaveCaptureManifestSigner.swift",
+        "?? foundation/Sources/KenshikiProtectedStorage/HardwareBoundSigningKeyCustody.swift",
+        "?? foundation/Tests/CaptureEvidenceCustodyTests/SecureEnclaveCaptureManifestSignerTests.swift",
+        "?? foundation/Tests/KenshikiProtectedStorageTests/HardwareBoundSigningKeyCustodyTests.swift",
+        "?? foundation/Tests/KenshikiProtectedStorageTests/ProtectedSQLiteAssociatedErasureTests.swift",
+        "?? governance/architecture/telemetry-audit-checklist.md",
+        "?? governance/research/papers/2606.05126v1.pdf",
+        "?? reference-apps/ios/ControllerTests/DocumentFlowPersistenceTests.swift",
+        "?? reference-apps/ios/ControllerTests/DocumentFlowSQLiteStoreTests.swift",
+        "?? reference-apps/ios/Sources/DocumentFlowCaptureMetadata.swift",
+        "?? reference-apps/ios/Sources/DocumentFlowPersistence.swift",
+        "?? reference-apps/ios/Sources/DocumentFlowSQLiteStore.swift"
+      ],
+      "worktrees": [
+        "worktree /Users/shf/Developer/kenshiki-sdks",
+        "HEAD 04309902f45cea28505713a2b229f2b582d823c1",
+        "branch refs/heads/fix/canonical-front-capture-20261025",
+        "",
+        "worktree /private/tmp/claude-501/-Users-shf-Developer-camara-api/766fbe5f-63ef-4a12-b906-b6de190b9db8/scratchpad/ksdk",
+        "HEAD 24c1443c2ebc34cfd463310caa627930dc1f5e08",
+        "branch refs/heads/feat/licence-check-core",
+        "",
+        "worktree /Users/shf/Developer/worktrees/sdk-document-recovery-20261024",
+        "HEAD 1e9645b54094f867f54b442b1e2b55dcc4182dbc",
+        "branch refs/heads/recovery/sdk-document-app-20261024",
+        ""
+      ]
+    },
+    "pulse-ios": {
+      "path": "/Users/shf/Developer/pulse-ios",
+      "head": "d6d544a75d3b79106eb8224a6f93f0b7536d2e2f",
+      "branch": "fix/gateway-licence-wiring-20261025",
+      "status": [
+        " M .github/workflows/ci.yml",
+        " M .github/workflows/release.yml",
+        "A  .gitmodules",
+        " M Package.swift",
+        " M Samples/KenshikiDeviceDemo/PulseSecrets.example.plist",
+        " M Samples/KenshikiDeviceDemo/Sources/FreshInstallKeychainFence.swift",
+        " M Samples/KenshikiDeviceDemo/Sources/LicenceCheck.swift",
+        " M Samples/KenshikiDeviceDemo/Sources/LicenceCheckResult.swift",
+        " M Samples/KenshikiDeviceDemo/Sources/PulseDataEraser.swift",
+        " M Samples/KenshikiDeviceDemo/Sources/PulsePersistenceRegistry.swift",
+        " M Samples/KenshikiDeviceDemo/Tests/KenshikiDeviceDemoTests/LicenceProcessingUnavailableTests.swift",
+        " M Samples/KenshikiDeviceDemo/ci_scripts/sdk-revision.txt",
+        " M Samples/KenshikiDeviceDemo/project.yml",
+        "A  Vendor/KenshikiIdentitySDK",
+        " M docs/ci-runner.md",
+        " M scripts/check_document_vendor_absence.py",
+        " M scripts/frozen_packages.py",
+        " M scripts/quality.sh",
+        "?? Samples/KenshikiDeviceDemo/Sources/LicenceGatewayAcceptance.swift",
+        "?? Samples/KenshikiDeviceDemo/Sources/LicenceGatewayRegistrationErasure.swift",
+        "?? Samples/KenshikiDeviceDemo/Tests/KenshikiDeviceDemoTests/LicenceGatewayResultTests.swift",
+        "?? Samples/KenshikiDeviceDemo/Tests/KenshikiDeviceDemoTests/PulseDataEraserGatewayTests.swift",
+        "?? Sources/Gateway/PulseLicenceGateway.swift",
+        "?? Tests/KenshikiDeviceSDKTests/PulseLicenceGatewayConfigurationTests.swift",
+        "?? Tests/KenshikiDeviceSDKTests/PulseLicenceGatewayRecoveryTests.swift",
+        "?? scripts/test_identity_sdk_pin.py"
+      ],
+      "worktrees": [
+        "worktree /Users/shf/Developer/pulse-ios",
+        "HEAD d6d544a75d3b79106eb8224a6f93f0b7536d2e2f",
+        "branch refs/heads/fix/gateway-licence-wiring-20261025",
+        "",
+        "worktree /Users/shf/Developer/pulse-ios-worktrees/fix-release-lane",
+        "HEAD 3ae52e2d8920a9e168db491d0ab69e9e61d8d7c2",
+        "branch refs/heads/fix/release-lane-20261026",
+        "",
+        "worktree /Users/shf/Developer/pulse-ios-worktrees/promote-dev",
+        "HEAD 4b489f9048cf08f248df791fe2cfcfce789026cd",
+        "branch refs/heads/dev",
+        "",
+        "worktree /Users/shf/Developer/pulse-ios-worktrees/remove-research-sharing",
+        "HEAD 13191e13152df02871edf1800f2c6bdd678f4023",
+        "branch refs/heads/chore/remove-research-sharing-20261025",
+        ""
+      ]
+    }
+  },
+  "parent_inputs": [
+    {
+      "path": "/Users/shf/Developer/kenshiki-sdks/AGENTS.md",
+      "sha256_start": "06ed87c8d8a9dc83e982450fba4c2205a8154587c2a66d92abf55089bf6c3888"
+    },
+    {
+      "path": "/Users/shf/Developer/kenshiki-sdks/CLAUDE.md",
+      "sha256_start": "6b5dd9a78796973fe9cf1a8dd446e51b542e74582c67c13306a5392946f0e8fc"
+    },
+    {
+      "path": "/Users/shf/Developer/kenshiki-sdks/Package.swift",
+      "sha256_start": "57d03da1c4cb057fc5643d202fb5a8c186f6bbe31e46fd68f3c013721d3a43f8"
+    },
+    {
+      "path": "/Users/shf/Developer/kenshiki-sdks/README.md",
+      "sha256_start": "5275a1415de2956d31bc1ac57190b858b15f35ab3b67e9291340db637bde2bd3"
+    },
+    {
+      "path": "/Users/shf/Developer/kenshiki-sdks/biometric/ios/Sources/BiometricCapture/NativeSelfieMotion.swift",
+      "sha256_start": "0d989846c0cd79ce4f1ee5cdf8160332b74e66ddc34258763b1e86304564e4c4"
+    },
+    {
+      "path": "/Users/shf/Developer/kenshiki-sdks/biometric/ios/Sources/BiometricCapture/SelfieMotionEvidence.swift",
+      "sha256_start": "50a932a6c40487b4487c1150ef28228090f8242723a55d8178209cdbcc882d03"
+    },
+    {
+      "path": "/Users/shf/Developer/kenshiki-sdks/document/docs/capture-telemetry.md",
+      "sha256_start": "0e08ccec293b33116beae33d458c31458441d573382062ed67e155b4c152d756"
+    },
+    {
+      "path": "/Users/shf/Developer/kenshiki-sdks/document/ios/Sources/DocumentCaptureApple/DocumentMotionEvidence.swift",
+      "sha256_start": "06b718649b8f031e2c1cd44a23e8ca6e791558735181d8c0a9c2354557cb677d"
+    },
+    {
+      "path": "/Users/shf/Developer/kenshiki-sdks/document/ios/Sources/DocumentCaptureApple/DocumentMotionRecorder.swift",
+      "sha256_start": "a52580a3d4448b0296d869252813567e099dd328c31adaa6f9cbbc9a50d7498c"
+    },
+    {
+      "path": "/Users/shf/Developer/kenshiki-sdks/document/ios/Sources/DocumentCaptureApple/DocumentTemporalMotionCollector.swift",
+      "sha256_start": "5f102ce32b96c3a67cd76e8c48c117ecc37b272a8aa5c6a53bfde0a2de31584e"
+    },
+    {
+      "path": "/Users/shf/Developer/kenshiki-sdks/foundation/motion/Package.swift",
+      "sha256_start": "6263b0ceaa3de8f847bf7065b232ab70f9099b956211da3917e8cbd34602e83a"
+    },
+    {
+      "path": "/Users/shf/Developer/kenshiki-sdks/foundation/motion/README.md",
+      "sha256_start": "72122553449a19691a2e8d7d0f4f45053549850b056e82ccabd8854e203181e1"
+    },
+    {
+      "path": "/Users/shf/Developer/kenshiki-sdks/foundation/motion/Sources/KenshikiMotion/PulseCeremonyMotionSummary.swift",
+      "sha256_start": "b544c0b87acb80b39fad51b17b947dc1d5d93ee495f949efc5089499aac89d06"
+    },
+    {
+      "path": "/Users/shf/Developer/kenshiki-sdks/foundation/motion/Sources/KenshikiMotion/PulseCeremonyMotionTrace.swift",
+      "sha256_start": "498beff60def9aaca4bd4070ef206a34cf55585bf8c20b72bbaf39668a779d53"
+    },
+    {
+      "path": "/Users/shf/Developer/kenshiki-sdks/foundation/motion/Sources/KenshikiMotion/PulseCeremonyMotionWitness.swift",
+      "sha256_start": "69905837f8f3f38cc99ec94c6ee5a2295efaa6468926cf73a625f8983b6d8466"
+    },
+    {
+      "path": "/Users/shf/Developer/kenshiki-sdks/foundation/motion/Sources/KenshikiMotion/PulseMotionPermission.swift",
+      "sha256_start": "e62b11a65a5cf247e6925fc00d2c9f30175dc8461482451e1f09a13413b8e0d5"
+    },
+    {
+      "path": "/Users/shf/Developer/kenshiki-sdks/foundation/motion/Tests/KenshikiMotionTests/PulseCeremonyMotionSummaryTests.swift",
+      "sha256_start": "6a3c40e4243bf8eedeb0acd8f0dfb073be28b11b93f5c487cc5d0fe9dd27b53d"
+    },
+    {
+      "path": "/Users/shf/Developer/kenshiki-sdks/foundation/motion/Tests/KenshikiMotionTests/PulseCeremonyMotionWitnessTests.swift",
+      "sha256_start": "9f2c3aa66b9f7207023f611fe75f15cd6a9e35627eef9cd880cddbeadfc8f877"
+    },
+    {
+      "path": "/Users/shf/Developer/kenshiki-sdks/foundation/motion/Tests/KenshikiMotionTests/PulseMotionPermissionTests.swift",
+      "sha256_start": "987a24c15ffa3f07c659ff983c065f5fbbadb49b0bcbf4682c7edadf8095b309"
+    },
+    {
+      "path": "/Users/shf/Developer/kenshiki-sdks/foundation/motion/check.py",
+      "sha256_start": "fb8d07e7a5edc80d2f168ed67259b06483ecfe9695845a019c1f77ac177608d3"
+    },
+    {
+      "path": "/Users/shf/Developer/kenshiki-sdks/foundation/motion/sources.json",
+      "sha256_start": "7edd91074161ec6006886620df1e48de4b6633f016436be05970a07a188bb596"
+    },
+    {
+      "path": "/Users/shf/Developer/kenshiki-sdks/governance/architecture/APP-ARCH-001.md",
+      "sha256_start": "31e0f180e89ece414c4794cdee529e8ba00617f2f0ef8b20a7ef2ab17da70046"
+    },
+    {
+      "path": "/Users/shf/Developer/kenshiki-sdks/governance/monorepo.md",
+      "sha256_start": "cea75323268695282269ea672f9cfb47844a2fca45f9dd3ad5660360476e08f3"
+    },
+    {
+      "path": "/Users/shf/Developer/kenshiki-sdks/reference-apps/ios/Sources/SavedFaceWorkflow.swift",
+      "sha256_start": "0795e5e108d267899e463ee83f709b06817bfc8658e751b73e36e97ea32df1cd"
+    },
+    {
+      "path": "/Users/shf/Developer/kenshiki-sdks/reference-apps/ios/Sources/WorkflowEvidenceRecorder.swift",
+      "sha256_start": "ed87b2616c97bfbf81742119827320cf0afb935241500cde3542890653e3dc66"
+    },
+    {
+      "path": "/Users/shf/Developer/kenshiki-sdks/reference-apps/ios/Sources/WorkflowMotionProjection.swift",
+      "sha256_start": "04475a0bc40cef8d8e9fb53abd95087125c085155d152b513dfb734f886a55ff"
+    },
+    {
+      "path": "/Users/shf/Developer/kenshiki-sdks/reference-apps/ios/Sources/WorkflowSensorHost.swift",
+      "sha256_start": "c71c777b92df4825ad5767d4f36a10cf04871698673851043153c13fa87614d2"
+    }
+  ]
+}

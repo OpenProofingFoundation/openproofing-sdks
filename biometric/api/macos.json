@@ -1,0 +1,706 @@
+{
+  "relationships": [
+    {
+      "kind": "conformsTo",
+      "source": "s:12BiometricSDK13UnitEmbeddingV",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:12BiometricSDK13UnitEmbeddingV",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:12BiometricSDK14ArtifactDigestV",
+      "target": "s:SH"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:12BiometricSDK14ArtifactDigestV",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:12BiometricSDK14ArtifactDigestV",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:12BiometricSDK14ArtifactDigestV",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:12BiometricSDK14EmbeddingSpaceV",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:12BiometricSDK14EmbeddingSpaceV",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:12BiometricSDK14EmbeddingSpaceV",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:12BiometricSDK14PortraitPixelsV",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:12BiometricSDK14PortraitPixelsV",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:12BiometricSDK14PortraitPixelsV6LayoutV",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:12BiometricSDK14PortraitPixelsV6LayoutV",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:12BiometricSDK15EmbeddingDomainO",
+      "target": "s:SH"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:12BiometricSDK15EmbeddingDomainO",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:12BiometricSDK15EmbeddingDomainO",
+      "target": "s:SY"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:12BiometricSDK15EmbeddingDomainO",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:12BiometricSDK15EmbeddingDomainO",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:12BiometricSDK15PortraitBindingV",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:12BiometricSDK15PortraitBindingV",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:12BiometricSDK15PortraitBindingV",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:12BiometricSDK15PortraitFailureO",
+      "target": "s:SH"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:12BiometricSDK15PortraitFailureO",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:12BiometricSDK15PortraitFailureO",
+      "target": "s:SY"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:12BiometricSDK15PortraitFailureO",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:12BiometricSDK15PortraitFailureO",
+      "target": "s:s5ErrorP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:12BiometricSDK15PortraitFailureO",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:12BiometricSDK16CosineSimilarityV",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:12BiometricSDK16CosineSimilarityV",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:12BiometricSDK16PrimitiveFailureO",
+      "target": "s:SH"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:12BiometricSDK16PrimitiveFailureO",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:12BiometricSDK16PrimitiveFailureO",
+      "target": "s:SY"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:12BiometricSDK16PrimitiveFailureO",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:12BiometricSDK16PrimitiveFailureO",
+      "target": "s:s5ErrorP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:12BiometricSDK16PrimitiveFailureO",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:12BiometricSDK16RawFeatureVectorV",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:12BiometricSDK16RawFeatureVectorV",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:12BiometricSDK17ComparisonRequestV",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:12BiometricSDK17ComparisonRequestV",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:12BiometricSDK21FaceComparisonOutcomeO",
+      "target": "s:SE"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:12BiometricSDK21FaceComparisonOutcomeO",
+      "target": "s:SH"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:12BiometricSDK21FaceComparisonOutcomeO",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:12BiometricSDK21FaceComparisonOutcomeO",
+      "target": "s:SY"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:12BiometricSDK21FaceComparisonOutcomeO",
+      "target": "s:Se"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:12BiometricSDK21FaceComparisonOutcomeO",
+      "target": "s:s12CaseIterableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:12BiometricSDK21FaceComparisonOutcomeO",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:12BiometricSDK21FaceComparisonOutcomeO",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:12BiometricSDK24ComparisonOperationFenceC",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:12BiometricSDK24ComparisonOperationFenceC",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:12BiometricSDK26BoundComparisonObservationV",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:12BiometricSDK26BoundComparisonObservationV",
+      "target": "s:s8SendableP"
+    }
+  ],
+  "symbols": [
+    {
+      "declaration": "enum EmbeddingMath",
+      "id": "s:12BiometricSDK13EmbeddingMathO",
+      "kind": "swift.enum"
+    },
+    {
+      "declaration": "static func compare(_ left: UnitEmbedding, _ right: UnitEmbedding) throws -> CosineSimilarity",
+      "id": "s:12BiometricSDK13EmbeddingMathO7compareyAA16CosineSimilarityVAA04UnitC0V_AHtKFZ",
+      "kind": "swift.type.method"
+    },
+    {
+      "declaration": "static func normalize(_ raw: RawFeatureVector, in space: EmbeddingSpace) throws -> UnitEmbedding",
+      "id": "s:12BiometricSDK13EmbeddingMathO9normalize_2inAA04UnitC0VAA16RawFeatureVectorV_AA0C5SpaceVtKFZ",
+      "kind": "swift.type.method"
+    },
+    {
+      "declaration": "struct UnitEmbedding",
+      "id": "s:12BiometricSDK13UnitEmbeddingV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "let components: [Double]",
+      "id": "s:12BiometricSDK13UnitEmbeddingV10componentsSaySdGvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let rawFeatureNorm: Double",
+      "id": "s:12BiometricSDK13UnitEmbeddingV14rawFeatureNormSdvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let space: EmbeddingSpace",
+      "id": "s:12BiometricSDK13UnitEmbeddingV5spaceAA0D5SpaceVvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "struct ArtifactDigest",
+      "id": "s:12BiometricSDK14ArtifactDigestV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "init(hex: String) throws",
+      "id": "s:12BiometricSDK14ArtifactDigestV3hexACSS_tKcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "let hex: String",
+      "id": "s:12BiometricSDK14ArtifactDigestV3hexSSvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "struct EmbeddingSpace",
+      "id": "s:12BiometricSDK14EmbeddingSpaceV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "let dimensions: Int",
+      "id": "s:12BiometricSDK14EmbeddingSpaceV10dimensionsSivp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let minimumNorm: Double",
+      "id": "s:12BiometricSDK14EmbeddingSpaceV11minimumNormSdvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "init(artifactManifest: ArtifactDigest, domain: EmbeddingDomain, dimensions: Int, minimumNorm: Double) throws",
+      "id": "s:12BiometricSDK14EmbeddingSpaceV16artifactManifest6domain10dimensions11minimumNormAcA14ArtifactDigestV_AA0C6DomainOSiSdtKcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "let artifactManifest: ArtifactDigest",
+      "id": "s:12BiometricSDK14EmbeddingSpaceV16artifactManifestAA14ArtifactDigestVvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let domain: EmbeddingDomain",
+      "id": "s:12BiometricSDK14EmbeddingSpaceV6domainAA0C6DomainOvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "struct PortraitPixels",
+      "id": "s:12BiometricSDK14PortraitPixelsV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "static func fromFields(_ fields: [String : Any], bytes: [UInt8]) throws -> PortraitPixels",
+      "id": "s:12BiometricSDK14PortraitPixelsV10fromFields_5bytesACSDySSypG_Says5UInt8VGtKFZ",
+      "kind": "swift.type.method"
+    },
+    {
+      "declaration": "let orientation: Int",
+      "id": "s:12BiometricSDK14PortraitPixelsV11orientationSivp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let rowStrideBytes: Int",
+      "id": "s:12BiometricSDK14PortraitPixelsV14rowStrideBytesSivp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "var bytes: [UInt8] { get }",
+      "id": "s:12BiometricSDK14PortraitPixelsV5bytesSays5UInt8VGvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let width: Int",
+      "id": "s:12BiometricSDK14PortraitPixelsV5widthSivp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "struct Layout",
+      "id": "s:12BiometricSDK14PortraitPixelsV6LayoutV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "let byteLength: Int",
+      "id": "s:12BiometricSDK14PortraitPixelsV6LayoutV10byteLengthSivp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let orientation: Int",
+      "id": "s:12BiometricSDK14PortraitPixelsV6LayoutV11orientationSivp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let rowStrideBytes: Int",
+      "id": "s:12BiometricSDK14PortraitPixelsV6LayoutV14rowStrideBytesSivp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "init(width: Int, height: Int, format: String, rowStrideBytes: Int, byteLength: Int, orientation: Int)",
+      "id": "s:12BiometricSDK14PortraitPixelsV6LayoutV5width6height6format14rowStrideBytes10byteLength11orientationAESi_SiSSS3itcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "let width: Int",
+      "id": "s:12BiometricSDK14PortraitPixelsV6LayoutV5widthSivp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let format: String",
+      "id": "s:12BiometricSDK14PortraitPixelsV6LayoutV6formatSSvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let height: Int",
+      "id": "s:12BiometricSDK14PortraitPixelsV6LayoutV6heightSivp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let format: String",
+      "id": "s:12BiometricSDK14PortraitPixelsV6formatSSvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let height: Int",
+      "id": "s:12BiometricSDK14PortraitPixelsV6heightSivp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "init(layout: PortraitPixels.Layout, sha256: String, bytes: [UInt8]) throws",
+      "id": "s:12BiometricSDK14PortraitPixelsV6layout6sha2565bytesA2C6LayoutV_SSSays5UInt8VGtKcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "let sha256: String",
+      "id": "s:12BiometricSDK14PortraitPixelsV6sha256SSvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "enum EmbeddingDomain",
+      "id": "s:12BiometricSDK15EmbeddingDomainO",
+      "kind": "swift.enum"
+    },
+    {
+      "declaration": "case faceIdentity",
+      "id": "s:12BiometricSDK15EmbeddingDomainO12faceIdentityyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case documentRevision",
+      "id": "s:12BiometricSDK15EmbeddingDomainO16documentRevisionyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "init?(rawValue: String)",
+      "id": "s:12BiometricSDK15EmbeddingDomainO8rawValueACSgSS_tcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "struct PortraitBinding",
+      "id": "s:12BiometricSDK15PortraitBindingV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "static let fieldNames: Set<String>",
+      "id": "s:12BiometricSDK15PortraitBindingV10fieldNamesShySSGvpZ",
+      "kind": "swift.type.property"
+    },
+    {
+      "declaration": "static func fromFields(_ fields: [String : Any]) throws -> PortraitBinding",
+      "id": "s:12BiometricSDK15PortraitBindingV10fromFieldsyACSDySSypGKFZ",
+      "kind": "swift.type.method"
+    },
+    {
+      "declaration": "func requireMatches(_ completion: PortraitBinding) throws",
+      "id": "s:12BiometricSDK15PortraitBindingV14requireMatchesyyACKF",
+      "kind": "swift.method"
+    },
+    {
+      "declaration": "init(fields: [String : String]) throws",
+      "id": "s:12BiometricSDK15PortraitBindingV6fieldsACSDyS2SG_tKcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "let fields: [String : String]",
+      "id": "s:12BiometricSDK15PortraitBindingV6fieldsSDyS2SGvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "enum PortraitFailure",
+      "id": "s:12BiometricSDK15PortraitFailureO",
+      "kind": "swift.enum"
+    },
+    {
+      "declaration": "case integrityFailure",
+      "id": "s:12BiometricSDK15PortraitFailureO09integrityD0yA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case invalidPixels",
+      "id": "s:12BiometricSDK15PortraitFailureO13invalidPixelsyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case invalidSchema",
+      "id": "s:12BiometricSDK15PortraitFailureO13invalidSchemayA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case resourceLimit",
+      "id": "s:12BiometricSDK15PortraitFailureO13resourceLimityA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case bindingMismatch",
+      "id": "s:12BiometricSDK15PortraitFailureO15bindingMismatchyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case operationReused",
+      "id": "s:12BiometricSDK15PortraitFailureO15operationReusedyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case unsupportedFormat",
+      "id": "s:12BiometricSDK15PortraitFailureO17unsupportedFormatyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case operationUnavailable",
+      "id": "s:12BiometricSDK15PortraitFailureO20operationUnavailableyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "init?(rawValue: String)",
+      "id": "s:12BiometricSDK15PortraitFailureO8rawValueACSgSS_tcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "struct CosineSimilarity",
+      "id": "s:12BiometricSDK16CosineSimilarityV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "var angularDistanceRadians: Double { get }",
+      "id": "s:12BiometricSDK16CosineSimilarityV22angularDistanceRadiansSdvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let space: EmbeddingSpace",
+      "id": "s:12BiometricSDK16CosineSimilarityV5spaceAA14EmbeddingSpaceVvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let value: Double",
+      "id": "s:12BiometricSDK16CosineSimilarityV5valueSdvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "enum PrimitiveFailure",
+      "id": "s:12BiometricSDK16PrimitiveFailureO",
+      "kind": "swift.enum"
+    },
+    {
+      "declaration": "case invalidNorm",
+      "id": "s:12BiometricSDK16PrimitiveFailureO11invalidNormyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case invalidSpace",
+      "id": "s:12BiometricSDK16PrimitiveFailureO12invalidSpaceyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case invalidDigest",
+      "id": "s:12BiometricSDK16PrimitiveFailureO13invalidDigestyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case nonfiniteFeature",
+      "id": "s:12BiometricSDK16PrimitiveFailureO16nonfiniteFeatureyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case dimensionMismatch",
+      "id": "s:12BiometricSDK16PrimitiveFailureO17dimensionMismatchyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case incompatibleSpace",
+      "id": "s:12BiometricSDK16PrimitiveFailureO17incompatibleSpaceyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "init?(rawValue: String)",
+      "id": "s:12BiometricSDK16PrimitiveFailureO8rawValueACSgSS_tcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "struct RawFeatureVector",
+      "id": "s:12BiometricSDK16RawFeatureVectorV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "init(components: [Float])",
+      "id": "s:12BiometricSDK16RawFeatureVectorV10componentsACSaySfG_tcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "let components: [Float]",
+      "id": "s:12BiometricSDK16RawFeatureVectorV10componentsSaySfGvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "struct ComparisonRequest",
+      "id": "s:12BiometricSDK17ComparisonRequestV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "let probe: PortraitPixels",
+      "id": "s:12BiometricSDK17ComparisonRequestV5probeAA14PortraitPixelsVvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "init(binding: PortraitBinding, reference: PortraitPixels, probe: PortraitPixels) throws",
+      "id": "s:12BiometricSDK17ComparisonRequestV7binding9reference5probeAcA15PortraitBindingV_AA0H6PixelsVAJtKcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "let binding: PortraitBinding",
+      "id": "s:12BiometricSDK17ComparisonRequestV7bindingAA15PortraitBindingVvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let reference: PortraitPixels",
+      "id": "s:12BiometricSDK17ComparisonRequestV9referenceAA14PortraitPixelsVvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "enum FaceComparisonOutcome",
+      "id": "s:12BiometricSDK21FaceComparisonOutcomeO",
+      "kind": "swift.enum"
+    },
+    {
+      "declaration": "case unavailable",
+      "id": "s:12BiometricSDK21FaceComparisonOutcomeO11unavailableyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case manualReview",
+      "id": "s:12BiometricSDK21FaceComparisonOutcomeO12manualReviewyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case fail",
+      "id": "s:12BiometricSDK21FaceComparisonOutcomeO4failyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case pass",
+      "id": "s:12BiometricSDK21FaceComparisonOutcomeO4passyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "init?(rawValue: String)",
+      "id": "s:12BiometricSDK21FaceComparisonOutcomeO8rawValueACSgSS_tcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "final class ComparisonOperationFence",
+      "id": "s:12BiometricSDK24ComparisonOperationFenceC",
+      "kind": "swift.class"
+    },
+    {
+      "declaration": "func begin(_ request: ComparisonRequest) throws",
+      "id": "s:12BiometricSDK24ComparisonOperationFenceC5beginyyAA0C7RequestVKF",
+      "kind": "swift.method"
+    },
+    {
+      "declaration": "func cancel(operationID: String, onCancel: () throws -> Void) throws",
+      "id": "s:12BiometricSDK24ComparisonOperationFenceC6cancel11operationID8onCancelySS_yyKXEtKF",
+      "kind": "swift.method"
+    },
+    {
+      "declaration": "func complete(binding: PortraitBinding) throws -> ComparisonRequest",
+      "id": "s:12BiometricSDK24ComparisonOperationFenceC8complete7bindingAA0C7RequestVAA15PortraitBindingV_tKF",
+      "kind": "swift.method"
+    },
+    {
+      "declaration": "init()",
+      "id": "s:12BiometricSDK24ComparisonOperationFenceCACycfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "struct BoundComparisonObservation",
+      "id": "s:12BiometricSDK26BoundComparisonObservationV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "let similarity: CosineSimilarity",
+      "id": "s:12BiometricSDK26BoundComparisonObservationV10similarityAA16CosineSimilarityVvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "init(binding: PortraitBinding, similarity: CosineSimilarity) throws",
+      "id": "s:12BiometricSDK26BoundComparisonObservationV7binding10similarityAcA15PortraitBindingV_AA16CosineSimilarityVtKcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "let binding: PortraitBinding",
+      "id": "s:12BiometricSDK26BoundComparisonObservationV7bindingAA15PortraitBindingVvp",
+      "kind": "swift.property"
+    }
+  ]
+}

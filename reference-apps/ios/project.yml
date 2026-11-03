@@ -1,0 +1,155 @@
+name: KenshikiReference
+options:
+  bundleIdPrefix: com.kenshiki
+  deploymentTarget:
+    iOS: "18.0"
+packages:
+  SQLCipher:
+    url: https://github.com/sqlcipher/SQLCipher.swift.git
+    revision: 39f212458aeb88e33bdac2200a793a3f0d55d32b
+  KenshikiFaceQuality:
+    path: ../../biometric/quality-apple
+  KenshikiMotion:
+    path: ../../foundation/motion
+  KenshikiFoundation:
+    path: ../..
+  KenshikiPassport:
+    path: ../../passport
+  KenshikiBiometric:
+    path: ../../biometric
+  KenshikiPresentation:
+    path: ../../presentation
+  KenshikiDocument:
+    path: ../../document
+settings:
+  base:
+    SWIFT_VERSION: "6.0"
+    DEVELOPMENT_TEAM: ""
+    SWIFT_TREAT_WARNINGS_AS_ERRORS: YES
+    GCC_TREAT_WARNINGS_AS_ERRORS: YES
+targets:
+  KenshikiReference:
+    type: application
+    platform: iOS
+    info:
+      path: KenshikiReference-Info.plist
+      properties:
+        PulsePassportBaseURL: "https://id.kenshikilabs.com"
+        PulsePassportAppAttestEnvironment: "production"
+        PulsePassportApplicationIdentifier: "com.kenshiki.reference"
+        KenshikiKeychainAccessGroup: "$(AppIdentifierPrefix)$(PRODUCT_BUNDLE_IDENTIFIER)"
+        com.apple.developer.nfc.readersession.iso7816.select-identifiers:
+          - A0000002471001
+    preBuildScripts:
+      - name: Provision public passport trust
+        script: 'python3 "$SRCROOT/../../scripts/provision_reference_trust.py" --output "$TARGET_BUILD_DIR/$UNLOCALIZED_RESOURCES_FOLDER_PATH"'
+        basedOnDependencyAnalysis: false
+      - name: Provision pinned face model
+        script: 'python3 "$SRCROOT/../../scripts/provision_reference_model.py" --output "$TARGET_BUILD_DIR/$UNLOCALIZED_RESOURCES_FOLDER_PATH"'
+        basedOnDependencyAnalysis: false
+      - name: Provision pinned face quality profile
+        script: python3 "$SRCROOT/../../scripts/provision_reference_quality.py" --output "$TARGET_BUILD_DIR/$UNLOCALIZED_RESOURCES_FOLDER_PATH"
+        basedOnDependencyAnalysis: false
+    sources:
+      - Sources
+      - path: ../../design-system/generated/ios/KenshikiReference.icon
+        buildPhase: resources
+      - path: ../../design-system/generated/swift/KenshikiDesign.swift
+      - path: ../../design-system/generated/swift/en.lproj
+        buildPhase: resources
+      - path: ../../design-system/generated/swift/en-XA.lproj
+        buildPhase: resources
+      - path: ../../design-system/generated/swift/ar-XB.lproj
+        buildPhase: resources
+    dependencies:
+      - package: KenshikiDocument
+        product: DocumentSDK
+      - package: KenshikiDocument
+        product: DocumentCaptureApple
+      - package: KenshikiDocument
+        product: DocumentCapturePreview
+      - package: KenshikiMotion
+        product: KenshikiMotion
+      - package: KenshikiFoundation
+        product: CaptureEvidenceCustody
+      - package: KenshikiFoundation
+        product: KenshikiEvidenceManifest
+      - package: SQLCipher
+        product: SQLCipher
+      - package: KenshikiFoundation
+        product: KenshikiProtectedStorage
+      - package: KenshikiFoundation
+        product: KenshikiOperationBinding
+      - package: KenshikiFoundation
+        product: KenshikiPulsePassport
+      - package: KenshikiPassport
+        product: PassportSDK
+      - package: KenshikiPassport
+        product: PassportNFC
+      - package: KenshikiPassport
+        product: PassportMRZCapture
+      - package: KenshikiPassport
+        product: PassportMRZPreview
+      - package: KenshikiPresentation
+      - package: KenshikiBiometric
+        product: BiometricCapture
+      - package: KenshikiBiometric
+        product: BiometricCapturePreview
+      - package: KenshikiBiometric
+        product: BiometricInference
+      - package: KenshikiFaceQuality
+        product: BiometricQuality
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.kenshiki.reference
+        ASSETCATALOG_COMPILER_APPICON_NAME: KenshikiReference
+        GENERATE_INFOPLIST_FILE: YES
+        CODE_SIGN_ENTITLEMENTS: KenshikiReference.entitlements
+        INFOPLIST_KEY_NFCReaderUsageDescription: "$(PRODUCT_NAME)"
+        INFOPLIST_KEY_NSCameraUsageDescription: "$(PRODUCT_NAME)"
+        INFOPLIST_KEY_NSMotionUsageDescription: "$(PRODUCT_NAME)"
+        INFOPLIST_KEY_NSLocationWhenInUseUsageDescription: "$(PRODUCT_NAME)"
+        INFOPLIST_KEY_UILaunchScreen_Generation: YES
+        INFOPLIST_KEY_UIApplicationSceneManifest_Generation: NO
+        INFOPLIST_KEY_CFBundleDisplayName: "$(PRODUCT_NAME)"
+        TARGETED_DEVICE_FAMILY: "1,2"
+        INFOPLIST_KEY_UISupportedInterfaceOrientations: "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight"
+        "INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad": "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight"
+        SWIFT_STRICT_CONCURRENCY: complete
+  KenshikiReferenceControllerTests:
+    type: bundle.unit-test
+    platform: iOS
+    sources: ControllerTests
+    dependencies:
+      - target: KenshikiReference
+      - package: KenshikiFoundation
+        product: CaptureEvidenceCustody
+      - package: KenshikiFoundation
+        product: KenshikiEvidenceManifest
+      - package: KenshikiFoundation
+        product: KenshikiProtectedStorage
+      - package: SQLCipher
+        product: SQLCipher
+    settings:
+      base:
+        GENERATE_INFOPLIST_FILE: YES
+        TEST_HOST: "$(BUILT_PRODUCTS_DIR)/KenshikiReference.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KenshikiReference"
+        BUNDLE_LOADER: "$(TEST_HOST)"
+  KenshikiReferenceUITests:
+    type: bundle.ui-testing
+    platform: iOS
+    sources: Tests
+    dependencies:
+      - target: KenshikiReference
+    settings:
+      base:
+        GENERATE_INFOPLIST_FILE: YES
+schemes:
+  KenshikiReference:
+    build:
+      targets:
+        KenshikiReference: all
+    test:
+      targets:
+        - KenshikiReferenceUITests
+        - KenshikiReferenceControllerTests

@@ -1,0 +1,15 @@
+{
+  "name": "kenshiki-sdks-quality",
+  "private": true,
+  "scripts": {
+    "bootstrap": "bash scripts/python.sh scripts/bootstrap.py",
+    "check": "bash scripts/python.sh scripts/check.py --platform guards",
+    "check:all": "bash scripts/python.sh scripts/check.py --platform all",
+    "test:guards": "bash scripts/python.sh -m unittest discover -s governance/tests -p \"test_*.py\""
+  },
+  "devDependencies": {
+    "typescript": "5.9.3",
+    "yaml": "2.9.0"
+  },
+  "version": "0.0.0"
+}

@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "scope": "Optional retained-data replay harness. Not part of default synthetic or physical qualification.",
+  "files": {
+    "assurance/Package.resolved": "8ba9a0e71e2d789726737fc4111e50c37d6b62b46bd6bcb3eeec903eeb40c370",
+    "assurance/Package.swift": "cca6035f784d9d42d536b7dbb51c5bedf324561e01974be89b7bbb80e7b0f442",
+    "assurance/README.md": "8c6e5be58f0b0691109ae232bef61d9b1516c0abf10cbb0c07e49dbd92b61ac6",
+    "assurance/Tests/RetainedReplayTests/DocumentGeometryPixelReplayTests.swift": "55bc56664d9a2a2f66ba39066e86c325f2e323ae74bee4a21730e4aa8c1112a9",
+    "assurance/Tests/RetainedReplayTests/DocumentGeometryReplayManifest.swift": "a03efff6609410078de03c2d888329e8f28f53bdafddfdc05bb039a71c008797",
+    "assurance/Tests/RetainedReplayTests/ID1RetainedReplayTests.swift": "f33ef5f98c173d68f61001d926cbe6b74f3fbe320db9bd11d69a547770c430b5",
+    "assurance/Tests/RetainedReplayTests/RecordingSink.swift": "c43d00b51e6bc3d44c95add4204c947f6e988511311d03e6e308dc08e3743dbe"
+  }
+}

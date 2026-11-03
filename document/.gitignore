@@ -1,0 +1,12 @@
+.DS_Store
+.build/
+.swiftpm/
+.gradle/
+**/build/
+local.properties
+.idea/
+*.xcuserstate
+DerivedData/
+node_modules/
+__pycache__/
+*.pyc

@@ -1,0 +1,3281 @@
+{
+  "version": "4.12.0",
+  "archiveURL": "https://github.com/ossappscollective/OSS-DocumentScanner/releases/download/dev_resources/ios.zip",
+  "archiveSHA256": "980a041077a8fcb44ef98e0f3a9710fe029e4458ebdbedb0d3d3b598129a651f",
+  "normalization": "install_opencv.sh mobile framework root layout; static binary bytes unchanged",
+  "files": {
+    ".DS_Store": {
+      "sha256": "b2a71f8da887aa868f0fd3a5fa09820ca2b54a1dfa223216faf046f85bc39945"
+    },
+    "Info.plist": {
+      "sha256": "287637c385b37bb58012b7c9e838951d65d54089587d088ab3cfcab53eef6c4b"
+    },
+    "ios-arm64/.DS_Store": {
+      "sha256": "09f3a3bfff1411046c51b51ecd8f4189875c63c02a7ce74e79b75135ef5d5341"
+    },
+    "ios-arm64/opencv2.framework/Headers/core/affine.hpp": {
+      "sha256": "f67b0e1a0d51ed1a0cb0f0010568a3c3649aa99ab51a0183e092858be6b00da4"
+    },
+    "ios-arm64/opencv2.framework/Headers/core/async.hpp": {
+      "sha256": "4ebd7dec356441c35e53447f548cb4c1074d93109a92716ab570d40469992313"
+    },
+    "ios-arm64/opencv2.framework/Headers/core/base.hpp": {
+      "sha256": "db611eaad4e4cef0247296f47cb32add35194d338f7fb3d3364c200cccb78b9d"
+    },
+    "ios-arm64/opencv2.framework/Headers/core/bindings_utils.hpp": {
+      "sha256": "ecfed743e5c77e8c8062f981eeb7192af5329f92dcd8aecc91c648ec3b2e96f7"
+    },
+    "ios-arm64/opencv2.framework/Headers/core/bufferpool.hpp": {
+      "sha256": "65dd904d4f15850ec23ad7531a8f431fd023c98c429adc59e00ae346c8976667"
+    },
+    "ios-arm64/opencv2.framework/Headers/core/check.hpp": {
+      "sha256": "fb7cf749c4695f02cb311b198efa9823eac1f1e98831b776fe8ab5f976bea4d1"
+    },
+    "ios-arm64/opencv2.framework/Headers/core/core.hpp": {
+      "sha256": "21a4ea4d80847984ef8eafe4746ecc18d5bcafd10564ce4c24e2416043d85798"
+    },
+    "ios-arm64/opencv2.framework/Headers/core/core_c.h": {
+      "sha256": "7c5d2883897df0d8f86a322078c32132cf890a34f45fcdb9460f1bde84e97466"
+    },
+    "ios-arm64/opencv2.framework/Headers/core/cv_cpu_dispatch.h": {
+      "sha256": "9bc32aba988a5412ff6590984bd5758a8613fe51891358d18be9f4e04ca30055"
+    },
+    "ios-arm64/opencv2.framework/Headers/core/cv_cpu_helper.h": {
+      "sha256": "3dafd54f9adbdb9bd39b7ed81f4ea25eeb81117356e974fede4648ded4ad16a9"
+    },
+    "ios-arm64/opencv2.framework/Headers/core/cvdef.h": {
+      "sha256": "8ca1520e205c3c26670a0e510a2371fe196c11687b92886e14962b423af341c9"
+    },
+    "ios-arm64/opencv2.framework/Headers/core/cvstd.hpp": {
+      "sha256": "96a1ddefb0539061389be0704b554e5ab30f20132944485f4c70644ceeb4a0d2"
+    },
+    "ios-arm64/opencv2.framework/Headers/core/cvstd.inl.hpp": {
+      "sha256": "3fb7d0328e9da0dd788528501dc7bbdceb5cfef83b49189952900e4652281a32"
+    },
+    "ios-arm64/opencv2.framework/Headers/core/cvstd_wrapper.hpp": {
+      "sha256": "babed4fc9c3d804502aa053c5add427600600f080984985812d8cce716b35ffa"
+    },
+    "ios-arm64/opencv2.framework/Headers/core/detail/async_promise.hpp": {
+      "sha256": "84920f5944b2561b0f6da3784a5fd281aba39e8544651a7ac8a889e3509982f4"
+    },
+    "ios-arm64/opencv2.framework/Headers/core/detail/dispatch_helper.impl.hpp": {
+      "sha256": "a6c812132580f4eaca6f35f2f19b32d40b24ef9ab0b75b51291c551c6b4224d9"
+    },
+    "ios-arm64/opencv2.framework/Headers/core/detail/exception_ptr.hpp": {
+      "sha256": "30ae6e20abd03cf3621bfb392e7778aff8a90635bd4679e9f2e706c8c99b0986"
+    },
+    "ios-arm64/opencv2.framework/Headers/core/dualquaternion.hpp": {
+      "sha256": "ed725cacbb20ca9b17c72256504ec74d270bcf44559952508392d7b69764f1ad"
+    },
+    "ios-arm64/opencv2.framework/Headers/core/dualquaternion.inl.hpp": {
+      "sha256": "1b6b478123cd15b7f24f2f3399d5c9199f7af979d9b57f0b0265a02cd4279484"
+    },
+    "ios-arm64/opencv2.framework/Headers/core/eigen.hpp": {
+      "sha256": "fb98669a1bf5b6ab3c31ed3479663d0608131bc9af743f7b7e868640b3428485"
+    },
+    "ios-arm64/opencv2.framework/Headers/core/fast_math.hpp": {
+      "sha256": "81719ea26aef77deda817c751a90b7c61049821aaf67e915654b2305caaa942d"
+    },
+    "ios-arm64/opencv2.framework/Headers/core/hal/hal.hpp": {
+      "sha256": "0f8eadf8fd6899858ab46db329ba94770160ecf9cd8ac897dece8c6884c8d521"
+    },
+    "ios-arm64/opencv2.framework/Headers/core/hal/interface.h": {
+      "sha256": "bd11814cfd2c331eaa93b42d80a0911a4916f6afa99907f332fe8f641098eb43"
+    },
+    "ios-arm64/opencv2.framework/Headers/core/hal/intrin.hpp": {
+      "sha256": "eeb3be550b8d7f6492c762bcefeb2e8fe5c9c0628ccb09f2ded7f1b2f34d6aa3"
+    },
+    "ios-arm64/opencv2.framework/Headers/core/hal/intrin_avx.hpp": {
+      "sha256": "a94f0297f74c4081a341d27eace3e000f6720d2419df890ffbeeccf2174d37aa"
+    },
+    "ios-arm64/opencv2.framework/Headers/core/hal/intrin_avx512.hpp": {
+      "sha256": "b7fd72f1e96a00370e1096a1d61f75f6bf0355d9f2b1fff2bca64affac7aa23e"
+    },
+    "ios-arm64/opencv2.framework/Headers/core/hal/intrin_cpp.hpp": {
+      "sha256": "c0f491dd72e8bd5ae0cd31d650d283593cd74afa5ca113ba7c5bae716392d2c9"
+    },
+    "ios-arm64/opencv2.framework/Headers/core/hal/intrin_forward.hpp": {
+      "sha256": "ad93e16fdad234aab37ccc96bd37768f213c6ee2fedb3c6309e1057307f621f2"
+    },
+    "ios-arm64/opencv2.framework/Headers/core/hal/intrin_lasx.hpp": {
+      "sha256": "4d731ad3c689efea2905db049636adb3d48d5fdf3436cd1b61a3bd283ddaa023"
+    },
+    "ios-arm64/opencv2.framework/Headers/core/hal/intrin_legacy_ops.h": {
+      "sha256": "9162fd638f6523412d095dc69bc67b5d5eb0b945c185003e67b0938a79c90686"
+    },
+    "ios-arm64/opencv2.framework/Headers/core/hal/intrin_lsx.hpp": {
+      "sha256": "aa31563f0a5033495e27a5bab0cde7deda49bc2c039aeeabb4ae9ed1f68b172b"
+    },
+    "ios-arm64/opencv2.framework/Headers/core/hal/intrin_math.hpp": {
+      "sha256": "8d6ed7f222d15da0d73080fe407d7e3f9809b3fc5c93222cbe320f9a9f794e5c"
+    },
+    "ios-arm64/opencv2.framework/Headers/core/hal/intrin_msa.hpp": {
+      "sha256": "80dfbe94520016a6d10be1444c612cdb889d606ef6f016f2a693f215be289b09"
+    },
+    "ios-arm64/opencv2.framework/Headers/core/hal/intrin_neon.hpp": {
+      "sha256": "fd562189af217d1d0529fdfcf18c80c849895aa7438dc8dbfbf0c027bf939f23"
+    },
+    "ios-arm64/opencv2.framework/Headers/core/hal/intrin_rvv071.hpp": {
+      "sha256": "2ddc9c4978233a8fa09d7d990349723cf6ad627cdd967c27ad6765b4ede6528b"
+    },
+    "ios-arm64/opencv2.framework/Headers/core/hal/intrin_rvv_scalable.hpp": {
+      "sha256": "60e6040f2fcb239699516073bf688d2fab522806d98c0bd364e4fe9f579ac2df"
+    },
+    "ios-arm64/opencv2.framework/Headers/core/hal/intrin_sse.hpp": {
+      "sha256": "9ea43239afc6dd6915c37715074d8d6351a055b3890aa71fb644864dcb9ececd"
+    },
+    "ios-arm64/opencv2.framework/Headers/core/hal/intrin_sse_em.hpp": {
+      "sha256": "9a8369d287ff500756fae5577f528c360f011e04e5a4a44f5af1d697b1d1442a"
+    },
+    "ios-arm64/opencv2.framework/Headers/core/hal/intrin_vsx.hpp": {
+      "sha256": "aaec43fe948c55b3b31d730358d4b266f90aede3c262cff794c293a7370c13fe"
+    },
+    "ios-arm64/opencv2.framework/Headers/core/hal/intrin_wasm.hpp": {
+      "sha256": "4c63d4c9717d6c75261415c197a7b0912dd848eefa8d13fc87ad306d60ce9656"
+    },
+    "ios-arm64/opencv2.framework/Headers/core/hal/msa_macros.h": {
+      "sha256": "bf5842830c95304950487c93f9f8ec5ac29ad659a316fb2ea80407229ee2a6e0"
+    },
+    "ios-arm64/opencv2.framework/Headers/core/hal/simd_utils.impl.hpp": {
+      "sha256": "a7416b4d5fc41cd2df66f4fdb36a0a85374d79de3dc5d8fb38ce40be049ff772"
+    },
+    "ios-arm64/opencv2.framework/Headers/core/mat.hpp": {
+      "sha256": "1cd4e67e4b4bf466307c47ad4f8166faa8175ac4f812e00167d253f04dc845f3"
+    },
+    "ios-arm64/opencv2.framework/Headers/core/mat.inl.hpp": {
+      "sha256": "4ff08f17c7d7a85411d5d694a405190ed35d71a15dc02af9d161cdac9771d24b"
+    },
+    "ios-arm64/opencv2.framework/Headers/core/matx.hpp": {
+      "sha256": "086ceebe87ed54c98155bfff778f02305697dc7cd9d10449f2f21a482023872b"
+    },
+    "ios-arm64/opencv2.framework/Headers/core/matx.inl.hpp": {
+      "sha256": "010153afc595d6e58ba24949c85af8a6a2fc038d52ec054a35ae9eed8a97980d"
+    },
+    "ios-arm64/opencv2.framework/Headers/core/neon_utils.hpp": {
+      "sha256": "ac4f537960e50684671ca6a4b95c1eb6db5ba05e8d9f42f66b930ac8702ae7f9"
+    },
+    "ios-arm64/opencv2.framework/Headers/core/operations.hpp": {
+      "sha256": "3900e92391bf28dac5b7118a1daa5839bfaf7c9cf60526b91b66e6c128b08205"
+    },
+    "ios-arm64/opencv2.framework/Headers/core/optim.hpp": {
+      "sha256": "acfc26fa3409d2c7dc897fc816a6eab67554414a514a1a062de68a68cb351e80"
+    },
+    "ios-arm64/opencv2.framework/Headers/core/parallel/backend/parallel_for.openmp.hpp": {
+      "sha256": "903d8ba56eae3158e816522c5a816e9e9811e41c62e812a34bbf1dbfde81132e"
+    },
+    "ios-arm64/opencv2.framework/Headers/core/parallel/backend/parallel_for.tbb.hpp": {
+      "sha256": "af6dd3c7162df172e8462b8c697f2fcddf2af1777f98a993ab3be8b33fb58b7e"
+    },
+    "ios-arm64/opencv2.framework/Headers/core/parallel/parallel_backend.hpp": {
+      "sha256": "79c71d6191b0931cb1db9931ca4ecaa156cfec83bc6e4e71b8407722ed3d7194"
+    },
+    "ios-arm64/opencv2.framework/Headers/core/persistence.hpp": {
+      "sha256": "992e7d7575fd671302b2beb9600a99e380485797aa6448bdbaa81d8c66b524b8"
+    },
+    "ios-arm64/opencv2.framework/Headers/core/quaternion.hpp": {
+      "sha256": "6ff8d3b19489c4b69345806b65e82770829ecca8604d96b421a27f3a30ca05d1"
+    },
+    "ios-arm64/opencv2.framework/Headers/core/quaternion.inl.hpp": {
+      "sha256": "dff743f883e47035d84e52058cb9bca9fbf5d615e35bf3923097164263d6a164"
+    },
+    "ios-arm64/opencv2.framework/Headers/core/saturate.hpp": {
+      "sha256": "bf418a3f44d575b17c18af968dbe3e2c8bd0663c22f8dcb53c4b0f77b5db14ba"
+    },
+    "ios-arm64/opencv2.framework/Headers/core/simd_intrinsics.hpp": {
+      "sha256": "ac81c6962c8b5679dfb63fe06487c27ae197946b66b1df90ad46e410a11a5a20"
+    },
+    "ios-arm64/opencv2.framework/Headers/core/softfloat.hpp": {
+      "sha256": "43c01ea3c1b3f99352437dddaca1b9b862e9d9b734c7a901f63abad5b28e3412"
+    },
+    "ios-arm64/opencv2.framework/Headers/core/sse_utils.hpp": {
+      "sha256": "2d9f170fdecb359c434387e6379fe5f16f9ffc77ef8dc4ba111ca517c3359023"
+    },
+    "ios-arm64/opencv2.framework/Headers/core/traits.hpp": {
+      "sha256": "6c45b2ee5137464ab4080063e38b68a6c5ac8b415e04aee8cb5c634b5dcc9861"
+    },
+    "ios-arm64/opencv2.framework/Headers/core/types.hpp": {
+      "sha256": "19d8ae6170f3b6f38f545768a24c922a50774c23eeebc11e39f7c6a1f5726f08"
+    },
+    "ios-arm64/opencv2.framework/Headers/core/types_c.h": {
+      "sha256": "0bab108b55e64c5f7b6a1faa3d8eb655591321efd7b30dc0a663201531f48900"
+    },
+    "ios-arm64/opencv2.framework/Headers/core/utility.hpp": {
+      "sha256": "e5b9e25e349f121c3d3f2347c48afef5d18a8c7c4124acee833c0e04b9c270b0"
+    },
+    "ios-arm64/opencv2.framework/Headers/core/utils/allocator_stats.hpp": {
+      "sha256": "260d7dff55a04646ae7f78bfe7af249fe2bbe368add0c934cad108703dbb56c1"
+    },
+    "ios-arm64/opencv2.framework/Headers/core/utils/allocator_stats.impl.hpp": {
+      "sha256": "62b1f1d878926e7ce8fa323a75a5e8cdb184fd0c6261890963fd82dc9c26c874"
+    },
+    "ios-arm64/opencv2.framework/Headers/core/utils/filesystem.hpp": {
+      "sha256": "584606928e15cdfa0846f97a4f1922860b6f193e0bc3e9f15bd58796edb10b86"
+    },
+    "ios-arm64/opencv2.framework/Headers/core/utils/fp_control_utils.hpp": {
+      "sha256": "2565900dff6e97772c2cb1434b8d136df85446e4596a708d73ae14f3cae9a8d8"
+    },
+    "ios-arm64/opencv2.framework/Headers/core/utils/instrumentation.hpp": {
+      "sha256": "dcb6a1ae866d143f400f844a4761b52f64429342a7511d1f6402b87105511e9d"
+    },
+    "ios-arm64/opencv2.framework/Headers/core/utils/logger.defines.hpp": {
+      "sha256": "03bc3fd53608846ee3ad1b1feeeb97ac68e9758f4ceb5827ecca87c58204304c"
+    },
+    "ios-arm64/opencv2.framework/Headers/core/utils/logger.hpp": {
+      "sha256": "139133ff707a0fb31bb201dfa34a1630d14ac02176272b241e2d1b6a1379b470"
+    },
+    "ios-arm64/opencv2.framework/Headers/core/utils/logtag.hpp": {
+      "sha256": "1ab5f6f986e02af6aec74d7881ce0676dd82b215c4a5b33087f7e8010a1808b5"
+    },
+    "ios-arm64/opencv2.framework/Headers/core/utils/tls.hpp": {
+      "sha256": "3b3261c3900c2d1ab82496b6722979996cb899f3110492d7177651790b6f9aef"
+    },
+    "ios-arm64/opencv2.framework/Headers/core/utils/trace.hpp": {
+      "sha256": "0f0d8b3b0c68c871d026a95c549110e4438f8b349c42864ac7f49a9b5fe72066"
+    },
+    "ios-arm64/opencv2.framework/Headers/core/version.hpp": {
+      "sha256": "aa6df48dc2a1807bf2a1decb21d8917f18632ef4c0f6f87e3a31a62f7ebf7555"
+    },
+    "ios-arm64/opencv2.framework/Headers/core/vsx_utils.hpp": {
+      "sha256": "4c0a89863f2147258a09ed9e4f295aff35bef9e9677e8bb2f73af23cca83885d"
+    },
+    "ios-arm64/opencv2.framework/Headers/core.hpp": {
+      "sha256": "7ed046d89c1287c5c687e92b36be8dd42720822634e50d0504ee1a4efc1424fd"
+    },
+    "ios-arm64/opencv2.framework/Headers/cvconfig.h": {
+      "sha256": "754c031c11644a993792b8b26dad561ce6073b0a3fb63ca56624f13382dd922a"
+    },
+    "ios-arm64/opencv2.framework/Headers/dnn/dnn.hpp": {
+      "sha256": "32aed1c0b211e1923ee325decd516eeb4435db6f8ce6a37af64186f364ca9bd1"
+    },
+    "ios-arm64/opencv2.framework/Headers/dnn.hpp": {
+      "sha256": "c6df8ef0fc5e8bd2bfcebb52410d8e0989d3013fb75d0502c3d2ed9436cadca2"
+    },
+    "ios-arm64/opencv2.framework/Headers/features2d/features2d.hpp": {
+      "sha256": "7a8c4b882ff82ee8d8aa892dccb13e26a0a091a18eadf17c64951490ee302689"
+    },
+    "ios-arm64/opencv2.framework/Headers/features2d/hal/interface.h": {
+      "sha256": "4fe9c4fa48d06743b83af7f3b7cc4c66da1fa7d6c94a927381827e72454c77d3"
+    },
+    "ios-arm64/opencv2.framework/Headers/features2d.hpp": {
+      "sha256": "fe724c64b37dae282ae38abae1accf9697146231ef76170287454ecbb0e9e69c"
+    },
+    "ios-arm64/opencv2.framework/Headers/highgui/highgui.hpp": {
+      "sha256": "2d167454cf33c9605b3b94e25294d3d78fbd1f046d5998b77f89c9e849e4cd1e"
+    },
+    "ios-arm64/opencv2.framework/Headers/highgui.hpp": {
+      "sha256": "be45cb0518457f06ab188712c7d6cb8fd53297581940ac47d1b5974e652e300a"
+    },
+    "ios-arm64/opencv2.framework/Headers/imgproc/bindings.hpp": {
+      "sha256": "f65b79fb4d9e7abcd8aa9bb8bcc2a3410c42dae8f729b8679a71bb85c7b85ee0"
+    },
+    "ios-arm64/opencv2.framework/Headers/imgproc/detail/gcgraph.hpp": {
+      "sha256": "e9e67386e93dd84a428af70e31313a0240a4df982f6c184d50180d9d6c2ea2f9"
+    },
+    "ios-arm64/opencv2.framework/Headers/imgproc/detail/legacy.hpp": {
+      "sha256": "625ce2e2c4abca32c44815e8ea6ea0d19c7d6f7db2cd142bd7e19b3770d953c4"
+    },
+    "ios-arm64/opencv2.framework/Headers/imgproc/hal/hal.hpp": {
+      "sha256": "efecd002537f5d66489e05401dadca222785c8bd4c69d7d70e1e131fd69a0097"
+    },
+    "ios-arm64/opencv2.framework/Headers/imgproc/hal/interface.h": {
+      "sha256": "27dd95facd92c6ca8e6fe4b981c51dbdb22b9dafba133cf2be0f5a03f5d8152e"
+    },
+    "ios-arm64/opencv2.framework/Headers/imgproc/imgproc.hpp": {
+      "sha256": "f519aaf5d2676014d46f0f29719baaa98c14c84bcf2311c10325e210a4103e70"
+    },
+    "ios-arm64/opencv2.framework/Headers/imgproc/imgproc_c.h": {
+      "sha256": "c0b4bd7f7769c966dbfada1d3ae65f8ce214fce1038339245a174ac40140ca77"
+    },
+    "ios-arm64/opencv2.framework/Headers/imgproc/segmentation.hpp": {
+      "sha256": "1f27474710e792c7ff1f1a63bac86876f53ceb0f648d32eb30b99e67d3dd5fdf"
+    },
+    "ios-arm64/opencv2.framework/Headers/imgproc/types_c.h": {
+      "sha256": "c844682f2f7d8dcbce7acdac069b41203dd8a4309946b3d23dbe22663d74a012"
+    },
+    "ios-arm64/opencv2.framework/Headers/imgproc.hpp": {
+      "sha256": "5ed21f51cd0086561edc1b3d8a16bd95b05b3f90e48664a4b5a379e0287554f2"
+    },
+    "ios-arm64/opencv2.framework/Headers/opencv.hpp": {
+      "sha256": "37df4ccc15f8a6ed06e2099910c63e486841ddbd5bc2d303405bc34f8fd44b66"
+    },
+    "ios-arm64/opencv2.framework/Headers/opencv_modules.hpp": {
+      "sha256": "85dd18fd030cbb21b43631cde2559efec6dbb3c67065caea48ff16769b9c9f1a"
+    },
+    "ios-arm64/opencv2.framework/Headers/photo/legacy/constants_c.h": {
+      "sha256": "dd01c6afe89743ebfd863d7b8c17b80c7fa5c9f676ea69e372836cc26f0c0403"
+    },
+    "ios-arm64/opencv2.framework/Headers/photo/photo.hpp": {
+      "sha256": "18b6aed6db6c14d4295e89f7c9bb8931c44320d97195921fff3c16ea4174d67f"
+    },
+    "ios-arm64/opencv2.framework/Headers/photo.hpp": {
+      "sha256": "065317df350d13ec1eddb3e153a2836b2ac0d554eb5ff5a564f2224e0d26c945"
+    },
+    "ios-arm64/opencv2.framework/Headers/video/background_segm.hpp": {
+      "sha256": "d7e52545ca5f968b1e4711054b50e32af92557d3aca8876e806482443c104a16"
+    },
+    "ios-arm64/opencv2.framework/Headers/video/detail/tracking.detail.hpp": {
+      "sha256": "81f3eea460ec6c87e851435c0fedf38b4fe6a46f6982531cdac916e078255246"
+    },
+    "ios-arm64/opencv2.framework/Headers/video/legacy/constants_c.h": {
+      "sha256": "5c523ca5b04e4bb98a1ef77c87ae0ca87b6a4f3142f28737ef50115abb326299"
+    },
+    "ios-arm64/opencv2.framework/Headers/video/tracking.hpp": {
+      "sha256": "eec77538e88bd3bc5d7e6b9179a76d8886eac6f6bcd96fee2fed184a8855fe82"
+    },
+    "ios-arm64/opencv2.framework/Headers/video/video.hpp": {
+      "sha256": "67e31defa256825bb977d4126d7b00f53c90cb49638b8a9e43ec121568167e36"
+    },
+    "ios-arm64/opencv2.framework/Headers/video.hpp": {
+      "sha256": "5c1d80d5edbb3c681d4c17e01d34c541fa341f0a270ccd427e59601c5a4ed625"
+    },
+    "ios-arm64/opencv2.framework/Headers/world.hpp": {
+      "sha256": "bd82d87fdd7cfc4bdcfa62e9941d5ed62c11ecd85ada486070cbc4299715a7ff"
+    },
+    "ios-arm64/opencv2.framework/Info.plist": {
+      "sha256": "3e1d5d522bf62949c5a5c5c80d6dd193ab8ed8d9f058741b0d1083027bc25836"
+    },
+    "ios-arm64/opencv2.framework/opencv2": {
+      "sha256": "ad903276f84dcadea9baf1f2174f2cac062c1455d693ea7a74d23194ddad2c18"
+    },
+    "ios-arm64_x86_64-maccatalyst/opencv2.framework/Headers": {
+      "symlink": "Versions/Current/Headers"
+    },
+    "ios-arm64_x86_64-maccatalyst/opencv2.framework/Resources": {
+      "symlink": "Versions/Current/Resources"
+    },
+    "ios-arm64_x86_64-maccatalyst/opencv2.framework/Versions/A/Headers/core/affine.hpp": {
+      "sha256": "f67b0e1a0d51ed1a0cb0f0010568a3c3649aa99ab51a0183e092858be6b00da4"
+    },
+    "ios-arm64_x86_64-maccatalyst/opencv2.framework/Versions/A/Headers/core/async.hpp": {
+      "sha256": "4ebd7dec356441c35e53447f548cb4c1074d93109a92716ab570d40469992313"
+    },
+    "ios-arm64_x86_64-maccatalyst/opencv2.framework/Versions/A/Headers/core/base.hpp": {
+      "sha256": "db611eaad4e4cef0247296f47cb32add35194d338f7fb3d3364c200cccb78b9d"
+    },
+    "ios-arm64_x86_64-maccatalyst/opencv2.framework/Versions/A/Headers/core/bindings_utils.hpp": {
+      "sha256": "ecfed743e5c77e8c8062f981eeb7192af5329f92dcd8aecc91c648ec3b2e96f7"
+    },
+    "ios-arm64_x86_64-maccatalyst/opencv2.framework/Versions/A/Headers/core/bufferpool.hpp": {
+      "sha256": "65dd904d4f15850ec23ad7531a8f431fd023c98c429adc59e00ae346c8976667"
+    },
+    "ios-arm64_x86_64-maccatalyst/opencv2.framework/Versions/A/Headers/core/check.hpp": {
+      "sha256": "fb7cf749c4695f02cb311b198efa9823eac1f1e98831b776fe8ab5f976bea4d1"
+    },
+    "ios-arm64_x86_64-maccatalyst/opencv2.framework/Versions/A/Headers/core/core.hpp": {
+      "sha256": "21a4ea4d80847984ef8eafe4746ecc18d5bcafd10564ce4c24e2416043d85798"
+    },
+    "ios-arm64_x86_64-maccatalyst/opencv2.framework/Versions/A/Headers/core/core_c.h": {
+      "sha256": "7c5d2883897df0d8f86a322078c32132cf890a34f45fcdb9460f1bde84e97466"
+    },
+    "ios-arm64_x86_64-maccatalyst/opencv2.framework/Versions/A/Headers/core/cv_cpu_dispatch.h": {
+      "sha256": "9bc32aba988a5412ff6590984bd5758a8613fe51891358d18be9f4e04ca30055"
+    },
+    "ios-arm64_x86_64-maccatalyst/opencv2.framework/Versions/A/Headers/core/cv_cpu_helper.h": {
+      "sha256": "3dafd54f9adbdb9bd39b7ed81f4ea25eeb81117356e974fede4648ded4ad16a9"
+    },
+    "ios-arm64_x86_64-maccatalyst/opencv2.framework/Versions/A/Headers/core/cvdef.h": {
+      "sha256": "8ca1520e205c3c26670a0e510a2371fe196c11687b92886e14962b423af341c9"
+    },
+    "ios-arm64_x86_64-maccatalyst/opencv2.framework/Versions/A/Headers/core/cvstd.hpp": {
+      "sha256": "96a1ddefb0539061389be0704b554e5ab30f20132944485f4c70644ceeb4a0d2"
+    },
+    "ios-arm64_x86_64-maccatalyst/opencv2.framework/Versions/A/Headers/core/cvstd.inl.hpp": {
+      "sha256": "3fb7d0328e9da0dd788528501dc7bbdceb5cfef83b49189952900e4652281a32"
+    },
+    "ios-arm64_x86_64-maccatalyst/opencv2.framework/Versions/A/Headers/core/cvstd_wrapper.hpp": {
+      "sha256": "babed4fc9c3d804502aa053c5add427600600f080984985812d8cce716b35ffa"
+    },
+    "ios-arm64_x86_64-maccatalyst/opencv2.framework/Versions/A/Headers/core/detail/async_promise.hpp": {
+      "sha256": "84920f5944b2561b0f6da3784a5fd281aba39e8544651a7ac8a889e3509982f4"
+    },
+    "ios-arm64_x86_64-maccatalyst/opencv2.framework/Versions/A/Headers/core/detail/dispatch_helper.impl.hpp": {
+      "sha256": "a6c812132580f4eaca6f35f2f19b32d40b24ef9ab0b75b51291c551c6b4224d9"
+    },
+    "ios-arm64_x86_64-maccatalyst/opencv2.framework/Versions/A/Headers/core/detail/exception_ptr.hpp": {
+      "sha256": "30ae6e20abd03cf3621bfb392e7778aff8a90635bd4679e9f2e706c8c99b0986"
+    },
+    "ios-arm64_x86_64-maccatalyst/opencv2.framework/Versions/A/Headers/core/dualquaternion.hpp": {
+      "sha256": "ed725cacbb20ca9b17c72256504ec74d270bcf44559952508392d7b69764f1ad"
+    },
+    "ios-arm64_x86_64-maccatalyst/opencv2.framework/Versions/A/Headers/core/dualquaternion.inl.hpp": {
+      "sha256": "1b6b478123cd15b7f24f2f3399d5c9199f7af979d9b57f0b0265a02cd4279484"
+    },
+    "ios-arm64_x86_64-maccatalyst/opencv2.framework/Versions/A/Headers/core/eigen.hpp": {
+      "sha256": "fb98669a1bf5b6ab3c31ed3479663d0608131bc9af743f7b7e868640b3428485"
+    },
+    "ios-arm64_x86_64-maccatalyst/opencv2.framework/Versions/A/Headers/core/fast_math.hpp": {
+      "sha256": "81719ea26aef77deda817c751a90b7c61049821aaf67e915654b2305caaa942d"
+    },
+    "ios-arm64_x86_64-maccatalyst/opencv2.framework/Versions/A/Headers/core/hal/hal.hpp": {
+      "sha256": "0f8eadf8fd6899858ab46db329ba94770160ecf9cd8ac897dece8c6884c8d521"
+    },
+    "ios-arm64_x86_64-maccatalyst/opencv2.framework/Versions/A/Headers/core/hal/interface.h": {
+      "sha256": "bd11814cfd2c331eaa93b42d80a0911a4916f6afa99907f332fe8f641098eb43"
+    },
+    "ios-arm64_x86_64-maccatalyst/opencv2.framework/Versions/A/Headers/core/hal/intrin.hpp": {
+      "sha256": "eeb3be550b8d7f6492c762bcefeb2e8fe5c9c0628ccb09f2ded7f1b2f34d6aa3"
+    },
+    "ios-arm64_x86_64-maccatalyst/opencv2.framework/Versions/A/Headers/core/hal/intrin_avx.hpp": {
+      "sha256": "a94f0297f74c4081a341d27eace3e000f6720d2419df890ffbeeccf2174d37aa"
+    },
+    "ios-arm64_x86_64-maccatalyst/opencv2.framework/Versions/A/Headers/core/hal/intrin_avx512.hpp": {
+      "sha256": "b7fd72f1e96a00370e1096a1d61f75f6bf0355d9f2b1fff2bca64affac7aa23e"
+    },
+    "ios-arm64_x86_64-maccatalyst/opencv2.framework/Versions/A/Headers/core/hal/intrin_cpp.hpp": {
+      "sha256": "c0f491dd72e8bd5ae0cd31d650d283593cd74afa5ca113ba7c5bae716392d2c9"
+    },
+    "ios-arm64_x86_64-maccatalyst/opencv2.framework/Versions/A/Headers/core/hal/intrin_forward.hpp": {
+      "sha256": "ad93e16fdad234aab37ccc96bd37768f213c6ee2fedb3c6309e1057307f621f2"
+    },
+    "ios-arm64_x86_64-maccatalyst/opencv2.framework/Versions/A/Headers/core/hal/intrin_lasx.hpp": {
+      "sha256": "4d731ad3c689efea2905db049636adb3d48d5fdf3436cd1b61a3bd283ddaa023"
+    },
+    "ios-arm64_x86_64-maccatalyst/opencv2.framework/Versions/A/Headers/core/hal/intrin_legacy_ops.h": {
+      "sha256": "9162fd638f6523412d095dc69bc67b5d5eb0b945c185003e67b0938a79c90686"
+    },
+    "ios-arm64_x86_64-maccatalyst/opencv2.framework/Versions/A/Headers/core/hal/intrin_lsx.hpp": {
+      "sha256": "aa31563f0a5033495e27a5bab0cde7deda49bc2c039aeeabb4ae9ed1f68b172b"
+    },
+    "ios-arm64_x86_64-maccatalyst/opencv2.framework/Versions/A/Headers/core/hal/intrin_math.hpp": {
+      "sha256": "8d6ed7f222d15da0d73080fe407d7e3f9809b3fc5c93222cbe320f9a9f794e5c"
+    },
+    "ios-arm64_x86_64-maccatalyst/opencv2.framework/Versions/A/Headers/core/hal/intrin_msa.hpp": {
+      "sha256": "80dfbe94520016a6d10be1444c612cdb889d606ef6f016f2a693f215be289b09"
+    },
+    "ios-arm64_x86_64-maccatalyst/opencv2.framework/Versions/A/Headers/core/hal/intrin_neon.hpp": {
+      "sha256": "fd562189af217d1d0529fdfcf18c80c849895aa7438dc8dbfbf0c027bf939f23"
+    },
+    "ios-arm64_x86_64-maccatalyst/opencv2.framework/Versions/A/Headers/core/hal/intrin_rvv071.hpp": {
+      "sha256": "2ddc9c4978233a8fa09d7d990349723cf6ad627cdd967c27ad6765b4ede6528b"
+    },
+    "ios-arm64_x86_64-maccatalyst/opencv2.framework/Versions/A/Headers/core/hal/intrin_rvv_scalable.hpp": {
+      "sha256": "60e6040f2fcb239699516073bf688d2fab522806d98c0bd364e4fe9f579ac2df"
+    },
+    "ios-arm64_x86_64-maccatalyst/opencv2.framework/Versions/A/Headers/core/hal/intrin_sse.hpp": {
+      "sha256": "9ea43239afc6dd6915c37715074d8d6351a055b3890aa71fb644864dcb9ececd"
+    },
+    "ios-arm64_x86_64-maccatalyst/opencv2.framework/Versions/A/Headers/core/hal/intrin_sse_em.hpp": {
+      "sha256": "9a8369d287ff500756fae5577f528c360f011e04e5a4a44f5af1d697b1d1442a"
+    },
+    "ios-arm64_x86_64-maccatalyst/opencv2.framework/Versions/A/Headers/core/hal/intrin_vsx.hpp": {
+      "sha256": "aaec43fe948c55b3b31d730358d4b266f90aede3c262cff794c293a7370c13fe"
+    },
+    "ios-arm64_x86_64-maccatalyst/opencv2.framework/Versions/A/Headers/core/hal/intrin_wasm.hpp": {
+      "sha256": "4c63d4c9717d6c75261415c197a7b0912dd848eefa8d13fc87ad306d60ce9656"
+    },
+    "ios-arm64_x86_64-maccatalyst/opencv2.framework/Versions/A/Headers/core/hal/msa_macros.h": {
+      "sha256": "bf5842830c95304950487c93f9f8ec5ac29ad659a316fb2ea80407229ee2a6e0"
+    },
+    "ios-arm64_x86_64-maccatalyst/opencv2.framework/Versions/A/Headers/core/hal/simd_utils.impl.hpp": {
+      "sha256": "a7416b4d5fc41cd2df66f4fdb36a0a85374d79de3dc5d8fb38ce40be049ff772"
+    },
+    "ios-arm64_x86_64-maccatalyst/opencv2.framework/Versions/A/Headers/core/mat.hpp": {
+      "sha256": "1cd4e67e4b4bf466307c47ad4f8166faa8175ac4f812e00167d253f04dc845f3"
+    },
+    "ios-arm64_x86_64-maccatalyst/opencv2.framework/Versions/A/Headers/core/mat.inl.hpp": {
+      "sha256": "4ff08f17c7d7a85411d5d694a405190ed35d71a15dc02af9d161cdac9771d24b"
+    },
+    "ios-arm64_x86_64-maccatalyst/opencv2.framework/Versions/A/Headers/core/matx.hpp": {
+      "sha256": "086ceebe87ed54c98155bfff778f02305697dc7cd9d10449f2f21a482023872b"
+    },
+    "ios-arm64_x86_64-maccatalyst/opencv2.framework/Versions/A/Headers/core/matx.inl.hpp": {
+      "sha256": "010153afc595d6e58ba24949c85af8a6a2fc038d52ec054a35ae9eed8a97980d"
+    },
+    "ios-arm64_x86_64-maccatalyst/opencv2.framework/Versions/A/Headers/core/neon_utils.hpp": {
+      "sha256": "ac4f537960e50684671ca6a4b95c1eb6db5ba05e8d9f42f66b930ac8702ae7f9"
+    },
+    "ios-arm64_x86_64-maccatalyst/opencv2.framework/Versions/A/Headers/core/operations.hpp": {
+      "sha256": "3900e92391bf28dac5b7118a1daa5839bfaf7c9cf60526b91b66e6c128b08205"
+    },
+    "ios-arm64_x86_64-maccatalyst/opencv2.framework/Versions/A/Headers/core/optim.hpp": {
+      "sha256": "acfc26fa3409d2c7dc897fc816a6eab67554414a514a1a062de68a68cb351e80"
+    },
+    "ios-arm64_x86_64-maccatalyst/opencv2.framework/Versions/A/Headers/core/parallel/backend/parallel_for.openmp.hpp": {
+      "sha256": "903d8ba56eae3158e816522c5a816e9e9811e41c62e812a34bbf1dbfde81132e"
+    },
+    "ios-arm64_x86_64-maccatalyst/opencv2.framework/Versions/A/Headers/core/parallel/backend/parallel_for.tbb.hpp": {
+      "sha256": "af6dd3c7162df172e8462b8c697f2fcddf2af1777f98a993ab3be8b33fb58b7e"
+    },
+    "ios-arm64_x86_64-maccatalyst/opencv2.framework/Versions/A/Headers/core/parallel/parallel_backend.hpp": {
+      "sha256": "79c71d6191b0931cb1db9931ca4ecaa156cfec83bc6e4e71b8407722ed3d7194"
+    },
+    "ios-arm64_x86_64-maccatalyst/opencv2.framework/Versions/A/Headers/core/persistence.hpp": {
+      "sha256": "992e7d7575fd671302b2beb9600a99e380485797aa6448bdbaa81d8c66b524b8"
+    },
+    "ios-arm64_x86_64-maccatalyst/opencv2.framework/Versions/A/Headers/core/quaternion.hpp": {
+      "sha256": "6ff8d3b19489c4b69345806b65e82770829ecca8604d96b421a27f3a30ca05d1"
+    },
+    "ios-arm64_x86_64-maccatalyst/opencv2.framework/Versions/A/Headers/core/quaternion.inl.hpp": {
+      "sha256": "dff743f883e47035d84e52058cb9bca9fbf5d615e35bf3923097164263d6a164"
+    },
+    "ios-arm64_x86_64-maccatalyst/opencv2.framework/Versions/A/Headers/core/saturate.hpp": {
+      "sha256": "bf418a3f44d575b17c18af968dbe3e2c8bd0663c22f8dcb53c4b0f77b5db14ba"
+    },
+    "ios-arm64_x86_64-maccatalyst/opencv2.framework/Versions/A/Headers/core/simd_intrinsics.hpp": {
+      "sha256": "ac81c6962c8b5679dfb63fe06487c27ae197946b66b1df90ad46e410a11a5a20"
+    },
+    "ios-arm64_x86_64-maccatalyst/opencv2.framework/Versions/A/Headers/core/softfloat.hpp": {
+      "sha256": "43c01ea3c1b3f99352437dddaca1b9b862e9d9b734c7a901f63abad5b28e3412"
+    },
+    "ios-arm64_x86_64-maccatalyst/opencv2.framework/Versions/A/Headers/core/sse_utils.hpp": {
+      "sha256": "2d9f170fdecb359c434387e6379fe5f16f9ffc77ef8dc4ba111ca517c3359023"
+    },
+    "ios-arm64_x86_64-maccatalyst/opencv2.framework/Versions/A/Headers/core/traits.hpp": {
+      "sha256": "6c45b2ee5137464ab4080063e38b68a6c5ac8b415e04aee8cb5c634b5dcc9861"
+    },
+    "ios-arm64_x86_64-maccatalyst/opencv2.framework/Versions/A/Headers/core/types.hpp": {
+      "sha256": "19d8ae6170f3b6f38f545768a24c922a50774c23eeebc11e39f7c6a1f5726f08"
+    },
+    "ios-arm64_x86_64-maccatalyst/opencv2.framework/Versions/A/Headers/core/types_c.h": {
+      "sha256": "0bab108b55e64c5f7b6a1faa3d8eb655591321efd7b30dc0a663201531f48900"
+    },
+    "ios-arm64_x86_64-maccatalyst/opencv2.framework/Versions/A/Headers/core/utility.hpp": {
+      "sha256": "e5b9e25e349f121c3d3f2347c48afef5d18a8c7c4124acee833c0e04b9c270b0"
+    },
+    "ios-arm64_x86_64-maccatalyst/opencv2.framework/Versions/A/Headers/core/utils/allocator_stats.hpp": {
+      "sha256": "260d7dff55a04646ae7f78bfe7af249fe2bbe368add0c934cad108703dbb56c1"
+    },
+    "ios-arm64_x86_64-maccatalyst/opencv2.framework/Versions/A/Headers/core/utils/allocator_stats.impl.hpp": {
+      "sha256": "62b1f1d878926e7ce8fa323a75a5e8cdb184fd0c6261890963fd82dc9c26c874"
+    },
+    "ios-arm64_x86_64-maccatalyst/opencv2.framework/Versions/A/Headers/core/utils/filesystem.hpp": {
+      "sha256": "584606928e15cdfa0846f97a4f1922860b6f193e0bc3e9f15bd58796edb10b86"
+    },
+    "ios-arm64_x86_64-maccatalyst/opencv2.framework/Versions/A/Headers/core/utils/fp_control_utils.hpp": {
+      "sha256": "2565900dff6e97772c2cb1434b8d136df85446e4596a708d73ae14f3cae9a8d8"
+    },
+    "ios-arm64_x86_64-maccatalyst/opencv2.framework/Versions/A/Headers/core/utils/instrumentation.hpp": {
+      "sha256": "dcb6a1ae866d143f400f844a4761b52f64429342a7511d1f6402b87105511e9d"
+    },
+    "ios-arm64_x86_64-maccatalyst/opencv2.framework/Versions/A/Headers/core/utils/logger.defines.hpp": {
+      "sha256": "03bc3fd53608846ee3ad1b1feeeb97ac68e9758f4ceb5827ecca87c58204304c"
+    },
+    "ios-arm64_x86_64-maccatalyst/opencv2.framework/Versions/A/Headers/core/utils/logger.hpp": {
+      "sha256": "139133ff707a0fb31bb201dfa34a1630d14ac02176272b241e2d1b6a1379b470"
+    },
+    "ios-arm64_x86_64-maccatalyst/opencv2.framework/Versions/A/Headers/core/utils/logtag.hpp": {
+      "sha256": "1ab5f6f986e02af6aec74d7881ce0676dd82b215c4a5b33087f7e8010a1808b5"
+    },
+    "ios-arm64_x86_64-maccatalyst/opencv2.framework/Versions/A/Headers/core/utils/tls.hpp": {
+      "sha256": "3b3261c3900c2d1ab82496b6722979996cb899f3110492d7177651790b6f9aef"
+    },
+    "ios-arm64_x86_64-maccatalyst/opencv2.framework/Versions/A/Headers/core/utils/trace.hpp": {
+      "sha256": "0f0d8b3b0c68c871d026a95c549110e4438f8b349c42864ac7f49a9b5fe72066"
+    },
+    "ios-arm64_x86_64-maccatalyst/opencv2.framework/Versions/A/Headers/core/version.hpp": {
+      "sha256": "aa6df48dc2a1807bf2a1decb21d8917f18632ef4c0f6f87e3a31a62f7ebf7555"
+    },
+    "ios-arm64_x86_64-maccatalyst/opencv2.framework/Versions/A/Headers/core/vsx_utils.hpp": {
+      "sha256": "4c0a89863f2147258a09ed9e4f295aff35bef9e9677e8bb2f73af23cca83885d"
+    },
+    "ios-arm64_x86_64-maccatalyst/opencv2.framework/Versions/A/Headers/core.hpp": {
+      "sha256": "7ed046d89c1287c5c687e92b36be8dd42720822634e50d0504ee1a4efc1424fd"
+    },
+    "ios-arm64_x86_64-maccatalyst/opencv2.framework/Versions/A/Headers/cvconfig.h": {
+      "sha256": "754c031c11644a993792b8b26dad561ce6073b0a3fb63ca56624f13382dd922a"
+    },
+    "ios-arm64_x86_64-maccatalyst/opencv2.framework/Versions/A/Headers/dnn/dnn.hpp": {
+      "sha256": "32aed1c0b211e1923ee325decd516eeb4435db6f8ce6a37af64186f364ca9bd1"
+    },
+    "ios-arm64_x86_64-maccatalyst/opencv2.framework/Versions/A/Headers/dnn.hpp": {
+      "sha256": "c6df8ef0fc5e8bd2bfcebb52410d8e0989d3013fb75d0502c3d2ed9436cadca2"
+    },
+    "ios-arm64_x86_64-maccatalyst/opencv2.framework/Versions/A/Headers/features2d/features2d.hpp": {
+      "sha256": "7a8c4b882ff82ee8d8aa892dccb13e26a0a091a18eadf17c64951490ee302689"
+    },
+    "ios-arm64_x86_64-maccatalyst/opencv2.framework/Versions/A/Headers/features2d/hal/interface.h": {
+      "sha256": "4fe9c4fa48d06743b83af7f3b7cc4c66da1fa7d6c94a927381827e72454c77d3"
+    },
+    "ios-arm64_x86_64-maccatalyst/opencv2.framework/Versions/A/Headers/features2d.hpp": {
+      "sha256": "fe724c64b37dae282ae38abae1accf9697146231ef76170287454ecbb0e9e69c"
+    },
+    "ios-arm64_x86_64-maccatalyst/opencv2.framework/Versions/A/Headers/highgui/highgui.hpp": {
+      "sha256": "2d167454cf33c9605b3b94e25294d3d78fbd1f046d5998b77f89c9e849e4cd1e"
+    },
+    "ios-arm64_x86_64-maccatalyst/opencv2.framework/Versions/A/Headers/highgui.hpp": {
+      "sha256": "be45cb0518457f06ab188712c7d6cb8fd53297581940ac47d1b5974e652e300a"
+    },
+    "ios-arm64_x86_64-maccatalyst/opencv2.framework/Versions/A/Headers/imgproc/bindings.hpp": {
+      "sha256": "f65b79fb4d9e7abcd8aa9bb8bcc2a3410c42dae8f729b8679a71bb85c7b85ee0"
+    },
+    "ios-arm64_x86_64-maccatalyst/opencv2.framework/Versions/A/Headers/imgproc/detail/gcgraph.hpp": {
+      "sha256": "e9e67386e93dd84a428af70e31313a0240a4df982f6c184d50180d9d6c2ea2f9"
+    },
+    "ios-arm64_x86_64-maccatalyst/opencv2.framework/Versions/A/Headers/imgproc/detail/legacy.hpp": {
+      "sha256": "625ce2e2c4abca32c44815e8ea6ea0d19c7d6f7db2cd142bd7e19b3770d953c4"
+    },
+    "ios-arm64_x86_64-maccatalyst/opencv2.framework/Versions/A/Headers/imgproc/hal/hal.hpp": {
+      "sha256": "efecd002537f5d66489e05401dadca222785c8bd4c69d7d70e1e131fd69a0097"
+    },
+    "ios-arm64_x86_64-maccatalyst/opencv2.framework/Versions/A/Headers/imgproc/hal/interface.h": {
+      "sha256": "27dd95facd92c6ca8e6fe4b981c51dbdb22b9dafba133cf2be0f5a03f5d8152e"
+    },
+    "ios-arm64_x86_64-maccatalyst/opencv2.framework/Versions/A/Headers/imgproc/imgproc.hpp": {
+      "sha256": "f519aaf5d2676014d46f0f29719baaa98c14c84bcf2311c10325e210a4103e70"
+    },
+    "ios-arm64_x86_64-maccatalyst/opencv2.framework/Versions/A/Headers/imgproc/imgproc_c.h": {
+      "sha256": "c0b4bd7f7769c966dbfada1d3ae65f8ce214fce1038339245a174ac40140ca77"
+    },
+    "ios-arm64_x86_64-maccatalyst/opencv2.framework/Versions/A/Headers/imgproc/segmentation.hpp": {
+      "sha256": "1f27474710e792c7ff1f1a63bac86876f53ceb0f648d32eb30b99e67d3dd5fdf"
+    },
+    "ios-arm64_x86_64-maccatalyst/opencv2.framework/Versions/A/Headers/imgproc/types_c.h": {
+      "sha256": "c844682f2f7d8dcbce7acdac069b41203dd8a4309946b3d23dbe22663d74a012"
+    },
+    "ios-arm64_x86_64-maccatalyst/opencv2.framework/Versions/A/Headers/imgproc.hpp": {
+      "sha256": "5ed21f51cd0086561edc1b3d8a16bd95b05b3f90e48664a4b5a379e0287554f2"
+    },
+    "ios-arm64_x86_64-maccatalyst/opencv2.framework/Versions/A/Headers/opencv.hpp": {
+      "sha256": "37df4ccc15f8a6ed06e2099910c63e486841ddbd5bc2d303405bc34f8fd44b66"
+    },
+    "ios-arm64_x86_64-maccatalyst/opencv2.framework/Versions/A/Headers/opencv_modules.hpp": {
+      "sha256": "85dd18fd030cbb21b43631cde2559efec6dbb3c67065caea48ff16769b9c9f1a"
+    },
+    "ios-arm64_x86_64-maccatalyst/opencv2.framework/Versions/A/Headers/photo/legacy/constants_c.h": {
+      "sha256": "dd01c6afe89743ebfd863d7b8c17b80c7fa5c9f676ea69e372836cc26f0c0403"
+    },
+    "ios-arm64_x86_64-maccatalyst/opencv2.framework/Versions/A/Headers/photo/photo.hpp": {
+      "sha256": "18b6aed6db6c14d4295e89f7c9bb8931c44320d97195921fff3c16ea4174d67f"
+    },
+    "ios-arm64_x86_64-maccatalyst/opencv2.framework/Versions/A/Headers/photo.hpp": {
+      "sha256": "065317df350d13ec1eddb3e153a2836b2ac0d554eb5ff5a564f2224e0d26c945"
+    },
+    "ios-arm64_x86_64-maccatalyst/opencv2.framework/Versions/A/Headers/video/background_segm.hpp": {
+      "sha256": "d7e52545ca5f968b1e4711054b50e32af92557d3aca8876e806482443c104a16"
+    },
+    "ios-arm64_x86_64-maccatalyst/opencv2.framework/Versions/A/Headers/video/detail/tracking.detail.hpp": {
+      "sha256": "81f3eea460ec6c87e851435c0fedf38b4fe6a46f6982531cdac916e078255246"
+    },
+    "ios-arm64_x86_64-maccatalyst/opencv2.framework/Versions/A/Headers/video/legacy/constants_c.h": {
+      "sha256": "5c523ca5b04e4bb98a1ef77c87ae0ca87b6a4f3142f28737ef50115abb326299"
+    },
+    "ios-arm64_x86_64-maccatalyst/opencv2.framework/Versions/A/Headers/video/tracking.hpp": {
+      "sha256": "eec77538e88bd3bc5d7e6b9179a76d8886eac6f6bcd96fee2fed184a8855fe82"
+    },
+    "ios-arm64_x86_64-maccatalyst/opencv2.framework/Versions/A/Headers/video/video.hpp": {
+      "sha256": "67e31defa256825bb977d4126d7b00f53c90cb49638b8a9e43ec121568167e36"
+    },
+    "ios-arm64_x86_64-maccatalyst/opencv2.framework/Versions/A/Headers/video.hpp": {
+      "sha256": "5c1d80d5edbb3c681d4c17e01d34c541fa341f0a270ccd427e59601c5a4ed625"
+    },
+    "ios-arm64_x86_64-maccatalyst/opencv2.framework/Versions/A/Headers/world.hpp": {
+      "sha256": "bd82d87fdd7cfc4bdcfa62e9941d5ed62c11ecd85ada486070cbc4299715a7ff"
+    },
+    "ios-arm64_x86_64-maccatalyst/opencv2.framework/Versions/A/Resources/Info.plist": {
+      "sha256": "30eb38c2dba2cd121206d07d20590889adaa2b71e34c50cd4f40c0ad3815b8ec"
+    },
+    "ios-arm64_x86_64-maccatalyst/opencv2.framework/Versions/A/opencv2": {
+      "sha256": "a23e475651488df9522310c181c242cfa7e0a3168d0ef3f1ad5a6b6dd9a64863"
+    },
+    "ios-arm64_x86_64-maccatalyst/opencv2.framework/Versions/Current": {
+      "symlink": "A"
+    },
+    "ios-arm64_x86_64-maccatalyst/opencv2.framework/opencv2": {
+      "symlink": "Versions/Current/opencv2"
+    },
+    "ios-arm64_x86_64-simulator/opencv2.framework/Headers/core/affine.hpp": {
+      "sha256": "f67b0e1a0d51ed1a0cb0f0010568a3c3649aa99ab51a0183e092858be6b00da4"
+    },
+    "ios-arm64_x86_64-simulator/opencv2.framework/Headers/core/async.hpp": {
+      "sha256": "4ebd7dec356441c35e53447f548cb4c1074d93109a92716ab570d40469992313"
+    },
+    "ios-arm64_x86_64-simulator/opencv2.framework/Headers/core/base.hpp": {
+      "sha256": "db611eaad4e4cef0247296f47cb32add35194d338f7fb3d3364c200cccb78b9d"
+    },
+    "ios-arm64_x86_64-simulator/opencv2.framework/Headers/core/bindings_utils.hpp": {
+      "sha256": "ecfed743e5c77e8c8062f981eeb7192af5329f92dcd8aecc91c648ec3b2e96f7"
+    },
+    "ios-arm64_x86_64-simulator/opencv2.framework/Headers/core/bufferpool.hpp": {
+      "sha256": "65dd904d4f15850ec23ad7531a8f431fd023c98c429adc59e00ae346c8976667"
+    },
+    "ios-arm64_x86_64-simulator/opencv2.framework/Headers/core/check.hpp": {
+      "sha256": "fb7cf749c4695f02cb311b198efa9823eac1f1e98831b776fe8ab5f976bea4d1"
+    },
+    "ios-arm64_x86_64-simulator/opencv2.framework/Headers/core/core.hpp": {
+      "sha256": "21a4ea4d80847984ef8eafe4746ecc18d5bcafd10564ce4c24e2416043d85798"
+    },
+    "ios-arm64_x86_64-simulator/opencv2.framework/Headers/core/core_c.h": {
+      "sha256": "7c5d2883897df0d8f86a322078c32132cf890a34f45fcdb9460f1bde84e97466"
+    },
+    "ios-arm64_x86_64-simulator/opencv2.framework/Headers/core/cv_cpu_dispatch.h": {
+      "sha256": "9bc32aba988a5412ff6590984bd5758a8613fe51891358d18be9f4e04ca30055"
+    },
+    "ios-arm64_x86_64-simulator/opencv2.framework/Headers/core/cv_cpu_helper.h": {
+      "sha256": "3dafd54f9adbdb9bd39b7ed81f4ea25eeb81117356e974fede4648ded4ad16a9"
+    },
+    "ios-arm64_x86_64-simulator/opencv2.framework/Headers/core/cvdef.h": {
+      "sha256": "8ca1520e205c3c26670a0e510a2371fe196c11687b92886e14962b423af341c9"
+    },
+    "ios-arm64_x86_64-simulator/opencv2.framework/Headers/core/cvstd.hpp": {
+      "sha256": "96a1ddefb0539061389be0704b554e5ab30f20132944485f4c70644ceeb4a0d2"
+    },
+    "ios-arm64_x86_64-simulator/opencv2.framework/Headers/core/cvstd.inl.hpp": {
+      "sha256": "3fb7d0328e9da0dd788528501dc7bbdceb5cfef83b49189952900e4652281a32"
+    },
+    "ios-arm64_x86_64-simulator/opencv2.framework/Headers/core/cvstd_wrapper.hpp": {
+      "sha256": "babed4fc9c3d804502aa053c5add427600600f080984985812d8cce716b35ffa"
+    },
+    "ios-arm64_x86_64-simulator/opencv2.framework/Headers/core/detail/async_promise.hpp": {
+      "sha256": "84920f5944b2561b0f6da3784a5fd281aba39e8544651a7ac8a889e3509982f4"
+    },
+    "ios-arm64_x86_64-simulator/opencv2.framework/Headers/core/detail/dispatch_helper.impl.hpp": {
+      "sha256": "a6c812132580f4eaca6f35f2f19b32d40b24ef9ab0b75b51291c551c6b4224d9"
+    },
+    "ios-arm64_x86_64-simulator/opencv2.framework/Headers/core/detail/exception_ptr.hpp": {
+      "sha256": "30ae6e20abd03cf3621bfb392e7778aff8a90635bd4679e9f2e706c8c99b0986"
+    },
+    "ios-arm64_x86_64-simulator/opencv2.framework/Headers/core/dualquaternion.hpp": {
+      "sha256": "ed725cacbb20ca9b17c72256504ec74d270bcf44559952508392d7b69764f1ad"
+    },
+    "ios-arm64_x86_64-simulator/opencv2.framework/Headers/core/dualquaternion.inl.hpp": {
+      "sha256": "1b6b478123cd15b7f24f2f3399d5c9199f7af979d9b57f0b0265a02cd4279484"
+    },
+    "ios-arm64_x86_64-simulator/opencv2.framework/Headers/core/eigen.hpp": {
+      "sha256": "fb98669a1bf5b6ab3c31ed3479663d0608131bc9af743f7b7e868640b3428485"
+    },
+    "ios-arm64_x86_64-simulator/opencv2.framework/Headers/core/fast_math.hpp": {
+      "sha256": "81719ea26aef77deda817c751a90b7c61049821aaf67e915654b2305caaa942d"
+    },
+    "ios-arm64_x86_64-simulator/opencv2.framework/Headers/core/hal/hal.hpp": {
+      "sha256": "0f8eadf8fd6899858ab46db329ba94770160ecf9cd8ac897dece8c6884c8d521"
+    },
+    "ios-arm64_x86_64-simulator/opencv2.framework/Headers/core/hal/interface.h": {
+      "sha256": "bd11814cfd2c331eaa93b42d80a0911a4916f6afa99907f332fe8f641098eb43"
+    },
+    "ios-arm64_x86_64-simulator/opencv2.framework/Headers/core/hal/intrin.hpp": {
+      "sha256": "eeb3be550b8d7f6492c762bcefeb2e8fe5c9c0628ccb09f2ded7f1b2f34d6aa3"
+    },
+    "ios-arm64_x86_64-simulator/opencv2.framework/Headers/core/hal/intrin_avx.hpp": {
+      "sha256": "a94f0297f74c4081a341d27eace3e000f6720d2419df890ffbeeccf2174d37aa"
+    },
+    "ios-arm64_x86_64-simulator/opencv2.framework/Headers/core/hal/intrin_avx512.hpp": {
+      "sha256": "b7fd72f1e96a00370e1096a1d61f75f6bf0355d9f2b1fff2bca64affac7aa23e"
+    },
+    "ios-arm64_x86_64-simulator/opencv2.framework/Headers/core/hal/intrin_cpp.hpp": {
+      "sha256": "c0f491dd72e8bd5ae0cd31d650d283593cd74afa5ca113ba7c5bae716392d2c9"
+    },
+    "ios-arm64_x86_64-simulator/opencv2.framework/Headers/core/hal/intrin_forward.hpp": {
+      "sha256": "ad93e16fdad234aab37ccc96bd37768f213c6ee2fedb3c6309e1057307f621f2"
+    },
+    "ios-arm64_x86_64-simulator/opencv2.framework/Headers/core/hal/intrin_lasx.hpp": {
+      "sha256": "4d731ad3c689efea2905db049636adb3d48d5fdf3436cd1b61a3bd283ddaa023"
+    },
+    "ios-arm64_x86_64-simulator/opencv2.framework/Headers/core/hal/intrin_legacy_ops.h": {
+      "sha256": "9162fd638f6523412d095dc69bc67b5d5eb0b945c185003e67b0938a79c90686"
+    },
+    "ios-arm64_x86_64-simulator/opencv2.framework/Headers/core/hal/intrin_lsx.hpp": {
+      "sha256": "aa31563f0a5033495e27a5bab0cde7deda49bc2c039aeeabb4ae9ed1f68b172b"
+    },
+    "ios-arm64_x86_64-simulator/opencv2.framework/Headers/core/hal/intrin_math.hpp": {
+      "sha256": "8d6ed7f222d15da0d73080fe407d7e3f9809b3fc5c93222cbe320f9a9f794e5c"
+    },
+    "ios-arm64_x86_64-simulator/opencv2.framework/Headers/core/hal/intrin_msa.hpp": {
+      "sha256": "80dfbe94520016a6d10be1444c612cdb889d606ef6f016f2a693f215be289b09"
+    },
+    "ios-arm64_x86_64-simulator/opencv2.framework/Headers/core/hal/intrin_neon.hpp": {
+      "sha256": "fd562189af217d1d0529fdfcf18c80c849895aa7438dc8dbfbf0c027bf939f23"
+    },
+    "ios-arm64_x86_64-simulator/opencv2.framework/Headers/core/hal/intrin_rvv071.hpp": {
+      "sha256": "2ddc9c4978233a8fa09d7d990349723cf6ad627cdd967c27ad6765b4ede6528b"
+    },
+    "ios-arm64_x86_64-simulator/opencv2.framework/Headers/core/hal/intrin_rvv_scalable.hpp": {
+      "sha256": "60e6040f2fcb239699516073bf688d2fab522806d98c0bd364e4fe9f579ac2df"
+    },
+    "ios-arm64_x86_64-simulator/opencv2.framework/Headers/core/hal/intrin_sse.hpp": {
+      "sha256": "9ea43239afc6dd6915c37715074d8d6351a055b3890aa71fb644864dcb9ececd"
+    },
+    "ios-arm64_x86_64-simulator/opencv2.framework/Headers/core/hal/intrin_sse_em.hpp": {
+      "sha256": "9a8369d287ff500756fae5577f528c360f011e04e5a4a44f5af1d697b1d1442a"
+    },
+    "ios-arm64_x86_64-simulator/opencv2.framework/Headers/core/hal/intrin_vsx.hpp": {
+      "sha256": "aaec43fe948c55b3b31d730358d4b266f90aede3c262cff794c293a7370c13fe"
+    },
+    "ios-arm64_x86_64-simulator/opencv2.framework/Headers/core/hal/intrin_wasm.hpp": {
+      "sha256": "4c63d4c9717d6c75261415c197a7b0912dd848eefa8d13fc87ad306d60ce9656"
+    },
+    "ios-arm64_x86_64-simulator/opencv2.framework/Headers/core/hal/msa_macros.h": {
+      "sha256": "bf5842830c95304950487c93f9f8ec5ac29ad659a316fb2ea80407229ee2a6e0"
+    },
+    "ios-arm64_x86_64-simulator/opencv2.framework/Headers/core/hal/simd_utils.impl.hpp": {
+      "sha256": "a7416b4d5fc41cd2df66f4fdb36a0a85374d79de3dc5d8fb38ce40be049ff772"
+    },
+    "ios-arm64_x86_64-simulator/opencv2.framework/Headers/core/mat.hpp": {
+      "sha256": "1cd4e67e4b4bf466307c47ad4f8166faa8175ac4f812e00167d253f04dc845f3"
+    },
+    "ios-arm64_x86_64-simulator/opencv2.framework/Headers/core/mat.inl.hpp": {
+      "sha256": "4ff08f17c7d7a85411d5d694a405190ed35d71a15dc02af9d161cdac9771d24b"
+    },
+    "ios-arm64_x86_64-simulator/opencv2.framework/Headers/core/matx.hpp": {
+      "sha256": "086ceebe87ed54c98155bfff778f02305697dc7cd9d10449f2f21a482023872b"
+    },
+    "ios-arm64_x86_64-simulator/opencv2.framework/Headers/core/matx.inl.hpp": {
+      "sha256": "010153afc595d6e58ba24949c85af8a6a2fc038d52ec054a35ae9eed8a97980d"
+    },
+    "ios-arm64_x86_64-simulator/opencv2.framework/Headers/core/neon_utils.hpp": {
+      "sha256": "ac4f537960e50684671ca6a4b95c1eb6db5ba05e8d9f42f66b930ac8702ae7f9"
+    },
+    "ios-arm64_x86_64-simulator/opencv2.framework/Headers/core/operations.hpp": {
+      "sha256": "3900e92391bf28dac5b7118a1daa5839bfaf7c9cf60526b91b66e6c128b08205"
+    },
+    "ios-arm64_x86_64-simulator/opencv2.framework/Headers/core/optim.hpp": {
+      "sha256": "acfc26fa3409d2c7dc897fc816a6eab67554414a514a1a062de68a68cb351e80"
+    },
+    "ios-arm64_x86_64-simulator/opencv2.framework/Headers/core/parallel/backend/parallel_for.openmp.hpp": {
+      "sha256": "903d8ba56eae3158e816522c5a816e9e9811e41c62e812a34bbf1dbfde81132e"
+    },
+    "ios-arm64_x86_64-simulator/opencv2.framework/Headers/core/parallel/backend/parallel_for.tbb.hpp": {
+      "sha256": "af6dd3c7162df172e8462b8c697f2fcddf2af1777f98a993ab3be8b33fb58b7e"
+    },
+    "ios-arm64_x86_64-simulator/opencv2.framework/Headers/core/parallel/parallel_backend.hpp": {
+      "sha256": "79c71d6191b0931cb1db9931ca4ecaa156cfec83bc6e4e71b8407722ed3d7194"
+    },
+    "ios-arm64_x86_64-simulator/opencv2.framework/Headers/core/persistence.hpp": {
+      "sha256": "992e7d7575fd671302b2beb9600a99e380485797aa6448bdbaa81d8c66b524b8"
+    },
+    "ios-arm64_x86_64-simulator/opencv2.framework/Headers/core/quaternion.hpp": {
+      "sha256": "6ff8d3b19489c4b69345806b65e82770829ecca8604d96b421a27f3a30ca05d1"
+    },
+    "ios-arm64_x86_64-simulator/opencv2.framework/Headers/core/quaternion.inl.hpp": {
+      "sha256": "dff743f883e47035d84e52058cb9bca9fbf5d615e35bf3923097164263d6a164"
+    },
+    "ios-arm64_x86_64-simulator/opencv2.framework/Headers/core/saturate.hpp": {
+      "sha256": "bf418a3f44d575b17c18af968dbe3e2c8bd0663c22f8dcb53c4b0f77b5db14ba"
+    },
+    "ios-arm64_x86_64-simulator/opencv2.framework/Headers/core/simd_intrinsics.hpp": {
+      "sha256": "ac81c6962c8b5679dfb63fe06487c27ae197946b66b1df90ad46e410a11a5a20"
+    },
+    "ios-arm64_x86_64-simulator/opencv2.framework/Headers/core/softfloat.hpp": {
+      "sha256": "43c01ea3c1b3f99352437dddaca1b9b862e9d9b734c7a901f63abad5b28e3412"
+    },
+    "ios-arm64_x86_64-simulator/opencv2.framework/Headers/core/sse_utils.hpp": {
+      "sha256": "2d9f170fdecb359c434387e6379fe5f16f9ffc77ef8dc4ba111ca517c3359023"
+    },
+    "ios-arm64_x86_64-simulator/opencv2.framework/Headers/core/traits.hpp": {
+      "sha256": "6c45b2ee5137464ab4080063e38b68a6c5ac8b415e04aee8cb5c634b5dcc9861"
+    },
+    "ios-arm64_x86_64-simulator/opencv2.framework/Headers/core/types.hpp": {
+      "sha256": "19d8ae6170f3b6f38f545768a24c922a50774c23eeebc11e39f7c6a1f5726f08"
+    },
+    "ios-arm64_x86_64-simulator/opencv2.framework/Headers/core/types_c.h": {
+      "sha256": "0bab108b55e64c5f7b6a1faa3d8eb655591321efd7b30dc0a663201531f48900"
+    },
+    "ios-arm64_x86_64-simulator/opencv2.framework/Headers/core/utility.hpp": {
+      "sha256": "e5b9e25e349f121c3d3f2347c48afef5d18a8c7c4124acee833c0e04b9c270b0"
+    },
+    "ios-arm64_x86_64-simulator/opencv2.framework/Headers/core/utils/allocator_stats.hpp": {
+      "sha256": "260d7dff55a04646ae7f78bfe7af249fe2bbe368add0c934cad108703dbb56c1"
+    },
+    "ios-arm64_x86_64-simulator/opencv2.framework/Headers/core/utils/allocator_stats.impl.hpp": {
+      "sha256": "62b1f1d878926e7ce8fa323a75a5e8cdb184fd0c6261890963fd82dc9c26c874"
+    },
+    "ios-arm64_x86_64-simulator/opencv2.framework/Headers/core/utils/filesystem.hpp": {
+      "sha256": "584606928e15cdfa0846f97a4f1922860b6f193e0bc3e9f15bd58796edb10b86"
+    },
+    "ios-arm64_x86_64-simulator/opencv2.framework/Headers/core/utils/fp_control_utils.hpp": {
+      "sha256": "2565900dff6e97772c2cb1434b8d136df85446e4596a708d73ae14f3cae9a8d8"
+    },
+    "ios-arm64_x86_64-simulator/opencv2.framework/Headers/core/utils/instrumentation.hpp": {
+      "sha256": "dcb6a1ae866d143f400f844a4761b52f64429342a7511d1f6402b87105511e9d"
+    },
+    "ios-arm64_x86_64-simulator/opencv2.framework/Headers/core/utils/logger.defines.hpp": {
+      "sha256": "03bc3fd53608846ee3ad1b1feeeb97ac68e9758f4ceb5827ecca87c58204304c"
+    },
+    "ios-arm64_x86_64-simulator/opencv2.framework/Headers/core/utils/logger.hpp": {
+      "sha256": "139133ff707a0fb31bb201dfa34a1630d14ac02176272b241e2d1b6a1379b470"
+    },
+    "ios-arm64_x86_64-simulator/opencv2.framework/Headers/core/utils/logtag.hpp": {
+      "sha256": "1ab5f6f986e02af6aec74d7881ce0676dd82b215c4a5b33087f7e8010a1808b5"
+    },
+    "ios-arm64_x86_64-simulator/opencv2.framework/Headers/core/utils/tls.hpp": {
+      "sha256": "3b3261c3900c2d1ab82496b6722979996cb899f3110492d7177651790b6f9aef"
+    },
+    "ios-arm64_x86_64-simulator/opencv2.framework/Headers/core/utils/trace.hpp": {
+      "sha256": "0f0d8b3b0c68c871d026a95c549110e4438f8b349c42864ac7f49a9b5fe72066"
+    },
+    "ios-arm64_x86_64-simulator/opencv2.framework/Headers/core/version.hpp": {
+      "sha256": "aa6df48dc2a1807bf2a1decb21d8917f18632ef4c0f6f87e3a31a62f7ebf7555"
+    },
+    "ios-arm64_x86_64-simulator/opencv2.framework/Headers/core/vsx_utils.hpp": {
+      "sha256": "4c0a89863f2147258a09ed9e4f295aff35bef9e9677e8bb2f73af23cca83885d"
+    },
+    "ios-arm64_x86_64-simulator/opencv2.framework/Headers/core.hpp": {
+      "sha256": "7ed046d89c1287c5c687e92b36be8dd42720822634e50d0504ee1a4efc1424fd"
+    },
+    "ios-arm64_x86_64-simulator/opencv2.framework/Headers/cvconfig.h": {
+      "sha256": "754c031c11644a993792b8b26dad561ce6073b0a3fb63ca56624f13382dd922a"
+    },
+    "ios-arm64_x86_64-simulator/opencv2.framework/Headers/dnn/dnn.hpp": {
+      "sha256": "32aed1c0b211e1923ee325decd516eeb4435db6f8ce6a37af64186f364ca9bd1"
+    },
+    "ios-arm64_x86_64-simulator/opencv2.framework/Headers/dnn.hpp": {
+      "sha256": "c6df8ef0fc5e8bd2bfcebb52410d8e0989d3013fb75d0502c3d2ed9436cadca2"
+    },
+    "ios-arm64_x86_64-simulator/opencv2.framework/Headers/features2d/features2d.hpp": {
+      "sha256": "7a8c4b882ff82ee8d8aa892dccb13e26a0a091a18eadf17c64951490ee302689"
+    },
+    "ios-arm64_x86_64-simulator/opencv2.framework/Headers/features2d/hal/interface.h": {
+      "sha256": "4fe9c4fa48d06743b83af7f3b7cc4c66da1fa7d6c94a927381827e72454c77d3"
+    },
+    "ios-arm64_x86_64-simulator/opencv2.framework/Headers/features2d.hpp": {
+      "sha256": "fe724c64b37dae282ae38abae1accf9697146231ef76170287454ecbb0e9e69c"
+    },
+    "ios-arm64_x86_64-simulator/opencv2.framework/Headers/highgui/highgui.hpp": {
+      "sha256": "2d167454cf33c9605b3b94e25294d3d78fbd1f046d5998b77f89c9e849e4cd1e"
+    },
+    "ios-arm64_x86_64-simulator/opencv2.framework/Headers/highgui.hpp": {
+      "sha256": "be45cb0518457f06ab188712c7d6cb8fd53297581940ac47d1b5974e652e300a"
+    },
+    "ios-arm64_x86_64-simulator/opencv2.framework/Headers/imgproc/bindings.hpp": {
+      "sha256": "f65b79fb4d9e7abcd8aa9bb8bcc2a3410c42dae8f729b8679a71bb85c7b85ee0"
+    },
+    "ios-arm64_x86_64-simulator/opencv2.framework/Headers/imgproc/detail/gcgraph.hpp": {
+      "sha256": "e9e67386e93dd84a428af70e31313a0240a4df982f6c184d50180d9d6c2ea2f9"
+    },
+    "ios-arm64_x86_64-simulator/opencv2.framework/Headers/imgproc/detail/legacy.hpp": {
+      "sha256": "625ce2e2c4abca32c44815e8ea6ea0d19c7d6f7db2cd142bd7e19b3770d953c4"
+    },
+    "ios-arm64_x86_64-simulator/opencv2.framework/Headers/imgproc/hal/hal.hpp": {
+      "sha256": "efecd002537f5d66489e05401dadca222785c8bd4c69d7d70e1e131fd69a0097"
+    },
+    "ios-arm64_x86_64-simulator/opencv2.framework/Headers/imgproc/hal/interface.h": {
+      "sha256": "27dd95facd92c6ca8e6fe4b981c51dbdb22b9dafba133cf2be0f5a03f5d8152e"
+    },
+    "ios-arm64_x86_64-simulator/opencv2.framework/Headers/imgproc/imgproc.hpp": {
+      "sha256": "f519aaf5d2676014d46f0f29719baaa98c14c84bcf2311c10325e210a4103e70"
+    },
+    "ios-arm64_x86_64-simulator/opencv2.framework/Headers/imgproc/imgproc_c.h": {
+      "sha256": "c0b4bd7f7769c966dbfada1d3ae65f8ce214fce1038339245a174ac40140ca77"
+    },
+    "ios-arm64_x86_64-simulator/opencv2.framework/Headers/imgproc/segmentation.hpp": {
+      "sha256": "1f27474710e792c7ff1f1a63bac86876f53ceb0f648d32eb30b99e67d3dd5fdf"
+    },
+    "ios-arm64_x86_64-simulator/opencv2.framework/Headers/imgproc/types_c.h": {
+      "sha256": "c844682f2f7d8dcbce7acdac069b41203dd8a4309946b3d23dbe22663d74a012"
+    },
+    "ios-arm64_x86_64-simulator/opencv2.framework/Headers/imgproc.hpp": {
+      "sha256": "5ed21f51cd0086561edc1b3d8a16bd95b05b3f90e48664a4b5a379e0287554f2"
+    },
+    "ios-arm64_x86_64-simulator/opencv2.framework/Headers/opencv.hpp": {
+      "sha256": "37df4ccc15f8a6ed06e2099910c63e486841ddbd5bc2d303405bc34f8fd44b66"
+    },
+    "ios-arm64_x86_64-simulator/opencv2.framework/Headers/opencv_modules.hpp": {
+      "sha256": "85dd18fd030cbb21b43631cde2559efec6dbb3c67065caea48ff16769b9c9f1a"
+    },
+    "ios-arm64_x86_64-simulator/opencv2.framework/Headers/photo/legacy/constants_c.h": {
+      "sha256": "dd01c6afe89743ebfd863d7b8c17b80c7fa5c9f676ea69e372836cc26f0c0403"
+    },
+    "ios-arm64_x86_64-simulator/opencv2.framework/Headers/photo/photo.hpp": {
+      "sha256": "18b6aed6db6c14d4295e89f7c9bb8931c44320d97195921fff3c16ea4174d67f"
+    },
+    "ios-arm64_x86_64-simulator/opencv2.framework/Headers/photo.hpp": {
+      "sha256": "065317df350d13ec1eddb3e153a2836b2ac0d554eb5ff5a564f2224e0d26c945"
+    },
+    "ios-arm64_x86_64-simulator/opencv2.framework/Headers/video/background_segm.hpp": {
+      "sha256": "d7e52545ca5f968b1e4711054b50e32af92557d3aca8876e806482443c104a16"
+    },
+    "ios-arm64_x86_64-simulator/opencv2.framework/Headers/video/detail/tracking.detail.hpp": {
+      "sha256": "81f3eea460ec6c87e851435c0fedf38b4fe6a46f6982531cdac916e078255246"
+    },
+    "ios-arm64_x86_64-simulator/opencv2.framework/Headers/video/legacy/constants_c.h": {
+      "sha256": "5c523ca5b04e4bb98a1ef77c87ae0ca87b6a4f3142f28737ef50115abb326299"
+    },
+    "ios-arm64_x86_64-simulator/opencv2.framework/Headers/video/tracking.hpp": {
+      "sha256": "eec77538e88bd3bc5d7e6b9179a76d8886eac6f6bcd96fee2fed184a8855fe82"
+    },
+    "ios-arm64_x86_64-simulator/opencv2.framework/Headers/video/video.hpp": {
+      "sha256": "67e31defa256825bb977d4126d7b00f53c90cb49638b8a9e43ec121568167e36"
+    },
+    "ios-arm64_x86_64-simulator/opencv2.framework/Headers/video.hpp": {
+      "sha256": "5c1d80d5edbb3c681d4c17e01d34c541fa341f0a270ccd427e59601c5a4ed625"
+    },
+    "ios-arm64_x86_64-simulator/opencv2.framework/Headers/world.hpp": {
+      "sha256": "bd82d87fdd7cfc4bdcfa62e9941d5ed62c11ecd85ada486070cbc4299715a7ff"
+    },
+    "ios-arm64_x86_64-simulator/opencv2.framework/Info.plist": {
+      "sha256": "3e1d5d522bf62949c5a5c5c80d6dd193ab8ed8d9f058741b0d1083027bc25836"
+    },
+    "ios-arm64_x86_64-simulator/opencv2.framework/opencv2": {
+      "sha256": "4e9f98ed7bd874fa5a7b3ce308c4103782e139413f6c301fd30fc3ebcf9a6538"
+    },
+    "macos-arm64_x86_64/opencv2.framework/Headers": {
+      "symlink": "Versions/Current/Headers"
+    },
+    "macos-arm64_x86_64/opencv2.framework/Resources": {
+      "symlink": "Versions/Current/Resources"
+    },
+    "macos-arm64_x86_64/opencv2.framework/Versions/A/Headers/core/affine.hpp": {
+      "sha256": "f67b0e1a0d51ed1a0cb0f0010568a3c3649aa99ab51a0183e092858be6b00da4"
+    },
+    "macos-arm64_x86_64/opencv2.framework/Versions/A/Headers/core/async.hpp": {
+      "sha256": "4ebd7dec356441c35e53447f548cb4c1074d93109a92716ab570d40469992313"
+    },
+    "macos-arm64_x86_64/opencv2.framework/Versions/A/Headers/core/base.hpp": {
+      "sha256": "db611eaad4e4cef0247296f47cb32add35194d338f7fb3d3364c200cccb78b9d"
+    },
+    "macos-arm64_x86_64/opencv2.framework/Versions/A/Headers/core/bindings_utils.hpp": {
+      "sha256": "ecfed743e5c77e8c8062f981eeb7192af5329f92dcd8aecc91c648ec3b2e96f7"
+    },
+    "macos-arm64_x86_64/opencv2.framework/Versions/A/Headers/core/bufferpool.hpp": {
+      "sha256": "65dd904d4f15850ec23ad7531a8f431fd023c98c429adc59e00ae346c8976667"
+    },
+    "macos-arm64_x86_64/opencv2.framework/Versions/A/Headers/core/check.hpp": {
+      "sha256": "fb7cf749c4695f02cb311b198efa9823eac1f1e98831b776fe8ab5f976bea4d1"
+    },
+    "macos-arm64_x86_64/opencv2.framework/Versions/A/Headers/core/core.hpp": {
+      "sha256": "21a4ea4d80847984ef8eafe4746ecc18d5bcafd10564ce4c24e2416043d85798"
+    },
+    "macos-arm64_x86_64/opencv2.framework/Versions/A/Headers/core/core_c.h": {
+      "sha256": "7c5d2883897df0d8f86a322078c32132cf890a34f45fcdb9460f1bde84e97466"
+    },
+    "macos-arm64_x86_64/opencv2.framework/Versions/A/Headers/core/cv_cpu_dispatch.h": {
+      "sha256": "9bc32aba988a5412ff6590984bd5758a8613fe51891358d18be9f4e04ca30055"
+    },
+    "macos-arm64_x86_64/opencv2.framework/Versions/A/Headers/core/cv_cpu_helper.h": {
+      "sha256": "3dafd54f9adbdb9bd39b7ed81f4ea25eeb81117356e974fede4648ded4ad16a9"
+    },
+    "macos-arm64_x86_64/opencv2.framework/Versions/A/Headers/core/cvdef.h": {
+      "sha256": "8ca1520e205c3c26670a0e510a2371fe196c11687b92886e14962b423af341c9"
+    },
+    "macos-arm64_x86_64/opencv2.framework/Versions/A/Headers/core/cvstd.hpp": {
+      "sha256": "96a1ddefb0539061389be0704b554e5ab30f20132944485f4c70644ceeb4a0d2"
+    },
+    "macos-arm64_x86_64/opencv2.framework/Versions/A/Headers/core/cvstd.inl.hpp": {
+      "sha256": "3fb7d0328e9da0dd788528501dc7bbdceb5cfef83b49189952900e4652281a32"
+    },
+    "macos-arm64_x86_64/opencv2.framework/Versions/A/Headers/core/cvstd_wrapper.hpp": {
+      "sha256": "babed4fc9c3d804502aa053c5add427600600f080984985812d8cce716b35ffa"
+    },
+    "macos-arm64_x86_64/opencv2.framework/Versions/A/Headers/core/detail/async_promise.hpp": {
+      "sha256": "84920f5944b2561b0f6da3784a5fd281aba39e8544651a7ac8a889e3509982f4"
+    },
+    "macos-arm64_x86_64/opencv2.framework/Versions/A/Headers/core/detail/dispatch_helper.impl.hpp": {
+      "sha256": "a6c812132580f4eaca6f35f2f19b32d40b24ef9ab0b75b51291c551c6b4224d9"
+    },
+    "macos-arm64_x86_64/opencv2.framework/Versions/A/Headers/core/detail/exception_ptr.hpp": {
+      "sha256": "30ae6e20abd03cf3621bfb392e7778aff8a90635bd4679e9f2e706c8c99b0986"
+    },
+    "macos-arm64_x86_64/opencv2.framework/Versions/A/Headers/core/dualquaternion.hpp": {
+      "sha256": "ed725cacbb20ca9b17c72256504ec74d270bcf44559952508392d7b69764f1ad"
+    },
+    "macos-arm64_x86_64/opencv2.framework/Versions/A/Headers/core/dualquaternion.inl.hpp": {
+      "sha256": "1b6b478123cd15b7f24f2f3399d5c9199f7af979d9b57f0b0265a02cd4279484"
+    },
+    "macos-arm64_x86_64/opencv2.framework/Versions/A/Headers/core/eigen.hpp": {
+      "sha256": "fb98669a1bf5b6ab3c31ed3479663d0608131bc9af743f7b7e868640b3428485"
+    },
+    "macos-arm64_x86_64/opencv2.framework/Versions/A/Headers/core/fast_math.hpp": {
+      "sha256": "81719ea26aef77deda817c751a90b7c61049821aaf67e915654b2305caaa942d"
+    },
+    "macos-arm64_x86_64/opencv2.framework/Versions/A/Headers/core/hal/hal.hpp": {
+      "sha256": "0f8eadf8fd6899858ab46db329ba94770160ecf9cd8ac897dece8c6884c8d521"
+    },
+    "macos-arm64_x86_64/opencv2.framework/Versions/A/Headers/core/hal/interface.h": {
+      "sha256": "bd11814cfd2c331eaa93b42d80a0911a4916f6afa99907f332fe8f641098eb43"
+    },
+    "macos-arm64_x86_64/opencv2.framework/Versions/A/Headers/core/hal/intrin.hpp": {
+      "sha256": "eeb3be550b8d7f6492c762bcefeb2e8fe5c9c0628ccb09f2ded7f1b2f34d6aa3"
+    },
+    "macos-arm64_x86_64/opencv2.framework/Versions/A/Headers/core/hal/intrin_avx.hpp": {
+      "sha256": "a94f0297f74c4081a341d27eace3e000f6720d2419df890ffbeeccf2174d37aa"
+    },
+    "macos-arm64_x86_64/opencv2.framework/Versions/A/Headers/core/hal/intrin_avx512.hpp": {
+      "sha256": "b7fd72f1e96a00370e1096a1d61f75f6bf0355d9f2b1fff2bca64affac7aa23e"
+    },
+    "macos-arm64_x86_64/opencv2.framework/Versions/A/Headers/core/hal/intrin_cpp.hpp": {
+      "sha256": "c0f491dd72e8bd5ae0cd31d650d283593cd74afa5ca113ba7c5bae716392d2c9"
+    },
+    "macos-arm64_x86_64/opencv2.framework/Versions/A/Headers/core/hal/intrin_forward.hpp": {
+      "sha256": "ad93e16fdad234aab37ccc96bd37768f213c6ee2fedb3c6309e1057307f621f2"
+    },
+    "macos-arm64_x86_64/opencv2.framework/Versions/A/Headers/core/hal/intrin_lasx.hpp": {
+      "sha256": "4d731ad3c689efea2905db049636adb3d48d5fdf3436cd1b61a3bd283ddaa023"
+    },
+    "macos-arm64_x86_64/opencv2.framework/Versions/A/Headers/core/hal/intrin_legacy_ops.h": {
+      "sha256": "9162fd638f6523412d095dc69bc67b5d5eb0b945c185003e67b0938a79c90686"
+    },
+    "macos-arm64_x86_64/opencv2.framework/Versions/A/Headers/core/hal/intrin_lsx.hpp": {
+      "sha256": "aa31563f0a5033495e27a5bab0cde7deda49bc2c039aeeabb4ae9ed1f68b172b"
+    },
+    "macos-arm64_x86_64/opencv2.framework/Versions/A/Headers/core/hal/intrin_math.hpp": {
+      "sha256": "8d6ed7f222d15da0d73080fe407d7e3f9809b3fc5c93222cbe320f9a9f794e5c"
+    },
+    "macos-arm64_x86_64/opencv2.framework/Versions/A/Headers/core/hal/intrin_msa.hpp": {
+      "sha256": "80dfbe94520016a6d10be1444c612cdb889d606ef6f016f2a693f215be289b09"
+    },
+    "macos-arm64_x86_64/opencv2.framework/Versions/A/Headers/core/hal/intrin_neon.hpp": {
+      "sha256": "fd562189af217d1d0529fdfcf18c80c849895aa7438dc8dbfbf0c027bf939f23"
+    },
+    "macos-arm64_x86_64/opencv2.framework/Versions/A/Headers/core/hal/intrin_rvv071.hpp": {
+      "sha256": "2ddc9c4978233a8fa09d7d990349723cf6ad627cdd967c27ad6765b4ede6528b"
+    },
+    "macos-arm64_x86_64/opencv2.framework/Versions/A/Headers/core/hal/intrin_rvv_scalable.hpp": {
+      "sha256": "60e6040f2fcb239699516073bf688d2fab522806d98c0bd364e4fe9f579ac2df"
+    },
+    "macos-arm64_x86_64/opencv2.framework/Versions/A/Headers/core/hal/intrin_sse.hpp": {
+      "sha256": "9ea43239afc6dd6915c37715074d8d6351a055b3890aa71fb644864dcb9ececd"
+    },
+    "macos-arm64_x86_64/opencv2.framework/Versions/A/Headers/core/hal/intrin_sse_em.hpp": {
+      "sha256": "9a8369d287ff500756fae5577f528c360f011e04e5a4a44f5af1d697b1d1442a"
+    },
+    "macos-arm64_x86_64/opencv2.framework/Versions/A/Headers/core/hal/intrin_vsx.hpp": {
+      "sha256": "aaec43fe948c55b3b31d730358d4b266f90aede3c262cff794c293a7370c13fe"
+    },
+    "macos-arm64_x86_64/opencv2.framework/Versions/A/Headers/core/hal/intrin_wasm.hpp": {
+      "sha256": "4c63d4c9717d6c75261415c197a7b0912dd848eefa8d13fc87ad306d60ce9656"
+    },
+    "macos-arm64_x86_64/opencv2.framework/Versions/A/Headers/core/hal/msa_macros.h": {
+      "sha256": "bf5842830c95304950487c93f9f8ec5ac29ad659a316fb2ea80407229ee2a6e0"
+    },
+    "macos-arm64_x86_64/opencv2.framework/Versions/A/Headers/core/hal/simd_utils.impl.hpp": {
+      "sha256": "a7416b4d5fc41cd2df66f4fdb36a0a85374d79de3dc5d8fb38ce40be049ff772"
+    },
+    "macos-arm64_x86_64/opencv2.framework/Versions/A/Headers/core/mat.hpp": {
+      "sha256": "1cd4e67e4b4bf466307c47ad4f8166faa8175ac4f812e00167d253f04dc845f3"
+    },
+    "macos-arm64_x86_64/opencv2.framework/Versions/A/Headers/core/mat.inl.hpp": {
+      "sha256": "4ff08f17c7d7a85411d5d694a405190ed35d71a15dc02af9d161cdac9771d24b"
+    },
+    "macos-arm64_x86_64/opencv2.framework/Versions/A/Headers/core/matx.hpp": {
+      "sha256": "086ceebe87ed54c98155bfff778f02305697dc7cd9d10449f2f21a482023872b"
+    },
+    "macos-arm64_x86_64/opencv2.framework/Versions/A/Headers/core/matx.inl.hpp": {
+      "sha256": "010153afc595d6e58ba24949c85af8a6a2fc038d52ec054a35ae9eed8a97980d"
+    },
+    "macos-arm64_x86_64/opencv2.framework/Versions/A/Headers/core/neon_utils.hpp": {
+      "sha256": "ac4f537960e50684671ca6a4b95c1eb6db5ba05e8d9f42f66b930ac8702ae7f9"
+    },
+    "macos-arm64_x86_64/opencv2.framework/Versions/A/Headers/core/operations.hpp": {
+      "sha256": "3900e92391bf28dac5b7118a1daa5839bfaf7c9cf60526b91b66e6c128b08205"
+    },
+    "macos-arm64_x86_64/opencv2.framework/Versions/A/Headers/core/optim.hpp": {
+      "sha256": "acfc26fa3409d2c7dc897fc816a6eab67554414a514a1a062de68a68cb351e80"
+    },
+    "macos-arm64_x86_64/opencv2.framework/Versions/A/Headers/core/parallel/backend/parallel_for.openmp.hpp": {
+      "sha256": "903d8ba56eae3158e816522c5a816e9e9811e41c62e812a34bbf1dbfde81132e"
+    },
+    "macos-arm64_x86_64/opencv2.framework/Versions/A/Headers/core/parallel/backend/parallel_for.tbb.hpp": {
+      "sha256": "af6dd3c7162df172e8462b8c697f2fcddf2af1777f98a993ab3be8b33fb58b7e"
+    },
+    "macos-arm64_x86_64/opencv2.framework/Versions/A/Headers/core/parallel/parallel_backend.hpp": {
+      "sha256": "79c71d6191b0931cb1db9931ca4ecaa156cfec83bc6e4e71b8407722ed3d7194"
+    },
+    "macos-arm64_x86_64/opencv2.framework/Versions/A/Headers/core/persistence.hpp": {
+      "sha256": "992e7d7575fd671302b2beb9600a99e380485797aa6448bdbaa81d8c66b524b8"
+    },
+    "macos-arm64_x86_64/opencv2.framework/Versions/A/Headers/core/quaternion.hpp": {
+      "sha256": "6ff8d3b19489c4b69345806b65e82770829ecca8604d96b421a27f3a30ca05d1"
+    },
+    "macos-arm64_x86_64/opencv2.framework/Versions/A/Headers/core/quaternion.inl.hpp": {
+      "sha256": "dff743f883e47035d84e52058cb9bca9fbf5d615e35bf3923097164263d6a164"
+    },
+    "macos-arm64_x86_64/opencv2.framework/Versions/A/Headers/core/saturate.hpp": {
+      "sha256": "bf418a3f44d575b17c18af968dbe3e2c8bd0663c22f8dcb53c4b0f77b5db14ba"
+    },
+    "macos-arm64_x86_64/opencv2.framework/Versions/A/Headers/core/simd_intrinsics.hpp": {
+      "sha256": "ac81c6962c8b5679dfb63fe06487c27ae197946b66b1df90ad46e410a11a5a20"
+    },
+    "macos-arm64_x86_64/opencv2.framework/Versions/A/Headers/core/softfloat.hpp": {
+      "sha256": "43c01ea3c1b3f99352437dddaca1b9b862e9d9b734c7a901f63abad5b28e3412"
+    },
+    "macos-arm64_x86_64/opencv2.framework/Versions/A/Headers/core/sse_utils.hpp": {
+      "sha256": "2d9f170fdecb359c434387e6379fe5f16f9ffc77ef8dc4ba111ca517c3359023"
+    },
+    "macos-arm64_x86_64/opencv2.framework/Versions/A/Headers/core/traits.hpp": {
+      "sha256": "6c45b2ee5137464ab4080063e38b68a6c5ac8b415e04aee8cb5c634b5dcc9861"
+    },
+    "macos-arm64_x86_64/opencv2.framework/Versions/A/Headers/core/types.hpp": {
+      "sha256": "19d8ae6170f3b6f38f545768a24c922a50774c23eeebc11e39f7c6a1f5726f08"
+    },
+    "macos-arm64_x86_64/opencv2.framework/Versions/A/Headers/core/types_c.h": {
+      "sha256": "0bab108b55e64c5f7b6a1faa3d8eb655591321efd7b30dc0a663201531f48900"
+    },
+    "macos-arm64_x86_64/opencv2.framework/Versions/A/Headers/core/utility.hpp": {
+      "sha256": "e5b9e25e349f121c3d3f2347c48afef5d18a8c7c4124acee833c0e04b9c270b0"
+    },
+    "macos-arm64_x86_64/opencv2.framework/Versions/A/Headers/core/utils/allocator_stats.hpp": {
+      "sha256": "260d7dff55a04646ae7f78bfe7af249fe2bbe368add0c934cad108703dbb56c1"
+    },
+    "macos-arm64_x86_64/opencv2.framework/Versions/A/Headers/core/utils/allocator_stats.impl.hpp": {
+      "sha256": "62b1f1d878926e7ce8fa323a75a5e8cdb184fd0c6261890963fd82dc9c26c874"
+    },
+    "macos-arm64_x86_64/opencv2.framework/Versions/A/Headers/core/utils/filesystem.hpp": {
+      "sha256": "584606928e15cdfa0846f97a4f1922860b6f193e0bc3e9f15bd58796edb10b86"
+    },
+    "macos-arm64_x86_64/opencv2.framework/Versions/A/Headers/core/utils/fp_control_utils.hpp": {
+      "sha256": "2565900dff6e97772c2cb1434b8d136df85446e4596a708d73ae14f3cae9a8d8"
+    },
+    "macos-arm64_x86_64/opencv2.framework/Versions/A/Headers/core/utils/instrumentation.hpp": {
+      "sha256": "dcb6a1ae866d143f400f844a4761b52f64429342a7511d1f6402b87105511e9d"
+    },
+    "macos-arm64_x86_64/opencv2.framework/Versions/A/Headers/core/utils/logger.defines.hpp": {
+      "sha256": "03bc3fd53608846ee3ad1b1feeeb97ac68e9758f4ceb5827ecca87c58204304c"
+    },
+    "macos-arm64_x86_64/opencv2.framework/Versions/A/Headers/core/utils/logger.hpp": {
+      "sha256": "139133ff707a0fb31bb201dfa34a1630d14ac02176272b241e2d1b6a1379b470"
+    },
+    "macos-arm64_x86_64/opencv2.framework/Versions/A/Headers/core/utils/logtag.hpp": {
+      "sha256": "1ab5f6f986e02af6aec74d7881ce0676dd82b215c4a5b33087f7e8010a1808b5"
+    },
+    "macos-arm64_x86_64/opencv2.framework/Versions/A/Headers/core/utils/tls.hpp": {
+      "sha256": "3b3261c3900c2d1ab82496b6722979996cb899f3110492d7177651790b6f9aef"
+    },
+    "macos-arm64_x86_64/opencv2.framework/Versions/A/Headers/core/utils/trace.hpp": {
+      "sha256": "0f0d8b3b0c68c871d026a95c549110e4438f8b349c42864ac7f49a9b5fe72066"
+    },
+    "macos-arm64_x86_64/opencv2.framework/Versions/A/Headers/core/version.hpp": {
+      "sha256": "aa6df48dc2a1807bf2a1decb21d8917f18632ef4c0f6f87e3a31a62f7ebf7555"
+    },
+    "macos-arm64_x86_64/opencv2.framework/Versions/A/Headers/core/vsx_utils.hpp": {
+      "sha256": "4c0a89863f2147258a09ed9e4f295aff35bef9e9677e8bb2f73af23cca83885d"
+    },
+    "macos-arm64_x86_64/opencv2.framework/Versions/A/Headers/core.hpp": {
+      "sha256": "7ed046d89c1287c5c687e92b36be8dd42720822634e50d0504ee1a4efc1424fd"
+    },
+    "macos-arm64_x86_64/opencv2.framework/Versions/A/Headers/cvconfig.h": {
+      "sha256": "8df97e9d3e6a4de501197ab8a9d9bbdaf54303e248e47b6fe994cdbbb5653b64"
+    },
+    "macos-arm64_x86_64/opencv2.framework/Versions/A/Headers/dnn/dnn.hpp": {
+      "sha256": "32aed1c0b211e1923ee325decd516eeb4435db6f8ce6a37af64186f364ca9bd1"
+    },
+    "macos-arm64_x86_64/opencv2.framework/Versions/A/Headers/dnn.hpp": {
+      "sha256": "c6df8ef0fc5e8bd2bfcebb52410d8e0989d3013fb75d0502c3d2ed9436cadca2"
+    },
+    "macos-arm64_x86_64/opencv2.framework/Versions/A/Headers/features2d/features2d.hpp": {
+      "sha256": "7a8c4b882ff82ee8d8aa892dccb13e26a0a091a18eadf17c64951490ee302689"
+    },
+    "macos-arm64_x86_64/opencv2.framework/Versions/A/Headers/features2d/hal/interface.h": {
+      "sha256": "4fe9c4fa48d06743b83af7f3b7cc4c66da1fa7d6c94a927381827e72454c77d3"
+    },
+    "macos-arm64_x86_64/opencv2.framework/Versions/A/Headers/features2d.hpp": {
+      "sha256": "fe724c64b37dae282ae38abae1accf9697146231ef76170287454ecbb0e9e69c"
+    },
+    "macos-arm64_x86_64/opencv2.framework/Versions/A/Headers/highgui/highgui.hpp": {
+      "sha256": "2d167454cf33c9605b3b94e25294d3d78fbd1f046d5998b77f89c9e849e4cd1e"
+    },
+    "macos-arm64_x86_64/opencv2.framework/Versions/A/Headers/highgui.hpp": {
+      "sha256": "be45cb0518457f06ab188712c7d6cb8fd53297581940ac47d1b5974e652e300a"
+    },
+    "macos-arm64_x86_64/opencv2.framework/Versions/A/Headers/imgproc/bindings.hpp": {
+      "sha256": "f65b79fb4d9e7abcd8aa9bb8bcc2a3410c42dae8f729b8679a71bb85c7b85ee0"
+    },
+    "macos-arm64_x86_64/opencv2.framework/Versions/A/Headers/imgproc/detail/gcgraph.hpp": {
+      "sha256": "e9e67386e93dd84a428af70e31313a0240a4df982f6c184d50180d9d6c2ea2f9"
+    },
+    "macos-arm64_x86_64/opencv2.framework/Versions/A/Headers/imgproc/detail/legacy.hpp": {
+      "sha256": "625ce2e2c4abca32c44815e8ea6ea0d19c7d6f7db2cd142bd7e19b3770d953c4"
+    },
+    "macos-arm64_x86_64/opencv2.framework/Versions/A/Headers/imgproc/hal/hal.hpp": {
+      "sha256": "efecd002537f5d66489e05401dadca222785c8bd4c69d7d70e1e131fd69a0097"
+    },
+    "macos-arm64_x86_64/opencv2.framework/Versions/A/Headers/imgproc/hal/interface.h": {
+      "sha256": "27dd95facd92c6ca8e6fe4b981c51dbdb22b9dafba133cf2be0f5a03f5d8152e"
+    },
+    "macos-arm64_x86_64/opencv2.framework/Versions/A/Headers/imgproc/imgproc.hpp": {
+      "sha256": "f519aaf5d2676014d46f0f29719baaa98c14c84bcf2311c10325e210a4103e70"
+    },
+    "macos-arm64_x86_64/opencv2.framework/Versions/A/Headers/imgproc/imgproc_c.h": {
+      "sha256": "c0b4bd7f7769c966dbfada1d3ae65f8ce214fce1038339245a174ac40140ca77"
+    },
+    "macos-arm64_x86_64/opencv2.framework/Versions/A/Headers/imgproc/segmentation.hpp": {
+      "sha256": "1f27474710e792c7ff1f1a63bac86876f53ceb0f648d32eb30b99e67d3dd5fdf"
+    },
+    "macos-arm64_x86_64/opencv2.framework/Versions/A/Headers/imgproc/types_c.h": {
+      "sha256": "c844682f2f7d8dcbce7acdac069b41203dd8a4309946b3d23dbe22663d74a012"
+    },
+    "macos-arm64_x86_64/opencv2.framework/Versions/A/Headers/imgproc.hpp": {
+      "sha256": "5ed21f51cd0086561edc1b3d8a16bd95b05b3f90e48664a4b5a379e0287554f2"
+    },
+    "macos-arm64_x86_64/opencv2.framework/Versions/A/Headers/opencv.hpp": {
+      "sha256": "37df4ccc15f8a6ed06e2099910c63e486841ddbd5bc2d303405bc34f8fd44b66"
+    },
+    "macos-arm64_x86_64/opencv2.framework/Versions/A/Headers/opencv_modules.hpp": {
+      "sha256": "85dd18fd030cbb21b43631cde2559efec6dbb3c67065caea48ff16769b9c9f1a"
+    },
+    "macos-arm64_x86_64/opencv2.framework/Versions/A/Headers/photo/legacy/constants_c.h": {
+      "sha256": "dd01c6afe89743ebfd863d7b8c17b80c7fa5c9f676ea69e372836cc26f0c0403"
+    },
+    "macos-arm64_x86_64/opencv2.framework/Versions/A/Headers/photo/photo.hpp": {
+      "sha256": "18b6aed6db6c14d4295e89f7c9bb8931c44320d97195921fff3c16ea4174d67f"
+    },
+    "macos-arm64_x86_64/opencv2.framework/Versions/A/Headers/photo.hpp": {
+      "sha256": "065317df350d13ec1eddb3e153a2836b2ac0d554eb5ff5a564f2224e0d26c945"
+    },
+    "macos-arm64_x86_64/opencv2.framework/Versions/A/Headers/video/background_segm.hpp": {
+      "sha256": "d7e52545ca5f968b1e4711054b50e32af92557d3aca8876e806482443c104a16"
+    },
+    "macos-arm64_x86_64/opencv2.framework/Versions/A/Headers/video/detail/tracking.detail.hpp": {
+      "sha256": "81f3eea460ec6c87e851435c0fedf38b4fe6a46f6982531cdac916e078255246"
+    },
+    "macos-arm64_x86_64/opencv2.framework/Versions/A/Headers/video/legacy/constants_c.h": {
+      "sha256": "5c523ca5b04e4bb98a1ef77c87ae0ca87b6a4f3142f28737ef50115abb326299"
+    },
+    "macos-arm64_x86_64/opencv2.framework/Versions/A/Headers/video/tracking.hpp": {
+      "sha256": "eec77538e88bd3bc5d7e6b9179a76d8886eac6f6bcd96fee2fed184a8855fe82"
+    },
+    "macos-arm64_x86_64/opencv2.framework/Versions/A/Headers/video/video.hpp": {
+      "sha256": "67e31defa256825bb977d4126d7b00f53c90cb49638b8a9e43ec121568167e36"
+    },
+    "macos-arm64_x86_64/opencv2.framework/Versions/A/Headers/video.hpp": {
+      "sha256": "5c1d80d5edbb3c681d4c17e01d34c541fa341f0a270ccd427e59601c5a4ed625"
+    },
+    "macos-arm64_x86_64/opencv2.framework/Versions/A/Headers/world.hpp": {
+      "sha256": "bd82d87fdd7cfc4bdcfa62e9941d5ed62c11ecd85ada486070cbc4299715a7ff"
+    },
+    "macos-arm64_x86_64/opencv2.framework/Versions/A/Resources/Info.plist": {
+      "sha256": "30eb38c2dba2cd121206d07d20590889adaa2b71e34c50cd4f40c0ad3815b8ec"
+    },
+    "macos-arm64_x86_64/opencv2.framework/Versions/A/opencv2": {
+      "sha256": "7c26fb18553b68f6706d9801e9c56ba0ac35ba32698f2ba77be3ccf09e28cd17"
+    },
+    "macos-arm64_x86_64/opencv2.framework/Versions/Current": {
+      "symlink": "A"
+    },
+    "macos-arm64_x86_64/opencv2.framework/opencv2": {
+      "symlink": "Versions/Current/opencv2"
+    },
+    "tvos-arm64_arm64e/opencv2.framework/Headers/core/affine.hpp": {
+      "sha256": "f67b0e1a0d51ed1a0cb0f0010568a3c3649aa99ab51a0183e092858be6b00da4"
+    },
+    "tvos-arm64_arm64e/opencv2.framework/Headers/core/async.hpp": {
+      "sha256": "4ebd7dec356441c35e53447f548cb4c1074d93109a92716ab570d40469992313"
+    },
+    "tvos-arm64_arm64e/opencv2.framework/Headers/core/base.hpp": {
+      "sha256": "db611eaad4e4cef0247296f47cb32add35194d338f7fb3d3364c200cccb78b9d"
+    },
+    "tvos-arm64_arm64e/opencv2.framework/Headers/core/bindings_utils.hpp": {
+      "sha256": "ecfed743e5c77e8c8062f981eeb7192af5329f92dcd8aecc91c648ec3b2e96f7"
+    },
+    "tvos-arm64_arm64e/opencv2.framework/Headers/core/bufferpool.hpp": {
+      "sha256": "65dd904d4f15850ec23ad7531a8f431fd023c98c429adc59e00ae346c8976667"
+    },
+    "tvos-arm64_arm64e/opencv2.framework/Headers/core/check.hpp": {
+      "sha256": "fb7cf749c4695f02cb311b198efa9823eac1f1e98831b776fe8ab5f976bea4d1"
+    },
+    "tvos-arm64_arm64e/opencv2.framework/Headers/core/core.hpp": {
+      "sha256": "21a4ea4d80847984ef8eafe4746ecc18d5bcafd10564ce4c24e2416043d85798"
+    },
+    "tvos-arm64_arm64e/opencv2.framework/Headers/core/core_c.h": {
+      "sha256": "7c5d2883897df0d8f86a322078c32132cf890a34f45fcdb9460f1bde84e97466"
+    },
+    "tvos-arm64_arm64e/opencv2.framework/Headers/core/cv_cpu_dispatch.h": {
+      "sha256": "9bc32aba988a5412ff6590984bd5758a8613fe51891358d18be9f4e04ca30055"
+    },
+    "tvos-arm64_arm64e/opencv2.framework/Headers/core/cv_cpu_helper.h": {
+      "sha256": "3dafd54f9adbdb9bd39b7ed81f4ea25eeb81117356e974fede4648ded4ad16a9"
+    },
+    "tvos-arm64_arm64e/opencv2.framework/Headers/core/cvdef.h": {
+      "sha256": "8ca1520e205c3c26670a0e510a2371fe196c11687b92886e14962b423af341c9"
+    },
+    "tvos-arm64_arm64e/opencv2.framework/Headers/core/cvstd.hpp": {
+      "sha256": "96a1ddefb0539061389be0704b554e5ab30f20132944485f4c70644ceeb4a0d2"
+    },
+    "tvos-arm64_arm64e/opencv2.framework/Headers/core/cvstd.inl.hpp": {
+      "sha256": "3fb7d0328e9da0dd788528501dc7bbdceb5cfef83b49189952900e4652281a32"
+    },
+    "tvos-arm64_arm64e/opencv2.framework/Headers/core/cvstd_wrapper.hpp": {
+      "sha256": "babed4fc9c3d804502aa053c5add427600600f080984985812d8cce716b35ffa"
+    },
+    "tvos-arm64_arm64e/opencv2.framework/Headers/core/detail/async_promise.hpp": {
+      "sha256": "84920f5944b2561b0f6da3784a5fd281aba39e8544651a7ac8a889e3509982f4"
+    },
+    "tvos-arm64_arm64e/opencv2.framework/Headers/core/detail/dispatch_helper.impl.hpp": {
+      "sha256": "a6c812132580f4eaca6f35f2f19b32d40b24ef9ab0b75b51291c551c6b4224d9"
+    },
+    "tvos-arm64_arm64e/opencv2.framework/Headers/core/detail/exception_ptr.hpp": {
+      "sha256": "30ae6e20abd03cf3621bfb392e7778aff8a90635bd4679e9f2e706c8c99b0986"
+    },
+    "tvos-arm64_arm64e/opencv2.framework/Headers/core/dualquaternion.hpp": {
+      "sha256": "ed725cacbb20ca9b17c72256504ec74d270bcf44559952508392d7b69764f1ad"
+    },
+    "tvos-arm64_arm64e/opencv2.framework/Headers/core/dualquaternion.inl.hpp": {
+      "sha256": "1b6b478123cd15b7f24f2f3399d5c9199f7af979d9b57f0b0265a02cd4279484"
+    },
+    "tvos-arm64_arm64e/opencv2.framework/Headers/core/eigen.hpp": {
+      "sha256": "fb98669a1bf5b6ab3c31ed3479663d0608131bc9af743f7b7e868640b3428485"
+    },
+    "tvos-arm64_arm64e/opencv2.framework/Headers/core/fast_math.hpp": {
+      "sha256": "81719ea26aef77deda817c751a90b7c61049821aaf67e915654b2305caaa942d"
+    },
+    "tvos-arm64_arm64e/opencv2.framework/Headers/core/hal/hal.hpp": {
+      "sha256": "0f8eadf8fd6899858ab46db329ba94770160ecf9cd8ac897dece8c6884c8d521"
+    },
+    "tvos-arm64_arm64e/opencv2.framework/Headers/core/hal/interface.h": {
+      "sha256": "bd11814cfd2c331eaa93b42d80a0911a4916f6afa99907f332fe8f641098eb43"
+    },
+    "tvos-arm64_arm64e/opencv2.framework/Headers/core/hal/intrin.hpp": {
+      "sha256": "eeb3be550b8d7f6492c762bcefeb2e8fe5c9c0628ccb09f2ded7f1b2f34d6aa3"
+    },
+    "tvos-arm64_arm64e/opencv2.framework/Headers/core/hal/intrin_avx.hpp": {
+      "sha256": "a94f0297f74c4081a341d27eace3e000f6720d2419df890ffbeeccf2174d37aa"
+    },
+    "tvos-arm64_arm64e/opencv2.framework/Headers/core/hal/intrin_avx512.hpp": {
+      "sha256": "b7fd72f1e96a00370e1096a1d61f75f6bf0355d9f2b1fff2bca64affac7aa23e"
+    },
+    "tvos-arm64_arm64e/opencv2.framework/Headers/core/hal/intrin_cpp.hpp": {
+      "sha256": "c0f491dd72e8bd5ae0cd31d650d283593cd74afa5ca113ba7c5bae716392d2c9"
+    },
+    "tvos-arm64_arm64e/opencv2.framework/Headers/core/hal/intrin_forward.hpp": {
+      "sha256": "ad93e16fdad234aab37ccc96bd37768f213c6ee2fedb3c6309e1057307f621f2"
+    },
+    "tvos-arm64_arm64e/opencv2.framework/Headers/core/hal/intrin_lasx.hpp": {
+      "sha256": "4d731ad3c689efea2905db049636adb3d48d5fdf3436cd1b61a3bd283ddaa023"
+    },
+    "tvos-arm64_arm64e/opencv2.framework/Headers/core/hal/intrin_legacy_ops.h": {
+      "sha256": "9162fd638f6523412d095dc69bc67b5d5eb0b945c185003e67b0938a79c90686"
+    },
+    "tvos-arm64_arm64e/opencv2.framework/Headers/core/hal/intrin_lsx.hpp": {
+      "sha256": "aa31563f0a5033495e27a5bab0cde7deda49bc2c039aeeabb4ae9ed1f68b172b"
+    },
+    "tvos-arm64_arm64e/opencv2.framework/Headers/core/hal/intrin_math.hpp": {
+      "sha256": "8d6ed7f222d15da0d73080fe407d7e3f9809b3fc5c93222cbe320f9a9f794e5c"
+    },
+    "tvos-arm64_arm64e/opencv2.framework/Headers/core/hal/intrin_msa.hpp": {
+      "sha256": "80dfbe94520016a6d10be1444c612cdb889d606ef6f016f2a693f215be289b09"
+    },
+    "tvos-arm64_arm64e/opencv2.framework/Headers/core/hal/intrin_neon.hpp": {
+      "sha256": "fd562189af217d1d0529fdfcf18c80c849895aa7438dc8dbfbf0c027bf939f23"
+    },
+    "tvos-arm64_arm64e/opencv2.framework/Headers/core/hal/intrin_rvv071.hpp": {
+      "sha256": "2ddc9c4978233a8fa09d7d990349723cf6ad627cdd967c27ad6765b4ede6528b"
+    },
+    "tvos-arm64_arm64e/opencv2.framework/Headers/core/hal/intrin_rvv_scalable.hpp": {
+      "sha256": "60e6040f2fcb239699516073bf688d2fab522806d98c0bd364e4fe9f579ac2df"
+    },
+    "tvos-arm64_arm64e/opencv2.framework/Headers/core/hal/intrin_sse.hpp": {
+      "sha256": "9ea43239afc6dd6915c37715074d8d6351a055b3890aa71fb644864dcb9ececd"
+    },
+    "tvos-arm64_arm64e/opencv2.framework/Headers/core/hal/intrin_sse_em.hpp": {
+      "sha256": "9a8369d287ff500756fae5577f528c360f011e04e5a4a44f5af1d697b1d1442a"
+    },
+    "tvos-arm64_arm64e/opencv2.framework/Headers/core/hal/intrin_vsx.hpp": {
+      "sha256": "aaec43fe948c55b3b31d730358d4b266f90aede3c262cff794c293a7370c13fe"
+    },
+    "tvos-arm64_arm64e/opencv2.framework/Headers/core/hal/intrin_wasm.hpp": {
+      "sha256": "4c63d4c9717d6c75261415c197a7b0912dd848eefa8d13fc87ad306d60ce9656"
+    },
+    "tvos-arm64_arm64e/opencv2.framework/Headers/core/hal/msa_macros.h": {
+      "sha256": "bf5842830c95304950487c93f9f8ec5ac29ad659a316fb2ea80407229ee2a6e0"
+    },
+    "tvos-arm64_arm64e/opencv2.framework/Headers/core/hal/simd_utils.impl.hpp": {
+      "sha256": "a7416b4d5fc41cd2df66f4fdb36a0a85374d79de3dc5d8fb38ce40be049ff772"
+    },
+    "tvos-arm64_arm64e/opencv2.framework/Headers/core/mat.hpp": {
+      "sha256": "1cd4e67e4b4bf466307c47ad4f8166faa8175ac4f812e00167d253f04dc845f3"
+    },
+    "tvos-arm64_arm64e/opencv2.framework/Headers/core/mat.inl.hpp": {
+      "sha256": "4ff08f17c7d7a85411d5d694a405190ed35d71a15dc02af9d161cdac9771d24b"
+    },
+    "tvos-arm64_arm64e/opencv2.framework/Headers/core/matx.hpp": {
+      "sha256": "086ceebe87ed54c98155bfff778f02305697dc7cd9d10449f2f21a482023872b"
+    },
+    "tvos-arm64_arm64e/opencv2.framework/Headers/core/matx.inl.hpp": {
+      "sha256": "010153afc595d6e58ba24949c85af8a6a2fc038d52ec054a35ae9eed8a97980d"
+    },
+    "tvos-arm64_arm64e/opencv2.framework/Headers/core/neon_utils.hpp": {
+      "sha256": "ac4f537960e50684671ca6a4b95c1eb6db5ba05e8d9f42f66b930ac8702ae7f9"
+    },
+    "tvos-arm64_arm64e/opencv2.framework/Headers/core/operations.hpp": {
+      "sha256": "3900e92391bf28dac5b7118a1daa5839bfaf7c9cf60526b91b66e6c128b08205"
+    },
+    "tvos-arm64_arm64e/opencv2.framework/Headers/core/optim.hpp": {
+      "sha256": "acfc26fa3409d2c7dc897fc816a6eab67554414a514a1a062de68a68cb351e80"
+    },
+    "tvos-arm64_arm64e/opencv2.framework/Headers/core/parallel/backend/parallel_for.openmp.hpp": {
+      "sha256": "903d8ba56eae3158e816522c5a816e9e9811e41c62e812a34bbf1dbfde81132e"
+    },
+    "tvos-arm64_arm64e/opencv2.framework/Headers/core/parallel/backend/parallel_for.tbb.hpp": {
+      "sha256": "af6dd3c7162df172e8462b8c697f2fcddf2af1777f98a993ab3be8b33fb58b7e"
+    },
+    "tvos-arm64_arm64e/opencv2.framework/Headers/core/parallel/parallel_backend.hpp": {
+      "sha256": "79c71d6191b0931cb1db9931ca4ecaa156cfec83bc6e4e71b8407722ed3d7194"
+    },
+    "tvos-arm64_arm64e/opencv2.framework/Headers/core/persistence.hpp": {
+      "sha256": "992e7d7575fd671302b2beb9600a99e380485797aa6448bdbaa81d8c66b524b8"
+    },
+    "tvos-arm64_arm64e/opencv2.framework/Headers/core/quaternion.hpp": {
+      "sha256": "6ff8d3b19489c4b69345806b65e82770829ecca8604d96b421a27f3a30ca05d1"
+    },
+    "tvos-arm64_arm64e/opencv2.framework/Headers/core/quaternion.inl.hpp": {
+      "sha256": "dff743f883e47035d84e52058cb9bca9fbf5d615e35bf3923097164263d6a164"
+    },
+    "tvos-arm64_arm64e/opencv2.framework/Headers/core/saturate.hpp": {
+      "sha256": "bf418a3f44d575b17c18af968dbe3e2c8bd0663c22f8dcb53c4b0f77b5db14ba"
+    },
+    "tvos-arm64_arm64e/opencv2.framework/Headers/core/simd_intrinsics.hpp": {
+      "sha256": "ac81c6962c8b5679dfb63fe06487c27ae197946b66b1df90ad46e410a11a5a20"
+    },
+    "tvos-arm64_arm64e/opencv2.framework/Headers/core/softfloat.hpp": {
+      "sha256": "43c01ea3c1b3f99352437dddaca1b9b862e9d9b734c7a901f63abad5b28e3412"
+    },
+    "tvos-arm64_arm64e/opencv2.framework/Headers/core/sse_utils.hpp": {
+      "sha256": "2d9f170fdecb359c434387e6379fe5f16f9ffc77ef8dc4ba111ca517c3359023"
+    },
+    "tvos-arm64_arm64e/opencv2.framework/Headers/core/traits.hpp": {
+      "sha256": "6c45b2ee5137464ab4080063e38b68a6c5ac8b415e04aee8cb5c634b5dcc9861"
+    },
+    "tvos-arm64_arm64e/opencv2.framework/Headers/core/types.hpp": {
+      "sha256": "19d8ae6170f3b6f38f545768a24c922a50774c23eeebc11e39f7c6a1f5726f08"
+    },
+    "tvos-arm64_arm64e/opencv2.framework/Headers/core/types_c.h": {
+      "sha256": "0bab108b55e64c5f7b6a1faa3d8eb655591321efd7b30dc0a663201531f48900"
+    },
+    "tvos-arm64_arm64e/opencv2.framework/Headers/core/utility.hpp": {
+      "sha256": "e5b9e25e349f121c3d3f2347c48afef5d18a8c7c4124acee833c0e04b9c270b0"
+    },
+    "tvos-arm64_arm64e/opencv2.framework/Headers/core/utils/allocator_stats.hpp": {
+      "sha256": "260d7dff55a04646ae7f78bfe7af249fe2bbe368add0c934cad108703dbb56c1"
+    },
+    "tvos-arm64_arm64e/opencv2.framework/Headers/core/utils/allocator_stats.impl.hpp": {
+      "sha256": "62b1f1d878926e7ce8fa323a75a5e8cdb184fd0c6261890963fd82dc9c26c874"
+    },
+    "tvos-arm64_arm64e/opencv2.framework/Headers/core/utils/filesystem.hpp": {
+      "sha256": "584606928e15cdfa0846f97a4f1922860b6f193e0bc3e9f15bd58796edb10b86"
+    },
+    "tvos-arm64_arm64e/opencv2.framework/Headers/core/utils/fp_control_utils.hpp": {
+      "sha256": "2565900dff6e97772c2cb1434b8d136df85446e4596a708d73ae14f3cae9a8d8"
+    },
+    "tvos-arm64_arm64e/opencv2.framework/Headers/core/utils/instrumentation.hpp": {
+      "sha256": "dcb6a1ae866d143f400f844a4761b52f64429342a7511d1f6402b87105511e9d"
+    },
+    "tvos-arm64_arm64e/opencv2.framework/Headers/core/utils/logger.defines.hpp": {
+      "sha256": "03bc3fd53608846ee3ad1b1feeeb97ac68e9758f4ceb5827ecca87c58204304c"
+    },
+    "tvos-arm64_arm64e/opencv2.framework/Headers/core/utils/logger.hpp": {
+      "sha256": "139133ff707a0fb31bb201dfa34a1630d14ac02176272b241e2d1b6a1379b470"
+    },
+    "tvos-arm64_arm64e/opencv2.framework/Headers/core/utils/logtag.hpp": {
+      "sha256": "1ab5f6f986e02af6aec74d7881ce0676dd82b215c4a5b33087f7e8010a1808b5"
+    },
+    "tvos-arm64_arm64e/opencv2.framework/Headers/core/utils/tls.hpp": {
+      "sha256": "3b3261c3900c2d1ab82496b6722979996cb899f3110492d7177651790b6f9aef"
+    },
+    "tvos-arm64_arm64e/opencv2.framework/Headers/core/utils/trace.hpp": {
+      "sha256": "0f0d8b3b0c68c871d026a95c549110e4438f8b349c42864ac7f49a9b5fe72066"
+    },
+    "tvos-arm64_arm64e/opencv2.framework/Headers/core/version.hpp": {
+      "sha256": "aa6df48dc2a1807bf2a1decb21d8917f18632ef4c0f6f87e3a31a62f7ebf7555"
+    },
+    "tvos-arm64_arm64e/opencv2.framework/Headers/core/vsx_utils.hpp": {
+      "sha256": "4c0a89863f2147258a09ed9e4f295aff35bef9e9677e8bb2f73af23cca83885d"
+    },
+    "tvos-arm64_arm64e/opencv2.framework/Headers/core.hpp": {
+      "sha256": "7ed046d89c1287c5c687e92b36be8dd42720822634e50d0504ee1a4efc1424fd"
+    },
+    "tvos-arm64_arm64e/opencv2.framework/Headers/cvconfig.h": {
+      "sha256": "754c031c11644a993792b8b26dad561ce6073b0a3fb63ca56624f13382dd922a"
+    },
+    "tvos-arm64_arm64e/opencv2.framework/Headers/dnn/dnn.hpp": {
+      "sha256": "32aed1c0b211e1923ee325decd516eeb4435db6f8ce6a37af64186f364ca9bd1"
+    },
+    "tvos-arm64_arm64e/opencv2.framework/Headers/dnn.hpp": {
+      "sha256": "c6df8ef0fc5e8bd2bfcebb52410d8e0989d3013fb75d0502c3d2ed9436cadca2"
+    },
+    "tvos-arm64_arm64e/opencv2.framework/Headers/features2d/features2d.hpp": {
+      "sha256": "7a8c4b882ff82ee8d8aa892dccb13e26a0a091a18eadf17c64951490ee302689"
+    },
+    "tvos-arm64_arm64e/opencv2.framework/Headers/features2d/hal/interface.h": {
+      "sha256": "4fe9c4fa48d06743b83af7f3b7cc4c66da1fa7d6c94a927381827e72454c77d3"
+    },
+    "tvos-arm64_arm64e/opencv2.framework/Headers/features2d.hpp": {
+      "sha256": "fe724c64b37dae282ae38abae1accf9697146231ef76170287454ecbb0e9e69c"
+    },
+    "tvos-arm64_arm64e/opencv2.framework/Headers/highgui/highgui.hpp": {
+      "sha256": "2d167454cf33c9605b3b94e25294d3d78fbd1f046d5998b77f89c9e849e4cd1e"
+    },
+    "tvos-arm64_arm64e/opencv2.framework/Headers/highgui.hpp": {
+      "sha256": "be45cb0518457f06ab188712c7d6cb8fd53297581940ac47d1b5974e652e300a"
+    },
+    "tvos-arm64_arm64e/opencv2.framework/Headers/imgproc/bindings.hpp": {
+      "sha256": "f65b79fb4d9e7abcd8aa9bb8bcc2a3410c42dae8f729b8679a71bb85c7b85ee0"
+    },
+    "tvos-arm64_arm64e/opencv2.framework/Headers/imgproc/detail/gcgraph.hpp": {
+      "sha256": "e9e67386e93dd84a428af70e31313a0240a4df982f6c184d50180d9d6c2ea2f9"
+    },
+    "tvos-arm64_arm64e/opencv2.framework/Headers/imgproc/detail/legacy.hpp": {
+      "sha256": "625ce2e2c4abca32c44815e8ea6ea0d19c7d6f7db2cd142bd7e19b3770d953c4"
+    },
+    "tvos-arm64_arm64e/opencv2.framework/Headers/imgproc/hal/hal.hpp": {
+      "sha256": "efecd002537f5d66489e05401dadca222785c8bd4c69d7d70e1e131fd69a0097"
+    },
+    "tvos-arm64_arm64e/opencv2.framework/Headers/imgproc/hal/interface.h": {
+      "sha256": "27dd95facd92c6ca8e6fe4b981c51dbdb22b9dafba133cf2be0f5a03f5d8152e"
+    },
+    "tvos-arm64_arm64e/opencv2.framework/Headers/imgproc/imgproc.hpp": {
+      "sha256": "f519aaf5d2676014d46f0f29719baaa98c14c84bcf2311c10325e210a4103e70"
+    },
+    "tvos-arm64_arm64e/opencv2.framework/Headers/imgproc/imgproc_c.h": {
+      "sha256": "c0b4bd7f7769c966dbfada1d3ae65f8ce214fce1038339245a174ac40140ca77"
+    },
+    "tvos-arm64_arm64e/opencv2.framework/Headers/imgproc/segmentation.hpp": {
+      "sha256": "1f27474710e792c7ff1f1a63bac86876f53ceb0f648d32eb30b99e67d3dd5fdf"
+    },
+    "tvos-arm64_arm64e/opencv2.framework/Headers/imgproc/types_c.h": {
+      "sha256": "c844682f2f7d8dcbce7acdac069b41203dd8a4309946b3d23dbe22663d74a012"
+    },
+    "tvos-arm64_arm64e/opencv2.framework/Headers/imgproc.hpp": {
+      "sha256": "5ed21f51cd0086561edc1b3d8a16bd95b05b3f90e48664a4b5a379e0287554f2"
+    },
+    "tvos-arm64_arm64e/opencv2.framework/Headers/opencv.hpp": {
+      "sha256": "37df4ccc15f8a6ed06e2099910c63e486841ddbd5bc2d303405bc34f8fd44b66"
+    },
+    "tvos-arm64_arm64e/opencv2.framework/Headers/opencv_modules.hpp": {
+      "sha256": "85dd18fd030cbb21b43631cde2559efec6dbb3c67065caea48ff16769b9c9f1a"
+    },
+    "tvos-arm64_arm64e/opencv2.framework/Headers/photo/legacy/constants_c.h": {
+      "sha256": "dd01c6afe89743ebfd863d7b8c17b80c7fa5c9f676ea69e372836cc26f0c0403"
+    },
+    "tvos-arm64_arm64e/opencv2.framework/Headers/photo/photo.hpp": {
+      "sha256": "18b6aed6db6c14d4295e89f7c9bb8931c44320d97195921fff3c16ea4174d67f"
+    },
+    "tvos-arm64_arm64e/opencv2.framework/Headers/photo.hpp": {
+      "sha256": "065317df350d13ec1eddb3e153a2836b2ac0d554eb5ff5a564f2224e0d26c945"
+    },
+    "tvos-arm64_arm64e/opencv2.framework/Headers/video/background_segm.hpp": {
+      "sha256": "d7e52545ca5f968b1e4711054b50e32af92557d3aca8876e806482443c104a16"
+    },
+    "tvos-arm64_arm64e/opencv2.framework/Headers/video/detail/tracking.detail.hpp": {
+      "sha256": "81f3eea460ec6c87e851435c0fedf38b4fe6a46f6982531cdac916e078255246"
+    },
+    "tvos-arm64_arm64e/opencv2.framework/Headers/video/legacy/constants_c.h": {
+      "sha256": "5c523ca5b04e4bb98a1ef77c87ae0ca87b6a4f3142f28737ef50115abb326299"
+    },
+    "tvos-arm64_arm64e/opencv2.framework/Headers/video/tracking.hpp": {
+      "sha256": "eec77538e88bd3bc5d7e6b9179a76d8886eac6f6bcd96fee2fed184a8855fe82"
+    },
+    "tvos-arm64_arm64e/opencv2.framework/Headers/video/video.hpp": {
+      "sha256": "67e31defa256825bb977d4126d7b00f53c90cb49638b8a9e43ec121568167e36"
+    },
+    "tvos-arm64_arm64e/opencv2.framework/Headers/video.hpp": {
+      "sha256": "5c1d80d5edbb3c681d4c17e01d34c541fa341f0a270ccd427e59601c5a4ed625"
+    },
+    "tvos-arm64_arm64e/opencv2.framework/Headers/world.hpp": {
+      "sha256": "bd82d87fdd7cfc4bdcfa62e9941d5ed62c11ecd85ada486070cbc4299715a7ff"
+    },
+    "tvos-arm64_arm64e/opencv2.framework/Info.plist": {
+      "sha256": "3e1d5d522bf62949c5a5c5c80d6dd193ab8ed8d9f058741b0d1083027bc25836"
+    },
+    "tvos-arm64_arm64e/opencv2.framework/opencv2": {
+      "sha256": "c036babf3cd0da03dce4e58eb967bd7a6dc90f111ef4d0afaeff4ff316526f91"
+    },
+    "tvos-arm64_x86_64-simulator/opencv2.framework/Headers/core/affine.hpp": {
+      "sha256": "f67b0e1a0d51ed1a0cb0f0010568a3c3649aa99ab51a0183e092858be6b00da4"
+    },
+    "tvos-arm64_x86_64-simulator/opencv2.framework/Headers/core/async.hpp": {
+      "sha256": "4ebd7dec356441c35e53447f548cb4c1074d93109a92716ab570d40469992313"
+    },
+    "tvos-arm64_x86_64-simulator/opencv2.framework/Headers/core/base.hpp": {
+      "sha256": "db611eaad4e4cef0247296f47cb32add35194d338f7fb3d3364c200cccb78b9d"
+    },
+    "tvos-arm64_x86_64-simulator/opencv2.framework/Headers/core/bindings_utils.hpp": {
+      "sha256": "ecfed743e5c77e8c8062f981eeb7192af5329f92dcd8aecc91c648ec3b2e96f7"
+    },
+    "tvos-arm64_x86_64-simulator/opencv2.framework/Headers/core/bufferpool.hpp": {
+      "sha256": "65dd904d4f15850ec23ad7531a8f431fd023c98c429adc59e00ae346c8976667"
+    },
+    "tvos-arm64_x86_64-simulator/opencv2.framework/Headers/core/check.hpp": {
+      "sha256": "fb7cf749c4695f02cb311b198efa9823eac1f1e98831b776fe8ab5f976bea4d1"
+    },
+    "tvos-arm64_x86_64-simulator/opencv2.framework/Headers/core/core.hpp": {
+      "sha256": "21a4ea4d80847984ef8eafe4746ecc18d5bcafd10564ce4c24e2416043d85798"
+    },
+    "tvos-arm64_x86_64-simulator/opencv2.framework/Headers/core/core_c.h": {
+      "sha256": "7c5d2883897df0d8f86a322078c32132cf890a34f45fcdb9460f1bde84e97466"
+    },
+    "tvos-arm64_x86_64-simulator/opencv2.framework/Headers/core/cv_cpu_dispatch.h": {
+      "sha256": "9bc32aba988a5412ff6590984bd5758a8613fe51891358d18be9f4e04ca30055"
+    },
+    "tvos-arm64_x86_64-simulator/opencv2.framework/Headers/core/cv_cpu_helper.h": {
+      "sha256": "3dafd54f9adbdb9bd39b7ed81f4ea25eeb81117356e974fede4648ded4ad16a9"
+    },
+    "tvos-arm64_x86_64-simulator/opencv2.framework/Headers/core/cvdef.h": {
+      "sha256": "8ca1520e205c3c26670a0e510a2371fe196c11687b92886e14962b423af341c9"
+    },
+    "tvos-arm64_x86_64-simulator/opencv2.framework/Headers/core/cvstd.hpp": {
+      "sha256": "96a1ddefb0539061389be0704b554e5ab30f20132944485f4c70644ceeb4a0d2"
+    },
+    "tvos-arm64_x86_64-simulator/opencv2.framework/Headers/core/cvstd.inl.hpp": {
+      "sha256": "3fb7d0328e9da0dd788528501dc7bbdceb5cfef83b49189952900e4652281a32"
+    },
+    "tvos-arm64_x86_64-simulator/opencv2.framework/Headers/core/cvstd_wrapper.hpp": {
+      "sha256": "babed4fc9c3d804502aa053c5add427600600f080984985812d8cce716b35ffa"
+    },
+    "tvos-arm64_x86_64-simulator/opencv2.framework/Headers/core/detail/async_promise.hpp": {
+      "sha256": "84920f5944b2561b0f6da3784a5fd281aba39e8544651a7ac8a889e3509982f4"
+    },
+    "tvos-arm64_x86_64-simulator/opencv2.framework/Headers/core/detail/dispatch_helper.impl.hpp": {
+      "sha256": "a6c812132580f4eaca6f35f2f19b32d40b24ef9ab0b75b51291c551c6b4224d9"
+    },
+    "tvos-arm64_x86_64-simulator/opencv2.framework/Headers/core/detail/exception_ptr.hpp": {
+      "sha256": "30ae6e20abd03cf3621bfb392e7778aff8a90635bd4679e9f2e706c8c99b0986"
+    },
+    "tvos-arm64_x86_64-simulator/opencv2.framework/Headers/core/dualquaternion.hpp": {
+      "sha256": "ed725cacbb20ca9b17c72256504ec74d270bcf44559952508392d7b69764f1ad"
+    },
+    "tvos-arm64_x86_64-simulator/opencv2.framework/Headers/core/dualquaternion.inl.hpp": {
+      "sha256": "1b6b478123cd15b7f24f2f3399d5c9199f7af979d9b57f0b0265a02cd4279484"
+    },
+    "tvos-arm64_x86_64-simulator/opencv2.framework/Headers/core/eigen.hpp": {
+      "sha256": "fb98669a1bf5b6ab3c31ed3479663d0608131bc9af743f7b7e868640b3428485"
+    },
+    "tvos-arm64_x86_64-simulator/opencv2.framework/Headers/core/fast_math.hpp": {
+      "sha256": "81719ea26aef77deda817c751a90b7c61049821aaf67e915654b2305caaa942d"
+    },
+    "tvos-arm64_x86_64-simulator/opencv2.framework/Headers/core/hal/hal.hpp": {
+      "sha256": "0f8eadf8fd6899858ab46db329ba94770160ecf9cd8ac897dece8c6884c8d521"
+    },
+    "tvos-arm64_x86_64-simulator/opencv2.framework/Headers/core/hal/interface.h": {
+      "sha256": "bd11814cfd2c331eaa93b42d80a0911a4916f6afa99907f332fe8f641098eb43"
+    },
+    "tvos-arm64_x86_64-simulator/opencv2.framework/Headers/core/hal/intrin.hpp": {
+      "sha256": "eeb3be550b8d7f6492c762bcefeb2e8fe5c9c0628ccb09f2ded7f1b2f34d6aa3"
+    },
+    "tvos-arm64_x86_64-simulator/opencv2.framework/Headers/core/hal/intrin_avx.hpp": {
+      "sha256": "a94f0297f74c4081a341d27eace3e000f6720d2419df890ffbeeccf2174d37aa"
+    },
+    "tvos-arm64_x86_64-simulator/opencv2.framework/Headers/core/hal/intrin_avx512.hpp": {
+      "sha256": "b7fd72f1e96a00370e1096a1d61f75f6bf0355d9f2b1fff2bca64affac7aa23e"
+    },
+    "tvos-arm64_x86_64-simulator/opencv2.framework/Headers/core/hal/intrin_cpp.hpp": {
+      "sha256": "c0f491dd72e8bd5ae0cd31d650d283593cd74afa5ca113ba7c5bae716392d2c9"
+    },
+    "tvos-arm64_x86_64-simulator/opencv2.framework/Headers/core/hal/intrin_forward.hpp": {
+      "sha256": "ad93e16fdad234aab37ccc96bd37768f213c6ee2fedb3c6309e1057307f621f2"
+    },
+    "tvos-arm64_x86_64-simulator/opencv2.framework/Headers/core/hal/intrin_lasx.hpp": {
+      "sha256": "4d731ad3c689efea2905db049636adb3d48d5fdf3436cd1b61a3bd283ddaa023"
+    },
+    "tvos-arm64_x86_64-simulator/opencv2.framework/Headers/core/hal/intrin_legacy_ops.h": {
+      "sha256": "9162fd638f6523412d095dc69bc67b5d5eb0b945c185003e67b0938a79c90686"
+    },
+    "tvos-arm64_x86_64-simulator/opencv2.framework/Headers/core/hal/intrin_lsx.hpp": {
+      "sha256": "aa31563f0a5033495e27a5bab0cde7deda49bc2c039aeeabb4ae9ed1f68b172b"
+    },
+    "tvos-arm64_x86_64-simulator/opencv2.framework/Headers/core/hal/intrin_math.hpp": {
+      "sha256": "8d6ed7f222d15da0d73080fe407d7e3f9809b3fc5c93222cbe320f9a9f794e5c"
+    },
+    "tvos-arm64_x86_64-simulator/opencv2.framework/Headers/core/hal/intrin_msa.hpp": {
+      "sha256": "80dfbe94520016a6d10be1444c612cdb889d606ef6f016f2a693f215be289b09"
+    },
+    "tvos-arm64_x86_64-simulator/opencv2.framework/Headers/core/hal/intrin_neon.hpp": {
+      "sha256": "fd562189af217d1d0529fdfcf18c80c849895aa7438dc8dbfbf0c027bf939f23"
+    },
+    "tvos-arm64_x86_64-simulator/opencv2.framework/Headers/core/hal/intrin_rvv071.hpp": {
+      "sha256": "2ddc9c4978233a8fa09d7d990349723cf6ad627cdd967c27ad6765b4ede6528b"
+    },
+    "tvos-arm64_x86_64-simulator/opencv2.framework/Headers/core/hal/intrin_rvv_scalable.hpp": {
+      "sha256": "60e6040f2fcb239699516073bf688d2fab522806d98c0bd364e4fe9f579ac2df"
+    },
+    "tvos-arm64_x86_64-simulator/opencv2.framework/Headers/core/hal/intrin_sse.hpp": {
+      "sha256": "9ea43239afc6dd6915c37715074d8d6351a055b3890aa71fb644864dcb9ececd"
+    },
+    "tvos-arm64_x86_64-simulator/opencv2.framework/Headers/core/hal/intrin_sse_em.hpp": {
+      "sha256": "9a8369d287ff500756fae5577f528c360f011e04e5a4a44f5af1d697b1d1442a"
+    },
+    "tvos-arm64_x86_64-simulator/opencv2.framework/Headers/core/hal/intrin_vsx.hpp": {
+      "sha256": "aaec43fe948c55b3b31d730358d4b266f90aede3c262cff794c293a7370c13fe"
+    },
+    "tvos-arm64_x86_64-simulator/opencv2.framework/Headers/core/hal/intrin_wasm.hpp": {
+      "sha256": "4c63d4c9717d6c75261415c197a7b0912dd848eefa8d13fc87ad306d60ce9656"
+    },
+    "tvos-arm64_x86_64-simulator/opencv2.framework/Headers/core/hal/msa_macros.h": {
+      "sha256": "bf5842830c95304950487c93f9f8ec5ac29ad659a316fb2ea80407229ee2a6e0"
+    },
+    "tvos-arm64_x86_64-simulator/opencv2.framework/Headers/core/hal/simd_utils.impl.hpp": {
+      "sha256": "a7416b4d5fc41cd2df66f4fdb36a0a85374d79de3dc5d8fb38ce40be049ff772"
+    },
+    "tvos-arm64_x86_64-simulator/opencv2.framework/Headers/core/mat.hpp": {
+      "sha256": "1cd4e67e4b4bf466307c47ad4f8166faa8175ac4f812e00167d253f04dc845f3"
+    },
+    "tvos-arm64_x86_64-simulator/opencv2.framework/Headers/core/mat.inl.hpp": {
+      "sha256": "4ff08f17c7d7a85411d5d694a405190ed35d71a15dc02af9d161cdac9771d24b"
+    },
+    "tvos-arm64_x86_64-simulator/opencv2.framework/Headers/core/matx.hpp": {
+      "sha256": "086ceebe87ed54c98155bfff778f02305697dc7cd9d10449f2f21a482023872b"
+    },
+    "tvos-arm64_x86_64-simulator/opencv2.framework/Headers/core/matx.inl.hpp": {
+      "sha256": "010153afc595d6e58ba24949c85af8a6a2fc038d52ec054a35ae9eed8a97980d"
+    },
+    "tvos-arm64_x86_64-simulator/opencv2.framework/Headers/core/neon_utils.hpp": {
+      "sha256": "ac4f537960e50684671ca6a4b95c1eb6db5ba05e8d9f42f66b930ac8702ae7f9"
+    },
+    "tvos-arm64_x86_64-simulator/opencv2.framework/Headers/core/operations.hpp": {
+      "sha256": "3900e92391bf28dac5b7118a1daa5839bfaf7c9cf60526b91b66e6c128b08205"
+    },
+    "tvos-arm64_x86_64-simulator/opencv2.framework/Headers/core/optim.hpp": {
+      "sha256": "acfc26fa3409d2c7dc897fc816a6eab67554414a514a1a062de68a68cb351e80"
+    },
+    "tvos-arm64_x86_64-simulator/opencv2.framework/Headers/core/parallel/backend/parallel_for.openmp.hpp": {
+      "sha256": "903d8ba56eae3158e816522c5a816e9e9811e41c62e812a34bbf1dbfde81132e"
+    },
+    "tvos-arm64_x86_64-simulator/opencv2.framework/Headers/core/parallel/backend/parallel_for.tbb.hpp": {
+      "sha256": "af6dd3c7162df172e8462b8c697f2fcddf2af1777f98a993ab3be8b33fb58b7e"
+    },
+    "tvos-arm64_x86_64-simulator/opencv2.framework/Headers/core/parallel/parallel_backend.hpp": {
+      "sha256": "79c71d6191b0931cb1db9931ca4ecaa156cfec83bc6e4e71b8407722ed3d7194"
+    },
+    "tvos-arm64_x86_64-simulator/opencv2.framework/Headers/core/persistence.hpp": {
+      "sha256": "992e7d7575fd671302b2beb9600a99e380485797aa6448bdbaa81d8c66b524b8"
+    },
+    "tvos-arm64_x86_64-simulator/opencv2.framework/Headers/core/quaternion.hpp": {
+      "sha256": "6ff8d3b19489c4b69345806b65e82770829ecca8604d96b421a27f3a30ca05d1"
+    },
+    "tvos-arm64_x86_64-simulator/opencv2.framework/Headers/core/quaternion.inl.hpp": {
+      "sha256": "dff743f883e47035d84e52058cb9bca9fbf5d615e35bf3923097164263d6a164"
+    },
+    "tvos-arm64_x86_64-simulator/opencv2.framework/Headers/core/saturate.hpp": {
+      "sha256": "bf418a3f44d575b17c18af968dbe3e2c8bd0663c22f8dcb53c4b0f77b5db14ba"
+    },
+    "tvos-arm64_x86_64-simulator/opencv2.framework/Headers/core/simd_intrinsics.hpp": {
+      "sha256": "ac81c6962c8b5679dfb63fe06487c27ae197946b66b1df90ad46e410a11a5a20"
+    },
+    "tvos-arm64_x86_64-simulator/opencv2.framework/Headers/core/softfloat.hpp": {
+      "sha256": "43c01ea3c1b3f99352437dddaca1b9b862e9d9b734c7a901f63abad5b28e3412"
+    },
+    "tvos-arm64_x86_64-simulator/opencv2.framework/Headers/core/sse_utils.hpp": {
+      "sha256": "2d9f170fdecb359c434387e6379fe5f16f9ffc77ef8dc4ba111ca517c3359023"
+    },
+    "tvos-arm64_x86_64-simulator/opencv2.framework/Headers/core/traits.hpp": {
+      "sha256": "6c45b2ee5137464ab4080063e38b68a6c5ac8b415e04aee8cb5c634b5dcc9861"
+    },
+    "tvos-arm64_x86_64-simulator/opencv2.framework/Headers/core/types.hpp": {
+      "sha256": "19d8ae6170f3b6f38f545768a24c922a50774c23eeebc11e39f7c6a1f5726f08"
+    },
+    "tvos-arm64_x86_64-simulator/opencv2.framework/Headers/core/types_c.h": {
+      "sha256": "0bab108b55e64c5f7b6a1faa3d8eb655591321efd7b30dc0a663201531f48900"
+    },
+    "tvos-arm64_x86_64-simulator/opencv2.framework/Headers/core/utility.hpp": {
+      "sha256": "e5b9e25e349f121c3d3f2347c48afef5d18a8c7c4124acee833c0e04b9c270b0"
+    },
+    "tvos-arm64_x86_64-simulator/opencv2.framework/Headers/core/utils/allocator_stats.hpp": {
+      "sha256": "260d7dff55a04646ae7f78bfe7af249fe2bbe368add0c934cad108703dbb56c1"
+    },
+    "tvos-arm64_x86_64-simulator/opencv2.framework/Headers/core/utils/allocator_stats.impl.hpp": {
+      "sha256": "62b1f1d878926e7ce8fa323a75a5e8cdb184fd0c6261890963fd82dc9c26c874"
+    },
+    "tvos-arm64_x86_64-simulator/opencv2.framework/Headers/core/utils/filesystem.hpp": {
+      "sha256": "584606928e15cdfa0846f97a4f1922860b6f193e0bc3e9f15bd58796edb10b86"
+    },
+    "tvos-arm64_x86_64-simulator/opencv2.framework/Headers/core/utils/fp_control_utils.hpp": {
+      "sha256": "2565900dff6e97772c2cb1434b8d136df85446e4596a708d73ae14f3cae9a8d8"
+    },
+    "tvos-arm64_x86_64-simulator/opencv2.framework/Headers/core/utils/instrumentation.hpp": {
+      "sha256": "dcb6a1ae866d143f400f844a4761b52f64429342a7511d1f6402b87105511e9d"
+    },
+    "tvos-arm64_x86_64-simulator/opencv2.framework/Headers/core/utils/logger.defines.hpp": {
+      "sha256": "03bc3fd53608846ee3ad1b1feeeb97ac68e9758f4ceb5827ecca87c58204304c"
+    },
+    "tvos-arm64_x86_64-simulator/opencv2.framework/Headers/core/utils/logger.hpp": {
+      "sha256": "139133ff707a0fb31bb201dfa34a1630d14ac02176272b241e2d1b6a1379b470"
+    },
+    "tvos-arm64_x86_64-simulator/opencv2.framework/Headers/core/utils/logtag.hpp": {
+      "sha256": "1ab5f6f986e02af6aec74d7881ce0676dd82b215c4a5b33087f7e8010a1808b5"
+    },
+    "tvos-arm64_x86_64-simulator/opencv2.framework/Headers/core/utils/tls.hpp": {
+      "sha256": "3b3261c3900c2d1ab82496b6722979996cb899f3110492d7177651790b6f9aef"
+    },
+    "tvos-arm64_x86_64-simulator/opencv2.framework/Headers/core/utils/trace.hpp": {
+      "sha256": "0f0d8b3b0c68c871d026a95c549110e4438f8b349c42864ac7f49a9b5fe72066"
+    },
+    "tvos-arm64_x86_64-simulator/opencv2.framework/Headers/core/version.hpp": {
+      "sha256": "aa6df48dc2a1807bf2a1decb21d8917f18632ef4c0f6f87e3a31a62f7ebf7555"
+    },
+    "tvos-arm64_x86_64-simulator/opencv2.framework/Headers/core/vsx_utils.hpp": {
+      "sha256": "4c0a89863f2147258a09ed9e4f295aff35bef9e9677e8bb2f73af23cca83885d"
+    },
+    "tvos-arm64_x86_64-simulator/opencv2.framework/Headers/core.hpp": {
+      "sha256": "7ed046d89c1287c5c687e92b36be8dd42720822634e50d0504ee1a4efc1424fd"
+    },
+    "tvos-arm64_x86_64-simulator/opencv2.framework/Headers/cvconfig.h": {
+      "sha256": "754c031c11644a993792b8b26dad561ce6073b0a3fb63ca56624f13382dd922a"
+    },
+    "tvos-arm64_x86_64-simulator/opencv2.framework/Headers/dnn/dnn.hpp": {
+      "sha256": "32aed1c0b211e1923ee325decd516eeb4435db6f8ce6a37af64186f364ca9bd1"
+    },
+    "tvos-arm64_x86_64-simulator/opencv2.framework/Headers/dnn.hpp": {
+      "sha256": "c6df8ef0fc5e8bd2bfcebb52410d8e0989d3013fb75d0502c3d2ed9436cadca2"
+    },
+    "tvos-arm64_x86_64-simulator/opencv2.framework/Headers/features2d/features2d.hpp": {
+      "sha256": "7a8c4b882ff82ee8d8aa892dccb13e26a0a091a18eadf17c64951490ee302689"
+    },
+    "tvos-arm64_x86_64-simulator/opencv2.framework/Headers/features2d/hal/interface.h": {
+      "sha256": "4fe9c4fa48d06743b83af7f3b7cc4c66da1fa7d6c94a927381827e72454c77d3"
+    },
+    "tvos-arm64_x86_64-simulator/opencv2.framework/Headers/features2d.hpp": {
+      "sha256": "fe724c64b37dae282ae38abae1accf9697146231ef76170287454ecbb0e9e69c"
+    },
+    "tvos-arm64_x86_64-simulator/opencv2.framework/Headers/highgui/highgui.hpp": {
+      "sha256": "2d167454cf33c9605b3b94e25294d3d78fbd1f046d5998b77f89c9e849e4cd1e"
+    },
+    "tvos-arm64_x86_64-simulator/opencv2.framework/Headers/highgui.hpp": {
+      "sha256": "be45cb0518457f06ab188712c7d6cb8fd53297581940ac47d1b5974e652e300a"
+    },
+    "tvos-arm64_x86_64-simulator/opencv2.framework/Headers/imgproc/bindings.hpp": {
+      "sha256": "f65b79fb4d9e7abcd8aa9bb8bcc2a3410c42dae8f729b8679a71bb85c7b85ee0"
+    },
+    "tvos-arm64_x86_64-simulator/opencv2.framework/Headers/imgproc/detail/gcgraph.hpp": {
+      "sha256": "e9e67386e93dd84a428af70e31313a0240a4df982f6c184d50180d9d6c2ea2f9"
+    },
+    "tvos-arm64_x86_64-simulator/opencv2.framework/Headers/imgproc/detail/legacy.hpp": {
+      "sha256": "625ce2e2c4abca32c44815e8ea6ea0d19c7d6f7db2cd142bd7e19b3770d953c4"
+    },
+    "tvos-arm64_x86_64-simulator/opencv2.framework/Headers/imgproc/hal/hal.hpp": {
+      "sha256": "efecd002537f5d66489e05401dadca222785c8bd4c69d7d70e1e131fd69a0097"
+    },
+    "tvos-arm64_x86_64-simulator/opencv2.framework/Headers/imgproc/hal/interface.h": {
+      "sha256": "27dd95facd92c6ca8e6fe4b981c51dbdb22b9dafba133cf2be0f5a03f5d8152e"
+    },
+    "tvos-arm64_x86_64-simulator/opencv2.framework/Headers/imgproc/imgproc.hpp": {
+      "sha256": "f519aaf5d2676014d46f0f29719baaa98c14c84bcf2311c10325e210a4103e70"
+    },
+    "tvos-arm64_x86_64-simulator/opencv2.framework/Headers/imgproc/imgproc_c.h": {
+      "sha256": "c0b4bd7f7769c966dbfada1d3ae65f8ce214fce1038339245a174ac40140ca77"
+    },
+    "tvos-arm64_x86_64-simulator/opencv2.framework/Headers/imgproc/segmentation.hpp": {
+      "sha256": "1f27474710e792c7ff1f1a63bac86876f53ceb0f648d32eb30b99e67d3dd5fdf"
+    },
+    "tvos-arm64_x86_64-simulator/opencv2.framework/Headers/imgproc/types_c.h": {
+      "sha256": "c844682f2f7d8dcbce7acdac069b41203dd8a4309946b3d23dbe22663d74a012"
+    },
+    "tvos-arm64_x86_64-simulator/opencv2.framework/Headers/imgproc.hpp": {
+      "sha256": "5ed21f51cd0086561edc1b3d8a16bd95b05b3f90e48664a4b5a379e0287554f2"
+    },
+    "tvos-arm64_x86_64-simulator/opencv2.framework/Headers/opencv.hpp": {
+      "sha256": "37df4ccc15f8a6ed06e2099910c63e486841ddbd5bc2d303405bc34f8fd44b66"
+    },
+    "tvos-arm64_x86_64-simulator/opencv2.framework/Headers/opencv_modules.hpp": {
+      "sha256": "85dd18fd030cbb21b43631cde2559efec6dbb3c67065caea48ff16769b9c9f1a"
+    },
+    "tvos-arm64_x86_64-simulator/opencv2.framework/Headers/photo/legacy/constants_c.h": {
+      "sha256": "dd01c6afe89743ebfd863d7b8c17b80c7fa5c9f676ea69e372836cc26f0c0403"
+    },
+    "tvos-arm64_x86_64-simulator/opencv2.framework/Headers/photo/photo.hpp": {
+      "sha256": "18b6aed6db6c14d4295e89f7c9bb8931c44320d97195921fff3c16ea4174d67f"
+    },
+    "tvos-arm64_x86_64-simulator/opencv2.framework/Headers/photo.hpp": {
+      "sha256": "065317df350d13ec1eddb3e153a2836b2ac0d554eb5ff5a564f2224e0d26c945"
+    },
+    "tvos-arm64_x86_64-simulator/opencv2.framework/Headers/video/background_segm.hpp": {
+      "sha256": "d7e52545ca5f968b1e4711054b50e32af92557d3aca8876e806482443c104a16"
+    },
+    "tvos-arm64_x86_64-simulator/opencv2.framework/Headers/video/detail/tracking.detail.hpp": {
+      "sha256": "81f3eea460ec6c87e851435c0fedf38b4fe6a46f6982531cdac916e078255246"
+    },
+    "tvos-arm64_x86_64-simulator/opencv2.framework/Headers/video/legacy/constants_c.h": {
+      "sha256": "5c523ca5b04e4bb98a1ef77c87ae0ca87b6a4f3142f28737ef50115abb326299"
+    },
+    "tvos-arm64_x86_64-simulator/opencv2.framework/Headers/video/tracking.hpp": {
+      "sha256": "eec77538e88bd3bc5d7e6b9179a76d8886eac6f6bcd96fee2fed184a8855fe82"
+    },
+    "tvos-arm64_x86_64-simulator/opencv2.framework/Headers/video/video.hpp": {
+      "sha256": "67e31defa256825bb977d4126d7b00f53c90cb49638b8a9e43ec121568167e36"
+    },
+    "tvos-arm64_x86_64-simulator/opencv2.framework/Headers/video.hpp": {
+      "sha256": "5c1d80d5edbb3c681d4c17e01d34c541fa341f0a270ccd427e59601c5a4ed625"
+    },
+    "tvos-arm64_x86_64-simulator/opencv2.framework/Headers/world.hpp": {
+      "sha256": "bd82d87fdd7cfc4bdcfa62e9941d5ed62c11ecd85ada486070cbc4299715a7ff"
+    },
+    "tvos-arm64_x86_64-simulator/opencv2.framework/Info.plist": {
+      "sha256": "3e1d5d522bf62949c5a5c5c80d6dd193ab8ed8d9f058741b0d1083027bc25836"
+    },
+    "tvos-arm64_x86_64-simulator/opencv2.framework/opencv2": {
+      "sha256": "6c70693d26d65e915b7b63b1401347727ad211ee6d546fe920d0b0fb9fe2c6ba"
+    },
+    "watchos-arm64_32_armv7k/opencv2.framework/Headers/core/affine.hpp": {
+      "sha256": "f67b0e1a0d51ed1a0cb0f0010568a3c3649aa99ab51a0183e092858be6b00da4"
+    },
+    "watchos-arm64_32_armv7k/opencv2.framework/Headers/core/async.hpp": {
+      "sha256": "4ebd7dec356441c35e53447f548cb4c1074d93109a92716ab570d40469992313"
+    },
+    "watchos-arm64_32_armv7k/opencv2.framework/Headers/core/base.hpp": {
+      "sha256": "db611eaad4e4cef0247296f47cb32add35194d338f7fb3d3364c200cccb78b9d"
+    },
+    "watchos-arm64_32_armv7k/opencv2.framework/Headers/core/bindings_utils.hpp": {
+      "sha256": "ecfed743e5c77e8c8062f981eeb7192af5329f92dcd8aecc91c648ec3b2e96f7"
+    },
+    "watchos-arm64_32_armv7k/opencv2.framework/Headers/core/bufferpool.hpp": {
+      "sha256": "65dd904d4f15850ec23ad7531a8f431fd023c98c429adc59e00ae346c8976667"
+    },
+    "watchos-arm64_32_armv7k/opencv2.framework/Headers/core/check.hpp": {
+      "sha256": "fb7cf749c4695f02cb311b198efa9823eac1f1e98831b776fe8ab5f976bea4d1"
+    },
+    "watchos-arm64_32_armv7k/opencv2.framework/Headers/core/core.hpp": {
+      "sha256": "21a4ea4d80847984ef8eafe4746ecc18d5bcafd10564ce4c24e2416043d85798"
+    },
+    "watchos-arm64_32_armv7k/opencv2.framework/Headers/core/core_c.h": {
+      "sha256": "7c5d2883897df0d8f86a322078c32132cf890a34f45fcdb9460f1bde84e97466"
+    },
+    "watchos-arm64_32_armv7k/opencv2.framework/Headers/core/cv_cpu_dispatch.h": {
+      "sha256": "9bc32aba988a5412ff6590984bd5758a8613fe51891358d18be9f4e04ca30055"
+    },
+    "watchos-arm64_32_armv7k/opencv2.framework/Headers/core/cv_cpu_helper.h": {
+      "sha256": "3dafd54f9adbdb9bd39b7ed81f4ea25eeb81117356e974fede4648ded4ad16a9"
+    },
+    "watchos-arm64_32_armv7k/opencv2.framework/Headers/core/cvdef.h": {
+      "sha256": "8ca1520e205c3c26670a0e510a2371fe196c11687b92886e14962b423af341c9"
+    },
+    "watchos-arm64_32_armv7k/opencv2.framework/Headers/core/cvstd.hpp": {
+      "sha256": "96a1ddefb0539061389be0704b554e5ab30f20132944485f4c70644ceeb4a0d2"
+    },
+    "watchos-arm64_32_armv7k/opencv2.framework/Headers/core/cvstd.inl.hpp": {
+      "sha256": "3fb7d0328e9da0dd788528501dc7bbdceb5cfef83b49189952900e4652281a32"
+    },
+    "watchos-arm64_32_armv7k/opencv2.framework/Headers/core/cvstd_wrapper.hpp": {
+      "sha256": "babed4fc9c3d804502aa053c5add427600600f080984985812d8cce716b35ffa"
+    },
+    "watchos-arm64_32_armv7k/opencv2.framework/Headers/core/detail/async_promise.hpp": {
+      "sha256": "84920f5944b2561b0f6da3784a5fd281aba39e8544651a7ac8a889e3509982f4"
+    },
+    "watchos-arm64_32_armv7k/opencv2.framework/Headers/core/detail/dispatch_helper.impl.hpp": {
+      "sha256": "a6c812132580f4eaca6f35f2f19b32d40b24ef9ab0b75b51291c551c6b4224d9"
+    },
+    "watchos-arm64_32_armv7k/opencv2.framework/Headers/core/detail/exception_ptr.hpp": {
+      "sha256": "30ae6e20abd03cf3621bfb392e7778aff8a90635bd4679e9f2e706c8c99b0986"
+    },
+    "watchos-arm64_32_armv7k/opencv2.framework/Headers/core/dualquaternion.hpp": {
+      "sha256": "ed725cacbb20ca9b17c72256504ec74d270bcf44559952508392d7b69764f1ad"
+    },
+    "watchos-arm64_32_armv7k/opencv2.framework/Headers/core/dualquaternion.inl.hpp": {
+      "sha256": "1b6b478123cd15b7f24f2f3399d5c9199f7af979d9b57f0b0265a02cd4279484"
+    },
+    "watchos-arm64_32_armv7k/opencv2.framework/Headers/core/eigen.hpp": {
+      "sha256": "fb98669a1bf5b6ab3c31ed3479663d0608131bc9af743f7b7e868640b3428485"
+    },
+    "watchos-arm64_32_armv7k/opencv2.framework/Headers/core/fast_math.hpp": {
+      "sha256": "81719ea26aef77deda817c751a90b7c61049821aaf67e915654b2305caaa942d"
+    },
+    "watchos-arm64_32_armv7k/opencv2.framework/Headers/core/hal/hal.hpp": {
+      "sha256": "0f8eadf8fd6899858ab46db329ba94770160ecf9cd8ac897dece8c6884c8d521"
+    },
+    "watchos-arm64_32_armv7k/opencv2.framework/Headers/core/hal/interface.h": {
+      "sha256": "bd11814cfd2c331eaa93b42d80a0911a4916f6afa99907f332fe8f641098eb43"
+    },
+    "watchos-arm64_32_armv7k/opencv2.framework/Headers/core/hal/intrin.hpp": {
+      "sha256": "eeb3be550b8d7f6492c762bcefeb2e8fe5c9c0628ccb09f2ded7f1b2f34d6aa3"
+    },
+    "watchos-arm64_32_armv7k/opencv2.framework/Headers/core/hal/intrin_avx.hpp": {
+      "sha256": "a94f0297f74c4081a341d27eace3e000f6720d2419df890ffbeeccf2174d37aa"
+    },
+    "watchos-arm64_32_armv7k/opencv2.framework/Headers/core/hal/intrin_avx512.hpp": {
+      "sha256": "b7fd72f1e96a00370e1096a1d61f75f6bf0355d9f2b1fff2bca64affac7aa23e"
+    },
+    "watchos-arm64_32_armv7k/opencv2.framework/Headers/core/hal/intrin_cpp.hpp": {
+      "sha256": "c0f491dd72e8bd5ae0cd31d650d283593cd74afa5ca113ba7c5bae716392d2c9"
+    },
+    "watchos-arm64_32_armv7k/opencv2.framework/Headers/core/hal/intrin_forward.hpp": {
+      "sha256": "ad93e16fdad234aab37ccc96bd37768f213c6ee2fedb3c6309e1057307f621f2"
+    },
+    "watchos-arm64_32_armv7k/opencv2.framework/Headers/core/hal/intrin_lasx.hpp": {
+      "sha256": "4d731ad3c689efea2905db049636adb3d48d5fdf3436cd1b61a3bd283ddaa023"
+    },
+    "watchos-arm64_32_armv7k/opencv2.framework/Headers/core/hal/intrin_legacy_ops.h": {
+      "sha256": "9162fd638f6523412d095dc69bc67b5d5eb0b945c185003e67b0938a79c90686"
+    },
+    "watchos-arm64_32_armv7k/opencv2.framework/Headers/core/hal/intrin_lsx.hpp": {
+      "sha256": "aa31563f0a5033495e27a5bab0cde7deda49bc2c039aeeabb4ae9ed1f68b172b"
+    },
+    "watchos-arm64_32_armv7k/opencv2.framework/Headers/core/hal/intrin_math.hpp": {
+      "sha256": "8d6ed7f222d15da0d73080fe407d7e3f9809b3fc5c93222cbe320f9a9f794e5c"
+    },
+    "watchos-arm64_32_armv7k/opencv2.framework/Headers/core/hal/intrin_msa.hpp": {
+      "sha256": "80dfbe94520016a6d10be1444c612cdb889d606ef6f016f2a693f215be289b09"
+    },
+    "watchos-arm64_32_armv7k/opencv2.framework/Headers/core/hal/intrin_neon.hpp": {
+      "sha256": "fd562189af217d1d0529fdfcf18c80c849895aa7438dc8dbfbf0c027bf939f23"
+    },
+    "watchos-arm64_32_armv7k/opencv2.framework/Headers/core/hal/intrin_rvv071.hpp": {
+      "sha256": "2ddc9c4978233a8fa09d7d990349723cf6ad627cdd967c27ad6765b4ede6528b"
+    },
+    "watchos-arm64_32_armv7k/opencv2.framework/Headers/core/hal/intrin_rvv_scalable.hpp": {
+      "sha256": "60e6040f2fcb239699516073bf688d2fab522806d98c0bd364e4fe9f579ac2df"
+    },
+    "watchos-arm64_32_armv7k/opencv2.framework/Headers/core/hal/intrin_sse.hpp": {
+      "sha256": "9ea43239afc6dd6915c37715074d8d6351a055b3890aa71fb644864dcb9ececd"
+    },
+    "watchos-arm64_32_armv7k/opencv2.framework/Headers/core/hal/intrin_sse_em.hpp": {
+      "sha256": "9a8369d287ff500756fae5577f528c360f011e04e5a4a44f5af1d697b1d1442a"
+    },
+    "watchos-arm64_32_armv7k/opencv2.framework/Headers/core/hal/intrin_vsx.hpp": {
+      "sha256": "aaec43fe948c55b3b31d730358d4b266f90aede3c262cff794c293a7370c13fe"
+    },
+    "watchos-arm64_32_armv7k/opencv2.framework/Headers/core/hal/intrin_wasm.hpp": {
+      "sha256": "4c63d4c9717d6c75261415c197a7b0912dd848eefa8d13fc87ad306d60ce9656"
+    },
+    "watchos-arm64_32_armv7k/opencv2.framework/Headers/core/hal/msa_macros.h": {
+      "sha256": "bf5842830c95304950487c93f9f8ec5ac29ad659a316fb2ea80407229ee2a6e0"
+    },
+    "watchos-arm64_32_armv7k/opencv2.framework/Headers/core/hal/simd_utils.impl.hpp": {
+      "sha256": "a7416b4d5fc41cd2df66f4fdb36a0a85374d79de3dc5d8fb38ce40be049ff772"
+    },
+    "watchos-arm64_32_armv7k/opencv2.framework/Headers/core/mat.hpp": {
+      "sha256": "1cd4e67e4b4bf466307c47ad4f8166faa8175ac4f812e00167d253f04dc845f3"
+    },
+    "watchos-arm64_32_armv7k/opencv2.framework/Headers/core/mat.inl.hpp": {
+      "sha256": "4ff08f17c7d7a85411d5d694a405190ed35d71a15dc02af9d161cdac9771d24b"
+    },
+    "watchos-arm64_32_armv7k/opencv2.framework/Headers/core/matx.hpp": {
+      "sha256": "086ceebe87ed54c98155bfff778f02305697dc7cd9d10449f2f21a482023872b"
+    },
+    "watchos-arm64_32_armv7k/opencv2.framework/Headers/core/matx.inl.hpp": {
+      "sha256": "010153afc595d6e58ba24949c85af8a6a2fc038d52ec054a35ae9eed8a97980d"
+    },
+    "watchos-arm64_32_armv7k/opencv2.framework/Headers/core/neon_utils.hpp": {
+      "sha256": "ac4f537960e50684671ca6a4b95c1eb6db5ba05e8d9f42f66b930ac8702ae7f9"
+    },
+    "watchos-arm64_32_armv7k/opencv2.framework/Headers/core/operations.hpp": {
+      "sha256": "3900e92391bf28dac5b7118a1daa5839bfaf7c9cf60526b91b66e6c128b08205"
+    },
+    "watchos-arm64_32_armv7k/opencv2.framework/Headers/core/optim.hpp": {
+      "sha256": "acfc26fa3409d2c7dc897fc816a6eab67554414a514a1a062de68a68cb351e80"
+    },
+    "watchos-arm64_32_armv7k/opencv2.framework/Headers/core/parallel/backend/parallel_for.openmp.hpp": {
+      "sha256": "903d8ba56eae3158e816522c5a816e9e9811e41c62e812a34bbf1dbfde81132e"
+    },
+    "watchos-arm64_32_armv7k/opencv2.framework/Headers/core/parallel/backend/parallel_for.tbb.hpp": {
+      "sha256": "af6dd3c7162df172e8462b8c697f2fcddf2af1777f98a993ab3be8b33fb58b7e"
+    },
+    "watchos-arm64_32_armv7k/opencv2.framework/Headers/core/parallel/parallel_backend.hpp": {
+      "sha256": "79c71d6191b0931cb1db9931ca4ecaa156cfec83bc6e4e71b8407722ed3d7194"
+    },
+    "watchos-arm64_32_armv7k/opencv2.framework/Headers/core/persistence.hpp": {
+      "sha256": "992e7d7575fd671302b2beb9600a99e380485797aa6448bdbaa81d8c66b524b8"
+    },
+    "watchos-arm64_32_armv7k/opencv2.framework/Headers/core/quaternion.hpp": {
+      "sha256": "6ff8d3b19489c4b69345806b65e82770829ecca8604d96b421a27f3a30ca05d1"
+    },
+    "watchos-arm64_32_armv7k/opencv2.framework/Headers/core/quaternion.inl.hpp": {
+      "sha256": "dff743f883e47035d84e52058cb9bca9fbf5d615e35bf3923097164263d6a164"
+    },
+    "watchos-arm64_32_armv7k/opencv2.framework/Headers/core/saturate.hpp": {
+      "sha256": "bf418a3f44d575b17c18af968dbe3e2c8bd0663c22f8dcb53c4b0f77b5db14ba"
+    },
+    "watchos-arm64_32_armv7k/opencv2.framework/Headers/core/simd_intrinsics.hpp": {
+      "sha256": "ac81c6962c8b5679dfb63fe06487c27ae197946b66b1df90ad46e410a11a5a20"
+    },
+    "watchos-arm64_32_armv7k/opencv2.framework/Headers/core/softfloat.hpp": {
+      "sha256": "43c01ea3c1b3f99352437dddaca1b9b862e9d9b734c7a901f63abad5b28e3412"
+    },
+    "watchos-arm64_32_armv7k/opencv2.framework/Headers/core/sse_utils.hpp": {
+      "sha256": "2d9f170fdecb359c434387e6379fe5f16f9ffc77ef8dc4ba111ca517c3359023"
+    },
+    "watchos-arm64_32_armv7k/opencv2.framework/Headers/core/traits.hpp": {
+      "sha256": "6c45b2ee5137464ab4080063e38b68a6c5ac8b415e04aee8cb5c634b5dcc9861"
+    },
+    "watchos-arm64_32_armv7k/opencv2.framework/Headers/core/types.hpp": {
+      "sha256": "19d8ae6170f3b6f38f545768a24c922a50774c23eeebc11e39f7c6a1f5726f08"
+    },
+    "watchos-arm64_32_armv7k/opencv2.framework/Headers/core/types_c.h": {
+      "sha256": "0bab108b55e64c5f7b6a1faa3d8eb655591321efd7b30dc0a663201531f48900"
+    },
+    "watchos-arm64_32_armv7k/opencv2.framework/Headers/core/utility.hpp": {
+      "sha256": "e5b9e25e349f121c3d3f2347c48afef5d18a8c7c4124acee833c0e04b9c270b0"
+    },
+    "watchos-arm64_32_armv7k/opencv2.framework/Headers/core/utils/allocator_stats.hpp": {
+      "sha256": "260d7dff55a04646ae7f78bfe7af249fe2bbe368add0c934cad108703dbb56c1"
+    },
+    "watchos-arm64_32_armv7k/opencv2.framework/Headers/core/utils/allocator_stats.impl.hpp": {
+      "sha256": "62b1f1d878926e7ce8fa323a75a5e8cdb184fd0c6261890963fd82dc9c26c874"
+    },
+    "watchos-arm64_32_armv7k/opencv2.framework/Headers/core/utils/filesystem.hpp": {
+      "sha256": "584606928e15cdfa0846f97a4f1922860b6f193e0bc3e9f15bd58796edb10b86"
+    },
+    "watchos-arm64_32_armv7k/opencv2.framework/Headers/core/utils/fp_control_utils.hpp": {
+      "sha256": "2565900dff6e97772c2cb1434b8d136df85446e4596a708d73ae14f3cae9a8d8"
+    },
+    "watchos-arm64_32_armv7k/opencv2.framework/Headers/core/utils/instrumentation.hpp": {
+      "sha256": "dcb6a1ae866d143f400f844a4761b52f64429342a7511d1f6402b87105511e9d"
+    },
+    "watchos-arm64_32_armv7k/opencv2.framework/Headers/core/utils/logger.defines.hpp": {
+      "sha256": "03bc3fd53608846ee3ad1b1feeeb97ac68e9758f4ceb5827ecca87c58204304c"
+    },
+    "watchos-arm64_32_armv7k/opencv2.framework/Headers/core/utils/logger.hpp": {
+      "sha256": "139133ff707a0fb31bb201dfa34a1630d14ac02176272b241e2d1b6a1379b470"
+    },
+    "watchos-arm64_32_armv7k/opencv2.framework/Headers/core/utils/logtag.hpp": {
+      "sha256": "1ab5f6f986e02af6aec74d7881ce0676dd82b215c4a5b33087f7e8010a1808b5"
+    },
+    "watchos-arm64_32_armv7k/opencv2.framework/Headers/core/utils/tls.hpp": {
+      "sha256": "3b3261c3900c2d1ab82496b6722979996cb899f3110492d7177651790b6f9aef"
+    },
+    "watchos-arm64_32_armv7k/opencv2.framework/Headers/core/utils/trace.hpp": {
+      "sha256": "0f0d8b3b0c68c871d026a95c549110e4438f8b349c42864ac7f49a9b5fe72066"
+    },
+    "watchos-arm64_32_armv7k/opencv2.framework/Headers/core/version.hpp": {
+      "sha256": "aa6df48dc2a1807bf2a1decb21d8917f18632ef4c0f6f87e3a31a62f7ebf7555"
+    },
+    "watchos-arm64_32_armv7k/opencv2.framework/Headers/core/vsx_utils.hpp": {
+      "sha256": "4c0a89863f2147258a09ed9e4f295aff35bef9e9677e8bb2f73af23cca83885d"
+    },
+    "watchos-arm64_32_armv7k/opencv2.framework/Headers/core.hpp": {
+      "sha256": "7ed046d89c1287c5c687e92b36be8dd42720822634e50d0504ee1a4efc1424fd"
+    },
+    "watchos-arm64_32_armv7k/opencv2.framework/Headers/cvconfig.h": {
+      "sha256": "754c031c11644a993792b8b26dad561ce6073b0a3fb63ca56624f13382dd922a"
+    },
+    "watchos-arm64_32_armv7k/opencv2.framework/Headers/dnn/dnn.hpp": {
+      "sha256": "32aed1c0b211e1923ee325decd516eeb4435db6f8ce6a37af64186f364ca9bd1"
+    },
+    "watchos-arm64_32_armv7k/opencv2.framework/Headers/dnn.hpp": {
+      "sha256": "c6df8ef0fc5e8bd2bfcebb52410d8e0989d3013fb75d0502c3d2ed9436cadca2"
+    },
+    "watchos-arm64_32_armv7k/opencv2.framework/Headers/features2d/features2d.hpp": {
+      "sha256": "7a8c4b882ff82ee8d8aa892dccb13e26a0a091a18eadf17c64951490ee302689"
+    },
+    "watchos-arm64_32_armv7k/opencv2.framework/Headers/features2d/hal/interface.h": {
+      "sha256": "4fe9c4fa48d06743b83af7f3b7cc4c66da1fa7d6c94a927381827e72454c77d3"
+    },
+    "watchos-arm64_32_armv7k/opencv2.framework/Headers/features2d.hpp": {
+      "sha256": "fe724c64b37dae282ae38abae1accf9697146231ef76170287454ecbb0e9e69c"
+    },
+    "watchos-arm64_32_armv7k/opencv2.framework/Headers/highgui/highgui.hpp": {
+      "sha256": "2d167454cf33c9605b3b94e25294d3d78fbd1f046d5998b77f89c9e849e4cd1e"
+    },
+    "watchos-arm64_32_armv7k/opencv2.framework/Headers/highgui.hpp": {
+      "sha256": "be45cb0518457f06ab188712c7d6cb8fd53297581940ac47d1b5974e652e300a"
+    },
+    "watchos-arm64_32_armv7k/opencv2.framework/Headers/imgproc/bindings.hpp": {
+      "sha256": "f65b79fb4d9e7abcd8aa9bb8bcc2a3410c42dae8f729b8679a71bb85c7b85ee0"
+    },
+    "watchos-arm64_32_armv7k/opencv2.framework/Headers/imgproc/detail/gcgraph.hpp": {
+      "sha256": "e9e67386e93dd84a428af70e31313a0240a4df982f6c184d50180d9d6c2ea2f9"
+    },
+    "watchos-arm64_32_armv7k/opencv2.framework/Headers/imgproc/detail/legacy.hpp": {
+      "sha256": "625ce2e2c4abca32c44815e8ea6ea0d19c7d6f7db2cd142bd7e19b3770d953c4"
+    },
+    "watchos-arm64_32_armv7k/opencv2.framework/Headers/imgproc/hal/hal.hpp": {
+      "sha256": "efecd002537f5d66489e05401dadca222785c8bd4c69d7d70e1e131fd69a0097"
+    },
+    "watchos-arm64_32_armv7k/opencv2.framework/Headers/imgproc/hal/interface.h": {
+      "sha256": "27dd95facd92c6ca8e6fe4b981c51dbdb22b9dafba133cf2be0f5a03f5d8152e"
+    },
+    "watchos-arm64_32_armv7k/opencv2.framework/Headers/imgproc/imgproc.hpp": {
+      "sha256": "f519aaf5d2676014d46f0f29719baaa98c14c84bcf2311c10325e210a4103e70"
+    },
+    "watchos-arm64_32_armv7k/opencv2.framework/Headers/imgproc/imgproc_c.h": {
+      "sha256": "c0b4bd7f7769c966dbfada1d3ae65f8ce214fce1038339245a174ac40140ca77"
+    },
+    "watchos-arm64_32_armv7k/opencv2.framework/Headers/imgproc/segmentation.hpp": {
+      "sha256": "1f27474710e792c7ff1f1a63bac86876f53ceb0f648d32eb30b99e67d3dd5fdf"
+    },
+    "watchos-arm64_32_armv7k/opencv2.framework/Headers/imgproc/types_c.h": {
+      "sha256": "c844682f2f7d8dcbce7acdac069b41203dd8a4309946b3d23dbe22663d74a012"
+    },
+    "watchos-arm64_32_armv7k/opencv2.framework/Headers/imgproc.hpp": {
+      "sha256": "5ed21f51cd0086561edc1b3d8a16bd95b05b3f90e48664a4b5a379e0287554f2"
+    },
+    "watchos-arm64_32_armv7k/opencv2.framework/Headers/opencv.hpp": {
+      "sha256": "37df4ccc15f8a6ed06e2099910c63e486841ddbd5bc2d303405bc34f8fd44b66"
+    },
+    "watchos-arm64_32_armv7k/opencv2.framework/Headers/opencv_modules.hpp": {
+      "sha256": "85dd18fd030cbb21b43631cde2559efec6dbb3c67065caea48ff16769b9c9f1a"
+    },
+    "watchos-arm64_32_armv7k/opencv2.framework/Headers/photo/legacy/constants_c.h": {
+      "sha256": "dd01c6afe89743ebfd863d7b8c17b80c7fa5c9f676ea69e372836cc26f0c0403"
+    },
+    "watchos-arm64_32_armv7k/opencv2.framework/Headers/photo/photo.hpp": {
+      "sha256": "18b6aed6db6c14d4295e89f7c9bb8931c44320d97195921fff3c16ea4174d67f"
+    },
+    "watchos-arm64_32_armv7k/opencv2.framework/Headers/photo.hpp": {
+      "sha256": "065317df350d13ec1eddb3e153a2836b2ac0d554eb5ff5a564f2224e0d26c945"
+    },
+    "watchos-arm64_32_armv7k/opencv2.framework/Headers/video/background_segm.hpp": {
+      "sha256": "d7e52545ca5f968b1e4711054b50e32af92557d3aca8876e806482443c104a16"
+    },
+    "watchos-arm64_32_armv7k/opencv2.framework/Headers/video/detail/tracking.detail.hpp": {
+      "sha256": "81f3eea460ec6c87e851435c0fedf38b4fe6a46f6982531cdac916e078255246"
+    },
+    "watchos-arm64_32_armv7k/opencv2.framework/Headers/video/legacy/constants_c.h": {
+      "sha256": "5c523ca5b04e4bb98a1ef77c87ae0ca87b6a4f3142f28737ef50115abb326299"
+    },
+    "watchos-arm64_32_armv7k/opencv2.framework/Headers/video/tracking.hpp": {
+      "sha256": "eec77538e88bd3bc5d7e6b9179a76d8886eac6f6bcd96fee2fed184a8855fe82"
+    },
+    "watchos-arm64_32_armv7k/opencv2.framework/Headers/video/video.hpp": {
+      "sha256": "67e31defa256825bb977d4126d7b00f53c90cb49638b8a9e43ec121568167e36"
+    },
+    "watchos-arm64_32_armv7k/opencv2.framework/Headers/video.hpp": {
+      "sha256": "5c1d80d5edbb3c681d4c17e01d34c541fa341f0a270ccd427e59601c5a4ed625"
+    },
+    "watchos-arm64_32_armv7k/opencv2.framework/Headers/world.hpp": {
+      "sha256": "bd82d87fdd7cfc4bdcfa62e9941d5ed62c11ecd85ada486070cbc4299715a7ff"
+    },
+    "watchos-arm64_32_armv7k/opencv2.framework/Info.plist": {
+      "sha256": "3e1d5d522bf62949c5a5c5c80d6dd193ab8ed8d9f058741b0d1083027bc25836"
+    },
+    "watchos-arm64_32_armv7k/opencv2.framework/opencv2": {
+      "sha256": "1b69a51d82b005f4c1e45d28aeef509e9540495d4a08a68ffbfd011907addebc"
+    },
+    "watchos-arm64_x86_64-simulator/opencv2.framework/Headers/core/affine.hpp": {
+      "sha256": "f67b0e1a0d51ed1a0cb0f0010568a3c3649aa99ab51a0183e092858be6b00da4"
+    },
+    "watchos-arm64_x86_64-simulator/opencv2.framework/Headers/core/async.hpp": {
+      "sha256": "4ebd7dec356441c35e53447f548cb4c1074d93109a92716ab570d40469992313"
+    },
+    "watchos-arm64_x86_64-simulator/opencv2.framework/Headers/core/base.hpp": {
+      "sha256": "db611eaad4e4cef0247296f47cb32add35194d338f7fb3d3364c200cccb78b9d"
+    },
+    "watchos-arm64_x86_64-simulator/opencv2.framework/Headers/core/bindings_utils.hpp": {
+      "sha256": "ecfed743e5c77e8c8062f981eeb7192af5329f92dcd8aecc91c648ec3b2e96f7"
+    },
+    "watchos-arm64_x86_64-simulator/opencv2.framework/Headers/core/bufferpool.hpp": {
+      "sha256": "65dd904d4f15850ec23ad7531a8f431fd023c98c429adc59e00ae346c8976667"
+    },
+    "watchos-arm64_x86_64-simulator/opencv2.framework/Headers/core/check.hpp": {
+      "sha256": "fb7cf749c4695f02cb311b198efa9823eac1f1e98831b776fe8ab5f976bea4d1"
+    },
+    "watchos-arm64_x86_64-simulator/opencv2.framework/Headers/core/core.hpp": {
+      "sha256": "21a4ea4d80847984ef8eafe4746ecc18d5bcafd10564ce4c24e2416043d85798"
+    },
+    "watchos-arm64_x86_64-simulator/opencv2.framework/Headers/core/core_c.h": {
+      "sha256": "7c5d2883897df0d8f86a322078c32132cf890a34f45fcdb9460f1bde84e97466"
+    },
+    "watchos-arm64_x86_64-simulator/opencv2.framework/Headers/core/cv_cpu_dispatch.h": {
+      "sha256": "9bc32aba988a5412ff6590984bd5758a8613fe51891358d18be9f4e04ca30055"
+    },
+    "watchos-arm64_x86_64-simulator/opencv2.framework/Headers/core/cv_cpu_helper.h": {
+      "sha256": "3dafd54f9adbdb9bd39b7ed81f4ea25eeb81117356e974fede4648ded4ad16a9"
+    },
+    "watchos-arm64_x86_64-simulator/opencv2.framework/Headers/core/cvdef.h": {
+      "sha256": "8ca1520e205c3c26670a0e510a2371fe196c11687b92886e14962b423af341c9"
+    },
+    "watchos-arm64_x86_64-simulator/opencv2.framework/Headers/core/cvstd.hpp": {
+      "sha256": "96a1ddefb0539061389be0704b554e5ab30f20132944485f4c70644ceeb4a0d2"
+    },
+    "watchos-arm64_x86_64-simulator/opencv2.framework/Headers/core/cvstd.inl.hpp": {
+      "sha256": "3fb7d0328e9da0dd788528501dc7bbdceb5cfef83b49189952900e4652281a32"
+    },
+    "watchos-arm64_x86_64-simulator/opencv2.framework/Headers/core/cvstd_wrapper.hpp": {
+      "sha256": "babed4fc9c3d804502aa053c5add427600600f080984985812d8cce716b35ffa"
+    },
+    "watchos-arm64_x86_64-simulator/opencv2.framework/Headers/core/detail/async_promise.hpp": {
+      "sha256": "84920f5944b2561b0f6da3784a5fd281aba39e8544651a7ac8a889e3509982f4"
+    },
+    "watchos-arm64_x86_64-simulator/opencv2.framework/Headers/core/detail/dispatch_helper.impl.hpp": {
+      "sha256": "a6c812132580f4eaca6f35f2f19b32d40b24ef9ab0b75b51291c551c6b4224d9"
+    },
+    "watchos-arm64_x86_64-simulator/opencv2.framework/Headers/core/detail/exception_ptr.hpp": {
+      "sha256": "30ae6e20abd03cf3621bfb392e7778aff8a90635bd4679e9f2e706c8c99b0986"
+    },
+    "watchos-arm64_x86_64-simulator/opencv2.framework/Headers/core/dualquaternion.hpp": {
+      "sha256": "ed725cacbb20ca9b17c72256504ec74d270bcf44559952508392d7b69764f1ad"
+    },
+    "watchos-arm64_x86_64-simulator/opencv2.framework/Headers/core/dualquaternion.inl.hpp": {
+      "sha256": "1b6b478123cd15b7f24f2f3399d5c9199f7af979d9b57f0b0265a02cd4279484"
+    },
+    "watchos-arm64_x86_64-simulator/opencv2.framework/Headers/core/eigen.hpp": {
+      "sha256": "fb98669a1bf5b6ab3c31ed3479663d0608131bc9af743f7b7e868640b3428485"
+    },
+    "watchos-arm64_x86_64-simulator/opencv2.framework/Headers/core/fast_math.hpp": {
+      "sha256": "81719ea26aef77deda817c751a90b7c61049821aaf67e915654b2305caaa942d"
+    },
+    "watchos-arm64_x86_64-simulator/opencv2.framework/Headers/core/hal/hal.hpp": {
+      "sha256": "0f8eadf8fd6899858ab46db329ba94770160ecf9cd8ac897dece8c6884c8d521"
+    },
+    "watchos-arm64_x86_64-simulator/opencv2.framework/Headers/core/hal/interface.h": {
+      "sha256": "bd11814cfd2c331eaa93b42d80a0911a4916f6afa99907f332fe8f641098eb43"
+    },
+    "watchos-arm64_x86_64-simulator/opencv2.framework/Headers/core/hal/intrin.hpp": {
+      "sha256": "eeb3be550b8d7f6492c762bcefeb2e8fe5c9c0628ccb09f2ded7f1b2f34d6aa3"
+    },
+    "watchos-arm64_x86_64-simulator/opencv2.framework/Headers/core/hal/intrin_avx.hpp": {
+      "sha256": "a94f0297f74c4081a341d27eace3e000f6720d2419df890ffbeeccf2174d37aa"
+    },
+    "watchos-arm64_x86_64-simulator/opencv2.framework/Headers/core/hal/intrin_avx512.hpp": {
+      "sha256": "b7fd72f1e96a00370e1096a1d61f75f6bf0355d9f2b1fff2bca64affac7aa23e"
+    },
+    "watchos-arm64_x86_64-simulator/opencv2.framework/Headers/core/hal/intrin_cpp.hpp": {
+      "sha256": "c0f491dd72e8bd5ae0cd31d650d283593cd74afa5ca113ba7c5bae716392d2c9"
+    },
+    "watchos-arm64_x86_64-simulator/opencv2.framework/Headers/core/hal/intrin_forward.hpp": {
+      "sha256": "ad93e16fdad234aab37ccc96bd37768f213c6ee2fedb3c6309e1057307f621f2"
+    },
+    "watchos-arm64_x86_64-simulator/opencv2.framework/Headers/core/hal/intrin_lasx.hpp": {
+      "sha256": "4d731ad3c689efea2905db049636adb3d48d5fdf3436cd1b61a3bd283ddaa023"
+    },
+    "watchos-arm64_x86_64-simulator/opencv2.framework/Headers/core/hal/intrin_legacy_ops.h": {
+      "sha256": "9162fd638f6523412d095dc69bc67b5d5eb0b945c185003e67b0938a79c90686"
+    },
+    "watchos-arm64_x86_64-simulator/opencv2.framework/Headers/core/hal/intrin_lsx.hpp": {
+      "sha256": "aa31563f0a5033495e27a5bab0cde7deda49bc2c039aeeabb4ae9ed1f68b172b"
+    },
+    "watchos-arm64_x86_64-simulator/opencv2.framework/Headers/core/hal/intrin_math.hpp": {
+      "sha256": "8d6ed7f222d15da0d73080fe407d7e3f9809b3fc5c93222cbe320f9a9f794e5c"
+    },
+    "watchos-arm64_x86_64-simulator/opencv2.framework/Headers/core/hal/intrin_msa.hpp": {
+      "sha256": "80dfbe94520016a6d10be1444c612cdb889d606ef6f016f2a693f215be289b09"
+    },
+    "watchos-arm64_x86_64-simulator/opencv2.framework/Headers/core/hal/intrin_neon.hpp": {
+      "sha256": "fd562189af217d1d0529fdfcf18c80c849895aa7438dc8dbfbf0c027bf939f23"
+    },
+    "watchos-arm64_x86_64-simulator/opencv2.framework/Headers/core/hal/intrin_rvv071.hpp": {
+      "sha256": "2ddc9c4978233a8fa09d7d990349723cf6ad627cdd967c27ad6765b4ede6528b"
+    },
+    "watchos-arm64_x86_64-simulator/opencv2.framework/Headers/core/hal/intrin_rvv_scalable.hpp": {
+      "sha256": "60e6040f2fcb239699516073bf688d2fab522806d98c0bd364e4fe9f579ac2df"
+    },
+    "watchos-arm64_x86_64-simulator/opencv2.framework/Headers/core/hal/intrin_sse.hpp": {
+      "sha256": "9ea43239afc6dd6915c37715074d8d6351a055b3890aa71fb644864dcb9ececd"
+    },
+    "watchos-arm64_x86_64-simulator/opencv2.framework/Headers/core/hal/intrin_sse_em.hpp": {
+      "sha256": "9a8369d287ff500756fae5577f528c360f011e04e5a4a44f5af1d697b1d1442a"
+    },
+    "watchos-arm64_x86_64-simulator/opencv2.framework/Headers/core/hal/intrin_vsx.hpp": {
+      "sha256": "aaec43fe948c55b3b31d730358d4b266f90aede3c262cff794c293a7370c13fe"
+    },
+    "watchos-arm64_x86_64-simulator/opencv2.framework/Headers/core/hal/intrin_wasm.hpp": {
+      "sha256": "4c63d4c9717d6c75261415c197a7b0912dd848eefa8d13fc87ad306d60ce9656"
+    },
+    "watchos-arm64_x86_64-simulator/opencv2.framework/Headers/core/hal/msa_macros.h": {
+      "sha256": "bf5842830c95304950487c93f9f8ec5ac29ad659a316fb2ea80407229ee2a6e0"
+    },
+    "watchos-arm64_x86_64-simulator/opencv2.framework/Headers/core/hal/simd_utils.impl.hpp": {
+      "sha256": "a7416b4d5fc41cd2df66f4fdb36a0a85374d79de3dc5d8fb38ce40be049ff772"
+    },
+    "watchos-arm64_x86_64-simulator/opencv2.framework/Headers/core/mat.hpp": {
+      "sha256": "1cd4e67e4b4bf466307c47ad4f8166faa8175ac4f812e00167d253f04dc845f3"
+    },
+    "watchos-arm64_x86_64-simulator/opencv2.framework/Headers/core/mat.inl.hpp": {
+      "sha256": "4ff08f17c7d7a85411d5d694a405190ed35d71a15dc02af9d161cdac9771d24b"
+    },
+    "watchos-arm64_x86_64-simulator/opencv2.framework/Headers/core/matx.hpp": {
+      "sha256": "086ceebe87ed54c98155bfff778f02305697dc7cd9d10449f2f21a482023872b"
+    },
+    "watchos-arm64_x86_64-simulator/opencv2.framework/Headers/core/matx.inl.hpp": {
+      "sha256": "010153afc595d6e58ba24949c85af8a6a2fc038d52ec054a35ae9eed8a97980d"
+    },
+    "watchos-arm64_x86_64-simulator/opencv2.framework/Headers/core/neon_utils.hpp": {
+      "sha256": "ac4f537960e50684671ca6a4b95c1eb6db5ba05e8d9f42f66b930ac8702ae7f9"
+    },
+    "watchos-arm64_x86_64-simulator/opencv2.framework/Headers/core/operations.hpp": {
+      "sha256": "3900e92391bf28dac5b7118a1daa5839bfaf7c9cf60526b91b66e6c128b08205"
+    },
+    "watchos-arm64_x86_64-simulator/opencv2.framework/Headers/core/optim.hpp": {
+      "sha256": "acfc26fa3409d2c7dc897fc816a6eab67554414a514a1a062de68a68cb351e80"
+    },
+    "watchos-arm64_x86_64-simulator/opencv2.framework/Headers/core/parallel/backend/parallel_for.openmp.hpp": {
+      "sha256": "903d8ba56eae3158e816522c5a816e9e9811e41c62e812a34bbf1dbfde81132e"
+    },
+    "watchos-arm64_x86_64-simulator/opencv2.framework/Headers/core/parallel/backend/parallel_for.tbb.hpp": {
+      "sha256": "af6dd3c7162df172e8462b8c697f2fcddf2af1777f98a993ab3be8b33fb58b7e"
+    },
+    "watchos-arm64_x86_64-simulator/opencv2.framework/Headers/core/parallel/parallel_backend.hpp": {
+      "sha256": "79c71d6191b0931cb1db9931ca4ecaa156cfec83bc6e4e71b8407722ed3d7194"
+    },
+    "watchos-arm64_x86_64-simulator/opencv2.framework/Headers/core/persistence.hpp": {
+      "sha256": "992e7d7575fd671302b2beb9600a99e380485797aa6448bdbaa81d8c66b524b8"
+    },
+    "watchos-arm64_x86_64-simulator/opencv2.framework/Headers/core/quaternion.hpp": {
+      "sha256": "6ff8d3b19489c4b69345806b65e82770829ecca8604d96b421a27f3a30ca05d1"
+    },
+    "watchos-arm64_x86_64-simulator/opencv2.framework/Headers/core/quaternion.inl.hpp": {
+      "sha256": "dff743f883e47035d84e52058cb9bca9fbf5d615e35bf3923097164263d6a164"
+    },
+    "watchos-arm64_x86_64-simulator/opencv2.framework/Headers/core/saturate.hpp": {
+      "sha256": "bf418a3f44d575b17c18af968dbe3e2c8bd0663c22f8dcb53c4b0f77b5db14ba"
+    },
+    "watchos-arm64_x86_64-simulator/opencv2.framework/Headers/core/simd_intrinsics.hpp": {
+      "sha256": "ac81c6962c8b5679dfb63fe06487c27ae197946b66b1df90ad46e410a11a5a20"
+    },
+    "watchos-arm64_x86_64-simulator/opencv2.framework/Headers/core/softfloat.hpp": {
+      "sha256": "43c01ea3c1b3f99352437dddaca1b9b862e9d9b734c7a901f63abad5b28e3412"
+    },
+    "watchos-arm64_x86_64-simulator/opencv2.framework/Headers/core/sse_utils.hpp": {
+      "sha256": "2d9f170fdecb359c434387e6379fe5f16f9ffc77ef8dc4ba111ca517c3359023"
+    },
+    "watchos-arm64_x86_64-simulator/opencv2.framework/Headers/core/traits.hpp": {
+      "sha256": "6c45b2ee5137464ab4080063e38b68a6c5ac8b415e04aee8cb5c634b5dcc9861"
+    },
+    "watchos-arm64_x86_64-simulator/opencv2.framework/Headers/core/types.hpp": {
+      "sha256": "19d8ae6170f3b6f38f545768a24c922a50774c23eeebc11e39f7c6a1f5726f08"
+    },
+    "watchos-arm64_x86_64-simulator/opencv2.framework/Headers/core/types_c.h": {
+      "sha256": "0bab108b55e64c5f7b6a1faa3d8eb655591321efd7b30dc0a663201531f48900"
+    },
+    "watchos-arm64_x86_64-simulator/opencv2.framework/Headers/core/utility.hpp": {
+      "sha256": "e5b9e25e349f121c3d3f2347c48afef5d18a8c7c4124acee833c0e04b9c270b0"
+    },
+    "watchos-arm64_x86_64-simulator/opencv2.framework/Headers/core/utils/allocator_stats.hpp": {
+      "sha256": "260d7dff55a04646ae7f78bfe7af249fe2bbe368add0c934cad108703dbb56c1"
+    },
+    "watchos-arm64_x86_64-simulator/opencv2.framework/Headers/core/utils/allocator_stats.impl.hpp": {
+      "sha256": "62b1f1d878926e7ce8fa323a75a5e8cdb184fd0c6261890963fd82dc9c26c874"
+    },
+    "watchos-arm64_x86_64-simulator/opencv2.framework/Headers/core/utils/filesystem.hpp": {
+      "sha256": "584606928e15cdfa0846f97a4f1922860b6f193e0bc3e9f15bd58796edb10b86"
+    },
+    "watchos-arm64_x86_64-simulator/opencv2.framework/Headers/core/utils/fp_control_utils.hpp": {
+      "sha256": "2565900dff6e97772c2cb1434b8d136df85446e4596a708d73ae14f3cae9a8d8"
+    },
+    "watchos-arm64_x86_64-simulator/opencv2.framework/Headers/core/utils/instrumentation.hpp": {
+      "sha256": "dcb6a1ae866d143f400f844a4761b52f64429342a7511d1f6402b87105511e9d"
+    },
+    "watchos-arm64_x86_64-simulator/opencv2.framework/Headers/core/utils/logger.defines.hpp": {
+      "sha256": "03bc3fd53608846ee3ad1b1feeeb97ac68e9758f4ceb5827ecca87c58204304c"
+    },
+    "watchos-arm64_x86_64-simulator/opencv2.framework/Headers/core/utils/logger.hpp": {
+      "sha256": "139133ff707a0fb31bb201dfa34a1630d14ac02176272b241e2d1b6a1379b470"
+    },
+    "watchos-arm64_x86_64-simulator/opencv2.framework/Headers/core/utils/logtag.hpp": {
+      "sha256": "1ab5f6f986e02af6aec74d7881ce0676dd82b215c4a5b33087f7e8010a1808b5"
+    },
+    "watchos-arm64_x86_64-simulator/opencv2.framework/Headers/core/utils/tls.hpp": {
+      "sha256": "3b3261c3900c2d1ab82496b6722979996cb899f3110492d7177651790b6f9aef"
+    },
+    "watchos-arm64_x86_64-simulator/opencv2.framework/Headers/core/utils/trace.hpp": {
+      "sha256": "0f0d8b3b0c68c871d026a95c549110e4438f8b349c42864ac7f49a9b5fe72066"
+    },
+    "watchos-arm64_x86_64-simulator/opencv2.framework/Headers/core/version.hpp": {
+      "sha256": "aa6df48dc2a1807bf2a1decb21d8917f18632ef4c0f6f87e3a31a62f7ebf7555"
+    },
+    "watchos-arm64_x86_64-simulator/opencv2.framework/Headers/core/vsx_utils.hpp": {
+      "sha256": "4c0a89863f2147258a09ed9e4f295aff35bef9e9677e8bb2f73af23cca83885d"
+    },
+    "watchos-arm64_x86_64-simulator/opencv2.framework/Headers/core.hpp": {
+      "sha256": "7ed046d89c1287c5c687e92b36be8dd42720822634e50d0504ee1a4efc1424fd"
+    },
+    "watchos-arm64_x86_64-simulator/opencv2.framework/Headers/cvconfig.h": {
+      "sha256": "754c031c11644a993792b8b26dad561ce6073b0a3fb63ca56624f13382dd922a"
+    },
+    "watchos-arm64_x86_64-simulator/opencv2.framework/Headers/dnn/dnn.hpp": {
+      "sha256": "32aed1c0b211e1923ee325decd516eeb4435db6f8ce6a37af64186f364ca9bd1"
+    },
+    "watchos-arm64_x86_64-simulator/opencv2.framework/Headers/dnn.hpp": {
+      "sha256": "c6df8ef0fc5e8bd2bfcebb52410d8e0989d3013fb75d0502c3d2ed9436cadca2"
+    },
+    "watchos-arm64_x86_64-simulator/opencv2.framework/Headers/features2d/features2d.hpp": {
+      "sha256": "7a8c4b882ff82ee8d8aa892dccb13e26a0a091a18eadf17c64951490ee302689"
+    },
+    "watchos-arm64_x86_64-simulator/opencv2.framework/Headers/features2d/hal/interface.h": {
+      "sha256": "4fe9c4fa48d06743b83af7f3b7cc4c66da1fa7d6c94a927381827e72454c77d3"
+    },
+    "watchos-arm64_x86_64-simulator/opencv2.framework/Headers/features2d.hpp": {
+      "sha256": "fe724c64b37dae282ae38abae1accf9697146231ef76170287454ecbb0e9e69c"
+    },
+    "watchos-arm64_x86_64-simulator/opencv2.framework/Headers/highgui/highgui.hpp": {
+      "sha256": "2d167454cf33c9605b3b94e25294d3d78fbd1f046d5998b77f89c9e849e4cd1e"
+    },
+    "watchos-arm64_x86_64-simulator/opencv2.framework/Headers/highgui.hpp": {
+      "sha256": "be45cb0518457f06ab188712c7d6cb8fd53297581940ac47d1b5974e652e300a"
+    },
+    "watchos-arm64_x86_64-simulator/opencv2.framework/Headers/imgproc/bindings.hpp": {
+      "sha256": "f65b79fb4d9e7abcd8aa9bb8bcc2a3410c42dae8f729b8679a71bb85c7b85ee0"
+    },
+    "watchos-arm64_x86_64-simulator/opencv2.framework/Headers/imgproc/detail/gcgraph.hpp": {
+      "sha256": "e9e67386e93dd84a428af70e31313a0240a4df982f6c184d50180d9d6c2ea2f9"
+    },
+    "watchos-arm64_x86_64-simulator/opencv2.framework/Headers/imgproc/detail/legacy.hpp": {
+      "sha256": "625ce2e2c4abca32c44815e8ea6ea0d19c7d6f7db2cd142bd7e19b3770d953c4"
+    },
+    "watchos-arm64_x86_64-simulator/opencv2.framework/Headers/imgproc/hal/hal.hpp": {
+      "sha256": "efecd002537f5d66489e05401dadca222785c8bd4c69d7d70e1e131fd69a0097"
+    },
+    "watchos-arm64_x86_64-simulator/opencv2.framework/Headers/imgproc/hal/interface.h": {
+      "sha256": "27dd95facd92c6ca8e6fe4b981c51dbdb22b9dafba133cf2be0f5a03f5d8152e"
+    },
+    "watchos-arm64_x86_64-simulator/opencv2.framework/Headers/imgproc/imgproc.hpp": {
+      "sha256": "f519aaf5d2676014d46f0f29719baaa98c14c84bcf2311c10325e210a4103e70"
+    },
+    "watchos-arm64_x86_64-simulator/opencv2.framework/Headers/imgproc/imgproc_c.h": {
+      "sha256": "c0b4bd7f7769c966dbfada1d3ae65f8ce214fce1038339245a174ac40140ca77"
+    },
+    "watchos-arm64_x86_64-simulator/opencv2.framework/Headers/imgproc/segmentation.hpp": {
+      "sha256": "1f27474710e792c7ff1f1a63bac86876f53ceb0f648d32eb30b99e67d3dd5fdf"
+    },
+    "watchos-arm64_x86_64-simulator/opencv2.framework/Headers/imgproc/types_c.h": {
+      "sha256": "c844682f2f7d8dcbce7acdac069b41203dd8a4309946b3d23dbe22663d74a012"
+    },
+    "watchos-arm64_x86_64-simulator/opencv2.framework/Headers/imgproc.hpp": {
+      "sha256": "5ed21f51cd0086561edc1b3d8a16bd95b05b3f90e48664a4b5a379e0287554f2"
+    },
+    "watchos-arm64_x86_64-simulator/opencv2.framework/Headers/opencv.hpp": {
+      "sha256": "37df4ccc15f8a6ed06e2099910c63e486841ddbd5bc2d303405bc34f8fd44b66"
+    },
+    "watchos-arm64_x86_64-simulator/opencv2.framework/Headers/opencv_modules.hpp": {
+      "sha256": "85dd18fd030cbb21b43631cde2559efec6dbb3c67065caea48ff16769b9c9f1a"
+    },
+    "watchos-arm64_x86_64-simulator/opencv2.framework/Headers/photo/legacy/constants_c.h": {
+      "sha256": "dd01c6afe89743ebfd863d7b8c17b80c7fa5c9f676ea69e372836cc26f0c0403"
+    },
+    "watchos-arm64_x86_64-simulator/opencv2.framework/Headers/photo/photo.hpp": {
+      "sha256": "18b6aed6db6c14d4295e89f7c9bb8931c44320d97195921fff3c16ea4174d67f"
+    },
+    "watchos-arm64_x86_64-simulator/opencv2.framework/Headers/photo.hpp": {
+      "sha256": "065317df350d13ec1eddb3e153a2836b2ac0d554eb5ff5a564f2224e0d26c945"
+    },
+    "watchos-arm64_x86_64-simulator/opencv2.framework/Headers/video/background_segm.hpp": {
+      "sha256": "d7e52545ca5f968b1e4711054b50e32af92557d3aca8876e806482443c104a16"
+    },
+    "watchos-arm64_x86_64-simulator/opencv2.framework/Headers/video/detail/tracking.detail.hpp": {
+      "sha256": "81f3eea460ec6c87e851435c0fedf38b4fe6a46f6982531cdac916e078255246"
+    },
+    "watchos-arm64_x86_64-simulator/opencv2.framework/Headers/video/legacy/constants_c.h": {
+      "sha256": "5c523ca5b04e4bb98a1ef77c87ae0ca87b6a4f3142f28737ef50115abb326299"
+    },
+    "watchos-arm64_x86_64-simulator/opencv2.framework/Headers/video/tracking.hpp": {
+      "sha256": "eec77538e88bd3bc5d7e6b9179a76d8886eac6f6bcd96fee2fed184a8855fe82"
+    },
+    "watchos-arm64_x86_64-simulator/opencv2.framework/Headers/video/video.hpp": {
+      "sha256": "67e31defa256825bb977d4126d7b00f53c90cb49638b8a9e43ec121568167e36"
+    },
+    "watchos-arm64_x86_64-simulator/opencv2.framework/Headers/video.hpp": {
+      "sha256": "5c1d80d5edbb3c681d4c17e01d34c541fa341f0a270ccd427e59601c5a4ed625"
+    },
+    "watchos-arm64_x86_64-simulator/opencv2.framework/Headers/world.hpp": {
+      "sha256": "bd82d87fdd7cfc4bdcfa62e9941d5ed62c11ecd85ada486070cbc4299715a7ff"
+    },
+    "watchos-arm64_x86_64-simulator/opencv2.framework/Info.plist": {
+      "sha256": "3e1d5d522bf62949c5a5c5c80d6dd193ab8ed8d9f058741b0d1083027bc25836"
+    },
+    "watchos-arm64_x86_64-simulator/opencv2.framework/opencv2": {
+      "sha256": "7fed43972781a1a27b5c828a13c42b023739a21c7e9bd6d4fefba0ecbf1bffe2"
+    },
+    "xros-arm64/opencv2.framework/Headers/core/affine.hpp": {
+      "sha256": "f67b0e1a0d51ed1a0cb0f0010568a3c3649aa99ab51a0183e092858be6b00da4"
+    },
+    "xros-arm64/opencv2.framework/Headers/core/async.hpp": {
+      "sha256": "4ebd7dec356441c35e53447f548cb4c1074d93109a92716ab570d40469992313"
+    },
+    "xros-arm64/opencv2.framework/Headers/core/base.hpp": {
+      "sha256": "db611eaad4e4cef0247296f47cb32add35194d338f7fb3d3364c200cccb78b9d"
+    },
+    "xros-arm64/opencv2.framework/Headers/core/bindings_utils.hpp": {
+      "sha256": "ecfed743e5c77e8c8062f981eeb7192af5329f92dcd8aecc91c648ec3b2e96f7"
+    },
+    "xros-arm64/opencv2.framework/Headers/core/bufferpool.hpp": {
+      "sha256": "65dd904d4f15850ec23ad7531a8f431fd023c98c429adc59e00ae346c8976667"
+    },
+    "xros-arm64/opencv2.framework/Headers/core/check.hpp": {
+      "sha256": "fb7cf749c4695f02cb311b198efa9823eac1f1e98831b776fe8ab5f976bea4d1"
+    },
+    "xros-arm64/opencv2.framework/Headers/core/core.hpp": {
+      "sha256": "21a4ea4d80847984ef8eafe4746ecc18d5bcafd10564ce4c24e2416043d85798"
+    },
+    "xros-arm64/opencv2.framework/Headers/core/core_c.h": {
+      "sha256": "7c5d2883897df0d8f86a322078c32132cf890a34f45fcdb9460f1bde84e97466"
+    },
+    "xros-arm64/opencv2.framework/Headers/core/cv_cpu_dispatch.h": {
+      "sha256": "9bc32aba988a5412ff6590984bd5758a8613fe51891358d18be9f4e04ca30055"
+    },
+    "xros-arm64/opencv2.framework/Headers/core/cv_cpu_helper.h": {
+      "sha256": "3dafd54f9adbdb9bd39b7ed81f4ea25eeb81117356e974fede4648ded4ad16a9"
+    },
+    "xros-arm64/opencv2.framework/Headers/core/cvdef.h": {
+      "sha256": "8ca1520e205c3c26670a0e510a2371fe196c11687b92886e14962b423af341c9"
+    },
+    "xros-arm64/opencv2.framework/Headers/core/cvstd.hpp": {
+      "sha256": "96a1ddefb0539061389be0704b554e5ab30f20132944485f4c70644ceeb4a0d2"
+    },
+    "xros-arm64/opencv2.framework/Headers/core/cvstd.inl.hpp": {
+      "sha256": "3fb7d0328e9da0dd788528501dc7bbdceb5cfef83b49189952900e4652281a32"
+    },
+    "xros-arm64/opencv2.framework/Headers/core/cvstd_wrapper.hpp": {
+      "sha256": "babed4fc9c3d804502aa053c5add427600600f080984985812d8cce716b35ffa"
+    },
+    "xros-arm64/opencv2.framework/Headers/core/detail/async_promise.hpp": {
+      "sha256": "84920f5944b2561b0f6da3784a5fd281aba39e8544651a7ac8a889e3509982f4"
+    },
+    "xros-arm64/opencv2.framework/Headers/core/detail/dispatch_helper.impl.hpp": {
+      "sha256": "a6c812132580f4eaca6f35f2f19b32d40b24ef9ab0b75b51291c551c6b4224d9"
+    },
+    "xros-arm64/opencv2.framework/Headers/core/detail/exception_ptr.hpp": {
+      "sha256": "30ae6e20abd03cf3621bfb392e7778aff8a90635bd4679e9f2e706c8c99b0986"
+    },
+    "xros-arm64/opencv2.framework/Headers/core/dualquaternion.hpp": {
+      "sha256": "ed725cacbb20ca9b17c72256504ec74d270bcf44559952508392d7b69764f1ad"
+    },
+    "xros-arm64/opencv2.framework/Headers/core/dualquaternion.inl.hpp": {
+      "sha256": "1b6b478123cd15b7f24f2f3399d5c9199f7af979d9b57f0b0265a02cd4279484"
+    },
+    "xros-arm64/opencv2.framework/Headers/core/eigen.hpp": {
+      "sha256": "fb98669a1bf5b6ab3c31ed3479663d0608131bc9af743f7b7e868640b3428485"
+    },
+    "xros-arm64/opencv2.framework/Headers/core/fast_math.hpp": {
+      "sha256": "81719ea26aef77deda817c751a90b7c61049821aaf67e915654b2305caaa942d"
+    },
+    "xros-arm64/opencv2.framework/Headers/core/hal/hal.hpp": {
+      "sha256": "0f8eadf8fd6899858ab46db329ba94770160ecf9cd8ac897dece8c6884c8d521"
+    },
+    "xros-arm64/opencv2.framework/Headers/core/hal/interface.h": {
+      "sha256": "bd11814cfd2c331eaa93b42d80a0911a4916f6afa99907f332fe8f641098eb43"
+    },
+    "xros-arm64/opencv2.framework/Headers/core/hal/intrin.hpp": {
+      "sha256": "eeb3be550b8d7f6492c762bcefeb2e8fe5c9c0628ccb09f2ded7f1b2f34d6aa3"
+    },
+    "xros-arm64/opencv2.framework/Headers/core/hal/intrin_avx.hpp": {
+      "sha256": "a94f0297f74c4081a341d27eace3e000f6720d2419df890ffbeeccf2174d37aa"
+    },
+    "xros-arm64/opencv2.framework/Headers/core/hal/intrin_avx512.hpp": {
+      "sha256": "b7fd72f1e96a00370e1096a1d61f75f6bf0355d9f2b1fff2bca64affac7aa23e"
+    },
+    "xros-arm64/opencv2.framework/Headers/core/hal/intrin_cpp.hpp": {
+      "sha256": "c0f491dd72e8bd5ae0cd31d650d283593cd74afa5ca113ba7c5bae716392d2c9"
+    },
+    "xros-arm64/opencv2.framework/Headers/core/hal/intrin_forward.hpp": {
+      "sha256": "ad93e16fdad234aab37ccc96bd37768f213c6ee2fedb3c6309e1057307f621f2"
+    },
+    "xros-arm64/opencv2.framework/Headers/core/hal/intrin_lasx.hpp": {
+      "sha256": "4d731ad3c689efea2905db049636adb3d48d5fdf3436cd1b61a3bd283ddaa023"
+    },
+    "xros-arm64/opencv2.framework/Headers/core/hal/intrin_legacy_ops.h": {
+      "sha256": "9162fd638f6523412d095dc69bc67b5d5eb0b945c185003e67b0938a79c90686"
+    },
+    "xros-arm64/opencv2.framework/Headers/core/hal/intrin_lsx.hpp": {
+      "sha256": "aa31563f0a5033495e27a5bab0cde7deda49bc2c039aeeabb4ae9ed1f68b172b"
+    },
+    "xros-arm64/opencv2.framework/Headers/core/hal/intrin_math.hpp": {
+      "sha256": "8d6ed7f222d15da0d73080fe407d7e3f9809b3fc5c93222cbe320f9a9f794e5c"
+    },
+    "xros-arm64/opencv2.framework/Headers/core/hal/intrin_msa.hpp": {
+      "sha256": "80dfbe94520016a6d10be1444c612cdb889d606ef6f016f2a693f215be289b09"
+    },
+    "xros-arm64/opencv2.framework/Headers/core/hal/intrin_neon.hpp": {
+      "sha256": "fd562189af217d1d0529fdfcf18c80c849895aa7438dc8dbfbf0c027bf939f23"
+    },
+    "xros-arm64/opencv2.framework/Headers/core/hal/intrin_rvv071.hpp": {
+      "sha256": "2ddc9c4978233a8fa09d7d990349723cf6ad627cdd967c27ad6765b4ede6528b"
+    },
+    "xros-arm64/opencv2.framework/Headers/core/hal/intrin_rvv_scalable.hpp": {
+      "sha256": "60e6040f2fcb239699516073bf688d2fab522806d98c0bd364e4fe9f579ac2df"
+    },
+    "xros-arm64/opencv2.framework/Headers/core/hal/intrin_sse.hpp": {
+      "sha256": "9ea43239afc6dd6915c37715074d8d6351a055b3890aa71fb644864dcb9ececd"
+    },
+    "xros-arm64/opencv2.framework/Headers/core/hal/intrin_sse_em.hpp": {
+      "sha256": "9a8369d287ff500756fae5577f528c360f011e04e5a4a44f5af1d697b1d1442a"
+    },
+    "xros-arm64/opencv2.framework/Headers/core/hal/intrin_vsx.hpp": {
+      "sha256": "aaec43fe948c55b3b31d730358d4b266f90aede3c262cff794c293a7370c13fe"
+    },
+    "xros-arm64/opencv2.framework/Headers/core/hal/intrin_wasm.hpp": {
+      "sha256": "4c63d4c9717d6c75261415c197a7b0912dd848eefa8d13fc87ad306d60ce9656"
+    },
+    "xros-arm64/opencv2.framework/Headers/core/hal/msa_macros.h": {
+      "sha256": "bf5842830c95304950487c93f9f8ec5ac29ad659a316fb2ea80407229ee2a6e0"
+    },
+    "xros-arm64/opencv2.framework/Headers/core/hal/simd_utils.impl.hpp": {
+      "sha256": "a7416b4d5fc41cd2df66f4fdb36a0a85374d79de3dc5d8fb38ce40be049ff772"
+    },
+    "xros-arm64/opencv2.framework/Headers/core/mat.hpp": {
+      "sha256": "1cd4e67e4b4bf466307c47ad4f8166faa8175ac4f812e00167d253f04dc845f3"
+    },
+    "xros-arm64/opencv2.framework/Headers/core/mat.inl.hpp": {
+      "sha256": "4ff08f17c7d7a85411d5d694a405190ed35d71a15dc02af9d161cdac9771d24b"
+    },
+    "xros-arm64/opencv2.framework/Headers/core/matx.hpp": {
+      "sha256": "086ceebe87ed54c98155bfff778f02305697dc7cd9d10449f2f21a482023872b"
+    },
+    "xros-arm64/opencv2.framework/Headers/core/matx.inl.hpp": {
+      "sha256": "010153afc595d6e58ba24949c85af8a6a2fc038d52ec054a35ae9eed8a97980d"
+    },
+    "xros-arm64/opencv2.framework/Headers/core/neon_utils.hpp": {
+      "sha256": "ac4f537960e50684671ca6a4b95c1eb6db5ba05e8d9f42f66b930ac8702ae7f9"
+    },
+    "xros-arm64/opencv2.framework/Headers/core/operations.hpp": {
+      "sha256": "3900e92391bf28dac5b7118a1daa5839bfaf7c9cf60526b91b66e6c128b08205"
+    },
+    "xros-arm64/opencv2.framework/Headers/core/optim.hpp": {
+      "sha256": "acfc26fa3409d2c7dc897fc816a6eab67554414a514a1a062de68a68cb351e80"
+    },
+    "xros-arm64/opencv2.framework/Headers/core/parallel/backend/parallel_for.openmp.hpp": {
+      "sha256": "903d8ba56eae3158e816522c5a816e9e9811e41c62e812a34bbf1dbfde81132e"
+    },
+    "xros-arm64/opencv2.framework/Headers/core/parallel/backend/parallel_for.tbb.hpp": {
+      "sha256": "af6dd3c7162df172e8462b8c697f2fcddf2af1777f98a993ab3be8b33fb58b7e"
+    },
+    "xros-arm64/opencv2.framework/Headers/core/parallel/parallel_backend.hpp": {
+      "sha256": "79c71d6191b0931cb1db9931ca4ecaa156cfec83bc6e4e71b8407722ed3d7194"
+    },
+    "xros-arm64/opencv2.framework/Headers/core/persistence.hpp": {
+      "sha256": "992e7d7575fd671302b2beb9600a99e380485797aa6448bdbaa81d8c66b524b8"
+    },
+    "xros-arm64/opencv2.framework/Headers/core/quaternion.hpp": {
+      "sha256": "6ff8d3b19489c4b69345806b65e82770829ecca8604d96b421a27f3a30ca05d1"
+    },
+    "xros-arm64/opencv2.framework/Headers/core/quaternion.inl.hpp": {
+      "sha256": "dff743f883e47035d84e52058cb9bca9fbf5d615e35bf3923097164263d6a164"
+    },
+    "xros-arm64/opencv2.framework/Headers/core/saturate.hpp": {
+      "sha256": "bf418a3f44d575b17c18af968dbe3e2c8bd0663c22f8dcb53c4b0f77b5db14ba"
+    },
+    "xros-arm64/opencv2.framework/Headers/core/simd_intrinsics.hpp": {
+      "sha256": "ac81c6962c8b5679dfb63fe06487c27ae197946b66b1df90ad46e410a11a5a20"
+    },
+    "xros-arm64/opencv2.framework/Headers/core/softfloat.hpp": {
+      "sha256": "43c01ea3c1b3f99352437dddaca1b9b862e9d9b734c7a901f63abad5b28e3412"
+    },
+    "xros-arm64/opencv2.framework/Headers/core/sse_utils.hpp": {
+      "sha256": "2d9f170fdecb359c434387e6379fe5f16f9ffc77ef8dc4ba111ca517c3359023"
+    },
+    "xros-arm64/opencv2.framework/Headers/core/traits.hpp": {
+      "sha256": "6c45b2ee5137464ab4080063e38b68a6c5ac8b415e04aee8cb5c634b5dcc9861"
+    },
+    "xros-arm64/opencv2.framework/Headers/core/types.hpp": {
+      "sha256": "19d8ae6170f3b6f38f545768a24c922a50774c23eeebc11e39f7c6a1f5726f08"
+    },
+    "xros-arm64/opencv2.framework/Headers/core/types_c.h": {
+      "sha256": "0bab108b55e64c5f7b6a1faa3d8eb655591321efd7b30dc0a663201531f48900"
+    },
+    "xros-arm64/opencv2.framework/Headers/core/utility.hpp": {
+      "sha256": "e5b9e25e349f121c3d3f2347c48afef5d18a8c7c4124acee833c0e04b9c270b0"
+    },
+    "xros-arm64/opencv2.framework/Headers/core/utils/allocator_stats.hpp": {
+      "sha256": "260d7dff55a04646ae7f78bfe7af249fe2bbe368add0c934cad108703dbb56c1"
+    },
+    "xros-arm64/opencv2.framework/Headers/core/utils/allocator_stats.impl.hpp": {
+      "sha256": "62b1f1d878926e7ce8fa323a75a5e8cdb184fd0c6261890963fd82dc9c26c874"
+    },
+    "xros-arm64/opencv2.framework/Headers/core/utils/filesystem.hpp": {
+      "sha256": "584606928e15cdfa0846f97a4f1922860b6f193e0bc3e9f15bd58796edb10b86"
+    },
+    "xros-arm64/opencv2.framework/Headers/core/utils/fp_control_utils.hpp": {
+      "sha256": "2565900dff6e97772c2cb1434b8d136df85446e4596a708d73ae14f3cae9a8d8"
+    },
+    "xros-arm64/opencv2.framework/Headers/core/utils/instrumentation.hpp": {
+      "sha256": "dcb6a1ae866d143f400f844a4761b52f64429342a7511d1f6402b87105511e9d"
+    },
+    "xros-arm64/opencv2.framework/Headers/core/utils/logger.defines.hpp": {
+      "sha256": "03bc3fd53608846ee3ad1b1feeeb97ac68e9758f4ceb5827ecca87c58204304c"
+    },
+    "xros-arm64/opencv2.framework/Headers/core/utils/logger.hpp": {
+      "sha256": "139133ff707a0fb31bb201dfa34a1630d14ac02176272b241e2d1b6a1379b470"
+    },
+    "xros-arm64/opencv2.framework/Headers/core/utils/logtag.hpp": {
+      "sha256": "1ab5f6f986e02af6aec74d7881ce0676dd82b215c4a5b33087f7e8010a1808b5"
+    },
+    "xros-arm64/opencv2.framework/Headers/core/utils/tls.hpp": {
+      "sha256": "3b3261c3900c2d1ab82496b6722979996cb899f3110492d7177651790b6f9aef"
+    },
+    "xros-arm64/opencv2.framework/Headers/core/utils/trace.hpp": {
+      "sha256": "0f0d8b3b0c68c871d026a95c549110e4438f8b349c42864ac7f49a9b5fe72066"
+    },
+    "xros-arm64/opencv2.framework/Headers/core/version.hpp": {
+      "sha256": "aa6df48dc2a1807bf2a1decb21d8917f18632ef4c0f6f87e3a31a62f7ebf7555"
+    },
+    "xros-arm64/opencv2.framework/Headers/core/vsx_utils.hpp": {
+      "sha256": "4c0a89863f2147258a09ed9e4f295aff35bef9e9677e8bb2f73af23cca83885d"
+    },
+    "xros-arm64/opencv2.framework/Headers/core.hpp": {
+      "sha256": "7ed046d89c1287c5c687e92b36be8dd42720822634e50d0504ee1a4efc1424fd"
+    },
+    "xros-arm64/opencv2.framework/Headers/cvconfig.h": {
+      "sha256": "754c031c11644a993792b8b26dad561ce6073b0a3fb63ca56624f13382dd922a"
+    },
+    "xros-arm64/opencv2.framework/Headers/dnn/dnn.hpp": {
+      "sha256": "32aed1c0b211e1923ee325decd516eeb4435db6f8ce6a37af64186f364ca9bd1"
+    },
+    "xros-arm64/opencv2.framework/Headers/dnn.hpp": {
+      "sha256": "c6df8ef0fc5e8bd2bfcebb52410d8e0989d3013fb75d0502c3d2ed9436cadca2"
+    },
+    "xros-arm64/opencv2.framework/Headers/features2d/features2d.hpp": {
+      "sha256": "7a8c4b882ff82ee8d8aa892dccb13e26a0a091a18eadf17c64951490ee302689"
+    },
+    "xros-arm64/opencv2.framework/Headers/features2d/hal/interface.h": {
+      "sha256": "4fe9c4fa48d06743b83af7f3b7cc4c66da1fa7d6c94a927381827e72454c77d3"
+    },
+    "xros-arm64/opencv2.framework/Headers/features2d.hpp": {
+      "sha256": "fe724c64b37dae282ae38abae1accf9697146231ef76170287454ecbb0e9e69c"
+    },
+    "xros-arm64/opencv2.framework/Headers/highgui/highgui.hpp": {
+      "sha256": "2d167454cf33c9605b3b94e25294d3d78fbd1f046d5998b77f89c9e849e4cd1e"
+    },
+    "xros-arm64/opencv2.framework/Headers/highgui.hpp": {
+      "sha256": "be45cb0518457f06ab188712c7d6cb8fd53297581940ac47d1b5974e652e300a"
+    },
+    "xros-arm64/opencv2.framework/Headers/imgproc/bindings.hpp": {
+      "sha256": "f65b79fb4d9e7abcd8aa9bb8bcc2a3410c42dae8f729b8679a71bb85c7b85ee0"
+    },
+    "xros-arm64/opencv2.framework/Headers/imgproc/detail/gcgraph.hpp": {
+      "sha256": "e9e67386e93dd84a428af70e31313a0240a4df982f6c184d50180d9d6c2ea2f9"
+    },
+    "xros-arm64/opencv2.framework/Headers/imgproc/detail/legacy.hpp": {
+      "sha256": "625ce2e2c4abca32c44815e8ea6ea0d19c7d6f7db2cd142bd7e19b3770d953c4"
+    },
+    "xros-arm64/opencv2.framework/Headers/imgproc/hal/hal.hpp": {
+      "sha256": "efecd002537f5d66489e05401dadca222785c8bd4c69d7d70e1e131fd69a0097"
+    },
+    "xros-arm64/opencv2.framework/Headers/imgproc/hal/interface.h": {
+      "sha256": "27dd95facd92c6ca8e6fe4b981c51dbdb22b9dafba133cf2be0f5a03f5d8152e"
+    },
+    "xros-arm64/opencv2.framework/Headers/imgproc/imgproc.hpp": {
+      "sha256": "f519aaf5d2676014d46f0f29719baaa98c14c84bcf2311c10325e210a4103e70"
+    },
+    "xros-arm64/opencv2.framework/Headers/imgproc/imgproc_c.h": {
+      "sha256": "c0b4bd7f7769c966dbfada1d3ae65f8ce214fce1038339245a174ac40140ca77"
+    },
+    "xros-arm64/opencv2.framework/Headers/imgproc/segmentation.hpp": {
+      "sha256": "1f27474710e792c7ff1f1a63bac86876f53ceb0f648d32eb30b99e67d3dd5fdf"
+    },
+    "xros-arm64/opencv2.framework/Headers/imgproc/types_c.h": {
+      "sha256": "c844682f2f7d8dcbce7acdac069b41203dd8a4309946b3d23dbe22663d74a012"
+    },
+    "xros-arm64/opencv2.framework/Headers/imgproc.hpp": {
+      "sha256": "5ed21f51cd0086561edc1b3d8a16bd95b05b3f90e48664a4b5a379e0287554f2"
+    },
+    "xros-arm64/opencv2.framework/Headers/opencv.hpp": {
+      "sha256": "37df4ccc15f8a6ed06e2099910c63e486841ddbd5bc2d303405bc34f8fd44b66"
+    },
+    "xros-arm64/opencv2.framework/Headers/opencv_modules.hpp": {
+      "sha256": "85dd18fd030cbb21b43631cde2559efec6dbb3c67065caea48ff16769b9c9f1a"
+    },
+    "xros-arm64/opencv2.framework/Headers/photo/legacy/constants_c.h": {
+      "sha256": "dd01c6afe89743ebfd863d7b8c17b80c7fa5c9f676ea69e372836cc26f0c0403"
+    },
+    "xros-arm64/opencv2.framework/Headers/photo/photo.hpp": {
+      "sha256": "18b6aed6db6c14d4295e89f7c9bb8931c44320d97195921fff3c16ea4174d67f"
+    },
+    "xros-arm64/opencv2.framework/Headers/photo.hpp": {
+      "sha256": "065317df350d13ec1eddb3e153a2836b2ac0d554eb5ff5a564f2224e0d26c945"
+    },
+    "xros-arm64/opencv2.framework/Headers/video/background_segm.hpp": {
+      "sha256": "d7e52545ca5f968b1e4711054b50e32af92557d3aca8876e806482443c104a16"
+    },
+    "xros-arm64/opencv2.framework/Headers/video/detail/tracking.detail.hpp": {
+      "sha256": "81f3eea460ec6c87e851435c0fedf38b4fe6a46f6982531cdac916e078255246"
+    },
+    "xros-arm64/opencv2.framework/Headers/video/legacy/constants_c.h": {
+      "sha256": "5c523ca5b04e4bb98a1ef77c87ae0ca87b6a4f3142f28737ef50115abb326299"
+    },
+    "xros-arm64/opencv2.framework/Headers/video/tracking.hpp": {
+      "sha256": "eec77538e88bd3bc5d7e6b9179a76d8886eac6f6bcd96fee2fed184a8855fe82"
+    },
+    "xros-arm64/opencv2.framework/Headers/video/video.hpp": {
+      "sha256": "67e31defa256825bb977d4126d7b00f53c90cb49638b8a9e43ec121568167e36"
+    },
+    "xros-arm64/opencv2.framework/Headers/video.hpp": {
+      "sha256": "5c1d80d5edbb3c681d4c17e01d34c541fa341f0a270ccd427e59601c5a4ed625"
+    },
+    "xros-arm64/opencv2.framework/Headers/world.hpp": {
+      "sha256": "bd82d87fdd7cfc4bdcfa62e9941d5ed62c11ecd85ada486070cbc4299715a7ff"
+    },
+    "xros-arm64/opencv2.framework/Info.plist": {
+      "sha256": "3e1d5d522bf62949c5a5c5c80d6dd193ab8ed8d9f058741b0d1083027bc25836"
+    },
+    "xros-arm64/opencv2.framework/opencv2": {
+      "sha256": "c5f0ae2fd17d387bf63dec7ddae66ad9c03083f9d1e9742cedee3e96b058c3a0"
+    },
+    "xros-arm64_x86_64-simulator/opencv2.framework/Headers/core/affine.hpp": {
+      "sha256": "f67b0e1a0d51ed1a0cb0f0010568a3c3649aa99ab51a0183e092858be6b00da4"
+    },
+    "xros-arm64_x86_64-simulator/opencv2.framework/Headers/core/async.hpp": {
+      "sha256": "4ebd7dec356441c35e53447f548cb4c1074d93109a92716ab570d40469992313"
+    },
+    "xros-arm64_x86_64-simulator/opencv2.framework/Headers/core/base.hpp": {
+      "sha256": "db611eaad4e4cef0247296f47cb32add35194d338f7fb3d3364c200cccb78b9d"
+    },
+    "xros-arm64_x86_64-simulator/opencv2.framework/Headers/core/bindings_utils.hpp": {
+      "sha256": "ecfed743e5c77e8c8062f981eeb7192af5329f92dcd8aecc91c648ec3b2e96f7"
+    },
+    "xros-arm64_x86_64-simulator/opencv2.framework/Headers/core/bufferpool.hpp": {
+      "sha256": "65dd904d4f15850ec23ad7531a8f431fd023c98c429adc59e00ae346c8976667"
+    },
+    "xros-arm64_x86_64-simulator/opencv2.framework/Headers/core/check.hpp": {
+      "sha256": "fb7cf749c4695f02cb311b198efa9823eac1f1e98831b776fe8ab5f976bea4d1"
+    },
+    "xros-arm64_x86_64-simulator/opencv2.framework/Headers/core/core.hpp": {
+      "sha256": "21a4ea4d80847984ef8eafe4746ecc18d5bcafd10564ce4c24e2416043d85798"
+    },
+    "xros-arm64_x86_64-simulator/opencv2.framework/Headers/core/core_c.h": {
+      "sha256": "7c5d2883897df0d8f86a322078c32132cf890a34f45fcdb9460f1bde84e97466"
+    },
+    "xros-arm64_x86_64-simulator/opencv2.framework/Headers/core/cv_cpu_dispatch.h": {
+      "sha256": "9bc32aba988a5412ff6590984bd5758a8613fe51891358d18be9f4e04ca30055"
+    },
+    "xros-arm64_x86_64-simulator/opencv2.framework/Headers/core/cv_cpu_helper.h": {
+      "sha256": "3dafd54f9adbdb9bd39b7ed81f4ea25eeb81117356e974fede4648ded4ad16a9"
+    },
+    "xros-arm64_x86_64-simulator/opencv2.framework/Headers/core/cvdef.h": {
+      "sha256": "8ca1520e205c3c26670a0e510a2371fe196c11687b92886e14962b423af341c9"
+    },
+    "xros-arm64_x86_64-simulator/opencv2.framework/Headers/core/cvstd.hpp": {
+      "sha256": "96a1ddefb0539061389be0704b554e5ab30f20132944485f4c70644ceeb4a0d2"
+    },
+    "xros-arm64_x86_64-simulator/opencv2.framework/Headers/core/cvstd.inl.hpp": {
+      "sha256": "3fb7d0328e9da0dd788528501dc7bbdceb5cfef83b49189952900e4652281a32"
+    },
+    "xros-arm64_x86_64-simulator/opencv2.framework/Headers/core/cvstd_wrapper.hpp": {
+      "sha256": "babed4fc9c3d804502aa053c5add427600600f080984985812d8cce716b35ffa"
+    },
+    "xros-arm64_x86_64-simulator/opencv2.framework/Headers/core/detail/async_promise.hpp": {
+      "sha256": "84920f5944b2561b0f6da3784a5fd281aba39e8544651a7ac8a889e3509982f4"
+    },
+    "xros-arm64_x86_64-simulator/opencv2.framework/Headers/core/detail/dispatch_helper.impl.hpp": {
+      "sha256": "a6c812132580f4eaca6f35f2f19b32d40b24ef9ab0b75b51291c551c6b4224d9"
+    },
+    "xros-arm64_x86_64-simulator/opencv2.framework/Headers/core/detail/exception_ptr.hpp": {
+      "sha256": "30ae6e20abd03cf3621bfb392e7778aff8a90635bd4679e9f2e706c8c99b0986"
+    },
+    "xros-arm64_x86_64-simulator/opencv2.framework/Headers/core/dualquaternion.hpp": {
+      "sha256": "ed725cacbb20ca9b17c72256504ec74d270bcf44559952508392d7b69764f1ad"
+    },
+    "xros-arm64_x86_64-simulator/opencv2.framework/Headers/core/dualquaternion.inl.hpp": {
+      "sha256": "1b6b478123cd15b7f24f2f3399d5c9199f7af979d9b57f0b0265a02cd4279484"
+    },
+    "xros-arm64_x86_64-simulator/opencv2.framework/Headers/core/eigen.hpp": {
+      "sha256": "fb98669a1bf5b6ab3c31ed3479663d0608131bc9af743f7b7e868640b3428485"
+    },
+    "xros-arm64_x86_64-simulator/opencv2.framework/Headers/core/fast_math.hpp": {
+      "sha256": "81719ea26aef77deda817c751a90b7c61049821aaf67e915654b2305caaa942d"
+    },
+    "xros-arm64_x86_64-simulator/opencv2.framework/Headers/core/hal/hal.hpp": {
+      "sha256": "0f8eadf8fd6899858ab46db329ba94770160ecf9cd8ac897dece8c6884c8d521"
+    },
+    "xros-arm64_x86_64-simulator/opencv2.framework/Headers/core/hal/interface.h": {
+      "sha256": "bd11814cfd2c331eaa93b42d80a0911a4916f6afa99907f332fe8f641098eb43"
+    },
+    "xros-arm64_x86_64-simulator/opencv2.framework/Headers/core/hal/intrin.hpp": {
+      "sha256": "eeb3be550b8d7f6492c762bcefeb2e8fe5c9c0628ccb09f2ded7f1b2f34d6aa3"
+    },
+    "xros-arm64_x86_64-simulator/opencv2.framework/Headers/core/hal/intrin_avx.hpp": {
+      "sha256": "a94f0297f74c4081a341d27eace3e000f6720d2419df890ffbeeccf2174d37aa"
+    },
+    "xros-arm64_x86_64-simulator/opencv2.framework/Headers/core/hal/intrin_avx512.hpp": {
+      "sha256": "b7fd72f1e96a00370e1096a1d61f75f6bf0355d9f2b1fff2bca64affac7aa23e"
+    },
+    "xros-arm64_x86_64-simulator/opencv2.framework/Headers/core/hal/intrin_cpp.hpp": {
+      "sha256": "c0f491dd72e8bd5ae0cd31d650d283593cd74afa5ca113ba7c5bae716392d2c9"
+    },
+    "xros-arm64_x86_64-simulator/opencv2.framework/Headers/core/hal/intrin_forward.hpp": {
+      "sha256": "ad93e16fdad234aab37ccc96bd37768f213c6ee2fedb3c6309e1057307f621f2"
+    },
+    "xros-arm64_x86_64-simulator/opencv2.framework/Headers/core/hal/intrin_lasx.hpp": {
+      "sha256": "4d731ad3c689efea2905db049636adb3d48d5fdf3436cd1b61a3bd283ddaa023"
+    },
+    "xros-arm64_x86_64-simulator/opencv2.framework/Headers/core/hal/intrin_legacy_ops.h": {
+      "sha256": "9162fd638f6523412d095dc69bc67b5d5eb0b945c185003e67b0938a79c90686"
+    },
+    "xros-arm64_x86_64-simulator/opencv2.framework/Headers/core/hal/intrin_lsx.hpp": {
+      "sha256": "aa31563f0a5033495e27a5bab0cde7deda49bc2c039aeeabb4ae9ed1f68b172b"
+    },
+    "xros-arm64_x86_64-simulator/opencv2.framework/Headers/core/hal/intrin_math.hpp": {
+      "sha256": "8d6ed7f222d15da0d73080fe407d7e3f9809b3fc5c93222cbe320f9a9f794e5c"
+    },
+    "xros-arm64_x86_64-simulator/opencv2.framework/Headers/core/hal/intrin_msa.hpp": {
+      "sha256": "80dfbe94520016a6d10be1444c612cdb889d606ef6f016f2a693f215be289b09"
+    },
+    "xros-arm64_x86_64-simulator/opencv2.framework/Headers/core/hal/intrin_neon.hpp": {
+      "sha256": "fd562189af217d1d0529fdfcf18c80c849895aa7438dc8dbfbf0c027bf939f23"
+    },
+    "xros-arm64_x86_64-simulator/opencv2.framework/Headers/core/hal/intrin_rvv071.hpp": {
+      "sha256": "2ddc9c4978233a8fa09d7d990349723cf6ad627cdd967c27ad6765b4ede6528b"
+    },
+    "xros-arm64_x86_64-simulator/opencv2.framework/Headers/core/hal/intrin_rvv_scalable.hpp": {
+      "sha256": "60e6040f2fcb239699516073bf688d2fab522806d98c0bd364e4fe9f579ac2df"
+    },
+    "xros-arm64_x86_64-simulator/opencv2.framework/Headers/core/hal/intrin_sse.hpp": {
+      "sha256": "9ea43239afc6dd6915c37715074d8d6351a055b3890aa71fb644864dcb9ececd"
+    },
+    "xros-arm64_x86_64-simulator/opencv2.framework/Headers/core/hal/intrin_sse_em.hpp": {
+      "sha256": "9a8369d287ff500756fae5577f528c360f011e04e5a4a44f5af1d697b1d1442a"
+    },
+    "xros-arm64_x86_64-simulator/opencv2.framework/Headers/core/hal/intrin_vsx.hpp": {
+      "sha256": "aaec43fe948c55b3b31d730358d4b266f90aede3c262cff794c293a7370c13fe"
+    },
+    "xros-arm64_x86_64-simulator/opencv2.framework/Headers/core/hal/intrin_wasm.hpp": {
+      "sha256": "4c63d4c9717d6c75261415c197a7b0912dd848eefa8d13fc87ad306d60ce9656"
+    },
+    "xros-arm64_x86_64-simulator/opencv2.framework/Headers/core/hal/msa_macros.h": {
+      "sha256": "bf5842830c95304950487c93f9f8ec5ac29ad659a316fb2ea80407229ee2a6e0"
+    },
+    "xros-arm64_x86_64-simulator/opencv2.framework/Headers/core/hal/simd_utils.impl.hpp": {
+      "sha256": "a7416b4d5fc41cd2df66f4fdb36a0a85374d79de3dc5d8fb38ce40be049ff772"
+    },
+    "xros-arm64_x86_64-simulator/opencv2.framework/Headers/core/mat.hpp": {
+      "sha256": "1cd4e67e4b4bf466307c47ad4f8166faa8175ac4f812e00167d253f04dc845f3"
+    },
+    "xros-arm64_x86_64-simulator/opencv2.framework/Headers/core/mat.inl.hpp": {
+      "sha256": "4ff08f17c7d7a85411d5d694a405190ed35d71a15dc02af9d161cdac9771d24b"
+    },
+    "xros-arm64_x86_64-simulator/opencv2.framework/Headers/core/matx.hpp": {
+      "sha256": "086ceebe87ed54c98155bfff778f02305697dc7cd9d10449f2f21a482023872b"
+    },
+    "xros-arm64_x86_64-simulator/opencv2.framework/Headers/core/matx.inl.hpp": {
+      "sha256": "010153afc595d6e58ba24949c85af8a6a2fc038d52ec054a35ae9eed8a97980d"
+    },
+    "xros-arm64_x86_64-simulator/opencv2.framework/Headers/core/neon_utils.hpp": {
+      "sha256": "ac4f537960e50684671ca6a4b95c1eb6db5ba05e8d9f42f66b930ac8702ae7f9"
+    },
+    "xros-arm64_x86_64-simulator/opencv2.framework/Headers/core/operations.hpp": {
+      "sha256": "3900e92391bf28dac5b7118a1daa5839bfaf7c9cf60526b91b66e6c128b08205"
+    },
+    "xros-arm64_x86_64-simulator/opencv2.framework/Headers/core/optim.hpp": {
+      "sha256": "acfc26fa3409d2c7dc897fc816a6eab67554414a514a1a062de68a68cb351e80"
+    },
+    "xros-arm64_x86_64-simulator/opencv2.framework/Headers/core/parallel/backend/parallel_for.openmp.hpp": {
+      "sha256": "903d8ba56eae3158e816522c5a816e9e9811e41c62e812a34bbf1dbfde81132e"
+    },
+    "xros-arm64_x86_64-simulator/opencv2.framework/Headers/core/parallel/backend/parallel_for.tbb.hpp": {
+      "sha256": "af6dd3c7162df172e8462b8c697f2fcddf2af1777f98a993ab3be8b33fb58b7e"
+    },
+    "xros-arm64_x86_64-simulator/opencv2.framework/Headers/core/parallel/parallel_backend.hpp": {
+      "sha256": "79c71d6191b0931cb1db9931ca4ecaa156cfec83bc6e4e71b8407722ed3d7194"
+    },
+    "xros-arm64_x86_64-simulator/opencv2.framework/Headers/core/persistence.hpp": {
+      "sha256": "992e7d7575fd671302b2beb9600a99e380485797aa6448bdbaa81d8c66b524b8"
+    },
+    "xros-arm64_x86_64-simulator/opencv2.framework/Headers/core/quaternion.hpp": {
+      "sha256": "6ff8d3b19489c4b69345806b65e82770829ecca8604d96b421a27f3a30ca05d1"
+    },
+    "xros-arm64_x86_64-simulator/opencv2.framework/Headers/core/quaternion.inl.hpp": {
+      "sha256": "dff743f883e47035d84e52058cb9bca9fbf5d615e35bf3923097164263d6a164"
+    },
+    "xros-arm64_x86_64-simulator/opencv2.framework/Headers/core/saturate.hpp": {
+      "sha256": "bf418a3f44d575b17c18af968dbe3e2c8bd0663c22f8dcb53c4b0f77b5db14ba"
+    },
+    "xros-arm64_x86_64-simulator/opencv2.framework/Headers/core/simd_intrinsics.hpp": {
+      "sha256": "ac81c6962c8b5679dfb63fe06487c27ae197946b66b1df90ad46e410a11a5a20"
+    },
+    "xros-arm64_x86_64-simulator/opencv2.framework/Headers/core/softfloat.hpp": {
+      "sha256": "43c01ea3c1b3f99352437dddaca1b9b862e9d9b734c7a901f63abad5b28e3412"
+    },
+    "xros-arm64_x86_64-simulator/opencv2.framework/Headers/core/sse_utils.hpp": {
+      "sha256": "2d9f170fdecb359c434387e6379fe5f16f9ffc77ef8dc4ba111ca517c3359023"
+    },
+    "xros-arm64_x86_64-simulator/opencv2.framework/Headers/core/traits.hpp": {
+      "sha256": "6c45b2ee5137464ab4080063e38b68a6c5ac8b415e04aee8cb5c634b5dcc9861"
+    },
+    "xros-arm64_x86_64-simulator/opencv2.framework/Headers/core/types.hpp": {
+      "sha256": "19d8ae6170f3b6f38f545768a24c922a50774c23eeebc11e39f7c6a1f5726f08"
+    },
+    "xros-arm64_x86_64-simulator/opencv2.framework/Headers/core/types_c.h": {
+      "sha256": "0bab108b55e64c5f7b6a1faa3d8eb655591321efd7b30dc0a663201531f48900"
+    },
+    "xros-arm64_x86_64-simulator/opencv2.framework/Headers/core/utility.hpp": {
+      "sha256": "e5b9e25e349f121c3d3f2347c48afef5d18a8c7c4124acee833c0e04b9c270b0"
+    },
+    "xros-arm64_x86_64-simulator/opencv2.framework/Headers/core/utils/allocator_stats.hpp": {
+      "sha256": "260d7dff55a04646ae7f78bfe7af249fe2bbe368add0c934cad108703dbb56c1"
+    },
+    "xros-arm64_x86_64-simulator/opencv2.framework/Headers/core/utils/allocator_stats.impl.hpp": {
+      "sha256": "62b1f1d878926e7ce8fa323a75a5e8cdb184fd0c6261890963fd82dc9c26c874"
+    },
+    "xros-arm64_x86_64-simulator/opencv2.framework/Headers/core/utils/filesystem.hpp": {
+      "sha256": "584606928e15cdfa0846f97a4f1922860b6f193e0bc3e9f15bd58796edb10b86"
+    },
+    "xros-arm64_x86_64-simulator/opencv2.framework/Headers/core/utils/fp_control_utils.hpp": {
+      "sha256": "2565900dff6e97772c2cb1434b8d136df85446e4596a708d73ae14f3cae9a8d8"
+    },
+    "xros-arm64_x86_64-simulator/opencv2.framework/Headers/core/utils/instrumentation.hpp": {
+      "sha256": "dcb6a1ae866d143f400f844a4761b52f64429342a7511d1f6402b87105511e9d"
+    },
+    "xros-arm64_x86_64-simulator/opencv2.framework/Headers/core/utils/logger.defines.hpp": {
+      "sha256": "03bc3fd53608846ee3ad1b1feeeb97ac68e9758f4ceb5827ecca87c58204304c"
+    },
+    "xros-arm64_x86_64-simulator/opencv2.framework/Headers/core/utils/logger.hpp": {
+      "sha256": "139133ff707a0fb31bb201dfa34a1630d14ac02176272b241e2d1b6a1379b470"
+    },
+    "xros-arm64_x86_64-simulator/opencv2.framework/Headers/core/utils/logtag.hpp": {
+      "sha256": "1ab5f6f986e02af6aec74d7881ce0676dd82b215c4a5b33087f7e8010a1808b5"
+    },
+    "xros-arm64_x86_64-simulator/opencv2.framework/Headers/core/utils/tls.hpp": {
+      "sha256": "3b3261c3900c2d1ab82496b6722979996cb899f3110492d7177651790b6f9aef"
+    },
+    "xros-arm64_x86_64-simulator/opencv2.framework/Headers/core/utils/trace.hpp": {
+      "sha256": "0f0d8b3b0c68c871d026a95c549110e4438f8b349c42864ac7f49a9b5fe72066"
+    },
+    "xros-arm64_x86_64-simulator/opencv2.framework/Headers/core/version.hpp": {
+      "sha256": "aa6df48dc2a1807bf2a1decb21d8917f18632ef4c0f6f87e3a31a62f7ebf7555"
+    },
+    "xros-arm64_x86_64-simulator/opencv2.framework/Headers/core/vsx_utils.hpp": {
+      "sha256": "4c0a89863f2147258a09ed9e4f295aff35bef9e9677e8bb2f73af23cca83885d"
+    },
+    "xros-arm64_x86_64-simulator/opencv2.framework/Headers/core.hpp": {
+      "sha256": "7ed046d89c1287c5c687e92b36be8dd42720822634e50d0504ee1a4efc1424fd"
+    },
+    "xros-arm64_x86_64-simulator/opencv2.framework/Headers/cvconfig.h": {
+      "sha256": "754c031c11644a993792b8b26dad561ce6073b0a3fb63ca56624f13382dd922a"
+    },
+    "xros-arm64_x86_64-simulator/opencv2.framework/Headers/dnn/dnn.hpp": {
+      "sha256": "32aed1c0b211e1923ee325decd516eeb4435db6f8ce6a37af64186f364ca9bd1"
+    },
+    "xros-arm64_x86_64-simulator/opencv2.framework/Headers/dnn.hpp": {
+      "sha256": "c6df8ef0fc5e8bd2bfcebb52410d8e0989d3013fb75d0502c3d2ed9436cadca2"
+    },
+    "xros-arm64_x86_64-simulator/opencv2.framework/Headers/features2d/features2d.hpp": {
+      "sha256": "7a8c4b882ff82ee8d8aa892dccb13e26a0a091a18eadf17c64951490ee302689"
+    },
+    "xros-arm64_x86_64-simulator/opencv2.framework/Headers/features2d/hal/interface.h": {
+      "sha256": "4fe9c4fa48d06743b83af7f3b7cc4c66da1fa7d6c94a927381827e72454c77d3"
+    },
+    "xros-arm64_x86_64-simulator/opencv2.framework/Headers/features2d.hpp": {
+      "sha256": "fe724c64b37dae282ae38abae1accf9697146231ef76170287454ecbb0e9e69c"
+    },
+    "xros-arm64_x86_64-simulator/opencv2.framework/Headers/highgui/highgui.hpp": {
+      "sha256": "2d167454cf33c9605b3b94e25294d3d78fbd1f046d5998b77f89c9e849e4cd1e"
+    },
+    "xros-arm64_x86_64-simulator/opencv2.framework/Headers/highgui.hpp": {
+      "sha256": "be45cb0518457f06ab188712c7d6cb8fd53297581940ac47d1b5974e652e300a"
+    },
+    "xros-arm64_x86_64-simulator/opencv2.framework/Headers/imgproc/bindings.hpp": {
+      "sha256": "f65b79fb4d9e7abcd8aa9bb8bcc2a3410c42dae8f729b8679a71bb85c7b85ee0"
+    },
+    "xros-arm64_x86_64-simulator/opencv2.framework/Headers/imgproc/detail/gcgraph.hpp": {
+      "sha256": "e9e67386e93dd84a428af70e31313a0240a4df982f6c184d50180d9d6c2ea2f9"
+    },
+    "xros-arm64_x86_64-simulator/opencv2.framework/Headers/imgproc/detail/legacy.hpp": {
+      "sha256": "625ce2e2c4abca32c44815e8ea6ea0d19c7d6f7db2cd142bd7e19b3770d953c4"
+    },
+    "xros-arm64_x86_64-simulator/opencv2.framework/Headers/imgproc/hal/hal.hpp": {
+      "sha256": "efecd002537f5d66489e05401dadca222785c8bd4c69d7d70e1e131fd69a0097"
+    },
+    "xros-arm64_x86_64-simulator/opencv2.framework/Headers/imgproc/hal/interface.h": {
+      "sha256": "27dd95facd92c6ca8e6fe4b981c51dbdb22b9dafba133cf2be0f5a03f5d8152e"
+    },
+    "xros-arm64_x86_64-simulator/opencv2.framework/Headers/imgproc/imgproc.hpp": {
+      "sha256": "f519aaf5d2676014d46f0f29719baaa98c14c84bcf2311c10325e210a4103e70"
+    },
+    "xros-arm64_x86_64-simulator/opencv2.framework/Headers/imgproc/imgproc_c.h": {
+      "sha256": "c0b4bd7f7769c966dbfada1d3ae65f8ce214fce1038339245a174ac40140ca77"
+    },
+    "xros-arm64_x86_64-simulator/opencv2.framework/Headers/imgproc/segmentation.hpp": {
+      "sha256": "1f27474710e792c7ff1f1a63bac86876f53ceb0f648d32eb30b99e67d3dd5fdf"
+    },
+    "xros-arm64_x86_64-simulator/opencv2.framework/Headers/imgproc/types_c.h": {
+      "sha256": "c844682f2f7d8dcbce7acdac069b41203dd8a4309946b3d23dbe22663d74a012"
+    },
+    "xros-arm64_x86_64-simulator/opencv2.framework/Headers/imgproc.hpp": {
+      "sha256": "5ed21f51cd0086561edc1b3d8a16bd95b05b3f90e48664a4b5a379e0287554f2"
+    },
+    "xros-arm64_x86_64-simulator/opencv2.framework/Headers/opencv.hpp": {
+      "sha256": "37df4ccc15f8a6ed06e2099910c63e486841ddbd5bc2d303405bc34f8fd44b66"
+    },
+    "xros-arm64_x86_64-simulator/opencv2.framework/Headers/opencv_modules.hpp": {
+      "sha256": "85dd18fd030cbb21b43631cde2559efec6dbb3c67065caea48ff16769b9c9f1a"
+    },
+    "xros-arm64_x86_64-simulator/opencv2.framework/Headers/photo/legacy/constants_c.h": {
+      "sha256": "dd01c6afe89743ebfd863d7b8c17b80c7fa5c9f676ea69e372836cc26f0c0403"
+    },
+    "xros-arm64_x86_64-simulator/opencv2.framework/Headers/photo/photo.hpp": {
+      "sha256": "18b6aed6db6c14d4295e89f7c9bb8931c44320d97195921fff3c16ea4174d67f"
+    },
+    "xros-arm64_x86_64-simulator/opencv2.framework/Headers/photo.hpp": {
+      "sha256": "065317df350d13ec1eddb3e153a2836b2ac0d554eb5ff5a564f2224e0d26c945"
+    },
+    "xros-arm64_x86_64-simulator/opencv2.framework/Headers/video/background_segm.hpp": {
+      "sha256": "d7e52545ca5f968b1e4711054b50e32af92557d3aca8876e806482443c104a16"
+    },
+    "xros-arm64_x86_64-simulator/opencv2.framework/Headers/video/detail/tracking.detail.hpp": {
+      "sha256": "81f3eea460ec6c87e851435c0fedf38b4fe6a46f6982531cdac916e078255246"
+    },
+    "xros-arm64_x86_64-simulator/opencv2.framework/Headers/video/legacy/constants_c.h": {
+      "sha256": "5c523ca5b04e4bb98a1ef77c87ae0ca87b6a4f3142f28737ef50115abb326299"
+    },
+    "xros-arm64_x86_64-simulator/opencv2.framework/Headers/video/tracking.hpp": {
+      "sha256": "eec77538e88bd3bc5d7e6b9179a76d8886eac6f6bcd96fee2fed184a8855fe82"
+    },
+    "xros-arm64_x86_64-simulator/opencv2.framework/Headers/video/video.hpp": {
+      "sha256": "67e31defa256825bb977d4126d7b00f53c90cb49638b8a9e43ec121568167e36"
+    },
+    "xros-arm64_x86_64-simulator/opencv2.framework/Headers/video.hpp": {
+      "sha256": "5c1d80d5edbb3c681d4c17e01d34c541fa341f0a270ccd427e59601c5a4ed625"
+    },
+    "xros-arm64_x86_64-simulator/opencv2.framework/Headers/world.hpp": {
+      "sha256": "bd82d87fdd7cfc4bdcfa62e9941d5ed62c11ecd85ada486070cbc4299715a7ff"
+    },
+    "xros-arm64_x86_64-simulator/opencv2.framework/Info.plist": {
+      "sha256": "3e1d5d522bf62949c5a5c5c80d6dd193ab8ed8d9f058741b0d1083027bc25836"
+    },
+    "xros-arm64_x86_64-simulator/opencv2.framework/opencv2": {
+      "sha256": "12693728c4910fdb608f4b7d419dcd45134da6a28ff3e286c79a171e9e24b4f0"
+    }
+  }
+}

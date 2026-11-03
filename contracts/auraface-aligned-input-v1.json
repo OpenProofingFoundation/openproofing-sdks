@@ -1,0 +1,57 @@
+{
+  "contract": "auraface-aligned-input",
+  "version": 1,
+  "input": {
+    "pixelFormat": "rgb8",
+    "width": 112,
+    "height": 112,
+    "orientation": 1,
+    "rowStrideBytes": 336,
+    "byteLength": 37632,
+    "ownership": "immutable_snapshot",
+    "alignment": "caller_asserted_already_aligned_not_verified"
+  },
+  "tensor": {
+    "elementType": "ieee754_binary32",
+    "shape": [
+      1,
+      3,
+      112,
+      112
+    ],
+    "layout": "NCHW",
+    "channelOrder": [
+      "R",
+      "G",
+      "B"
+    ],
+    "conversion": "float32(float32(uint8_value) - float32(127.5)) * float32(1.0 / 127.5)",
+    "operationOrder": [
+      "exact_uint8_to_float32",
+      "subtract_float32_127.5",
+      "multiply_float32_reciprocal_127.5"
+    ],
+    "rounding": "round_to_nearest_ties_to_even",
+    "reciprocalFloat32Bits": "3c008081",
+    "fastMath": false,
+    "contraction": false,
+    "digestEncoding": "ieee754_binary32_little_endian_channel_major"
+  },
+  "operationsNotPerformed": [
+    "decode",
+    "orientation_transform",
+    "resize",
+    "color_conversion",
+    "face_selection",
+    "landmark_estimation",
+    "alignment_warp",
+    "restoration"
+  ],
+  "binding": {
+    "inputDigest": "sha256_exact_packed_rgb8_bytes",
+    "profileIdentity": "sha256_exact_retained_profile_file_bytes",
+    "artifactIdentity": "sha256_exact_retained_combined_artifact_file_bytes",
+    "sourceDerivationProvenance": "caller_supplied_not_authenticated"
+  },
+  "compatibility": "exact_v1_profile_only_no_unknown_fields_or_implicit_conversion"
+}

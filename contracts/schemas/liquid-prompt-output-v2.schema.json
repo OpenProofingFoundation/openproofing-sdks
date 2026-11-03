@@ -1,0 +1,397 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://schemas.kenshiki.dev/contracts/liquid-prompt-output-v2.schema.json",
+  "title": "Liquid evidence-review model output v2",
+  "description": "Raw model output only. Binding metadata is host-owned. Shape validation does not establish the truth of model observations.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "reference",
+    "selfie",
+    "auraReview",
+    "ageReview",
+    "captureReview",
+    "summary"
+  ],
+  "properties": {
+    "reference": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "qualityIssues",
+        "observations",
+        "apparentAge"
+      ],
+      "properties": {
+        "qualityIssues": {
+          "type": "array",
+          "items": {
+            "enum": [
+              "blur",
+              "underexposure",
+              "overexposure",
+              "uneven_lighting",
+              "occlusion",
+              "off_angle",
+              "low_detail",
+              "glare",
+              "partial_face"
+            ]
+          },
+          "maxItems": 4,
+          "uniqueItems": true
+        },
+        "observations": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 240,
+            "pattern": "\\S",
+            "not": {
+              "pattern": "[\\u0000-\\u001F\\u007F]"
+            }
+          },
+          "maxItems": 3
+        },
+        "apparentAge": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "rangeYears",
+            "basis",
+            "limitations"
+          ],
+          "properties": {
+            "rangeYears": {
+              "anyOf": [
+                {
+                  "type": "array",
+                  "minItems": 2,
+                  "maxItems": 2,
+                  "items": {
+                    "type": "integer",
+                    "minimum": 0,
+                    "maximum": 130
+                  }
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "basis": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 240,
+              "pattern": "\\S",
+              "not": {
+                "pattern": "[\\u0000-\\u001F\\u007F]"
+              }
+            },
+            "limitations": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 240,
+                "pattern": "\\S",
+                "not": {
+                  "pattern": "[\\u0000-\\u001F\\u007F]"
+                }
+              },
+              "maxItems": 2
+            }
+          }
+        }
+      }
+    },
+    "selfie": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "qualityIssues",
+        "observations",
+        "apparentAge"
+      ],
+      "properties": {
+        "qualityIssues": {
+          "type": "array",
+          "items": {
+            "enum": [
+              "blur",
+              "underexposure",
+              "overexposure",
+              "uneven_lighting",
+              "occlusion",
+              "off_angle",
+              "low_detail",
+              "glare",
+              "partial_face"
+            ]
+          },
+          "maxItems": 4,
+          "uniqueItems": true
+        },
+        "observations": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 240,
+            "pattern": "\\S",
+            "not": {
+              "pattern": "[\\u0000-\\u001F\\u007F]"
+            }
+          },
+          "maxItems": 3
+        },
+        "apparentAge": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "rangeYears",
+            "basis",
+            "limitations"
+          ],
+          "properties": {
+            "rangeYears": {
+              "anyOf": [
+                {
+                  "type": "array",
+                  "minItems": 2,
+                  "maxItems": 2,
+                  "items": {
+                    "type": "integer",
+                    "minimum": 0,
+                    "maximum": 130
+                  }
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "basis": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 240,
+              "pattern": "\\S",
+              "not": {
+                "pattern": "[\\u0000-\\u001F\\u007F]"
+              }
+            },
+            "limitations": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 240,
+                "pattern": "\\S",
+                "not": {
+                  "pattern": "[\\u0000-\\u001F\\u007F]"
+                }
+              },
+              "maxItems": 2
+            }
+          }
+        }
+      }
+    },
+    "auraReview": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "relationship",
+        "evidence",
+        "limitations"
+      ],
+      "properties": {
+        "relationship": {
+          "enum": [
+            "supports",
+            "tension",
+            "not_assessable"
+          ]
+        },
+        "evidence": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 240,
+            "pattern": "\\S",
+            "not": {
+              "pattern": "[\\u0000-\\u001F\\u007F]"
+            }
+          },
+          "maxItems": 3
+        },
+        "limitations": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 240,
+            "pattern": "\\S",
+            "not": {
+              "pattern": "[\\u0000-\\u001F\\u007F]"
+            }
+          },
+          "maxItems": 2
+        }
+      }
+    },
+    "ageReview": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "relationship",
+        "evidence",
+        "limitations"
+      ],
+      "properties": {
+        "relationship": {
+          "enum": [
+            "plausible",
+            "raises_question",
+            "not_assessable"
+          ]
+        },
+        "evidence": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 240,
+            "pattern": "\\S",
+            "not": {
+              "pattern": "[\\u0000-\\u001F\\u007F]"
+            }
+          },
+          "maxItems": 3
+        },
+        "limitations": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 240,
+            "pattern": "\\S",
+            "not": {
+              "pattern": "[\\u0000-\\u001F\\u007F]"
+            }
+          },
+          "maxItems": 2
+        }
+      }
+    },
+    "captureReview": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "indicators",
+        "observations",
+        "limitations"
+      ],
+      "properties": {
+        "indicators": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "indicator",
+              "status",
+              "evidence",
+              "sourceImageIds"
+            ],
+            "properties": {
+              "indicator": {
+                "enum": [
+                  "screen_texture",
+                  "moire",
+                  "visible_bezel",
+                  "paper_texture",
+                  "printed_edges",
+                  "face_scene_inconsistency",
+                  "possible_manipulation_artifacts",
+                  "motion_parallax",
+                  "highlight_motion",
+                  "replay_motion",
+                  "camera_motion_consistency",
+                  "depth_consistency"
+                ]
+              },
+              "status": {
+                "enum": [
+                  "present",
+                  "absent",
+                  "not_observable"
+                ]
+              },
+              "evidence": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 240,
+                "pattern": "\\S",
+                "not": {
+                  "pattern": "[\\u0000-\\u001F\\u007F]"
+                }
+              },
+              "sourceImageIds": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxLength": 128,
+                  "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]*(?![\\s\\S])"
+                },
+                "maxItems": 9,
+                "minItems": 1,
+                "uniqueItems": true
+              }
+            }
+          },
+          "maxItems": 6
+        },
+        "observations": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 240,
+            "pattern": "\\S",
+            "not": {
+              "pattern": "[\\u0000-\\u001F\\u007F]"
+            }
+          },
+          "maxItems": 3
+        },
+        "limitations": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 240,
+            "pattern": "\\S",
+            "not": {
+              "pattern": "[\\u0000-\\u001F\\u007F]"
+            }
+          },
+          "maxItems": 2
+        }
+      }
+    },
+    "summary": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 400,
+      "pattern": "\\S",
+      "not": {
+        "pattern": "[\\u0000-\\u001F\\u007F]"
+      }
+    }
+  }
+}
+

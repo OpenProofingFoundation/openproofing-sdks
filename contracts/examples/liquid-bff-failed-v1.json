@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "model": "liquid",
+  "context": {
+    "requestId": "request-usable-001",
+    "operationId": "operation-usable-001",
+    "attemptId": "attempt-usable-001",
+    "challenge": "example-challenge-usable-0000000000000001",
+    "applicationId": "application-example",
+    "installationId": "installation-example",
+    "sessionId": "session-usable-001",
+    "generation": "generation-usable-001",
+    "policyId": "policy-example",
+    "policyVersion": "v1",
+    "reference": {
+      "evidenceId": "reference-usable-001",
+      "sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+    },
+    "selfie": {
+      "evidenceId": "selfie-usable-001",
+      "sha256": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb"
+    }
+  },
+  "execution": {
+    "artifactSHA256": "bf86cc6b16e4f6a870336d5e0ebad0c5cf1d63214efef8efeb8b9655174b3913",
+    "profileId": "lfm25-vl16b-affine4-g64-mlx-pair-interpretation-v2",
+    "promptSHA256": "d430c1e210df56628384d00598c83f66bcc8d3ef986b559e848a95a9d58a158d",
+    "runtime": {
+      "name": "mlx-swift-lm",
+      "version": "bb0d5b048f02e14dbf8f2d7bb1a20911a295470a",
+      "platform": "ios",
+      "osVersion": "27.2"
+    },
+    "durationMilliseconds": 3284.6,
+    "promptContractSHA256": "2e741148ff557705e3f3419b3595691fb3ec5523d4cfa1b1dfcaeadf061ec5e5",
+    "responseSchemaSHA256": "a985a2a909b3ac2e69b10ba118a897ee714f92e2318fd4ea5c2ceb938febff4d",
+    "inputSHA256": "c1b5d27600206a50ea3e394bf42e6c00862107e573ec0117b75e9064b86869b3"
+  },
+  "status": "failed",
+  "failure": {
+    "code": "invalid_output",
+    "stage": "output_validation"
+  }
+}

@@ -1,0 +1,516 @@
+{
+  "relationships": [
+    {
+      "kind": "conformsTo",
+      "source": "s:14KenshikiMotion013PulseCeremonyB6SampleV",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:14KenshikiMotion013PulseCeremonyB6SampleV",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:14KenshikiMotion013PulseCeremonyB6SampleV",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:14KenshikiMotion013PulseCeremonyB6WindowV",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:14KenshikiMotion013PulseCeremonyB6WindowV",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:14KenshikiMotion013PulseCeremonyB6WindowV",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:14KenshikiMotion013PulseCeremonyB7CaptureV",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:14KenshikiMotion013PulseCeremonyB7CaptureV",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:14KenshikiMotion013PulseCeremonyB7SummaryV",
+      "target": "s:SE"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:14KenshikiMotion013PulseCeremonyB7SummaryV",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:14KenshikiMotion013PulseCeremonyB7SummaryV",
+      "target": "s:Se"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:14KenshikiMotion013PulseCeremonyB7SummaryV",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:14KenshikiMotion013PulseCeremonyB7SummaryV",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:14KenshikiMotion013PulseCeremonyB7WitnessC",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:14KenshikiMotion013PulseCeremonyB7WitnessC",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:14KenshikiMotion05PulseB10PermissionC",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:14KenshikiMotion05PulseB10PermissionC",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:14KenshikiMotion05PulseB10PermissionC6StatusO",
+      "target": "s:SE"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:14KenshikiMotion05PulseB10PermissionC6StatusO",
+      "target": "s:SH"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:14KenshikiMotion05PulseB10PermissionC6StatusO",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:14KenshikiMotion05PulseB10PermissionC6StatusO",
+      "target": "s:SY"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:14KenshikiMotion05PulseB10PermissionC6StatusO",
+      "target": "s:Se"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:14KenshikiMotion05PulseB10PermissionC6StatusO",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:14KenshikiMotion05PulseB10PermissionC6StatusO",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:14KenshikiMotion17PulseCeremonyKindO",
+      "target": "s:SE"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:14KenshikiMotion17PulseCeremonyKindO",
+      "target": "s:SH"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:14KenshikiMotion17PulseCeremonyKindO",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:14KenshikiMotion17PulseCeremonyKindO",
+      "target": "s:SY"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:14KenshikiMotion17PulseCeremonyKindO",
+      "target": "s:Se"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:14KenshikiMotion17PulseCeremonyKindO",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:14KenshikiMotion17PulseCeremonyKindO",
+      "target": "s:s8SendableP"
+    }
+  ],
+  "symbols": [
+    {
+      "declaration": "enum PulseCeremonyMotionSummarizer",
+      "id": "s:14KenshikiMotion013PulseCeremonyB10SummarizerO",
+      "kind": "swift.enum"
+    },
+    {
+      "declaration": "static func hash(_ window: PulseCeremonyMotionWindow) -> String",
+      "id": "s:14KenshikiMotion013PulseCeremonyB10SummarizerO4hashySSAA0cdB6WindowVFZ",
+      "kind": "swift.type.method"
+    },
+    {
+      "declaration": "static func summarize(_ window: PulseCeremonyMotionWindow) -> PulseCeremonyMotionSummary",
+      "id": "s:14KenshikiMotion013PulseCeremonyB10SummarizerO9summarizeyAA0cdB7SummaryVAA0cdB6WindowVFZ",
+      "kind": "swift.type.method"
+    },
+    {
+      "declaration": "struct PulseCeremonyMotionSample",
+      "id": "s:14KenshikiMotion013PulseCeremonyB6SampleV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "let rotationRate: SIMD3<Double>",
+      "id": "s:14KenshikiMotion013PulseCeremonyB6SampleV12rotationRates5SIMD3VySdGvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "init(offsetSeconds: Double, userAcceleration: SIMD3<Double>, rotationRate: SIMD3<Double>, gravity: SIMD3<Double>, magneticFieldMicrotesla: Double?)",
+      "id": "s:14KenshikiMotion013PulseCeremonyB6SampleV13offsetSeconds16userAcceleration12rotationRate7gravity23magneticFieldMicroteslaACSd_s5SIMD3VySdGA2KSdSgtcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "let offsetSeconds: Double",
+      "id": "s:14KenshikiMotion013PulseCeremonyB6SampleV13offsetSecondsSdvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let userAcceleration: SIMD3<Double>",
+      "id": "s:14KenshikiMotion013PulseCeremonyB6SampleV16userAccelerations5SIMD3VySdGvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let magneticFieldMicrotesla: Double?",
+      "id": "s:14KenshikiMotion013PulseCeremonyB6SampleV23magneticFieldMicroteslaSdSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let gravity: SIMD3<Double>",
+      "id": "s:14KenshikiMotion013PulseCeremonyB6SampleV7gravitys5SIMD3VySdGvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "struct PulseCeremonyMotionWindow",
+      "id": "s:14KenshikiMotion013PulseCeremonyB6WindowV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "var durationSeconds: Double { get }",
+      "id": "s:14KenshikiMotion013PulseCeremonyB6WindowV15durationSecondsSdvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let requestedSampleRateHz: Double",
+      "id": "s:14KenshikiMotion013PulseCeremonyB6WindowV21requestedSampleRateHzSdvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let magnetometerCalibrated: Bool",
+      "id": "s:14KenshikiMotion013PulseCeremonyB6WindowV22magnetometerCalibratedSbvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let endedAt: Date",
+      "id": "s:14KenshikiMotion013PulseCeremonyB6WindowV7endedAt10Foundation4DateVvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let samples: [PulseCeremonyMotionSample]",
+      "id": "s:14KenshikiMotion013PulseCeremonyB6WindowV7samplesSayAA0cdB6SampleVGvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "init(ceremony: PulseCeremonyKind, startedAt: Date, endedAt: Date, requestedSampleRateHz: Double, samples: [PulseCeremonyMotionSample], magnetometerCalibrated: Bool)",
+      "id": "s:14KenshikiMotion013PulseCeremonyB6WindowV8ceremony9startedAt05endedH021requestedSampleRateHz7samples22magnetometerCalibratedAcA0cD4KindO_10Foundation4DateVANSdSayAA0cdbK0VGSbtcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "let ceremony: PulseCeremonyKind",
+      "id": "s:14KenshikiMotion013PulseCeremonyB6WindowV8ceremonyAA0cD4KindOvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let startedAt: Date",
+      "id": "s:14KenshikiMotion013PulseCeremonyB6WindowV9startedAt10Foundation4DateVvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "struct PulseCeremonyMotionCapture",
+      "id": "s:14KenshikiMotion013PulseCeremonyB7CaptureV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "let startUptime: Double",
+      "id": "s:14KenshikiMotion013PulseCeremonyB7CaptureV11startUptimeSdvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let window: PulseCeremonyMotionWindow",
+      "id": "s:14KenshikiMotion013PulseCeremonyB7CaptureV6windowAA0cdB6WindowVvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let endUptime: Double",
+      "id": "s:14KenshikiMotion013PulseCeremonyB7CaptureV9endUptimeSdvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "struct PulseCeremonyMotionSummary",
+      "id": "s:14KenshikiMotion013PulseCeremonyB7SummaryV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "let sampleCount: Int",
+      "id": "s:14KenshikiMotion013PulseCeremonyB7SummaryV11sampleCountSivp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let settleRatio: Double?",
+      "id": "s:14KenshikiMotion013PulseCeremonyB7SummaryV11settleRatioSdSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let approachRMSg: Double?",
+      "id": "s:14KenshikiMotion013PulseCeremonyB7SummaryV12approachRMSgSdSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "static let tremorBandHz: ClosedRange<Double>",
+      "id": "s:14KenshikiMotion013PulseCeremonyB7SummaryV12tremorBandHzSNySdGvpZ",
+      "kind": "swift.type.property"
+    },
+    {
+      "declaration": "static let settleSeconds: Double",
+      "id": "s:14KenshikiMotion013PulseCeremonyB7SummaryV13settleSecondsSdvpZ",
+      "kind": "swift.type.property"
+    },
+    {
+      "declaration": "static let approachSeconds: Double",
+      "id": "s:14KenshikiMotion013PulseCeremonyB7SummaryV15approachSecondsSdvpZ",
+      "kind": "swift.type.property"
+    },
+    {
+      "declaration": "let durationSeconds: Double",
+      "id": "s:14KenshikiMotion013PulseCeremonyB7SummaryV15durationSecondsSdvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let rawWindowSHA256: String",
+      "id": "s:14KenshikiMotion013PulseCeremonyB7SummaryV15rawWindowSHA256SSvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let tremorBandRatio: Double?",
+      "id": "s:14KenshikiMotion013PulseCeremonyB7SummaryV15tremorBandRatioSdSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let accelerationRMSg: Double?",
+      "id": "s:14KenshikiMotion013PulseCeremonyB7SummaryV16accelerationRMSgSdSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let gravityDominance: Double?",
+      "id": "s:14KenshikiMotion013PulseCeremonyB7SummaryV16gravityDominanceSdSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let gravityDominantAxis: String?",
+      "id": "s:14KenshikiMotion013PulseCeremonyB7SummaryV19gravityDominantAxisSSSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let gravityDriftRadians: Double?",
+      "id": "s:14KenshikiMotion013PulseCeremonyB7SummaryV19gravityDriftRadiansSdSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let magnetometerCalibrated: Bool",
+      "id": "s:14KenshikiMotion013PulseCeremonyB7SummaryV22magnetometerCalibratedSbvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let magneticDeltaMicrotesla: Double?",
+      "id": "s:14KenshikiMotion013PulseCeremonyB7SummaryV23magneticDeltaMicroteslaSdSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let rotationRMSRadPerSecond: Double?",
+      "id": "s:14KenshikiMotion013PulseCeremonyB7SummaryV23rotationRMSRadPerSecondSdSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "init(from decoder: any Decoder) throws",
+      "id": "s:14KenshikiMotion013PulseCeremonyB7SummaryV4fromACs7Decoder_p_tKcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "init(ceremony: PulseCeremonyKind, sampleCount: Int, durationSeconds: Double, accelerationRMSg: Double?, rotationRMSRadPerSecond: Double?, tremorBandRatio: Double?, gravityDominantAxis: String?, gravityDominance: Double?, gravityDriftRadians: Double?, approachRMSg: Double?, settleRatio: Double?, magneticDeltaMicrotesla: Double?, magnetometerCalibrated: Bool, rawWindowSHA256: String)",
+      "id": "s:14KenshikiMotion013PulseCeremonyB7SummaryV8ceremony11sampleCount15durationSeconds16accelerationRMSg23rotationRMSRadPerSecond15tremorBandRatio19gravityDominantAxis0T9Dominance0T12DriftRadians08approachL006settleS023magneticDeltaMicrotesla22magnetometerCalibrated15rawWindowSHA256AcA0cD4KindO_SiS2dSgA2TSSSgA5TSbSStcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "let ceremony: PulseCeremonyKind",
+      "id": "s:14KenshikiMotion013PulseCeremonyB7SummaryV8ceremonyAA0cD4KindOvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "final class PulseCeremonyMotionWitness",
+      "id": "s:14KenshikiMotion013PulseCeremonyB7WitnessC",
+      "kind": "swift.class"
+    },
+    {
+      "declaration": "var isAvailable: Bool { get }",
+      "id": "s:14KenshikiMotion013PulseCeremonyB7WitnessC11isAvailableSbvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let sampleRateHz: Double",
+      "id": "s:14KenshikiMotion013PulseCeremonyB7WitnessC12sampleRateHzSdvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "static let maximumSamples: Int",
+      "id": "s:14KenshikiMotion013PulseCeremonyB7WitnessC14maximumSamplesSivpZ",
+      "kind": "swift.type.property"
+    },
+    {
+      "declaration": "static let defaultSampleRateHz: Double",
+      "id": "s:14KenshikiMotion013PulseCeremonyB7WitnessC19defaultSampleRateHzSdvpZ",
+      "kind": "swift.type.property"
+    },
+    {
+      "declaration": "static let maximumWindowSeconds: Double",
+      "id": "s:14KenshikiMotion013PulseCeremonyB7WitnessC20maximumWindowSecondsSdvpZ",
+      "kind": "swift.type.property"
+    },
+    {
+      "declaration": "func stop(at date: Date = Date()) -> PulseCeremonyMotionWindow?",
+      "id": "s:14KenshikiMotion013PulseCeremonyB7WitnessC4stop2atAA0cdB6WindowVSg10Foundation4DateV_tF",
+      "kind": "swift.method"
+    },
+    {
+      "declaration": "func start(at date: Date = Date())",
+      "id": "s:14KenshikiMotion013PulseCeremonyB7WitnessC5start2aty10Foundation4DateV_tF",
+      "kind": "swift.method"
+    },
+    {
+      "declaration": "init(ceremony: PulseCeremonyKind, sampleRateHz: Double = PulseCeremonyMotionWitness.defaultSampleRateHz)",
+      "id": "s:14KenshikiMotion013PulseCeremonyB7WitnessC8ceremony12sampleRateHzAcA0cD4KindO_Sdtcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "let ceremony: PulseCeremonyKind",
+      "id": "s:14KenshikiMotion013PulseCeremonyB7WitnessC8ceremonyAA0cD4KindOvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "func snapshot(endingAtUptime frameTimestamp: Double) -> PulseCeremonyMotionCapture?",
+      "id": "s:14KenshikiMotion013PulseCeremonyB7WitnessC8snapshot14endingAtUptimeAA0cdB7CaptureVSgSd_tF",
+      "kind": "swift.method"
+    },
+    {
+      "declaration": "@MainActor final class PulseMotionPermission",
+      "id": "s:14KenshikiMotion05PulseB10PermissionC",
+      "kind": "swift.class"
+    },
+    {
+      "declaration": "enum Status",
+      "id": "s:14KenshikiMotion05PulseB10PermissionC6StatusO",
+      "kind": "swift.enum"
+    },
+    {
+      "declaration": "case authorized",
+      "id": "s:14KenshikiMotion05PulseB10PermissionC6StatusO10authorizedyA2EmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case requesting",
+      "id": "s:14KenshikiMotion05PulseB10PermissionC6StatusO10requestingyA2EmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case unavailable",
+      "id": "s:14KenshikiMotion05PulseB10PermissionC6StatusO11unavailableyA2EmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case notRequested",
+      "id": "s:14KenshikiMotion05PulseB10PermissionC6StatusO12notRequestedyA2EmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case denied",
+      "id": "s:14KenshikiMotion05PulseB10PermissionC6StatusO6deniedyA2EmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "init?(rawValue: String)",
+      "id": "s:14KenshikiMotion05PulseB10PermissionC6StatusO8rawValueAESgSS_tcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "@MainActor func cancel()",
+      "id": "s:14KenshikiMotion05PulseB10PermissionC6cancelyyF",
+      "kind": "swift.method"
+    },
+    {
+      "declaration": "@MainActor var status: PulseMotionPermission.Status { get }",
+      "id": "s:14KenshikiMotion05PulseB10PermissionC6statusAC6StatusOvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "@MainActor func request(completion: @escaping @MainActor @Sendable (PulseMotionPermission.Status) -> Void)",
+      "id": "s:14KenshikiMotion05PulseB10PermissionC7request10completionyyAC6StatusOYbScMYcc_tF",
+      "kind": "swift.method"
+    },
+    {
+      "declaration": "@MainActor init()",
+      "id": "s:14KenshikiMotion05PulseB10PermissionCACycfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "enum PulseCeremonyKind",
+      "id": "s:14KenshikiMotion17PulseCeremonyKindO",
+      "kind": "swift.enum"
+    },
+    {
+      "declaration": "case passportChipRead",
+      "id": "s:14KenshikiMotion17PulseCeremonyKindO16passportChipReadyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case passportPageScan",
+      "id": "s:14KenshikiMotion17PulseCeremonyKindO16passportPageScanyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "init?(rawValue: String)",
+      "id": "s:14KenshikiMotion17PulseCeremonyKindO8rawValueACSgSS_tcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "case faceMatch",
+      "id": "s:14KenshikiMotion17PulseCeremonyKindO9faceMatchyA2CmF",
+      "kind": "swift.enum.case"
+    }
+  ]
+}

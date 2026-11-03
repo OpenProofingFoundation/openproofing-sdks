@@ -1,0 +1,19 @@
+{
+  "v": "pulse.installation-key-recovery-vector.v1",
+  "packet": {
+    "v": "pulse.installation-key-recovery-challenge.v1",
+    "request_id": "5eed0000-0000-4000-8000-000000000001",
+    "key_id_hash": "2ee8f42267a3635138b7b04501b6a854349d168cdc4e2db23bf05b64e65371f7",
+    "application_id": "com.credit.kenshikidevice",
+    "environment": "production",
+    "service_origin": "https://synthetic.example",
+    "installation_id": "pulse_01ARZ3NDEKTSV4RRFFQ69G5FAV",
+    "client_installation_id": "01ARZ3NDEKTSV4RRFFQ69G5FAV",
+    "challenge_id": "5eed0000-0000-4000-8000-000000000002",
+    "challenge": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+    "issued_at": 1800000000,
+    "expires_at": 1800000300
+  },
+  "canonical_packet": "{\"application_id\":\"com.credit.kenshikidevice\",\"challenge\":\"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\",\"challenge_id\":\"5eed0000-0000-4000-8000-000000000002\",\"client_installation_id\":\"01ARZ3NDEKTSV4RRFFQ69G5FAV\",\"environment\":\"production\",\"expires_at\":1800000300,\"installation_id\":\"pulse_01ARZ3NDEKTSV4RRFFQ69G5FAV\",\"issued_at\":1800000000,\"key_id_hash\":\"2ee8f42267a3635138b7b04501b6a854349d168cdc4e2db23bf05b64e65371f7\",\"request_id\":\"5eed0000-0000-4000-8000-000000000001\",\"service_origin\":\"https://synthetic.example\",\"v\":\"pulse.installation-key-recovery-challenge.v1\"}",
+  "client_data_hash_hex": "3e812f8a496bb0102a8834bb447a18bb2ab5da5eb141e9df4dd81409ada188ce"
+}

@@ -1,0 +1,50 @@
+{
+  "fixtureVersion": 1,
+  "purpose": "synthetic canonical bytes; no identity or biometric data",
+  "manifest": {
+    "schemaVersion": "kenshiki.capture-evidence-manifest.v1",
+    "context": {
+      "applicationID": "com.example.capture",
+      "installationID": "installation-one",
+      "workflowID": "BBBBBBBB-BBBB-BBBB-BBBB-BBBBBBBBBBBB",
+      "generation": 7,
+      "attemptID": "CCCCCCCC-CCCC-CCCC-CCCC-CCCCCCCCCCCC",
+      "observedAtMilliseconds": 1800000000000
+    },
+    "recordID": "AAAAAAAA-AAAA-AAAA-AAAA-AAAAAAAAAAAA",
+    "recordKind": "document-original",
+    "payloadSHA256": "c17bfcd2e9bfe933f17e780ae8344c85dfff47e0c7e4daf48981772d1dd3e0bd",
+    "capabilityManifestSHA256": "b93f9805fec5073e65d11d62091923f4a87f88859b6422d0789b4a645d368b03",
+    "sources": [
+      {
+        "recordID": "AAAAAAAA-AAAA-AAAA-AAAA-AAAAAAAAAAAA",
+        "role": "original",
+        "sha256": "c17bfcd2e9bfe933f17e780ae8344c85dfff47e0c7e4daf48981772d1dd3e0bd"
+      }
+    ],
+    "derivatives": [],
+    "lineage": [],
+    "modelIDs": [],
+    "policyIDs": [
+      "capture-policy-v1"
+    ]
+  },
+  "payloadUTF8": "synthetic-pixels",
+  "capabilityManifestUTF8": "synthetic-capability-manifest",
+  "signingUTF8": "kenshiki:capture-evidence-manifest:v1\u0000{\"capabilityManifestSHA256\":\"b93f9805fec5073e65d11d62091923f4a87f88859b6422d0789b4a645d368b03\",\"context\":{\"applicationID\":\"com.example.capture\",\"attemptID\":\"CCCCCCCC-CCCC-CCCC-CCCC-CCCCCCCCCCCC\",\"generation\":7,\"installationID\":\"installation-one\",\"observedAtMilliseconds\":1800000000000,\"workflowID\":\"BBBBBBBB-BBBB-BBBB-BBBB-BBBBBBBBBBBB\"},\"derivatives\":[],\"lineage\":[],\"modelIDs\":[],\"payloadSHA256\":\"c17bfcd2e9bfe933f17e780ae8344c85dfff47e0c7e4daf48981772d1dd3e0bd\",\"policyIDs\":[\"capture-policy-v1\"],\"recordID\":\"AAAAAAAA-AAAA-AAAA-AAAA-AAAAAAAAAAAA\",\"recordKind\":\"document-original\",\"schemaVersion\":\"kenshiki.capture-evidence-manifest.v1\",\"sources\":[{\"recordID\":\"AAAAAAAA-AAAA-AAAA-AAAA-AAAAAAAAAAAA\",\"role\":\"original\",\"sha256\":\"c17bfcd2e9bfe933f17e780ae8344c85dfff47e0c7e4daf48981772d1dd3e0bd\"}]}",
+  "sha256": "cd408f01a383e175a84fbdaf7e975367d9207e38eacb9c9516848ba0d03e77d5",
+  "negativeBindings": [
+    "applicationID",
+    "installationID",
+    "workflowID",
+    "generation",
+    "attemptID",
+    "observedAtMilliseconds",
+    "recordID",
+    "recordKind",
+    "payloadSHA256",
+    "capabilityManifestSHA256",
+    "modelIDs",
+    "policyIDs"
+  ]
+}

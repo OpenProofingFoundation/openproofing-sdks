@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "operation": {
+    "v": "kenshiki.sealed-operation.v1",
+    "application_id": "com.example.pulse",
+    "installation_id": "public-synthetic-expiry",
+    "audience": "pulse-api",
+    "operation_kind": "presence_share_stop",
+    "operation_id": "00000000-0000-4000-8000-000000000158",
+    "target_id": "psv3s_synthetic_expiry",
+    "generation": "c26098f863c3e3706e7b255ebcd9357974fbc03a9c4c7e55a66954be50a50c18",
+    "expected_revision": 1,
+    "content_digest": "c7f9a73ac12f84e59c7036ceb38be04779e2fbbd49dd588d016f9892be516476",
+    "purpose": "share",
+    "recipient": null,
+    "challenge_id": "synthetic-expiry-challenge",
+    "issued_at": 1792267200,
+    "expires_at": 1792267500
+  },
+  "content": {
+    "share_id": "psv3s_synthetic_expiry"
+  },
+  "refusal": {
+    "v": "kenshiki.protective-expiry-refusal.v1",
+    "status": "expired_uncommitted",
+    "audience": "pulse-api",
+    "application_id": "com.example.pulse",
+    "installation_id": "public-synthetic-expiry",
+    "operation_kind": "presence_share_stop",
+    "operation_id": "00000000-0000-4000-8000-000000000158",
+    "target_id": "psv3s_synthetic_expiry",
+    "generation": "c26098f863c3e3706e7b255ebcd9357974fbc03a9c4c7e55a66954be50a50c18",
+    "request_digest": "f0ead9e7b338ea9a06386c41dcb6ac42a0b2bae40fffa6de5b02e97f8ce678b9",
+    "original_expires_at": 1792267500,
+    "server_time": 1792267501
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "sourceRepository": "kenshiki-identity-sdk",
+  "sourceRevision": "0a1d0a0ec0fb7d3f435fb25608ca25e7b673bdbd",
+  "sourceWorkingTree": "Uncommitted Regula removal; exact extracted input hashes below",
+  "sourceSHA256": {
+    "Sources/IdentityEvidenceStorage/CaptureCompletedResult.swift": "ff2592af53539774dc7eddc91733ac4516fb23406c33a52a5d4ed775cc531474",
+    "Sources/IdentityEvidenceStorage/CaptureCompletedResultCustody.swift": "5c2e6f1be13e8e6b7ef8b3eba248a49b330920545956a3ec5a315740a684539c",
+    "Sources/IdentityEvidenceStorage/CaptureCustodyErasureState.swift": "adbd4bafddd47bbd8a62cda3eb679f6e6314e84069d686b122e5ebb5e6f5f9d2",
+    "Sources/IdentityEvidenceStorage/CaptureCustodyKeyMigration.swift": "bd21b63e3101ed5eb1dd4025c9d86d768f8d5d09cbde6d0cb14059e24912e5bb",
+    "Sources/IdentityEvidenceStorage/CaptureCustodyLease.swift": "dd9caea519ccf19c19c9e88bd2acee7311099d651a0585ff4b6420fc5559ee5c",
+    "Sources/IdentityEvidenceStorage/CaptureCustodyRuntime.swift": "a9fd797cb832439d1da25f9b9e1ea17a234b2d279b88801d649073231a1113f0",
+    "Sources/IdentityEvidenceStorage/CaptureCustodyTestFixture.swift": "c0bed4ba43c3576dd1843fde112403deffcfa1d64fbfd5540f8914eeb48a4f79",
+    "Sources/IdentityEvidenceStorage/CaptureEvidenceCipher.swift": "d6750b15c77aaf41dcd1881e6217c9a8dfb337b4edb61059c17a708d4992d771",
+    "Sources/IdentityEvidenceStorage/CaptureEvidenceEnvelope.swift": "81da876060597f827192f94c54241f2759927a34270857291446b50b0d98e1db",
+    "Sources/IdentityEvidenceStorage/CaptureEvidenceIndex.swift": "c2a8387c86e4ffc65471718fb7a3189b2d067d272f129a9aa38a3be67689044d",
+    "Sources/IdentityEvidenceStorage/CaptureEvidenceKey.swift": "5d1fd5fc3dd9032d411d0ef4bc193a57fedf19118292cc82e86f951372c40f56",
+    "Sources/IdentityEvidenceStorage/CaptureEvidenceLiveLookup.swift": "420569c1354b29ede8b2c35d2073e39792200764869e82ac43b5576fb0a1df7c",
+    "Sources/IdentityEvidenceStorage/CaptureEvidenceLookupSnapshot.swift": "cd448720700b58bb5ad1ad88fb2104ac95315ed494112af79be74c723c3a5916",
+    "Sources/IdentityEvidenceStorage/CaptureEvidenceStore.swift": "a9865804377540b8dff5a14196fd4a401c927b8188ba9317237b81f6992936bf",
+    "Sources/IdentityEvidenceStorage/CaptureJourneyCheckpoint.swift": "6b576de7916ef87155a8e5baab04a2c54ef36e1f47876f4545b333f36d90bc8a",
+    "Sources/IdentityEvidenceStorage/CaptureSigningConfiguration.swift": "e1573f4274096e2b3d3f3e2a2d70e7b13d8e40866fa64efd1320cc61464f44a1",
+    "Sources/IdentityEvidenceStorage/CaptureSigningTestFixture.swift": "0e11c0fc7c1ee8da7538d23040589af8d11756db6971b3dbd22a4ea2a9280f12",
+    "Tests/IdentityEvidenceStorageTests/CaptureCompletedResultTests.swift": "f68d5e6c9fec948b3139ec0f6431e564b96abd1c2419064085f493871b1520d1",
+    "Tests/IdentityEvidenceStorageTests/CaptureCustodyKeyMigrationTests.swift": "c645c0b8101f081188e640068a7a94bbd0885a887bf4d249829cdb2ed7802b68",
+    "Tests/IdentityEvidenceStorageTests/CaptureCustodyPublicAPITests.swift": "6923ad166941b057fe41ea25f68d10bdb73314f8b379a61cce6de069498fa45e",
+    "Tests/IdentityEvidenceStorageTests/CaptureCustodyRevocationTests.swift": "a837d0c0b0fbce0d4fe2f3169522be2a645fb677b81e8d36ecee0121876150dd",
+    "Tests/IdentityEvidenceStorageTests/CaptureCustodyRuntimeTests.swift": "72dec13fd99758cdc418cfc3183b52167bd3a1ad3a8fa4e3ee1f0ab7f29ca0c6",
+    "Tests/IdentityEvidenceStorageTests/CaptureEvidenceBinaryTests.swift": "8414a0d17fb8c6e4b513c173b22155499bdecfb4bf3b058fff00a853b6bd8b20",
+    "Tests/IdentityEvidenceStorageTests/CaptureEvidenceFingerprintTests.swift": "4169d29ced8abcd21e730a5366b7028f21ede3548843b0560ecfe08943634dfe",
+    "Tests/IdentityEvidenceStorageTests/CaptureEvidenceIndexTests.swift": "bb31bd5165a3ced2bf31d420e424b207c95372d241f95c61777b48f82b547c33",
+    "Tests/IdentityEvidenceStorageTests/CaptureEvidenceLegacyIndexTests.swift": "523f5d1b7989d99cf77dc4e405396619c866c0da549624bfa20f007a88961817",
+    "Tests/IdentityEvidenceStorageTests/CaptureEvidenceLiveLookupTests.swift": "baf31e657ae08798a4cbed6f1e7ff4fa88c6f8ced786558526adb89473fb24f0",
+    "Tests/IdentityEvidenceStorageTests/CaptureEvidenceLookupSnapshotTests.swift": "ec9aad16329a4fb79527767c4b3f8626b530bf7cb1a23bd3c980621512124944",
+    "Tests/IdentityEvidenceStorageTests/CaptureEvidenceStoreTests.swift": "6cc9097258b4d4f32bd7012e84ad53fcc1fd06fbbdd3dde1c4d83284923387e7",
+    "Tests/IdentityEvidenceStorageTests/CaptureFailedErasureAuditTests.swift": "ac02a6f4e753a1fee3ba0e2024f0f1bb4d5f88b87efb1729268cf30952698731",
+    "Tests/IdentityEvidenceStorageTests/CaptureJourneyCheckpointTests.swift": "acde4b5bbd3745a1a3ee85da7c8ae96cf72e592f7a674f68e5acb06e7d15948c",
+    "Tests/IdentityEvidenceStorageTests/SignedCaptureStoreTests.swift": "c9262e758261b965cd00e1b800ea6d74fb84cd31aa1b939284c22c19ca80f67b"
+  },
+  "destinationModule": "CaptureEvidenceCustody",
+  "boundaries": [
+    "Shared encrypted artifact custody only; no SealedRecordStore or product HostEnvironment",
+    "HardwareBoundStoreKeyCustody and evidence manifest reused from existing foundation",
+    "Typed document/selfie journey checkpoint semantics remain outside foundation",
+    "Historical cryptographic domain strings and filenames retained exactly"
+  ],
+  "destinationSHA256": {
+    "foundation/Sources/CaptureEvidenceCustody/CaptureCheckpointRecord.swift": "c15bdab7b48ae4e1338c7628e89b1338dd5f31c50c076a6406424103179c2479",
+    "foundation/Sources/CaptureEvidenceCustody/CaptureCompletedResult.swift": "ff2592af53539774dc7eddc91733ac4516fb23406c33a52a5d4ed775cc531474",
+    "foundation/Sources/CaptureEvidenceCustody/CaptureCompletedResultCustody.swift": "5c2e6f1be13e8e6b7ef8b3eba248a49b330920545956a3ec5a315740a684539c",
+    "foundation/Sources/CaptureEvidenceCustody/CaptureCustodyErasureState.swift": "adbd4bafddd47bbd8a62cda3eb679f6e6314e84069d686b122e5ebb5e6f5f9d2",
+    "foundation/Sources/CaptureEvidenceCustody/CaptureCustodyKeyMigration.swift": "56be4941abc0610b658bb9105e9e62e2449f9af1bb649dbfa4647417cc3ec21d",
+    "foundation/Sources/CaptureEvidenceCustody/CaptureCustodyLease.swift": "dd9caea519ccf19c19c9e88bd2acee7311099d651a0585ff4b6420fc5559ee5c",
+    "foundation/Sources/CaptureEvidenceCustody/CaptureCustodyRuntime.swift": "6615443cee7901188e5a1f29bfd8ad6097b013670f69baa3d6fdb2c87504df54",
+    "foundation/Sources/CaptureEvidenceCustody/CaptureCustodyTestFixture.swift": "c0bed4ba43c3576dd1843fde112403deffcfa1d64fbfd5540f8914eeb48a4f79",
+    "foundation/Sources/CaptureEvidenceCustody/CaptureEvidenceCipher.swift": "d6750b15c77aaf41dcd1881e6217c9a8dfb337b4edb61059c17a708d4992d771",
+    "foundation/Sources/CaptureEvidenceCustody/CaptureEvidenceEnvelope.swift": "81da876060597f827192f94c54241f2759927a34270857291446b50b0d98e1db",
+    "foundation/Sources/CaptureEvidenceCustody/CaptureEvidenceIndex.swift": "c2a8387c86e4ffc65471718fb7a3189b2d067d272f129a9aa38a3be67689044d",
+    "foundation/Sources/CaptureEvidenceCustody/CaptureEvidenceKey.swift": "5d1fd5fc3dd9032d411d0ef4bc193a57fedf19118292cc82e86f951372c40f56",
+    "foundation/Sources/CaptureEvidenceCustody/CaptureEvidenceLiveLookup.swift": "420569c1354b29ede8b2c35d2073e39792200764869e82ac43b5576fb0a1df7c",
+    "foundation/Sources/CaptureEvidenceCustody/CaptureEvidenceLookupSnapshot.swift": "cd448720700b58bb5ad1ad88fb2104ac95315ed494112af79be74c723c3a5916",
+    "foundation/Sources/CaptureEvidenceCustody/CaptureEvidenceStore.swift": "55203d1015616f01be3bc1484f6138f2ecd3b90cf870abf79dd418978b9029b2",
+    "foundation/Sources/CaptureEvidenceCustody/CaptureSigningConfiguration.swift": "e1573f4274096e2b3d3f3e2a2d70e7b13d8e40866fa64efd1320cc61464f44a1",
+    "foundation/Sources/CaptureEvidenceCustody/CaptureSigningTestFixture.swift": "0e11c0fc7c1ee8da7538d23040589af8d11756db6971b3dbd22a4ea2a9280f12",
+    "foundation/Sources/CaptureEvidenceCustody/SecureEnclaveCaptureManifestSigner.swift": "cab49cca387bc7987a46c93e9d34f8e7736d3339a747e68e40f4eb7accb31dcb",
+    "foundation/Tests/CaptureEvidenceCustodyTests/CaptureCheckpointTests.swift": "cf00db3fda32ad371170264045c3d95cb2c486bf6102814060965a20c9663285",
+    "foundation/Tests/CaptureEvidenceCustodyTests/CaptureCompletedResultTests.swift": "bed9c62de2aeda3c2123169b8b75339bb92c3c77d1567cdb5824c20cdadd6754",
+    "foundation/Tests/CaptureEvidenceCustodyTests/CaptureCustodyKeyMigrationTests.swift": "631acfedf7cadfa8fae3ab616e8b2d8a1d049f533f2b211354002b373b1834d5",
+    "foundation/Tests/CaptureEvidenceCustodyTests/CaptureCustodyPublicAPITests.swift": "bd305767fa15b4e86b2947ff2ed2f5e251d94e9e362b61f70ab675b8b5abb1e8",
+    "foundation/Tests/CaptureEvidenceCustodyTests/CaptureCustodyRevocationTests.swift": "889ba7e821b0d5f55044f8f69598259d2090b545ad8f9857675f94b9db6408b9",
+    "foundation/Tests/CaptureEvidenceCustodyTests/CaptureCustodyRuntimeTests.swift": "7a27e0830fd0a936cc2daed5f33048334f2c830e0e7b20eb84c07604eeb73e18",
+    "foundation/Tests/CaptureEvidenceCustodyTests/CaptureEvidenceBinaryTests.swift": "7cad700bd3bbcd2a860abd3fb6b6e9ce261c4669523dd1c87653cfcfef151a88",
+    "foundation/Tests/CaptureEvidenceCustodyTests/CaptureEvidenceFingerprintTests.swift": "ca5574e65f1d4da244df8de260ac8a02864c0c6fc4c46dea9b33016ec1e3f140",
+    "foundation/Tests/CaptureEvidenceCustodyTests/CaptureEvidenceIndexTests.swift": "11e7d1e2e5cae73b3dc1aaacb448dab5d407d219841eb6d412704a380eb3670a",
+    "foundation/Tests/CaptureEvidenceCustodyTests/CaptureEvidenceLegacyIndexTests.swift": "c6587fb66b7e512d4611e48c9bf09befdc9b0fc1816581e052b29119d5ecbb10",
+    "foundation/Tests/CaptureEvidenceCustodyTests/CaptureEvidenceLiveLookupTests.swift": "78ed66acd0e2fec6c111ea673fdcf428dadee013ae54e4cabe4c51b67e1a029c",
+    "foundation/Tests/CaptureEvidenceCustodyTests/CaptureEvidenceLookupSnapshotTests.swift": "4f275f4aebff4f02d8e8be5c7f1d3035c19338059d52fe1b24f868fcc614519c",
+    "foundation/Tests/CaptureEvidenceCustodyTests/CaptureEvidenceStoreTests.swift": "12d0cc64abbf1f94ec4c653319b19c756c6462583ed4e31c0a32f5d92c6df242",
+    "foundation/Tests/CaptureEvidenceCustodyTests/CaptureFailedErasureAuditTests.swift": "c81bc14e7995f1bf8a7d2cd822512e8701083fe6d81daf352d2595737f1d47ff",
+    "foundation/Tests/CaptureEvidenceCustodyTests/SecureEnclaveCaptureManifestSignerTests.swift": "612dd093f3c5ed4ed0b2d685e392cef76ef6bd89a7e909314cbb711d4fda32d7",
+    "foundation/Tests/CaptureEvidenceCustodyTests/SignedCaptureStoreTests.swift": "3979d33d236d56253b5354b03702358ce6f5647fd9142d553563d0cb3b722299"
+  },
+  "localSigningAddition": {
+    "basis": "New local evidence adapter; no original donor receipt, wire format or source hash is claimed. Reuses existing protected-store Keychain routing, foreground policy and manifest signing contract.",
+    "proofSchemaVersion": "kenshiki.capture-evidence-p256-sha256.v1",
+    "mechanism": "SecureEnclave.P256.Signing SHA-256 ECDSA DER; independent retained local public-key hash; no App Attest or server claim.",
+    "sourceReferences": {
+      "foundation/Sources/KenshikiProtectedStorage/StoreKeyIdentity.swift": "dde20a7ab4ebb8fb265af23dc9cb6379fa149972d1410c0af341061bdaae0f9a",
+      "foundation/Sources/KenshikiEvidenceManifest/EvidenceManifestSigning.swift": "0efaad03870fef19557d7bba71b9f31b5ee09455d4f271d850892dea8346e07d"
+    },
+    "donorConventions": {
+      "/Users/shf/Developer/kenshiki-identity-sdk/Sources/KenshikiIdentity/DeviceEvidenceSigner.swift": "b671e00d1c268c60c74aaa2371ba75012169fa09a92a753648161690648e8945",
+      "/Users/shf/Developer/kenshiki-identity-sdk/Sources/KenshikiIdentity/CaptureEvidenceManifestSigner.swift": "73f4fdc18746dc63b17f55847aca6f37cba9ef6d8bdecfac4b2916e0c1c05fc9"
+    },
+    "files": {
+      "foundation/Sources/CaptureEvidenceCustody/SecureEnclaveCaptureManifestSigner.swift": "cab49cca387bc7987a46c93e9d34f8e7736d3339a747e68e40f4eb7accb31dcb",
+      "foundation/Sources/KenshikiProtectedStorage/HardwareBoundSigningKeyCustody.swift": "4edece4666383da02555fbff7e76ad9891c0fdcf2ad42096985fcf7aea128a7b",
+      "foundation/Tests/CaptureEvidenceCustodyTests/SecureEnclaveCaptureManifestSignerTests.swift": "612dd093f3c5ed4ed0b2d685e392cef76ef6bd89a7e909314cbb711d4fda32d7",
+      "foundation/Tests/KenshikiProtectedStorageTests/HardwareBoundSigningKeyCustodyTests.swift": "69dff3019425028dabca9087041c1fa47f351ede384381a65d5af49c74510ce6"
+    }
+  },
+  "localAssociatedErasureAddition": {
+    "basis": "New coordinated hold on the existing durable protected-store erasure intent; no separate lifecycle engine or sidecar. Original donor attribution above remains unchanged.",
+    "boundary": "StorageAdapter SPI retains pending intent across associated signing-key cleanup; historical pending discovery creates no data/key; exact epoch completion refuses replacement generations. Adopters must use the coordinated path consistently.",
+    "files": {
+      "foundation/Sources/KenshikiProtectedStorage/StoreLifecycleFence.swift": "3636206f655cd013def37d7eee6927eb9c350cb96df02334097c48214cfa7cf5",
+      "foundation/Sources/KenshikiProtectedStorage/ProtectedSQLiteStore.swift": "13ef04a3ca3a9b33778f97032ce163714b2f37060cb6f5381b2a1d104df161e6",
+      "foundation/Tests/KenshikiProtectedStorageTests/ProtectedSQLiteAssociatedErasureTests.swift": "bdf0cb149d926fed2c3171eccb851e1a88a9d455e4e4f10e0666c30518b59e63"
+    }
+  }
+}

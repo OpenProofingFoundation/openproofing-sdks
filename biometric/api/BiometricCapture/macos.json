@@ -1,0 +1,1866 @@
+{
+  "relationships": [
+    {
+      "kind": "conformsTo",
+      "source": "s:16BiometricCapture06SelfieB12PresentationV",
+      "target": "s:SH"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:16BiometricCapture06SelfieB12PresentationV",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:16BiometricCapture06SelfieB12PresentationV",
+      "target": "s:s12IdentifiableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:16BiometricCapture06SelfieB12PresentationV",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:16BiometricCapture06SelfieB12PresentationV",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:16BiometricCapture06SelfieB12WindowPolicyV",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:16BiometricCapture06SelfieB12WindowPolicyV",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:16BiometricCapture06SelfieB12WindowPolicyV",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:16BiometricCapture06SelfieB17PresentationStateC",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:16BiometricCapture06SelfieB17PresentationStateC",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:16BiometricCapture06SelfieB7ConsentO",
+      "target": "s:SH"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:16BiometricCapture06SelfieB7ConsentO",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:16BiometricCapture06SelfieB7ConsentO",
+      "target": "s:SY"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:16BiometricCapture06SelfieB7ConsentO",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:16BiometricCapture06SelfieB7ConsentO",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:16BiometricCapture06SelfieB8TimeoutsV",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:16BiometricCapture06SelfieB8TimeoutsV",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:16BiometricCapture06SelfieB8TimeoutsV",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:16BiometricCapture14CapturedSelfieV",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:16BiometricCapture14CapturedSelfieV",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:16BiometricCapture17SelfieDepthPolicyV",
+      "target": "s:SE"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:16BiometricCapture17SelfieDepthPolicyV",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:16BiometricCapture17SelfieDepthPolicyV",
+      "target": "s:Se"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:16BiometricCapture17SelfieDepthPolicyV",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:16BiometricCapture17SelfieDepthPolicyV",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:16BiometricCapture17SelfieDepthSampleV",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:16BiometricCapture17SelfieDepthSampleV",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:16BiometricCapture17SelfieDepthSampleV",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:16BiometricCapture18SelfiePixelFailureO",
+      "target": "s:SH"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:16BiometricCapture18SelfiePixelFailureO",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:16BiometricCapture18SelfiePixelFailureO",
+      "target": "s:SY"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:16BiometricCapture18SelfiePixelFailureO",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:16BiometricCapture18SelfiePixelFailureO",
+      "target": "s:s5ErrorP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:16BiometricCapture18SelfiePixelFailureO",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:16BiometricCapture19SelfieAdmissionGateV",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:16BiometricCapture19SelfieAdmissionGateV",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:16BiometricCapture19SelfieAdmissionGateV10BlinkPhaseO",
+      "target": "s:SE"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:16BiometricCapture19SelfieAdmissionGateV10BlinkPhaseO",
+      "target": "s:SH"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:16BiometricCapture19SelfieAdmissionGateV10BlinkPhaseO",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:16BiometricCapture19SelfieAdmissionGateV10BlinkPhaseO",
+      "target": "s:SY"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:16BiometricCapture19SelfieAdmissionGateV10BlinkPhaseO",
+      "target": "s:Se"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:16BiometricCapture19SelfieAdmissionGateV10BlinkPhaseO",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:16BiometricCapture19SelfieAdmissionGateV10BlinkPhaseO",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:16BiometricCapture19SelfieAdmissionGateV11ObservationV",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:16BiometricCapture19SelfieAdmissionGateV11ObservationV",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:16BiometricCapture19SelfieAdmissionGateV11ObservationV12MeasurementsV",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:16BiometricCapture19SelfieAdmissionGateV11ObservationV12MeasurementsV",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:16BiometricCapture19SelfieAdmissionGateV7RefusalO",
+      "target": "s:SE"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:16BiometricCapture19SelfieAdmissionGateV7RefusalO",
+      "target": "s:SH"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:16BiometricCapture19SelfieAdmissionGateV7RefusalO",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:16BiometricCapture19SelfieAdmissionGateV7RefusalO",
+      "target": "s:SY"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:16BiometricCapture19SelfieAdmissionGateV7RefusalO",
+      "target": "s:Se"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:16BiometricCapture19SelfieAdmissionGateV7RefusalO",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:16BiometricCapture19SelfieAdmissionGateV7RefusalO",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:16BiometricCapture19SelfieAdmissionGateV8DecisionO",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:16BiometricCapture19SelfieAdmissionGateV8DecisionO",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:16BiometricCapture19SelfieAdmissionGateV8DecisionO",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:16BiometricCapture19SelfieAdmissionGateV9ReadinessV",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:16BiometricCapture19SelfieAdmissionGateV9ReadinessV",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:16BiometricCapture19SelfieAdmissionGateV9ReadinessV",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:16BiometricCapture19SelfieCameraFailureV",
+      "target": "s:SE"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:16BiometricCapture19SelfieCameraFailureV",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:16BiometricCapture19SelfieCameraFailureV",
+      "target": "s:Se"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:16BiometricCapture19SelfieCameraFailureV",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:16BiometricCapture19SelfieCameraFailureV",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:16BiometricCapture19SelfieCameraFailureV14FrameworkErrorV",
+      "target": "s:SE"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:16BiometricCapture19SelfieCameraFailureV14FrameworkErrorV",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:16BiometricCapture19SelfieCameraFailureV14FrameworkErrorV",
+      "target": "s:Se"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:16BiometricCapture19SelfieCameraFailureV14FrameworkErrorV",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:16BiometricCapture19SelfieCameraFailureV14FrameworkErrorV",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:16BiometricCapture19SelfieCameraFailureV6ReasonO",
+      "target": "s:SE"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:16BiometricCapture19SelfieCameraFailureV6ReasonO",
+      "target": "s:SH"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:16BiometricCapture19SelfieCameraFailureV6ReasonO",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:16BiometricCapture19SelfieCameraFailureV6ReasonO",
+      "target": "s:SY"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:16BiometricCapture19SelfieCameraFailureV6ReasonO",
+      "target": "s:Se"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:16BiometricCapture19SelfieCameraFailureV6ReasonO",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:16BiometricCapture19SelfieCameraFailureV6ReasonO",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:16BiometricCapture19SelfieDepthEvidenceV",
+      "target": "s:SE"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:16BiometricCapture19SelfieDepthEvidenceV",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:16BiometricCapture19SelfieDepthEvidenceV",
+      "target": "s:Se"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:16BiometricCapture19SelfieDepthEvidenceV",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:16BiometricCapture19SelfieDepthEvidenceV",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:16BiometricCapture19SelfieFrameEvidenceV",
+      "target": "s:SE"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:16BiometricCapture19SelfieFrameEvidenceV",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:16BiometricCapture19SelfieFrameEvidenceV",
+      "target": "s:Se"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:16BiometricCapture19SelfieFrameEvidenceV",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:16BiometricCapture19SelfieFrameEvidenceV",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:16BiometricCapture19SelfiePixelSnapshotV",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:16BiometricCapture19SelfiePixelSnapshotV",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:16BiometricCapture20SelfieMotionEvidenceV",
+      "target": "s:SE"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:16BiometricCapture20SelfieMotionEvidenceV",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:16BiometricCapture20SelfieMotionEvidenceV",
+      "target": "s:Se"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:16BiometricCapture20SelfieMotionEvidenceV",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:16BiometricCapture20SelfieMotionEvidenceV",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:16BiometricCapture21SelfieAdmissionPolicyV",
+      "target": "s:SE"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:16BiometricCapture21SelfieAdmissionPolicyV",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:16BiometricCapture21SelfieAdmissionPolicyV",
+      "target": "s:Se"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:16BiometricCapture21SelfieAdmissionPolicyV",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:16BiometricCapture21SelfieAdmissionPolicyV",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:16BiometricCapture22SelfieAdmissionReceiptV",
+      "target": "s:SE"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:16BiometricCapture22SelfieAdmissionReceiptV",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:16BiometricCapture22SelfieAdmissionReceiptV",
+      "target": "s:Se"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:16BiometricCapture22SelfieAdmissionReceiptV",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:16BiometricCapture22SelfieAdmissionReceiptV",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:16BiometricCapture22SelfieAdmissionReceiptV7TriggerO",
+      "target": "s:SE"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:16BiometricCapture22SelfieAdmissionReceiptV7TriggerO",
+      "target": "s:SH"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:16BiometricCapture22SelfieAdmissionReceiptV7TriggerO",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:16BiometricCapture22SelfieAdmissionReceiptV7TriggerO",
+      "target": "s:SY"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:16BiometricCapture22SelfieAdmissionReceiptV7TriggerO",
+      "target": "s:Se"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:16BiometricCapture22SelfieAdmissionReceiptV7TriggerO",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:16BiometricCapture22SelfieAdmissionReceiptV7TriggerO",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:16BiometricCapture22SelfieDepthMeasurementV",
+      "target": "s:SE"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:16BiometricCapture22SelfieDepthMeasurementV",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:16BiometricCapture22SelfieDepthMeasurementV",
+      "target": "s:Se"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:16BiometricCapture22SelfieDepthMeasurementV",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:16BiometricCapture22SelfieDepthMeasurementV",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:16BiometricCapture24SelfieLivenessAssessmentO",
+      "target": "s:SE"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:16BiometricCapture24SelfieLivenessAssessmentO",
+      "target": "s:SH"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:16BiometricCapture24SelfieLivenessAssessmentO",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:16BiometricCapture24SelfieLivenessAssessmentO",
+      "target": "s:SY"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:16BiometricCapture24SelfieLivenessAssessmentO",
+      "target": "s:Se"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:16BiometricCapture24SelfieLivenessAssessmentO",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:16BiometricCapture24SelfieLivenessAssessmentO",
+      "target": "s:s8SendableP"
+    }
+  ],
+  "symbols": [
+    {
+      "declaration": "struct SelfieCapturePresentation",
+      "id": "s:16BiometricCapture06SelfieB12PresentationV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "let id: UUID",
+      "id": "s:16BiometricCapture06SelfieB12PresentationV2id10Foundation4UUIDVvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "struct SelfieCaptureWindowPolicy",
+      "id": "s:16BiometricCapture06SelfieB12WindowPolicyV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "static let engineeringV1: SelfieCaptureWindowPolicy",
+      "id": "s:16BiometricCapture06SelfieB12WindowPolicyV13engineeringV1ACvpZ",
+      "kind": "swift.type.property"
+    },
+    {
+      "declaration": "let minimumInterval: TimeInterval",
+      "id": "s:16BiometricCapture06SelfieB12WindowPolicyV15minimumIntervalSdvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "init(maximumCandidates: Int, duration: TimeInterval, minimumInterval: TimeInterval)",
+      "id": "s:16BiometricCapture06SelfieB12WindowPolicyV17maximumCandidates8duration15minimumIntervalACSi_S2dtcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "let maximumCandidates: Int",
+      "id": "s:16BiometricCapture06SelfieB12WindowPolicyV17maximumCandidatesSivp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let duration: TimeInterval",
+      "id": "s:16BiometricCapture06SelfieB12WindowPolicyV8durationSdvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "@MainActor final class SelfieCapturePresentationState",
+      "id": "s:16BiometricCapture06SelfieB17PresentationStateC",
+      "kind": "swift.class"
+    },
+    {
+      "declaration": "@discardableResult @MainActor func open() -> SelfieCapturePresentation",
+      "id": "s:16BiometricCapture06SelfieB17PresentationStateC4openAA0cbD0VyF",
+      "kind": "swift.method"
+    },
+    {
+      "declaration": "@MainActor func close()",
+      "id": "s:16BiometricCapture06SelfieB17PresentationStateC5closeyyF",
+      "kind": "swift.method"
+    },
+    {
+      "declaration": "@MainActor var current: SelfieCapturePresentation? { get }",
+      "id": "s:16BiometricCapture06SelfieB17PresentationStateC7currentAA0cbD0VSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "@MainActor func receive(from id: UUID, _ callback: () -> Void)",
+      "id": "s:16BiometricCapture06SelfieB17PresentationStateC7receive4from_y10Foundation4UUIDV_yyXEtF",
+      "kind": "swift.method"
+    },
+    {
+      "declaration": "@MainActor init()",
+      "id": "s:16BiometricCapture06SelfieB17PresentationStateCACycfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "enum SelfieCaptureConsent",
+      "id": "s:16BiometricCapture06SelfieB7ConsentO",
+      "kind": "swift.enum"
+    },
+    {
+      "declaration": "init?(rawValue: String)",
+      "id": "s:16BiometricCapture06SelfieB7ConsentO8rawValueACSgSS_tcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "case withheld",
+      "id": "s:16BiometricCapture06SelfieB7ConsentO8withheldyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case permitted",
+      "id": "s:16BiometricCapture06SelfieB7ConsentO9permittedyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "struct SelfieCaptureTimeouts",
+      "id": "s:16BiometricCapture06SelfieB8TimeoutsV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "init(frameDelivery: TimeInterval, analysis: TimeInterval, rendering: TimeInterval)",
+      "id": "s:16BiometricCapture06SelfieB8TimeoutsV13frameDelivery8analysis9renderingACSd_S2dtcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "let frameDelivery: TimeInterval",
+      "id": "s:16BiometricCapture06SelfieB8TimeoutsV13frameDeliverySdvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "static let operationalV1: SelfieCaptureTimeouts",
+      "id": "s:16BiometricCapture06SelfieB8TimeoutsV13operationalV1ACvpZ",
+      "kind": "swift.type.property"
+    },
+    {
+      "declaration": "let analysis: TimeInterval",
+      "id": "s:16BiometricCapture06SelfieB8TimeoutsV8analysisSdvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let rendering: TimeInterval",
+      "id": "s:16BiometricCapture06SelfieB8TimeoutsV9renderingSdvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "struct CapturedSelfie",
+      "id": "s:16BiometricCapture14CapturedSelfieV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "let encodedPNG: Data",
+      "id": "s:16BiometricCapture14CapturedSelfieV10encodedPNG10Foundation4DataVvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let admissionReceipt: SelfieAdmissionReceipt",
+      "id": "s:16BiometricCapture14CapturedSelfieV16admissionReceiptAA0d9AdmissionF0Vvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let id: UUID",
+      "id": "s:16BiometricCapture14CapturedSelfieV2id10Foundation4UUIDVvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "var sha256: String { get }",
+      "id": "s:16BiometricCapture14CapturedSelfieV6sha256SSvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "struct SelfieDepthPolicy",
+      "id": "s:16BiometricCapture17SelfieDepthPolicyV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "let maximumDepthAge: TimeInterval",
+      "id": "s:16BiometricCapture17SelfieDepthPolicyV07maximumD3AgeSdvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "init(identifier: String, minimumResidualRMS: Double, minimumSamples: Int, nearLimit: Double, farLimit: Double, maximumDepthAge: TimeInterval, samplesPerAxis: Int)",
+      "id": "s:16BiometricCapture17SelfieDepthPolicyV10identifier18minimumResidualRMS0G7Samples9nearLimit03farL007maximumD3Age14samplesPerAxisACSS_SdSiS3dSitcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "let identifier: String",
+      "id": "s:16BiometricCapture17SelfieDepthPolicyV10identifierSSvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "static let engineeringV1: SelfieDepthPolicy",
+      "id": "s:16BiometricCapture17SelfieDepthPolicyV13engineeringV1ACvpZ",
+      "kind": "swift.type.property"
+    },
+    {
+      "declaration": "let minimumSamples: Int",
+      "id": "s:16BiometricCapture17SelfieDepthPolicyV14minimumSamplesSivp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let samplesPerAxis: Int",
+      "id": "s:16BiometricCapture17SelfieDepthPolicyV14samplesPerAxisSivp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let minimumResidualRMS: Double",
+      "id": "s:16BiometricCapture17SelfieDepthPolicyV18minimumResidualRMSSdvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "init(from decoder: any Decoder) throws",
+      "id": "s:16BiometricCapture17SelfieDepthPolicyV4fromACs7Decoder_p_tKcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "let farLimit: Double",
+      "id": "s:16BiometricCapture17SelfieDepthPolicyV8farLimitSdvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let nearLimit: Double",
+      "id": "s:16BiometricCapture17SelfieDepthPolicyV9nearLimitSdvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "struct SelfieDepthSample",
+      "id": "s:16BiometricCapture17SelfieDepthSampleV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "init(x: Double, y: Double, z: Double)",
+      "id": "s:16BiometricCapture17SelfieDepthSampleV1x1y1zACSd_S2dtcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "let x: Double",
+      "id": "s:16BiometricCapture17SelfieDepthSampleV1xSdvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let y: Double",
+      "id": "s:16BiometricCapture17SelfieDepthSampleV1ySdvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let z: Double",
+      "id": "s:16BiometricCapture17SelfieDepthSampleV1zSdvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "enum SelfiePixelBridge",
+      "id": "s:16BiometricCapture17SelfiePixelBridgeO",
+      "kind": "swift.enum"
+    },
+    {
+      "declaration": "static func decodeOrientedPNG(_ encodedPNG: Data, expectedSourceSHA256: String) throws -> SelfiePixelSnapshot",
+      "id": "s:16BiometricCapture17SelfiePixelBridgeO17decodeOrientedPNG_20expectedSourceSHA256AA0cD8SnapshotV10Foundation4DataV_SStKFZ",
+      "kind": "swift.type.method"
+    },
+    {
+      "declaration": "enum SelfiePixelFailure",
+      "id": "s:16BiometricCapture18SelfiePixelFailureO",
+      "kind": "swift.enum"
+    },
+    {
+      "declaration": "case resourceLimit",
+      "id": "s:16BiometricCapture18SelfiePixelFailureO13resourceLimityA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case decodingFailed",
+      "id": "s:16BiometricCapture18SelfiePixelFailureO14decodingFailedyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case sourceMismatch",
+      "id": "s:16BiometricCapture18SelfiePixelFailureO14sourceMismatchyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case invalidEncoding",
+      "id": "s:16BiometricCapture18SelfiePixelFailureO15invalidEncodingyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case unsupportedOrientation",
+      "id": "s:16BiometricCapture18SelfiePixelFailureO22unsupportedOrientationyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "init?(rawValue: String)",
+      "id": "s:16BiometricCapture18SelfiePixelFailureO8rawValueACSgSS_tcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "struct SelfieAdmissionGate",
+      "id": "s:16BiometricCapture19SelfieAdmissionGateV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "enum BlinkPhase",
+      "id": "s:16BiometricCapture19SelfieAdmissionGateV10BlinkPhaseO",
+      "kind": "swift.enum"
+    },
+    {
+      "declaration": "case sawOpenEyes",
+      "id": "s:16BiometricCapture19SelfieAdmissionGateV10BlinkPhaseO11sawOpenEyesyA2EmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case sawClosedEyes",
+      "id": "s:16BiometricCapture19SelfieAdmissionGateV10BlinkPhaseO13sawClosedEyesyA2EmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case waitingForOpenEyes",
+      "id": "s:16BiometricCapture19SelfieAdmissionGateV10BlinkPhaseO18waitingForOpenEyesyA2EmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "init?(rawValue: String)",
+      "id": "s:16BiometricCapture19SelfieAdmissionGateV10BlinkPhaseO8rawValueAESgSS_tcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "case reopened",
+      "id": "s:16BiometricCapture19SelfieAdmissionGateV10BlinkPhaseO8reopenedyA2EmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "struct Observation",
+      "id": "s:16BiometricCapture19SelfieAdmissionGateV11ObservationV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "let insideGuide: Bool?",
+      "id": "s:16BiometricCapture19SelfieAdmissionGateV11ObservationV11insideGuideSbSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "struct Measurements",
+      "id": "s:16BiometricCapture19SelfieAdmissionGateV11ObservationV12MeasurementsV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "let insideGuide: Bool?",
+      "id": "s:16BiometricCapture19SelfieAdmissionGateV11ObservationV12MeasurementsV11insideGuideSbSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "init(captureQuality: Float? = nil, insideGuide: Bool? = nil)",
+      "id": "s:16BiometricCapture19SelfieAdmissionGateV11ObservationV12MeasurementsV14captureQuality11insideGuideAGSfSg_SbSgtcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "let captureQuality: Float?",
+      "id": "s:16BiometricCapture19SelfieAdmissionGateV11ObservationV12MeasurementsV14captureQualitySfSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let leftEyeClosed: Float?",
+      "id": "s:16BiometricCapture19SelfieAdmissionGateV11ObservationV13leftEyeClosedSfSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let captureQuality: Float?",
+      "id": "s:16BiometricCapture19SelfieAdmissionGateV11ObservationV14captureQualitySfSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let rightEyeClosed: Float?",
+      "id": "s:16BiometricCapture19SelfieAdmissionGateV11ObservationV14rightEyeClosedSfSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let trackingObserved: Bool",
+      "id": "s:16BiometricCapture19SelfieAdmissionGateV11ObservationV16trackingObservedSbvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let anchorID: UUID?",
+      "id": "s:16BiometricCapture19SelfieAdmissionGateV11ObservationV8anchorID10Foundation4UUIDVSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let faceCount: Int",
+      "id": "s:16BiometricCapture19SelfieAdmissionGateV11ObservationV9faceCountSivp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "init(timestamp: TimeInterval, anchorID: UUID?, faceCount: Int, trackingObserved: Bool, leftEyeClosed: Float?, rightEyeClosed: Float?, measurements: SelfieAdmissionGate.Observation.Measurements = Measurements())",
+      "id": "s:16BiometricCapture19SelfieAdmissionGateV11ObservationV9timestamp8anchorID9faceCount16trackingObserved13leftEyeClosed05rightoP012measurementsAESd_10Foundation4UUIDVSgSiSbSfSgAqE12MeasurementsVtcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "let timestamp: TimeInterval",
+      "id": "s:16BiometricCapture19SelfieAdmissionGateV11ObservationV9timestampSdvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "var trackingObserved: Bool { get }",
+      "id": "s:16BiometricCapture19SelfieAdmissionGateV16trackingObservedSbvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "var currentBlinkPhase: SelfieAdmissionGate.BlinkPhase { get }",
+      "id": "s:16BiometricCapture19SelfieAdmissionGateV17currentBlinkPhaseAC0gH0Ovp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "var consecutiveTrackedFrames: Int { get }",
+      "id": "s:16BiometricCapture19SelfieAdmissionGateV24consecutiveTrackedFramesSivp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "mutating func stop()",
+      "id": "s:16BiometricCapture19SelfieAdmissionGateV4stopyyF",
+      "kind": "swift.method"
+    },
+    {
+      "declaration": "mutating func admit(frameTimestamp: TimeInterval, now: TimeInterval, trigger: SelfieAdmissionReceipt.Trigger) -> SelfieAdmissionGate.Decision",
+      "id": "s:16BiometricCapture19SelfieAdmissionGateV5admit14frameTimestamp3now7triggerAC8DecisionOSd_SdAA0cD7ReceiptV7TriggerOtF",
+      "kind": "swift.method"
+    },
+    {
+      "declaration": "mutating func start(at timestamp: TimeInterval)",
+      "id": "s:16BiometricCapture19SelfieAdmissionGateV5start2atySd_tF",
+      "kind": "swift.method"
+    },
+    {
+      "declaration": "let policy: SelfieAdmissionPolicy",
+      "id": "s:16BiometricCapture19SelfieAdmissionGateV6policyAA0cD6PolicyVvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "init(policy: SelfieAdmissionPolicy = SelfieAdmissionPolicy())",
+      "id": "s:16BiometricCapture19SelfieAdmissionGateV6policyAcA0cD6PolicyV_tcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "enum Refusal",
+      "id": "s:16BiometricCapture19SelfieAdmissionGateV7RefusalO",
+      "kind": "swift.enum"
+    },
+    {
+      "declaration": "case depthStale",
+      "id": "s:16BiometricCapture19SelfieAdmissionGateV7RefusalO10depthStaleyA2EmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case eyesClosed",
+      "id": "s:16BiometricCapture19SelfieAdmissionGateV7RefusalO10eyesClosedyA2EmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case frameStale",
+      "id": "s:16BiometricCapture19SelfieAdmissionGateV7RefusalO10frameStaleyA2EmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case blinkExpired",
+      "id": "s:16BiometricCapture19SelfieAdmissionGateV7RefusalO12blinkExpiredyA2EmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case outsideGuide",
+      "id": "s:16BiometricCapture19SelfieAdmissionGateV7RefusalO12outsideGuideyA2EmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case faceNotTracked",
+      "id": "s:16BiometricCapture19SelfieAdmissionGateV7RefusalO14faceNotTrackedyA2EmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case noFaceObserved",
+      "id": "s:16BiometricCapture19SelfieAdmissionGateV7RefusalO14noFaceObservedyA2EmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case frameNotCurrent",
+      "id": "s:16BiometricCapture19SelfieAdmissionGateV7RefusalO15frameNotCurrentyA2EmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case blinkNotObserved",
+      "id": "s:16BiometricCapture19SelfieAdmissionGateV7RefusalO16blinkNotObservedyA2EmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case depthUnavailable",
+      "id": "s:16BiometricCapture19SelfieAdmissionGateV7RefusalO16depthUnavailableyA2EmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case captureInProgress",
+      "id": "s:16BiometricCapture19SelfieAdmissionGateV7RefusalO17captureInProgressyA2EmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case depthInsufficient",
+      "id": "s:16BiometricCapture19SelfieAdmissionGateV7RefusalO17depthInsufficientyA2EmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case sessionNotRunning",
+      "id": "s:16BiometricCapture19SelfieAdmissionGateV7RefusalO17sessionNotRunningyA2EmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case trackingNotSteady",
+      "id": "s:16BiometricCapture19SelfieAdmissionGateV7RefusalO17trackingNotSteadyyA2EmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case steadyHoldIncomplete",
+      "id": "s:16BiometricCapture19SelfieAdmissionGateV7RefusalO20steadyHoldIncompleteyA2EmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case multipleFacesObserved",
+      "id": "s:16BiometricCapture19SelfieAdmissionGateV7RefusalO21multipleFacesObservedyA2EmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case blendShapesUnavailable",
+      "id": "s:16BiometricCapture19SelfieAdmissionGateV7RefusalO22blendShapesUnavailableyA2EmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case captureQualityUnavailable",
+      "id": "s:16BiometricCapture19SelfieAdmissionGateV7RefusalO25captureQualityUnavailableyA2EmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case captureQualityBelowMinimum",
+      "id": "s:16BiometricCapture19SelfieAdmissionGateV7RefusalO26captureQualityBelowMinimumyA2EmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "init?(rawValue: String)",
+      "id": "s:16BiometricCapture19SelfieAdmissionGateV7RefusalO8rawValueAESgSS_tcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "case depthFlat",
+      "id": "s:16BiometricCapture19SelfieAdmissionGateV7RefusalO9depthFlatyA2EmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "mutating func measure(quality: Float?, insideGuide: Bool?)",
+      "id": "s:16BiometricCapture19SelfieAdmissionGateV7measure7quality11insideGuideySfSg_SbSgtF",
+      "kind": "swift.method"
+    },
+    {
+      "declaration": "@discardableResult mutating func observe(_ observation: SelfieAdmissionGate.Observation, now: TimeInterval) -> SelfieAdmissionGate.Readiness",
+      "id": "s:16BiometricCapture19SelfieAdmissionGateV7observe_3nowAC9ReadinessVAC11ObservationV_SdtF",
+      "kind": "swift.method"
+    },
+    {
+      "declaration": "enum Decision",
+      "id": "s:16BiometricCapture19SelfieAdmissionGateV8DecisionO",
+      "kind": "swift.enum"
+    },
+    {
+      "declaration": "case admit(SelfieAdmissionReceipt)",
+      "id": "s:16BiometricCapture19SelfieAdmissionGateV8DecisionO5admityAeA0cD7ReceiptVcAEmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case refuse(SelfieAdmissionGate.Refusal)",
+      "id": "s:16BiometricCapture19SelfieAdmissionGateV8DecisionO6refuseyAeC7RefusalOcAEmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "struct Readiness",
+      "id": "s:16BiometricCapture19SelfieAdmissionGateV9ReadinessV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "let blinkPhase: SelfieAdmissionGate.BlinkPhase",
+      "id": "s:16BiometricCapture19SelfieAdmissionGateV9ReadinessV10blinkPhaseAC05BlinkH0Ovp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let captureReady: Bool",
+      "id": "s:16BiometricCapture19SelfieAdmissionGateV9ReadinessV12captureReadySbvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "init(trackingObserved: Bool, captureReady: Bool, blinkPhase: SelfieAdmissionGate.BlinkPhase, refusal: SelfieAdmissionGate.Refusal?)",
+      "id": "s:16BiometricCapture19SelfieAdmissionGateV9ReadinessV16trackingObserved12captureReady10blinkPhase7refusalAESb_SbAC05BlinkL0OAC7RefusalOSgtcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "let trackingObserved: Bool",
+      "id": "s:16BiometricCapture19SelfieAdmissionGateV9ReadinessV16trackingObservedSbvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let refusal: SelfieAdmissionGate.Refusal?",
+      "id": "s:16BiometricCapture19SelfieAdmissionGateV9ReadinessV7refusalAC7RefusalOSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "mutating func resetHold()",
+      "id": "s:16BiometricCapture19SelfieAdmissionGateV9resetHoldyyF",
+      "kind": "swift.method"
+    },
+    {
+      "declaration": "struct SelfieCameraFailure",
+      "id": "s:16BiometricCapture19SelfieCameraFailureV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "struct FrameworkError",
+      "id": "s:16BiometricCapture19SelfieCameraFailureV14FrameworkErrorV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "let code: Int",
+      "id": "s:16BiometricCapture19SelfieCameraFailureV14FrameworkErrorV4codeSivp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "init(from decoder: any Decoder) throws",
+      "id": "s:16BiometricCapture19SelfieCameraFailureV14FrameworkErrorV4fromAEs7Decoder_p_tKcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "let domain: String",
+      "id": "s:16BiometricCapture19SelfieCameraFailureV14FrameworkErrorV6domainSSvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let underlyingErrors: [SelfieCameraFailure.FrameworkError]?",
+      "id": "s:16BiometricCapture19SelfieCameraFailureV16underlyingErrorsSayAC14FrameworkErrorVGSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let code: Int?",
+      "id": "s:16BiometricCapture19SelfieCameraFailureV4codeSiSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "init(from decoder: any Decoder) throws",
+      "id": "s:16BiometricCapture19SelfieCameraFailureV4fromACs7Decoder_p_tKcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "enum Reason",
+      "id": "s:16BiometricCapture19SelfieCameraFailureV6ReasonO",
+      "kind": "swift.enum"
+    },
+    {
+      "declaration": "case frameworkFailure",
+      "id": "s:16BiometricCapture19SelfieCameraFailureV6ReasonO09frameworkE0yA2EmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case unavailable",
+      "id": "s:16BiometricCapture19SelfieCameraFailureV6ReasonO11unavailableyA2EmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case analysisFailed",
+      "id": "s:16BiometricCapture19SelfieCameraFailureV6ReasonO14analysisFailedyA2EmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case renderingFailed",
+      "id": "s:16BiometricCapture19SelfieCameraFailureV6ReasonO15renderingFailedyA2EmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case analysisTimedOut",
+      "id": "s:16BiometricCapture19SelfieCameraFailureV6ReasonO16analysisTimedOutyA2EmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case depthUnavailable",
+      "id": "s:16BiometricCapture19SelfieCameraFailureV6ReasonO16depthUnavailableyA2EmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case renderingTimedOut",
+      "id": "s:16BiometricCapture19SelfieCameraFailureV6ReasonO17renderingTimedOutyA2EmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case sensorInputFailed",
+      "id": "s:16BiometricCapture19SelfieCameraFailureV6ReasonO17sensorInputFailedyA2EmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case captureWindowEmpty",
+      "id": "s:16BiometricCapture19SelfieCameraFailureV6ReasonO18captureWindowEmptyyA2EmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case frameSnapshotFailed",
+      "id": "s:16BiometricCapture19SelfieCameraFailureV6ReasonO19frameSnapshotFailedyA2EmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case invalidConfiguration",
+      "id": "s:16BiometricCapture19SelfieCameraFailureV6ReasonO20invalidConfigurationyA2EmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case cameraPermissionDenied",
+      "id": "s:16BiometricCapture19SelfieCameraFailureV6ReasonO22cameraPermissionDeniedyA2EmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case cameraPermissionRestricted",
+      "id": "s:16BiometricCapture19SelfieCameraFailureV6ReasonO26cameraPermissionRestrictedyA2EmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case captureWindowResourceLimit",
+      "id": "s:16BiometricCapture19SelfieCameraFailureV6ReasonO26captureWindowResourceLimityA2EmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case noFrames",
+      "id": "s:16BiometricCapture19SelfieCameraFailureV6ReasonO8noFramesyA2EmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "init?(rawValue: String)",
+      "id": "s:16BiometricCapture19SelfieCameraFailureV6ReasonO8rawValueAESgSS_tcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "let domain: String?",
+      "id": "s:16BiometricCapture19SelfieCameraFailureV6domainSSSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "init(reason: SelfieCameraFailure.Reason, domain: String? = nil, code: Int? = nil, underlyingErrors: [SelfieCameraFailure.FrameworkError]? = nil)",
+      "id": "s:16BiometricCapture19SelfieCameraFailureV6reason6domain4code16underlyingErrorsA2C6ReasonO_SSSgSiSgSayAC14FrameworkErrorVGSgtcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "let reason: SelfieCameraFailure.Reason",
+      "id": "s:16BiometricCapture19SelfieCameraFailureV6reasonAC6ReasonOvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "static func analysis(_ error: NSError) -> SelfieCameraFailure",
+      "id": "s:16BiometricCapture19SelfieCameraFailureV8analysisyACSo7NSErrorCFZ",
+      "kind": "swift.type.method"
+    },
+    {
+      "declaration": "static func framework(_ error: NSError) -> SelfieCameraFailure",
+      "id": "s:16BiometricCapture19SelfieCameraFailureV9frameworkyACSo7NSErrorCFZ",
+      "kind": "swift.type.method"
+    },
+    {
+      "declaration": "struct SelfieDepthEvidence",
+      "id": "s:16BiometricCapture19SelfieDepthEvidenceV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "var assessment: SelfieLivenessAssessment { get }",
+      "id": "s:16BiometricCapture19SelfieDepthEvidenceV10assessmentAA0C18LivenessAssessmentOvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "var imageSHA256: String",
+      "id": "s:16BiometricCapture19SelfieDepthEvidenceV11imageSHA256SSvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let measurement: SelfieDepthMeasurement",
+      "id": "s:16BiometricCapture19SelfieDepthEvidenceV11measurementAA0cD11MeasurementVvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let orientation: UInt32",
+      "id": "s:16BiometricCapture19SelfieDepthEvidenceV11orientations6UInt32Vvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let schemaVersion: Int",
+      "id": "s:16BiometricCapture19SelfieDepthEvidenceV13schemaVersionSivp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "var ageAtAdmission: TimeInterval",
+      "id": "s:16BiometricCapture19SelfieDepthEvidenceV14ageAtAdmissionSdvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let depthTimestamp: TimeInterval",
+      "id": "s:16BiometricCapture19SelfieDepthEvidenceV14depthTimestampSdvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let imageTimestamp: TimeInterval",
+      "id": "s:16BiometricCapture19SelfieDepthEvidenceV14imageTimestampSdvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "init(from decoder: any Decoder) throws",
+      "id": "s:16BiometricCapture19SelfieDepthEvidenceV4fromACs7Decoder_p_tKcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "let filtered: Bool",
+      "id": "s:16BiometricCapture19SelfieDepthEvidenceV8filteredSbvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let mapWidth: Int",
+      "id": "s:16BiometricCapture19SelfieDepthEvidenceV8mapWidthSivp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let mapHeight: Int",
+      "id": "s:16BiometricCapture19SelfieDepthEvidenceV9mapHeightSivp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "struct SelfieFrameEvidence",
+      "id": "s:16BiometricCapture19SelfieFrameEvidenceV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "let pixelWidth: Int",
+      "id": "s:16BiometricCapture19SelfieFrameEvidenceV10pixelWidthSivp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let orientation: UInt32",
+      "id": "s:16BiometricCapture19SelfieFrameEvidenceV11orientations6UInt32Vvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let pixelHeight: Int",
+      "id": "s:16BiometricCapture19SelfieFrameEvidenceV11pixelHeightSivp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let guideRevision: UInt64",
+      "id": "s:16BiometricCapture19SelfieFrameEvidenceV13guideRevisions6UInt64Vvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let qualityRevision: Int",
+      "id": "s:16BiometricCapture19SelfieFrameEvidenceV15qualityRevisionSivp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let analysisDuration: TimeInterval",
+      "id": "s:16BiometricCapture19SelfieFrameEvidenceV16analysisDurationSdvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "var frameAgeAtAdmission: TimeInterval",
+      "id": "s:16BiometricCapture19SelfieFrameEvidenceV19frameAgeAtAdmissionSdvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "init(from decoder: any Decoder) throws",
+      "id": "s:16BiometricCapture19SelfieFrameEvidenceV4fromACs7Decoder_p_tKcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "let sequence: UInt64",
+      "id": "s:16BiometricCapture19SelfieFrameEvidenceV8sequences6UInt64Vvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let sessionID: UUID",
+      "id": "s:16BiometricCapture19SelfieFrameEvidenceV9sessionID10Foundation4UUIDVvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "struct SelfiePixelSnapshot",
+      "id": "s:16BiometricCapture19SelfiePixelSnapshotV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "let colorSpace: String",
+      "id": "s:16BiometricCapture19SelfiePixelSnapshotV10colorSpaceSSvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let interpolation: String",
+      "id": "s:16BiometricCapture19SelfiePixelSnapshotV13interpolationSSvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let alphaConversion: String",
+      "id": "s:16BiometricCapture19SelfiePixelSnapshotV15alphaConversionSSvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let derivationProfile: String",
+      "id": "s:16BiometricCapture19SelfiePixelSnapshotV17derivationProfileSSvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let sourceEncodedSHA256: String",
+      "id": "s:16BiometricCapture19SelfiePixelSnapshotV19sourceEncodedSHA256SSvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let pixels: PortraitPixels",
+      "id": "s:16BiometricCapture19SelfiePixelSnapshotV6pixels0A3SDK14PortraitPixelsVvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "enum SelfieDepthEvaluator",
+      "id": "s:16BiometricCapture20SelfieDepthEvaluatorO",
+      "kind": "swift.enum"
+    },
+    {
+      "declaration": "static func measure(samples: [SelfieDepthSample], policy: SelfieDepthPolicy = .engineeringV1) -> SelfieDepthMeasurement",
+      "id": "s:16BiometricCapture20SelfieDepthEvaluatorO7measure7samples6policyAA0cD11MeasurementVSayAA0cD6SampleVG_AA0cD6PolicyVtFZ",
+      "kind": "swift.type.method"
+    },
+    {
+      "declaration": "struct SelfieMotionEvidence",
+      "id": "s:16BiometricCapture20SelfieMotionEvidenceV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "let clockDomain: String",
+      "id": "s:16BiometricCapture20SelfieMotionEvidenceV11clockDomainSSvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let imageSHA256: String",
+      "id": "s:16BiometricCapture20SelfieMotionEvidenceV11imageSHA256SSvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let frameTimestampSeconds: Double",
+      "id": "s:16BiometricCapture20SelfieMotionEvidenceV21frameTimestampSecondsSdvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let requestedSampleRateHz: Double",
+      "id": "s:16BiometricCapture20SelfieMotionEvidenceV21requestedSampleRateHzSdvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let windowEndTimestampSeconds: Double",
+      "id": "s:16BiometricCapture20SelfieMotionEvidenceV25windowEndTimestampSecondsSdvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let windowStartTimestampSeconds: Double",
+      "id": "s:16BiometricCapture20SelfieMotionEvidenceV27windowStartTimestampSecondsSdvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "init(from decoder: any Decoder) throws",
+      "id": "s:16BiometricCapture20SelfieMotionEvidenceV4fromACs7Decoder_p_tKcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "let summary: PulseCeremonyMotionSummary",
+      "id": "s:16BiometricCapture20SelfieMotionEvidenceV7summary08KenshikiD0013PulseCeremonyD7SummaryVvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let alignment: String",
+      "id": "s:16BiometricCapture20SelfieMotionEvidenceV9alignmentSSvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "struct SelfieAdmissionPolicy",
+      "id": "s:16BiometricCapture21SelfieAdmissionPolicyV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "let minimumCaptureQuality: Float?",
+      "id": "s:16BiometricCapture21SelfieAdmissionPolicyV07minimumB7QualitySfSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "func blinkFresh(age: TimeInterval?) -> Bool",
+      "id": "s:16BiometricCapture21SelfieAdmissionPolicyV10blinkFresh3ageSbSdSg_tF",
+      "kind": "swift.method"
+    },
+    {
+      "declaration": "func eyesClosed(left: Float, right: Float) -> Bool",
+      "id": "s:16BiometricCapture21SelfieAdmissionPolicyV10eyesClosed4left5rightSbSf_SftF",
+      "kind": "swift.method"
+    },
+    {
+      "declaration": "let steadyHold: TimeInterval",
+      "id": "s:16BiometricCapture21SelfieAdmissionPolicyV10steadyHoldSdvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "static let engineeringV1: SelfieAdmissionPolicy",
+      "id": "s:16BiometricCapture21SelfieAdmissionPolicyV13engineeringV1ACvpZ",
+      "kind": "swift.type.property"
+    },
+    {
+      "declaration": "let blinkFreshness: TimeInterval",
+      "id": "s:16BiometricCapture21SelfieAdmissionPolicyV14blinkFreshnessSdvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "func trackingSteady(consecutiveTrackedFrames: Int) -> Bool",
+      "id": "s:16BiometricCapture21SelfieAdmissionPolicyV14trackingSteady24consecutiveTrackedFramesSbSi_tF",
+      "kind": "swift.method"
+    },
+    {
+      "declaration": "let maximumFrameAge: TimeInterval",
+      "id": "s:16BiometricCapture21SelfieAdmissionPolicyV15maximumFrameAgeSdvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "func blendShapesValid(left: Float, right: Float) -> Bool",
+      "id": "s:16BiometricCapture21SelfieAdmissionPolicyV16blendShapesValid4left5rightSbSf_SftF",
+      "kind": "swift.method"
+    },
+    {
+      "declaration": "var configurationValid: Bool { get }",
+      "id": "s:16BiometricCapture21SelfieAdmissionPolicyV18configurationValidSbvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let eyeClosedThreshold: Float",
+      "id": "s:16BiometricCapture21SelfieAdmissionPolicyV18eyeClosedThresholdSfvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "init(requiredTrackedFrames: Int = Self.engineeringV1.requiredTrackedFrames, maximumFrameAge: TimeInterval = Self.engineeringV1.maximumFrameAge, blinkFreshness: TimeInterval = Self.engineeringV1.blinkFreshness, eyeClosedThreshold: Float = Self.engineeringV1.eyeClosedThreshold, steadyHold: TimeInterval = Self.engineeringV1.steadyHold, minimumCaptureQuality: Float? = nil, requiresGuideContainment: Bool = false)",
+      "id": "s:16BiometricCapture21SelfieAdmissionPolicyV21requiredTrackedFrames15maximumFrameAge14blinkFreshness18eyeClosedThreshold10steadyHold07minimumB7Quality24requiresGuideContainmentACSi_S2dSfSdSfSgSbtcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "let requiredTrackedFrames: Int",
+      "id": "s:16BiometricCapture21SelfieAdmissionPolicyV21requiredTrackedFramesSivp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let requiresGuideContainment: Bool",
+      "id": "s:16BiometricCapture21SelfieAdmissionPolicyV24requiresGuideContainmentSbvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "init(from decoder: any Decoder) throws",
+      "id": "s:16BiometricCapture21SelfieAdmissionPolicyV4fromACs7Decoder_p_tKcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "static let version: String",
+      "id": "s:16BiometricCapture21SelfieAdmissionPolicyV7versionSSvpZ",
+      "kind": "swift.type.property"
+    },
+    {
+      "declaration": "func eyesOpen(left: Float, right: Float) -> Bool",
+      "id": "s:16BiometricCapture21SelfieAdmissionPolicyV8eyesOpen4left5rightSbSf_SftF",
+      "kind": "swift.method"
+    },
+    {
+      "declaration": "struct SelfieAdmissionReceipt",
+      "id": "s:16BiometricCapture22SelfieAdmissionReceiptV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "let insideGuide: Bool?",
+      "id": "s:16BiometricCapture22SelfieAdmissionReceiptV11insideGuideSbSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "var motionStatus: PulseMotionPermission.Status",
+      "id": "s:16BiometricCapture22SelfieAdmissionReceiptV12motionStatus14KenshikiMotion05PulseI10PermissionC0G0Ovp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "var depthEvidence: SelfieDepthEvidence?",
+      "id": "s:16BiometricCapture22SelfieAdmissionReceiptV13depthEvidenceAA0c5DepthG0VSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "var frameEvidence: SelfieFrameEvidence?",
+      "id": "s:16BiometricCapture22SelfieAdmissionReceiptV13frameEvidenceAA0c5FrameG0VSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let leftEyeClosed: Float",
+      "id": "s:16BiometricCapture22SelfieAdmissionReceiptV13leftEyeClosedSfvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let policyVersion: String",
+      "id": "s:16BiometricCapture22SelfieAdmissionReceiptV13policyVersionSSvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "var admissionValid: Bool { get }",
+      "id": "s:16BiometricCapture22SelfieAdmissionReceiptV14admissionValidSbvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let captureQuality: Float?",
+      "id": "s:16BiometricCapture22SelfieAdmissionReceiptV14captureQualitySfSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let frameTimestamp: TimeInterval",
+      "id": "s:16BiometricCapture22SelfieAdmissionReceiptV14frameTimestampSdvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "var motionEvidence: SelfieMotionEvidence?",
+      "id": "s:16BiometricCapture22SelfieAdmissionReceiptV14motionEvidenceAA0c6MotionG0VSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let rightEyeClosed: Float",
+      "id": "s:16BiometricCapture22SelfieAdmissionReceiptV14rightEyeClosedSfvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "func depthAssessment(imageSHA256: String) -> SelfieLivenessAssessment",
+      "id": "s:16BiometricCapture22SelfieAdmissionReceiptV15depthAssessment11imageSHA256AA0c8LivenessG0OSS_tF",
+      "kind": "swift.method"
+    },
+    {
+      "declaration": "var effectivePolicy: SelfieAdmissionPolicy?",
+      "id": "s:16BiometricCapture22SelfieAdmissionReceiptV15effectivePolicyAA0cdG0VSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let blinkCompletedAt: TimeInterval",
+      "id": "s:16BiometricCapture22SelfieAdmissionReceiptV16blinkCompletedAtSdvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "var steadyHoldDuration: TimeInterval",
+      "id": "s:16BiometricCapture22SelfieAdmissionReceiptV18steadyHoldDurationSdvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "var captureQualityEnforced: Bool",
+      "id": "s:16BiometricCapture22SelfieAdmissionReceiptV22captureQualityEnforcedSbvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let consecutiveTrackedFrames: Int",
+      "id": "s:16BiometricCapture22SelfieAdmissionReceiptV24consecutiveTrackedFramesSivp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "var guideContainmentEnforced: Bool",
+      "id": "s:16BiometricCapture22SelfieAdmissionReceiptV24guideContainmentEnforcedSbvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "init(from decoder: any Decoder) throws",
+      "id": "s:16BiometricCapture22SelfieAdmissionReceiptV4fromACs7Decoder_p_tKcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "func encode(to encoder: any Encoder) throws",
+      "id": "s:16BiometricCapture22SelfieAdmissionReceiptV6encode2toys7Encoder_p_tKF",
+      "kind": "swift.method"
+    },
+    {
+      "declaration": "enum Trigger",
+      "id": "s:16BiometricCapture22SelfieAdmissionReceiptV7TriggerO",
+      "kind": "swift.enum"
+    },
+    {
+      "declaration": "case manual",
+      "id": "s:16BiometricCapture22SelfieAdmissionReceiptV7TriggerO6manualyA2EmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "init?(rawValue: String)",
+      "id": "s:16BiometricCapture22SelfieAdmissionReceiptV7TriggerO8rawValueAESgSS_tcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "case automatic",
+      "id": "s:16BiometricCapture22SelfieAdmissionReceiptV7TriggerO9automaticyA2EmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "var trigger: SelfieAdmissionReceipt.Trigger",
+      "id": "s:16BiometricCapture22SelfieAdmissionReceiptV7triggerAC7TriggerOvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let anchorID: UUID",
+      "id": "s:16BiometricCapture22SelfieAdmissionReceiptV8anchorID10Foundation4UUIDVvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "var blinkAge: TimeInterval",
+      "id": "s:16BiometricCapture22SelfieAdmissionReceiptV8blinkAgeSdvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let eyesOpen: Bool",
+      "id": "s:16BiometricCapture22SelfieAdmissionReceiptV8eyesOpenSbvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "struct SelfieDepthMeasurement",
+      "id": "s:16BiometricCapture22SelfieDepthMeasurementV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "var assessment: SelfieLivenessAssessment { get }",
+      "id": "s:16BiometricCapture22SelfieDepthMeasurementV10assessmentAA0C18LivenessAssessmentOvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let residualRMS: Double?",
+      "id": "s:16BiometricCapture22SelfieDepthMeasurementV11residualRMSSdSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let sampleCount: Int",
+      "id": "s:16BiometricCapture22SelfieDepthMeasurementV11sampleCountSivp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "init(from decoder: any Decoder) throws",
+      "id": "s:16BiometricCapture22SelfieDepthMeasurementV4fromACs7Decoder_p_tKcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "let policy: SelfieDepthPolicy",
+      "id": "s:16BiometricCapture22SelfieDepthMeasurementV6policyAA0cD6PolicyVvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "enum SelfieLivenessAssessment",
+      "id": "s:16BiometricCapture24SelfieLivenessAssessmentO",
+      "kind": "swift.enum"
+    },
+    {
+      "declaration": "case insufficientData",
+      "id": "s:16BiometricCapture24SelfieLivenessAssessmentO16insufficientDatayA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case flat",
+      "id": "s:16BiometricCapture24SelfieLivenessAssessmentO4flatyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case live",
+      "id": "s:16BiometricCapture24SelfieLivenessAssessmentO4liveyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "static func combine(expression: SelfieLivenessAssessment, depth: SelfieLivenessAssessment) -> SelfieLivenessAssessment",
+      "id": "s:16BiometricCapture24SelfieLivenessAssessmentO7combine10expression5depthA2C_ACtFZ",
+      "kind": "swift.type.method"
+    },
+    {
+      "declaration": "init?(rawValue: String)",
+      "id": "s:16BiometricCapture24SelfieLivenessAssessmentO8rawValueACSgSS_tcfc",
+      "kind": "swift.init"
+    }
+  ]
+}

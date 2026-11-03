@@ -1,0 +1,166 @@
+{
+  "schemaVersion": 1,
+  "recordedAt": "2026-10-26T18:34:15.512655+00:00",
+  "donorRepository": "pulse-ios",
+  "donorRevision": "d6d544a75d3b79106eb8224a6f93f0b7536d2e2f",
+  "scope": "Pure sensor math/timing/reducer extraction only; no collector, lake, fusion policy or adoption.",
+  "historicalSemantics": "R7 quantiles, sample-weighted RMS, nominal support cells, fixed profile strings and valid-domain numerical outputs preserved. Explicit input-admission safety adaptations recorded per file; naive finite norm/squared-sum limits remain.",
+  "files": [
+    {
+      "sourcePath": "/Users/shf/Developer/pulse-ios/Sources/KenshikiDeviceSDK/SensorVector3.swift",
+      "sourceSHA256": "ba980817ee4fe8b22460eccdc5df335da56a9b3c8f07d31772577cc3e2dbc716",
+      "destinationPath": "foundation/sensors/Sources/KenshikiSensors/SensorVector3.swift",
+      "destinationSHA256": "ba980817ee4fe8b22460eccdc5df335da56a9b3c8f07d31772577cc3e2dbc716",
+      "adaptations": [
+        "Exact donor bytes; no changes."
+      ],
+      "sourceRelativePath": "Sources/KenshikiDeviceSDK/SensorVector3.swift",
+      "sourceMatchesRevision": true
+    },
+    {
+      "sourcePath": "/Users/shf/Developer/pulse-ios/Sources/KenshikiDeviceSDK/EmpiricalDistribution.swift",
+      "sourceSHA256": "8b51154d679500df442e410aab4d0e3bab3b61b793636b420f3d5324a36d74ae",
+      "destinationPath": "foundation/sensors/Sources/KenshikiSensors/EmpiricalDistribution.swift",
+      "destinationSHA256": "8b51154d679500df442e410aab4d0e3bab3b61b793636b420f3d5324a36d74ae",
+      "adaptations": [
+        "Exact donor bytes; no changes."
+      ],
+      "sourceRelativePath": "Sources/KenshikiDeviceSDK/EmpiricalDistribution.swift",
+      "sourceMatchesRevision": true
+    },
+    {
+      "sourcePath": "/Users/shf/Developer/pulse-ios/Sources/KenshikiDeviceSDK/SensorSampleTime.swift",
+      "sourceSHA256": "50f35ac3797943581653a37527750b764186ccdb5ec9784adb69d0a9f7de4054",
+      "destinationPath": "foundation/sensors/Sources/KenshikiSensors/SensorSampleTime.swift",
+      "destinationSHA256": "fe60c370a098b3c73871e1c3f4f9435a50ff79eb3a958717c6d0a033f8cad049",
+      "adaptations": [
+        "Admission-only adaptation: require finite configured wall anchor; custom source-session decoding refuses empty IDs while preserving single-string rawValue wire shape."
+      ],
+      "sourceRelativePath": "Sources/KenshikiDeviceSDK/SensorSampleTime.swift",
+      "sourceMatchesRevision": true
+    },
+    {
+      "sourcePath": "/Users/shf/Developer/pulse-ios/Sources/KenshikiDeviceSDK/SensorWindowTiming.swift",
+      "sourceSHA256": "77527f4c6e9200b09ece7b95ac4dae04f56de37b0015fadb5493524b6442df86",
+      "destinationPath": "foundation/sensors/Sources/KenshikiSensors/SensorWindowTiming.swift",
+      "destinationSHA256": "659f657fc8befd354a5f3a4f01cab2b7f3a4d407e4c33731579bfa0d2ce01cbc",
+      "adaptations": [
+        "Admission-only adaptation: declare engineering maximumExpectedSampleCount=1_000_000 and require finite representable configured count/gap; valid-domain equations unchanged. Bound does not limit supernominal callbacks."
+      ],
+      "sourceRelativePath": "Sources/KenshikiDeviceSDK/SensorWindowTiming.swift",
+      "sourceMatchesRevision": true
+    },
+    {
+      "sourcePath": "/Users/shf/Developer/pulse-ios/Sources/KenshikiDeviceSDK/SensorTemporalSummary.swift",
+      "sourceSHA256": "dbb2c5ee9b5f28eb5b2f1eb8314a94a6a301073652697a4010f4434d07bd092d",
+      "destinationPath": "foundation/sensors/Sources/KenshikiSensors/SensorTemporalSummary.swift",
+      "destinationSHA256": "dbb2c5ee9b5f28eb5b2f1eb8314a94a6a301073652697a4010f4434d07bd092d",
+      "adaptations": [
+        "Exact donor bytes; temporal kernel remains internal because callers must supply already validated strictly ordered bounded times."
+      ],
+      "sourceRelativePath": "Sources/KenshikiDeviceSDK/SensorTemporalSummary.swift",
+      "sourceMatchesRevision": true
+    },
+    {
+      "sourcePath": "/Users/shf/Developer/pulse-ios/Sources/KenshikiDeviceSDK/BoundedSensorWindow.swift",
+      "sourceSHA256": "3e7b2aebc758615ab9e03a87c3cc660a65aafaede537f329fea77bf15aa8b88e",
+      "destinationPath": "foundation/sensors/Sources/KenshikiSensors/BoundedSensorWindow.swift",
+      "destinationSHA256": "b4691d04facb45ae470c9fd5d7ce37f364b796ee7b59c8be2a9b9a80b4a2a78a",
+      "adaptations": [
+        "Expose explicit public value initializer for CompletedSensorWindow; no added validation or semantic changes.",
+        "Admission-only adaptation: reject nonfinite/non-increasing canonical or projected wall bounds as invalid callbacks before constructing ranges/DateInterval; valid-domain routing unchanged."
+      ],
+      "sourceRelativePath": "Sources/KenshikiDeviceSDK/BoundedSensorWindow.swift",
+      "sourceMatchesRevision": true
+    },
+    {
+      "sourcePath": "/Users/shf/Developer/pulse-ios/Sources/KenshikiDeviceSDK/DeviceMotionAggregate.swift",
+      "sourceSHA256": "5e4e794f05c9f52847edbf616b8fbe29625ba34bbb746bb3953b42cc909d0abf",
+      "destinationPath": "foundation/sensors/Sources/KenshikiSensors/DeviceMotionAggregate.swift",
+      "destinationSHA256": "5e4e794f05c9f52847edbf616b8fbe29625ba34bbb746bb3953b42cc909d0abf",
+      "adaptations": [
+        "Exact donor bytes; no changes."
+      ],
+      "sourceRelativePath": "Sources/KenshikiDeviceSDK/DeviceMotionAggregate.swift",
+      "sourceMatchesRevision": true
+    },
+    {
+      "sourcePath": "/Users/shf/Developer/pulse-ios/Sources/KenshikiDeviceSDK/RecordedAccelerationAggregate.swift",
+      "sourceSHA256": "f8bafb2cbd51df4cd30a2d557453f940bc0bbf5be8555a2cc1f53d1517f276d4",
+      "destinationPath": "foundation/sensors/Sources/KenshikiSensors/RecordedAccelerationAggregate.swift",
+      "destinationSHA256": "f8bafb2cbd51df4cd30a2d557453f940bc0bbf5be8555a2cc1f53d1517f276d4",
+      "adaptations": [
+        "Exact donor bytes; no changes."
+      ],
+      "sourceRelativePath": "Sources/KenshikiDeviceSDK/RecordedAccelerationAggregate.swift",
+      "sourceMatchesRevision": true
+    },
+    {
+      "sourcePath": "/Users/shf/Developer/pulse-ios/Sources/KenshikiDeviceSDK/RecordedAccelerationWindow.swift",
+      "sourceSHA256": "229df1b7684a7eac084e2f1184311c71d0aec0ee0de85c802611dd59e8dbadb6",
+      "destinationPath": "foundation/sensors/Sources/KenshikiSensors/RecordedAccelerationWindow.swift",
+      "destinationSHA256": "d7497f192a6c788e0f82c3a397382d49c3aa6ba29484e80722e177ae8359c3ce",
+      "adaptations": [
+        "Expose explicit public value initializer for CompletedRecordedAccelerationWindow; no added validation or semantic changes.",
+        "Expose explicit public value initializer for RecordedAccelerationWindowProjectionResult; no added validation or semantic changes.",
+        "Admission-only adaptation: classify finite dates with nonrepresentable canonical wall bounds as unroutable before DateInterval construction; valid-domain math and deterministic ordering unchanged."
+      ],
+      "sourceRelativePath": "Sources/KenshikiDeviceSDK/RecordedAccelerationWindow.swift",
+      "sourceMatchesRevision": true
+    },
+    {
+      "sourcePath": "/Users/shf/Developer/pulse-ios/Tests/KenshikiDeviceSDKTests/SensorWindowTimingTests.swift",
+      "sourceSHA256": "a31e5ba31c85830f657ec02953219b5bbaa81cf0c1678c53729b270ce4176262",
+      "destinationPath": "foundation/sensors/Tests/KenshikiSensorsTests/SensorWindowTimingTests.swift",
+      "destinationSHA256": "bc3891e62bbeaf565a14b7072a59406cdb77fd85c6db0c91d7ae75bc1c541dec",
+      "adaptations": [
+        "Import public KenshikiSensors instead of @testable KenshikiDeviceSDK; assertions unchanged.",
+        "Retain seven donor cases/assertions; add four cases for extreme callback admission, projected clock precision, empty-ID decoding/wire shape and representable nominal count bound."
+      ],
+      "sourceRelativePath": "Tests/KenshikiDeviceSDKTests/SensorWindowTimingTests.swift",
+      "sourceMatchesRevision": true
+    },
+    {
+      "sourcePath": "/Users/shf/Developer/pulse-ios/Tests/KenshikiDeviceSDKTests/SensorTemporalSummaryTests.swift",
+      "sourceSHA256": "e135ae809ab653d008cfa309bbb022e26b9a23178f2c97b207c6bb9008f810ac",
+      "destinationPath": "foundation/sensors/Tests/KenshikiSensorsTests/SensorTemporalSummaryTests.swift",
+      "destinationSHA256": "73d636fbc6e637d84fe0f6787c9463e5f9d91ee04f6b508612711c92efa9f0a1",
+      "adaptations": [
+        "Import @testable KenshikiSensors instead of @testable KenshikiDeviceSDK for internal temporal kernel; assertions unchanged.",
+        "Make the timing-only fixture no-op explicit and discard its unused local parameter binding; assertions unchanged."
+      ],
+      "sourceRelativePath": "Tests/KenshikiDeviceSDKTests/SensorTemporalSummaryTests.swift",
+      "sourceMatchesRevision": true
+    },
+    {
+      "sourcePath": "/Users/shf/Developer/pulse-ios/Tests/KenshikiDeviceSDKTests/MotionAggregateReducerTests.swift",
+      "sourceSHA256": "ca2c520ea73b56d6644c94455d0736301a60d91ed7020d16cfac40b844fe7c7b",
+      "destinationPath": "foundation/sensors/Tests/KenshikiSensorsTests/MotionAggregateReducerTests.swift",
+      "destinationSHA256": "fbab132ea96df81c9d57b406bce6c9a7eda41ae0fc452f112b30bcea61d3cbf8",
+      "adaptations": [
+        "Import public KenshikiSensors instead of @testable KenshikiDeviceSDK; assertions unchanged."
+      ],
+      "sourceRelativePath": "Tests/KenshikiDeviceSDKTests/MotionAggregateReducerTests.swift",
+      "sourceMatchesRevision": true
+    },
+    {
+      "sourcePath": "/Users/shf/Developer/pulse-ios/Tests/KenshikiDeviceSDKTests/RecordedAccelerationWindowTests.swift",
+      "sourceSHA256": "713a6050c8be57af4785839dd067827db139317f93cb5928f1fa906f08f0467b",
+      "destinationPath": "foundation/sensors/Tests/KenshikiSensorsTests/RecordedAccelerationWindowTests.swift",
+      "destinationSHA256": "643e6a4ce5d884c9c4132d7c5080da97410e634cf154b26d8f2e4ce6a4f80cc4",
+      "adaptations": [
+        "Import public KenshikiSensors instead of @testable KenshikiDeviceSDK; assertions unchanged.",
+        "Retain nine donor cases/assertions; add finite wall-date bin-precision rejection case."
+      ],
+      "sourceRelativePath": "Tests/KenshikiDeviceSDKTests/RecordedAccelerationWindowTests.swift",
+      "sourceMatchesRevision": true
+    }
+  ],
+  "newFiles": [
+    {
+      "path": "foundation/sensors/Package.swift",
+      "purpose": "Standalone Swift 6 package, public KenshikiSensors product; no external dependencies; Foundation/CryptoKit only.",
+      "destinationSHA256": "f996402e678e8ce5fe0816a8521baf3a7523ca7f46bf04fad1977256e560a48c"
+    }
+  ]
+}

@@ -1,0 +1,521 @@
+{
+  "relationships": [
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B13JourneyIntentV",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B13JourneyIntentV",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B13JourneyIntentV",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B14IntegrityErrorO",
+      "target": "s:SH"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B14IntegrityErrorO",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B14IntegrityErrorO",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B14IntegrityErrorO",
+      "target": "s:s5ErrorP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B14IntegrityErrorO",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B15JourneyProgressC",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B15JourneyProgressC",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B15JourneyProgressC5StateO",
+      "target": "s:SH"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B15JourneyProgressC5StateO",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B15JourneyProgressC5StateO",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B15JourneyProgressC5StateO",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B17JourneyCheckpointV",
+      "target": "s:SE"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B17JourneyCheckpointV",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B17JourneyCheckpointV",
+      "target": "s:Se"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B17JourneyCheckpointV",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B17JourneyCheckpointV",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B17JourneyCheckpointV5StageO",
+      "target": "s:SE"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B17JourneyCheckpointV5StageO",
+      "target": "s:SH"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B17JourneyCheckpointV5StageO",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B17JourneyCheckpointV5StageO",
+      "target": "s:SY"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B17JourneyCheckpointV5StageO",
+      "target": "s:Se"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B17JourneyCheckpointV5StageO",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B17JourneyCheckpointV5StageO",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B20JourneyProgressErrorO",
+      "target": "s:SH"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B20JourneyProgressErrorO",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B20JourneyProgressErrorO",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B20JourneyProgressErrorO",
+      "target": "s:s5ErrorP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B20JourneyProgressErrorO",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B21ProcessingCalibrationV",
+      "target": "s:SE"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B21ProcessingCalibrationV",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B21ProcessingCalibrationV",
+      "target": "s:Se"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B21ProcessingCalibrationV",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B21ProcessingCalibrationV",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B22JourneyCheckpointErrorO",
+      "target": "s:SH"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B22JourneyCheckpointErrorO",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B22JourneyCheckpointErrorO",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B22JourneyCheckpointErrorO",
+      "target": "s:s5ErrorP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B22JourneyCheckpointErrorO",
+      "target": "s:s8SendableP"
+    }
+  ],
+  "symbols": [
+    {
+      "declaration": "struct CaptureJourneyIntent",
+      "id": "s:15DocumentCapture0B13JourneyIntentV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "let portraitID: UUID?",
+      "id": "s:15DocumentCapture0B13JourneyIntentV10portraitID10Foundation4UUIDVSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let workflowID: UUID",
+      "id": "s:15DocumentCapture0B13JourneyIntentV10workflowID10Foundation4UUIDVvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "init(workflowID: UUID, profile: String, stage: CaptureJourneyCheckpoint.Stage, frontID: UUID? = nil, backID: UUID? = nil, portraitID: UUID? = nil, selfieID: UUID? = nil, comparisonID: UUID? = nil)",
+      "id": "s:15DocumentCapture0B13JourneyIntentV10workflowID7profile5stage05frontF004backF008portraitF006selfieF0010comparisonF0AC10Foundation4UUIDV_SSAA0bC10CheckpointV5StageOANSgA4Stcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "let comparisonID: UUID?",
+      "id": "s:15DocumentCapture0B13JourneyIntentV12comparisonID10Foundation4UUIDVSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let stage: CaptureJourneyCheckpoint.Stage",
+      "id": "s:15DocumentCapture0B13JourneyIntentV5stageAA0bC10CheckpointV5StageOvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let backID: UUID?",
+      "id": "s:15DocumentCapture0B13JourneyIntentV6backID10Foundation4UUIDVSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let frontID: UUID?",
+      "id": "s:15DocumentCapture0B13JourneyIntentV7frontID10Foundation4UUIDVSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let profile: String",
+      "id": "s:15DocumentCapture0B13JourneyIntentV7profileSSvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let selfieID: UUID?",
+      "id": "s:15DocumentCapture0B13JourneyIntentV8selfieID10Foundation4UUIDVSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "enum CaptureIntegrityError",
+      "id": "s:15DocumentCapture0B14IntegrityErrorO",
+      "kind": "swift.enum"
+    },
+    {
+      "declaration": "case integrityVerificationFailed",
+      "id": "s:15DocumentCapture0B14IntegrityErrorO27integrityVerificationFailedyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "@MainActor final class CaptureJourneyProgress",
+      "id": "s:15DocumentCapture0B15JourneyProgressC",
+      "kind": "swift.class"
+    },
+    {
+      "declaration": "@MainActor var checkpoint: CaptureJourneyCheckpoint? { get }",
+      "id": "s:15DocumentCapture0B15JourneyProgressC10checkpointAA0bC10CheckpointVSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "@MainActor func invalidate()",
+      "id": "s:15DocumentCapture0B15JourneyProgressC10invalidateyyF",
+      "kind": "swift.method"
+    },
+    {
+      "declaration": "enum State",
+      "id": "s:15DocumentCapture0B15JourneyProgressC5StateO",
+      "kind": "swift.enum"
+    },
+    {
+      "declaration": "case retryRequired",
+      "id": "s:15DocumentCapture0B15JourneyProgressC5StateO13retryRequiredyA2EmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case idle",
+      "id": "s:15DocumentCapture0B15JourneyProgressC5StateO4idleyA2EmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case saving",
+      "id": "s:15DocumentCapture0B15JourneyProgressC5StateO6savingyA2EmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "@MainActor func retry() async throws -> CaptureJourneyCheckpoint",
+      "id": "s:15DocumentCapture0B15JourneyProgressC5retryAA0bC10CheckpointVyYaKF",
+      "kind": "swift.method"
+    },
+    {
+      "declaration": "@MainActor var state: CaptureJourneyProgress.State { get }",
+      "id": "s:15DocumentCapture0B15JourneyProgressC5stateAC5StateOvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "@MainActor init(store: CaptureEvidenceStore, now: @escaping @Sendable () -> Date)",
+      "id": "s:15DocumentCapture0B15JourneyProgressC5store3nowAC0B15EvidenceCustody0bG5StoreC_10Foundation4DateVyYbctcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "@MainActor func commit(_ intent: CaptureJourneyIntent) async throws -> CaptureJourneyCheckpoint",
+      "id": "s:15DocumentCapture0B15JourneyProgressC6commityAA0bC10CheckpointVAA0bC6IntentVYaKF",
+      "kind": "swift.method"
+    },
+    {
+      "declaration": "enum CaptureArtifactIntegrity",
+      "id": "s:15DocumentCapture0B17ArtifactIntegrityO",
+      "kind": "swift.enum"
+    },
+    {
+      "declaration": "static func sha256(_ data: Data) -> String",
+      "id": "s:15DocumentCapture0B17ArtifactIntegrityO6sha256ySS10Foundation4DataVFZ",
+      "kind": "swift.type.method"
+    },
+    {
+      "declaration": "struct CaptureJourneyCheckpoint",
+      "id": "s:15DocumentCapture0B17JourneyCheckpointV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "let portraitID: UUID?",
+      "id": "s:15DocumentCapture0B17JourneyCheckpointV10portraitID10Foundation4UUIDVSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let workflowID: UUID",
+      "id": "s:15DocumentCapture0B17JourneyCheckpointV10workflowID10Foundation4UUIDVvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "init(workflowID: UUID, revision: UInt64, profile: String, nextStage: CaptureJourneyCheckpoint.Stage, frontID: UUID? = nil, backID: UUID? = nil, portraitID: UUID? = nil, selfieID: UUID? = nil, comparisonID: UUID? = nil, updatedAt: Date)",
+      "id": "s:15DocumentCapture0B17JourneyCheckpointV10workflowID8revision7profile9nextStage05frontF004backF008portraitF006selfieF0010comparisonF09updatedAtAC10Foundation4UUIDV_s6UInt64VSSAC0J0OAPSgA4uN4DateVtcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "let comparisonID: UUID?",
+      "id": "s:15DocumentCapture0B17JourneyCheckpointV12comparisonID10Foundation4UUIDVSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "init(from decoder: any Decoder) throws",
+      "id": "s:15DocumentCapture0B17JourneyCheckpointV4fromACs7Decoder_p_tKcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "enum Stage",
+      "id": "s:15DocumentCapture0B17JourneyCheckpointV5StageO",
+      "kind": "swift.enum"
+    },
+    {
+      "declaration": "case back",
+      "id": "s:15DocumentCapture0B17JourneyCheckpointV5StageO4backyA2EmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case front",
+      "id": "s:15DocumentCapture0B17JourneyCheckpointV5StageO5frontyA2EmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case review",
+      "id": "s:15DocumentCapture0B17JourneyCheckpointV5StageO6reviewyA2EmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case selfie",
+      "id": "s:15DocumentCapture0B17JourneyCheckpointV5StageO6selfieyA2EmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case results",
+      "id": "s:15DocumentCapture0B17JourneyCheckpointV5StageO7resultsyA2EmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case portrait",
+      "id": "s:15DocumentCapture0B17JourneyCheckpointV5StageO8portraityA2EmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "init?(rawValue: String)",
+      "id": "s:15DocumentCapture0B17JourneyCheckpointV5StageO8rawValueAESgSS_tcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "var valid: Bool { get }",
+      "id": "s:15DocumentCapture0B17JourneyCheckpointV5validSbvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let backID: UUID?",
+      "id": "s:15DocumentCapture0B17JourneyCheckpointV6backID10Foundation4UUIDVSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let frontID: UUID?",
+      "id": "s:15DocumentCapture0B17JourneyCheckpointV7frontID10Foundation4UUIDVSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let profile: String",
+      "id": "s:15DocumentCapture0B17JourneyCheckpointV7profileSSvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let revision: UInt64",
+      "id": "s:15DocumentCapture0B17JourneyCheckpointV8revisions6UInt64Vvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let selfieID: UUID?",
+      "id": "s:15DocumentCapture0B17JourneyCheckpointV8selfieID10Foundation4UUIDVSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let nextStage: CaptureJourneyCheckpoint.Stage",
+      "id": "s:15DocumentCapture0B17JourneyCheckpointV9nextStageAC0F0Ovp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let updatedAt: Date",
+      "id": "s:15DocumentCapture0B17JourneyCheckpointV9updatedAt10Foundation4DateVvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "enum CaptureJourneyProgressError",
+      "id": "s:15DocumentCapture0B20JourneyProgressErrorO",
+      "kind": "swift.enum"
+    },
+    {
+      "declaration": "case transitionInProgress",
+      "id": "s:15DocumentCapture0B20JourneyProgressErrorO012transitionInD0yA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case invalidated",
+      "id": "s:15DocumentCapture0B20JourneyProgressErrorO11invalidatedyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case retryRequired",
+      "id": "s:15DocumentCapture0B20JourneyProgressErrorO13retryRequiredyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case noPendingTransition",
+      "id": "s:15DocumentCapture0B20JourneyProgressErrorO19noPendingTransitionyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "struct CaptureProcessingCalibration",
+      "id": "s:15DocumentCapture0B21ProcessingCalibrationV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "init(identifier: String, status: String, portraitPaddingFraction: Double) throws",
+      "id": "s:15DocumentCapture0B21ProcessingCalibrationV10identifier6status23portraitPaddingFractionACSS_SSSdtKcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "let identifier: String",
+      "id": "s:15DocumentCapture0B21ProcessingCalibrationV10identifierSSvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "static let source20260917: CaptureProcessingCalibration",
+      "id": "s:15DocumentCapture0B21ProcessingCalibrationV14source20260917ACvpZ",
+      "kind": "swift.type.property"
+    },
+    {
+      "declaration": "let portraitPaddingFraction: Double",
+      "id": "s:15DocumentCapture0B21ProcessingCalibrationV23portraitPaddingFractionSdvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "init(from decoder: any Decoder) throws",
+      "id": "s:15DocumentCapture0B21ProcessingCalibrationV4fromACs7Decoder_p_tKcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "let status: String",
+      "id": "s:15DocumentCapture0B21ProcessingCalibrationV6statusSSvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "enum CaptureJourneyCheckpointError",
+      "id": "s:15DocumentCapture0B22JourneyCheckpointErrorO",
+      "kind": "swift.enum"
+    },
+    {
+      "declaration": "case invalidCheckpoint",
+      "id": "s:15DocumentCapture0B22JourneyCheckpointErrorO07invalidD0yA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case staleRevision",
+      "id": "s:15DocumentCapture0B22JourneyCheckpointErrorO13staleRevisionyA2CmF",
+      "kind": "swift.enum.case"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "recordedAt": "2026-10-26T18:46:42.919265+00:00",
+  "command": [
+    "swift",
+    "test",
+    "--package-path",
+    "/Users/shf/Developer/kenshiki-sdks/foundation/motion",
+    "--parallel",
+    "--disable-swift-testing",
+    "-Xswiftc",
+    "-warnings-as-errors",
+    "--xunit-output",
+    "/Users/shf/Developer/kenshiki-sdks/.build/foundation-motion/tests.xml"
+  ],
+  "sourceSHA256": {
+    "foundation/motion/check.py": "fb8d07e7a5edc80d2f168ed67259b06483ecfe9695845a019c1f77ac177608d3",
+    "foundation/motion/sources.json": "7edd91074161ec6006886620df1e48de4b6633f016436be05970a07a188bb596",
+    "foundation/motion/Sources/KenshikiMotion/PulseMotionPermission.swift": "e62b11a65a5cf247e6925fc00d2c9f30175dc8461482451e1f09a13413b8e0d5",
+    "foundation/motion/Sources/KenshikiMotion/PulseCeremonyMotionWitness.swift": "69905837f8f3f38cc99ec94c6ee5a2295efaa6468926cf73a625f8983b6d8466",
+    "foundation/motion/Tests/KenshikiMotionTests/PulseMotionPermissionTests.swift": "987a24c15ffa3f07c659ff983c065f5fbbadb49b0bcbf4682c7edadf8095b309",
+    "foundation/motion/Package.swift": "6263b0ceaa3de8f847bf7065b232ab70f9099b956211da3917e8cbd34602e83a",
+    "foundation/motion/Tests/KenshikiMotionTests/PulseCeremonyMotionSummaryTests.swift": "6a3c40e4243bf8eedeb0acd8f0dfb073be28b11b93f5c487cc5d0fe9dd27b53d",
+    "foundation/motion/Sources/KenshikiMotion/PulseCeremonyMotionTrace.swift": "498beff60def9aaca4bd4070ef206a34cf55585bf8c20b72bbaf39668a779d53",
+    "foundation/motion/Tests/KenshikiMotionTests/PulseCeremonyMotionWitnessTests.swift": "9f2c3aa66b9f7207023f611fe75f15cd6a9e35627eef9cd880cddbeadfc8f877",
+    "foundation/motion/Sources/KenshikiMotion/PulseCeremonyMotionSummary.swift": "b544c0b87acb80b39fad51b17b947dc1d5d93ee495f949efc5089499aac89d06"
+  },
+  "sourceUnchanged": true,
+  "executedTests": 18,
+  "passed": true,
+  "evidenceError": null,
+  "scope": "Executed shared motion math tests; no physical sensor acceptance."
+}

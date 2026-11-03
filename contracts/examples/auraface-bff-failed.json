@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "model": "auraface",
+  "context": {
+    "requestId": "request-example-001",
+    "operationId": "operation-example-001",
+    "attemptId": "attempt-example-001",
+    "challenge": "example-challenge-0000000000000001",
+    "applicationId": "application-example",
+    "installationId": "installation-example",
+    "sessionId": "session-example",
+    "generation": "generation-example-001",
+    "policyId": "policy-example",
+    "policyVersion": "v1",
+    "reference": {
+      "evidenceId": "reference-example-001",
+      "sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+    },
+    "selfie": {
+      "evidenceId": "selfie-example-001",
+      "sha256": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb"
+    }
+  },
+  "execution": {
+    "artifactSHA256": "a7933ea5330113b01c9b60351d8f4c33003f145d8470ac5f0e52ee2effe25c60",
+    "profileId": "auraface-v1-apple-vision3-rgb112-ort122-cpu-v1",
+    "runtime": {
+      "name": "onnxruntime",
+      "version": "1.22.0",
+      "platform": "ios",
+      "osVersion": "27.2"
+    },
+    "durationMilliseconds": 187.4
+  },
+  "status": "failed",
+  "failure": {
+    "code": "face_missing",
+    "stage": "input_validation"
+  }
+}

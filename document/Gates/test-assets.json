@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "assets": {
+    "vision-public-astronaut.png": {
+      "sha256": "88431cd9653ccd539741b555fb0a46b61558b301d4110412b5bc28b5e3ea6cb5",
+      "sourceURL": "https://raw.githubusercontent.com/scikit-image/scikit-image/v0.25.2/skimage/data/astronaut.png",
+      "provenanceURL": "https://scikit-image.org/docs/stable/api/skimage.data.html#skimage.data.astronaut",
+      "provenance": "Public-domain NASA portrait distributed by scikit-image v0.25.2",
+      "purpose": "Positive face-detection control only; no camera, user-image, accuracy, or identity qualification"
+    }
+  }
+}

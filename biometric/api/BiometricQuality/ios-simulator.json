@@ -1,0 +1,401 @@
+{
+  "relationships": [
+    {
+      "kind": "conformsTo",
+      "source": "s:16BiometricQuality04FaceB10AssessmentV",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:16BiometricQuality04FaceB10AssessmentV",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:16BiometricQuality04FaceB7FailureO",
+      "target": "s:SH"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:16BiometricQuality04FaceB7FailureO",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:16BiometricQuality04FaceB7FailureO",
+      "target": "s:SY"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:16BiometricQuality04FaceB7FailureO",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:16BiometricQuality04FaceB7FailureO",
+      "target": "s:s5ErrorP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:16BiometricQuality04FaceB7FailureO",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:16BiometricQuality04FaceB7MeasureO",
+      "target": "s:SH"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:16BiometricQuality04FaceB7MeasureO",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:16BiometricQuality04FaceB7MeasureO",
+      "target": "s:SY"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:16BiometricQuality04FaceB7MeasureO",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:16BiometricQuality04FaceB7MeasureO",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:16BiometricQuality04FaceB9ComponentV",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:16BiometricQuality04FaceB9ComponentV",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:16BiometricQuality08OFIQFaceB0C",
+      "target": "s:ScA"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:16BiometricQuality08OFIQFaceB0C",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:16BiometricQuality08OFIQFaceB0C",
+      "target": "s:s8SendableP"
+    }
+  ],
+  "symbols": [
+    {
+      "declaration": "struct FaceQualityAssessment",
+      "id": "s:16BiometricQuality04FaceB10AssessmentV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "let components: [FaceQualityComponent]",
+      "id": "s:16BiometricQuality04FaceB10AssessmentV10componentsSayAA0cB9ComponentVGvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let returnCode: Int32",
+      "id": "s:16BiometricQuality04FaceB10AssessmentV10returnCodes5Int32Vvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let rasterSHA256: String",
+      "id": "s:16BiometricQuality04FaceB10AssessmentV12rasterSHA256SSvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let sourceSHA256: String",
+      "id": "s:16BiometricQuality04FaceB10AssessmentV12sourceSHA256SSvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let artifactManifestSHA256: String",
+      "id": "s:16BiometricQuality04FaceB10AssessmentV22artifactManifestSHA256SSvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let width: Int",
+      "id": "s:16BiometricQuality04FaceB10AssessmentV5widthSivp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let height: Int",
+      "id": "s:16BiometricQuality04FaceB10AssessmentV6heightSivp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let faceCount: Int32",
+      "id": "s:16BiometricQuality04FaceB10AssessmentV9faceCounts5Int32Vvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "enum FaceQualityFailure",
+      "id": "s:16BiometricQuality04FaceB7FailureO",
+      "kind": "swift.enum"
+    },
+    {
+      "declaration": "case missingAsset",
+      "id": "s:16BiometricQuality04FaceB7FailureO12missingAssetyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case invalidAssets",
+      "id": "s:16BiometricQuality04FaceB7FailureO13invalidAssetsyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case invalidPixels",
+      "id": "s:16BiometricQuality04FaceB7FailureO13invalidPixelsyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case resourceLimit",
+      "id": "s:16BiometricQuality04FaceB7FailureO13resourceLimityA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case assessmentFailed",
+      "id": "s:16BiometricQuality04FaceB7FailureO16assessmentFailedyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case artifactIntegrity",
+      "id": "s:16BiometricQuality04FaceB7FailureO17artifactIntegrityyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case initializationFailed",
+      "id": "s:16BiometricQuality04FaceB7FailureO20initializationFailedyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case closed",
+      "id": "s:16BiometricQuality04FaceB7FailureO6closedyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "init?(rawValue: String)",
+      "id": "s:16BiometricQuality04FaceB7FailureO8rawValueACSgSS_tcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "enum FaceQualityMeasure",
+      "id": "s:16BiometricQuality04FaceB7MeasureO",
+      "kind": "swift.enum"
+    },
+    {
+      "declaration": "case marginAboveOfTheFaceImage",
+      "id": "s:16BiometricQuality04FaceB7MeasureO016marginAboveOfTheC5ImageyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case marginBelowOfTheFaceImage",
+      "id": "s:16BiometricQuality04FaceB7MeasureO016marginBelowOfTheC5ImageyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case leftwardCropOfTheFaceImage",
+      "id": "s:16BiometricQuality04FaceB7MeasureO017leftwardCropOfTheC5ImageyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case rightwardCropOfTheFaceImage",
+      "id": "s:16BiometricQuality04FaceB7MeasureO018rightwardCropOfTheC5ImageyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case singleFacePresent",
+      "id": "s:16BiometricQuality04FaceB7MeasureO06singleC7PresentyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case unifiedQualityScore",
+      "id": "s:16BiometricQuality04FaceB7MeasureO07unifiedB5ScoreyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case eyesVisible",
+      "id": "s:16BiometricQuality04FaceB7MeasureO11eyesVisibleyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case headPoseYaw",
+      "id": "s:16BiometricQuality04FaceB7MeasureO11headPoseYawyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case mouthClosed",
+      "id": "s:16BiometricQuality04FaceB7MeasureO11mouthClosedyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case dynamicRange",
+      "id": "s:16BiometricQuality04FaceB7MeasureO12dynamicRangeyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case headPoseRoll",
+      "id": "s:16BiometricQuality04FaceB7MeasureO12headPoseRollyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "var canonicalName: String { get }",
+      "id": "s:16BiometricQuality04FaceB7MeasureO13canonicalNameSSvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "case headPosePitch",
+      "id": "s:16BiometricQuality04FaceB7MeasureO13headPosePitchyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case luminanceMean",
+      "id": "s:16BiometricQuality04FaceB7MeasureO13luminanceMeanyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case naturalColour",
+      "id": "s:16BiometricQuality04FaceB7MeasureO13naturalColouryA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case noHeadCoverings",
+      "id": "s:16BiometricQuality04FaceB7MeasureO15noHeadCoveringsyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case interEyeDistance",
+      "id": "s:16BiometricQuality04FaceB7MeasureO16interEyeDistanceyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case luminanceVariance",
+      "id": "s:16BiometricQuality04FaceB7MeasureO17luminanceVarianceyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case backgroundUniformity",
+      "id": "s:16BiometricQuality04FaceB7MeasureO20backgroundUniformityyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case compressionArtifacts",
+      "id": "s:16BiometricQuality04FaceB7MeasureO20compressionArtifactsyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case expressionNeutrality",
+      "id": "s:16BiometricQuality04FaceB7MeasureO20expressionNeutralityyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case illuminationUniformity",
+      "id": "s:16BiometricQuality04FaceB7MeasureO22illuminationUniformityyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case overExposurePrevention",
+      "id": "s:16BiometricQuality04FaceB7MeasureO22overExposurePreventionyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case faceOcclusionPrevention",
+      "id": "s:16BiometricQuality04FaceB7MeasureO23faceOcclusionPreventionyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case underExposurePrevention",
+      "id": "s:16BiometricQuality04FaceB7MeasureO23underExposurePreventionyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case mouthOcclusionPrevention",
+      "id": "s:16BiometricQuality04FaceB7MeasureO24mouthOcclusionPreventionyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case eyesOpen",
+      "id": "s:16BiometricQuality04FaceB7MeasureO8eyesOpenyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case headSize",
+      "id": "s:16BiometricQuality04FaceB7MeasureO8headSizeyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "init?(rawValue: Int32)",
+      "id": "s:16BiometricQuality04FaceB7MeasureO8rawValueACSgs5Int32V_tcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "case sharpness",
+      "id": "s:16BiometricQuality04FaceB7MeasureO9sharpnessyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "struct FaceQualityComponent",
+      "id": "s:16BiometricQuality04FaceB9ComponentV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "let code: Int32",
+      "id": "s:16BiometricQuality04FaceB9ComponentV4codes5Int32Vvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let mapped: Double?",
+      "id": "s:16BiometricQuality04FaceB9ComponentV6mappedSdSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let native: Double?",
+      "id": "s:16BiometricQuality04FaceB9ComponentV6nativeSdSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let measure: FaceQualityMeasure",
+      "id": "s:16BiometricQuality04FaceB9ComponentV7measureAA0cB7MeasureOvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "var measureID: Int32 { get }",
+      "id": "s:16BiometricQuality04FaceB9ComponentV9measureIDs5Int32Vvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "actor OFIQFaceQuality",
+      "id": "s:16BiometricQuality08OFIQFaceB0C",
+      "kind": "swift.class"
+    },
+    {
+      "declaration": "init(assetDirectory: URL) throws",
+      "id": "s:16BiometricQuality08OFIQFaceB0C14assetDirectoryAC10Foundation3URLV_tKcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "static let artifactManifestSHA256: String",
+      "id": "s:16BiometricQuality08OFIQFaceB0C22artifactManifestSHA256SSvpZ",
+      "kind": "swift.type.property"
+    },
+    {
+      "declaration": "func close()",
+      "id": "s:16BiometricQuality08OFIQFaceB0C5closeyyF",
+      "kind": "swift.method"
+    },
+    {
+      "declaration": "func assess(_ pixels: PortraitPixels, sourceSHA256: String) async throws -> FaceQualityAssessment",
+      "id": "s:16BiometricQuality08OFIQFaceB0C6assess_12sourceSHA256AA04FaceB10AssessmentV0A3SDK14PortraitPixelsV_SStYaKF",
+      "kind": "swift.method"
+    }
+  ]
+}

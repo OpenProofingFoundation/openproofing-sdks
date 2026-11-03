@@ -1,0 +1,267 @@
+{
+  "schemaVersion": 1,
+  "donorRepository": "Kenshiki-Labs/kenshiki-identity-sdk",
+  "donorRevision": "b3884d93374ceb5b63743be831c38390794d9562",
+  "files": {
+    "ios/Sources/BiometricCapture/CapturedSelfie.swift": {
+      "origin": "extracted",
+      "sourcePath": "Sources/CaptureSelfie/CapturedSelfie.swift",
+      "sourceSHA256": "58abcdb1ae4b420bf37aa0aae227a209a2e77140b4af08c8f7d95ec88adca1ff",
+      "patches": [
+        "Removed IdentityEvidenceStorage dependency and separated RetainedSelfie, SelfieRetentionError and SelfieCustody; preserved captured value and its encoded digest",
+        "Removed trailing blank line during commit review; no behavioral change"
+      ],
+      "destinationSHA256": "8bba8293096845110ecef64091555942e2fabf5fbc06943e3b98a75cc8a7798b"
+    },
+    "ios/Sources/BiometricCapture/NativeSelfieSession.swift": {
+      "origin": "extracted",
+      "sourcePath": "Sources/CaptureSelfie/NativeSelfieSession.swift",
+      "sourceSHA256": "b0b09e9cc7d797dd3320d36fb5e46882bacb5bf52345a6631d4207f5bf7d9413",
+      "patches": [
+        "Throwing owned color/depth snapshots fail explicitly as frameSnapshotFailed",
+        "Host supplies a finite contained guide oval instead of core-authored visual ratios",
+        "Local admission fact vocabulary adapted; retention comment states host ownership",
+        "Attach source-bound shared motion summary and explicit motion permission status to the admitted selfie receipt.",
+        "Optional bounded-window delivery preserves each original capture receipt, binds motion immediately per frame, pauses camera before batch handoff and erases private owners on lifecycle changes; default single capture unchanged."
+      ],
+      "destinationSHA256": "89d99da86dce523372bcf18ee03c1f810c62915e8ebe87eb3e5c81f505d88fb6"
+    },
+    "ios/Sources/BiometricCapture/SelfieAdmissionGate.swift": {
+      "origin": "extracted",
+      "sourcePath": "Sources/CaptureSelfie/SelfieAdmissionGate.swift",
+      "sourceSHA256": "cc87c2d55300494fa358955c9b18a37a127a42e3441831abf0b3ca3e33df8cfb",
+      "patches": [
+        "Renamed public local observation/readiness facts and policy helpers to neutral domain vocabulary without changing admission state transitions",
+        "Sonar S107: group optional analyzer facts in Observation.Measurements; preserve flat observation values and nil defaults"
+      ],
+      "destinationSHA256": "f1d3f7b3ec003e34c055e83c863d1cc8c06634bb5793215cb519711544ae642f"
+    },
+    "ios/Sources/BiometricCapture/SelfieAdmissionPolicy.swift": {
+      "origin": "extracted",
+      "sourcePath": "Sources/CaptureSelfie/SelfieAdmissionPolicy.swift",
+      "sourceSHA256": "3b7b28be39c58adc7ed832c82d6ea77155a93b9e2c7d51ec4bf19e9701dc5a97",
+      "patches": [
+        "Renamed public policy validation/helpers to neutral domain vocabulary",
+        "Moved unchanged defaults into explicit engineeringV1 parameter object and referenced them from constructor defaults",
+        "Removed donor-only orphaned-code narrative"
+      ],
+      "destinationSHA256": "8952eae14155dc7f8d20fa85fabf8a44ce7414dd6051c01c21489659dc926ab9"
+    },
+    "ios/Sources/BiometricCapture/SelfieAdmissionReceipt.swift": {
+      "origin": "extracted",
+      "sourcePath": "Sources/CaptureSelfie/SelfieAdmissionReceipt.swift",
+      "sourceSHA256": "d640e4e27b8afe26fc4c8a54f59d74978b1f69f63b894f3697923e141157d5b9",
+      "patches": [
+        "Renamed computed receipt validation to admissionValid and adapted policy validation/helpers; encoded receipt fields preserved",
+        "Attach source-bound shared motion summary and explicit motion permission status to the admitted selfie receipt.",
+        "Decode absent historical motion permission without fabricating evidence and preserve its original omitted-field encoding for archived source hashes; reject explicit null or unknown permission."
+      ],
+      "destinationSHA256": "891fbd228f2b13e8b7de30a9262efc9cf60a7a2e14de841973f10bc8a77812bd"
+    },
+    "ios/Sources/BiometricCapture/SelfieCameraFailure.swift": {
+      "origin": "extracted",
+      "sourcePath": "Sources/CaptureSelfie/SelfieCameraFailure.swift",
+      "sourceSHA256": "7acd550ed87c89c879f68ceba99f03b3717d92cd786640fc29393700d269f943",
+      "patches": [
+        "Added categorical frameSnapshotFailed reason",
+        "Added finite captureWindowEmpty and captureWindowResourceLimit acquisition failure reasons; no biometric verdict."
+      ],
+      "destinationSHA256": "37837308f013227117cdccd09cfb61348e59da1cff3586ea7574e1f5c5c23d3d"
+    },
+    "ios/Sources/BiometricCapture/SelfieCaptureCoordinator.swift": {
+      "origin": "extracted",
+      "sourcePath": "Sources/CaptureSelfie/SelfieCaptureCoordinator.swift",
+      "sourceSHA256": "0ef00d8aaa64753b1449c6b4415dd9355199aabeda97eecf1256687250ae21cc",
+      "patches": [
+        "Optional render closure resolves the unchanged native renderer inside initializer to retain private frame-buffer access",
+        "Adapted local fact/validation names and initialized timestamp using TimeInterval.zero",
+        "Added explicitly configured 8-frame/2-second/.20-second acquisition window with hard12-frame/3-second/64MiB/32MP resource bounds, same-frame unchanged admission gates, per-frame receipts, oriented-render dimensions, monotonic deadline and lifecycle/anchor/guide token fencing; default single capture unchanged."
+      ],
+      "destinationSHA256": "f81ca1068d5c6eeebc4323438fa6cb2c1317c5b76f3d2d994c47150441d1b0d5"
+    },
+    "ios/Sources/BiometricCapture/SelfieCaptureFrame.swift": {
+      "origin": "extracted",
+      "sourcePath": "Sources/CaptureSelfie/SelfieCaptureFrame.swift",
+      "sourceSHA256": "b19fd18ab6d676196f5829e9a618f103907945d78fb1e130ad061d90df41da5a",
+      "patches": [],
+      "destinationSHA256": "b19fd18ab6d676196f5829e9a618f103907945d78fb1e130ad061d90df41da5a"
+    },
+    "ios/Sources/BiometricCapture/SelfieCapturePresentation.swift": {
+      "origin": "extracted",
+      "sourcePath": "Sources/CaptureSelfie/SelfieCapturePresentation.swift",
+      "sourceSHA256": "eff1a1dbc7677d89aa066920a3aadcbc7a7373664fea2c564cffe0b201c0bdce",
+      "patches": [],
+      "destinationSHA256": "eff1a1dbc7677d89aa066920a3aadcbc7a7373664fea2c564cffe0b201c0bdce"
+    },
+    "ios/Sources/BiometricCapture/SelfieCaptureTimeouts.swift": {
+      "origin": "extracted",
+      "sourcePath": "Sources/CaptureSelfie/SelfieCaptureTimeouts.swift",
+      "sourceSHA256": "61fc8dfe4e3b530cddccb126c8739208131872599318e3ce7b10c7939a5d1e2e",
+      "patches": [],
+      "destinationSHA256": "61fc8dfe4e3b530cddccb126c8739208131872599318e3ce7b10c7939a5d1e2e"
+    },
+    "ios/Sources/BiometricCapture/SelfieDepthMap.swift": {
+      "origin": "extracted",
+      "sourcePath": "Sources/CaptureSelfie/SelfieDepthMap.swift",
+      "sourceSHA256": "b11f9c0d3404ec40ff045d50b40c41df45ea84a6bcce836eddd494be7b27218e",
+      "patches": [
+        "Deep-copied inbound depth/disparity map through replacingDepthDataMap with typed failures",
+        "Preserved original isDepthDataFiltered separately; unused camera calibration is dropped by the Apple replacement API",
+        "Refused grids above 4096 samples before allocation and reserved only bounded sample storage",
+        "Sonar S1659: split width and height declarations without changing evaluation order"
+      ],
+      "destinationSHA256": "9bdd942d8411812229c74b857efde3f86fe5fbe3ba3a4354d55f1e21c28c2234"
+    },
+    "ios/Sources/BiometricCapture/SelfieDepthPolicy.swift": {
+      "origin": "extracted",
+      "sourcePath": "Sources/CaptureSelfie/SelfieDepthPolicy.swift",
+      "sourceSHA256": "2e58cc66ca2c92190fe386eee64889e2a804c9a5b12aaea9051ecae9321dadf9",
+      "patches": [
+        "Restricted samplesPerAxis to 2...64 as an explicit resource limit",
+        "Updated donor-only RFC/custody narrative to standalone engineering observation and host retention contract",
+        "Adapted receipt validation helper name",
+        "Sonar S1659: split least-squares accumulator and centered-coordinate declarations; equations unchanged"
+      ],
+      "destinationSHA256": "20e3b61b7a751ff595732b2696b2293b4f32d78201427411b423910662e30af3"
+    },
+    "ios/Sources/BiometricCapture/SelfieFrameAnalyzer.swift": {
+      "origin": "extracted",
+      "sourcePath": "Sources/CaptureSelfie/SelfieFrameAnalyzer.swift",
+      "sourceSHA256": "352f3236f4c277d1a9b525a4069240120fc9891abc0c34a0847e589e879da991",
+      "patches": [
+        "Throwing initializer deep-copies inbound color planes and keeps mutable CVPixelBuffer internal"
+      ],
+      "destinationSHA256": "638ea5c61687641f633750b6514cdf93c3f8a76fa3b107d9d464869d6a0673de"
+    },
+    "ios/Sources/BiometricCapture/SelfieFrameSnapshot.swift": {
+      "origin": "new",
+      "destinationSHA256": "7c84b3e085e527a52d8bae0da9e78f0bbfcb58d435e61caefd9f527898aed0d6",
+      "patches": [
+        "Sonar S1659: split width and height declarations"
+      ]
+    },
+    "ios/Sources/BiometricCapture/SelfieGuideGeometry.swift": {
+      "origin": "extracted",
+      "sourcePath": "Sources/CaptureSelfie/SelfieGuideGeometry.swift",
+      "sourceSHA256": "016dea2f2bc1779370145bb6f041bc0ff851dde7447d1cfb5814c6354bfe00a8",
+      "patches": [],
+      "destinationSHA256": "016dea2f2bc1779370145bb6f041bc0ff851dde7447d1cfb5814c6354bfe00a8"
+    },
+    "ios/Sources/BiometricCapture/SelfiePixelBridge.swift": {
+      "origin": "new",
+      "destinationSHA256": "01f554be1c00fb29dbdf984ead4d31d477037af48a7acfd19679016fd73622ac",
+      "patches": [
+        "Use reviewed PortraitPixels.Layout initializer; same metadata, digest and payload"
+      ]
+    },
+    "ios/Sources/BiometricCapturePreview/NativeSelfiePreviewView.swift": {
+      "origin": "extracted",
+      "sourcePath": "Sources/CaptureSelfiePreview/NativeSelfiePreviewView.swift",
+      "sourceSHA256": "47536ef50209a6859277c45db56c63bb7d394be92bdcf2544f7c4e5df3562448",
+      "patches": [
+        "Changed module import to BiometricCapture; no renderer behavior change"
+      ],
+      "destinationSHA256": "fe7b06a87c0f23e292bd6dab8038950b95003dddfc51b336ab031ba95b47c45a"
+    },
+    "ios/Tests/CaptureTests/NativeSelfieSessionConsentTests.swift": {
+      "origin": "extracted",
+      "sourcePath": "Tests/CaptureSelfieTests/NativeSelfieSessionConsentTests.swift",
+      "sourceSHA256": "1834ddb0d08d83f03f5e72f092e3798a69a72e1de68896d612e2da6d806034b6",
+      "patches": [
+        "Changed module import to BiometricCapture; adapted local observation/readiness/validation API names where used",
+        "Adapted throwing owned frame/depth initializers where used"
+      ],
+      "destinationSHA256": "b1c41b250c785bc7c6904b396cdb432d6bb633e415a6a0c72579bfa4d217d466"
+    },
+    "ios/Tests/CaptureTests/SelfieAdmissionPolicyTests.swift": {
+      "origin": "extracted",
+      "sourcePath": "Tests/CaptureSelfieTests/SelfieAdmissionPolicyTests.swift",
+      "sourceSHA256": "31ec25877d2fed041dd34f9d80c44f13eaba4bd13d010e9265d574acc364ec38",
+      "patches": [
+        "Changed module import to BiometricCapture; adapted local observation/readiness/validation API names where used",
+        "Adapted throwing owned frame/depth initializers where used",
+        "Adapt Observation.Measurements callsite; preserve quality and containment fixtures",
+        "Add historical receipt byte-preservation and current motion permission decode/encode regressions."
+      ],
+      "destinationSHA256": "3a1d3d6ffa9842d02f8522fffae0c45dcfe0da3ffdf1976d079d9ce2ab93df10"
+    },
+    "ios/Tests/CaptureTests/SelfieCaptureCoordinatorTests.swift": {
+      "origin": "extracted",
+      "sourcePath": "Tests/CaptureSelfieTests/SelfieCaptureCoordinatorTests.swift",
+      "sourceSHA256": "333f625fbae969eda08d3ec48039de1d2fb7ac038eb394a5ae79f2b45338e510",
+      "patches": [
+        "Changed module import to BiometricCapture; adapted local observation/readiness/validation API names where used",
+        "Adapted throwing owned frame/depth initializers where used",
+        "Sonar S1186: explain intentionally unused synthetic native run and pause callbacks",
+        "Added ten deterministic bounded-window lifecycle, per-frame pixel/depth/receipt/motion-binding, cancellation, deadline, resource/configuration and renderer-dimension regressions; synthetic unit inputs do not qualify camera or sensor authenticity."
+      ],
+      "destinationSHA256": "35284479f8c643b24a2b01736dfb59e8dff52bc5a7fcb7dbd9f81967debb2fd6"
+    },
+    "ios/Tests/CaptureTests/SelfieCapturePresentationTests.swift": {
+      "origin": "extracted",
+      "sourcePath": "Tests/CaptureSelfieTests/SelfieCapturePresentationTests.swift",
+      "sourceSHA256": "fdede39df35497812c6c68758016bc81f6f8be764810b05b29dc4f1903b46086",
+      "patches": [
+        "Changed module import to BiometricCapture; adapted local observation/readiness/validation API names where used",
+        "Adapted throwing owned frame/depth initializers where used",
+        "Excluded two SwiftUI-binding tests because no SwiftUI binding adapter is included"
+      ],
+      "destinationSHA256": "8932f9a242b53dcabcf33d8113292027597dc5ea6813561b2ffed02788ef1569"
+    },
+    "ios/Tests/CaptureTests/SelfieDepthMapTests.swift": {
+      "origin": "extracted",
+      "sourcePath": "Tests/CaptureSelfieTests/SelfieDepthMapTests.swift",
+      "sourceSHA256": "6d98c888de70723a752356b5a917f9c94611475be434623ad42f668d962573d5",
+      "patches": [
+        "Changed module import to BiometricCapture; adapted local observation/readiness/validation API names where used",
+        "Adapted throwing owned frame/depth initializers where used",
+        "Added rejection coverage for oversized depth sampling policies and pathological sampling grids"
+      ],
+      "destinationSHA256": "44b3e7041fc7f7ee572eabc3b8be3d8ac76bca4c1d14a0c0f7d52e964ff63e13"
+    },
+    "ios/Tests/CaptureTests/SelfieDepthTests.swift": {
+      "origin": "extracted",
+      "sourcePath": "Tests/CaptureSelfieTests/SelfieDepthTests.swift",
+      "sourceSHA256": "0a12d1564daf2792efd2f2b15224870d73ec05fcdc65e049405b85ba26695514",
+      "patches": [
+        "Changed module import to BiometricCapture; adapted local observation/readiness/validation API names where used",
+        "Adapted throwing owned frame/depth initializers where used",
+        "Sonar S3358: replace nested ternary with equivalent explicit expected-assessment branches"
+      ],
+      "destinationSHA256": "76284bfa1d192535813b5607206b380f61815ef1cc06aa6867eef4808c4b1d29"
+    },
+    "ios/Tests/CaptureTests/SelfieFrameOwnershipTests.swift": {
+      "origin": "new",
+      "destinationSHA256": "ab2412fb42827230adebae225b339149f8a322a42178ca6e2efcb956ba79e6e8"
+    },
+    "ios/Tests/CaptureTests/SelfieGuideGeometryTests.swift": {
+      "origin": "extracted",
+      "sourcePath": "Tests/CaptureSelfieTests/SelfieGuideGeometryTests.swift",
+      "sourceSHA256": "290772cb23bab288b233baa7b5c21b8c8f9aba6d4fbe7cc48f4f7a854cdf1a42",
+      "patches": [
+        "Changed module import to BiometricCapture; adapted local observation/readiness/validation API names where used",
+        "Adapted throwing owned frame/depth initializers where used"
+      ],
+      "destinationSHA256": "d71b8408d10681c6eb24d51f8c5ca1a360d3608909e054855b1892e21c555d23"
+    },
+    "ios/Tests/CaptureTests/SelfiePixelBridgeTests.swift": {
+      "origin": "new",
+      "destinationSHA256": "a41f3f976c1a1c8b385a847b056a5eda176ec3ea4d56f481179f85717a4aefb1"
+    },
+    "ios/Sources/BiometricCapture/NativeSelfieMotion.swift": {
+      "origin": "new",
+      "destinationSHA256": "0d989846c0cd79ce4f1ee5cdf8160332b74e66ddc34258763b1e86304564e4c4"
+    },
+    "ios/Sources/BiometricCapture/SelfieMotionEvidence.swift": {
+      "origin": "new",
+      "destinationSHA256": "50a932a6c40487b4487c1150ef28228090f8242723a55d8178209cdbcc882d03"
+    },
+    "ios/Sources/BiometricCapture/SelfieCaptureWindowPolicy.swift": {
+      "origin": "new",
+      "destinationSHA256": "51d8abed4505547fda4bea0016f4501c308678e61b4b871c628054b40600d066",
+      "patches": [
+        "Authored optional operational capture-window budget; no image-quality, identity, liveness or PAD cutoff."
+      ]
+    }
+  }
+}

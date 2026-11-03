@@ -1,0 +1,83 @@
+{
+  "scope": "External qualification experiment for already-aligned 112x112 RGB8; no detector, warp, mobile inference or FRTE recognition adapter",
+  "runtime": "onnxruntime 1.22.0 CPU, intra/inter threads 1",
+  "opencvReferenceVersion": "4.11.0",
+  "patterns": [
+    {
+      "pattern": "ramp",
+      "inputSHA256": "7ce29b1f15bfc81d53008c9f757e16c5d10ca6d5f7f91f06e2cdc2abc1dfd2a1",
+      "wrapperTensorBitEqual": true,
+      "wrapperFeaturesBitEqual": true,
+      "macRepeatBitEqual": true,
+      "linuxMaxAbsoluteFeatureDifference": 1.9669532775878906e-06,
+      "macLinuxCosine": 0.9999999999989287
+    },
+    {
+      "pattern": "black",
+      "inputSHA256": "f7817de463c8b005aa64d1bc5c6e728883972f814fd64ef9528e85f794b19786",
+      "wrapperTensorBitEqual": true,
+      "wrapperFeaturesBitEqual": true,
+      "macRepeatBitEqual": true,
+      "linuxMaxAbsoluteFeatureDifference": 7.897615432739258e-07,
+      "macLinuxCosine": 0.9999999999993633
+    },
+    {
+      "pattern": "white",
+      "inputSHA256": "f7bed17673e4e40e048519d42212820827874081e3fe02a042f46e7507b4169e",
+      "wrapperTensorBitEqual": true,
+      "wrapperFeaturesBitEqual": true,
+      "macRepeatBitEqual": true,
+      "linuxMaxAbsoluteFeatureDifference": 2.115964889526367e-06,
+      "macLinuxCosine": 0.9999999999988819
+    }
+  ],
+  "all256ChannelValuesExercised": true,
+  "channelReversalDetected": true,
+  "maxAbsoluteFeatureDifferenceLimit": 1e-05,
+  "minimumCrossRuntimeCosine": 0.9999999999,
+  "passed": true,
+  "dependencies": {
+    "runtimeURL": "https://github.com/microsoft/onnxruntime/releases/download/v1.22.0/onnxruntime-linux-x64-1.22.0.tgz",
+    "runtimeArchiveSHA256": "8344d55f93d5bc5021ce342db50f62079daf39aaafb5d311a451846228be49b3",
+    "wrapperURL": "https://raw.githubusercontent.com/deepinsight/insightface/68b9a9e0a4612a0415f6fbcafde26963d1a22749/python-package/insightface/model_zoo/arcface_onnx.py",
+    "wrapperSHA256": "2df3524243b8e807b0e4756d98bd3f8fd7456feaf6d04da7502a24a54d74e2bc"
+  },
+  "publicReleaseInventory": {
+    "revision": "af6d057c9b0ec4071d4c49c80e3539258798b609",
+    "files": [
+      ".gitattributes",
+      "1k3d68.onnx",
+      "2d106det.onnx",
+      "LICENSE.md",
+      "README.md",
+      "genderage.onnx",
+      "glintr100.onnx",
+      "scrfd_10g_bnkps.onnx"
+    ],
+    "source": "https://huggingface.co/api/models/fal/AuraFace-v1/revision/af6d057c9b0ec4071d4c49c80e3539258798b609?blobs=true",
+    "metadataSHA256": "5750563f171ac5a0829cf9461351e24461e67f3b1e0476fb37d374c6de8d6942"
+  },
+  "cppWrongWeightRejected": true,
+  "cppRepeatBitEqual": true,
+  "linuxEnvironment": "linux/amd64, Ubuntu 24.04.5, g++ 13.3, Docker emulation on arm64 Mac; development compatibility only",
+  "files": {
+    "parity-receipt.json": "64b20620373093eed25566abe47452400ef912a687d6ee50b75e7e0d31c65c3c",
+    "linux-black.bin": "eaa826328e71423db6e25cfcf65b7435a22361831f74056bb83cd4fc2b01daf5",
+    "dependencies.json": "0e8d4a923341e496718df232b68dde9d47d35e389df54742ed2573473eae65da",
+    "linux-ramp.bin": "3ced26197c6123bc1a4f17cf31289d432363564762b4f2405693a92ccbee482d",
+    "run-linux.sh": "006ff402e3eac11ece70cb2658d279190f9080d0bbde40895a0f366f2bbb951a",
+    "invalid-model.onnx": "f1234d75178d892a133a410355a5a990cf75d2f33eba25d575943d4df632f3a4",
+    "probe.cpp": "27b60bb2bcfa915a0465d3a8eaecddd2075cbf45cd4d51380dc0a641d71a7b96",
+    "linux-white.bin": "aa3bab3aeaeba112b2acd4c3923821addcbaf3232946a39e102791506481cfdf",
+    "mac-features.bin": "50d1592db6d505ba3a932521310aa716a182bfbc2f642ac09be51f2d6f81c415",
+    "public-files.json": "7b7afaf65ceafe4b804e44a5ed83dfa000eb6fe9adabb3e7fb8ac6f40f399eec",
+    "linux-features.bin": "3ced26197c6123bc1a4f17cf31289d432363564762b4f2405693a92ccbee482d",
+    "compare.py": "b96c4aff46b8d1a6753e77a6434f521c561deb0b5d2222a1765b6a457de49e7c"
+  },
+  "portableSourceSHA256": {
+    "biometric/cpp/include/kenshiki/portrait.hpp": "56b54668fd42254f1706cd6e08f47d70a79d7b0cf3d7ae5d0736a01fce3e9caf",
+    "biometric/cpp/src/portrait.cpp": "d7ea9c8a7da2de230e9a7fd4f9beb218f08f29df09c9da91b5240e0a1acf25e5"
+  },
+  "opencvWheelSHA256": "48128188ade4a7e517237c8e1e11a9cdf5c282761473383e77beb875bb1e61ca",
+  "linuxContainerImageID": "sha256:35c4b9d94411956cc8373d40218626f361ef8a5bb9bee2aa82ad5ede785f327e"
+}

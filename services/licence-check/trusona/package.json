@@ -1,0 +1,30 @@
+{
+  "name": "@kenshiki-labs/licence-check-trusona",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Trusona Driver License Verification adapter for the licence-check core (pulse.dldv.v1).",
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "node scripts/check.mjs --tests",
+    "check": "node scripts/check.mjs"
+  },
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=22.22.2"
+  },
+  "dependencies": {
+    "@kenshiki-labs/licence-check": "0.0.0"
+  }
+}

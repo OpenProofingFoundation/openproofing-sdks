@@ -1,0 +1,443 @@
+{
+  "schemaVersion": 1,
+  "contract": "kenshiki.embedding-math/1",
+  "absoluteTolerance": 1e-12,
+  "normRelativeTolerance": 1e-12,
+  "baseSpace": {
+    "artifactManifestSHA256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "domain": "face_identity",
+    "dimensions": 2,
+    "minimumNorm": 0.01
+  },
+  "vectors": [
+    {
+      "id": "known-three-four",
+      "operation": "normalize",
+      "leftFeatures": [
+        3,
+        4
+      ],
+      "expect": {
+        "norm": 5,
+        "components": [
+          0.6,
+          0.8
+        ]
+      }
+    },
+    {
+      "id": "negative-components",
+      "operation": "normalize",
+      "leftFeatures": [
+        -3,
+        -4
+      ],
+      "expect": {
+        "norm": 5,
+        "components": [
+          -0.6,
+          -0.8
+        ]
+      }
+    },
+    {
+      "id": "exact-floor",
+      "operation": "normalize",
+      "leftFeatures": [
+        3,
+        4
+      ],
+      "spaceOverrides": {
+        "minimumNorm": 5
+      },
+      "expect": {
+        "norm": 5,
+        "components": [
+          0.6,
+          0.8
+        ]
+      }
+    },
+    {
+      "id": "below-floor",
+      "operation": "normalize",
+      "leftFeatures": [
+        3,
+        4
+      ],
+      "spaceOverrides": {
+        "minimumNorm": 5.000000000000001
+      },
+      "expect": {
+        "failure": "invalid_norm"
+      }
+    },
+    {
+      "id": "zero-vector",
+      "operation": "normalize",
+      "leftFeatures": [
+        0,
+        0
+      ],
+      "expect": {
+        "failure": "invalid_norm"
+      }
+    },
+    {
+      "id": "dimension-missing",
+      "operation": "normalize",
+      "leftFeatures": [],
+      "expect": {
+        "failure": "dimension_mismatch"
+      }
+    },
+    {
+      "id": "dimension-short",
+      "operation": "normalize",
+      "leftFeatures": [
+        1
+      ],
+      "expect": {
+        "failure": "dimension_mismatch"
+      }
+    },
+    {
+      "id": "dimension-long",
+      "operation": "normalize",
+      "leftFeatures": [
+        1,
+        2,
+        3
+      ],
+      "expect": {
+        "failure": "dimension_mismatch"
+      }
+    },
+    {
+      "id": "feature-nan",
+      "operation": "normalize",
+      "leftFeatures": [
+        "nan",
+        1
+      ],
+      "expect": {
+        "failure": "nonfinite_feature"
+      }
+    },
+    {
+      "id": "feature-positive_infinity",
+      "operation": "normalize",
+      "leftFeatures": [
+        "positive_infinity",
+        1
+      ],
+      "expect": {
+        "failure": "nonfinite_feature"
+      }
+    },
+    {
+      "id": "feature-negative_infinity",
+      "operation": "normalize",
+      "leftFeatures": [
+        "negative_infinity",
+        1
+      ],
+      "expect": {
+        "failure": "nonfinite_feature"
+      }
+    },
+    {
+      "id": "shape-before-nonfinite",
+      "operation": "normalize",
+      "leftFeatures": [
+        "nan"
+      ],
+      "expect": {
+        "failure": "dimension_mismatch"
+      }
+    },
+    {
+      "id": "floor-zero",
+      "operation": "normalize",
+      "leftFeatures": [
+        3,
+        4
+      ],
+      "spaceOverrides": {
+        "minimumNorm": 0
+      },
+      "expect": {
+        "failure": "invalid_space"
+      }
+    },
+    {
+      "id": "floor-negative",
+      "operation": "normalize",
+      "leftFeatures": [
+        3,
+        4
+      ],
+      "spaceOverrides": {
+        "minimumNorm": -1
+      },
+      "expect": {
+        "failure": "invalid_space"
+      }
+    },
+    {
+      "id": "floor-nan",
+      "operation": "normalize",
+      "leftFeatures": [
+        3,
+        4
+      ],
+      "spaceOverrides": {
+        "minimumNorm": "nan"
+      },
+      "expect": {
+        "failure": "invalid_space"
+      }
+    },
+    {
+      "id": "floor-infinity",
+      "operation": "normalize",
+      "leftFeatures": [
+        3,
+        4
+      ],
+      "spaceOverrides": {
+        "minimumNorm": "positive_infinity"
+      },
+      "expect": {
+        "failure": "invalid_space"
+      }
+    },
+    {
+      "id": "dimension-zero",
+      "operation": "normalize",
+      "leftFeatures": [
+        3,
+        4
+      ],
+      "spaceOverrides": {
+        "dimensions": 0
+      },
+      "expect": {
+        "failure": "invalid_space"
+      }
+    },
+    {
+      "id": "manifest-short",
+      "operation": "normalize",
+      "leftFeatures": [
+        3,
+        4
+      ],
+      "spaceOverrides": {
+        "artifactManifestSHA256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+      },
+      "expect": {
+        "failure": "invalid_digest"
+      }
+    },
+    {
+      "id": "manifest-uppercase",
+      "operation": "normalize",
+      "leftFeatures": [
+        3,
+        4
+      ],
+      "spaceOverrides": {
+        "artifactManifestSHA256": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+      },
+      "expect": {
+        "failure": "invalid_digest"
+      }
+    },
+    {
+      "id": "manifest-nonhex",
+      "operation": "normalize",
+      "leftFeatures": [
+        3,
+        4
+      ],
+      "spaceOverrides": {
+        "artifactManifestSHA256": "gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg"
+      },
+      "expect": {
+        "failure": "invalid_digest"
+      }
+    },
+    {
+      "id": "parallel",
+      "operation": "compare",
+      "leftFeatures": [
+        3,
+        4
+      ],
+      "rightFeatures": [
+        6,
+        8
+      ],
+      "expect": {
+        "cosine": 1,
+        "angularDistanceRadians": 0
+      }
+    },
+    {
+      "id": "antipodal",
+      "operation": "compare",
+      "leftFeatures": [
+        3,
+        4
+      ],
+      "rightFeatures": [
+        -3,
+        -4
+      ],
+      "expect": {
+        "cosine": -1,
+        "angularDistanceRadians": 3.141592653589793
+      }
+    },
+    {
+      "id": "orthogonal",
+      "operation": "compare",
+      "leftFeatures": [
+        3,
+        4
+      ],
+      "rightFeatures": [
+        4,
+        -3
+      ],
+      "expect": {
+        "cosine": 0,
+        "angularDistanceRadians": 1.5707963267948966
+      }
+    },
+    {
+      "id": "incompatible-artifactManifestSHA256",
+      "operation": "compare",
+      "leftFeatures": [
+        3,
+        4
+      ],
+      "rightFeatures": [
+        3,
+        4
+      ],
+      "rightSpaceOverrides": {
+        "artifactManifestSHA256": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb"
+      },
+      "expect": {
+        "failure": "incompatible_space"
+      }
+    },
+    {
+      "id": "incompatible-domain",
+      "operation": "compare",
+      "leftFeatures": [
+        3,
+        4
+      ],
+      "rightFeatures": [
+        3,
+        4
+      ],
+      "rightSpaceOverrides": {
+        "domain": "document_revision"
+      },
+      "expect": {
+        "failure": "incompatible_space"
+      }
+    },
+    {
+      "id": "incompatible-minimumNorm",
+      "operation": "compare",
+      "leftFeatures": [
+        3,
+        4
+      ],
+      "rightFeatures": [
+        3,
+        4
+      ],
+      "rightSpaceOverrides": {
+        "minimumNorm": 0.02
+      },
+      "expect": {
+        "failure": "incompatible_space"
+      }
+    },
+    {
+      "id": "incompatible-dimension",
+      "operation": "compare",
+      "leftFeatures": [
+        3,
+        4
+      ],
+      "rightFeatures": [
+        1
+      ],
+      "rightSpaceOverrides": {
+        "dimensions": 1
+      },
+      "expect": {
+        "failure": "incompatible_space"
+      }
+    },
+    {
+      "id": "fp32-smallest-subnormal",
+      "operation": "normalize",
+      "leftFeatures": [
+        1.401298464324817e-45,
+        0
+      ],
+      "spaceOverrides": {
+        "minimumNorm": 7.006492321624085e-46
+      },
+      "expect": {
+        "norm": 1.401298464324817e-45,
+        "components": [
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "id": "fp32-largest-finite",
+      "operation": "normalize",
+      "leftFeatures": [
+        3.4028234663852886e+38,
+        0
+      ],
+      "expect": {
+        "norm": 3.4028234663852886e+38,
+        "components": [
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "id": "fp32-extreme-scale-invariance",
+      "operation": "compare",
+      "leftFeatures": [
+        1.401298464324817e-45,
+        0
+      ],
+      "rightFeatures": [
+        3.4028234663852886e+38,
+        0
+      ],
+      "spaceOverrides": {
+        "minimumNorm": 7.006492321624085e-46
+      },
+      "expect": {
+        "cosine": 1,
+        "angularDistanceRadians": 0
+      }
+    }
+  ]
+}

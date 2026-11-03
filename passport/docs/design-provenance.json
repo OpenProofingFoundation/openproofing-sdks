@@ -1,0 +1,21 @@
+{
+  "created": "2026-10-16",
+  "sourceRepository": "kenshiki-identity-sdk",
+  "sourceHEAD": "4b407a7bc5eb14a2f5913a77cd919fcde4c11290",
+  "sourceState": "Working-tree hashes identify governing documents; no passport implementation copied.",
+  "documents": [
+    {
+      "document": "APP-ARCH-001",
+      "revision": "0.1",
+      "sourcePath": "docs/architecture/APP-ARCH-001.md",
+      "sourceSHA256": "f4486c204325d686ea483f91a15ed8a6d356198849d942914054283220bac60d"
+    },
+    {
+      "document": "SPEC-IDBIO-200",
+      "revision": "3.1",
+      "sourcePath": "docs/edge-verification/SPEC-IDBIO-200.md",
+      "sourceSHA256": "3587cb84277ce372150ef74202f5e2eab06fef48d6d1b236c87b8f6bb60353aa"
+    }
+  ],
+  "localSnapshot": "../../governance/references/edge-verification/SPEC-IDBIO-200.md"
+}

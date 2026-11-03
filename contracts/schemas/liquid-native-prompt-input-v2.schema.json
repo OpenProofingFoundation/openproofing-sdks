@@ -1,0 +1,947 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://schemas.kenshiki.dev/contracts/liquid-native-prompt-input-v2.schema.json",
+  "title": "Liquid native evidence-review input v2",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "images",
+    "context"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "const": 1
+    },
+    "images": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "imageId",
+          "role",
+          "sha256",
+          "width",
+          "height",
+          "timestampSeconds"
+        ],
+        "properties": {
+          "imageId": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 128,
+            "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]*(?![\\s\\S])"
+          },
+          "role": {
+            "enum": [
+              "reference",
+              "selfie",
+              "selfie_sequence"
+            ]
+          },
+          "sha256": {
+            "type": "string",
+            "minLength": 64,
+            "maxLength": 64,
+            "pattern": "^[0-9a-f]{64}(?![\\s\\S])"
+          },
+          "width": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 4096
+          },
+          "height": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 4096
+          },
+          "timestampSeconds": {
+            "anyOf": [
+              {
+                "type": "number",
+                "minimum": 0
+              },
+              {
+                "type": "null"
+              }
+            ]
+          }
+        }
+      },
+      "maxItems": 10,
+      "minItems": 2
+    },
+    "context": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "aura",
+        "age",
+        "capture"
+      ],
+      "properties": {
+        "aura": {
+          "oneOf": [
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "status",
+                "reason"
+              ],
+              "properties": {
+                "status": {
+                  "const": "not_provided"
+                },
+                "reason": {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxLength": 240,
+                  "pattern": "\\S",
+                  "not": {
+                    "pattern": "[\\u0000-\\u001F\\u007F]"
+                  }
+                }
+              }
+            },
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "status",
+                "cosineSimilarity",
+                "interpretation",
+                "policyId",
+                "resultSHA256",
+                "referenceSHA256",
+                "selfieSHA256"
+              ],
+              "properties": {
+                "status": {
+                  "const": "available"
+                },
+                "cosineSimilarity": {
+                  "type": "number",
+                  "minimum": -1,
+                  "maximum": 1
+                },
+                "interpretation": {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxLength": 240,
+                  "pattern": "\\S",
+                  "not": {
+                    "pattern": "[\\u0000-\\u001F\\u007F]"
+                  }
+                },
+                "policyId": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "minLength": 1,
+                      "maxLength": 128,
+                      "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]*(?![\\s\\S])"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "resultSHA256": {
+                  "type": "string",
+                  "minLength": 64,
+                  "maxLength": 64,
+                  "pattern": "^[0-9a-f]{64}(?![\\s\\S])"
+                },
+                "referenceSHA256": {
+                  "type": "string",
+                  "minLength": 64,
+                  "maxLength": 64,
+                  "pattern": "^[0-9a-f]{64}(?![\\s\\S])"
+                },
+                "selfieSHA256": {
+                  "type": "string",
+                  "minLength": 64,
+                  "maxLength": 64,
+                  "pattern": "^[0-9a-f]{64}(?![\\s\\S])"
+                }
+              }
+            }
+          ]
+        },
+        "age": {
+          "oneOf": [
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "status",
+                "reason"
+              ],
+              "properties": {
+                "status": {
+                  "const": "not_provided"
+                },
+                "reason": {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxLength": 240,
+                  "pattern": "\\S",
+                  "not": {
+                    "pattern": "[\\u0000-\\u001F\\u007F]"
+                  }
+                }
+              }
+            },
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "status",
+                "dateOfBirth",
+                "dobEvidenceId",
+                "credentialEvidenceId",
+                "selfieCaptureDate",
+                "expectedAgeAtSelfieCapture",
+                "referencePhotoDate",
+                "expectedAgeAtReferencePhoto",
+                "documentIssueDate"
+              ],
+              "properties": {
+                "status": {
+                  "const": "available"
+                },
+                "dateOfBirth": {
+                  "type": "string",
+                  "format": "date"
+                },
+                "dobEvidenceId": {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxLength": 128,
+                  "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]*(?![\\s\\S])"
+                },
+                "credentialEvidenceId": {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxLength": 128,
+                  "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]*(?![\\s\\S])"
+                },
+                "selfieCaptureDate": {
+                  "type": "string",
+                  "format": "date"
+                },
+                "expectedAgeAtSelfieCapture": {
+                  "type": "integer",
+                  "minimum": 0,
+                  "maximum": 130
+                },
+                "referencePhotoDate": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "format": "date"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "expectedAgeAtReferencePhoto": {
+                  "anyOf": [
+                    {
+                      "type": "integer",
+                      "minimum": 0,
+                      "maximum": 130
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "documentIssueDate": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "format": "date"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        "capture": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "mode",
+            "sequenceSHA256",
+            "clockDomain",
+            "motion",
+            "depth",
+            "measurements"
+          ],
+          "properties": {
+            "mode": {
+              "enum": [
+                "still",
+                "sequence"
+              ]
+            },
+            "sequenceSHA256": {
+              "anyOf": [
+                {
+                  "type": "string",
+                  "minLength": 64,
+                  "maxLength": 64,
+                  "pattern": "^[0-9a-f]{64}(?![\\s\\S])"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "clockDomain": {
+              "anyOf": [
+                {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxLength": 128,
+                  "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]*(?![\\s\\S])"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "motion": {
+              "oneOf": [
+                {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "required": [
+                    "status",
+                    "reason"
+                  ],
+                  "properties": {
+                    "status": {
+                      "const": "not_provided"
+                    },
+                    "reason": {
+                      "type": "string",
+                      "minLength": 1,
+                      "maxLength": 240,
+                      "pattern": "\\S",
+                      "not": {
+                        "pattern": "[\\u0000-\\u001F\\u007F]"
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "required": [
+                    "status",
+                    "sourceSHA256",
+                    "sequenceSHA256",
+                    "clockAlignmentVerified",
+                    "observations"
+                  ],
+                  "properties": {
+                    "status": {
+                      "const": "available"
+                    },
+                    "sourceSHA256": {
+                      "type": "string",
+                      "minLength": 64,
+                      "maxLength": 64,
+                      "pattern": "^[0-9a-f]{64}(?![\\s\\S])"
+                    },
+                    "sequenceSHA256": {
+                      "type": "string",
+                      "minLength": 64,
+                      "maxLength": 64,
+                      "pattern": "^[0-9a-f]{64}(?![\\s\\S])"
+                    },
+                    "clockAlignmentVerified": {
+                      "const": true
+                    },
+                    "observations": {
+                      "type": "array",
+                      "items": {
+                        "type": "string",
+                        "minLength": 1,
+                        "maxLength": 240,
+                        "pattern": "\\S",
+                        "not": {
+                          "pattern": "[\\u0000-\\u001F\\u007F]"
+                        }
+                      },
+                      "maxItems": 8
+                    }
+                  }
+                }
+              ]
+            },
+            "depth": {
+              "oneOf": [
+                {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "required": [
+                    "status",
+                    "reason"
+                  ],
+                  "properties": {
+                    "status": {
+                      "const": "not_provided"
+                    },
+                    "reason": {
+                      "type": "string",
+                      "minLength": 1,
+                      "maxLength": 240,
+                      "pattern": "\\S",
+                      "not": {
+                        "pattern": "[\\u0000-\\u001F\\u007F]"
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "required": [
+                    "status",
+                    "sourceSHA256",
+                    "sequenceSHA256",
+                    "clockAlignmentVerified",
+                    "observations"
+                  ],
+                  "properties": {
+                    "status": {
+                      "const": "available"
+                    },
+                    "sourceSHA256": {
+                      "type": "string",
+                      "minLength": 64,
+                      "maxLength": 64,
+                      "pattern": "^[0-9a-f]{64}(?![\\s\\S])"
+                    },
+                    "sequenceSHA256": {
+                      "type": "string",
+                      "minLength": 64,
+                      "maxLength": 64,
+                      "pattern": "^[0-9a-f]{64}(?![\\s\\S])"
+                    },
+                    "clockAlignmentVerified": {
+                      "const": true
+                    },
+                    "observations": {
+                      "type": "array",
+                      "items": {
+                        "type": "string",
+                        "minLength": 1,
+                        "maxLength": 240,
+                        "pattern": "\\S",
+                        "not": {
+                          "pattern": "[\\u0000-\\u001F\\u007F]"
+                        }
+                      },
+                      "maxItems": 8
+                    }
+                  }
+                }
+              ]
+            },
+            "measurements": {
+              "oneOf": [
+                {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "required": [
+                    "status",
+                    "reason"
+                  ],
+                  "properties": {
+                    "status": {
+                      "const": "not_provided"
+                    },
+                    "reason": {
+                      "type": "string",
+                      "minLength": 1,
+                      "maxLength": 240,
+                      "pattern": "\\S",
+                      "not": {
+                        "pattern": "[\\u0000-\\u001F\\u007F]"
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "required": [
+                    "status",
+                    "sourceSHA256",
+                    "imageSHA256",
+                    "frameTimestampSeconds",
+                    "clockDomain",
+                    "depth",
+                    "blink",
+                    "tracking",
+                    "quality",
+                    "motion"
+                  ],
+                  "properties": {
+                    "status": {
+                      "const": "available"
+                    },
+                    "sourceSHA256": {
+                      "type": "string",
+                      "minLength": 64,
+                      "maxLength": 64,
+                      "pattern": "^[0-9a-f]{64}$"
+                    },
+                    "imageSHA256": {
+                      "type": "string",
+                      "minLength": 64,
+                      "maxLength": 64,
+                      "pattern": "^[0-9a-f]{64}$"
+                    },
+                    "frameTimestampSeconds": {
+                      "type": "number",
+                      "minimum": 0
+                    },
+                    "clockDomain": {
+                      "const": "arkit_session_seconds"
+                    },
+                    "depth": {
+                      "anyOf": [
+                        {
+                          "type": "object",
+                          "additionalProperties": false,
+                          "required": [
+                            "sourceSHA256",
+                            "imageTimestampSeconds",
+                            "depthTimestampSeconds",
+                            "ageAtAdmissionSeconds",
+                            "mapWidth",
+                            "mapHeight",
+                            "filtered",
+                            "sampleCount",
+                            "residualRMSMetres"
+                          ],
+                          "properties": {
+                            "sourceSHA256": {
+                              "type": "string",
+                              "minLength": 64,
+                              "maxLength": 64,
+                              "pattern": "^[0-9a-f]{64}$"
+                            },
+                            "imageTimestampSeconds": {
+                              "type": "number",
+                              "minimum": 0
+                            },
+                            "depthTimestampSeconds": {
+                              "type": "number",
+                              "minimum": 0
+                            },
+                            "ageAtAdmissionSeconds": {
+                              "type": "number",
+                              "minimum": 0
+                            },
+                            "mapWidth": {
+                              "type": "integer",
+                              "minimum": 1,
+                              "maximum": 2147483647
+                            },
+                            "mapHeight": {
+                              "type": "integer",
+                              "minimum": 1,
+                              "maximum": 2147483647
+                            },
+                            "filtered": {
+                              "type": "boolean"
+                            },
+                            "sampleCount": {
+                              "type": "integer",
+                              "minimum": 0,
+                              "maximum": 2147483647
+                            },
+                            "residualRMSMetres": {
+                              "anyOf": [
+                                {
+                                  "type": "number",
+                                  "minimum": 0
+                                },
+                                {
+                                  "type": "null"
+                                }
+                              ]
+                            }
+                          }
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ]
+                    },
+                    "blink": {
+                      "anyOf": [
+                        {
+                          "type": "object",
+                          "additionalProperties": false,
+                          "required": [
+                            "completedAtSeconds",
+                            "ageSeconds",
+                            "leftEyeClosed",
+                            "rightEyeClosed",
+                            "eyesOpen"
+                          ],
+                          "properties": {
+                            "completedAtSeconds": {
+                              "type": "number",
+                              "minimum": 0
+                            },
+                            "ageSeconds": {
+                              "type": "number",
+                              "minimum": 0
+                            },
+                            "leftEyeClosed": {
+                              "type": "number",
+                              "minimum": 0,
+                              "maximum": 1
+                            },
+                            "rightEyeClosed": {
+                              "type": "number",
+                              "minimum": 0,
+                              "maximum": 1
+                            },
+                            "eyesOpen": {
+                              "type": "boolean"
+                            }
+                          }
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ]
+                    },
+                    "tracking": {
+                      "anyOf": [
+                        {
+                          "type": "object",
+                          "additionalProperties": false,
+                          "required": [
+                            "consecutiveFrames",
+                            "steadyHoldSeconds"
+                          ],
+                          "properties": {
+                            "consecutiveFrames": {
+                              "type": "integer",
+                              "minimum": 0,
+                              "maximum": 2147483647
+                            },
+                            "steadyHoldSeconds": {
+                              "type": "number",
+                              "minimum": 0
+                            }
+                          }
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ]
+                    },
+                    "quality": {
+                      "anyOf": [
+                        {
+                          "type": "object",
+                          "additionalProperties": false,
+                          "required": [
+                            "score",
+                            "revision",
+                            "insideGuide",
+                            "analysisDurationSeconds",
+                            "frameAgeAtAdmissionSeconds"
+                          ],
+                          "properties": {
+                            "score": {
+                              "anyOf": [
+                                {
+                                  "type": "number",
+                                  "minimum": 0,
+                                  "maximum": 1
+                                },
+                                {
+                                  "type": "null"
+                                }
+                              ]
+                            },
+                            "revision": {
+                              "anyOf": [
+                                {
+                                  "type": "integer",
+                                  "minimum": 0,
+                                  "maximum": 2147483647
+                                },
+                                {
+                                  "type": "null"
+                                }
+                              ]
+                            },
+                            "insideGuide": {
+                              "anyOf": [
+                                {
+                                  "type": "boolean"
+                                },
+                                {
+                                  "type": "null"
+                                }
+                              ]
+                            },
+                            "analysisDurationSeconds": {
+                              "anyOf": [
+                                {
+                                  "type": "number",
+                                  "minimum": 0
+                                },
+                                {
+                                  "type": "null"
+                                }
+                              ]
+                            },
+                            "frameAgeAtAdmissionSeconds": {
+                              "anyOf": [
+                                {
+                                  "type": "number",
+                                  "minimum": 0
+                                },
+                                {
+                                  "type": "null"
+                                }
+                              ]
+                            }
+                          }
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ]
+                    },
+                    "motion": {
+                      "anyOf": [
+                        {
+                          "type": "object",
+                          "additionalProperties": false,
+                          "required": [
+                            "sourceSHA256",
+                            "frameTimestampSeconds",
+                            "windowStartTimestampSeconds",
+                            "windowEndTimestampSeconds",
+                            "requestedSampleRateHz",
+                            "clockDomain",
+                            "alignment",
+                            "summary"
+                          ],
+                          "properties": {
+                            "sourceSHA256": {
+                              "type": "string",
+                              "minLength": 64,
+                              "maxLength": 64,
+                              "pattern": "^[0-9a-f]{64}$"
+                            },
+                            "frameTimestampSeconds": {
+                              "type": "number",
+                              "minimum": 0
+                            },
+                            "windowStartTimestampSeconds": {
+                              "type": "number",
+                              "minimum": 0
+                            },
+                            "windowEndTimestampSeconds": {
+                              "type": "number",
+                              "minimum": 0
+                            },
+                            "requestedSampleRateHz": {
+                              "const": 50
+                            },
+                            "clockDomain": {
+                              "const": "core_motion_boot_seconds"
+                            },
+                            "alignment": {
+                              "const": "host_uptime_checked"
+                            },
+                            "summary": {
+                              "type": "object",
+                              "additionalProperties": false,
+                              "required": [
+                                "ceremony",
+                                "sampleCount",
+                                "durationSeconds",
+                                "accelerationRMSg",
+                                "rotationRMSRadPerSecond",
+                                "tremorBandRatio",
+                                "gravityDominantAxis",
+                                "gravityDominance",
+                                "gravityDriftRadians",
+                                "approachRMSg",
+                                "settleRatio",
+                                "magneticDeltaMicrotesla",
+                                "magnetometerCalibrated",
+                                "rawWindowSHA256"
+                              ],
+                              "properties": {
+                                "ceremony": {
+                                  "const": "face_match"
+                                },
+                                "sampleCount": {
+                                  "type": "integer",
+                                  "minimum": 2,
+                                  "maximum": 300
+                                },
+                                "durationSeconds": {
+                                  "type": "number",
+                                  "minimum": 0,
+                                  "maximum": 5.000001
+                                },
+                                "accelerationRMSg": {
+                                  "anyOf": [
+                                    {
+                                      "type": "number",
+                                      "minimum": 0
+                                    },
+                                    {
+                                      "type": "null"
+                                    }
+                                  ]
+                                },
+                                "rotationRMSRadPerSecond": {
+                                  "anyOf": [
+                                    {
+                                      "type": "number",
+                                      "minimum": 0
+                                    },
+                                    {
+                                      "type": "null"
+                                    }
+                                  ]
+                                },
+                                "tremorBandRatio": {
+                                  "anyOf": [
+                                    {
+                                      "type": "number",
+                                      "minimum": 0,
+                                      "maximum": 1
+                                    },
+                                    {
+                                      "type": "null"
+                                    }
+                                  ]
+                                },
+                                "gravityDominantAxis": {
+                                  "anyOf": [
+                                    {
+                                      "enum": [
+                                        "x",
+                                        "y",
+                                        "z"
+                                      ]
+                                    },
+                                    {
+                                      "type": "null"
+                                    }
+                                  ]
+                                },
+                                "gravityDominance": {
+                                  "anyOf": [
+                                    {
+                                      "type": "number",
+                                      "minimum": 0,
+                                      "maximum": 1
+                                    },
+                                    {
+                                      "type": "null"
+                                    }
+                                  ]
+                                },
+                                "gravityDriftRadians": {
+                                  "anyOf": [
+                                    {
+                                      "type": "number",
+                                      "minimum": 0,
+                                      "maximum": 3.141592653589793
+                                    },
+                                    {
+                                      "type": "null"
+                                    }
+                                  ]
+                                },
+                                "approachRMSg": {
+                                  "anyOf": [
+                                    {
+                                      "type": "number",
+                                      "minimum": 0
+                                    },
+                                    {
+                                      "type": "null"
+                                    }
+                                  ]
+                                },
+                                "settleRatio": {
+                                  "anyOf": [
+                                    {
+                                      "type": "number",
+                                      "minimum": 0
+                                    },
+                                    {
+                                      "type": "null"
+                                    }
+                                  ]
+                                },
+                                "magneticDeltaMicrotesla": {
+                                  "anyOf": [
+                                    {
+                                      "type": "number",
+                                      "minimum": 0
+                                    },
+                                    {
+                                      "type": "null"
+                                    }
+                                  ]
+                                },
+                                "magnetometerCalibrated": {
+                                  "type": "boolean"
+                                },
+                                "rawWindowSHA256": {
+                                  "type": "string",
+                                  "minLength": 64,
+                                  "maxLength": 64,
+                                  "pattern": "^[0-9a-f]{64}$"
+                                }
+                              }
+                            }
+                          }
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "description": "Local input with exact image and capture bindings. BFF request and challenge identities are supplied only by a BFF adapter."
+}

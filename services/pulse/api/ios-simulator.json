@@ -1,0 +1,2261 @@
+{
+  "relationships": [
+    {
+      "kind": "conformsTo",
+      "source": "s:21KenshikiPulsePassport010URLSessionB20BoundedHTTPTransportC",
+      "target": "s:21KenshikiPulsePassport0B20BoundedHTTPTransportP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:21KenshikiPulsePassport010URLSessionB20BoundedHTTPTransportC",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:21KenshikiPulsePassport010URLSessionB20BoundedHTTPTransportC",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:21KenshikiPulsePassport0B17NativeAttestationV",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:21KenshikiPulsePassport0B17NativeAttestationV",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:21KenshikiPulsePassport0B18AppAttestAssertionV",
+      "target": "s:SE"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:21KenshikiPulsePassport0B18AppAttestAssertionV",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:21KenshikiPulsePassport0B18AppAttestAssertionV",
+      "target": "s:Se"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:21KenshikiPulsePassport0B18AppAttestAssertionV",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:21KenshikiPulsePassport0B18AppAttestAssertionV",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:21KenshikiPulsePassport0B19BoundedHTTPResponseV",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:21KenshikiPulsePassport0B19BoundedHTTPResponseV",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:21KenshikiPulsePassport0B20BoundedHTTPTransportP",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:21KenshikiPulsePassport0B20BoundedHTTPTransportP",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:21KenshikiPulsePassport0B21RegistrationLifecycleV",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:21KenshikiPulsePassport0B21RegistrationLifecycleV",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:21KenshikiPulsePassport0B23RegistrationKeyRecoveryV",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:21KenshikiPulsePassport0B23RegistrationKeyRecoveryV",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:21KenshikiPulsePassport0B24RegistrationRetryFailureO",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:21KenshikiPulsePassport0B24RegistrationRetryFailureO",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:21KenshikiPulsePassport0B24RegistrationRetryFailureO",
+      "target": "s:s5ErrorP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:21KenshikiPulsePassport0B24RegistrationRetryFailureO",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:21KenshikiPulsePassport0B25BoundedHTTPTransportErrorO",
+      "target": "s:SH"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:21KenshikiPulsePassport0B25BoundedHTTPTransportErrorO",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:21KenshikiPulsePassport0B25BoundedHTTPTransportErrorO",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:21KenshikiPulsePassport0B25BoundedHTTPTransportErrorO",
+      "target": "s:s5ErrorP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:21KenshikiPulsePassport0B25BoundedHTTPTransportErrorO",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:21KenshikiPulsePassport0B27ChipAuthenticationChallengeV",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:21KenshikiPulsePassport0B27ChipAuthenticationChallengeV",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:21KenshikiPulsePassport0B27ChipAuthenticationChallengeV",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:21KenshikiPulsePassport0B27RegistrationRecoveryFailureO",
+      "target": "s:SH"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:21KenshikiPulsePassport0B27RegistrationRecoveryFailureO",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:21KenshikiPulsePassport0B27RegistrationRecoveryFailureO",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:21KenshikiPulsePassport0B27RegistrationRecoveryFailureO",
+      "target": "s:s5ErrorP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:21KenshikiPulsePassport0B27RegistrationRecoveryFailureO",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:21KenshikiPulsePassport0B29RegistrationUnknownKeyFailureP",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:21KenshikiPulsePassport0B29RegistrationUnknownKeyFailureP",
+      "target": "s:s5ErrorP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:21KenshikiPulsePassport0B29RegistrationUnknownKeyFailureP",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:21KenshikiPulsePassport0B30RegistrationAttestationContextV",
+      "target": "s:SE"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:21KenshikiPulsePassport0B30RegistrationAttestationContextV",
+      "target": "s:Se"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:21KenshikiPulsePassport0B30RegistrationAttestationContextV",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:21KenshikiPulsePassport0B30RegistrationAttestationContextV",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:21KenshikiPulsePassport0b8PreparedC0V",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:21KenshikiPulsePassport0b8PreparedC0V",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:21KenshikiPulsePassport0bC10AcceptanceV",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:21KenshikiPulsePassport0bC10AcceptanceV",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:21KenshikiPulsePassport0bC10DiagnosticV",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:21KenshikiPulsePassport0bC10DiagnosticV",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:21KenshikiPulsePassport0bC10DiagnosticV",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:21KenshikiPulsePassport0bC10KeyFailureV",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:21KenshikiPulsePassport0bC10KeyFailureV",
+      "target": "s:s5ErrorP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:21KenshikiPulsePassport0bC10KeyFailureV",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:21KenshikiPulsePassport0bC11AppMetadataV",
+      "target": "s:SE"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:21KenshikiPulsePassport0bC11AppMetadataV",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:21KenshikiPulsePassport0bC11AppMetadataV",
+      "target": "s:Se"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:21KenshikiPulsePassport0bC11AppMetadataV",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:21KenshikiPulsePassport0bC11AppMetadataV",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:21KenshikiPulsePassport0bC11CredentialsV",
+      "target": "s:SE"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:21KenshikiPulsePassport0bC11CredentialsV",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:21KenshikiPulsePassport0bC11CredentialsV",
+      "target": "s:Se"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:21KenshikiPulsePassport0bC11CredentialsV",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:21KenshikiPulsePassport0bC11CredentialsV",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:21KenshikiPulsePassport0bC11CredentialsV4ModeO",
+      "target": "s:SE"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:21KenshikiPulsePassport0bC11CredentialsV4ModeO",
+      "target": "s:SH"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:21KenshikiPulsePassport0bC11CredentialsV4ModeO",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:21KenshikiPulsePassport0bC11CredentialsV4ModeO",
+      "target": "s:SY"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:21KenshikiPulsePassport0bC11CredentialsV4ModeO",
+      "target": "s:Se"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:21KenshikiPulsePassport0bC11CredentialsV4ModeO",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:21KenshikiPulsePassport0bC11CredentialsV4ModeO",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:21KenshikiPulsePassport0bC11HTTPFailureV",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:21KenshikiPulsePassport0bC11HTTPFailureV",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:21KenshikiPulsePassport0bC11HTTPFailureV",
+      "target": "s:s5ErrorP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:21KenshikiPulsePassport0bC11HTTPFailureV",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:21KenshikiPulsePassport0bC12AcceptedReadV",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:21KenshikiPulsePassport0bC12AcceptedReadV",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:21KenshikiPulsePassport0bC12RegistrationC",
+      "target": "s:ScA"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:21KenshikiPulsePassport0bC12RegistrationC",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:21KenshikiPulsePassport0bC12RegistrationC",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:21KenshikiPulsePassport0bC12VerificationV",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:21KenshikiPulsePassport0bC12VerificationV",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:21KenshikiPulsePassport0bC12VerificationV",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:21KenshikiPulsePassport0bC12VerificationV6StatusO",
+      "target": "s:SE"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:21KenshikiPulsePassport0bC12VerificationV6StatusO",
+      "target": "s:SH"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:21KenshikiPulsePassport0bC12VerificationV6StatusO",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:21KenshikiPulsePassport0bC12VerificationV6StatusO",
+      "target": "s:SY"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:21KenshikiPulsePassport0bC12VerificationV6StatusO",
+      "target": "s:Se"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:21KenshikiPulsePassport0bC12VerificationV6StatusO",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:21KenshikiPulsePassport0bC12VerificationV6StatusO",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:21KenshikiPulsePassport0bC14DeviceMetadataV",
+      "target": "s:SE"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:21KenshikiPulsePassport0bC14DeviceMetadataV",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:21KenshikiPulsePassport0bC14DeviceMetadataV",
+      "target": "s:Se"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:21KenshikiPulsePassport0bC14DeviceMetadataV",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:21KenshikiPulsePassport0bC14DeviceMetadataV",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:21KenshikiPulsePassport0bC14ServiceFailureO",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:21KenshikiPulsePassport0bC14ServiceFailureO",
+      "target": "s:s5ErrorP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:21KenshikiPulsePassport0bC14ServiceFailureO",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:21KenshikiPulsePassport0bC16CheckObservationV",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:21KenshikiPulsePassport0bC16CheckObservationV",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:21KenshikiPulsePassport0bC16CheckObservationV",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:21KenshikiPulsePassport0bC16CheckObservationV0D0O",
+      "target": "s:SH"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:21KenshikiPulsePassport0bC16CheckObservationV0D0O",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:21KenshikiPulsePassport0bC16CheckObservationV0D0O",
+      "target": "s:SY"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:21KenshikiPulsePassport0bC16CheckObservationV0D0O",
+      "target": "s:s12CaseIterableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:21KenshikiPulsePassport0bC16CheckObservationV0D0O",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:21KenshikiPulsePassport0bC16CheckObservationV0D0O",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:21KenshikiPulsePassport0bC16HolderCapabilityV",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:21KenshikiPulsePassport0bC16HolderCapabilityV",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:21KenshikiPulsePassport0bC16HolderCapabilityV",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:21KenshikiPulsePassport0bC16PreparationStageO",
+      "target": "s:SH"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:21KenshikiPulsePassport0bC16PreparationStageO",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:21KenshikiPulsePassport0bC16PreparationStageO",
+      "target": "s:SY"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:21KenshikiPulsePassport0bC16PreparationStageO",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:21KenshikiPulsePassport0bC16PreparationStageO",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:21KenshikiPulsePassport0bC16RegistrationSlotV",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:21KenshikiPulsePassport0bC16RegistrationSlotV",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:21KenshikiPulsePassport0bC16ValidationReportV",
+      "target": "s:SE"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:21KenshikiPulsePassport0bC16ValidationReportV",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:21KenshikiPulsePassport0bC16ValidationReportV",
+      "target": "s:Se"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:21KenshikiPulsePassport0bC16ValidationReportV",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:21KenshikiPulsePassport0bC16ValidationReportV",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:21KenshikiPulsePassport0bC16ValidationReportV9AssuranceO",
+      "target": "s:SE"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:21KenshikiPulsePassport0bC16ValidationReportV9AssuranceO",
+      "target": "s:SH"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:21KenshikiPulsePassport0bC16ValidationReportV9AssuranceO",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:21KenshikiPulsePassport0bC16ValidationReportV9AssuranceO",
+      "target": "s:SY"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:21KenshikiPulsePassport0bC16ValidationReportV9AssuranceO",
+      "target": "s:Se"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:21KenshikiPulsePassport0bC16ValidationReportV9AssuranceO",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:21KenshikiPulsePassport0bC16ValidationReportV9AssuranceO",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:21KenshikiPulsePassport0bC19RegistrationFailureO",
+      "target": "s:SH"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:21KenshikiPulsePassport0bC19RegistrationFailureO",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:21KenshikiPulsePassport0bC19RegistrationFailureO",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:21KenshikiPulsePassport0bC19RegistrationFailureO",
+      "target": "s:s5ErrorP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:21KenshikiPulsePassport0bC19RegistrationFailureO",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:21KenshikiPulsePassport0bC19RegistrationStorageV",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:21KenshikiPulsePassport0bC19RegistrationStorageV",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:21KenshikiPulsePassport0bC25RegistrationConfigurationV",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:21KenshikiPulsePassport0bC25RegistrationConfigurationV",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:21KenshikiPulsePassport0bC25RegistrationMutationLeaseV",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:21KenshikiPulsePassport0bC25RegistrationMutationLeaseV",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:21KenshikiPulsePassport0bC4ReadV",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:21KenshikiPulsePassport0bC4ReadV",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:21KenshikiPulsePassport0bC5NonceV",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:21KenshikiPulsePassport0bC5NonceV",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:21KenshikiPulsePassport0bC5NonceV",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:21KenshikiPulsePassport0bC6ClientC",
+      "target": "s:ScA"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:21KenshikiPulsePassport0bC6ClientC",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:21KenshikiPulsePassport0bC6ClientC",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:21KenshikiPulsePassport0bC7FailureO",
+      "target": "s:SH"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:21KenshikiPulsePassport0bC7FailureO",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:21KenshikiPulsePassport0bC7FailureO",
+      "target": "s:SY"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:21KenshikiPulsePassport0bC7FailureO",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:21KenshikiPulsePassport0bC7FailureO",
+      "target": "s:s5ErrorP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:21KenshikiPulsePassport0bC7FailureO",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:21KenshikiPulsePassport0bC7ServiceC",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:21KenshikiPulsePassport0bC7ServiceC",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:21KenshikiPulsePassport0bC7SessionV",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:21KenshikiPulsePassport0bC7SessionV",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:21KenshikiPulsePassport0bC7SessionV",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:21KenshikiPulsePassport0bC9ChipProofV",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:21KenshikiPulsePassport0bC9ChipProofV",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:21KenshikiPulsePassport0bC9ChipProofV",
+      "target": "s:s8SendableP"
+    }
+  ],
+  "symbols": [
+    {
+      "declaration": "final class URLSessionPulseBoundedHTTPTransport",
+      "id": "s:21KenshikiPulsePassport010URLSessionB20BoundedHTTPTransportC",
+      "kind": "swift.class"
+    },
+    {
+      "declaration": "func post(to url: URL, headers: [String : String], body: Data, maxResponseBytes: Int) async throws -> PulseBoundedHTTPResponse",
+      "id": "s:21KenshikiPulsePassport010URLSessionB20BoundedHTTPTransportC4post2to7headers4body16maxResponseBytesAA0bE12HTTPResponseV10Foundation3URLV_SDyS2SGAK4DataVSitYaKF",
+      "kind": "swift.method"
+    },
+    {
+      "declaration": "init()",
+      "id": "s:21KenshikiPulsePassport010URLSessionB20BoundedHTTPTransportCACycfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "struct PulseNativeAttestation",
+      "id": "s:21KenshikiPulsePassport0B17NativeAttestationV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "init(installationToken: @escaping @Sendable () async throws -> String, assert: @escaping @Sendable (Data) async throws -> PulseAppAttestAssertion, recoverInstallationToken: (@Sendable () async throws -> String)? = nil)",
+      "id": "s:21KenshikiPulsePassport0B17NativeAttestationV17installationToken6assert019recoverInstallationG0ACSSyYaYbKc_AA0B18AppAttestAssertionV10Foundation4DataVYaYbKcSSyYaYbKcSgtcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "let installationToken: @Sendable () async throws -> String",
+      "id": "s:21KenshikiPulsePassport0B17NativeAttestationV17installationTokenSSyYaYbKcvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let recoverInstallationToken: (@Sendable () async throws -> String)?",
+      "id": "s:21KenshikiPulsePassport0B17NativeAttestationV24recoverInstallationTokenSSyYaYbKcSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let assert: @Sendable (Data) async throws -> PulseAppAttestAssertion",
+      "id": "s:21KenshikiPulsePassport0B17NativeAttestationV6assertyAA0B18AppAttestAssertionV10Foundation4DataVYaYbKcvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "struct PulseAppAttestAssertion",
+      "id": "s:21KenshikiPulsePassport0B18AppAttestAssertionV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "let clientDataHash: String",
+      "id": "s:21KenshikiPulsePassport0B18AppAttestAssertionV14clientDataHashSSvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let assertionObject: String?",
+      "id": "s:21KenshikiPulsePassport0B18AppAttestAssertionV15assertionObjectSSSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let authenticatorData: String?",
+      "id": "s:21KenshikiPulsePassport0B18AppAttestAssertionV17authenticatorDataSSSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "init(from decoder: any Decoder) throws",
+      "id": "s:21KenshikiPulsePassport0B18AppAttestAssertionV4fromACs7Decoder_p_tKcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "init(keyID: String, clientDataHash: String, authenticatorData: String, signature: String)",
+      "id": "s:21KenshikiPulsePassport0B18AppAttestAssertionV5keyID14clientDataHash013authenticatorJ09signatureACSS_S3Stcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "init(keyID: String, clientDataHash: String, assertionObject: String)",
+      "id": "s:21KenshikiPulsePassport0B18AppAttestAssertionV5keyID14clientDataHash15assertionObjectACSS_S2Stcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "let keyID: String",
+      "id": "s:21KenshikiPulsePassport0B18AppAttestAssertionV5keyIDSSvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "func encode(to encoder: any Encoder) throws",
+      "id": "s:21KenshikiPulsePassport0B18AppAttestAssertionV6encode2toys7Encoder_p_tKF",
+      "kind": "swift.method"
+    },
+    {
+      "declaration": "let signature: String?",
+      "id": "s:21KenshikiPulsePassport0B18AppAttestAssertionV9signatureSSSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "struct PulseBoundedHTTPResponse",
+      "id": "s:21KenshikiPulsePassport0B19BoundedHTTPResponseV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "init(statusCode: Int, body: Data, responseURL: URL?, mimeType: String?)",
+      "id": "s:21KenshikiPulsePassport0B19BoundedHTTPResponseV10statusCode4body11responseURL8mimeTypeACSi_10Foundation4DataVAH0J0VSgSSSgtcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "let statusCode: Int",
+      "id": "s:21KenshikiPulsePassport0B19BoundedHTTPResponseV10statusCodeSivp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let responseURL: URL?",
+      "id": "s:21KenshikiPulsePassport0B19BoundedHTTPResponseV11responseURL10Foundation0G0VSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let body: Data",
+      "id": "s:21KenshikiPulsePassport0B19BoundedHTTPResponseV4body10Foundation4DataVvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let mimeType: String?",
+      "id": "s:21KenshikiPulsePassport0B19BoundedHTTPResponseV8mimeTypeSSSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "protocol PulseBoundedHTTPTransport : Sendable",
+      "id": "s:21KenshikiPulsePassport0B20BoundedHTTPTransportP",
+      "kind": "swift.protocol"
+    },
+    {
+      "declaration": "func post(to url: URL, headers: [String : String], body: Data, maxResponseBytes: Int) async throws -> PulseBoundedHTTPResponse",
+      "id": "s:21KenshikiPulsePassport0B20BoundedHTTPTransportP4post2to7headers4body16maxResponseBytesAA0bD12HTTPResponseV10Foundation3URLV_SDyS2SGAK4DataVSitYaKF",
+      "kind": "swift.method"
+    },
+    {
+      "declaration": "struct PulseRegistrationLifecycle",
+      "id": "s:21KenshikiPulsePassport0B21RegistrationLifecycleV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "init(configuration: PulsePassportRegistrationConfiguration, keys: RegisteredKeyEnrollmentPorts, send: @escaping @Sendable (String, String, Data) async throws -> Data, now: @escaping @Sendable () -> Date = {Date()}, makeRequestID: @escaping @Sendable () -> String = {UUID().uuidString.lowercased()})",
+      "id": "s:21KenshikiPulsePassport0B21RegistrationLifecycleV13configuration4keys4send3now13makeRequestIDAcA0bcD13ConfigurationV_0A16OperationBinding28RegisteredKeyEnrollmentPortsV10Foundation4DataVSS_SSAPtYaYbKcAN4DateVyYbcSSyYbctcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "func candidate(original: PulsePassportCredentials?, app: PulsePassportAppMetadata, device: PulsePassportDeviceMetadata) async throws -> PulsePassportCredentials",
+      "id": "s:21KenshikiPulsePassport0B21RegistrationLifecycleV9candidate8original3app6deviceAA0bC11CredentialsVAISg_AA0bC11AppMetadataVAA0bc6DeviceL0VtYaKF",
+      "kind": "swift.method"
+    },
+    {
+      "declaration": "func completed(_ credentials: PulsePassportCredentials) async throws",
+      "id": "s:21KenshikiPulsePassport0B21RegistrationLifecycleV9completedyyAA0bC11CredentialsVYaKF",
+      "kind": "swift.method"
+    },
+    {
+      "declaration": "struct PulseRegistrationKeyRecovery",
+      "id": "s:21KenshikiPulsePassport0B23RegistrationKeyRecoveryV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "init(makeRequestID: @escaping @Sendable () -> String = {UUID().uuidString.lowercased()}, configuration: PulsePassportRegistrationConfiguration, keys: RegisteredKeyEnrollmentPorts, send: @escaping @Sendable (String, String, Data) async throws -> Data, now: @escaping @Sendable () -> Date = {Date()})",
+      "id": "s:21KenshikiPulsePassport0B23RegistrationKeyRecoveryV13makeRequestID13configuration4keys4send3nowACSSyYbc_AA0bcD13ConfigurationV0A16OperationBinding010RegisteredE15EnrollmentPortsV10Foundation4DataVSS_SSAPtYaYbKcAN4DateVyYbctcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "func recover(_ key: RegisteredKeyEnrollmentRecord, original: PulsePassportCredentials?) async throws -> PulsePassportCredentials",
+      "id": "s:21KenshikiPulsePassport0B23RegistrationKeyRecoveryV7recover_8originalAA0bC11CredentialsV0A16OperationBinding010RegisteredE16EnrollmentRecordV_AGSgtYaKF",
+      "kind": "swift.method"
+    },
+    {
+      "declaration": "enum PulseRegistrationRetryFailure",
+      "id": "s:21KenshikiPulsePassport0B24RegistrationRetryFailureO",
+      "kind": "swift.enum"
+    },
+    {
+      "declaration": "case challengeExpired",
+      "id": "s:21KenshikiPulsePassport0B24RegistrationRetryFailureO16challengeExpiredyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case deferred(until: Date)",
+      "id": "s:21KenshikiPulsePassport0B24RegistrationRetryFailureO8deferredyAC10Foundation4DateV_tcACmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "enum PulseBoundedHTTPTransportError",
+      "id": "s:21KenshikiPulsePassport0B25BoundedHTTPTransportErrorO",
+      "kind": "swift.enum"
+    },
+    {
+      "declaration": "case invalidResponse",
+      "id": "s:21KenshikiPulsePassport0B25BoundedHTTPTransportErrorO15invalidResponseyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "struct PulseChipAuthenticationChallenge",
+      "id": "s:21KenshikiPulsePassport0B27ChipAuthenticationChallengeV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "init(protocolName: String, caProtocolOID: String, keyID: Int?, ephemeralPublicKey: Data, protectedCommand: Data)",
+      "id": "s:21KenshikiPulsePassport0B27ChipAuthenticationChallengeV12protocolName13caProtocolOID5keyID18ephemeralPublicKey16protectedCommandACSS_SSSiSg10Foundation4DataVALtcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "let protocolName: String",
+      "id": "s:21KenshikiPulsePassport0B27ChipAuthenticationChallengeV12protocolNameSSvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let caProtocolOID: String",
+      "id": "s:21KenshikiPulsePassport0B27ChipAuthenticationChallengeV13caProtocolOIDSSvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let protectedCommand: Data",
+      "id": "s:21KenshikiPulsePassport0B27ChipAuthenticationChallengeV16protectedCommand10Foundation4DataVvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let ephemeralPublicKey: Data",
+      "id": "s:21KenshikiPulsePassport0B27ChipAuthenticationChallengeV18ephemeralPublicKey10Foundation4DataVvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let keyID: Int?",
+      "id": "s:21KenshikiPulsePassport0B27ChipAuthenticationChallengeV5keyIDSiSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "enum PulseRegistrationRecoveryFailure",
+      "id": "s:21KenshikiPulsePassport0B27RegistrationRecoveryFailureO",
+      "kind": "swift.enum"
+    },
+    {
+      "declaration": "case unsupportedRecovery",
+      "id": "s:21KenshikiPulsePassport0B27RegistrationRecoveryFailureO011unsupportedE0yA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case ownerMismatch",
+      "id": "s:21KenshikiPulsePassport0B27RegistrationRecoveryFailureO13ownerMismatchyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case configurationMismatch",
+      "id": "s:21KenshikiPulsePassport0B27RegistrationRecoveryFailureO21configurationMismatchyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case keyBindingUnavailable",
+      "id": "s:21KenshikiPulsePassport0B27RegistrationRecoveryFailureO21keyBindingUnavailableyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case interruptedAttestation",
+      "id": "s:21KenshikiPulsePassport0B27RegistrationRecoveryFailureO22interruptedAttestationyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "enum PulseRegistrationRequestAuthority",
+      "id": "s:21KenshikiPulsePassport0B28RegistrationRequestAuthorityO",
+      "kind": "swift.enum"
+    },
+    {
+      "declaration": "static func validate(_ configuration: PulsePassportRegistrationConfiguration) throws",
+      "id": "s:21KenshikiPulsePassport0B28RegistrationRequestAuthorityO8validateyyAA0bcD13ConfigurationVKFZ",
+      "kind": "swift.type.method"
+    },
+    {
+      "declaration": "protocol PulseRegistrationUnknownKeyFailure : Error",
+      "id": "s:21KenshikiPulsePassport0B29RegistrationUnknownKeyFailureP",
+      "kind": "swift.protocol"
+    },
+    {
+      "declaration": "var isUnknownRegisteredKey: Bool { get }",
+      "id": "s:21KenshikiPulsePassport0B29RegistrationUnknownKeyFailureP02ise10RegisteredF0Sbvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "struct PulseRegistrationAttestationContext",
+      "id": "s:21KenshikiPulsePassport0B30RegistrationAttestationContextV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "init(from decoder: any Decoder) throws",
+      "id": "s:21KenshikiPulsePassport0B30RegistrationAttestationContextV4fromACs7Decoder_p_tKcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "struct PulsePreparedPassport",
+      "id": "s:21KenshikiPulsePassport0b8PreparedC0V",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "let installationID: String",
+      "id": "s:21KenshikiPulsePassport0b8PreparedC0V14installationIDSSvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "func hasLiveChallenge(at date: Date = Date()) -> Bool",
+      "id": "s:21KenshikiPulsePassport0b8PreparedC0V16hasLiveChallenge2atSb10Foundation4DateV_tF",
+      "kind": "swift.method"
+    },
+    {
+      "declaration": "let nonce: PulsePassportNonce",
+      "id": "s:21KenshikiPulsePassport0b8PreparedC0V5nonceAA0bC5NonceVvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let origin: URL",
+      "id": "s:21KenshikiPulsePassport0b8PreparedC0V6origin10Foundation3URLVvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let session: PulsePassportSession",
+      "id": "s:21KenshikiPulsePassport0b8PreparedC0V7sessionAA0bC7SessionVvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "struct PulsePassportAcceptance",
+      "id": "s:21KenshikiPulsePassport0bC10AcceptanceV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "let installationID: String",
+      "id": "s:21KenshikiPulsePassport0bC10AcceptanceV14installationIDSSvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let clientReceivedAt: Date",
+      "id": "s:21KenshikiPulsePassport0bC10AcceptanceV16clientReceivedAt10Foundation4DateVvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let holderCapability: PulsePassportHolderCapability?",
+      "id": "s:21KenshikiPulsePassport0bC10AcceptanceV16holderCapabilityAA0bc6HolderF0VSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let securityObjectSHA256: String",
+      "id": "s:21KenshikiPulsePassport0bC10AcceptanceV20securityObjectSHA256SSvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let origin: URL",
+      "id": "s:21KenshikiPulsePassport0bC10AcceptanceV6origin10Foundation3URLVvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let report: PulsePassportValidationReport",
+      "id": "s:21KenshikiPulsePassport0bC10AcceptanceV6reportAA0bC16ValidationReportVvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let nonceID: String",
+      "id": "s:21KenshikiPulsePassport0bC10AcceptanceV7nonceIDSSvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let sessionID: String",
+      "id": "s:21KenshikiPulsePassport0bC10AcceptanceV9sessionIDSSvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "struct PulsePassportDiagnostic",
+      "id": "s:21KenshikiPulsePassport0bC10DiagnosticV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "let message: String",
+      "id": "s:21KenshikiPulsePassport0bC10DiagnosticV7messageSSvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let isFailure: Bool",
+      "id": "s:21KenshikiPulsePassport0bC10DiagnosticV9isFailureSbvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "struct PulsePassportKeyFailure",
+      "id": "s:21KenshikiPulsePassport0bC10KeyFailureV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "init(installationID: String, keyID: String, underlyingError: any Error)",
+      "id": "s:21KenshikiPulsePassport0bC10KeyFailureV14installationID03keyG015underlyingErrorACSS_SSs0J0_ptcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "let installationID: String",
+      "id": "s:21KenshikiPulsePassport0bC10KeyFailureV14installationIDSSvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let underlyingError: any Error",
+      "id": "s:21KenshikiPulsePassport0bC10KeyFailureV15underlyingErrors0G0_pvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let keyID: String",
+      "id": "s:21KenshikiPulsePassport0bC10KeyFailureV5keyIDSSvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "struct PulsePassportAppMetadata",
+      "id": "s:21KenshikiPulsePassport0bC11AppMetadataV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "let appVersion: String",
+      "id": "s:21KenshikiPulsePassport0bC11AppMetadataV10appVersionSSvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let sdkVersion: String",
+      "id": "s:21KenshikiPulsePassport0bC11AppMetadataV10sdkVersionSSvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let buildNumber: String",
+      "id": "s:21KenshikiPulsePassport0bC11AppMetadataV11buildNumberSSvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "init(from decoder: any Decoder) throws",
+      "id": "s:21KenshikiPulsePassport0bC11AppMetadataV4fromACs7Decoder_p_tKcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "let locale: String?",
+      "id": "s:21KenshikiPulsePassport0bC11AppMetadataV6localeSSSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "init(platform: String, appVersion: String, buildNumber: String, sdkVersion: String, locale: String?)",
+      "id": "s:21KenshikiPulsePassport0bC11AppMetadataV8platform10appVersion11buildNumber03sdkH06localeACSS_S4SSgtcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "let platform: String",
+      "id": "s:21KenshikiPulsePassport0bC11AppMetadataV8platformSSvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "struct PulsePassportCredentials",
+      "id": "s:21KenshikiPulsePassport0bC11CredentialsV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "let appAttestKeyID: String?",
+      "id": "s:21KenshikiPulsePassport0bC11CredentialsV14appAttestKeyIDSSSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let backendBaseURL: URL?",
+      "id": "s:21KenshikiPulsePassport0bC11CredentialsV14backendBaseURL10Foundation0G0VSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "init(installationID: String, clientInstallationID: String, appAttestKeyID: String?, token: String, expiresAt: Date?, backendBaseURL: URL?, mode: PulsePassportCredentials.Mode?, appAttestEnvironment: String?)",
+      "id": "s:21KenshikiPulsePassport0bC11CredentialsV14installationID018clientInstallationF0012appAttestKeyF05token9expiresAt14backendBaseURL4mode0iJ11EnvironmentACSS_S2SSgSS10Foundation4DateVSgAM0Q0VSgAC4ModeOSgALtcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "let installationID: String",
+      "id": "s:21KenshikiPulsePassport0bC11CredentialsV14installationIDSSvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let appAttestEnvironment: String?",
+      "id": "s:21KenshikiPulsePassport0bC11CredentialsV20appAttestEnvironmentSSSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let clientInstallationID: String",
+      "id": "s:21KenshikiPulsePassport0bC11CredentialsV20clientInstallationIDSSvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "enum Mode",
+      "id": "s:21KenshikiPulsePassport0bC11CredentialsV4ModeO",
+      "kind": "swift.enum"
+    },
+    {
+      "declaration": "init?(rawValue: String)",
+      "id": "s:21KenshikiPulsePassport0bC11CredentialsV4ModeO8rawValueAESgSS_tcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "case appAttest",
+      "id": "s:21KenshikiPulsePassport0bC11CredentialsV4ModeO9appAttestyA2EmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "init(from decoder: any Decoder) throws",
+      "id": "s:21KenshikiPulsePassport0bC11CredentialsV4fromACs7Decoder_p_tKcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "let mode: PulsePassportCredentials.Mode?",
+      "id": "s:21KenshikiPulsePassport0bC11CredentialsV4modeAC4ModeOSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let token: String",
+      "id": "s:21KenshikiPulsePassport0bC11CredentialsV5tokenSSvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let expiresAt: Date?",
+      "id": "s:21KenshikiPulsePassport0bC11CredentialsV9expiresAt10Foundation4DateVSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "struct PulsePassportHTTPFailure",
+      "id": "s:21KenshikiPulsePassport0bC11HTTPFailureV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "init(statusCode: Int, code: String?, reason: String?, classification: PulsePassportFailure)",
+      "id": "s:21KenshikiPulsePassport0bC11HTTPFailureV10statusCode4code6reason14classificationACSi_SSSgAhA0bC7FailureOtcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "let statusCode: Int",
+      "id": "s:21KenshikiPulsePassport0bC11HTTPFailureV10statusCodeSivp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let classification: PulsePassportFailure",
+      "id": "s:21KenshikiPulsePassport0bC11HTTPFailureV14classificationAA0bC7FailureOvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let code: String?",
+      "id": "s:21KenshikiPulsePassport0bC11HTTPFailureV4codeSSSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let reason: String?",
+      "id": "s:21KenshikiPulsePassport0bC11HTTPFailureV6reasonSSSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "struct PulsePassportAcceptedRead<Read> where Read : Sendable",
+      "id": "s:21KenshikiPulsePassport0bC12AcceptedReadV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "let acceptance: PulsePassportAcceptance",
+      "id": "s:21KenshikiPulsePassport0bC12AcceptedReadV10acceptanceAA0bC10AcceptanceVvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let verification: PulsePassportVerification",
+      "id": "s:21KenshikiPulsePassport0bC12AcceptedReadV12verificationAA0bC12VerificationVvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let read: Read",
+      "id": "s:21KenshikiPulsePassport0bC12AcceptedReadV4readxvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "actor PulsePassportRegistration",
+      "id": "s:21KenshikiPulsePassport0bC12RegistrationC",
+      "kind": "swift.class"
+    },
+    {
+      "declaration": "init(configuration: PulsePassportRegistrationConfiguration, credentialSlot: PulsePassportRegistrationSlot, keySlot: PulsePassportRegistrationSlot, transport: any PulseBoundedHTTPTransport, app: PulsePassportAppMetadata, device: PulsePassportDeviceMetadata, storage: PulsePassportRegistrationStorage? = nil, keys: RegisteredKeyEnrollmentPorts? = nil, eraseKeys: (@Sendable () async throws -> Void)? = nil, mutationLease: PulsePassportRegistrationMutationLease = .init(begin:{true},end:{}), onCustodyErased: @escaping @Sendable () -> Void = {})",
+      "id": "s:21KenshikiPulsePassport0bC12RegistrationC13configuration14credentialSlot03keyG09transport3app6device7storage4keys9eraseKeys13mutationLease15onCustodyErasedAcA0bcD13ConfigurationV_AA0bcdG0VArA0B20BoundedHTTPTransport_pAA0bC11AppMetadataVAA0bc6DeviceY0VAA0bcD7StorageVSg0A16OperationBinding28RegisteredKeyEnrollmentPortsVSgyyYaYbKcSgAA0bcd8MutationQ0VyyYbctcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "init(configuration: PulsePassportRegistrationConfiguration, storage: PulsePassportRegistrationStorage, keys: RegisteredKeyEnrollmentPorts, eraseKeys: @escaping @Sendable () async throws -> Void, transport: any PulseBoundedHTTPTransport = URLSessionPulseBoundedHTTPTransport(), app: PulsePassportAppMetadata, device: PulsePassportDeviceMetadata, mutationLease: PulsePassportRegistrationMutationLease = .init(begin:{true},end:{}), onCustodyErased: @escaping @Sendable () -> Void = {})",
+      "id": "s:21KenshikiPulsePassport0bC12RegistrationC13configuration7storage4keys9eraseKeys9transport3app6device13mutationLease15onCustodyErasedAcA0bcD13ConfigurationV_AA0bcD7StorageV0A16OperationBinding28RegisteredKeyEnrollmentPortsVyyYaYbKcAA0B20BoundedHTTPTransport_pAA0bC11AppMetadataVAA0bC14DeviceMetadataVAA0bcd8MutationN0VyyYbctcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "func recoverDeadKey(after error: any Error, diagnostic: @escaping @Sendable (PulsePassportDiagnostic) -> Void = {_ in}) async throws -> PulsePassportClient",
+      "id": "s:21KenshikiPulsePassport0bC12RegistrationC14recoverDeadKey5after10diagnosticAA0bC6ClientCs5Error_p_yAA0bC10DiagnosticVYbctYaKF",
+      "kind": "swift.method"
+    },
+    {
+      "declaration": "func forceReregister() async throws -> PulsePassportCredentials",
+      "id": "s:21KenshikiPulsePassport0bC12RegistrationC15forceReregisterAA0bC11CredentialsVyYaKF",
+      "kind": "swift.method"
+    },
+    {
+      "declaration": "func deleteInstallation(using operation: @escaping @Sendable (PulsePassportCredentials) async throws -> Void) async throws",
+      "id": "s:21KenshikiPulsePassport0bC12RegistrationC18deleteInstallation5usingyyAA0bC11CredentialsVYaYbKc_tYaKF",
+      "kind": "swift.method"
+    },
+    {
+      "declaration": "func eraseLocalCredentials() async throws",
+      "id": "s:21KenshikiPulsePassport0bC12RegistrationC21eraseLocalCredentialsyyYaKF",
+      "kind": "swift.method"
+    },
+    {
+      "declaration": "func recoverUnknownInstallationBearer() async throws -> PulsePassportCredentials",
+      "id": "s:21KenshikiPulsePassport0bC12RegistrationC32recoverUnknownInstallationBearerAA0bC11CredentialsVyYaKF",
+      "kind": "swift.method"
+    },
+    {
+      "declaration": "@MainActor static func live(baseURL: URL, environment: String, applicationIdentifier: String, keychainAccessGroup: String, namespace: String, app: PulsePassportAppMetadata, device: PulsePassportDeviceMetadata) throws -> PulsePassportRegistration",
+      "id": "s:21KenshikiPulsePassport0bC12RegistrationC4live7baseURL11environment21applicationIdentifier19keychainAccessGroup9namespace3app6deviceAC10Foundation0G0V_S4SAA0bC11AppMetadataVAA0bc6DeviceS0VtKFZ",
+      "kind": "swift.type.method"
+    },
+    {
+      "declaration": "func client(diagnostic: @escaping @Sendable (PulsePassportDiagnostic) -> Void = {_ in}) async throws -> PulsePassportClient",
+      "id": "s:21KenshikiPulsePassport0bC12RegistrationC6client10diagnosticAA0bC6ClientCyAA0bC10DiagnosticVYbc_tYaKF",
+      "kind": "swift.method"
+    },
+    {
+      "declaration": "func ensure() async throws -> PulsePassportCredentials",
+      "id": "s:21KenshikiPulsePassport0bC12RegistrationC6ensureAA0bC11CredentialsVyYaKF",
+      "kind": "swift.method"
+    },
+    {
+      "declaration": "struct PulsePassportVerification",
+      "id": "s:21KenshikiPulsePassport0bC12VerificationV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "let failureReason: String?",
+      "id": "s:21KenshikiPulsePassport0bC12VerificationV13failureReasonSSSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let holderBinding: String?",
+      "id": "s:21KenshikiPulsePassport0bC12VerificationV13holderBindingSSSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let documentExpired: Bool?",
+      "id": "s:21KenshikiPulsePassport0bC12VerificationV15documentExpiredSbSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let validationReport: PulsePassportValidationReport?",
+      "id": "s:21KenshikiPulsePassport0bC12VerificationV16validationReportAA0bc10ValidationF0VSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let chipAuthentication: Bool",
+      "id": "s:21KenshikiPulsePassport0bC12VerificationV18chipAuthenticationSbvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let trustBundleVersion: String?",
+      "id": "s:21KenshikiPulsePassport0bC12VerificationV18trustBundleVersionSSSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let activeAuthentication: Bool",
+      "id": "s:21KenshikiPulsePassport0bC12VerificationV20activeAuthenticationSbvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "enum Status",
+      "id": "s:21KenshikiPulsePassport0bC12VerificationV6StatusO",
+      "kind": "swift.enum"
+    },
+    {
+      "declaration": "case failed",
+      "id": "s:21KenshikiPulsePassport0bC12VerificationV6StatusO6failedyA2EmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "init?(rawValue: String)",
+      "id": "s:21KenshikiPulsePassport0bC12VerificationV6StatusO8rawValueAESgSS_tcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "case verified",
+      "id": "s:21KenshikiPulsePassport0bC12VerificationV6StatusO8verifiedyA2EmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "init(status: PulsePassportVerification.Status, validator: String, failureReason: String?, activeAuthentication: Bool, chipAuthentication: Bool, documentExpired: Bool?, trustBundleVersion: String?, assurance: String?, holderBinding: String?, validationReport: PulsePassportValidationReport? = nil)",
+      "id": "s:21KenshikiPulsePassport0bC12VerificationV6status9validator13failureReason20activeAuthentication04chipJ015documentExpired18trustBundleVersion9assurance13holderBinding16validationReportA2C6StatusO_S2SSgS3bSgA3pA0bc10ValidationU0VSgtcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "let status: PulsePassportVerification.Status",
+      "id": "s:21KenshikiPulsePassport0bC12VerificationV6statusAC6StatusOvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let assurance: String?",
+      "id": "s:21KenshikiPulsePassport0bC12VerificationV9assuranceSSSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let validator: String",
+      "id": "s:21KenshikiPulsePassport0bC12VerificationV9validatorSSvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "struct PulsePassportDeviceMetadata",
+      "id": "s:21KenshikiPulsePassport0bC14DeviceMetadataV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "let modelClass: String",
+      "id": "s:21KenshikiPulsePassport0bC14DeviceMetadataV10modelClassSSvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "init(deviceClass: String, osMajorVersion: Int, modelClass: String)",
+      "id": "s:21KenshikiPulsePassport0bC14DeviceMetadataV11deviceClass14osMajorVersion05modelG0ACSS_SiSStcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "let deviceClass: String",
+      "id": "s:21KenshikiPulsePassport0bC14DeviceMetadataV11deviceClassSSvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let osMajorVersion: Int",
+      "id": "s:21KenshikiPulsePassport0bC14DeviceMetadataV14osMajorVersionSivp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "init(from decoder: any Decoder) throws",
+      "id": "s:21KenshikiPulsePassport0bC14DeviceMetadataV4fromACs7Decoder_p_tKcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "enum PulsePassportServiceFailure",
+      "id": "s:21KenshikiPulsePassport0bC14ServiceFailureO",
+      "kind": "swift.enum"
+    },
+    {
+      "declaration": "case invalidated",
+      "id": "s:21KenshikiPulsePassport0bC14ServiceFailureO11invalidatedyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case verificationFailed(PulsePassportVerification)",
+      "id": "s:21KenshikiPulsePassport0bC14ServiceFailureO18verificationFailedyAcA0bC12VerificationVcACmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "struct PulsePassportCheckObservation",
+      "id": "s:21KenshikiPulsePassport0bC16CheckObservationV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "enum Check",
+      "id": "s:21KenshikiPulsePassport0bC16CheckObservationV0D0O",
+      "kind": "swift.enum"
+    },
+    {
+      "declaration": "case dataGroupHashes",
+      "id": "s:21KenshikiPulsePassport0bC16CheckObservationV0D0O15dataGroupHashesyA2EmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case chipAuthentication",
+      "id": "s:21KenshikiPulsePassport0bC16CheckObservationV0D0O18chipAuthenticationyA2EmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case documentNotExpired",
+      "id": "s:21KenshikiPulsePassport0bC16CheckObservationV0D0O18documentNotExpiredyA2EmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case activeAuthentication",
+      "id": "s:21KenshikiPulsePassport0bC16CheckObservationV0D0O20activeAuthenticationyA2EmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case certificateRevocation",
+      "id": "s:21KenshikiPulsePassport0bC16CheckObservationV0D0O21certificateRevocationyA2EmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case countrySigningAuthority",
+      "id": "s:21KenshikiPulsePassport0bC16CheckObservationV0D0O23countrySigningAuthorityyA2EmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case securityObjectSignature",
+      "id": "s:21KenshikiPulsePassport0bC16CheckObservationV0D0O23securityObjectSignatureyA2EmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case documentSigningCertificate",
+      "id": "s:21KenshikiPulsePassport0bC16CheckObservationV0D0O26documentSigningCertificateyA2EmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "init?(rawValue: String)",
+      "id": "s:21KenshikiPulsePassport0bC16CheckObservationV0D0O8rawValueAESgSS_tcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "init(check: PulsePassportCheckObservation.Check, passed: Bool?)",
+      "id": "s:21KenshikiPulsePassport0bC16CheckObservationV5check6passedA2C0D0O_SbSgtcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "let check: PulsePassportCheckObservation.Check",
+      "id": "s:21KenshikiPulsePassport0bC16CheckObservationV5checkAC0D0Ovp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let passed: Bool?",
+      "id": "s:21KenshikiPulsePassport0bC16CheckObservationV6passedSbSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "struct PulsePassportHolderCapability",
+      "id": "s:21KenshikiPulsePassport0bC16HolderCapabilityV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "func protectedRepresentation() throws -> Data",
+      "id": "s:21KenshikiPulsePassport0bC16HolderCapabilityV23protectedRepresentation10Foundation4DataVyKF",
+      "kind": "swift.method"
+    },
+    {
+      "declaration": "static func == (lhs: PulsePassportHolderCapability, rhs: PulsePassportHolderCapability) -> Bool",
+      "id": "s:21KenshikiPulsePassport0bC16HolderCapabilityV2eeoiySbAC_ACtFZ",
+      "kind": "swift.func.op"
+    },
+    {
+      "declaration": "static func restore(_ bytes: Data, expectedOrigin: URL, installationID: String, securityObjectSHA256: String) throws -> PulsePassportHolderCapability",
+      "id": "s:21KenshikiPulsePassport0bC16HolderCapabilityV7restore_14expectedOrigin14installationID20securityObjectSHA256AC10Foundation4DataV_AH3URLVS2StKFZ",
+      "kind": "swift.type.method"
+    },
+    {
+      "declaration": "enum PulsePassportPreparationStage",
+      "id": "s:21KenshikiPulsePassport0bC16PreparationStageO",
+      "kind": "swift.enum"
+    },
+    {
+      "declaration": "case credentials",
+      "id": "s:21KenshikiPulsePassport0bC16PreparationStageO11credentialsyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case recoverIdentity",
+      "id": "s:21KenshikiPulsePassport0bC16PreparationStageO15recoverIdentityyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case appAttestAssertion",
+      "id": "s:21KenshikiPulsePassport0bC16PreparationStageO18appAttestAssertionyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case nonce",
+      "id": "s:21KenshikiPulsePassport0bC16PreparationStageO5nonceyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case session",
+      "id": "s:21KenshikiPulsePassport0bC16PreparationStageO7sessionyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "init?(rawValue: String)",
+      "id": "s:21KenshikiPulsePassport0bC16PreparationStageO8rawValueACSgSS_tcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "struct PulsePassportRegistrationSlot",
+      "id": "s:21KenshikiPulsePassport0bC16RegistrationSlotV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "init(service: String, account: String, group: String)",
+      "id": "s:21KenshikiPulsePassport0bC16RegistrationSlotV7service7account5groupACSS_S2Stcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "struct PulsePassportValidationReport",
+      "id": "s:21KenshikiPulsePassport0bC16ValidationReportV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "let crlChecked: Bool",
+      "id": "s:21KenshikiPulsePassport0bC16ValidationReportV10crlCheckedSbvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let dscVerified: Bool",
+      "id": "s:21KenshikiPulsePassport0bC16ValidationReportV11dscVerifiedSbvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let sodVerified: Bool",
+      "id": "s:21KenshikiPulsePassport0bC16ValidationReportV11sodVerifiedSbvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let cscaVerified: Bool",
+      "id": "s:21KenshikiPulsePassport0bC16ValidationReportV12cscaVerifiedSbvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "var exportObject: [String : Any] { get }",
+      "id": "s:21KenshikiPulsePassport0bC16ValidationReportV12exportObjectSDySSypGvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let failureReason: String?",
+      "id": "s:21KenshikiPulsePassport0bC16ValidationReportV13failureReasonSSSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let documentExpired: Bool?",
+      "id": "s:21KenshikiPulsePassport0bC16ValidationReportV15documentExpiredSbSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "var presentedChecks: [PulsePassportCheckObservation] { get }",
+      "id": "s:21KenshikiPulsePassport0bC16ValidationReportV15presentedChecksSayAA0bC16CheckObservationVGvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let chipAuthenticated: Bool",
+      "id": "s:21KenshikiPulsePassport0bC16ValidationReportV17chipAuthenticatedSbvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let chipAuthentication: Bool",
+      "id": "s:21KenshikiPulsePassport0bC16ValidationReportV18chipAuthenticationSbvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let trustBundleVersion: String?",
+      "id": "s:21KenshikiPulsePassport0bC16ValidationReportV18trustBundleVersionSSSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let trustManifestSha256: String?",
+      "id": "s:21KenshikiPulsePassport0bC16ValidationReportV19trustManifestSha256SSSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let activeAuthentication: Bool",
+      "id": "s:21KenshikiPulsePassport0bC16ValidationReportV20activeAuthenticationSbvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let dataGroupHashesVerified: Bool",
+      "id": "s:21KenshikiPulsePassport0bC16ValidationReportV23dataGroupHashesVerifiedSbvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "init(from decoder: any Decoder) throws",
+      "id": "s:21KenshikiPulsePassport0bC16ValidationReportV4fromACs7Decoder_p_tKcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "init(result: PulsePassportVerification.Status, validator: String, receiptId: String?, sodVerified: Bool, dscVerified: Bool, cscaVerified: Bool, dataGroupHashesVerified: Bool, chipAuthenticated: Bool, activeAuthentication: Bool, chipAuthentication: Bool, crlChecked: Bool, documentExpired: Bool?, failureReason: String?, trustBundleVersion: String?, trustManifestSha256: String?, assurance: PulsePassportValidationReport.Assurance)",
+      "id": "s:21KenshikiPulsePassport0bC16ValidationReportV6result9validator9receiptId11sodVerified03dscK004cscaK0015dataGroupHashesK017chipAuthenticated20activeAuthentication0qT010crlChecked15documentExpired13failureReason18trustBundleVersion19trustManifestSha2569assuranceAcA0bC12VerificationV6StatusO_S2SSgS9bSgA3xC9AssuranceOtcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "let result: PulsePassportVerification.Status",
+      "id": "s:21KenshikiPulsePassport0bC16ValidationReportV6resultAA0bC12VerificationV6StatusOvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "func validate() throws",
+      "id": "s:21KenshikiPulsePassport0bC16ValidationReportV8validateyyKF",
+      "kind": "swift.method"
+    },
+    {
+      "declaration": "enum Assurance",
+      "id": "s:21KenshikiPulsePassport0bC16ValidationReportV9AssuranceO",
+      "kind": "swift.enum"
+    },
+    {
+      "declaration": "case unverified",
+      "id": "s:21KenshikiPulsePassport0bC16ValidationReportV9AssuranceO10unverifiedyA2EmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case chipAuthenticated",
+      "id": "s:21KenshikiPulsePassport0bC16ValidationReportV9AssuranceO17chipAuthenticatedyA2EmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case passiveAuthenticationOnly",
+      "id": "s:21KenshikiPulsePassport0bC16ValidationReportV9AssuranceO25passiveAuthenticationOnlyyA2EmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "init?(rawValue: String)",
+      "id": "s:21KenshikiPulsePassport0bC16ValidationReportV9AssuranceO8rawValueAESgSS_tcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "let assurance: PulsePassportValidationReport.Assurance",
+      "id": "s:21KenshikiPulsePassport0bC16ValidationReportV9assuranceAC9AssuranceOvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let receiptId: String?",
+      "id": "s:21KenshikiPulsePassport0bC16ValidationReportV9receiptIdSSSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let validator: String",
+      "id": "s:21KenshikiPulsePassport0bC16ValidationReportV9validatorSSvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "enum PulsePassportRegistrationFailure",
+      "id": "s:21KenshikiPulsePassport0bC19RegistrationFailureO",
+      "kind": "swift.enum"
+    },
+    {
+      "declaration": "case credentials",
+      "id": "s:21KenshikiPulsePassport0bC19RegistrationFailureO11credentialsyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case unsupported",
+      "id": "s:21KenshikiPulsePassport0bC19RegistrationFailureO11unsupportedyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case configuration",
+      "id": "s:21KenshikiPulsePassport0bC19RegistrationFailureO13configurationyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case invalidResponse",
+      "id": "s:21KenshikiPulsePassport0bC19RegistrationFailureO15invalidResponseyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "struct PulsePassportRegistrationStorage",
+      "id": "s:21KenshikiPulsePassport0bC19RegistrationStorageV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "init(load: @escaping @Sendable () async throws -> Data?, save: @escaping @Sendable (Data) async throws -> Void, delete: @escaping @Sendable () async throws -> Void = {throw PulsePassportRegistrationFailure.credentials})",
+      "id": "s:21KenshikiPulsePassport0bC19RegistrationStorageV4load4save6deleteAC10Foundation4DataVSgyYaYbKc_yAIYaYbKcyyYaYbKctcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "struct PulsePassportRegistrationConfiguration",
+      "id": "s:21KenshikiPulsePassport0bC25RegistrationConfigurationV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "let additionalHeaders: [String : String]",
+      "id": "s:21KenshikiPulsePassport0bC25RegistrationConfigurationV17additionalHeadersSDyS2SGvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let appAttestEnvironment: String?",
+      "id": "s:21KenshikiPulsePassport0bC25RegistrationConfigurationV20appAttestEnvironmentSSSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let applicationIdentifier: String?",
+      "id": "s:21KenshikiPulsePassport0bC25RegistrationConfigurationV21applicationIdentifierSSSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let baseURL: URL",
+      "id": "s:21KenshikiPulsePassport0bC25RegistrationConfigurationV7baseURL10Foundation0G0Vvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "init(baseURL: URL, appAttestEnvironment: String?, applicationIdentifier: String?, additionalHeaders: [String : String] = [:])",
+      "id": "s:21KenshikiPulsePassport0bC25RegistrationConfigurationV7baseURL20appAttestEnvironment21applicationIdentifier17additionalHeadersAC10Foundation0G0V_SSSgAKSDyS2SGtcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "struct PulsePassportRegistrationMutationLease",
+      "id": "s:21KenshikiPulsePassport0bC25RegistrationMutationLeaseV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "init(begin: @escaping @Sendable () async -> Bool, end: @escaping @Sendable () async -> Void)",
+      "id": "s:21KenshikiPulsePassport0bC25RegistrationMutationLeaseV5begin3endACSbyYaYbc_yyYaYbctcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "struct PulsePassportRead<Read> where Read : Sendable",
+      "id": "s:21KenshikiPulsePassport0bC4ReadV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "let chipAuthenticationResponse: Data?",
+      "id": "s:21KenshikiPulsePassport0bC4ReadV26chipAuthenticationResponse10Foundation4DataVSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "init(read: Read, proof: PulsePassportChipProof, chipAuthenticationResponse: Data?)",
+      "id": "s:21KenshikiPulsePassport0bC4ReadV4read5proof26chipAuthenticationResponseACyxGx_AA0bC9ChipProofV10Foundation4DataVSgtcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "let read: Read",
+      "id": "s:21KenshikiPulsePassport0bC4ReadV4readxvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let proof: PulsePassportChipProof",
+      "id": "s:21KenshikiPulsePassport0bC4ReadV5proofAA0bC9ChipProofVvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "struct PulsePassportNonce",
+      "id": "s:21KenshikiPulsePassport0bC5NonceV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "let payloadCommitmentHash: String?",
+      "id": "s:21KenshikiPulsePassport0bC5NonceV21payloadCommitmentHashSSSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "var activeAuthenticationChallenge: Data { get }",
+      "id": "s:21KenshikiPulsePassport0bC5NonceV29activeAuthenticationChallenge10Foundation4DataVvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let nonce: String",
+      "id": "s:21KenshikiPulsePassport0bC5NonceV5nonceSSvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let nonceID: String",
+      "id": "s:21KenshikiPulsePassport0bC5NonceV7nonceIDSSvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let iacKeyID: String",
+      "id": "s:21KenshikiPulsePassport0bC5NonceV8iacKeyIDSSvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let workflow: String",
+      "id": "s:21KenshikiPulsePassport0bC5NonceV8workflowSSvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let expiresAt: String",
+      "id": "s:21KenshikiPulsePassport0bC5NonceV9expiresAtSSvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "init(sessionID: String, nonceID: String, nonce: String, expiresAt: String, iacKeyID: String, workflow: String, payloadCommitmentHash: String?)",
+      "id": "s:21KenshikiPulsePassport0bC5NonceV9sessionID05nonceF00G09expiresAt06iacKeyF08workflow21payloadCommitmentHashACSS_S6SSgtcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "let sessionID: String",
+      "id": "s:21KenshikiPulsePassport0bC5NonceV9sessionIDSSvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "actor PulsePassportClient",
+      "id": "s:21KenshikiPulsePassport0bC6ClientC",
+      "kind": "swift.class"
+    },
+    {
+      "declaration": "static func verifyClientDataHash(payloadJSON: String) -> Data",
+      "id": "s:21KenshikiPulsePassport0bC6ClientC06verifyD8DataHash11payloadJSON10Foundation0F0VSS_tFZ",
+      "kind": "swift.type.method"
+    },
+    {
+      "declaration": "func issueNonce(for session: PulsePassportSession) async throws -> PulsePassportNonce",
+      "id": "s:21KenshikiPulsePassport0bC6ClientC10issueNonce3forAA0bcF0VAA0bC7SessionV_tYaKF",
+      "kind": "swift.method"
+    },
+    {
+      "declaration": "func openSession(operationID: String, issuedAt: Date, onStage: @escaping @Sendable (PulsePassportPreparationStage) async throws -> Void = {_ in}) async throws -> PulsePassportSession",
+      "id": "s:21KenshikiPulsePassport0bC6ClientC11openSession11operationID8issuedAt7onStageAA0bcF0VSS_10Foundation4DateVyAA0bc11PreparationL0OYaYbKctYaKF",
+      "kind": "swift.method"
+    },
+    {
+      "declaration": "static func payloadJSON(_ proof: PulsePassportChipProof, nonce: PulsePassportNonce, deviceID: String, chipAuthenticationResponse: Data?) throws -> String",
+      "id": "s:21KenshikiPulsePassport0bC6ClientC11payloadJSON_5nonce8deviceID26chipAuthenticationResponseSSAA0bC9ChipProofV_AA0bC5NonceVSS10Foundation4DataVSgtKFZ",
+      "kind": "swift.type.method"
+    },
+    {
+      "declaration": "static let verifyDomain: String",
+      "id": "s:21KenshikiPulsePassport0bC6ClientC12verifyDomainSSvpZ",
+      "kind": "swift.type.property"
+    },
+    {
+      "declaration": "static let sessionDomain: String",
+      "id": "s:21KenshikiPulsePassport0bC6ClientC13sessionDomainSSvpZ",
+      "kind": "swift.type.property"
+    },
+    {
+      "declaration": "static func classification(_ error: any Error) -> PulsePassportFailure?",
+      "id": "s:21KenshikiPulsePassport0bC6ClientC14classificationyAA0bC7FailureOSgs5Error_pFZ",
+      "kind": "swift.type.method"
+    },
+    {
+      "declaration": "func validateBaseURL() throws",
+      "id": "s:21KenshikiPulsePassport0bC6ClientC15validateBaseURLyyKF",
+      "kind": "swift.method"
+    },
+    {
+      "declaration": "func installationToken() async throws -> String",
+      "id": "s:21KenshikiPulsePassport0bC6ClientC17installationTokenSSyYaKF",
+      "kind": "swift.method"
+    },
+    {
+      "declaration": "func chipAuthenticationChallenge(nonce: PulsePassportNonce, dg14: Data) async throws -> PulseChipAuthenticationChallenge",
+      "id": "s:21KenshikiPulsePassport0bC6ClientC27chipAuthenticationChallenge5nonce4dg14AA0b4ChipfG0VAA0bC5NonceV_10Foundation4DataVtYaKF",
+      "kind": "swift.method"
+    },
+    {
+      "declaration": "func verify(_ proof: PulsePassportChipProof, nonce: PulsePassportNonce, chipAuthenticationResponse: Data?) async throws -> PulsePassportVerification",
+      "id": "s:21KenshikiPulsePassport0bC6ClientC6verify_5nonce26chipAuthenticationResponseAA0bC12VerificationVAA0bC9ChipProofV_AA0bC5NonceV10Foundation4DataVSgtYaKF",
+      "kind": "swift.method"
+    },
+    {
+      "declaration": "nonisolated let baseURL: URL",
+      "id": "s:21KenshikiPulsePassport0bC6ClientC7baseURL10Foundation0F0Vvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "init(baseURL: URL, deviceID: String, attestation: PulseNativeAttestation, transport: (any PulseBoundedHTTPTransport)? = nil, now: @escaping @Sendable () -> Date = { Date() }, diagnostic: @escaping @Sendable (PulsePassportDiagnostic) -> Void = { _ in\n                 \n              })",
+      "id": "s:21KenshikiPulsePassport0bC6ClientC7baseURL8deviceID11attestation9transport3now10diagnosticAC10Foundation0F0V_SSAA0B17NativeAttestationVAA0B20BoundedHTTPTransport_pSgAJ4DateVyYbcyAA0bC10DiagnosticVYbctcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "nonisolated let deviceID: String",
+      "id": "s:21KenshikiPulsePassport0bC6ClientC8deviceIDSSvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "func postJSON(_ path: String, token: String?, body: Data, expecting statuses: Set<Int>) async throws -> (status: Int, body: Data)",
+      "id": "s:21KenshikiPulsePassport0bC6ClientC8postJSON_5token4body9expectingSi6status_10Foundation4DataVAFtSS_SSSgAKShySiGtYaKF",
+      "kind": "swift.method"
+    },
+    {
+      "declaration": "static let workflow: String",
+      "id": "s:21KenshikiPulsePassport0bC6ClientC8workflowSSvpZ",
+      "kind": "swift.type.property"
+    },
+    {
+      "declaration": "func assertion(over hash: Data) async throws -> PulseAppAttestAssertion",
+      "id": "s:21KenshikiPulsePassport0bC6ClientC9assertion4overAA0B18AppAttestAssertionV10Foundation4DataV_tYaKF",
+      "kind": "swift.method"
+    },
+    {
+      "declaration": "enum PulsePassportFailure",
+      "id": "s:21KenshikiPulsePassport0bC7FailureO",
+      "kind": "swift.enum"
+    },
+    {
+      "declaration": "case facePassportUnbound",
+      "id": "s:21KenshikiPulsePassport0bC7FailureO04faceC7UnboundyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case rateLimited",
+      "id": "s:21KenshikiPulsePassport0bC7FailureO11rateLimitedyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case unavailable",
+      "id": "s:21KenshikiPulsePassport0bC7FailureO11unavailableyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case unauthorized",
+      "id": "s:21KenshikiPulsePassport0bC7FailureO12unauthorizedyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case invalidRequest",
+      "id": "s:21KenshikiPulsePassport0bC7FailureO14invalidRequestyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case assertionReused",
+      "id": "s:21KenshikiPulsePassport0bC7FailureO15assertionReusedyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case incompleteProof",
+      "id": "s:21KenshikiPulsePassport0bC7FailureO15incompleteProofyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case invalidResponse",
+      "id": "s:21KenshikiPulsePassport0bC7FailureO15invalidResponseyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case challengeExpired",
+      "id": "s:21KenshikiPulsePassport0bC7FailureO16challengeExpiredyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case faceAttemptRecorded",
+      "id": "s:21KenshikiPulsePassport0bC7FailureO19faceAttemptRecordedyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case chipAuthenticationUnavailable",
+      "id": "s:21KenshikiPulsePassport0bC7FailureO29chipAuthenticationUnavailableyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case chipAuthenticationUnsupported",
+      "id": "s:21KenshikiPulsePassport0bC7FailureO29chipAuthenticationUnsupportedyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case conflict",
+      "id": "s:21KenshikiPulsePassport0bC7FailureO8conflictyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "init?(rawValue: String)",
+      "id": "s:21KenshikiPulsePassport0bC7FailureO8rawValueACSgSS_tcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "case timedOut",
+      "id": "s:21KenshikiPulsePassport0bC7FailureO8timedOutyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case forbidden",
+      "id": "s:21KenshikiPulsePassport0bC7FailureO9forbiddenyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "@MainActor final class PulsePassportService",
+      "id": "s:21KenshikiPulsePassport0bC7ServiceC",
+      "kind": "swift.class"
+    },
+    {
+      "declaration": "@MainActor func invalidate()",
+      "id": "s:21KenshikiPulsePassport0bC7ServiceC10invalidateyyF",
+      "kind": "swift.method"
+    },
+    {
+      "declaration": "@MainActor static func verifyIssuedRead<Read>(_ input: PulsePassportRead<Read>, nonce: PulsePassportNonce, client: PulsePassportClient, admit: @MainActor (Read) throws -> Void, now: @MainActor () -> Date = {Date()}) async throws -> PulsePassportAcceptedRead<Read> where Read : Sendable",
+      "id": "s:21KenshikiPulsePassport0bC7ServiceC16verifyIssuedRead_5nonce6client5admit3nowAA0bc8AcceptedG0VyxGAA0bcG0VyxG_AA0bC5NonceVAA0bC6ClientCyxKScMYcXE10Foundation4DateVyScMYcXEtYaKs8SendableRzlFZ",
+      "kind": "swift.type.method"
+    },
+    {
+      "declaration": "@MainActor func discardDeliveredRead(prepared: PulsePreparedPassport) throws",
+      "id": "s:21KenshikiPulsePassport0bC7ServiceC20discardDeliveredRead8preparedyAA0b8PreparedC0V_tKF",
+      "kind": "swift.method"
+    },
+    {
+      "declaration": "@MainActor func installationDidChange(to installationID: String)",
+      "id": "s:21KenshikiPulsePassport0bC7ServiceC21installationDidChange2toySS_tF",
+      "kind": "swift.method"
+    },
+    {
+      "declaration": "nonisolated static func isDeadAppAttestKeyError(_ error: any Error) -> Bool",
+      "id": "s:21KenshikiPulsePassport0bC7ServiceC23isDeadAppAttestKeyErrorySbs0J0_pFZ",
+      "kind": "swift.type.method"
+    },
+    {
+      "declaration": "@MainActor func chipAuthenticationChallenge(prepared: PulsePreparedPassport, dg14: Data) async throws -> PulseChipAuthenticationChallenge",
+      "id": "s:21KenshikiPulsePassport0bC7ServiceC27chipAuthenticationChallenge8prepared4dg14AA0b4ChipfG0VAA0b8PreparedC0V_10Foundation4DataVtYaKF",
+      "kind": "swift.method"
+    },
+    {
+      "declaration": "@MainActor init(client: @escaping @MainActor () async throws -> PulsePassportClient, recoverDeadKey: (@MainActor (any Error) async throws -> PulsePassportClient)? = nil, now: @escaping @MainActor () -> Date = {Date()}, operationID: @escaping @MainActor () -> String = {UUID().uuidString.lowercased()})",
+      "id": "s:21KenshikiPulsePassport0bC7ServiceC6client14recoverDeadKey3now11operationIDAcA0bC6ClientCyYaKScMYcc_AIs5Error_pYaKScMYccSg10Foundation4DateVyScMYccSSyScMYcctcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "@MainActor func verify<Read>(_ input: PulsePassportRead<Read>, prepared: PulsePreparedPassport, admit: @MainActor (Read) throws -> Void) async throws -> PulsePassportAcceptedRead<Read> where Read : Sendable",
+      "id": "s:21KenshikiPulsePassport0bC7ServiceC6verify_8prepared5admitAA0bC12AcceptedReadVyxGAA0bcI0VyxG_AA0b8PreparedC0VyxKScMYcXEtYaKs8SendableRzlF",
+      "kind": "swift.method"
+    },
+    {
+      "declaration": "@MainActor func prepare(binding: String, onStage: @escaping @MainActor @Sendable (PulsePassportPreparationStage) -> Void = {_ in}) async throws -> PulsePreparedPassport",
+      "id": "s:21KenshikiPulsePassport0bC7ServiceC7prepare7binding7onStageAA0b8PreparedC0VSS_yAA0bc11PreparationH0OYbScMYcctYaKF",
+      "kind": "swift.method"
+    },
+    {
+      "declaration": "@MainActor func runRead<Read>(binding: String, read: @MainActor (PulsePreparedPassport, @escaping @Sendable (Data) async throws -> PulseChipAuthenticationChallenge) async throws -> PulsePassportRead<Read>, admit: @MainActor (Read) throws -> Void) async throws -> PulsePassportAcceptedRead<Read> where Read : Sendable",
+      "id": "s:21KenshikiPulsePassport0bC7ServiceC7runRead7binding4read5admitAA0bc8AcceptedF0VyxGSS_AA0bcF0VyxGAA0b8PreparedC0V_AA0B27ChipAuthenticationChallengeV10Foundation4DataVYaYbKctYaKScMYcXEyxKScMYcXEtYaKs8SendableRzlF",
+      "kind": "swift.method"
+    },
+    {
+      "declaration": "struct PulsePassportSession",
+      "id": "s:21KenshikiPulsePassport0bC7SessionV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "let sessionNonce: String",
+      "id": "s:21KenshikiPulsePassport0bC7SessionV12sessionNonceSSvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let expiresAt: String",
+      "id": "s:21KenshikiPulsePassport0bC7SessionV9expiresAtSSvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "init(sessionID: String, sessionNonce: String, expiresAt: String)",
+      "id": "s:21KenshikiPulsePassport0bC7SessionV9sessionID0E5Nonce9expiresAtACSS_S2Stcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "let sessionID: String",
+      "id": "s:21KenshikiPulsePassport0bC7SessionV9sessionIDSSvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "struct PulsePassportChipProof",
+      "id": "s:21KenshikiPulsePassport0bC9ChipProofV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "let dataGroups: [String : Data]",
+      "id": "s:21KenshikiPulsePassport0bC9ChipProofV10dataGroupsSDySS10Foundation4DataVGvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let securityObject: Data",
+      "id": "s:21KenshikiPulsePassport0bC9ChipProofV14securityObject10Foundation4DataVvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "init(securityObject: Data, documentSigningCertificate: Data, dataGroups: [String : Data], activeAuthenticationChallenge: Data?, activeAuthenticationSignature: Data?)",
+      "id": "s:21KenshikiPulsePassport0bC9ChipProofV14securityObject26documentSigningCertificate10dataGroups29activeAuthenticationChallenge0mN9SignatureAC10Foundation4DataV_AKSDySSAKGAKSgAMtcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "var sentDataGroups: [String : Data] { get }",
+      "id": "s:21KenshikiPulsePassport0bC9ChipProofV14sentDataGroupsSDySS10Foundation0G0VGvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let documentSigningCertificate: Data",
+      "id": "s:21KenshikiPulsePassport0bC9ChipProofV26documentSigningCertificate10Foundation4DataVvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let activeAuthenticationChallenge: Data?",
+      "id": "s:21KenshikiPulsePassport0bC9ChipProofV29activeAuthenticationChallenge10Foundation4DataVSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let activeAuthenticationSignature: Data?",
+      "id": "s:21KenshikiPulsePassport0bC9ChipProofV29activeAuthenticationSignature10Foundation4DataVSgvp",
+      "kind": "swift.property"
+    }
+  ]
+}

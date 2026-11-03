@@ -1,0 +1,3771 @@
+{
+  "relationships": [
+    {
+      "kind": "conformsTo",
+      "source": "c:@M@DocumentCapture@objc(cs)CaptureSessionLocation",
+      "target": "c:objc(pl)CLLocationManagerDelegate"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "c:@M@DocumentCapture@objc(cs)CaptureSessionLocation",
+      "target": "c:objc(pl)NSObject"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "c:@M@DocumentCapture@objc(cs)CaptureSessionLocation",
+      "target": "s:SH"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "c:@M@DocumentCapture@objc(cs)CaptureSessionLocation",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "c:@M@DocumentCapture@objc(cs)CaptureSessionLocation",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "c:@M@DocumentCapture@objc(cs)CaptureSessionLocation",
+      "target": "s:s23CustomStringConvertibleP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "c:@M@DocumentCapture@objc(cs)CaptureSessionLocation",
+      "target": "s:s28CustomDebugStringConvertibleP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "c:@M@DocumentCapture@objc(cs)CaptureSessionLocation",
+      "target": "s:s7CVarArgP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "c:@M@DocumentCapture@objc(cs)CaptureSessionLocation",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "inheritsFrom",
+      "source": "c:@M@DocumentCapture@objc(cs)CaptureSessionLocation",
+      "target": "c:objc(cs)NSObject"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture011LicenseBackB4ModeO",
+      "target": "s:SH"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture011LicenseBackB4ModeO",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture011LicenseBackB4ModeO",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture011LicenseBackB4ModeO",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0A14PresencePolicyV",
+      "target": "s:SE"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0A14PresencePolicyV",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0A14PresencePolicyV",
+      "target": "s:Se"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0A14PresencePolicyV",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0A14PresencePolicyV",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0A14PresencePolicyV11EnforcementO",
+      "target": "s:SE"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0A14PresencePolicyV11EnforcementO",
+      "target": "s:SH"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0A14PresencePolicyV11EnforcementO",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0A14PresencePolicyV11EnforcementO",
+      "target": "s:SY"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0A14PresencePolicyV11EnforcementO",
+      "target": "s:Se"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0A14PresencePolicyV11EnforcementO",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0A14PresencePolicyV11EnforcementO",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0A19PresencePolicyErrorO",
+      "target": "s:SH"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0A19PresencePolicyErrorO",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0A19PresencePolicyErrorO",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0A19PresencePolicyErrorO",
+      "target": "s:s5ErrorP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0A19PresencePolicyErrorO",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B10EvaluationO",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B10EvaluationO",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B12RecordLookupO",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B12RecordLookupO",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B12SessionEventO",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B12SessionEventO",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B12SessionIssueO",
+      "target": "s:SH"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B12SessionIssueO",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B12SessionIssueO",
+      "target": "s:SY"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B12SessionIssueO",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B12SessionIssueO",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B12SessionPhaseO",
+      "target": "s:SH"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B12SessionPhaseO",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B12SessionPhaseO",
+      "target": "s:SY"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B12SessionPhaseO",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B12SessionPhaseO",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B13JourneyIntentV",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B13JourneyIntentV",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B13JourneyIntentV",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B13SignedRecordsO",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B13SignedRecordsO",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B14IntegrityErrorO",
+      "target": "s:SH"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B14IntegrityErrorO",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B14IntegrityErrorO",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B14IntegrityErrorO",
+      "target": "s:s5ErrorP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B14IntegrityErrorO",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B14SessionConsentO",
+      "target": "s:SH"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B14SessionConsentO",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B14SessionConsentO",
+      "target": "s:SY"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B14SessionConsentO",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B14SessionConsentO",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B14SessionStartupO",
+      "target": "s:SH"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B14SessionStartupO",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B14SessionStartupO",
+      "target": "s:SY"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B14SessionStartupO",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B14SessionStartupO",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B15JourneyProgressC",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B15JourneyProgressC",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B15JourneyProgressC5StateO",
+      "target": "s:SH"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B15JourneyProgressC5StateO",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B15JourneyProgressC5StateO",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B15JourneyProgressC5StateO",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B15JourneyRecoveryO",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B15JourneyRecoveryO",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B15OriginalCustodyO",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B15OriginalCustodyO",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B15PortraitCustodyO",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B15PortraitCustodyO",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B15PortraitCustodyO4CropV",
+      "target": "s:SE"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B15PortraitCustodyO4CropV",
+      "target": "s:Se"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B15PortraitCustodyO4LinkV",
+      "target": "s:SE"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B15PortraitCustodyO4LinkV",
+      "target": "s:Se"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B15PortraitCustodyO6RecordV",
+      "target": "s:SE"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B15PortraitCustodyO6RecordV",
+      "target": "s:Se"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B15ProcessingQueueC",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B15ProcessingQueueC",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B16PortraitArtifactV",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B16PortraitArtifactV",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B16SessionTiltStateC",
+      "target": "s:7Combine16ObservableObjectP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B16SessionTiltStateC",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B16SessionTiltStateC",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B16SessionTiltStateC7OutcomeO",
+      "target": "s:SH"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B16SessionTiltStateC7OutcomeO",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B16SessionTiltStateC7OutcomeO",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B16SessionTiltStateC7OutcomeO",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B16SessionTiltStateC8GuidanceO",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B16SessionTiltStateC8GuidanceO",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B16SessionTiltStateC8GuidanceO",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B17JourneyCheckpointV",
+      "target": "s:SE"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B17JourneyCheckpointV",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B17JourneyCheckpointV",
+      "target": "s:Se"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B17JourneyCheckpointV",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B17JourneyCheckpointV",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B17JourneyCheckpointV5StageO",
+      "target": "s:SE"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B17JourneyCheckpointV5StageO",
+      "target": "s:SH"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B17JourneyCheckpointV5StageO",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B17JourneyCheckpointV5StageO",
+      "target": "s:SY"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B17JourneyCheckpointV5StageO",
+      "target": "s:Se"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B17JourneyCheckpointV5StageO",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B17JourneyCheckpointV5StageO",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B19ProcessingTelemetryO",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B19ProcessingTelemetryO",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B19StillBindingCustodyO",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B19StillBindingCustodyO",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B19StillBindingCustodyO7OutcomeO",
+      "target": "s:SE"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B19StillBindingCustodyO7OutcomeO",
+      "target": "s:SH"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B19StillBindingCustodyO7OutcomeO",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B19StillBindingCustodyO7OutcomeO",
+      "target": "s:SY"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B19StillBindingCustodyO7OutcomeO",
+      "target": "s:Se"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B20JourneyProgressErrorO",
+      "target": "s:SH"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B20JourneyProgressErrorO",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B20JourneyProgressErrorO",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B20JourneyProgressErrorO",
+      "target": "s:s5ErrorP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B20JourneyProgressErrorO",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B20PortraitVerificationO",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B20PortraitVerificationO",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B20SessionConfigurationV",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B20SessionConfigurationV",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B20SessionOriginalStateO",
+      "target": "s:SH"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B20SessionOriginalStateO",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B20SessionOriginalStateO",
+      "target": "s:SY"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B20SessionOriginalStateO",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B20SessionOriginalStateO",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B21ProcessingCalibrationV",
+      "target": "s:SE"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B21ProcessingCalibrationV",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B21ProcessingCalibrationV",
+      "target": "s:Se"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B21ProcessingCalibrationV",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B21ProcessingCalibrationV",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B21SessionLocationStatusO",
+      "target": "s:SH"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B21SessionLocationStatusO",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B21SessionLocationStatusO",
+      "target": "s:SY"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B21SessionLocationStatusO",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B21SessionLocationStatusO",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B21SessionRecordingStateO",
+      "target": "s:SH"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B21SessionRecordingStateO",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B21SessionRecordingStateO",
+      "target": "s:SY"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B21SessionRecordingStateO",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B21SessionRecordingStateO",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B22JourneyCheckpointErrorO",
+      "target": "s:SH"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B22JourneyCheckpointErrorO",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B22JourneyCheckpointErrorO",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B22JourneyCheckpointErrorO",
+      "target": "s:s5ErrorP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B22JourneyCheckpointErrorO",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B22SessionAttemptIdentityV",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B22SessionAttemptIdentityV",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B22SessionAttemptIdentityV",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B24OriginalPersistenceErrorO",
+      "target": "s:SH"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B24OriginalPersistenceErrorO",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B24OriginalPersistenceErrorO",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B24OriginalPersistenceErrorO",
+      "target": "s:s5ErrorP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B24OriginalPersistenceErrorO",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B25SessionLocationDiagnosticV",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B25SessionLocationDiagnosticV",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B25SessionLocationDiagnosticV",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B25TemporalEvidenceReferenceV",
+      "target": "s:SE"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B25TemporalEvidenceReferenceV",
+      "target": "s:Se"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B27TemporalEvidencePersistenceO",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B27TemporalEvidencePersistenceO",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B27TemporalEvidencePersistenceO14FrameReferenceV",
+      "target": "s:SE"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B27TemporalEvidencePersistenceO14FrameReferenceV",
+      "target": "s:Se"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B27TemporalEvidencePersistenceO4LinkV",
+      "target": "s:SE"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B27TemporalEvidencePersistenceO4LinkV",
+      "target": "s:Se"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B27TemporalEvidencePersistenceO8SequenceV",
+      "target": "s:SE"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B27TemporalEvidencePersistenceO8SequenceV",
+      "target": "s:Se"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B7RecordsO18DerivativeManifestV",
+      "target": "s:SE"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B7RecordsO18DerivativeManifestV",
+      "target": "s:Se"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B7RecordsO18ExtractionManifestV",
+      "target": "s:SE"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B7RecordsO18ExtractionManifestV",
+      "target": "s:Se"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B7RecordsO7ProfileO",
+      "target": "s:SE"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B7RecordsO7ProfileO",
+      "target": "s:SH"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B7RecordsO7ProfileO",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B7RecordsO7ProfileO",
+      "target": "s:SY"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B7RecordsO7ProfileO",
+      "target": "s:Se"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B7RecordsO7ProfileO",
+      "target": "s:s12CaseIterableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B7RecordsO7ProfileO",
+      "target": "s:s12IdentifiableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B7RecordsO7ProfileO",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B7RecordsO7ProfileO",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B7RecordsO8ManifestV",
+      "target": "s:SE"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B7RecordsO8ManifestV",
+      "target": "s:Se"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B7SessionC",
+      "target": "s:7Combine16ObservableObjectP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B7SessionC",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B7SessionC",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B9UsabilityV",
+      "target": "s:SE"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B9UsabilityV",
+      "target": "s:Se"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B9UsabilityV",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B9UsabilityV",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B9UsabilityV7OutcomeO",
+      "target": "s:SE"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B9UsabilityV7OutcomeO",
+      "target": "s:SH"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B9UsabilityV7OutcomeO",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B9UsabilityV7OutcomeO",
+      "target": "s:SY"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B9UsabilityV7OutcomeO",
+      "target": "s:Se"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B9UsabilityV7OutcomeO",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0B9UsabilityV7OutcomeO",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0bA10InspectionO",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0bA10InspectionO",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0bA10OperationsV",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0bA10OperationsV",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0bA13RecoveryErrorO",
+      "target": "s:SH"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0bA13RecoveryErrorO",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0bA13RecoveryErrorO",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0bA13RecoveryErrorO",
+      "target": "s:s5ErrorP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0bA13RecoveryErrorO",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0bA14PresenceRecordV",
+      "target": "s:SE"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0bA14PresenceRecordV",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0bA14PresenceRecordV",
+      "target": "s:Se"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0bA14PresenceRecordV",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0bA14PresenceRecordV",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0bA6SourceV",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0bA6SourceV",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0bA6StagesO",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0bA6StagesO",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0bA8RecoveryO",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0bA8RecoveryO",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0bA8RecoveryO5StageO",
+      "target": "s:SH"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0bA8RecoveryO5StageO",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0bA8RecoveryO5StageO",
+      "target": "s:SY"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0bA8WorkflowO",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0bA8WorkflowO",
+      "target": "s:s8SendableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0bA8WorkflowO0A14ExtractionLinkV",
+      "target": "s:SE"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0bA8WorkflowO0A14ExtractionLinkV",
+      "target": "s:Se"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0bA8WorkflowO16AssessmentRecordV",
+      "target": "s:SE"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:15DocumentCapture0bA8WorkflowO16AssessmentRecordV",
+      "target": "s:Se"
+    }
+  ],
+  "symbols": [
+    {
+      "declaration": "@MainActor final class CaptureSessionLocation",
+      "id": "c:@M@DocumentCapture@objc(cs)CaptureSessionLocation",
+      "kind": "swift.class"
+    },
+    {
+      "declaration": "@MainActor func locationManager(_: CLLocationManager, didFailWithError error: any Error)",
+      "id": "c:@M@DocumentCapture@objc(cs)CaptureSessionLocation(im)locationManager:didFailWithError:",
+      "kind": "swift.method"
+    },
+    {
+      "declaration": "@MainActor func locationManager(_: CLLocationManager, didUpdateLocations locations: [CLLocation])",
+      "id": "c:@M@DocumentCapture@objc(cs)CaptureSessionLocation(im)locationManager:didUpdateLocations:",
+      "kind": "swift.method"
+    },
+    {
+      "declaration": "@MainActor func locationManagerDidChangeAuthorization(_ manager: CLLocationManager)",
+      "id": "c:@M@DocumentCapture@objc(cs)CaptureSessionLocation(im)locationManagerDidChangeAuthorization:",
+      "kind": "swift.method"
+    },
+    {
+      "declaration": "enum LicenseBackCaptureMode",
+      "id": "s:15DocumentCapture011LicenseBackB4ModeO",
+      "kind": "swift.enum"
+    },
+    {
+      "declaration": "case livePDF417",
+      "id": "s:15DocumentCapture011LicenseBackB4ModeO10livePDF417yA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case document",
+      "id": "s:15DocumentCapture011LicenseBackB4ModeO8documentyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "struct DocumentPresencePolicy",
+      "id": "s:15DocumentCapture0A14PresencePolicyV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "init(identifier: String, attribution: String, tiltReserveBytes: Int, tiltReserveSeconds: Double, windowBeforeStillSeconds: Double, windowAfterStillSeconds: Double, windowMaximumBytes: Int) throws",
+      "id": "s:15DocumentCapture0A14PresencePolicyV10identifier11attribution16tiltReserveBytes0gH7Seconds017windowBeforeStillJ00k5AftermJ00k7MaximumI0ACSS_SSSiS3dSitKcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "let identifier: String",
+      "id": "s:15DocumentCapture0A14PresencePolicyV10identifierSSvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "enum Enforcement",
+      "id": "s:15DocumentCapture0A14PresencePolicyV11EnforcementO",
+      "kind": "swift.enum"
+    },
+    {
+      "declaration": "case enforce",
+      "id": "s:15DocumentCapture0A14PresencePolicyV11EnforcementO7enforceyA2EmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case observe",
+      "id": "s:15DocumentCapture0A14PresencePolicyV11EnforcementO7observeyA2EmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "init?(rawValue: String)",
+      "id": "s:15DocumentCapture0A14PresencePolicyV11EnforcementO8rawValueAESgSS_tcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "let attribution: String",
+      "id": "s:15DocumentCapture0A14PresencePolicyV11attributionSSvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "var enforcement: DocumentPresencePolicy.Enforcement { get }",
+      "id": "s:15DocumentCapture0A14PresencePolicyV11enforcementAC11EnforcementOvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let tiltReserveBytes: Int",
+      "id": "s:15DocumentCapture0A14PresencePolicyV16tiltReserveBytesSivp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let tiltReserveSeconds: Double",
+      "id": "s:15DocumentCapture0A14PresencePolicyV18tiltReserveSecondsSdvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let windowMaximumBytes: Int",
+      "id": "s:15DocumentCapture0A14PresencePolicyV18windowMaximumBytesSivp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let windowAfterStillSeconds: Double",
+      "id": "s:15DocumentCapture0A14PresencePolicyV23windowAfterStillSecondsSdvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let windowBeforeStillSeconds: Double",
+      "id": "s:15DocumentCapture0A14PresencePolicyV24windowBeforeStillSecondsSdvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "init(from decoder: any Decoder) throws",
+      "id": "s:15DocumentCapture0A14PresencePolicyV4fromACs7Decoder_p_tKcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "func observed() -> DocumentPresencePolicy",
+      "id": "s:15DocumentCapture0A14PresencePolicyV8observedACyF",
+      "kind": "swift.method"
+    },
+    {
+      "declaration": "enum DocumentPresencePolicyError",
+      "id": "s:15DocumentCapture0A19PresencePolicyErrorO",
+      "kind": "swift.enum"
+    },
+    {
+      "declaration": "case invalidValue",
+      "id": "s:15DocumentCapture0A19PresencePolicyErrorO12invalidValueyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "@MainActor enum CaptureEvaluation",
+      "id": "s:15DocumentCapture0B10EvaluationO",
+      "kind": "swift.enum"
+    },
+    {
+      "declaration": "@MainActor static func retain(source: CaptureDocumentSource, store: CaptureEvidenceStore, retainedOriginal: CaptureEvidenceRecord? = nil, operations: CaptureDocumentOperations = .init()) async throws -> CaptureUsability",
+      "id": "s:15DocumentCapture0B10EvaluationO6retain6source5store16retainedOriginal10operationsAA0B9UsabilityVAA0bA6SourceV_0B15EvidenceCustody0bL5StoreCAM0bL6RecordVSgAA0bA10OperationsVtYaKFZ",
+      "kind": "swift.type.method"
+    },
+    {
+      "declaration": "@MainActor enum CaptureRecordLookup",
+      "id": "s:15DocumentCapture0B12RecordLookupO",
+      "kind": "swift.enum"
+    },
+    {
+      "declaration": "@MainActor static func recordIDs(captureID: UUID, recordKind: String? = nil, store: CaptureEvidenceStore) async throws -> [UUID]",
+      "id": "s:15DocumentCapture0B12RecordLookupO9recordIDs9captureID0E4Kind5storeSay10Foundation4UUIDVGAJ_SSSg0B15EvidenceCustody0bM5StoreCtYaKFZ",
+      "kind": "swift.type.method"
+    },
+    {
+      "declaration": "enum CaptureSessionEvent",
+      "id": "s:15DocumentCapture0B12SessionEventO",
+      "kind": "swift.enum"
+    },
+    {
+      "declaration": "case originalRetained(identity: CaptureSessionAttemptIdentity, profile: CaptureRecords.Profile)",
+      "id": "s:15DocumentCapture0B12SessionEventO16originalRetainedyAcA0bC15AttemptIdentityV_AA0B7RecordsO7ProfileOtcACmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case processingFailed(identity: CaptureSessionAttemptIdentity)",
+      "id": "s:15DocumentCapture0B12SessionEventO16processingFailedyAcA0bC15AttemptIdentityV_tcACmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case recordingSettled(DocumentJourneyRecordingReceipt)",
+      "id": "s:15DocumentCapture0B12SessionEventO16recordingSettledyAC0aB5Apple0A23JourneyRecordingReceiptVcACmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case processingCompleted(identity: CaptureSessionAttemptIdentity, assessment: DocumentCaptureExpectationAssessment)",
+      "id": "s:15DocumentCapture0B12SessionEventO19processingCompletedyAcA0bC15AttemptIdentityV_0aB5Apple0aB21ExpectationAssessmentVtcACmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case issue(CaptureSessionIssue)",
+      "id": "s:15DocumentCapture0B12SessionEventO5issueyAcA0bC5IssueOcACmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "enum CaptureSessionIssue",
+      "id": "s:15DocumentCapture0B12SessionIssueO",
+      "kind": "swift.enum"
+    },
+    {
+      "declaration": "case captureFailed",
+      "id": "s:15DocumentCapture0B12SessionIssueO13captureFailedyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case custodyErased",
+      "id": "s:15DocumentCapture0B12SessionIssueO13custodyErasedyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case consentRequired",
+      "id": "s:15DocumentCapture0B12SessionIssueO15consentRequiredyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case locationRequired",
+      "id": "s:15DocumentCapture0B12SessionIssueO16locationRequiredyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case cameraUnavailable",
+      "id": "s:15DocumentCapture0B12SessionIssueO17cameraUnavailableyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case recordingTerminated",
+      "id": "s:15DocumentCapture0B12SessionIssueO19recordingTerminatedyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case nativeControlsPaused",
+      "id": "s:15DocumentCapture0B12SessionIssueO20nativeControlsPausedyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case analysisTransitionFailed",
+      "id": "s:15DocumentCapture0B12SessionIssueO24analysisTransitionFailedyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case documentPresenceRequired",
+      "id": "s:15DocumentCapture0B12SessionIssueO24documentPresenceRequiredyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case originalSavedBindingFailed",
+      "id": "s:15DocumentCapture0B12SessionIssueO26originalSavedBindingFailedyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case documentPresenceUnavailable",
+      "id": "s:15DocumentCapture0B12SessionIssueO27documentPresenceUnavailableyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "init?(rawValue: String)",
+      "id": "s:15DocumentCapture0B12SessionIssueO8rawValueACSgSS_tcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "enum CaptureSessionPhase",
+      "id": "s:15DocumentCapture0B12SessionPhaseO",
+      "kind": "swift.enum"
+    },
+    {
+      "declaration": "case preparingBack",
+      "id": "s:15DocumentCapture0B12SessionPhaseO13preparingBackyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case inactive",
+      "id": "s:15DocumentCapture0B12SessionPhaseO8inactiveyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "init?(rawValue: String)",
+      "id": "s:15DocumentCapture0B12SessionPhaseO8rawValueACSgSS_tcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "case capturing",
+      "id": "s:15DocumentCapture0B12SessionPhaseO9capturingyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case completed",
+      "id": "s:15DocumentCapture0B12SessionPhaseO9completedyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case reviewing",
+      "id": "s:15DocumentCapture0B12SessionPhaseO9reviewingyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "struct CaptureJourneyIntent",
+      "id": "s:15DocumentCapture0B13JourneyIntentV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "let portraitID: UUID?",
+      "id": "s:15DocumentCapture0B13JourneyIntentV10portraitID10Foundation4UUIDVSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let workflowID: UUID",
+      "id": "s:15DocumentCapture0B13JourneyIntentV10workflowID10Foundation4UUIDVvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "init(workflowID: UUID, profile: String, stage: CaptureJourneyCheckpoint.Stage, frontID: UUID? = nil, backID: UUID? = nil, portraitID: UUID? = nil, selfieID: UUID? = nil, comparisonID: UUID? = nil)",
+      "id": "s:15DocumentCapture0B13JourneyIntentV10workflowID7profile5stage05frontF004backF008portraitF006selfieF0010comparisonF0AC10Foundation4UUIDV_SSAA0bC10CheckpointV5StageOANSgA4Stcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "let comparisonID: UUID?",
+      "id": "s:15DocumentCapture0B13JourneyIntentV12comparisonID10Foundation4UUIDVSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let stage: CaptureJourneyCheckpoint.Stage",
+      "id": "s:15DocumentCapture0B13JourneyIntentV5stageAA0bC10CheckpointV5StageOvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let backID: UUID?",
+      "id": "s:15DocumentCapture0B13JourneyIntentV6backID10Foundation4UUIDVSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let frontID: UUID?",
+      "id": "s:15DocumentCapture0B13JourneyIntentV7frontID10Foundation4UUIDVSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let profile: String",
+      "id": "s:15DocumentCapture0B13JourneyIntentV7profileSSvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let selfieID: UUID?",
+      "id": "s:15DocumentCapture0B13JourneyIntentV8selfieID10Foundation4UUIDVSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "@MainActor enum CaptureSignedRecords",
+      "id": "s:15DocumentCapture0B13SignedRecordsO",
+      "kind": "swift.enum"
+    },
+    {
+      "declaration": "@MainActor static func retainStage(id: UUID, kind: String, captureID: UUID, original: Data, manifest: Data, store: CaptureEvidenceStore) async throws",
+      "id": "s:15DocumentCapture0B13SignedRecordsO11retainStage2id4kind9captureID8original8manifest5storey10Foundation4UUIDV_SSAmK4DataVAO0B15EvidenceCustody0bQ5StoreCtYaKFZ",
+      "kind": "swift.type.method"
+    },
+    {
+      "declaration": "@MainActor static func signedStage(id: UUID, captureID: UUID, store: CaptureEvidenceStore) async throws -> SignedCaptureEvidenceRecord",
+      "id": "s:15DocumentCapture0B13SignedRecordsO11signedStage2id9captureID5store0B15EvidenceCustody0cbK6RecordV10Foundation4UUIDV_AmH0bK5StoreCtYaKFZ",
+      "kind": "swift.type.method"
+    },
+    {
+      "declaration": "@MainActor static func retainOriginal(id: UUID, original: Data, manifest: Data, store: CaptureEvidenceStore) async throws",
+      "id": "s:15DocumentCapture0B13SignedRecordsO14retainOriginal2id8original8manifest5storey10Foundation4UUIDV_AI4DataVAM0B15EvidenceCustody0bN5StoreCtYaKFZ",
+      "kind": "swift.type.method"
+    },
+    {
+      "declaration": "@MainActor static func stage(id: UUID, captureID: UUID, store: CaptureEvidenceStore) async throws -> CaptureEvidenceRecord",
+      "id": "s:15DocumentCapture0B13SignedRecordsO5stage2id9captureID5store0B15EvidenceCustody0bJ6RecordV10Foundation4UUIDV_AmH0bJ5StoreCtYaKFZ",
+      "kind": "swift.type.method"
+    },
+    {
+      "declaration": "@MainActor static func original(id: UUID, workflowID expectedWorkflowID: UUID? = nil, store: CaptureEvidenceStore) async throws -> SignedCaptureEvidenceRecord",
+      "id": "s:15DocumentCapture0B13SignedRecordsO8original2id10workflowID5store0B15EvidenceCustody0cbJ6RecordV10Foundation4UUIDV_AMSgAH0bJ5StoreCtYaKFZ",
+      "kind": "swift.type.method"
+    },
+    {
+      "declaration": "enum CaptureIntegrityError",
+      "id": "s:15DocumentCapture0B14IntegrityErrorO",
+      "kind": "swift.enum"
+    },
+    {
+      "declaration": "case integrityVerificationFailed",
+      "id": "s:15DocumentCapture0B14IntegrityErrorO27integrityVerificationFailedyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "enum CaptureSessionConsent",
+      "id": "s:15DocumentCapture0B14SessionConsentO",
+      "kind": "swift.enum"
+    },
+    {
+      "declaration": "init?(rawValue: String)",
+      "id": "s:15DocumentCapture0B14SessionConsentO8rawValueACSgSS_tcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "case withheld",
+      "id": "s:15DocumentCapture0B14SessionConsentO8withheldyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case permitted",
+      "id": "s:15DocumentCapture0B14SessionConsentO9permittedyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "enum CaptureSessionStartup",
+      "id": "s:15DocumentCapture0B14SessionStartupO",
+      "kind": "swift.enum"
+    },
+    {
+      "declaration": "case settlement",
+      "id": "s:15DocumentCapture0B14SessionStartupO10settlementyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case cameraStart",
+      "id": "s:15DocumentCapture0B14SessionStartupO11cameraStartyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case cameraRelease",
+      "id": "s:15DocumentCapture0B14SessionStartupO13cameraReleaseyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case permissionState",
+      "id": "s:15DocumentCapture0B14SessionStartupO15permissionStateyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case storage",
+      "id": "s:15DocumentCapture0B14SessionStartupO7storageyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "init?(rawValue: String)",
+      "id": "s:15DocumentCapture0B14SessionStartupO8rawValueACSgSS_tcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "case recording",
+      "id": "s:15DocumentCapture0B14SessionStartupO9recordingyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "@MainActor final class CaptureJourneyProgress",
+      "id": "s:15DocumentCapture0B15JourneyProgressC",
+      "kind": "swift.class"
+    },
+    {
+      "declaration": "@MainActor var checkpoint: CaptureJourneyCheckpoint? { get }",
+      "id": "s:15DocumentCapture0B15JourneyProgressC10checkpointAA0bC10CheckpointVSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "@MainActor func invalidate()",
+      "id": "s:15DocumentCapture0B15JourneyProgressC10invalidateyyF",
+      "kind": "swift.method"
+    },
+    {
+      "declaration": "enum State",
+      "id": "s:15DocumentCapture0B15JourneyProgressC5StateO",
+      "kind": "swift.enum"
+    },
+    {
+      "declaration": "case retryRequired",
+      "id": "s:15DocumentCapture0B15JourneyProgressC5StateO13retryRequiredyA2EmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case idle",
+      "id": "s:15DocumentCapture0B15JourneyProgressC5StateO4idleyA2EmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case saving",
+      "id": "s:15DocumentCapture0B15JourneyProgressC5StateO6savingyA2EmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "@MainActor func retry() async throws -> CaptureJourneyCheckpoint",
+      "id": "s:15DocumentCapture0B15JourneyProgressC5retryAA0bC10CheckpointVyYaKF",
+      "kind": "swift.method"
+    },
+    {
+      "declaration": "@MainActor var state: CaptureJourneyProgress.State { get }",
+      "id": "s:15DocumentCapture0B15JourneyProgressC5stateAC5StateOvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "@MainActor init(store: CaptureEvidenceStore, now: @escaping @Sendable () -> Date)",
+      "id": "s:15DocumentCapture0B15JourneyProgressC5store3nowAC0B15EvidenceCustody0bG5StoreC_10Foundation4DateVyYbctcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "@MainActor func commit(_ intent: CaptureJourneyIntent) async throws -> CaptureJourneyCheckpoint",
+      "id": "s:15DocumentCapture0B15JourneyProgressC6commityAA0bC10CheckpointVAA0bC6IntentVYaKF",
+      "kind": "swift.method"
+    },
+    {
+      "declaration": "@MainActor enum CaptureJourneyRecovery",
+      "id": "s:15DocumentCapture0B15JourneyRecoveryO",
+      "kind": "swift.enum"
+    },
+    {
+      "declaration": "struct Resolution",
+      "id": "s:15DocumentCapture0B15JourneyRecoveryO10ResolutionV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "let pendingCaptureStage: CaptureJourneyCheckpoint.Stage?",
+      "id": "s:15DocumentCapture0B15JourneyRecoveryO10ResolutionV07pendingB5StageAA0bC10CheckpointV0G0OSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let checkpoint: CaptureJourneyCheckpoint?",
+      "id": "s:15DocumentCapture0B15JourneyRecoveryO10ResolutionV10checkpointAA0bC10CheckpointVSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let profile: CaptureRecords.Profile",
+      "id": "s:15DocumentCapture0B15JourneyRecoveryO10ResolutionV7profileAA0B7RecordsO7ProfileOvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let selected: CaptureJourneyRecovery.Original?",
+      "id": "s:15DocumentCapture0B15JourneyRecoveryO10ResolutionV8selectedAC8OriginalVSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "@MainActor static func currentBack(frontCaptureID: UUID, workflowID: UUID, store: CaptureEvidenceStore) async throws -> CaptureJourneyRecovery.Original?",
+      "id": "s:15DocumentCapture0B15JourneyRecoveryO11currentBack05frontB2ID08workflowH05storeAC8OriginalVSg10Foundation4UUIDV_AM0B15EvidenceCustody0bN5StoreCtYaKFZ",
+      "kind": "swift.type.method"
+    },
+    {
+      "declaration": "@MainActor static func retainedBack(captureID: UUID, frontCaptureID: UUID, workflowID: UUID, store: CaptureEvidenceStore) async throws -> CaptureJourneyRecovery.Original",
+      "id": "s:15DocumentCapture0B15JourneyRecoveryO12retainedBack9captureID05frontbH008workflowH05storeAC8OriginalV10Foundation4UUIDV_A2M0B15EvidenceCustody0bO5StoreCtYaKFZ",
+      "kind": "swift.type.method"
+    },
+    {
+      "declaration": "@MainActor static func retainedFront(captureID: UUID, workflowID: UUID, store: CaptureEvidenceStore) async throws -> CaptureJourneyRecovery.Original",
+      "id": "s:15DocumentCapture0B15JourneyRecoveryO13retainedFront9captureID08workflowH05storeAC8OriginalV10Foundation4UUIDV_AL0B15EvidenceCustody0bN5StoreCtYaKFZ",
+      "kind": "swift.type.method"
+    },
+    {
+      "declaration": "@MainActor static func retainedFronts(profile: CaptureRecords.Profile, store: CaptureEvidenceStore) async throws -> [CaptureJourneyRecovery.Original]",
+      "id": "s:15DocumentCapture0B15JourneyRecoveryO14retainedFronts7profile5storeSayAC8OriginalVGAA0B7RecordsO7ProfileO_0B15EvidenceCustody0bL5StoreCtYaKFZ",
+      "kind": "swift.type.method"
+    },
+    {
+      "declaration": "@MainActor static func resolve(workflowID: UUID, candidateCaptureID: UUID, store: CaptureEvidenceStore) async throws -> CaptureJourneyRecovery.Resolution",
+      "id": "s:15DocumentCapture0B15JourneyRecoveryO7resolve10workflowID09candidatebG05storeAC10ResolutionV10Foundation4UUIDV_AL0B15EvidenceCustody0bM5StoreCtYaKFZ",
+      "kind": "swift.type.method"
+    },
+    {
+      "declaration": "struct Original",
+      "id": "s:15DocumentCapture0B15JourneyRecoveryO8OriginalV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "let checkpointRevision: UInt64?",
+      "id": "s:15DocumentCapture0B15JourneyRecoveryO8OriginalV18checkpointRevisions6UInt64VSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let record: CaptureEvidenceRecord",
+      "id": "s:15DocumentCapture0B15JourneyRecoveryO8OriginalV6record0B15EvidenceCustody0bG6RecordVvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "var profile: CaptureRecords.Profile { get }",
+      "id": "s:15DocumentCapture0B15JourneyRecoveryO8OriginalV7profileAA0B7RecordsO7ProfileOvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let manifest: CaptureRecords.Manifest",
+      "id": "s:15DocumentCapture0B15JourneyRecoveryO8OriginalV8manifestAA0B7RecordsO8ManifestVvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "var captureID: UUID { get }",
+      "id": "s:15DocumentCapture0B15JourneyRecoveryO8OriginalV9captureID10Foundation4UUIDVvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "@MainActor enum CaptureOriginalCustody",
+      "id": "s:15DocumentCapture0B15OriginalCustodyO",
+      "kind": "swift.enum"
+    },
+    {
+      "declaration": "@MainActor static func retain(_ photo: CapturedDocumentPhoto, captureID: UUID, profile: CaptureRecords.Profile, workflowID: UUID, precedingFrontCaptureID: UUID?, journeyRevision: UInt64?, tuning: DocumentCaptureTuningOverrides, store: CaptureEvidenceStore, hostTime: @Sendable () -> Double, recording: CaptureRecordingJournal? = nil, recordingMilestone: UUID? = nil, livePDF417Candidate: String? = nil, documentPresence: CaptureDocumentPresenceRecord? = nil) async throws",
+      "id": "s:15DocumentCapture0B15OriginalCustodyO6retain_9captureID7profile08workflowG0014precedingFrontbG015journeyRevision6tuning5store8hostTime9recording0R9Milestone19livePDF417Candidate16documentPresencey0aB5Apple08CapturedA5PhotoV_10Foundation4UUIDVAA0B7RecordsO7ProfileOA2VSgs6UInt64VSgAQ0aB15TuningOverridesV0b8EvidenceD00B13EvidenceStoreCSdyYbXE0aB7Journal0B16RecordingJournalCSgA_SSSgAA0baX6RecordVSgtYaKFZ",
+      "kind": "swift.type.method"
+    },
+    {
+      "declaration": "@MainActor enum CapturePortraitCustody",
+      "id": "s:15DocumentCapture0B15PortraitCustodyO",
+      "kind": "swift.enum"
+    },
+    {
+      "declaration": "struct Crop",
+      "id": "s:15DocumentCapture0B15PortraitCustodyO4CropV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "let derivation: PortraitImageDerivation",
+      "id": "s:15DocumentCapture0B15PortraitCustodyO4CropV10derivation0aB5Apple0C15ImageDerivationVvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "init(from decoder: any Decoder) throws",
+      "id": "s:15DocumentCapture0B15PortraitCustodyO4CropV4fromAEs7Decoder_p_tKcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "let recordID: UUID",
+      "id": "s:15DocumentCapture0B15PortraitCustodyO4CropV8recordID10Foundation4UUIDVvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "init(recordID: UUID, derivation: PortraitImageDerivation)",
+      "id": "s:15DocumentCapture0B15PortraitCustodyO4CropV8recordID10derivationAE10Foundation4UUIDV_0aB5Apple0C15ImageDerivationVtcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "struct Link",
+      "id": "s:15DocumentCapture0B15PortraitCustodyO4LinkV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "let derivation: PortraitImageDerivation?",
+      "id": "s:15DocumentCapture0B15PortraitCustodyO4LinkV10derivation0aB5Apple0C15ImageDerivationVSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let recordKind: String",
+      "id": "s:15DocumentCapture0B15PortraitCustodyO4LinkV10recordKindSSvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let sourceSHA256: String",
+      "id": "s:15DocumentCapture0B15PortraitCustodyO4LinkV12sourceSHA256SSvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "init(schemaVersion: Int, recordKind: String, captureID: UUID, sourceSHA256: String, derivativeRecordID: UUID? = nil, derivativeSHA256: String? = nil, derivation: PortraitImageDerivation? = nil)",
+      "id": "s:15DocumentCapture0B15PortraitCustodyO4LinkV13schemaVersion10recordKind9captureID12sourceSHA256016derivativeRecordK00nM010derivationAESi_SS10Foundation4UUIDVSSAOSgSSSg0aB5Apple0C15ImageDerivationVSgtcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "let schemaVersion: Int",
+      "id": "s:15DocumentCapture0B15PortraitCustodyO4LinkV13schemaVersionSivp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let derivativeSHA256: String?",
+      "id": "s:15DocumentCapture0B15PortraitCustodyO4LinkV16derivativeSHA256SSSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let derivativeRecordID: UUID?",
+      "id": "s:15DocumentCapture0B15PortraitCustodyO4LinkV18derivativeRecordID10Foundation4UUIDVSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "init(from decoder: any Decoder) throws",
+      "id": "s:15DocumentCapture0B15PortraitCustodyO4LinkV4fromAEs7Decoder_p_tKcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "let captureID: UUID",
+      "id": "s:15DocumentCapture0B15PortraitCustodyO4LinkV9captureID10Foundation4UUIDVvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "struct Record",
+      "id": "s:15DocumentCapture0B15PortraitCustodyO6RecordV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "let extraction: PortraitExtractionMetadata?",
+      "id": "s:15DocumentCapture0B15PortraitCustodyO6RecordV10extraction0aB5Apple0C18ExtractionMetadataVSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "init(from decoder: any Decoder) throws",
+      "id": "s:15DocumentCapture0B15PortraitCustodyO6RecordV4fromAEs7Decoder_p_tKcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "let crops: [CapturePortraitCustody.Crop]",
+      "id": "s:15DocumentCapture0B15PortraitCustodyO6RecordV5cropsSayAC4CropVGvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "init(outcome: String, extraction: PortraitExtractionMetadata? = nil, crops: [CapturePortraitCustody.Crop])",
+      "id": "s:15DocumentCapture0B15PortraitCustodyO6RecordV7outcome10extraction5cropsAESS_0aB5Apple0C18ExtractionMetadataVSgSayAC4CropVGtcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "let outcome: String",
+      "id": "s:15DocumentCapture0B15PortraitCustodyO6RecordV7outcomeSSvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "@MainActor static func retain(captureID: UUID, sourceHash: String, derivativeID: UUID?, store: CaptureEvidenceStore, retainedDerivative: CaptureEvidenceRecord? = nil, operations: CaptureDocumentOperations = .init()) async throws",
+      "id": "s:15DocumentCapture0B15PortraitCustodyO6retain9captureID10sourceHash010derivativeG05store18retainedDerivative10operationsy10Foundation4UUIDV_SSAMSg0b8EvidenceD00bQ5StoreCAO0bQ6RecordVSgAA0bA10OperationsVtYaKFZ",
+      "kind": "swift.type.method"
+    },
+    {
+      "declaration": "@MainActor final class CaptureProcessingQueue",
+      "id": "s:15DocumentCapture0B15ProcessingQueueC",
+      "kind": "swift.class"
+    },
+    {
+      "declaration": "typealias Completion = @MainActor @Sendable (CaptureProcessingQueue.Job, Result<DocumentCaptureExpectationAssessment, any Error>) async -> Void",
+      "id": "s:15DocumentCapture0B15ProcessingQueueC10Completiona",
+      "kind": "swift.typealias"
+    },
+    {
+      "declaration": "@MainActor var captureIDs: Set<UUID> { get }",
+      "id": "s:15DocumentCapture0B15ProcessingQueueC10captureIDsShy10Foundation4UUIDVGvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "@MainActor var completion: CaptureProcessingQueue.Completion",
+      "id": "s:15DocumentCapture0B15ProcessingQueueC10completionyyAC3JobV_s6ResultOy0aB5Apple0aB21ExpectationAssessmentVs5Error_pGtYaYbScMYccvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "@MainActor var superseded: (UUID) -> Void",
+      "id": "s:15DocumentCapture0B15ProcessingQueueC10supersededyy10Foundation4UUIDVcvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "@MainActor func waitUntilIdle() async",
+      "id": "s:15DocumentCapture0B15ProcessingQueueC13waitUntilIdleyyYaF",
+      "kind": "swift.method"
+    },
+    {
+      "declaration": "struct Job",
+      "id": "s:15DocumentCapture0B15ProcessingQueueC3JobV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "let workflowID: UUID",
+      "id": "s:15DocumentCapture0B15ProcessingQueueC3JobV10workflowID10Foundation4UUIDVvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let publicationEpoch: UUID",
+      "id": "s:15DocumentCapture0B15ProcessingQueueC3JobV16publicationEpoch10Foundation4UUIDVvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let store: CaptureEvidenceStore",
+      "id": "s:15DocumentCapture0B15ProcessingQueueC3JobV5store0B15EvidenceCustody0bG5StoreCvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let profile: CaptureRecords.Profile",
+      "id": "s:15DocumentCapture0B15ProcessingQueueC3JobV7profileAA0B7RecordsO7ProfileOvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "var progress: (CaptureDocumentRecovery.Stage) -> Void",
+      "id": "s:15DocumentCapture0B15ProcessingQueueC3JobV8progressyyAA0bA8RecoveryO5StageOcvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "init(captureID: UUID, workflowID: UUID, profile: CaptureRecords.Profile, publicationEpoch: UUID, store: CaptureEvidenceStore, progress: @escaping (CaptureDocumentRecovery.Stage) -> Void = { _ in })",
+      "id": "s:15DocumentCapture0B15ProcessingQueueC3JobV9captureID08workflowG07profile16publicationEpoch5store8progressAE10Foundation4UUIDV_AnA0B7RecordsO7ProfileOAN0B15EvidenceCustody0bR5StoreCyAA0bA8RecoveryO5StageOctcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "let captureID: UUID",
+      "id": "s:15DocumentCapture0B15ProcessingQueueC3JobV9captureID10Foundation4UUIDVvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "typealias Worker = @MainActor @Sendable (CaptureProcessingQueue.Job) async throws -> DocumentCaptureExpectationAssessment",
+      "id": "s:15DocumentCapture0B15ProcessingQueueC6Workera",
+      "kind": "swift.typealias"
+    },
+    {
+      "declaration": "@MainActor func cancel()",
+      "id": "s:15DocumentCapture0B15ProcessingQueueC6cancelyyF",
+      "kind": "swift.method"
+    },
+    {
+      "declaration": "@MainActor init(worker: @escaping CaptureProcessingQueue.Worker = { job in\n        try await CaptureDocumentRecovery.process(\n          captureID: job.captureID, store: job.store,\n          onStage: { job.progress($0) })\n      })",
+      "id": "s:15DocumentCapture0B15ProcessingQueueC6workerAC0aB5Apple0aB21ExpectationAssessmentVAC3JobVYaYbKScMYcc_tcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "@MainActor var changed: () -> Void",
+      "id": "s:15DocumentCapture0B15ProcessingQueueC7changedyycvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "@MainActor func enqueue(_ job: CaptureProcessingQueue.Job)",
+      "id": "s:15DocumentCapture0B15ProcessingQueueC7enqueueyyAC3JobVF",
+      "kind": "swift.method"
+    },
+    {
+      "declaration": "@MainActor var activeID: UUID? { get }",
+      "id": "s:15DocumentCapture0B15ProcessingQueueC8activeID10Foundation4UUIDVSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "@MainActor func contains(_ id: UUID) -> Bool",
+      "id": "s:15DocumentCapture0B15ProcessingQueueC8containsySb10Foundation4UUIDVF",
+      "kind": "swift.method"
+    },
+    {
+      "declaration": "@MainActor var permissionStatus: CLAuthorizationStatus { get }",
+      "id": "s:15DocumentCapture0B15SessionLocationC16permissionStatusSo015CLAuthorizationF0Vvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "@MainActor convenience init(now: @escaping @Sendable () -> Date)",
+      "id": "s:15DocumentCapture0B15SessionLocationC3nowAC10Foundation4DateVyYbc_tcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "@MainActor func stop()",
+      "id": "s:15DocumentCapture0B15SessionLocationC4stopyyF",
+      "kind": "swift.method"
+    },
+    {
+      "declaration": "@MainActor var status: CaptureSessionLocationStatus { get }",
+      "id": "s:15DocumentCapture0B15SessionLocationC6statusAA0bcD6StatusOvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "@MainActor func assertion() -> CaptureLocationAssertion?",
+      "id": "s:15DocumentCapture0B15SessionLocationC9assertion0A3SDK0bD9AssertionVSgyF",
+      "kind": "swift.method"
+    },
+    {
+      "declaration": "struct CapturePortraitArtifact",
+      "id": "s:15DocumentCapture0B16PortraitArtifactV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "let derivation: PortraitImageDerivation",
+      "id": "s:15DocumentCapture0B16PortraitArtifactV10derivation0aB5Apple0C15ImageDerivationVvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "init(recordID: UUID, captureID: UUID, derivation: PortraitImageDerivation)",
+      "id": "s:15DocumentCapture0B16PortraitArtifactV8recordID07captureF010derivationAC10Foundation4UUIDV_AI0aB5Apple0C15ImageDerivationVtcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "let recordID: UUID",
+      "id": "s:15DocumentCapture0B16PortraitArtifactV8recordID10Foundation4UUIDVvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let captureID: UUID",
+      "id": "s:15DocumentCapture0B16PortraitArtifactV9captureID10Foundation4UUIDVvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "@MainActor final class CaptureSessionTiltState",
+      "id": "s:15DocumentCapture0B16SessionTiltStateC",
+      "kind": "swift.class"
+    },
+    {
+      "declaration": "@MainActor var releasedForSession: Bool { get }",
+      "id": "s:15DocumentCapture0B16SessionTiltStateC011releasedForC0Sbvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "@MainActor var needsRetry: Bool { get }",
+      "id": "s:15DocumentCapture0B16SessionTiltStateC10needsRetrySbvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "@Published @MainActor var presentation: DocumentTiltPresentation? { get set }",
+      "id": "s:15DocumentCapture0B16SessionTiltStateC12presentation0aB5Apple0aD12PresentationVSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "@MainActor var outcomePresent: Bool { get }",
+      "id": "s:15DocumentCapture0B16SessionTiltStateC14outcomePresentSbvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "@MainActor var runID: UUID? { get }",
+      "id": "s:15DocumentCapture0B16SessionTiltStateC5runID10Foundation4UUIDVSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "@MainActor var active: Bool { get }",
+      "id": "s:15DocumentCapture0B16SessionTiltStateC6activeSbvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "@MainActor var reason: DocumentTiltReason? { get }",
+      "id": "s:15DocumentCapture0B16SessionTiltStateC6reason0aB5Apple0aD6ReasonOSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "enum Outcome",
+      "id": "s:15DocumentCapture0B16SessionTiltStateC7OutcomeO",
+      "kind": "swift.enum"
+    },
+    {
+      "declaration": "case incomplete",
+      "id": "s:15DocumentCapture0B16SessionTiltStateC7OutcomeO10incompleteyA2EmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case skipped",
+      "id": "s:15DocumentCapture0B16SessionTiltStateC7OutcomeO7skippedyA2EmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case completed",
+      "id": "s:15DocumentCapture0B16SessionTiltStateC7OutcomeO9completedyA2EmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "@MainActor var outcome: CaptureSessionTiltState.Outcome? { get }",
+      "id": "s:15DocumentCapture0B16SessionTiltStateC7outcomeAC7OutcomeOSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "@MainActor var skipped: Bool { get }",
+      "id": "s:15DocumentCapture0B16SessionTiltStateC7skippedSbvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "enum Guidance",
+      "id": "s:15DocumentCapture0B16SessionTiltStateC8GuidanceO",
+      "kind": "swift.enum"
+    },
+    {
+      "declaration": "case unavailable(DocumentTiltReason?)",
+      "id": "s:15DocumentCapture0B16SessionTiltStateC8GuidanceO11unavailableyAE0aB5Apple0aD6ReasonOSgcAEmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case readyForPhoto",
+      "id": "s:15DocumentCapture0B16SessionTiltStateC8GuidanceO13readyForPhotoyA2EmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case idle",
+      "id": "s:15DocumentCapture0B16SessionTiltStateC8GuidanceO4idleyA2EmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case retry(DocumentTiltReason?)",
+      "id": "s:15DocumentCapture0B16SessionTiltStateC8GuidanceO5retryyAE0aB5Apple0aD6ReasonOSgcAEmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case movement(DocumentTiltPresentation, restartingBaseline: Bool)",
+      "id": "s:15DocumentCapture0B16SessionTiltStateC8GuidanceO8movementyAE0aB5Apple0aD12PresentationV_SbtcAEmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case starting",
+      "id": "s:15DocumentCapture0B16SessionTiltStateC8GuidanceO8startingyA2EmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case finishing",
+      "id": "s:15DocumentCapture0B16SessionTiltStateC8GuidanceO9finishingyA2EmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "@MainActor var releasing: Bool { get }",
+      "id": "s:15DocumentCapture0B16SessionTiltStateC9releasingSbvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "enum CaptureArtifactIntegrity",
+      "id": "s:15DocumentCapture0B17ArtifactIntegrityO",
+      "kind": "swift.enum"
+    },
+    {
+      "declaration": "static func sha256(_ data: Data) -> String",
+      "id": "s:15DocumentCapture0B17ArtifactIntegrityO6sha256ySS10Foundation4DataVFZ",
+      "kind": "swift.type.method"
+    },
+    {
+      "declaration": "struct CaptureJourneyCheckpoint",
+      "id": "s:15DocumentCapture0B17JourneyCheckpointV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "let portraitID: UUID?",
+      "id": "s:15DocumentCapture0B17JourneyCheckpointV10portraitID10Foundation4UUIDVSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let workflowID: UUID",
+      "id": "s:15DocumentCapture0B17JourneyCheckpointV10workflowID10Foundation4UUIDVvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "init(workflowID: UUID, revision: UInt64, profile: String, nextStage: CaptureJourneyCheckpoint.Stage, frontID: UUID? = nil, backID: UUID? = nil, portraitID: UUID? = nil, selfieID: UUID? = nil, comparisonID: UUID? = nil, updatedAt: Date)",
+      "id": "s:15DocumentCapture0B17JourneyCheckpointV10workflowID8revision7profile9nextStage05frontF004backF008portraitF006selfieF0010comparisonF09updatedAtAC10Foundation4UUIDV_s6UInt64VSSAC0J0OAPSgA4uN4DateVtcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "let comparisonID: UUID?",
+      "id": "s:15DocumentCapture0B17JourneyCheckpointV12comparisonID10Foundation4UUIDVSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "init(from decoder: any Decoder) throws",
+      "id": "s:15DocumentCapture0B17JourneyCheckpointV4fromACs7Decoder_p_tKcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "enum Stage",
+      "id": "s:15DocumentCapture0B17JourneyCheckpointV5StageO",
+      "kind": "swift.enum"
+    },
+    {
+      "declaration": "case back",
+      "id": "s:15DocumentCapture0B17JourneyCheckpointV5StageO4backyA2EmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case front",
+      "id": "s:15DocumentCapture0B17JourneyCheckpointV5StageO5frontyA2EmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case review",
+      "id": "s:15DocumentCapture0B17JourneyCheckpointV5StageO6reviewyA2EmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case selfie",
+      "id": "s:15DocumentCapture0B17JourneyCheckpointV5StageO6selfieyA2EmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case results",
+      "id": "s:15DocumentCapture0B17JourneyCheckpointV5StageO7resultsyA2EmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case portrait",
+      "id": "s:15DocumentCapture0B17JourneyCheckpointV5StageO8portraityA2EmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "init?(rawValue: String)",
+      "id": "s:15DocumentCapture0B17JourneyCheckpointV5StageO8rawValueAESgSS_tcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "var valid: Bool { get }",
+      "id": "s:15DocumentCapture0B17JourneyCheckpointV5validSbvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let backID: UUID?",
+      "id": "s:15DocumentCapture0B17JourneyCheckpointV6backID10Foundation4UUIDVSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let frontID: UUID?",
+      "id": "s:15DocumentCapture0B17JourneyCheckpointV7frontID10Foundation4UUIDVSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let profile: String",
+      "id": "s:15DocumentCapture0B17JourneyCheckpointV7profileSSvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let revision: UInt64",
+      "id": "s:15DocumentCapture0B17JourneyCheckpointV8revisions6UInt64Vvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let selfieID: UUID?",
+      "id": "s:15DocumentCapture0B17JourneyCheckpointV8selfieID10Foundation4UUIDVSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let nextStage: CaptureJourneyCheckpoint.Stage",
+      "id": "s:15DocumentCapture0B17JourneyCheckpointV9nextStageAC0F0Ovp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let updatedAt: Date",
+      "id": "s:15DocumentCapture0B17JourneyCheckpointV9updatedAt10Foundation4DateVvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "@MainActor enum CaptureProcessingTelemetry",
+      "id": "s:15DocumentCapture0B19ProcessingTelemetryO",
+      "kind": "swift.enum"
+    },
+    {
+      "declaration": "@MainActor static func measure<Value>(_: UUID, step _: String, operation: () async throws -> Value) async throws -> Value",
+      "id": "s:15DocumentCapture0B19ProcessingTelemetryO7measure_4step9operationx10Foundation4UUIDV_SSxyYaKXEtYaKlFZ",
+      "kind": "swift.type.method"
+    },
+    {
+      "declaration": "@MainActor enum CaptureStillBindingCustody",
+      "id": "s:15DocumentCapture0B19StillBindingCustodyO",
+      "kind": "swift.enum"
+    },
+    {
+      "declaration": "@MainActor static func retain(captureID: UUID, sourceHash: String, recordingID: UUID, outcome: CaptureStillBindingCustody.Outcome, store: CaptureEvidenceStore) async throws",
+      "id": "s:15DocumentCapture0B19StillBindingCustodyO6retain9captureID10sourceHash09recordingH07outcome5storey10Foundation4UUIDV_SSAlC7OutcomeO0b8EvidenceE00bQ5StoreCtYaKFZ",
+      "kind": "swift.type.method"
+    },
+    {
+      "declaration": "enum Outcome",
+      "id": "s:15DocumentCapture0B19StillBindingCustodyO7OutcomeO",
+      "kind": "swift.enum"
+    },
+    {
+      "declaration": "case bound",
+      "id": "s:15DocumentCapture0B19StillBindingCustodyO7OutcomeO5boundyA2EmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case failed",
+      "id": "s:15DocumentCapture0B19StillBindingCustodyO7OutcomeO6failedyA2EmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "init?(rawValue: String)",
+      "id": "s:15DocumentCapture0B19StillBindingCustodyO7OutcomeO8rawValueAESgSS_tcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "enum CaptureJourneyProgressError",
+      "id": "s:15DocumentCapture0B20JourneyProgressErrorO",
+      "kind": "swift.enum"
+    },
+    {
+      "declaration": "case transitionInProgress",
+      "id": "s:15DocumentCapture0B20JourneyProgressErrorO012transitionInD0yA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case invalidated",
+      "id": "s:15DocumentCapture0B20JourneyProgressErrorO11invalidatedyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case retryRequired",
+      "id": "s:15DocumentCapture0B20JourneyProgressErrorO13retryRequiredyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case noPendingTransition",
+      "id": "s:15DocumentCapture0B20JourneyProgressErrorO19noPendingTransitionyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "@MainActor enum CapturePortraitVerification",
+      "id": "s:15DocumentCapture0B20PortraitVerificationO",
+      "kind": "swift.enum"
+    },
+    {
+      "declaration": "@MainActor static func load(id: UUID, captureID: UUID, sourceHash: String, store: CaptureEvidenceStore) async throws -> [CapturePortraitArtifact]",
+      "id": "s:15DocumentCapture0B20PortraitVerificationO4load2id9captureID10sourceHash5storeSayAA0bC8ArtifactVG10Foundation4UUIDV_ANSS0B15EvidenceCustody0bO5StoreCtYaKFZ",
+      "kind": "swift.type.method"
+    },
+    {
+      "declaration": "struct CaptureSessionConfiguration",
+      "id": "s:15DocumentCapture0B20SessionConfigurationV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "let licenseBackCaptureMode: LicenseBackCaptureMode",
+      "id": "s:15DocumentCapture0B20SessionConfigurationV011licenseBackB4ModeAA07LicensefbG0Ovp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let tiltConfiguration: DocumentTiltConfiguration",
+      "id": "s:15DocumentCapture0B20SessionConfigurationV04tiltD00aB5Apple0a4TiltD0Vvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "init(notifications: NotificationCenter, custody: CaptureCustodyConfiguration, signing: CaptureSigningConfiguration, clock: CaptureRecordingClock, consent: CaptureSessionConsent, tuning: DocumentCaptureTuningOverrides = .init(), recordingPolicy: CaptureRecordingPolicy = .retainedV2, tiltConfiguration: DocumentTiltConfiguration = .provisionalV2, requiresLocation: Bool = true, licenseBackCaptureMode: LicenseBackCaptureMode = .document, documentPresence: DocumentPresencePolicy? = nil)",
+      "id": "s:15DocumentCapture0B20SessionConfigurationV13notifications7custody7signing5clock7consent6tuning15recordingPolicy04tiltD016requiresLocation011licenseBackB4Mode16documentPresenceACSo20NSNotificationCenterC_0B15EvidenceCustody0bxD0VAQ0b7SigningD0V0aB7Journal0B14RecordingClockVAA0bC7ConsentO0aB5Apple0aB15TuningOverridesVAV0b9RecordingL0VA_0a4TiltD0VSbAA07LicenseqbR0OAA0atL0VSgtcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "let notifications: NotificationCenter",
+      "id": "s:15DocumentCapture0B20SessionConfigurationV13notificationsSo20NSNotificationCenterCvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let recordingPolicy: CaptureRecordingPolicy",
+      "id": "s:15DocumentCapture0B20SessionConfigurationV15recordingPolicy0aB7Journal0b9RecordingF0Vvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let documentPresence: DocumentPresencePolicy?",
+      "id": "s:15DocumentCapture0B20SessionConfigurationV16documentPresenceAA0aF6PolicyVSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let requiresLocation: Bool",
+      "id": "s:15DocumentCapture0B20SessionConfigurationV16requiresLocationSbvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let clock: CaptureRecordingClock",
+      "id": "s:15DocumentCapture0B20SessionConfigurationV5clock0aB7Journal0B14RecordingClockVvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let tuning: DocumentCaptureTuningOverrides",
+      "id": "s:15DocumentCapture0B20SessionConfigurationV6tuning0aB5Apple0aB15TuningOverridesVvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let consent: CaptureSessionConsent",
+      "id": "s:15DocumentCapture0B20SessionConfigurationV7consentAA0bC7ConsentOvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let custody: CaptureCustodyConfiguration",
+      "id": "s:15DocumentCapture0B20SessionConfigurationV7custody0B15EvidenceCustody0bgD0Vvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let signing: CaptureSigningConfiguration",
+      "id": "s:15DocumentCapture0B20SessionConfigurationV7signing0B15EvidenceCustody0b7SigningD0Vvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "enum CaptureSessionOriginalState",
+      "id": "s:15DocumentCapture0B20SessionOriginalStateO",
+      "kind": "swift.enum"
+    },
+    {
+      "declaration": "case idle",
+      "id": "s:15DocumentCapture0B20SessionOriginalStateO4idleyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "init?(rawValue: String)",
+      "id": "s:15DocumentCapture0B20SessionOriginalStateO8rawValueACSgSS_tcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "case capturing",
+      "id": "s:15DocumentCapture0B20SessionOriginalStateO9capturingyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case retaining",
+      "id": "s:15DocumentCapture0B20SessionOriginalStateO9retainingyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "struct CaptureProcessingCalibration",
+      "id": "s:15DocumentCapture0B21ProcessingCalibrationV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "init(identifier: String, status: String, portraitPaddingFraction: Double) throws",
+      "id": "s:15DocumentCapture0B21ProcessingCalibrationV10identifier6status23portraitPaddingFractionACSS_SSSdtKcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "let identifier: String",
+      "id": "s:15DocumentCapture0B21ProcessingCalibrationV10identifierSSvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "static let source20260917: CaptureProcessingCalibration",
+      "id": "s:15DocumentCapture0B21ProcessingCalibrationV14source20260917ACvpZ",
+      "kind": "swift.type.property"
+    },
+    {
+      "declaration": "let portraitPaddingFraction: Double",
+      "id": "s:15DocumentCapture0B21ProcessingCalibrationV23portraitPaddingFractionSdvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "init(from decoder: any Decoder) throws",
+      "id": "s:15DocumentCapture0B21ProcessingCalibrationV4fromACs7Decoder_p_tKcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "let status: String",
+      "id": "s:15DocumentCapture0B21ProcessingCalibrationV6statusSSvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "enum CaptureSessionLocationStatus",
+      "id": "s:15DocumentCapture0B21SessionLocationStatusO",
+      "kind": "swift.enum"
+    },
+    {
+      "declaration": "case restricted",
+      "id": "s:15DocumentCapture0B21SessionLocationStatusO10restrictedyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case awaitingFix",
+      "id": "s:15DocumentCapture0B21SessionLocationStatusO11awaitingFixyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case unavailable",
+      "id": "s:15DocumentCapture0B21SessionLocationStatusO11unavailableyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case authorizationRequired",
+      "id": "s:15DocumentCapture0B21SessionLocationStatusO21authorizationRequiredyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case ready",
+      "id": "s:15DocumentCapture0B21SessionLocationStatusO5readyyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case denied",
+      "id": "s:15DocumentCapture0B21SessionLocationStatusO6deniedyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case inactive",
+      "id": "s:15DocumentCapture0B21SessionLocationStatusO8inactiveyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "init?(rawValue: String)",
+      "id": "s:15DocumentCapture0B21SessionLocationStatusO8rawValueACSgSS_tcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "enum CaptureSessionRecordingState",
+      "id": "s:15DocumentCapture0B21SessionRecordingStateO",
+      "kind": "swift.enum"
+    },
+    {
+      "declaration": "case failed",
+      "id": "s:15DocumentCapture0B21SessionRecordingStateO6failedyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case partial",
+      "id": "s:15DocumentCapture0B21SessionRecordingStateO7partialyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case complete",
+      "id": "s:15DocumentCapture0B21SessionRecordingStateO8completeyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case inactive",
+      "id": "s:15DocumentCapture0B21SessionRecordingStateO8inactiveyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "init?(rawValue: String)",
+      "id": "s:15DocumentCapture0B21SessionRecordingStateO8rawValueACSgSS_tcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "case settling",
+      "id": "s:15DocumentCapture0B21SessionRecordingStateO8settlingyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case recording",
+      "id": "s:15DocumentCapture0B21SessionRecordingStateO9recordingyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "enum CaptureJourneyCheckpointError",
+      "id": "s:15DocumentCapture0B22JourneyCheckpointErrorO",
+      "kind": "swift.enum"
+    },
+    {
+      "declaration": "case invalidCheckpoint",
+      "id": "s:15DocumentCapture0B22JourneyCheckpointErrorO07invalidD0yA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case staleRevision",
+      "id": "s:15DocumentCapture0B22JourneyCheckpointErrorO13staleRevisionyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "struct CaptureSessionAttemptIdentity",
+      "id": "s:15DocumentCapture0B22SessionAttemptIdentityV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "let generation: Int",
+      "id": "s:15DocumentCapture0B22SessionAttemptIdentityV10generationSivp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let workflowID: UUID",
+      "id": "s:15DocumentCapture0B22SessionAttemptIdentityV10workflowID10Foundation4UUIDVvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let captureID: UUID",
+      "id": "s:15DocumentCapture0B22SessionAttemptIdentityV9captureID10Foundation4UUIDVvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "enum CaptureOriginalPersistenceError",
+      "id": "s:15DocumentCapture0B24OriginalPersistenceErrorO",
+      "kind": "swift.enum"
+    },
+    {
+      "declaration": "case recordingBindingFailed",
+      "id": "s:15DocumentCapture0B24OriginalPersistenceErrorO22recordingBindingFailedyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "struct CaptureSessionLocationDiagnostic",
+      "id": "s:15DocumentCapture0B25SessionLocationDiagnosticV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "let permissionRawValue: Int",
+      "id": "s:15DocumentCapture0B25SessionLocationDiagnosticV18permissionRawValueSivp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let event: String",
+      "id": "s:15DocumentCapture0B25SessionLocationDiagnosticV5eventSSvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let active: Bool",
+      "id": "s:15DocumentCapture0B25SessionLocationDiagnosticV6activeSbvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "struct CaptureTemporalEvidenceReference",
+      "id": "s:15DocumentCapture0B25TemporalEvidenceReferenceV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "let frameCount: Int",
+      "id": "s:15DocumentCapture0B25TemporalEvidenceReferenceV10frameCountSivp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "init(schemaVersion: Int, recordID: UUID, sha256: String, frameCount: Int, motionSampleCount: Int, status: String)",
+      "id": "s:15DocumentCapture0B25TemporalEvidenceReferenceV13schemaVersion8recordID6sha25610frameCount012motionSampleL06statusACSi_10Foundation4UUIDVSSS2iSStcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "let schemaVersion: Int",
+      "id": "s:15DocumentCapture0B25TemporalEvidenceReferenceV13schemaVersionSivp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let motionSampleCount: Int",
+      "id": "s:15DocumentCapture0B25TemporalEvidenceReferenceV17motionSampleCountSivp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "init(from decoder: any Decoder) throws",
+      "id": "s:15DocumentCapture0B25TemporalEvidenceReferenceV4fromACs7Decoder_p_tKcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "let sha256: String",
+      "id": "s:15DocumentCapture0B25TemporalEvidenceReferenceV6sha256SSvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let status: String",
+      "id": "s:15DocumentCapture0B25TemporalEvidenceReferenceV6statusSSvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let recordID: UUID",
+      "id": "s:15DocumentCapture0B25TemporalEvidenceReferenceV8recordID10Foundation4UUIDVvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "@MainActor enum CaptureTemporalEvidencePersistence",
+      "id": "s:15DocumentCapture0B27TemporalEvidencePersistenceO",
+      "kind": "swift.enum"
+    },
+    {
+      "declaration": "struct FrameReference",
+      "id": "s:15DocumentCapture0B27TemporalEvidencePersistenceO14FrameReferenceV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "init(from decoder: any Decoder) throws",
+      "id": "s:15DocumentCapture0B27TemporalEvidencePersistenceO14FrameReferenceV4fromAEs7Decoder_p_tKcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "let metadata: DocumentTemporalFrameMetadata",
+      "id": "s:15DocumentCapture0B27TemporalEvidencePersistenceO14FrameReferenceV8metadata0aB5Apple0acF8MetadataVvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let recordID: UUID",
+      "id": "s:15DocumentCapture0B27TemporalEvidencePersistenceO14FrameReferenceV8recordID10Foundation4UUIDVvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "init(recordID: UUID, metadata: DocumentTemporalFrameMetadata)",
+      "id": "s:15DocumentCapture0B27TemporalEvidencePersistenceO14FrameReferenceV8recordID8metadataAE10Foundation4UUIDV_0aB5Apple0acF8MetadataVtcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "struct Link",
+      "id": "s:15DocumentCapture0B27TemporalEvidencePersistenceO4LinkV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "let recordKind: String",
+      "id": "s:15DocumentCapture0B27TemporalEvidencePersistenceO4LinkV10recordKindSSvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let sequenceID: UUID",
+      "id": "s:15DocumentCapture0B27TemporalEvidencePersistenceO4LinkV10sequenceID10Foundation4UUIDVvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let sourceSHA256: String",
+      "id": "s:15DocumentCapture0B27TemporalEvidencePersistenceO4LinkV12sourceSHA256SSvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let payloadSHA256: String",
+      "id": "s:15DocumentCapture0B27TemporalEvidencePersistenceO4LinkV13payloadSHA256SSvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "init(schemaVersion: Int, recordKind: String, captureID: UUID, sessionID: String, sourceSHA256: String, sequenceID: UUID, sequenceNumber: Int? = nil, payloadSHA256: String)",
+      "id": "s:15DocumentCapture0B27TemporalEvidencePersistenceO4LinkV13schemaVersion10recordKind9captureID07sessionL012sourceSHA25608sequenceL00P6Number07payloadO0AESi_SS10Foundation4UUIDVS2SAPSiSgSStcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "let schemaVersion: Int",
+      "id": "s:15DocumentCapture0B27TemporalEvidencePersistenceO4LinkV13schemaVersionSivp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let sequenceNumber: Int?",
+      "id": "s:15DocumentCapture0B27TemporalEvidencePersistenceO4LinkV14sequenceNumberSiSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "init(from decoder: any Decoder) throws",
+      "id": "s:15DocumentCapture0B27TemporalEvidencePersistenceO4LinkV4fromAEs7Decoder_p_tKcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "let captureID: UUID",
+      "id": "s:15DocumentCapture0B27TemporalEvidencePersistenceO4LinkV9captureID10Foundation4UUIDVvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let sessionID: String",
+      "id": "s:15DocumentCapture0B27TemporalEvidencePersistenceO4LinkV9sessionIDSSvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "@MainActor static func retain(_ evidence: DocumentTemporalEvidence, manifest: CaptureRecords.Manifest, store: CaptureEvidenceStore) async throws -> CaptureTemporalEvidenceReference",
+      "id": "s:15DocumentCapture0B27TemporalEvidencePersistenceO6retain_8manifest5storeAA0bcD9ReferenceV0aB5Apple0acD0V_AA0B7RecordsO8ManifestV0bD7Custody0bD5StoreCtYaKFZ",
+      "kind": "swift.type.method"
+    },
+    {
+      "declaration": "@discardableResult @MainActor static func verify(_ manifest: CaptureRecords.Manifest, store: CaptureEvidenceStore) async throws -> Set<UUID>",
+      "id": "s:15DocumentCapture0B27TemporalEvidencePersistenceO6verify_5storeShy10Foundation4UUIDVGAA0B7RecordsO8ManifestV_0bD7Custody0bD5StoreCtYaKFZ",
+      "kind": "swift.type.method"
+    },
+    {
+      "declaration": "struct Sequence",
+      "id": "s:15DocumentCapture0B27TemporalEvidencePersistenceO8SequenceV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "let observation: DocumentTemporalManifest",
+      "id": "s:15DocumentCapture0B27TemporalEvidencePersistenceO8SequenceV11observation0aB5Apple0aC8ManifestVvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "init(observation: DocumentTemporalManifest, frames: [CaptureTemporalEvidencePersistence.FrameReference])",
+      "id": "s:15DocumentCapture0B27TemporalEvidencePersistenceO8SequenceV11observation6framesAE0aB5Apple0aC8ManifestV_SayAC14FrameReferenceVGtcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "init(from decoder: any Decoder) throws",
+      "id": "s:15DocumentCapture0B27TemporalEvidencePersistenceO8SequenceV4fromAEs7Decoder_p_tKcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "let frames: [CaptureTemporalEvidencePersistence.FrameReference]",
+      "id": "s:15DocumentCapture0B27TemporalEvidencePersistenceO8SequenceV6framesSayAC14FrameReferenceVGvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "nonisolated static func validate(_ payload: Data, metadata: DocumentTemporalFrameMetadata) throws",
+      "id": "s:15DocumentCapture0B27TemporalEvidencePersistenceO8validate_8metadatay10Foundation4DataV_0aB5Apple0aC13FrameMetadataVtKFZ",
+      "kind": "swift.type.method"
+    },
+    {
+      "declaration": "enum CaptureTemporalObservationContract",
+      "id": "s:15DocumentCapture0B27TemporalObservationContractO",
+      "kind": "swift.enum"
+    },
+    {
+      "declaration": "static func verify(_ value: DocumentTemporalManifest) throws",
+      "id": "s:15DocumentCapture0B27TemporalObservationContractO6verifyyy0aB5Apple0aC8ManifestVKFZ",
+      "kind": "swift.type.method"
+    },
+    {
+      "declaration": "enum CaptureRecords",
+      "id": "s:15DocumentCapture0B7RecordsO",
+      "kind": "swift.enum"
+    },
+    {
+      "declaration": "struct DerivativeManifest",
+      "id": "s:15DocumentCapture0B7RecordsO18DerivativeManifestV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "let derivation: DocumentImageDerivation",
+      "id": "s:15DocumentCapture0B7RecordsO18DerivativeManifestV10derivation0aB5Apple0A15ImageDerivationVvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let recordKind: String",
+      "id": "s:15DocumentCapture0B7RecordsO18DerivativeManifestV10recordKindSSvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let sourceSHA256: String",
+      "id": "s:15DocumentCapture0B7RecordsO18DerivativeManifestV12sourceSHA256SSvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "init(schemaVersion: Int, recordKind: String, captureID: UUID, sourceSHA256: String, derivation: DocumentImageDerivation)",
+      "id": "s:15DocumentCapture0B7RecordsO18DerivativeManifestV13schemaVersion10recordKind9captureID12sourceSHA25610derivationAESi_SS10Foundation4UUIDVSS0aB5Apple0A15ImageDerivationVtcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "let schemaVersion: Int",
+      "id": "s:15DocumentCapture0B7RecordsO18DerivativeManifestV13schemaVersionSivp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "init(from decoder: any Decoder) throws",
+      "id": "s:15DocumentCapture0B7RecordsO18DerivativeManifestV4fromAEs7Decoder_p_tKcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "let captureID: UUID",
+      "id": "s:15DocumentCapture0B7RecordsO18DerivativeManifestV9captureID10Foundation4UUIDVvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "struct ExtractionManifest",
+      "id": "s:15DocumentCapture0B7RecordsO18ExtractionManifestV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "let recordKind: String",
+      "id": "s:15DocumentCapture0B7RecordsO18ExtractionManifestV10recordKindSSvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let sourceSHA256: String",
+      "id": "s:15DocumentCapture0B7RecordsO18ExtractionManifestV12sourceSHA256SSvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "init(schemaVersion: Int, recordKind: String, captureID: UUID, sourceSHA256: String)",
+      "id": "s:15DocumentCapture0B7RecordsO18ExtractionManifestV13schemaVersion10recordKind9captureID12sourceSHA256AESi_SS10Foundation4UUIDVSStcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "let schemaVersion: Int",
+      "id": "s:15DocumentCapture0B7RecordsO18ExtractionManifestV13schemaVersionSivp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "init(from decoder: any Decoder) throws",
+      "id": "s:15DocumentCapture0B7RecordsO18ExtractionManifestV4fromAEs7Decoder_p_tKcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "let captureID: UUID",
+      "id": "s:15DocumentCapture0B7RecordsO18ExtractionManifestV9captureID10Foundation4UUIDVvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "enum Profile",
+      "id": "s:15DocumentCapture0B7RecordsO7ProfileO",
+      "kind": "swift.enum"
+    },
+    {
+      "declaration": "var backProfile: CaptureRecords.Profile { get }",
+      "id": "s:15DocumentCapture0B7RecordsO7ProfileO04backD0AEvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "var frontProfile: CaptureRecords.Profile { get }",
+      "id": "s:15DocumentCapture0B7RecordsO7ProfileO05frontD0AEvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "var expectation: DocumentCaptureExpectation { get }",
+      "id": "s:15DocumentCapture0B7RecordsO7ProfileO11expectation0aB5Apple0aB11ExpectationOvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "case licenseBack",
+      "id": "s:15DocumentCapture0B7RecordsO7ProfileO11licenseBackyA2EmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case licenseFront",
+      "id": "s:15DocumentCapture0B7RecordsO7ProfileO12licenseFrontyA2EmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case passportCardBack",
+      "id": "s:15DocumentCapture0B7RecordsO7ProfileO16passportCardBackyA2EmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "var liveContentTarget: DocumentLiveContentTarget { get }",
+      "id": "s:15DocumentCapture0B7RecordsO7ProfileO17liveContentTarget0aB5Apple0a4LivefG0Ovp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "case passportCardFront",
+      "id": "s:15DocumentCapture0B7RecordsO7ProfileO17passportCardFrontyA2EmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "static func retainedIdentifier(_ identifier: String) -> CaptureRecords.Profile?",
+      "id": "s:15DocumentCapture0B7RecordsO7ProfileO18retainedIdentifieryAESgSSFZ",
+      "kind": "swift.type.method"
+    },
+    {
+      "declaration": "var requiresLiveContent: Bool { get }",
+      "id": "s:15DocumentCapture0B7RecordsO7ProfileO19requiresLiveContentSbvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "var id: String { get }",
+      "id": "s:15DocumentCapture0B7RecordsO7ProfileO2idSSvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "init(from decoder: any Decoder) throws",
+      "id": "s:15DocumentCapture0B7RecordsO7ProfileO4fromAEs7Decoder_p_tKcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "var side: DocumentSide { get }",
+      "id": "s:15DocumentCapture0B7RecordsO7ProfileO4side0A3SDK0A4SideOvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "func encode(to encoder: any Encoder) throws",
+      "id": "s:15DocumentCapture0B7RecordsO7ProfileO6encode2toys7Encoder_p_tKF",
+      "kind": "swift.method"
+    },
+    {
+      "declaration": "var backSide: Bool { get }",
+      "id": "s:15DocumentCapture0B7RecordsO7ProfileO8backSideSbvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "case document",
+      "id": "s:15DocumentCapture0B7RecordsO7ProfileO8documentyA2EmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case passport",
+      "id": "s:15DocumentCapture0B7RecordsO7ProfileO8passportyA2EmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "init?(rawValue: String)",
+      "id": "s:15DocumentCapture0B7RecordsO7ProfileO8rawValueAESgSS_tcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "var twoSided: Bool { get }",
+      "id": "s:15DocumentCapture0B7RecordsO7ProfileO8twoSidedSbvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "struct Manifest",
+      "id": "s:15DocumentCapture0B7RecordsO8ManifestV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "let precedingFrontCaptureID: UUID?",
+      "id": "s:15DocumentCapture0B7RecordsO8ManifestV014precedingFrontB2ID10Foundation4UUIDVSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let workflowID: UUID?",
+      "id": "s:15DocumentCapture0B7RecordsO8ManifestV10workflowID10Foundation4UUIDVSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let processedAt: Date",
+      "id": "s:15DocumentCapture0B7RecordsO8ManifestV11processedAt10Foundation4DateVvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let motionStatus: String",
+      "id": "s:15DocumentCapture0B7RecordsO8ManifestV12motionStatusSSvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "var captureTuning: [String : Double]?",
+      "id": "s:15DocumentCapture0B7RecordsO8ManifestV13captureTuningSDySSSdGSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "init(schemaVersion: Int, captureID: UUID, profile: CaptureRecords.Profile, sessionID: CaptureSessionID, captureTimestamp: DocumentCaptureClockTimestamp, processedAt: Date, fidelity: PhotoFidelityMetadata, admission: DocumentCaptureAdmissionSnapshot? = nil, journeyRecording: CaptureRecordingReference? = nil, journeyBindingVersion: Int? = nil, temporalEvidence: CaptureTemporalEvidenceReference? = nil, motionStatus: String, workflowID: UUID? = nil, precedingFrontCaptureID: UUID? = nil, journeyRevision: UInt64? = nil, captureTuning: [String : Double]? = nil, platformMetadata: CapturedPhotoPlatformMetadata? = nil, location: CaptureLocationRecord? = nil)",
+      "id": "s:15DocumentCapture0B7RecordsO8ManifestV13schemaVersion9captureID7profile07sessionH00G9Timestamp11processedAt8fidelity9admission16journeyRecording0p7BindingF016temporalEvidence12motionStatus08workflowH0014precedingFrontbH00P8Revision0G6Tuning16platformMetadata8locationAESi_10Foundation4UUIDVAC7ProfileO0A3SDK0b7SessionH0V0aB5Apple0ab5ClockK0VAX4DateVA4_21PhotoFidelityMetadataVA4_0aB17AdmissionSnapshotVSg0aB7Journal0bQ9ReferenceVSgSiSgAA0b8TemporalT9ReferenceVSgSSAZSgA22_s6UInt64VSgSDySSSdGSgA4_29CapturedPhotoPlatformMetadataVSgA1_0B14LocationRecordVSgtcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "let schemaVersion: Int",
+      "id": "s:15DocumentCapture0B7RecordsO8ManifestV13schemaVersionSivp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "var journeyRevision: UInt64?",
+      "id": "s:15DocumentCapture0B7RecordsO8ManifestV15journeyRevisions6UInt64VSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let captureTimestamp: DocumentCaptureClockTimestamp",
+      "id": "s:15DocumentCapture0B7RecordsO8ManifestV16captureTimestamp0aB5Apple0ab5ClockF0Vvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "var documentPresence: CaptureDocumentPresenceRecord?",
+      "id": "s:15DocumentCapture0B7RecordsO8ManifestV16documentPresenceAA0baF6RecordVSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "var journeyRecording: CaptureRecordingReference?",
+      "id": "s:15DocumentCapture0B7RecordsO8ManifestV16journeyRecording0aB7Journal0bF9ReferenceVSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "var platformMetadata: CapturedPhotoPlatformMetadata?",
+      "id": "s:15DocumentCapture0B7RecordsO8ManifestV16platformMetadata0aB5Apple021CapturedPhotoPlatformF0VSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "var temporalEvidence: CaptureTemporalEvidenceReference?",
+      "id": "s:15DocumentCapture0B7RecordsO8ManifestV16temporalEvidenceAA0b8TemporalF9ReferenceVSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "var livePDF417Candidate: String?",
+      "id": "s:15DocumentCapture0B7RecordsO8ManifestV19livePDF417CandidateSSSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "var journeyBindingVersion: Int?",
+      "id": "s:15DocumentCapture0B7RecordsO8ManifestV21journeyBindingVersionSiSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "var tuningCalibrationStatus: String?",
+      "id": "s:15DocumentCapture0B7RecordsO8ManifestV23tuningCalibrationStatusSSSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "var tuningProfileIdentifier: String?",
+      "id": "s:15DocumentCapture0B7RecordsO8ManifestV23tuningProfileIdentifierSSSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "init(from decoder: any Decoder) throws",
+      "id": "s:15DocumentCapture0B7RecordsO8ManifestV4fromAEs7Decoder_p_tKcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "var side: String?",
+      "id": "s:15DocumentCapture0B7RecordsO8ManifestV4sideSSSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "var origin: MediaOrigin?",
+      "id": "s:15DocumentCapture0B7RecordsO8ManifestV6origin0A3SDK11MediaOriginOSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let profile: CaptureRecords.Profile",
+      "id": "s:15DocumentCapture0B7RecordsO8ManifestV7profileAC7ProfileOvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let fidelity: PhotoFidelityMetadata",
+      "id": "s:15DocumentCapture0B7RecordsO8ManifestV8fidelity0aB5Apple21PhotoFidelityMetadataVvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "var location: CaptureLocationRecord?",
+      "id": "s:15DocumentCapture0B7RecordsO8ManifestV8location0A3SDK0B14LocationRecordVSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let admission: DocumentCaptureAdmissionSnapshot?",
+      "id": "s:15DocumentCapture0B7RecordsO8ManifestV9admission0aB5Apple0aB17AdmissionSnapshotVSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let captureID: UUID",
+      "id": "s:15DocumentCapture0B7RecordsO8ManifestV9captureID10Foundation4UUIDVvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let sessionID: CaptureSessionID",
+      "id": "s:15DocumentCapture0B7RecordsO8ManifestV9sessionID0A3SDK0b7SessionF0Vvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "@MainActor final class CaptureSession",
+      "id": "s:15DocumentCapture0B7SessionC",
+      "kind": "swift.class"
+    },
+    {
+      "declaration": "@MainActor func armAutomaticCapture()",
+      "id": "s:15DocumentCapture0B7SessionC012armAutomaticB0yyF",
+      "kind": "swift.method"
+    },
+    {
+      "declaration": "@MainActor var retainedFrontCaptureID: UUID? { get }",
+      "id": "s:15DocumentCapture0B7SessionC013retainedFrontB2ID10Foundation4UUIDVSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "@MainActor func disarmAutomaticCapture()",
+      "id": "s:15DocumentCapture0B7SessionC015disarmAutomaticB0yyF",
+      "kind": "swift.method"
+    },
+    {
+      "declaration": "@MainActor var tiltCaptureGuidance: CaptureSessionTiltState.Guidance { get }",
+      "id": "s:15DocumentCapture0B7SessionC04tiltB8GuidanceAA0bC9TiltStateC0E0Ovp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "@Published @MainActor var activeCaptureAttempt: UUID? { get set }",
+      "id": "s:15DocumentCapture0B7SessionC06activeB7Attempt10Foundation4UUIDVSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "@MainActor func completeDocumentRecording()",
+      "id": "s:15DocumentCapture0B7SessionC08completeA9RecordingyyF",
+      "kind": "swift.method"
+    },
+    {
+      "declaration": "@Published @MainActor var recoveryCaptureID: UUID? { get set }",
+      "id": "s:15DocumentCapture0B7SessionC08recoveryB2ID10Foundation4UUIDVSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "@Published @MainActor var selectedCaptureID: UUID? { get set }",
+      "id": "s:15DocumentCapture0B7SessionC08selectedB2ID10Foundation4UUIDVSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "@MainActor func beginBackCapture(frontCaptureID: UUID, workflowID: UUID) async throws",
+      "id": "s:15DocumentCapture0B7SessionC09beginBackB005frontB2ID08workflowG0y10Foundation4UUIDV_AItYaKF",
+      "kind": "swift.method"
+    },
+    {
+      "declaration": "@MainActor var generation: Int { get }",
+      "id": "s:15DocumentCapture0B7SessionC10generationSivp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "@MainActor func setConsent(_ value: CaptureSessionConsent, cancelProcessing: Bool = true)",
+      "id": "s:15DocumentCapture0B7SessionC10setConsent_16cancelProcessingyAA0bcE0O_SbtF",
+      "kind": "swift.method"
+    },
+    {
+      "declaration": "@MainActor var workflowID: UUID",
+      "id": "s:15DocumentCapture0B7SessionC10workflowID10Foundation4UUIDVvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "@MainActor func enterReview()",
+      "id": "s:15DocumentCapture0B7SessionC11enterReviewyyF",
+      "kind": "swift.method"
+    },
+    {
+      "declaration": "@MainActor func openCustody() throws -> CaptureEvidenceStore",
+      "id": "s:15DocumentCapture0B7SessionC11openCustody0b8EvidenceE00bF5StoreCyKF",
+      "kind": "swift.method"
+    },
+    {
+      "declaration": "@MainActor func stopAndWait() async throws",
+      "id": "s:15DocumentCapture0B7SessionC11stopAndWaityyYaKF",
+      "kind": "swift.method"
+    },
+    {
+      "declaration": "@MainActor func beginJourney(_ profile: CaptureRecords.Profile, workflowID: UUID, includeTiltPractice: Bool = false)",
+      "id": "s:15DocumentCapture0B7SessionC12beginJourney_10workflowID19includeTiltPracticeyAA0B7RecordsO7ProfileO_10Foundation4UUIDVSbtF",
+      "kind": "swift.method"
+    },
+    {
+      "declaration": "@MainActor let tiltGuidance: CaptureSessionTiltState",
+      "id": "s:15DocumentCapture0B7SessionC12tiltGuidanceAA0bC9TiltStateCvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "@MainActor func updateTuning(_ tuning: DocumentCaptureTuningOverrides) throws",
+      "id": "s:15DocumentCapture0B7SessionC12updateTuningyy0aB5Apple0abE9OverridesVKF",
+      "kind": "swift.method"
+    },
+    {
+      "declaration": "@MainActor init(configuration: CaptureSessionConfiguration, telemetry: DocumentCameraTelemetry = .disabled, processingOperations: CaptureDocumentOperations = .init(), onEvent: @escaping @MainActor @Sendable (CaptureSessionEvent) -> Void = { _ in })",
+      "id": "s:15DocumentCapture0B7SessionC13configuration9telemetry20processingOperations7onEventAcA0bC13ConfigurationV_0aB5Apple0A15CameraTelemetryVAA0baG0VyAA0bcI0OYbScMYcctcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "@MainActor var configuration: CaptureSessionConfiguration { get }",
+      "id": "s:15DocumentCapture0B7SessionC13configurationAA0bC13ConfigurationVvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "@Published @MainActor var latestQuality: DocumentCaptureQualityObservation? { get set }",
+      "id": "s:15DocumentCapture0B7SessionC13latestQuality0aB5Apple0abE11ObservationVSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "@MainActor func markRecording(_ kind: String, contextCode: String? = nil)",
+      "id": "s:15DocumentCapture0B7SessionC13markRecording_11contextCodeySS_SSSgtF",
+      "kind": "swift.method"
+    },
+    {
+      "declaration": "@Published @MainActor var originalState: CaptureSessionOriginalState { get set }",
+      "id": "s:15DocumentCapture0B7SessionC13originalStateAA0bc8OriginalE0Ovp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "@MainActor func waitUntilIdle() async",
+      "id": "s:15DocumentCapture0B7SessionC13waitUntilIdleyyYaF",
+      "kind": "swift.method"
+    },
+    {
+      "declaration": "@Published @MainActor var latestGeometry: DocumentLiveGeometryObservation? { get set }",
+      "id": "s:15DocumentCapture0B7SessionC14latestGeometry0aB5Apple0a4LiveE11ObservationVSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "@Published @MainActor var recordingState: CaptureSessionRecordingState { get set }",
+      "id": "s:15DocumentCapture0B7SessionC14recordingStateAA0bc9RecordingE0Ovp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "@MainActor var journeyRevision: UInt64?",
+      "id": "s:15DocumentCapture0B7SessionC15journeyRevisions6UInt64VSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "@MainActor let processingQueue: CaptureProcessingQueue",
+      "id": "s:15DocumentCapture0B7SessionC15processingQueueAA0b10ProcessingE0Cvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "@MainActor func retryProcessing(captureID: UUID) async throws",
+      "id": "s:15DocumentCapture0B7SessionC15retryProcessing9captureIDy10Foundation4UUIDV_tYaKF",
+      "kind": "swift.method"
+    },
+    {
+      "declaration": "@MainActor func cancelProcessing()",
+      "id": "s:15DocumentCapture0B7SessionC16cancelProcessingyyF",
+      "kind": "swift.method"
+    },
+    {
+      "declaration": "@MainActor var recordingJournal: CaptureRecordingJournal? { get }",
+      "id": "s:15DocumentCapture0B7SessionC16recordingJournal0abE00b9RecordingE0CSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "@MainActor func skipTiltGuidance()",
+      "id": "s:15DocumentCapture0B7SessionC16skipTiltGuidanceyyF",
+      "kind": "swift.method"
+    },
+    {
+      "declaration": "@MainActor func transitionToBack()",
+      "id": "s:15DocumentCapture0B7SessionC16transitionToBackyyF",
+      "kind": "swift.method"
+    },
+    {
+      "declaration": "@MainActor func retryTiltGuidance()",
+      "id": "s:15DocumentCapture0B7SessionC17retryTiltGuidanceyyF",
+      "kind": "swift.method"
+    },
+    {
+      "declaration": "@MainActor var processingGeneration: UUID { get }",
+      "id": "s:15DocumentCapture0B7SessionC20processingGeneration10Foundation4UUIDVvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "@MainActor var startupCameraFailure: PhotoCaptureError? { get }",
+      "id": "s:15DocumentCapture0B7SessionC20startupCameraFailure0aB5Apple05PhotoB5ErrorOSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "@MainActor func setNativeControlState(busy: Bool, adaptiveEnabled: Bool)",
+      "id": "s:15DocumentCapture0B7SessionC21setNativeControlState4busy15adaptiveEnabledySb_SbtF",
+      "kind": "swift.method"
+    },
+    {
+      "declaration": "@MainActor func restoreVerifiedOriginal(_ original: CaptureJourneyRecovery.Original) throws",
+      "id": "s:15DocumentCapture0B7SessionC23restoreVerifiedOriginalyyAA0B15JourneyRecoveryO0F0VKF",
+      "kind": "swift.method"
+    },
+    {
+      "declaration": "@MainActor func waitForRecordingSettlement() async",
+      "id": "s:15DocumentCapture0B7SessionC26waitForRecordingSettlementyyYaF",
+      "kind": "swift.method"
+    },
+    {
+      "declaration": "@Published @MainActor var busy: Bool { get set }",
+      "id": "s:15DocumentCapture0B7SessionC4busySbvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "@MainActor func stop(cancelProcessing: Bool = true)",
+      "id": "s:15DocumentCapture0B7SessionC4stop16cancelProcessingySb_tF",
+      "kind": "swift.method"
+    },
+    {
+      "declaration": "@MainActor func erase() async throws",
+      "id": "s:15DocumentCapture0B7SessionC5eraseyyYaKF",
+      "kind": "swift.method"
+    },
+    {
+      "declaration": "@Published @MainActor var issue: CaptureSessionIssue? { get set }",
+      "id": "s:15DocumentCapture0B7SessionC5issueAA0bC5IssueOSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "@Published @MainActor var phase: CaptureSessionPhase { get set }",
+      "id": "s:15DocumentCapture0B7SessionC5phaseAA0bC5PhaseOvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "@Published @MainActor var ready: Bool { get set }",
+      "id": "s:15DocumentCapture0B7SessionC5readySbvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "@MainActor func start(recordingOnly: Bool = false)",
+      "id": "s:15DocumentCapture0B7SessionC5start13recordingOnlyySb_tF",
+      "kind": "swift.method"
+    },
+    {
+      "declaration": "@MainActor var store: CaptureEvidenceStore? { get }",
+      "id": "s:15DocumentCapture0B7SessionC5store0B15EvidenceCustody0bE5StoreCSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "@Published @MainActor var camera: DocumentCamera { get set }",
+      "id": "s:15DocumentCapture0B7SessionC6camera0aB5Apple0A6CameraCvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "@MainActor func resume(captureID: UUID) async throws",
+      "id": "s:15DocumentCapture0B7SessionC6resume9captureIDy10Foundation4UUIDV_tYaKF",
+      "kind": "swift.method"
+    },
+    {
+      "declaration": "@MainActor func retake(_ profile: CaptureRecords.Profile, preserveProcessing: Bool = false)",
+      "id": "s:15DocumentCapture0B7SessionC6retake_18preserveProcessingyAA0B7RecordsO7ProfileO_SbtF",
+      "kind": "swift.method"
+    },
+    {
+      "declaration": "@MainActor func capture()",
+      "id": "s:15DocumentCapture0B7SessionC7captureyyF",
+      "kind": "swift.method"
+    },
+    {
+      "declaration": "@MainActor var custody: CaptureCustodyRuntime? { get }",
+      "id": "s:15DocumentCapture0B7SessionC7custody0B15EvidenceCustody0bF7RuntimeCSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "@Published @MainActor var profile: CaptureRecords.Profile { get set }",
+      "id": "s:15DocumentCapture0B7SessionC7profileAA0B7RecordsO7ProfileOvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "@Published @MainActor var startup: CaptureSessionStartup? { get set }",
+      "id": "s:15DocumentCapture0B7SessionC7startupAA0bC7StartupOSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "@MainActor var location: CaptureSessionLocation { get }",
+      "id": "s:15DocumentCapture0B7SessionC8locationAA0bC8LocationCvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "@Published @MainActor var autoArmed: Bool { get set }",
+      "id": "s:15DocumentCapture0B7SessionC9autoArmedSbvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "struct CaptureUsability",
+      "id": "s:15DocumentCapture0B9UsabilityV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "let assessment: DocumentPhotoUsabilityAssessment?",
+      "id": "s:15DocumentCapture0B9UsabilityV10assessment0aB5Apple0a5PhotoC10AssessmentVSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "var calibration: CaptureProcessingCalibration?",
+      "id": "s:15DocumentCapture0B9UsabilityV11calibrationAA0B21ProcessingCalibrationVSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let limitations: [String]",
+      "id": "s:15DocumentCapture0B9UsabilityV11limitationsSaySSGvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let stillQuality: DocumentStillQuality?",
+      "id": "s:15DocumentCapture0B9UsabilityV12stillQuality0aB5Apple0a5StillE0VSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "init(schemaVersion: Int, outcome: CaptureUsability.Outcome, assessment: DocumentPhotoUsabilityAssessment? = nil, stillQuality: DocumentStillQuality? = nil, derivativeRecordID: UUID? = nil, limitations: [String])",
+      "id": "s:15DocumentCapture0B9UsabilityV13schemaVersion7outcome10assessment12stillQuality18derivativeRecordID11limitationsACSi_AC7OutcomeO0aB5Apple0a5PhotoC10AssessmentVSgAL0a5StillI0VSg10Foundation4UUIDVSgSaySSGtcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "let schemaVersion: Int",
+      "id": "s:15DocumentCapture0B9UsabilityV13schemaVersionSivp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let derivativeRecordID: UUID?",
+      "id": "s:15DocumentCapture0B9UsabilityV18derivativeRecordID10Foundation4UUIDVSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "init(from decoder: any Decoder) throws",
+      "id": "s:15DocumentCapture0B9UsabilityV4fromACs7Decoder_p_tKcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "enum Outcome",
+      "id": "s:15DocumentCapture0B9UsabilityV7OutcomeO",
+      "kind": "swift.enum"
+    },
+    {
+      "declaration": "case notAssessed",
+      "id": "s:15DocumentCapture0B9UsabilityV7OutcomeO11notAssessedyA2EmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case readableCandidate",
+      "id": "s:15DocumentCapture0B9UsabilityV7OutcomeO17readableCandidateyA2EmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "init?(rawValue: String)",
+      "id": "s:15DocumentCapture0B9UsabilityV7OutcomeO8rawValueAESgSS_tcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "case rejected",
+      "id": "s:15DocumentCapture0B9UsabilityV7OutcomeO8rejectedyA2EmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "let outcome: CaptureUsability.Outcome",
+      "id": "s:15DocumentCapture0B9UsabilityV7outcomeAC7OutcomeOvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "@MainActor enum CaptureDocumentInspection",
+      "id": "s:15DocumentCapture0bA10InspectionO",
+      "kind": "swift.enum"
+    },
+    {
+      "declaration": "@MainActor static func retainExtraction(_ id: UUID, store: CaptureEvidenceStore, retainedOriginal: CaptureEvidenceRecord? = nil, operations: CaptureDocumentOperations = .init()) async throws",
+      "id": "s:15DocumentCapture0bA10InspectionO16retainExtraction_5store16retainedOriginal10operationsy10Foundation4UUIDV_0B15EvidenceCustody0bL5StoreCAK0bL6RecordVSgAA0bA10OperationsVtYaKFZ",
+      "kind": "swift.type.method"
+    },
+    {
+      "declaration": "@MainActor struct CaptureDocumentOperations",
+      "id": "s:15DocumentCapture0bA10OperationsV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "@MainActor var afterWrite: CaptureDocumentStages.AfterWrite",
+      "id": "s:15DocumentCapture0bA10OperationsV10afterWriteyySS_10Foundation4UUIDVtYaKcvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "@MainActor var structured: (@Sendable (Data) async throws -> StructuredDocumentObservation)?",
+      "id": "s:15DocumentCapture0bA10OperationsV10structured0aB5Apple010StructuredA11ObservationV10Foundation4DataVYaYbKcSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "@MainActor init(calibration: CaptureProcessingCalibration = .source20260917, structured: (@Sendable (Data) async throws -> StructuredDocumentObservation)? = nil, extract: @escaping CaptureDocumentStages.Extract = CaptureDocumentStages.extract, prepare: @escaping (CaptureDocumentSource) async throws -> AppleDocumentImagePreparer.PreparedImage = { source in\n          try await AppleDocumentImagePreparer(\n            profile: source.profile == .passport\n              ? .passport\n              : (source.profile.frontProfile == .passportCardFront ? .passportCard : .license)\n          ).prepareRetained(\n            data: source.data, side: source.side, fidelity: source.fidelity,\n            admission: source.admission)\n        }, portrait: ((Data, DocumentImageDerivation) async throws -> PortraitExtractionResult)? = nil, afterWrite: @escaping CaptureDocumentStages.AfterWrite = { _, _ in })",
+      "id": "s:15DocumentCapture0bA10OperationsV11calibration10structured7extract7prepare8portrait10afterWriteAcA0B21ProcessingCalibrationV_0aB5Apple010StructuredA11ObservationV10Foundation4DataVYaYbKcSgAL18ArtifactExtractionVAQYaYbKcAL0mA13ImagePreparerV08PreparedT0VAA0bA6SourceVYaKcAL08PortraitS6ResultVAQ_AL0aT10DerivationVtYaKcSgySS_AO4UUIDVtYaKctcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "@MainActor let calibration: CaptureProcessingCalibration",
+      "id": "s:15DocumentCapture0bA10OperationsV11calibrationAA0B21ProcessingCalibrationVvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "@MainActor var extract: CaptureDocumentStages.Extract",
+      "id": "s:15DocumentCapture0bA10OperationsV7extracty0aB5Apple18ArtifactExtractionV10Foundation4DataVYaYbKcvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "@MainActor var prepare: (CaptureDocumentSource) async throws -> AppleDocumentImagePreparer.PreparedImage",
+      "id": "s:15DocumentCapture0bA10OperationsV7preparey0aB5Apple0eA13ImagePreparerV08PreparedF0VAA0bA6SourceVYaKcvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "@MainActor var portrait: (Data, DocumentImageDerivation) async throws -> PortraitExtractionResult",
+      "id": "s:15DocumentCapture0bA10OperationsV8portraity0aB5Apple24PortraitExtractionResultV10Foundation4DataV_AE0A15ImageDerivationVtYaKcvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "enum CaptureDocumentRecoveryError",
+      "id": "s:15DocumentCapture0bA13RecoveryErrorO",
+      "kind": "swift.enum"
+    },
+    {
+      "declaration": "case stageFailed",
+      "id": "s:15DocumentCapture0bA13RecoveryErrorO11stageFailedyA2CmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "struct CaptureDocumentPresenceRecord",
+      "id": "s:15DocumentCapture0bA14PresenceRecordV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "let attribution: String",
+      "id": "s:15DocumentCapture0bA14PresenceRecordV11attributionSSvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let enforcement: DocumentPresencePolicy.Enforcement",
+      "id": "s:15DocumentCapture0bA14PresenceRecordV11enforcementAA0aC6PolicyV11EnforcementOvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let policyIdentifier: String",
+      "id": "s:15DocumentCapture0bA14PresenceRecordV16policyIdentifierSSvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "init(from decoder: any Decoder) throws",
+      "id": "s:15DocumentCapture0bA14PresenceRecordV4fromACs7Decoder_p_tKcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "struct CaptureDocumentSource",
+      "id": "s:15DocumentCapture0bA6SourceV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "let data: Data",
+      "id": "s:15DocumentCapture0bA6SourceV4data10Foundation4DataVvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "init(data: Data, fidelity: PhotoFidelityMetadata, admission: DocumentCaptureAdmissionSnapshot? = nil, side: DocumentSide, captureID: UUID, profile: CaptureRecords.Profile)",
+      "id": "s:15DocumentCapture0bA6SourceV4data8fidelity9admission4side9captureID7profileAC10Foundation4DataV_0aB5Apple21PhotoFidelityMetadataVAM0aB17AdmissionSnapshotVSg0A3SDK0A4SideOAJ4UUIDVAA0B7RecordsO7ProfileOtcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "let side: DocumentSide",
+      "id": "s:15DocumentCapture0bA6SourceV4side0A3SDK0A4SideOvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let profile: CaptureRecords.Profile",
+      "id": "s:15DocumentCapture0bA6SourceV7profileAA0B7RecordsO7ProfileOvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let fidelity: PhotoFidelityMetadata",
+      "id": "s:15DocumentCapture0bA6SourceV8fidelity0aB5Apple21PhotoFidelityMetadataVvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let admission: DocumentCaptureAdmissionSnapshot?",
+      "id": "s:15DocumentCapture0bA6SourceV9admission0aB5Apple0aB17AdmissionSnapshotVSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let captureID: UUID",
+      "id": "s:15DocumentCapture0bA6SourceV9captureID10Foundation4UUIDVvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "@MainActor enum CaptureDocumentStages",
+      "id": "s:15DocumentCapture0bA6StagesO",
+      "kind": "swift.enum"
+    },
+    {
+      "declaration": "typealias AfterWrite = (String, UUID) async throws -> Void",
+      "id": "s:15DocumentCapture0bA6StagesO10AfterWritea",
+      "kind": "swift.typealias"
+    },
+    {
+      "declaration": "@MainActor static func derivative(_ id: UUID, captureID: UUID, sourceHash: String, store: CaptureEvidenceStore) async throws -> CaptureEvidenceRecord",
+      "id": "s:15DocumentCapture0bA6StagesO10derivative_9captureID10sourceHash5store0B15EvidenceCustody0bJ6RecordV10Foundation4UUIDV_AMSSAH0bJ5StoreCtYaKFZ",
+      "kind": "swift.type.method"
+    },
+    {
+      "declaration": "@MainActor static func extraction(_ record: CaptureEvidenceRecord, source: Data) throws -> ArtifactExtraction?",
+      "id": "s:15DocumentCapture0bA6StagesO10extraction_6source0aB5Apple18ArtifactExtractionVSg0B15EvidenceCustody0bI6RecordV_10Foundation4DataVtKFZ",
+      "kind": "swift.type.method"
+    },
+    {
+      "declaration": "@MainActor static func preparedImage(captureID: UUID, sourceHash: String, store: CaptureEvidenceStore) async throws -> DerivedDocumentImage?",
+      "id": "s:15DocumentCapture0bA6StagesO13preparedImage9captureID10sourceHash5store0aB5Apple07DerivedaE0VSg10Foundation4UUIDV_SS0B15EvidenceCustody0bO5StoreCtYaKFZ",
+      "kind": "swift.type.method"
+    },
+    {
+      "declaration": "nonisolated static func encode<T>(_ value: T) throws -> Data where T : Encodable",
+      "id": "s:15DocumentCapture0bA6StagesO6encodey10Foundation4DataVxKSERzlFZ",
+      "kind": "swift.type.method"
+    },
+    {
+      "declaration": "@MainActor static func retain(kind: String, captureID: UUID, original: Data, manifest: Data, store: CaptureEvidenceStore, afterWrite: (String, UUID) async throws -> Void = { _, _ in }) async throws -> UUID",
+      "id": "s:15DocumentCapture0bA6StagesO6retain4kind9captureID8original8manifest5store10afterWrite10Foundation4UUIDVSS_AmK4DataVAO0B15EvidenceCustody0bP5StoreCySS_AMtYaKXEtYaKFZ",
+      "kind": "swift.type.method"
+    },
+    {
+      "declaration": "typealias Extract = @Sendable (Data) async throws -> ArtifactExtraction",
+      "id": "s:15DocumentCapture0bA6StagesO7Extracta",
+      "kind": "swift.typealias"
+    },
+    {
+      "declaration": "nonisolated static func extract(_ data: Data) async throws -> ArtifactExtraction",
+      "id": "s:15DocumentCapture0bA6StagesO7extracty0aB5Apple18ArtifactExtractionV10Foundation4DataVYaKFZ",
+      "kind": "swift.type.method"
+    },
+    {
+      "declaration": "@MainActor static func records(_ kind: String, captureID: UUID, sourceHash: String, store: CaptureEvidenceStore, lookup: CaptureEvidenceLookupSnapshot? = nil) async throws -> [CaptureEvidenceRecord]",
+      "id": "s:15DocumentCapture0bA6StagesO7records_9captureID10sourceHash5store6lookupSay0B15EvidenceCustody0bK6RecordVGSS_10Foundation4UUIDVSSAI0bK5StoreCAI0bK14LookupSnapshotVSgtYaKFZ",
+      "kind": "swift.type.method"
+    },
+    {
+      "declaration": "@MainActor static func usability(captureID: UUID, sourceHash: String, store: CaptureEvidenceStore) async throws -> CaptureUsability?",
+      "id": "s:15DocumentCapture0bA6StagesO9usability9captureID10sourceHash5storeAA0B9UsabilityVSg10Foundation4UUIDV_SS0B15EvidenceCustody0bM5StoreCtYaKFZ",
+      "kind": "swift.type.method"
+    },
+    {
+      "declaration": "@MainActor enum CaptureDocumentRecovery",
+      "id": "s:15DocumentCapture0bA8RecoveryO",
+      "kind": "swift.enum"
+    },
+    {
+      "declaration": "@MainActor static func processReport(captureID: UUID, store: CaptureEvidenceStore, operations: CaptureDocumentOperations = .init()) async throws",
+      "id": "s:15DocumentCapture0bA8RecoveryO13processReport9captureID5store10operationsy10Foundation4UUIDV_0B15EvidenceCustody0bL5StoreCAA0bA10OperationsVtYaKFZ",
+      "kind": "swift.type.method"
+    },
+    {
+      "declaration": "enum Stage",
+      "id": "s:15DocumentCapture0bA8RecoveryO5StageO",
+      "kind": "swift.enum"
+    },
+    {
+      "declaration": "case assessment",
+      "id": "s:15DocumentCapture0bA8RecoveryO5StageO10assessmentyA2EmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case extraction",
+      "id": "s:15DocumentCapture0bA8RecoveryO5StageO10extractionyA2EmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "case original",
+      "id": "s:15DocumentCapture0bA8RecoveryO5StageO8originalyA2EmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "init?(rawValue: String)",
+      "id": "s:15DocumentCapture0bA8RecoveryO5StageO8rawValueAESgSS_tcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "case usability",
+      "id": "s:15DocumentCapture0bA8RecoveryO5StageO9usabilityyA2EmF",
+      "kind": "swift.enum.case"
+    },
+    {
+      "declaration": "@MainActor static func process(captureID: UUID, store: CaptureEvidenceStore, operations: CaptureDocumentOperations = .init(), onStage: (CaptureDocumentRecovery.Stage) -> Void = { _ in }) async throws -> DocumentCaptureExpectationAssessment",
+      "id": "s:15DocumentCapture0bA8RecoveryO7process9captureID5store10operations7onStage0aB5Apple0aB21ExpectationAssessmentV10Foundation4UUIDV_0B15EvidenceCustody0bP5StoreCAA0bA10OperationsVyAC0J0OXEtYaKFZ",
+      "kind": "swift.type.method"
+    },
+    {
+      "declaration": "@MainActor enum CaptureDocumentWorkflow",
+      "id": "s:15DocumentCapture0bA8WorkflowO",
+      "kind": "swift.enum"
+    },
+    {
+      "declaration": "struct DocumentExtractionLink",
+      "id": "s:15DocumentCapture0bA8WorkflowO0A14ExtractionLinkV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "init(recordKind: String, captureID: UUID, sourceSHA256: String, derivativeRecordID: UUID, derivativeSHA256: String)",
+      "id": "s:15DocumentCapture0bA8WorkflowO0A14ExtractionLinkV10recordKind9captureID12sourceSHA256016derivativeRecordI00lK0AESS_10Foundation4UUIDVSSAMSStcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "let recordKind: String",
+      "id": "s:15DocumentCapture0bA8WorkflowO0A14ExtractionLinkV10recordKindSSvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let sourceSHA256: String",
+      "id": "s:15DocumentCapture0bA8WorkflowO0A14ExtractionLinkV12sourceSHA256SSvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let schemaVersion: Int",
+      "id": "s:15DocumentCapture0bA8WorkflowO0A14ExtractionLinkV13schemaVersionSivp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let derivativeSHA256: String",
+      "id": "s:15DocumentCapture0bA8WorkflowO0A14ExtractionLinkV16derivativeSHA256SSvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let derivativeRecordID: UUID",
+      "id": "s:15DocumentCapture0bA8WorkflowO0A14ExtractionLinkV18derivativeRecordID10Foundation4UUIDVvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "init(from decoder: any Decoder) throws",
+      "id": "s:15DocumentCapture0bA8WorkflowO0A14ExtractionLinkV4fromAEs7Decoder_p_tKcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "let captureID: UUID",
+      "id": "s:15DocumentCapture0bA8WorkflowO0A14ExtractionLinkV9captureID10Foundation4UUIDVvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "struct AssessmentRecord",
+      "id": "s:15DocumentCapture0bA8WorkflowO16AssessmentRecordV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "let derivativeRecordID: UUID?",
+      "id": "s:15DocumentCapture0bA8WorkflowO16AssessmentRecordV010derivativeE2ID10Foundation4UUIDVSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let documentExtractionRecordID: UUID?",
+      "id": "s:15DocumentCapture0bA8WorkflowO16AssessmentRecordV018documentExtractionE2ID10Foundation4UUIDVSgvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "init(assessment: DocumentCaptureExpectationAssessment, derivativeRecordID: UUID? = nil, documentExtractionRecordID: UUID? = nil, frontLayoutEvidence: DocumentFrontLayoutEvidence)",
+      "id": "s:15DocumentCapture0bA8WorkflowO16AssessmentRecordV10assessment010derivativeE2ID018documentExtractioneH019frontLayoutEvidenceAE0aB5Apple0ab11ExpectationD0V_10Foundation4UUIDVSgApJ0a5FrontlM0Vtcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "let assessment: DocumentCaptureExpectationAssessment",
+      "id": "s:15DocumentCapture0bA8WorkflowO16AssessmentRecordV10assessment0aB5Apple0ab11ExpectationD0Vvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let frontLayoutEvidence: DocumentFrontLayoutEvidence",
+      "id": "s:15DocumentCapture0bA8WorkflowO16AssessmentRecordV19frontLayoutEvidence0aB5Apple0a5FrontgH0Vvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "init(from decoder: any Decoder) throws",
+      "id": "s:15DocumentCapture0bA8WorkflowO16AssessmentRecordV4fromAEs7Decoder_p_tKcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "@MainActor static func assess(sourceHash: String, captureID: UUID, profile: CaptureRecords.Profile, usability: CaptureUsability, store: CaptureEvidenceStore, operations: CaptureDocumentOperations = .init()) async throws -> DocumentCaptureExpectationAssessment",
+      "id": "s:15DocumentCapture0bA8WorkflowO6assess10sourceHash9captureID7profile9usability5store10operations0aB5Apple0aB21ExpectationAssessmentVSS_10Foundation4UUIDVAA0B7RecordsO7ProfileOAA0B9UsabilityV0B15EvidenceCustody0bU5StoreCAA0bA10OperationsVtYaKFZ",
+      "kind": "swift.type.method"
+    }
+  ]
+}

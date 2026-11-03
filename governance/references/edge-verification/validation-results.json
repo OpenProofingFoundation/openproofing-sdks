@@ -1,0 +1,257 @@
+{
+  "scope": "Offline candidate schema and policy fixtures only; no cryptographic, empirical or production acceptance evidence",
+  "specSHA256": "3587cb84277ce372150ef74202f5e2eab06fef48d6d1b236c87b8f6bb60353aa",
+  "checkerSHA256": "52b8f73491706eeedc728b3eda22acf637b360689a22105a0bba9d1afc748f45",
+  "schemaSHA256": {
+    "ios-envelope.schema.json": "1a5ce9cbb117de24153824df1e3b1bad845209449c0baff3659007a948ec142b",
+    "payload.schema.json": "7b5af00b8a2c9844376d1db6addeb8d508f1a1760c7cb9696b3bb3e9870f3a04"
+  },
+  "fixtureSHA256": {
+    "icao9303.example.json": "70d71e9008a77be6d14efe6c41c9c41f51dde660a71c7e05444c7e90dcfe8b72",
+    "ios-id1-complete.example.json": "1257be2607cd481db074da12ffe19819ae3ac42ebecf01c81b5273fb240bce31",
+    "mdl18013_5.example.json": "8cf749d550e74f0f8d04afcea74fc111b3585ff5aa21d21c44f3799e210dd95c"
+  },
+  "cases": [
+    {
+      "case": "synthetic_complete_signals",
+      "outcome": "ELIGIBLE_IN_FIXTURE",
+      "reason": "all_example_predicates_satisfied"
+    },
+    {
+      "case": "face_nonmatch",
+      "outcome": "REJECT",
+      "reason": "required_check_failed"
+    },
+    {
+      "case": "face_review",
+      "outcome": "REVIEW",
+      "reason": "face_review_required"
+    },
+    {
+      "case": "physical_unavailable",
+      "outcome": "INCOMPLETE",
+      "reason": "required_check_unavailable"
+    },
+    {
+      "case": "reported_outcome_disagrees_with_evidence",
+      "outcome": "REFUSE",
+      "reason": "evidence_graph_mismatch"
+    },
+    {
+      "case": "issuer_unavailable",
+      "outcome": "INCOMPLETE",
+      "reason": "required_service_unavailable"
+    },
+    {
+      "case": "phone_contradiction",
+      "outcome": "REJECT",
+      "reason": "service_contradiction"
+    },
+    {
+      "case": "phone_not_compared",
+      "outcome": "INCOMPLETE",
+      "reason": "required_service_unavailable"
+    },
+    {
+      "case": "wrong_subject_binding",
+      "outcome": "REFUSE",
+      "reason": "receipt_binding_or_freshness"
+    },
+    {
+      "case": "receipt_generation_differs_from_session",
+      "outcome": "REFUSE",
+      "reason": "receipt_binding_or_freshness"
+    },
+    {
+      "case": "unverified_receipt",
+      "outcome": "REFUSE",
+      "reason": "receipt_missing_or_unverified"
+    },
+    {
+      "case": "receipt_expired",
+      "outcome": "REFUSE",
+      "reason": "receipt_binding_or_freshness"
+    },
+    {
+      "case": "issuer_capture_substitution",
+      "outcome": "REFUSE",
+      "reason": "issuer_capture_mismatch"
+    },
+    {
+      "case": "portrait_source_substitution",
+      "outcome": "REFUSE",
+      "reason": "portrait_source_mismatch"
+    },
+    {
+      "case": "front_back_alias",
+      "outcome": "REFUSE",
+      "reason": "front_back_capture_alias"
+    },
+    {
+      "case": "unapproved_model",
+      "outcome": "REFUSE",
+      "reason": "unapproved_policy_or_artifact"
+    },
+    {
+      "case": "substituted_admissionReceiptSha256",
+      "outcome": "REFUSE",
+      "reason": "evidence_graph_mismatch"
+    },
+    {
+      "case": "substituted_custodyRootSha256",
+      "outcome": "REFUSE",
+      "reason": "evidence_graph_mismatch"
+    },
+    {
+      "case": "substituted_cadastralReportSha256",
+      "outcome": "REFUSE",
+      "reason": "evidence_graph_mismatch"
+    },
+    {
+      "case": "substituted_portrait_sha256",
+      "outcome": "REFUSE",
+      "reason": "evidence_graph_mismatch"
+    },
+    {
+      "case": "substituted_portrait_derivationSha256",
+      "outcome": "REFUSE",
+      "reason": "evidence_graph_mismatch"
+    },
+    {
+      "case": "substituted_selfie",
+      "outcome": "REFUSE",
+      "reason": "evidence_graph_mismatch"
+    },
+    {
+      "case": "substituted_document_report",
+      "outcome": "REFUSE",
+      "reason": "evidence_graph_mismatch"
+    },
+    {
+      "case": "admission_not_live",
+      "outcome": "REFUSE",
+      "reason": "selfie_admission_not_bound_or_live"
+    },
+    {
+      "case": "wrong_attempt",
+      "outcome": "REFUSE",
+      "reason": "session_binding_mismatch"
+    },
+    {
+      "case": "replayed_challenge",
+      "outcome": "REFUSE",
+      "reason": "challenge_invalid_or_expired"
+    },
+    {
+      "case": "expired_challenge",
+      "outcome": "REFUSE",
+      "reason": "challenge_invalid_or_expired"
+    },
+    {
+      "case": "wrong_app_attest_environment",
+      "outcome": "REFUSE",
+      "reason": "proof_unverified_or_wrong_binding"
+    },
+    {
+      "case": "proof_not_verified",
+      "outcome": "REFUSE",
+      "reason": "proof_unverified_or_wrong_binding"
+    },
+    {
+      "case": "counter_reordering",
+      "outcome": "RETRY",
+      "reason": "counter_not_advancing"
+    },
+    {
+      "case": "payload_bytes_changed",
+      "outcome": "REFUSE",
+      "reason": "request_hash_mismatch"
+    },
+    {
+      "case": "duplicate_json_key",
+      "outcome": "INVALID",
+      "reason": "ValueError"
+    },
+    {
+      "case": "nonfinite_json_number",
+      "outcome": "INVALID",
+      "reason": "ValueError"
+    },
+    {
+      "case": "nonfinite_exponent",
+      "outcome": "INVALID",
+      "reason": "ValueError"
+    },
+    {
+      "case": "invalid_unicode",
+      "outcome": "INVALID",
+      "reason": "UnicodeEncodeError"
+    },
+    {
+      "case": "payload_byte_limit",
+      "outcome": "INVALID",
+      "reason": "ValueError"
+    },
+    {
+      "case": "payload_depth_limit",
+      "outcome": "INVALID",
+      "reason": "ValueError"
+    },
+    {
+      "case": "unsafe_generation_integer",
+      "outcome": "INVALID",
+      "reason": "ValidationError"
+    },
+    {
+      "case": "extra_raw_biometric_field",
+      "outcome": "INVALID",
+      "reason": "ValidationError"
+    },
+    {
+      "case": "missing_id1_back",
+      "outcome": "INVALID",
+      "reason": "ValidationError"
+    },
+    {
+      "case": "noncanonical_challenge",
+      "outcome": "INVALID",
+      "reason": "ValueError"
+    },
+    {
+      "case": "missing_crypto_receipt",
+      "outcome": "INVALID",
+      "reason": "ValidationError"
+    },
+    {
+      "case": "authenticated_identical_result_readback",
+      "outcome": "REPLAY_OF_FIXTURE_RESULT",
+      "reason": "no_new_action_or_validity"
+    },
+    {
+      "case": "altered_consumed_request",
+      "outcome": "REFUSE",
+      "reason": "replay_not_exact_or_not_authorized"
+    },
+    {
+      "case": "icao9303_synthetic_positive",
+      "outcome": "ELIGIBLE_IN_FIXTURE",
+      "reason": "all_example_predicates_satisfied"
+    },
+    {
+      "case": "icao9303_still_requires_live_selfie",
+      "outcome": "REFUSE",
+      "reason": "selfie_admission_not_bound_or_live"
+    },
+    {
+      "case": "mdl18013_5_synthetic_positive",
+      "outcome": "ELIGIBLE_IN_FIXTURE",
+      "reason": "all_example_predicates_satisfied"
+    },
+    {
+      "case": "mdl18013_5_still_requires_live_selfie",
+      "outcome": "REFUSE",
+      "reason": "selfie_admission_not_bound_or_live"
+    }
+  ],
+  "localLinksResolve": true
+}

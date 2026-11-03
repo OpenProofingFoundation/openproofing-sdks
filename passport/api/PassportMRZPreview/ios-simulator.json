@@ -1,0 +1,206 @@
+{
+  "relationships": [
+    {
+      "kind": "conformsTo",
+      "source": "c:@M@PassportMRZPreview@objc(cs)NativeMRZPreviewView",
+      "target": "c:objc(pl)CALayerDelegate"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "c:@M@PassportMRZPreview@objc(cs)NativeMRZPreviewView",
+      "target": "c:objc(pl)NSCoding"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "c:@M@PassportMRZPreview@objc(cs)NativeMRZPreviewView",
+      "target": "c:objc(pl)NSObject"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "c:@M@PassportMRZPreview@objc(cs)NativeMRZPreviewView",
+      "target": "c:objc(pl)UIAccessibilityIdentification"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "c:@M@PassportMRZPreview@objc(cs)NativeMRZPreviewView",
+      "target": "c:objc(pl)UIActivityItemsConfigurationProviding"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "c:@M@PassportMRZPreview@objc(cs)NativeMRZPreviewView",
+      "target": "c:objc(pl)UIAppearance"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "c:@M@PassportMRZPreview@objc(cs)NativeMRZPreviewView",
+      "target": "c:objc(pl)UIAppearanceContainer"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "c:@M@PassportMRZPreview@objc(cs)NativeMRZPreviewView",
+      "target": "c:objc(pl)UICoordinateSpace"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "c:@M@PassportMRZPreview@objc(cs)NativeMRZPreviewView",
+      "target": "c:objc(pl)UIDynamicItem"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "c:@M@PassportMRZPreview@objc(cs)NativeMRZPreviewView",
+      "target": "c:objc(pl)UIFocusEnvironment"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "c:@M@PassportMRZPreview@objc(cs)NativeMRZPreviewView",
+      "target": "c:objc(pl)UIFocusItem"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "c:@M@PassportMRZPreview@objc(cs)NativeMRZPreviewView",
+      "target": "c:objc(pl)UIFocusItemContainer"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "c:@M@PassportMRZPreview@objc(cs)NativeMRZPreviewView",
+      "target": "c:objc(pl)UILargeContentViewerItem"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "c:@M@PassportMRZPreview@objc(cs)NativeMRZPreviewView",
+      "target": "c:objc(pl)UIPasteConfigurationSupporting"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "c:@M@PassportMRZPreview@objc(cs)NativeMRZPreviewView",
+      "target": "c:objc(pl)UIPopoverPresentationControllerSourceItem"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "c:@M@PassportMRZPreview@objc(cs)NativeMRZPreviewView",
+      "target": "c:objc(pl)UIResponderStandardEditActions"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "c:@M@PassportMRZPreview@objc(cs)NativeMRZPreviewView",
+      "target": "c:objc(pl)UITraitEnvironment"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "c:@M@PassportMRZPreview@objc(cs)NativeMRZPreviewView",
+      "target": "c:objc(pl)UIUserActivityRestoring"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "c:@M@PassportMRZPreview@objc(cs)NativeMRZPreviewView",
+      "target": "s:5UIKit23UITraitChangeObservableP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "c:@M@PassportMRZPreview@objc(cs)NativeMRZPreviewView",
+      "target": "s:SH"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "c:@M@PassportMRZPreview@objc(cs)NativeMRZPreviewView",
+      "target": "s:SQ"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "c:@M@PassportMRZPreview@objc(cs)NativeMRZPreviewView",
+      "target": "s:s23CustomStringConvertibleP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "c:@M@PassportMRZPreview@objc(cs)NativeMRZPreviewView",
+      "target": "s:s28CustomDebugStringConvertibleP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "c:@M@PassportMRZPreview@objc(cs)NativeMRZPreviewView",
+      "target": "s:s7CVarArgP"
+    },
+    {
+      "kind": "inheritsFrom",
+      "source": "c:@M@PassportMRZPreview@objc(cs)NativeMRZPreviewView",
+      "target": "c:objc(cs)UIView"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:18PassportMRZPreview0B5GuideV",
+      "target": "s:s16SendableMetatypeP"
+    },
+    {
+      "kind": "conformsTo",
+      "source": "s:18PassportMRZPreview0B5GuideV",
+      "target": "s:s8SendableP"
+    }
+  ],
+  "symbols": [
+    {
+      "declaration": "@MainActor final class NativeMRZPreviewView",
+      "id": "c:@M@PassportMRZPreview@objc(cs)NativeMRZPreviewView",
+      "kind": "swift.class"
+    },
+    {
+      "declaration": "@MainActor override class var layerClass: AnyClass { get }",
+      "id": "c:@M@PassportMRZPreview@objc(cs)NativeMRZPreviewView(cpy)layerClass",
+      "kind": "swift.type.property"
+    },
+    {
+      "declaration": "@MainActor override func didMoveToWindow()",
+      "id": "c:@M@PassportMRZPreview@objc(cs)NativeMRZPreviewView(im)didMoveToWindow",
+      "kind": "swift.method"
+    },
+    {
+      "declaration": "@MainActor override func layoutSubviews()",
+      "id": "c:@M@PassportMRZPreview@objc(cs)NativeMRZPreviewView(im)layoutSubviews",
+      "kind": "swift.method"
+    },
+    {
+      "declaration": "@MainActor var guideFrame: CGRect { get }",
+      "id": "s:18PassportMRZPreview06NativeB4ViewC10guideFrameSo6CGRectVvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "@MainActor init(captureSession: NativeMRZSession, guide: MRZPreviewGuide = .documentBand)",
+      "id": "s:18PassportMRZPreview06NativeB4ViewC14captureSession5guideAC0A10MRZCapture0C10MRZSessionC_AA0B5GuideVtcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "struct MRZPreviewGuide",
+      "id": "s:18PassportMRZPreview0B5GuideV",
+      "kind": "swift.struct"
+    },
+    {
+      "declaration": "let bandHeight: CGFloat",
+      "id": "s:18PassportMRZPreview0B5GuideV10bandHeight14CoreFoundation7CGFloatVvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "init(bandHeight: CGFloat, horizontalInset: CGFloat, cornerRadius: CGFloat, veilOpacity: CGFloat)",
+      "id": "s:18PassportMRZPreview0B5GuideV10bandHeight15horizontalInset12cornerRadius11veilOpacityAC14CoreFoundation7CGFloatV_A3Jtcfc",
+      "kind": "swift.init"
+    },
+    {
+      "declaration": "let veilOpacity: CGFloat",
+      "id": "s:18PassportMRZPreview0B5GuideV11veilOpacity14CoreFoundation7CGFloatVvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "let cornerRadius: CGFloat",
+      "id": "s:18PassportMRZPreview0B5GuideV12cornerRadius14CoreFoundation7CGFloatVvp",
+      "kind": "swift.property"
+    },
+    {
+      "declaration": "static let documentBand: MRZPreviewGuide",
+      "id": "s:18PassportMRZPreview0B5GuideV12documentBandACvpZ",
+      "kind": "swift.type.property"
+    },
+    {
+      "declaration": "let horizontalInset: CGFloat",
+      "id": "s:18PassportMRZPreview0B5GuideV15horizontalInset14CoreFoundation7CGFloatVvp",
+      "kind": "swift.property"
+    }
+  ]
+}

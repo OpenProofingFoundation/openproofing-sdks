@@ -1,0 +1,600 @@
+{
+  "schemaVersion": 1,
+  "sourceRepositories": {
+    "kenshiki-identity-sdk": {
+      "revision": "ef55248549cb83bb554d67e5e2d4068a0c3ca70f",
+      "workingTreeBytesRecorded": true
+    },
+    "pulse-ios": {
+      "revision": "eead3323fb4cd1712de7fd2d82b9fdf55555026e",
+      "role": "original adopter and supplier patch lineage; current runtime imported from identity SDK"
+    }
+  },
+  "upstreamReader": {
+    "name": "NFCPassportReader",
+    "author": "AndyQ (Andy Qua)",
+    "version": "2.3.1",
+    "revision": "7dfc19c358697d4b083adc3c6fbc55a2385d9fa9",
+    "url": "https://github.com/AndyQ/NFCPassportReader",
+    "licence": "MIT",
+    "licenceFile": "LICENSE"
+  },
+  "openSSL": {
+    "url": "https://github.com/krzyzanowskim/OpenSSL-Package.git",
+    "version": "3.3.3001",
+    "revision": "71dbe0b4514cdaad95961470db72e8231f5943a6",
+    "resolution": "exact revision in supplier manifest; binary-artifact checksum remains in pinned upstream package"
+  },
+  "boundaries": {
+    "PassportSDK": [],
+    "PassportNFC": [
+      "PassportSDK",
+      "NFCPassportReader (iOS only)"
+    ],
+    "PassportMRZCapture": [
+      "PassportSDK"
+    ],
+    "PassportMRZPreview": [
+      "PassportMRZCapture"
+    ]
+  },
+  "excluded": [
+    {
+      "source": "Packages/IdentityEvidencePassport/Sources/IdentityEvidencePassport/PassportResultCustody.swift",
+      "reason": "depends on IdentityEvidenceStorage; retained in donor pending shared foundation port, never copied storage/key implementation"
+    }
+  ],
+  "limitations": [
+    "Preserves donor digest-length inference; does not add an independently typed SOD algorithm parameter.",
+    "Broader donor DG/ASN1/AA parser hardening is not represented as complete by these bounded secure-messaging fixes.",
+    "iOS implementation; Android NFC reader remains planned.",
+    "No app migration, device NFC or published release evidence is implied."
+  ],
+  "files": [
+    {
+      "sourceRepository": "kenshiki-identity-sdk",
+      "source": "Packages/IdentityEvidencePassport/Sources/IdentityEvidencePassport/MRZCheckDigit.swift",
+      "destination": "ios/Sources/PassportSDK/MRZCheckDigit.swift",
+      "sourceSHA256": "461f733c620ec693d33cbaa88e8df31971859593bcbb982bb0a29af727df4b34",
+      "destinationSHA256": "461f733c620ec693d33cbaa88e8df31971859593bcbb982bb0a29af727df4b34",
+      "patch": "byte-identical"
+    },
+    {
+      "sourceRepository": "kenshiki-identity-sdk",
+      "source": "Packages/IdentityEvidencePassport/Sources/IdentityEvidencePassport/PassportAccessKey.swift",
+      "destination": "ios/Sources/PassportSDK/PassportAccessKey.swift",
+      "sourceSHA256": "8087990b375fdb46c029b7c9daa80771fe22a9d4a1767a5568df80803dfa3211",
+      "destinationSHA256": "8087990b375fdb46c029b7c9daa80771fe22a9d4a1767a5568df80803dfa3211",
+      "patch": "byte-identical"
+    },
+    {
+      "sourceRepository": "kenshiki-identity-sdk",
+      "source": "Packages/IdentityEvidencePassport/Sources/IdentityEvidencePassport/PassportAuthenticatedPortrait.swift",
+      "destination": "ios/Sources/PassportSDK/PassportAuthenticatedPortrait.swift",
+      "sourceSHA256": "c89412ac434a959bd775807bf75c245b37b68941d2a896e3b4311392f3418a1b",
+      "destinationSHA256": "f73523efd2750694b3fbb009addbfa093a4eebca0abfe94733dd557560462f8f",
+      "patch": "package access for same-package NFC mapper; unchanged digest semantics"
+    },
+    {
+      "sourceRepository": "kenshiki-identity-sdk",
+      "source": "Packages/IdentityEvidencePassport/Sources/IdentityEvidencePassport/PassportChipAuthenticationRelay.swift",
+      "destination": "ios/Sources/PassportSDK/PassportChipAuthenticationRelay.swift",
+      "sourceSHA256": "a9ac558f94e6ea4335234388a26517f586982b33a4217379660291629de70605",
+      "destinationSHA256": "b395132d3495c7bedda6c5607b7641f792262ee877fcd8139694fab4d0c529f5",
+      "patch": "retain neutral exchange; extract vendor adapter to optional NFC module; package access"
+    },
+    {
+      "sourceRepository": "kenshiki-identity-sdk",
+      "source": "Packages/IdentityEvidencePassport/Sources/IdentityEvidencePassport/PassportCorrespondenceObservation.swift",
+      "destination": "ios/Sources/PassportSDK/PassportCorrespondenceObservation.swift",
+      "sourceSHA256": "f0280da9b7b2c322ccc2f4839e2b56a7ba064d42115e5dd9df6ed64dd1bbd2a9",
+      "destinationSHA256": "f0280da9b7b2c322ccc2f4839e2b56a7ba064d42115e5dd9df6ed64dd1bbd2a9",
+      "patch": "byte-identical"
+    },
+    {
+      "sourceRepository": "kenshiki-identity-sdk",
+      "source": "Packages/IdentityEvidencePassport/Sources/IdentityEvidencePassport/PassportMRZOCRParser.swift",
+      "destination": "ios/Sources/PassportSDK/PassportMRZOCRParser.swift",
+      "sourceSHA256": "cc2cca9a916f5546605ca1746c60aeef61458e4fba24c213a2f88f9d18659590",
+      "destinationSHA256": "2f1b5cf3a67b5d980fd3948f5c2fc436701c72b744bc74119270b0a78e711286",
+      "patch": "Add complete, bounded, unambiguous TD3 parsing without changing the legacy partial observation parser."
+    },
+    {
+      "sourceRepository": "kenshiki-identity-sdk",
+      "source": "Packages/IdentityEvidencePassport/Sources/IdentityEvidencePassport/PassportReadObservation.swift",
+      "destination": "ios/Sources/PassportSDK/PassportReadObservation.swift",
+      "sourceSHA256": "5d5ad0d8b21f62ce9d6659323de8a6fcdd446666654d98805636b721e105416c",
+      "destinationSHA256": "73b0d98c1868217f68400ff9da3d4bce86a03acc61ba5a568bf9e14dacddb6d6",
+      "patch": "package-only constructors and mechanism visibility for split transport; unchanged public properties/semantics"
+    },
+    {
+      "sourceRepository": "kenshiki-identity-sdk",
+      "source": "Packages/IdentityEvidencePassport/Sources/IdentityEvidencePassport/PassportChipAuthenticationRelay.swift",
+      "destination": "ios/Sources/PassportNFC/PassportChipAuthenticationTerminalAdapter.swift",
+      "sourceSHA256": "a9ac558f94e6ea4335234388a26517f586982b33a4217379660291629de70605",
+      "destinationSHA256": "5a88f75ed45834d49eb1554bbf4a948f900da610b98a580937f7dc4ebb56543b",
+      "patch": "extract vendor terminal adapter into optional transport module"
+    },
+    {
+      "sourceRepository": "kenshiki-identity-sdk",
+      "source": "Packages/IdentityEvidencePassport/Sources/IdentityEvidencePassport/PassportChipReader.swift",
+      "destination": "ios/Sources/PassportNFC/PassportChipReader.swift",
+      "sourceSHA256": "baf55d60e4f798134b3c42653ca73daecc5f28440b5151926968f659122353a4",
+      "destinationSHA256": "dad6f83ac8f7bab68cd97b074c5e9f37e4e17f7c8aa62add3ae3c5742d33df13",
+      "patch": "import neutral PassportSDK into optional transport; terminal adapter renamed where used"
+    },
+    {
+      "sourceRepository": "kenshiki-identity-sdk",
+      "source": "Packages/IdentityEvidencePassport/Sources/IdentityEvidencePassport/PassportObservationMapper.swift",
+      "destination": "ios/Sources/PassportNFC/PassportObservationMapper.swift",
+      "sourceSHA256": "665496521add6a3bf481b3c4b79a072473e50b3786574befcffe279dbd5c70a4",
+      "destinationSHA256": "7eeb8bc615238809a968eab3089c566e6636b8507ba3c2d0654fed6fd5fd5456",
+      "patch": "import neutral PassportSDK into optional transport; terminal adapter renamed where used. Select authenticated DG1 elements[5B] for MRZ surname/given names using the vendor model DG1 fallback split/filler/trim formatting, instead of DG11-expanded model display names. Preserve optional DG11 original bytes and all authentication/correspondence rules. Coordinated DG1-name projection backported to actual Pulse SDK dependency; both adapters also distinguish attempted empty AA from not-performed and refuse failed attempt."
+    },
+    {
+      "sourceRepository": "kenshiki-identity-sdk",
+      "source": "Packages/IdentityEvidencePassport/Sources/IdentityEvidencePassport/PassportReaderEvents.swift",
+      "destination": "ios/Sources/PassportNFC/PassportReaderEvents.swift",
+      "sourceSHA256": "167f5d3e97e479c109b44000f842d5391157a8c444ff67020d044e54bd318811",
+      "destinationSHA256": "394416d305c0929ef05d8a2de4acbdae604031b14b14d44fa4f487b0287e8dae",
+      "patch": "import neutral PassportSDK into optional transport; terminal adapter renamed where used"
+    },
+    {
+      "sourceRepository": "kenshiki-identity-sdk",
+      "source": "Packages/IdentityEvidencePassport/Sources/CaptureMRZ/MRZCameraDriver.swift",
+      "destination": "ios/Sources/PassportMRZCapture/MRZCameraDriver.swift",
+      "sourceSHA256": "5626af1e54c9468c7110c1673573f36e33c58a58e8e2d03e766a9767c51811b6",
+      "destinationSHA256": "ee48927ad41a86e0966529993044e7346c5bcb3e4307bdde67233361c1a61366",
+      "patch": "explicit host-supplied NotificationCenter preserves observation behavior; Stamp per-row OCR bounds and the active preview guide revision on each captured frame. Reuse the established virtual-first camera selection and native switching/zoom/continuous AF/AE configuration; add a reviewed fixed-vocabulary/scalar native readback after camera start. OCR settings and lifecycle remain unchanged."
+    },
+    {
+      "sourceRepository": "kenshiki-identity-sdk",
+      "source": "Packages/IdentityEvidencePassport/Sources/CaptureMRZ/MRZCaptureOrientation.swift",
+      "destination": "ios/Sources/PassportMRZCapture/MRZCaptureOrientation.swift",
+      "sourceSHA256": "e4aabaeffdf132060631d4ef2c2830fd1d9bc784685852e2e4a7e9fa3075d9a8",
+      "destinationSHA256": "e4aabaeffdf132060631d4ef2c2830fd1d9bc784685852e2e4a7e9fa3075d9a8",
+      "patch": "byte-identical"
+    },
+    {
+      "sourceRepository": "kenshiki-identity-sdk",
+      "source": "Packages/IdentityEvidencePassport/Sources/CaptureMRZ/MRZOCRPolicy.swift",
+      "destination": "ios/Sources/PassportMRZCapture/MRZOCRPolicy.swift",
+      "sourceSHA256": "d5726ae5dba853f031e4156d04447501540924b84ab0338e487106ad02b59a7c",
+      "destinationSHA256": "bf8c76036ed915ed22b1f63f122ff60c24067cfb2e353e5aab16e3ae6ad49574",
+      "patch": "Add row geometry and guide revision to transient OCR frames."
+    },
+    {
+      "sourceRepository": "kenshiki-identity-sdk",
+      "source": "Packages/IdentityEvidencePassport/Sources/CaptureMRZ/NativeMRZSession.swift",
+      "destination": "ios/Sources/PassportMRZCapture/NativeMRZSession.swift",
+      "sourceSHA256": "21fc9985251970d96d383a18df06c22bd3168c2845e898e3037e5abf5770ec94",
+      "destinationSHA256": "3014f9e44edb3aeab51529b968ecf8916a6e145dce776553312792b05507ba25",
+      "patch": "require host-supplied NotificationCenter in public constructor and live effects; Add guide-bound stable-complete readiness callback with layout, orientation and lifecycle fences."
+    },
+    {
+      "sourceRepository": "kenshiki-identity-sdk",
+      "source": "Packages/IdentityEvidencePassport/Sources/CaptureMRZPreview/MRZPreviewGuide.swift",
+      "destination": "ios/Sources/PassportMRZPreview/MRZPreviewGuide.swift",
+      "sourceSHA256": "37335d31969a907daa2e1ae60dc8e4c92654b3d0177a1b4d717b35291681a1f4",
+      "destinationSHA256": "c69b3bea7355a54189e546047349f8dde0e2c80e56934aa1b6687834e07f6a17",
+      "patch": "Describe the viewfinder geometry as the automatic capture admission region."
+    },
+    {
+      "sourceRepository": "kenshiki-identity-sdk",
+      "source": "Packages/IdentityEvidencePassport/Sources/CaptureMRZPreview/NativeMRZPreviewView.swift",
+      "destination": "ios/Sources/PassportMRZPreview/NativeMRZPreviewView.swift",
+      "sourceSHA256": "dda6777f4e855d4565ccb792737567d8007f8f4184d58434e70e9963bdf41edf",
+      "destinationSHA256": "1960003ad635a110bd83f97324c9a00dfc95d8ee215f893c375a25f31074dbe8",
+      "patch": "rename optional capture module import; Convert the actual visible guide through preview-layer camera coordinates and withdraw geometry when absent."
+    },
+    {
+      "sourceRepository": "kenshiki-identity-sdk",
+      "sourceRevision": "0a1d0a0ec0fb7d3f435fb25608ca25e7b673bdbd",
+      "selectionPolicyRevision": "245e086e4c1c9626a97feae0a51581b3fe4d9644",
+      "source": "Sources/IdentityEvidenceApple/DocumentCameraHardware.swift",
+      "destination": "ios/Sources/PassportMRZCapture/MRZCameraSelection.swift",
+      "sourceSHA256": "7958351661c74cf8134a8b4332c59fc5d705e0e930badbd7c9e008d4bb2e37db",
+      "destinationSHA256": "aea2cc49eb76e94b1df2d8d87c60cefa029a22ea0e4b0b2bbd4f1e534eb020c7",
+      "additionalSources": [
+        {
+          "source": "Sources/IdentityEvidenceApple/AVFoundationDocumentCapturePolicy.swift",
+          "sourceSHA256": "4ce3bb26c93bb0d08da31673f3e7bb7478b8d472ec199ea72f01f7600eaa41da",
+          "sourceRevision": "0a1d0a0ec0fb7d3f435fb25608ca25e7b673bdbd"
+        }
+      ],
+      "patch": "Port exact virtual dual-wide/triple/wide/ultra-wide/telephoto ordering, photo-pixel and stable-ID tie breaking, discovery and device-only configuration. Rename internal values, omit unused document report/capability fields and photo-output configuration; no Document dependency, subject-distance inference or new selection heuristic. Expose the unchanged native zoom clamp internally for boundary tests."
+    }
+  ],
+  "supplierFiles": [
+    {
+      "sourceRepository": "kenshiki-identity-sdk",
+      "source": "ThirdParty/NFCPassportReader/LICENSE",
+      "destination": "third-party/NFCPassportReader/LICENSE",
+      "sourceSHA256": "a7a07ad69b68597621385819c11f0615fbd714b8ded9d412c4e2e61deb5d6948",
+      "destinationSHA256": "a7a07ad69b68597621385819c11f0615fbd714b8ded9d412c4e2e61deb5d6948",
+      "patch": "byte-identical"
+    },
+    {
+      "sourceRepository": "kenshiki-identity-sdk",
+      "source": "ThirdParty/NFCPassportReader/Package.resolved",
+      "destination": "third-party/NFCPassportReader/Package.resolved",
+      "sourceSHA256": "844a61e6ebadd1d65cedc85bccd18d38cac8323210bae59f7b3c323dd708dcde",
+      "destinationSHA256": "844a61e6ebadd1d65cedc85bccd18d38cac8323210bae59f7b3c323dd708dcde",
+      "patch": "byte-identical"
+    },
+    {
+      "sourceRepository": "kenshiki-identity-sdk",
+      "source": "ThirdParty/NFCPassportReader/Package.swift",
+      "destination": "third-party/NFCPassportReader/Package.swift",
+      "sourceSHA256": "c3feb623034a862e2379700464fb19148197847007f3bfed78d626bcd1a3cfe2",
+      "destinationSHA256": "2fcfe7ee2b71119bdf83f032a5a010f8a8b67de8aa30ec183c22ca5cf6cde394",
+      "patch": "replace version range with exact donor-resolved OpenSSL revision. Exact OpenSSL revision also backported to actual Pulse SDK dependency; no algorithm substitution."
+    },
+    {
+      "sourceRepository": "kenshiki-identity-sdk",
+      "source": "ThirdParty/NFCPassportReader/Sources/NFCPassportReader/AES_3DES_DESEncryption.swift",
+      "destination": "third-party/NFCPassportReader/Sources/NFCPassportReader/AES_3DES_DESEncryption.swift",
+      "sourceSHA256": "0f9539c834d3e96cd998ceb71babe687558bfbf6c8b2101bceb35810ea95308b",
+      "destinationSHA256": "0f9539c834d3e96cd998ceb71babe687558bfbf6c8b2101bceb35810ea95308b",
+      "patch": "byte-identical"
+    },
+    {
+      "sourceRepository": "kenshiki-identity-sdk",
+      "source": "ThirdParty/NFCPassportReader/Sources/NFCPassportReader/BACHandler.swift",
+      "destination": "third-party/NFCPassportReader/Sources/NFCPassportReader/BACHandler.swift",
+      "sourceSHA256": "f80b323fbb2edcf28d04bfc6c5e097821f7aa85bdaf2ae73ef0fec2fe630af6b",
+      "destinationSHA256": "f80b323fbb2edcf28d04bfc6c5e097821f7aa85bdaf2ae73ef0fec2fe630af6b",
+      "patch": "byte-identical"
+    },
+    {
+      "sourceRepository": "kenshiki-identity-sdk",
+      "source": "ThirdParty/NFCPassportReader/Sources/NFCPassportReader/ChipAuthenticationHandler.swift",
+      "destination": "third-party/NFCPassportReader/Sources/NFCPassportReader/ChipAuthenticationHandler.swift",
+      "sourceSHA256": "a203951d2cfda57bf993748f0471d31524cf548219c096867ff8ab2d8ed8d122",
+      "destinationSHA256": "a203951d2cfda57bf993748f0471d31524cf548219c096867ff8ab2d8ed8d122",
+      "patch": "byte-identical"
+    },
+    {
+      "sourceRepository": "kenshiki-identity-sdk",
+      "source": "ThirdParty/NFCPassportReader/Sources/NFCPassportReader/DataGroupHash.swift",
+      "destination": "third-party/NFCPassportReader/Sources/NFCPassportReader/DataGroupHash.swift",
+      "sourceSHA256": "a2a05f61d91d68aac6c8ab74089ab67686c70f7ec649bfc64a93a6e76917d384",
+      "destinationSHA256": "a2a05f61d91d68aac6c8ab74089ab67686c70f7ec649bfc64a93a6e76917d384",
+      "patch": "byte-identical"
+    },
+    {
+      "sourceRepository": "kenshiki-identity-sdk",
+      "source": "ThirdParty/NFCPassportReader/Sources/NFCPassportReader/DataGroupParser.swift",
+      "destination": "third-party/NFCPassportReader/Sources/NFCPassportReader/DataGroupParser.swift",
+      "sourceSHA256": "0812b4c042858d4d289a56f6cf2f5014a24d4dea2fe24dbc2721f55c16d8b40f",
+      "destinationSHA256": "4b512588a282ab80fc8f417faafd60308ab3ae73472547c44ba58b6f2470e251",
+      "patch": "validate outer BER envelope before subclass dispatch; preserve valid short TLVs and reject truncated lengths/bodies before indexing. Outer BER envelope validation also backported to actual Pulse SDK dependency."
+    },
+    {
+      "sourceRepository": "kenshiki-identity-sdk",
+      "source": "ThirdParty/NFCPassportReader/Sources/NFCPassportReader/DataGroups/ActiveAuthenticationInfo.swift",
+      "destination": "third-party/NFCPassportReader/Sources/NFCPassportReader/DataGroups/ActiveAuthenticationInfo.swift",
+      "sourceSHA256": "b65d945fbeb9f5f4e401a107d0c8b01ead975e170614636b3d0fb797e0ac281a",
+      "destinationSHA256": "b65d945fbeb9f5f4e401a107d0c8b01ead975e170614636b3d0fb797e0ac281a",
+      "patch": "byte-identical"
+    },
+    {
+      "sourceRepository": "kenshiki-identity-sdk",
+      "source": "ThirdParty/NFCPassportReader/Sources/NFCPassportReader/DataGroups/COM.swift",
+      "destination": "third-party/NFCPassportReader/Sources/NFCPassportReader/DataGroups/COM.swift",
+      "sourceSHA256": "516ce01af64fd66cf647c28d1bfc23a5bdd37749f3db81df3018d63df4eb9f8d",
+      "destinationSHA256": "516ce01af64fd66cf647c28d1bfc23a5bdd37749f3db81df3018d63df4eb9f8d",
+      "patch": "byte-identical"
+    },
+    {
+      "sourceRepository": "kenshiki-identity-sdk",
+      "source": "ThirdParty/NFCPassportReader/Sources/NFCPassportReader/DataGroups/CardAccess.swift",
+      "destination": "third-party/NFCPassportReader/Sources/NFCPassportReader/DataGroups/CardAccess.swift",
+      "sourceSHA256": "1e8cb84b56e6c046f1c929c91e548f7b00f913371fed7a7879591018db2d97ec",
+      "destinationSHA256": "1e8cb84b56e6c046f1c929c91e548f7b00f913371fed7a7879591018db2d97ec",
+      "patch": "byte-identical"
+    },
+    {
+      "sourceRepository": "kenshiki-identity-sdk",
+      "source": "ThirdParty/NFCPassportReader/Sources/NFCPassportReader/DataGroups/ChipAuthenticationInfo.swift",
+      "destination": "third-party/NFCPassportReader/Sources/NFCPassportReader/DataGroups/ChipAuthenticationInfo.swift",
+      "sourceSHA256": "f3efb2f24f781bfebb314a6fd2f30e3f932240ad9b3bbaf95f97e9de49574d7f",
+      "destinationSHA256": "f3efb2f24f781bfebb314a6fd2f30e3f932240ad9b3bbaf95f97e9de49574d7f",
+      "patch": "byte-identical"
+    },
+    {
+      "sourceRepository": "kenshiki-identity-sdk",
+      "source": "ThirdParty/NFCPassportReader/Sources/NFCPassportReader/DataGroups/ChipAuthenticationPublicKeyInfo.swift",
+      "destination": "third-party/NFCPassportReader/Sources/NFCPassportReader/DataGroups/ChipAuthenticationPublicKeyInfo.swift",
+      "sourceSHA256": "f36f5bdd6aec9b05d786a59996f72136c4cb9526a5a7989f48ce08acdfa5a258",
+      "destinationSHA256": "2f01846f55761abd7ac79a1856bbe86ee7e4dfe1ac3093c2a770f47b69ccb03a",
+      "patch": "release exactly the owned d2i_PUBKEY reference in deinit; callers borrow immutable public-key pointer. Owned d2i_PUBKEY release also backported to actual Pulse SDK dependency."
+    },
+    {
+      "sourceRepository": "kenshiki-identity-sdk",
+      "source": "ThirdParty/NFCPassportReader/Sources/NFCPassportReader/DataGroups/DataGroup.swift",
+      "destination": "third-party/NFCPassportReader/Sources/NFCPassportReader/DataGroups/DataGroup.swift",
+      "sourceSHA256": "c84218f018c976ec1fff4860aec82c35f1badb6792b2664849586b531e426bb4",
+      "destinationSHA256": "fa773888801730ec67a6882a6543e1bb80b94681fdd33f4cce6bfcd3cdce400c",
+      "patch": "Coordinated repair bounds nested BER tag/length/value cursor to each declared parent before indexing; same runtime in both actual Pulse SDK dependency and reference."
+    },
+    {
+      "sourceRepository": "kenshiki-identity-sdk",
+      "source": "ThirdParty/NFCPassportReader/Sources/NFCPassportReader/DataGroups/DataGroup1.swift",
+      "destination": "third-party/NFCPassportReader/Sources/NFCPassportReader/DataGroups/DataGroup1.swift",
+      "sourceSHA256": "8b7ca32b2f4ba10030a7a9fbef4f22d79120658d4d7571db08c5a706782ed9ec",
+      "destinationSHA256": "31f0c18d95a9803f56fd0c4341f5fbf9858f37d56fec1f6cf618c937dd727235",
+      "patch": "Coordinated repair requires supported72/88/90-byte MRZ before fixed-offset slicing; same runtime in both dependency paths."
+    },
+    {
+      "sourceRepository": "kenshiki-identity-sdk",
+      "source": "ThirdParty/NFCPassportReader/Sources/NFCPassportReader/DataGroups/DataGroup11.swift",
+      "destination": "third-party/NFCPassportReader/Sources/NFCPassportReader/DataGroups/DataGroup11.swift",
+      "sourceSHA256": "8c05473796f815b9818850a1acc48bc021ed1b6c9ca52c6ce0bb573f10c9507d",
+      "destinationSHA256": "8c05473796f815b9818850a1acc48bc021ed1b6c9ca52c6ce0bb573f10c9507d",
+      "patch": "byte-identical"
+    },
+    {
+      "sourceRepository": "kenshiki-identity-sdk",
+      "source": "ThirdParty/NFCPassportReader/Sources/NFCPassportReader/DataGroups/DataGroup12.swift",
+      "destination": "third-party/NFCPassportReader/Sources/NFCPassportReader/DataGroups/DataGroup12.swift",
+      "sourceSHA256": "b18c9b80c1a963b076fa54646bf62460f840bfb3162f5737e7739c5558800333",
+      "destinationSHA256": "b18c9b80c1a963b076fa54646bf62460f840bfb3162f5737e7739c5558800333",
+      "patch": "byte-identical"
+    },
+    {
+      "sourceRepository": "kenshiki-identity-sdk",
+      "source": "ThirdParty/NFCPassportReader/Sources/NFCPassportReader/DataGroups/DataGroup14.swift",
+      "destination": "third-party/NFCPassportReader/Sources/NFCPassportReader/DataGroups/DataGroup14.swift",
+      "sourceSHA256": "14df610b169d5e5823e82861520c852419221256fa31687d97f9bf0d17eb2931",
+      "destinationSHA256": "14df610b169d5e5823e82861520c852419221256fa31687d97f9bf0d17eb2931",
+      "patch": "byte-identical"
+    },
+    {
+      "sourceRepository": "kenshiki-identity-sdk",
+      "source": "ThirdParty/NFCPassportReader/Sources/NFCPassportReader/DataGroups/DataGroup15.swift",
+      "destination": "third-party/NFCPassportReader/Sources/NFCPassportReader/DataGroups/DataGroup15.swift",
+      "sourceSHA256": "14437b0f9e59d36cd047987ffa9b6281d9ba180831cb45059bfc76eb750238b2",
+      "destinationSHA256": "14437b0f9e59d36cd047987ffa9b6281d9ba180831cb45059bfc76eb750238b2",
+      "patch": "byte-identical"
+    },
+    {
+      "sourceRepository": "kenshiki-identity-sdk",
+      "source": "ThirdParty/NFCPassportReader/Sources/NFCPassportReader/DataGroups/DataGroup2.swift",
+      "destination": "third-party/NFCPassportReader/Sources/NFCPassportReader/DataGroups/DataGroup2.swift",
+      "sourceSHA256": "402ece19c5771b27918b315f6f785f46e348730f462c7788a91f5cf37ceb9979",
+      "destinationSHA256": "3353671ee4c3a9f21cd3547115cac89390ecbb1f3c8f84fef1fc72d8c8e8934f",
+      "patch": "accept JPEG SOI/marker independent of optional JFIF metadata; preserve exact image bytes and end-marker refusal. Coordinated repair bounds image-count/FAC/declared-record/first-face/features/JP2 XLBox and preserves JPEG-prefix compatibility and original signed bytes; both dependency paths."
+    },
+    {
+      "sourceRepository": "kenshiki-identity-sdk",
+      "source": "ThirdParty/NFCPassportReader/Sources/NFCPassportReader/DataGroups/DataGroup7.swift",
+      "destination": "third-party/NFCPassportReader/Sources/NFCPassportReader/DataGroups/DataGroup7.swift",
+      "sourceSHA256": "dd04b2fd8c20c82dff093b6e796229220376df36ff128f6282ccae4bdf7161bf",
+      "destinationSHA256": "dd04b2fd8c20c82dff093b6e796229220376df36ff128f6282ccae4bdf7161bf",
+      "patch": "byte-identical"
+    },
+    {
+      "sourceRepository": "kenshiki-identity-sdk",
+      "source": "ThirdParty/NFCPassportReader/Sources/NFCPassportReader/DataGroups/DataGroupId.swift",
+      "destination": "third-party/NFCPassportReader/Sources/NFCPassportReader/DataGroups/DataGroupId.swift",
+      "sourceSHA256": "e0b6abf01d25e57a72cbe2adc17ec609e3bdfeb946b65934cf66dc97955b5be9",
+      "destinationSHA256": "e0b6abf01d25e57a72cbe2adc17ec609e3bdfeb946b65934cf66dc97955b5be9",
+      "patch": "byte-identical"
+    },
+    {
+      "sourceRepository": "kenshiki-identity-sdk",
+      "source": "ThirdParty/NFCPassportReader/Sources/NFCPassportReader/DataGroups/NotImplementedDG.swift",
+      "destination": "third-party/NFCPassportReader/Sources/NFCPassportReader/DataGroups/NotImplementedDG.swift",
+      "sourceSHA256": "1a0de855bdc909e06778cf66a67167bdabe753513584e35a307cd2134235141e",
+      "destinationSHA256": "1a0de855bdc909e06778cf66a67167bdabe753513584e35a307cd2134235141e",
+      "patch": "byte-identical"
+    },
+    {
+      "sourceRepository": "kenshiki-identity-sdk",
+      "source": "ThirdParty/NFCPassportReader/Sources/NFCPassportReader/DataGroups/PACEInfo.swift",
+      "destination": "third-party/NFCPassportReader/Sources/NFCPassportReader/DataGroups/PACEInfo.swift",
+      "sourceSHA256": "337ccbacd7050b4cf8c5d1dad4207634eb1ef4f8c5b6334337126ab20bd95034",
+      "destinationSHA256": "337ccbacd7050b4cf8c5d1dad4207634eb1ef4f8c5b6334337126ab20bd95034",
+      "patch": "byte-identical"
+    },
+    {
+      "sourceRepository": "kenshiki-identity-sdk",
+      "source": "ThirdParty/NFCPassportReader/Sources/NFCPassportReader/DataGroups/SOD.swift",
+      "destination": "third-party/NFCPassportReader/Sources/NFCPassportReader/DataGroups/SOD.swift",
+      "sourceSHA256": "c82bebe64bccd54c191224eb8d3015e7045c8611eace6ab3d657a1f3bd14d617",
+      "destinationSHA256": "678debd8cd25cbd2fcb8728563abff70619095f2996a70268b631d61dd0bd25c",
+      "patch": "Coordinated repair refuses absent signing certificate without indexing an empty array; both dependency paths."
+    },
+    {
+      "sourceRepository": "kenshiki-identity-sdk",
+      "source": "ThirdParty/NFCPassportReader/Sources/NFCPassportReader/DataGroups/SecurityInfo.swift",
+      "destination": "third-party/NFCPassportReader/Sources/NFCPassportReader/DataGroups/SecurityInfo.swift",
+      "sourceSHA256": "0be4ba8d0365f1addd4e4281b81d0f77f0612eb858cc48ef6f3402f81e6b54fd",
+      "destinationSHA256": "3c7c2b2c1c37c3c4e34aa032c23475aad8cd17929e512f4ab22cb1d677d936e6",
+      "patch": "Coordinated repair bounds missing ASN1 children and DER key-slice offsets before construction; both dependency paths."
+    },
+    {
+      "sourceRepository": "kenshiki-identity-sdk",
+      "source": "ThirdParty/NFCPassportReader/Sources/NFCPassportReader/Errors.swift",
+      "destination": "third-party/NFCPassportReader/Sources/NFCPassportReader/Errors.swift",
+      "sourceSHA256": "cd8ba77951123368d43ce14fa4bca7fb4f901aa4c179e7821fc75d9a86a8bc0d",
+      "destinationSHA256": "cd8ba77951123368d43ce14fa4bca7fb4f901aa4c179e7821fc75d9a86a8bc0d",
+      "patch": "byte-identical"
+    },
+    {
+      "sourceRepository": "kenshiki-identity-sdk",
+      "source": "ThirdParty/NFCPassportReader/Sources/NFCPassportReader/Logging.swift",
+      "destination": "third-party/NFCPassportReader/Sources/NFCPassportReader/Logging.swift",
+      "sourceSHA256": "83e1b62b3de623346ad791c2f2b21a46c8bb427cc0a1530c3f1d4a0e86415cf7",
+      "destinationSHA256": "83e1b62b3de623346ad791c2f2b21a46c8bb427cc0a1530c3f1d4a0e86415cf7",
+      "patch": "byte-identical"
+    },
+    {
+      "sourceRepository": "kenshiki-identity-sdk",
+      "source": "ThirdParty/NFCPassportReader/Sources/NFCPassportReader/Models/FaceImageInfo.swift",
+      "destination": "third-party/NFCPassportReader/Sources/NFCPassportReader/Models/FaceImageInfo.swift",
+      "sourceSHA256": "c1758d38aba462269a4f37b2a78bc2d1202107d170bdd1537489f9a5ecd3a281",
+      "destinationSHA256": "c1758d38aba462269a4f37b2a78bc2d1202107d170bdd1537489f9a5ecd3a281",
+      "patch": "byte-identical"
+    },
+    {
+      "sourceRepository": "kenshiki-identity-sdk",
+      "source": "ThirdParty/NFCPassportReader/Sources/NFCPassportReader/NFCPassportModel.swift",
+      "destination": "third-party/NFCPassportReader/Sources/NFCPassportReader/NFCPassportModel.swift",
+      "sourceSHA256": "4c703c60dd4d5b50319007071c718ecf8f6d50a22b38bafc81ab8464b6a25d2a",
+      "destinationSHA256": "f2f95e0e8cf6b4549d4b1a70b5976ad47157d9d0fff287c936dd7224b08b55ba",
+      "patch": "Coordinated repair bounds recovered AA values and verifies exact ICAO6A+implicitBC/explicitxxCC framing, digest and challenge for mandatory B6 and recommended odd-exponent B4; both dependency paths."
+    },
+    {
+      "sourceRepository": "kenshiki-identity-sdk",
+      "source": "ThirdParty/NFCPassportReader/Sources/NFCPassportReader/NFCReadSettlement.swift",
+      "destination": "third-party/NFCPassportReader/Sources/NFCPassportReader/NFCReadSettlement.swift",
+      "sourceSHA256": "4f796557f7f4413f7461dfa7ba5dd94bb42003cba6f1f04ad98ec5ae97ef6bd5",
+      "destinationSHA256": "4f796557f7f4413f7461dfa7ba5dd94bb42003cba6f1f04ad98ec5ae97ef6bd5",
+      "patch": "byte-identical"
+    },
+    {
+      "sourceRepository": "kenshiki-identity-sdk",
+      "source": "ThirdParty/NFCPassportReader/Sources/NFCPassportReader/NFCViewDisplayMessage.swift",
+      "destination": "third-party/NFCPassportReader/Sources/NFCPassportReader/NFCViewDisplayMessage.swift",
+      "sourceSHA256": "ca456a74872c4d0d7e5f16060f98c7bed852b6ea10f7971bdd7892a974d9c6c7",
+      "destinationSHA256": "ca456a74872c4d0d7e5f16060f98c7bed852b6ea10f7971bdd7892a974d9c6c7",
+      "patch": "byte-identical"
+    },
+    {
+      "sourceRepository": "kenshiki-identity-sdk",
+      "source": "ThirdParty/NFCPassportReader/Sources/NFCPassportReader/OpenSSLUtils.swift",
+      "destination": "third-party/NFCPassportReader/Sources/NFCPassportReader/OpenSSLUtils.swift",
+      "sourceSHA256": "ddd8f74edb850775f9b8f742a322d954af9870dc5bfcf17e3c2c150e7618dac0",
+      "destinationSHA256": "5f758778a8643a5da32993dc992810527adf97a4c2e68ee2ea436b22a8efd634",
+      "patch": "Coordinated repair bounds RSA/OpenSSL returned lengths, releases get1 RSA/EC references, guards empty ECDSA integers, enforces group-order plain signature width and bounded smaller-signature odd-exponent B4 complement; both dependency paths."
+    },
+    {
+      "sourceRepository": "kenshiki-identity-sdk",
+      "source": "ThirdParty/NFCPassportReader/Sources/NFCPassportReader/PACEHandler.swift",
+      "destination": "third-party/NFCPassportReader/Sources/NFCPassportReader/PACEHandler.swift",
+      "sourceSHA256": "2847e40d92e4dd0ee3dae2e877cc63ce223ab42ac8769fb5d6a004fa756ab216",
+      "destinationSHA256": "2847e40d92e4dd0ee3dae2e877cc63ce223ab42ac8769fb5d6a004fa756ab216",
+      "patch": "byte-identical"
+    },
+    {
+      "sourceRepository": "kenshiki-identity-sdk",
+      "source": "ThirdParty/NFCPassportReader/Sources/NFCPassportReader/PassportReader.swift",
+      "destination": "third-party/NFCPassportReader/Sources/NFCPassportReader/PassportReader.swift",
+      "sourceSHA256": "28a6312f8e9f845676688a1fd48cdfc8a9bb1abbe5e20e678e39741e417c7709",
+      "destinationSHA256": "b213074df11d82e30ddde34ab5006a31dd893908338345f7641d03fb2525147f",
+      "patch": "Coordinated repair retains/serializes/cancels detected-tag work and drains after matching CoreNFC invalidation before settlement release; preserves firstwinner, RF-loss polling and AA-before-remote-CA-last; bounded cancellation-aware host terminal contract; both dependency paths."
+    },
+    {
+      "sourceRepository": "kenshiki-identity-sdk",
+      "source": "ThirdParty/NFCPassportReader/Sources/NFCPassportReader/Resources/PrivacyInfo.xcprivacy",
+      "destination": "third-party/NFCPassportReader/Sources/NFCPassportReader/Resources/PrivacyInfo.xcprivacy",
+      "sourceSHA256": "41c8db80b9a45b7d68da96f58f13e332107d8b85e52ceadc1f046f4ea47b9dfa",
+      "destinationSHA256": "41c8db80b9a45b7d68da96f58f13e332107d8b85e52ceadc1f046f4ea47b9dfa",
+      "patch": "byte-identical"
+    },
+    {
+      "sourceRepository": "kenshiki-identity-sdk",
+      "source": "ThirdParty/NFCPassportReader/Sources/NFCPassportReader/ResponseAPDU.swift",
+      "destination": "third-party/NFCPassportReader/Sources/NFCPassportReader/ResponseAPDU.swift",
+      "sourceSHA256": "124fe542e86df9bcf82967e001686dda6b33f1e50af1d3c5a7ae77aedfbfad10",
+      "destinationSHA256": "124fe542e86df9bcf82967e001686dda6b33f1e50af1d3c5a7ae77aedfbfad10",
+      "patch": "byte-identical"
+    },
+    {
+      "sourceRepository": "kenshiki-identity-sdk",
+      "source": "ThirdParty/NFCPassportReader/Sources/NFCPassportReader/SecureMessaging.swift",
+      "destination": "third-party/NFCPassportReader/Sources/NFCPassportReader/SecureMessaging.swift",
+      "sourceSHA256": "a0de6a29975c4f0538cc847393bb04dae3d0ee06b8ca3370ef7d1a5b44b61674",
+      "destinationSHA256": "88808ce0434ca09d7d92ec8297e086b47d9efed1ed8d29395f1a534df6328d12",
+      "patch": "authenticate computed MAC; bounded protected response TLV framing; refuse malformed ISO7816 padding. Coordinated repair backports computed MAC/TLV/padding validation and preserves only inputCLA0x10 chaining alongside established0x0C mask, including its authenticated MAC header; both dependency paths."
+    },
+    {
+      "sourceRepository": "kenshiki-identity-sdk",
+      "source": "ThirdParty/NFCPassportReader/Sources/NFCPassportReader/SecureMessagingSessionKeyGenerator.swift",
+      "destination": "third-party/NFCPassportReader/Sources/NFCPassportReader/SecureMessagingSessionKeyGenerator.swift",
+      "sourceSHA256": "b55e5cc8044e793df047485a7b13d87c2526a384983955719b1fb4fb44f753f3",
+      "destinationSHA256": "b55e5cc8044e793df047485a7b13d87c2526a384983955719b1fb4fb44f753f3",
+      "patch": "byte-identical"
+    },
+    {
+      "sourceRepository": "kenshiki-identity-sdk",
+      "source": "ThirdParty/NFCPassportReader/Sources/NFCPassportReader/ServerChipAuthentication.swift",
+      "destination": "third-party/NFCPassportReader/Sources/NFCPassportReader/ServerChipAuthentication.swift",
+      "sourceSHA256": "2c43ff37d496cd4768fa163536354e57605c6ee03f983633cf512c590e28e042",
+      "destinationSHA256": "2c43ff37d496cd4768fa163536354e57605c6ee03f983633cf512c590e28e042",
+      "patch": "byte-identical"
+    },
+    {
+      "sourceRepository": "kenshiki-identity-sdk",
+      "source": "ThirdParty/NFCPassportReader/Sources/NFCPassportReader/SimpleASN1DumpParser.swift",
+      "destination": "third-party/NFCPassportReader/Sources/NFCPassportReader/SimpleASN1DumpParser.swift",
+      "sourceSHA256": "08d71f24359b7bbf6aa8f1040a01679c9040b64d48c3d65bbcf114c781d2f524",
+      "destinationSHA256": "08d71f24359b7bbf6aa8f1040a01679c9040b64d48c3d65bbcf114c781d2f524",
+      "patch": "byte-identical"
+    },
+    {
+      "sourceRepository": "kenshiki-identity-sdk",
+      "source": "ThirdParty/NFCPassportReader/Sources/NFCPassportReader/TagReader.swift",
+      "destination": "third-party/NFCPassportReader/Sources/NFCPassportReader/TagReader.swift",
+      "sourceSHA256": "b76d20cf762226beca2af5546a589882ab768e0c425f0fbe89fb32d63744309e",
+      "destinationSHA256": "2cafed7c6dfdaa9c0f7f40e78a6ae3fae82a8bf088a9b54786594809cefe8bcd",
+      "patch": "Coordinated repair checks cancellation before and after raw terminal exchange so late response cannot become retained proof; same runtime in both paths; donor-only comment differences normalized. Document intentional optional observer defaults with nested comments; no executable change."
+    },
+    {
+      "sourceRepository": "kenshiki-identity-sdk",
+      "source": "ThirdParty/NFCPassportReader/Sources/NFCPassportReader/Utils.swift",
+      "destination": "third-party/NFCPassportReader/Sources/NFCPassportReader/Utils.swift",
+      "sourceSHA256": "92fef5e4733a1a5ff1adf64a73633b7819d93112509371438d17b12c2e243068",
+      "destinationSHA256": "42f0c37858b024cda83f76df5bac9c59bfbc54538b812f2f3b32535abf543dfa",
+      "patch": "throw on empty/truncated supported BER length encodings before indexing. Supported BER length bounds also backported to actual Pulse SDK dependency; no encoding change."
+    },
+    {
+      "sourceRepository": "kenshiki-identity-sdk",
+      "source": "ThirdParty/NFCPassportReader/Sources/NFCPassportReader/X509Wrapper.swift",
+      "destination": "third-party/NFCPassportReader/Sources/NFCPassportReader/X509Wrapper.swift",
+      "sourceSHA256": "76b71da72ff5841ff90ce5a0f32658ac12fcffc389973c407512f978d6962c72",
+      "destinationSHA256": "76b71da72ff5841ff90ce5a0f32658ac12fcffc389973c407512f978d6962c72",
+      "patch": "byte-identical"
+    },
+    {
+      "sourceRepository": "kenshiki-identity-sdk",
+      "source": "ThirdParty/NFCPassportReader/VENDORED.md",
+      "destination": "third-party/NFCPassportReader/VENDORED.md",
+      "sourceSHA256": "dfe7b0103077333dbc31f96e64fc8824bb2892f42cd5273aebe53faa185fffef",
+      "destinationSHA256": "086fc0e0e67c4adeffae0a4f5a88db55617d8b56147a63a801a86f662f42ca58",
+      "patch": "append attributed OSS exact-pin, protected-response authentication and BER-length bounds patch record; preserve original donor history; append attributed DG2 JPEG-prefix compatibility repair; append attributed outer-BER-envelope and owned CA-public-key release repair. Record coordinated both-path cursor/DG/AA/owned cancellation and protected chaining fixes, primary ICAO/ISO/BSI contracts, independent protected peer construction and explicit native/physical evidence limits; retain historical origin. Document intentional optional observer defaults with nested comments; no executable change."
+    },
+    {
+      "sourceRepository": "kenshiki-identity-sdk",
+      "source": "ThirdParty/NFCPassportReader/import-manifest.json",
+      "destination": "third-party/NFCPassportReader/import-manifest.json",
+      "sourceSHA256": "c86ac1e9b56cc0632a96c28b6d524c7443a1432c45665660736c98eba772fa1f",
+      "destinationSHA256": "c86ac1e9b56cc0632a96c28b6d524c7443a1432c45665660736c98eba772fa1f",
+      "patch": "byte-identical"
+    },
+    {
+      "sourceRepository": "kenshiki-identity-sdk",
+      "source": "ThirdParty/NFCPassportReader/provenance.json",
+      "destination": "third-party/NFCPassportReader/provenance.json",
+      "sourceSHA256": "f1a92a95a66f2303159e674459a26652aa8385c4e5352ae7f7e454c86d301340",
+      "destinationSHA256": "9589dc5a74a5e347baa61376ab59b260f6c72c2838641741688cf7a3b5ca2588",
+      "patch": "append attributed OSS exact-pin, protected-response authentication and BER-length bounds patch record; preserve original donor history; append attributed DG2 JPEG-prefix compatibility repair; append attributed outer-BER-envelope and owned CA-public-key release repair. Record coordinated both-path supplier fixes, immutable historical origins and primary ICAO/ISO/BSI source contracts; no productiontrust or cipher-policy expansion. Document intentional optional observer defaults with nested comments; no executable change."
+    }
+  ],
+  "authoredSources": [
+    {
+      "destination": "ios/Sources/PassportMRZCapture/MRZReadinessGate.swift",
+      "destinationSHA256": "303634af648a25d733a9398b9b4466f49928b52eb8e77469566535fbf20ebe3b",
+      "origin": "kenshiki-sdks-authored",
+      "purpose": "New bounded MRZ framing and stable-readiness implementation; no donor source or supplier code is claimed."
+    }
+  ],
+  "coordinatedReaderRepair": {
+    "date": "2026-10-23",
+    "actualPulseDependencyBaseline": "0a1d0a0ec0fb7d3f435fb25608ca25e7b673bdbd",
+    "runtimeParityRecord": "Gates/reader-parity.json",
+    "scope": "Reviewed runtime repairs applied to reference and actual Pulse SDK dependency; historical sourceSHA256 values and upstream/import revisions above remain unchanged. Explicit peer qualification must pass quality/reader_parity.py --identity-sdk against the actual dependency checkout."
+  }
+}

@@ -1,0 +1,273 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://schemas.kenshiki.dev/contracts/face-comparison-bff-common-v1.schema.json",
+  "title": "Proposed face comparison BFF plan and shared bindings v1",
+  "description": "Contract proposal, not an implemented endpoint or proof verifier. Schema identifiers do not represent deployed URLs. Stateful authentication, expiry, replay, evidence binding and policy checks remain mandatory.",
+  "$ref": "#/$defs/requestPlan",
+  "$defs": {
+    "identifier": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 128,
+      "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]*(?![\\s\\S])"
+    },
+    "sha256": {
+      "type": "string",
+      "minLength": 64,
+      "maxLength": 64,
+      "pattern": "^[0-9a-f]{64}(?![\\s\\S])"
+    },
+    "evidence": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "evidenceId",
+        "sha256"
+      ],
+      "properties": {
+        "evidenceId": {
+          "$ref": "#/$defs/identifier"
+        },
+        "sha256": {
+          "$ref": "#/$defs/sha256"
+        }
+      }
+    },
+    "context": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "requestId",
+        "operationId",
+        "attemptId",
+        "challenge",
+        "applicationId",
+        "installationId",
+        "sessionId",
+        "generation",
+        "policyId",
+        "policyVersion",
+        "reference",
+        "selfie"
+      ],
+      "properties": {
+        "requestId": {
+          "$ref": "#/$defs/identifier"
+        },
+        "operationId": {
+          "$ref": "#/$defs/identifier"
+        },
+        "attemptId": {
+          "$ref": "#/$defs/identifier"
+        },
+        "challenge": {
+          "type": "string",
+          "minLength": 32,
+          "maxLength": 128,
+          "pattern": "^[A-Za-z0-9_-]{32,128}(?![\\s\\S])"
+        },
+        "applicationId": {
+          "$ref": "#/$defs/identifier"
+        },
+        "installationId": {
+          "$ref": "#/$defs/identifier"
+        },
+        "sessionId": {
+          "$ref": "#/$defs/identifier"
+        },
+        "generation": {
+          "$ref": "#/$defs/identifier"
+        },
+        "policyId": {
+          "$ref": "#/$defs/identifier"
+        },
+        "policyVersion": {
+          "$ref": "#/$defs/identifier"
+        },
+        "reference": {
+          "$ref": "#/$defs/evidence"
+        },
+        "selfie": {
+          "$ref": "#/$defs/evidence"
+        }
+      }
+    },
+    "runtime": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "name",
+        "version",
+        "platform",
+        "osVersion"
+      ],
+      "properties": {
+        "name": {
+          "$ref": "#/$defs/identifier"
+        },
+        "version": {
+          "$ref": "#/$defs/identifier"
+        },
+        "platform": {
+          "enum": [
+            "ios",
+            "macos",
+            "android",
+            "linux"
+          ]
+        },
+        "osVersion": {
+          "$ref": "#/$defs/identifier"
+        }
+      }
+    },
+    "execution": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "artifactSHA256",
+        "profileId",
+        "runtime",
+        "durationMilliseconds"
+      ],
+      "properties": {
+        "artifactSHA256": {
+          "$ref": "#/$defs/sha256"
+        },
+        "profileId": {
+          "$ref": "#/$defs/identifier"
+        },
+        "promptSHA256": {
+          "$ref": "#/$defs/sha256"
+        },
+        "runtime": {
+          "$ref": "#/$defs/runtime"
+        },
+        "durationMilliseconds": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 3600000
+        },
+        "inputSHA256": {
+          "$ref": "#/$defs/sha256"
+        },
+        "promptContractSHA256": {
+          "$ref": "#/$defs/sha256"
+        },
+        "responseSchemaSHA256": {
+          "$ref": "#/$defs/sha256"
+        }
+      }
+    },
+    "failure": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "code",
+        "stage"
+      ],
+      "properties": {
+        "code": {
+          "enum": [
+            "invalid_image",
+            "resource_limit",
+            "source_mismatch",
+            "face_missing",
+            "multiple_faces",
+            "landmarks_unavailable",
+            "model_unavailable",
+            "model_mismatch",
+            "alignment_failed",
+            "inference_failed",
+            "runtime_unavailable",
+            "invalid_output",
+            "assessment_in_progress",
+            "engine",
+            "cancelled"
+          ]
+        },
+        "stage": {
+          "enum": [
+            "input_validation",
+            "artifact_verification",
+            "runtime",
+            "inference",
+            "output_validation"
+          ]
+        }
+      }
+    },
+    "requestPlan": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "schemaVersion",
+        "context",
+        "issuedAt",
+        "expiresAt",
+        "branches"
+      ],
+      "properties": {
+        "schemaVersion": {
+          "const": 1
+        },
+        "context": {
+          "$ref": "#/$defs/context"
+        },
+        "issuedAt": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 9007199254740991,
+          "description": "BFF UTC Unix seconds, never device wall-clock authority."
+        },
+        "expiresAt": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 9007199254740991
+        },
+        "branches": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "auraface",
+            "liquid"
+          ],
+          "properties": {
+            "auraface": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "required",
+                "plan"
+              ],
+              "properties": {
+                "required": {
+                  "type": "boolean"
+                },
+                "plan": {
+                  "$ref": "auraface-bff-observation-v1.schema.json#/$defs/plan"
+                }
+              }
+            },
+            "liquid": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "required",
+                "plan"
+              ],
+              "properties": {
+                "required": {
+                  "type": "boolean"
+                },
+                "plan": {
+                  "$ref": "liquid-bff-observation-v1.schema.json#/$defs/plan"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

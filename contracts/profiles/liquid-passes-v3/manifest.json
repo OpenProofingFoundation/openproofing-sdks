@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "profileId": "lfm25-vl16b-affine4-g64-mlx-discrete-review-v3",
+  "artifactSHA256": "bf86cc6b16e4f6a870336d5e0ebad0c5cf1d63214efef8efeb8b9655174b3913",
+  "passes": [
+    "quality",
+    "comparison",
+    "presentation"
+  ],
+  "generation": {
+    "temperature": 0,
+    "topP": 1,
+    "maxNewTokens": 384,
+    "maxInputTokens": 4096,
+    "maxOutputBytes": 8192,
+    "wallSeconds": 25,
+    "cacheLimitBytes": 134217728,
+    "prefillStepSize": 128
+  },
+  "resources": {
+    "quality.schema.json": {
+      "path": "profiles/liquid-passes-v3/quality.schema.json",
+      "sha256": "c9e1009c803584600eb7b3046cfe386ca7d7d32ce2dadcd0544c38550bd04e12"
+    },
+    "quality.prompt.txt": {
+      "path": "profiles/liquid-passes-v3/quality.prompt.txt",
+      "sha256": "7dfbed2bc154c8bae4401ff7d71d1d5eefdb41fb1b4329e8b76bdd4c65d1270a"
+    },
+    "quality.example.json": {
+      "path": "profiles/liquid-passes-v3/quality.example.json",
+      "sha256": "b64061659d7db855fdc157e43340658a2d41b92d73d79963eef576b1dbd1bcdd"
+    },
+    "comparison.schema.json": {
+      "path": "profiles/liquid-passes-v3/comparison.schema.json",
+      "sha256": "0d6df4d47ec1c0c37ecdc4458d14d975f5e6c4d8991ab35e9f9f8f71adbfba3b"
+    },
+    "comparison.prompt.txt": {
+      "path": "profiles/liquid-passes-v3/comparison.prompt.txt",
+      "sha256": "504ce748aadf59c4fca9c87c1965d01fc6a5f395a51c90ab76f46348ece4a89a"
+    },
+    "comparison.example.json": {
+      "path": "profiles/liquid-passes-v3/comparison.example.json",
+      "sha256": "e8549578f389d57d44725f93f0c172542d3af6310f3ad41dc84bcdedb6787488"
+    },
+    "presentation.schema.json": {
+      "path": "profiles/liquid-passes-v3/presentation.schema.json",
+      "sha256": "1531afd90617ba3bc99842b781d3f100814c955f08364be1308e61a49c649f3a"
+    },
+    "presentation.prompt.txt": {
+      "path": "profiles/liquid-passes-v3/presentation.prompt.txt",
+      "sha256": "d8575c45f28c7233e0a5f7ebe8fc011ba83b852d18b707142e4f302de1faddde"
+    },
+    "presentation.example.json": {
+      "path": "profiles/liquid-passes-v3/presentation.example.json",
+      "sha256": "1bb98063c8210f4f3ef5bbb3ed9bd01a301c1da64f1a9340053709118587d01f"
+    }
+  },
+  "preprocessing": {
+    "decodeDimension": 512,
+    "resize": "aspect-preserving-letterbox",
+    "imageOrder": [
+      "Media-1",
+      "Media-2"
+    ]
+  }
+}

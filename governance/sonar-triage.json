@@ -1,0 +1,52 @@
+{
+  "date": "2026-10-17",
+  "project": "Kenshiki-Labs_kenshiki-sdks",
+  "classifications": [
+    {
+      "issueKey": "AaFHJtKKt_UPr-R8x9xr",
+      "rule": "json:S6418",
+      "classification": "verified_false_positive",
+      "reason": "This value is the SHA-256 digest of the named Swift source, not a credential. Digest was recomputed from the original identity checkout and matched byte-for-byte. Auth is part of the class/file name.",
+      "sourcePath": "Packages/IdentityEvidencePassport/Sources/IdentityEvidencePassport/PassportAuthenticatedPortrait.swift",
+      "sourceSHA256": "c89412ac434a959bd775807bf75c245b37b68941d2a896e3b4311392f3418a1b",
+      "sonarStatus": "RESOLVED",
+      "sonarResolution": "FALSE-POSITIVE"
+    },
+    {
+      "issueKey": "AaFHJtKKt_UPr-R8x9xs",
+      "rule": "json:S6418",
+      "classification": "verified_false_positive",
+      "reason": "This value is the SHA-256 digest of the named Swift source, not a credential. Digest was recomputed from the original identity checkout and matched byte-for-byte. Auth is part of the class/file name.",
+      "sourcePath": "Packages/IdentityEvidenceRegula/Sources/IdentityEvidenceRegula/RegulaAuthenticityFindings.swift",
+      "sourceSHA256": "d767d61035d82a81d8deec45fe2fdcc40f7ba5e6ea25f9eeb3ee4a87591fe95a",
+      "sonarStatus": "RESOLVED",
+      "sonarResolution": "FALSE-POSITIVE"
+    },
+    {
+      "issueKey": "AaFLPVoEnwwNvcZNOpx9",
+      "rule": "json:S6418",
+      "classification": "verified_false_positive",
+      "reason": "The token-schema entry is a SHA-256 source integrity digest, not a credential. Recomputed SHA-256 of design-system/schemas/tokens.schema.json matches the tooling lock byte-for-byte.",
+      "sourcePath": "design-system/schemas/tokens.schema.json",
+      "sourceSHA256": "351a402f657e275ce4b775ea7f9d12c8e0243b3cc828fb3013382485c26d8f60",
+      "sonarStatus": "RESOLVED",
+      "sonarResolution": "FALSE-POSITIVE"
+    },
+    {
+      "issueKey": "AaFLPVmMnwwNvcZNOpx8",
+      "rule": "pythonsecurity:S8707",
+      "classification": "verified_false_positive",
+      "reason": "CLI lane is restricted by argparse choices and checked against LANES before side effects. receipt_path uses only that allowlisted lane; safe_path rejects escape and symlink components. json.dumps(receipt) is file content, not a path. Tainted git/platform/hash receipt values cannot select the output file.",
+      "sourcePath": "scripts/presentation_check.py",
+      "evidenceTests": [
+        "test_untrusted_receipt_values_do_not_control_the_output_path",
+        "test_unregistered_lane_rejected_before_execution",
+        "test_symlink_report_or_ancestor_cannot_read_or_delete_outside_evidence"
+      ],
+      "evidenceSuite": "governance/tests/test_presentation_runner.py",
+      "sonarStatus": "RESOLVED",
+      "sonarResolution": "FALSE-POSITIVE"
+    }
+  ],
+  "scope": "Only source digests and constrained path flows with concrete evidence are classified; no rule suppression or quality-gate relaxation."
+}

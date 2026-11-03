@@ -1,0 +1,657 @@
+name: SDK quality
+on:
+  push: null
+  pull_request: null
+  workflow_dispatch: null
+permissions:
+  contents: read
+concurrency:
+  group: sdk-quality-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: ${{ github.event_name == 'pull_request' }}
+jobs:
+  guards:
+    name: ${{ matrix.sdk }} / guards
+    runs-on: ubuntu-24.04
+    timeout-minutes: 45
+    strategy:
+      fail-fast: false
+      matrix:
+        sdk:
+          - document
+          - passport
+          - biometric
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020
+        with:
+          node-version-file: .node-version
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version-file: .python-version
+      - run: npm ci --ignore-scripts
+      - run: python3 scripts/bootstrap.py
+      - run: python3 scripts/check.py --sdk ${{ matrix.sdk }} --platform guards
+      - name: Preserve scoped QA evidence
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: ${{ matrix.sdk }}-guards-quality
+          path: |-
+            .build/validation/
+            ${{ matrix.sdk }}/.build/quality/
+          if-no-files-found: error
+          retention-days: 7
+  macos:
+    name: ${{ matrix.sdk }} / macos
+    runs-on: macos-26
+    timeout-minutes: 45
+    strategy:
+      fail-fast: false
+      matrix:
+        sdk:
+          - document
+          - passport
+          - biometric
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020
+        with:
+          node-version-file: .node-version
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version-file: .python-version
+      - run: npm ci --ignore-scripts
+      - run: python3 scripts/bootstrap.py
+      - run: python3 scripts/check.py --sdk ${{ matrix.sdk }} --platform macos
+      - name: Preserve scoped QA evidence
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: ${{ matrix.sdk }}-macos-quality
+          path: |-
+            .build/validation/
+            ${{ matrix.sdk }}/.build/quality/
+          if-no-files-found: error
+          retention-days: 7
+  ios-device:
+    name: ${{ matrix.sdk }} / ios-device
+    runs-on: macos-26
+    timeout-minutes: 45
+    strategy:
+      fail-fast: false
+      matrix:
+        sdk:
+          - document
+          - passport
+          - biometric
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020
+        with:
+          node-version-file: .node-version
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version-file: .python-version
+      - name: Install public document sample generator
+        if: matrix.sdk == 'document'
+        run: brew install xcodegen
+      - run: npm ci --ignore-scripts
+      - run: python3 scripts/bootstrap.py
+      - run: python3 scripts/check.py --sdk ${{ matrix.sdk }} --platform ios-device
+      - name: Preserve scoped QA evidence
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: ${{ matrix.sdk }}-ios-device-quality
+          path: |-
+            .build/validation/
+            ${{ matrix.sdk }}/.build/quality/
+          if-no-files-found: error
+          retention-days: 7
+  ios-simulator:
+    name: ${{ matrix.sdk }} / ios-simulator
+    runs-on: macos-26
+    timeout-minutes: 45
+    strategy:
+      fail-fast: false
+      matrix:
+        sdk:
+          - document
+          - passport
+          - biometric
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020
+        with:
+          node-version-file: .node-version
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version-file: .python-version
+      - name: Install public document sample generator
+        if: matrix.sdk == 'document'
+        run: brew install xcodegen
+      - run: npm ci --ignore-scripts
+      - run: python3 scripts/bootstrap.py
+      - run: python3 scripts/check.py --sdk ${{ matrix.sdk }} --platform ios-simulator
+      - name: Preserve scoped QA evidence
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: ${{ matrix.sdk }}-ios-simulator-quality
+          path: |-
+            .build/validation/
+            ${{ matrix.sdk }}/.build/quality/
+          if-no-files-found: error
+          retention-days: 7
+  android:
+    name: ${{ matrix.sdk }} / android
+    runs-on: ubuntu-24.04
+    timeout-minutes: 45
+    strategy:
+      fail-fast: false
+      matrix:
+        sdk:
+          - document
+          - passport
+          - biometric
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020
+        with:
+          node-version-file: .node-version
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version-file: .python-version
+      - uses: actions/setup-java@cf277c60eb25467037889841efdb72551f06f6c3
+        with:
+          distribution: temurin
+          java-version: "17"
+      - uses: android-actions/setup-android@9fc6c4e9069bf8d3d10b2204b1fb8f6ef7065407
+        with:
+          packages: platform-tools
+          log-accepted-android-sdk-licenses: false
+      - run: sdkmanager "platforms;android-36" "build-tools;36.0.0"
+      - run: npm ci --ignore-scripts
+      - run: python3 scripts/bootstrap.py
+      - run: python3 scripts/check.py --sdk ${{ matrix.sdk }} --platform android
+      - name: Preserve scoped QA evidence
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: ${{ matrix.sdk }}-android-quality
+          path: |-
+            .build/validation/
+            ${{ matrix.sdk }}/.build/quality/
+          if-no-files-found: error
+          retention-days: 7
+  nist-linux:
+    name: biometric / NIST tooling
+    runs-on: ubuntu-24.04
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version-file: .python-version
+      - run: sudo apt-get update && sudo apt-get install -y --no-install-recommends
+          libssl-dev cmake ninja-build g++-13
+      - run: python3 biometric/nist/check.py --compiler g++-13
+      - run: python3 biometric/cpp/check_inference.py
+      - name: Preserve NIST tooling evidence
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: biometric-nist-tooling
+          path: |-
+            .build/nist/
+            .build/inference/
+          if-no-files-found: error
+          retention-days: 7
+  presentation-macos:
+    name: presentation / macos
+    runs-on: macos-26
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020
+        with:
+          node-version-file: .node-version
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version-file: .python-version
+      - run: npm ci --ignore-scripts
+      - run: python3 scripts/bootstrap.py
+      - run: python3 scripts/check.py --platform guards
+      - run: python3 scripts/presentation_check.py --platform macos
+      - name: Preserve presentation evidence
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: presentation-macos
+          path: |-
+            .build/presentation/
+            .build/validation/
+          if-no-files-found: error
+          retention-days: 7
+  presentation-ios-device:
+    name: presentation / ios-device
+    runs-on: macos-26
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020
+        with:
+          node-version-file: .node-version
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version-file: .python-version
+      - run: npm ci --ignore-scripts
+      - run: python3 scripts/bootstrap.py
+      - run: python3 scripts/check.py --platform guards
+      - run: python3 scripts/presentation_check.py --platform ios-device
+      - name: Preserve presentation evidence
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: presentation-ios-device
+          path: |-
+            .build/presentation/
+            .build/validation/
+          if-no-files-found: error
+          retention-days: 7
+  presentation-ios-simulator:
+    name: presentation / ios-simulator
+    runs-on: macos-26
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020
+        with:
+          node-version-file: .node-version
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version-file: .python-version
+      - run: npm ci --ignore-scripts
+      - run: python3 scripts/bootstrap.py
+      - run: python3 scripts/check.py --platform guards
+      - run: python3 scripts/presentation_check.py --platform ios-simulator
+      - name: Preserve presentation evidence
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: presentation-ios-simulator
+          path: |-
+            .build/presentation/
+            .build/validation/
+          if-no-files-found: error
+          retention-days: 7
+  presentation-ios-ui:
+    name: presentation / ios-ui
+    runs-on: macos-26
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020
+        with:
+          node-version-file: .node-version
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version-file: .python-version
+      - run: npm ci --ignore-scripts
+      - run: python3 scripts/bootstrap.py
+      - run: python3 scripts/check.py --platform guards
+      - run: python3 scripts/presentation_check.py --platform ios-ui
+      - name: Preserve presentation evidence
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: presentation-ios-ui
+          path: |-
+            .build/presentation/
+            .build/validation/
+          if-no-files-found: error
+          retention-days: 7
+  presentation-android:
+    name: presentation / android
+    runs-on: ubuntu-24.04
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020
+        with:
+          node-version-file: .node-version
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version-file: .python-version
+      - uses: actions/setup-java@cf277c60eb25467037889841efdb72551f06f6c3
+        with:
+          distribution: temurin
+          java-version: "17"
+      - uses: android-actions/setup-android@9fc6c4e9069bf8d3d10b2204b1fb8f6ef7065407
+        with:
+          packages: platform-tools
+          log-accepted-android-sdk-licenses: false
+      - run: sdkmanager "platforms;android-37.0" "build-tools;36.0.0"
+      - run: npm ci --ignore-scripts
+      - run: python3 scripts/bootstrap.py
+      - run: python3 scripts/check.py --platform guards
+      - run: python3 scripts/presentation_check.py --platform android
+      - name: Preserve presentation evidence
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: presentation-android
+          path: |-
+            .build/presentation/
+            .build/validation/
+          if-no-files-found: error
+          retention-days: 7
+  document-capture-ios:
+    name: document / capture iOS
+    runs-on: macos-26
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020
+        with:
+          node-version-file: .node-version
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version-file: .python-version
+      - run: npm ci --ignore-scripts
+      - run: python3 scripts/bootstrap.py
+      - run: python3 scripts/check.py --platform guards
+      - run: python3 scripts/document_capture_check.py
+      - name: Preserve document capture evidence
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: document-capture-ios
+          path: .build/document-capture/
+          if-no-files-found: error
+          retention-days: 7
+  capture-ios:
+    name: biometric / capture iOS
+    runs-on: macos-26
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020
+        with:
+          node-version-file: .node-version
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version-file: .python-version
+      - run: npm ci --ignore-scripts
+      - run: python3 scripts/bootstrap.py
+      - run: python3 scripts/check.py --platform guards
+      - run: python3 scripts/capture_check.py
+      - name: Preserve capture evidence
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: biometric-capture-ios
+          path: .build/capture/
+          if-no-files-found: error
+          retention-days: 7
+  passport-ios:
+    name: passport / NFC iOS
+    runs-on: macos-26
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020
+        with:
+          node-version-file: .node-version
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version-file: .python-version
+      - run: npm ci --ignore-scripts
+      - run: python3 scripts/bootstrap.py
+      - run: python3 scripts/check.py --platform guards
+      - run: python3 scripts/passport_check.py
+      - name: Preserve passport evidence
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: passport-nfc-ios
+          path: .build/passport/
+          if-no-files-found: error
+          retention-days: 7
+  foundation:
+    name: foundation / SwiftPM root
+    runs-on: macos-26
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version-file: .python-version
+      - run: python3 foundation/scripts/check.py
+      - run: python3 foundation/motion/check.py
+      - name: Preserve foundation evidence
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: foundation-root-swiftpm
+          path: |-
+            .build/foundation-validation/
+            .build/foundation-motion/
+          if-no-files-found: error
+          retention-days: 7
+  foundation-ios-device:
+    name: foundation / ios-device
+    runs-on: macos-26
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version-file: .python-version
+      - run: python3 foundation/scripts/check.py --platform ios-device
+      - name: Preserve foundation iOS evidence
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: foundation-ios-device
+          path: .build/foundation-validation/
+          if-no-files-found: error
+          retention-days: 7
+  foundation-ios-simulator:
+    name: foundation / ios-simulator
+    runs-on: macos-26
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version-file: .python-version
+      - run: python3 foundation/scripts/check.py --platform ios-simulator
+      - name: Preserve foundation iOS evidence
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: foundation-ios-simulator
+          path: .build/foundation-validation/
+          if-no-files-found: error
+          retention-days: 7
+  pulse-macos:
+    name: Pulse service / macos
+    runs-on: macos-26
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version-file: .python-version
+      - run: python3 scripts/pulse_check.py --platform macos
+      - name: Preserve shared Pulse service evidence
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: pulse-macos
+          path: .build/pulse-validation/
+          if-no-files-found: error
+          retention-days: 7
+  pulse-ios-device:
+    name: Pulse service / ios-device
+    runs-on: macos-26
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version-file: .python-version
+      - run: python3 scripts/pulse_check.py --platform ios-device
+      - name: Preserve shared Pulse service evidence
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: pulse-ios-device
+          path: .build/pulse-validation/
+          if-no-files-found: error
+          retention-days: 7
+  pulse-ios-simulator:
+    name: Pulse service / ios-simulator
+    runs-on: macos-26
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version-file: .python-version
+      - run: python3 scripts/pulse_check.py --platform ios-simulator
+      - name: Preserve shared Pulse service evidence
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: pulse-ios-simulator
+          path: .build/pulse-validation/
+          if-no-files-found: error
+          retention-days: 7
+  sensors-macos:
+    name: Sensors / macos
+    runs-on: macos-26
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version-file: .python-version
+      - run: python3 foundation/sensors/check.py --platform macos
+      - name: Preserve Sensors evidence
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: sensors-macos
+          path: .build/sensors-qualification/
+          if-no-files-found: error
+          retention-days: 7
+  sensors-ios-device:
+    name: Sensors / ios-device
+    runs-on: macos-26
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version-file: .python-version
+      - run: python3 foundation/sensors/check.py --platform ios-device
+      - name: Preserve Sensors evidence
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: sensors-ios-device
+          path: .build/sensors-qualification/
+          if-no-files-found: error
+          retention-days: 7
+  sensors-ios-simulator:
+    name: Sensors / ios-simulator
+    runs-on: macos-26
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version-file: .python-version
+      - run: python3 foundation/sensors/check.py --platform ios-simulator
+      - name: Preserve Sensors evidence
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: sensors-ios-simulator
+          path: .build/sensors-qualification/
+          if-no-files-found: error
+          retention-days: 7
+  licence-check:
+    name: licence-check / Node packages
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020
+        with:
+          node-version-file: .node-version
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version-file: .python-version
+      - run: python3 quality/licence_check_guards.py
+      - run: npm ci --ignore-scripts
+        working-directory: services/licence-check
+      - run: python3 quality/licence_check_guards.py --execute
+      - name: Preserve licence-check evidence
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: licence-check-node
+          path: |-
+            .build/licence-check/
+            services/licence-check/.build/consumer/
+          if-no-files-found: error
+          retention-days: 7
