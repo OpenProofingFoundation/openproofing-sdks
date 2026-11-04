@@ -27,19 +27,36 @@ applies. A repository section may add rules; it never grants an exception to the
 
 ### Branches and worktrees
 
-- Two long-lived branches: `dev`, where work is integrated and pull requests land, and `main`, what is
-  released and deployed. No other branch lives longer than its task.
-- Every task is one topic branch off `dev`, named `feat/`, `fix/`, `chore/` or `docs/` plus a short
-  name. It reaches `dev` by a pull request with green checks, is merged (squash unless the repository's
-  own procedure says otherwise), and is deleted on merge.
+- Two long-lived branches: `dev`, where work is integrated, and `main`, what is released and deployed.
+- By default, land small green increments directly on `dev`: the repository's check passes, then
+  commit and push. Most work never needs another branch.
+- Make a topic branch only for work that cannot land green in one step (multi-step, risky, needs
+  review, or blocked). Use one branch per task, named `feat/`, `fix/`, `chore/` or `docs/` plus a short
+  name, and open a draft pull request into `dev` when you first push it. Reuse that branch across
+  sessions. Never make a per-session, per-agent or "park" branch, locally or on GitHub.
+- A repository has at most three branches besides `dev` and `main`, counting GitHub and every local
+  checkout. At the cap, stop and ask the owner. Do not create a fourth, and do not commit new work
+  anywhere else to get around the cap.
+- Before you stop, your own changes end in exactly one place:
+  - green: committed and pushed to `dev`;
+  - not green but worth keeping: committed and pushed to that task's branch;
+  - throwaway: discarded, only with the owner's OK.
+
+  Never leave them only on disk, in a stash or in a temporary directory. If you are not authorized to
+  commit, ask before you stop.
+- Another session's uncommitted work, branch or worktree is never committed, moved or discarded by
+  you. Report it.
+- A branch is deleted, on GitHub and locally, when it merges. An unmerged branch older than seven days
+  is reported to the owner, who decides. Never delete a branch with unmerged commits on your own
+  judgment. When a document cites a branch's commits, merge it with a merge commit, or close its pull
+  request instead of deleting the branch, so the commits stay reachable.
 - `main` moves only by promotion of a `dev` commit whose checks are green: a fast-forward, or a merge
   commit where the repository's promotion procedure says so. Never commit or open a topic pull request
-  into `main`, and never squash or rebase `dev` into `main`.
-- Work in progress is committed to its topic branch and pushed. The only copy of work is never a stash,
-  an unpushed branch or a temporary directory.
+  into `main`, never squash or rebase `dev` into `main`, and never merge anything just to clear a
+  branch.
 - Extra worktrees live at `~/Developer/<repo>.worktrees/<branch>`, never under `/tmp` or a scratch
-  directory, and are created and removed with `npx @kenshiki/config work start|clean`. Never remove a
-  worktree that holds uncommitted or unpushed work.
+  directory, and are created and removed with `npx @kenshiki/config work start|clean`. Remove yours
+  when its branch merges. Never remove a worktree that holds uncommitted or unpushed work.
 - Tags are for releases only, made by the repository's release process.
 
 ### Verify before you assert
